@@ -226,7 +226,9 @@ the next batch.
   single-channel SDF font asset, but its original typeface is intentionally
   pixel-like. If readability is poor, evaluate a more readable TTF/OTF and
   convert it to the same Halley SDF format rather than treating the issue as
-  a DAT decoding problem.
+  a DAT decoding problem. The current candidate mapping is
+  `Wargroove Medium -> Pretendard-Regular` and
+  `Wargroove Small -> Pretendard-Light`.
 - Repack into new files under `work/`; never overwrite `references/`.
 - Keep a manifest of added, replaced, and unchanged resources.
 
@@ -292,9 +294,10 @@ required for direct replacement are recorded in
 `docs/config-dat-structure.md`. Windows testing confirmed that the
 generated Korean pack renders Hangul successfully.
 
-Font conversion is documented in `docs/ui-dat-analysis.md`, but is
-currently deferred. The original Windows WG2 fonts render Korean correctly,
-so translation review continues before any custom TTF/OTF-to-Halley font work.
+Font conversion is documented in `docs/ui-dat-analysis.md`. The first
+Pretendard conversion and temporary `ui.dat` pack succeeded; Windows runtime
+review is still required to assess glyph appearance, spacing, clipping, and
+readability.
 
 The project currently has completed:
 

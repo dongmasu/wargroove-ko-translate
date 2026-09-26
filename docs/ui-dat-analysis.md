@@ -214,7 +214,29 @@ the text look rough or difficult to read even though the underlying asset is
 SDF. A more readable Korean font can therefore be converted to the same Halley
 SDF format without changing the game's font rendering pipeline.
 
-For the current translation build, this conversion is deferred: the original
-Windows WG2 fonts rendered the Korean test strings successfully. Revisit font
-conversion only if runtime review finds poor readability, missing glyphs,
-fallback fonts, clipping, or other rendering problems.
+### Pretendard conversion test
+
+The local Pretendard 1.3.9 static TTF files are the first replacement
+candidates:
+
+```text
+Wargroove Medium -> Pretendard-Regular.ttf
+Wargroove Small  -> Pretendard-Light.ttf
+```
+
+Using the 6,231 distinct characters collected from the current Wargroove 2
+translation resources, both fonts were converted into single-channel SDF
+assets. The test atlas dimensions were:
+
+```text
+Pretendard-Regular -> 1024 x 2638
+Pretendard-Light   -> 1024 x 2615
+```
+
+Both generated font payloads contain the tested Korean characters, preserve
+`distance_field=true` and `smooth_radius=1.5`, and were successfully packed
+into a temporary `ui.dat` with all 2,662 UI entries. Windows runtime rendering
+remains a separate validation step.
+
+The generated assets remain in `work/docs/analysis/` until runtime review
+confirms readability, spacing, clipping, and fallback behavior.
