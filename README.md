@@ -52,6 +52,9 @@ release with:
 python3 tools/build_dist_package.py
 ```
 
+Installation instructions for users are in
+[`INSTALL.md`](INSTALL.md).
+
 The translation workflow is defined in
 [`docs/translation-process.md`](docs/translation-process.md).
 It uses the reviewer, approver, editor, verifier, and publisher separation
