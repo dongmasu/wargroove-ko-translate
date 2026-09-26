@@ -201,6 +201,19 @@ default, using the same radius-based signed-distance mapping as the engine.
 is separate and is not required for the original single-channel
 `Wargroove Medium` asset.
 
+### Storage format vs. visual style
+
+The Wargroove fonts are not fixed-pixel bitmap fonts. Their glyphs are stored
+as single-channel SDF data, which allows the renderer to scale the glyphs and
+apply smoothing, outlines, and shadows. However, SDF describes how the glyph
+is stored and rendered; it does not determine the glyph's artistic style.
+
+The original Wargroove font has a deliberately pixel-like retro design. Its
+low-resolution atlas, sharp shapes, and pixel-oriented letterforms can make
+the text look rough or difficult to read even though the underlying asset is
+SDF. A more readable Korean font can therefore be converted to the same Halley
+SDF format without changing the game's font rendering pipeline.
+
 For the current translation build, this conversion is deferred: the original
 Windows WG2 fonts rendered the Korean test strings successfully. Revisit font
 conversion only if runtime review finds poor readability, missing glyphs,

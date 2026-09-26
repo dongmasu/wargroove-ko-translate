@@ -222,6 +222,11 @@ the next batch.
 - Use Windows Wargroove 2 `config.dat` and `ui.dat` as the base.
 - Add Korean resources with `halleypk.py add`.
 - Replace or add font assets only after confirming the font payload format.
+- Keep font storage and font appearance separate: Wargroove uses a
+  single-channel SDF font asset, but its original typeface is intentionally
+  pixel-like. If readability is poor, evaluate a more readable TTF/OTF and
+  convert it to the same Halley SDF format rather than treating the issue as
+  a DAT decoding problem.
 - Repack into new files under `work/`; never overwrite `references/`.
 - Keep a manifest of added, replaced, and unchanged resources.
 
