@@ -38,8 +38,8 @@ dist/Wargroove 2/1.2.x/YYYYMMDD/assets/ui.dat
 dist/Wargroove 2/1.2.x/YYYYMMDD/Wargroove2-ko-translate-1.2.x-YYYYMMDD.zip
 ```
 
-The ZIP contains only `assets/config.dat` and `assets/ui.dat`. Existing release
-files are never overwritten.
+The ZIP contains `INSTALL.md`, `assets/config.dat`, and `assets/ui.dat`.
+Existing release files are never overwritten.
 
 For a complete editable workspace, use `config_workspace.py` rather than
 calling the lower-level extraction commands separately:

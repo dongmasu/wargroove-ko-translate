@@ -22,6 +22,7 @@ The date is the modification date of the newest file under
 ```text
 assets/config.dat
 assets/ui.dat
+INSTALL.md
 ```
 
 The generated DAT files are suitable for copying into the Windows game's
@@ -42,7 +43,8 @@ The script:
 2. Packs them with `tools/config_workspace.py`.
 3. Calculates the newest work-file date.
 4. Writes the two DAT files under the dated `assets/` directory.
-5. Creates `Wargroove2-ko-translate-1.2.x-YYYYMMDD.zip`.
+5. Adds the root `INSTALL.md` to the ZIP.
+6. Creates `Wargroove2-ko-translate-1.2.x-YYYYMMDD.zip`.
 6. Refuses to overwrite an existing release.
 
 For a reproducible date or a temporary output directory:

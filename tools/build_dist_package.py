@@ -18,6 +18,7 @@ DEFAULT_VERSION = "1.2.x"
 DEFAULT_WORK = ROOT / "work/Wargroove 2"
 DEFAULT_DIST = ROOT / "dist/Wargroove 2"
 ARCHIVE_PREFIX = "Wargroove2-ko-translate"
+INSTALL_GUIDE = ROOT / "INSTALL.md"
 
 
 def latest_work_date(work_root: Path) -> tuple[str, str]:
@@ -50,6 +51,8 @@ def build(
         raise ValueError(f"config workspace is missing: {config_workspace}")
     if not (ui_workspace / "workspace.json").is_file():
         raise ValueError(f"ui workspace is missing: {ui_workspace}")
+    if not INSTALL_GUIDE.is_file():
+        raise ValueError(f"installation guide is missing: {INSTALL_GUIDE}")
 
     release_date, latest_file = latest_work_date(version_root)
     if date_override is not None:
@@ -84,6 +87,7 @@ def build(
     ) as bundle:
         bundle.write(config_output, "assets/config.dat")
         bundle.write(ui_output, "assets/ui.dat")
+        bundle.write(INSTALL_GUIDE, "INSTALL.md")
 
     return {
         "version": version,
