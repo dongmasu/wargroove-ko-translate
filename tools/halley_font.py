@@ -50,6 +50,30 @@ class HLIFImage:
     pixels: bytes
 
 
+def generate_sdf(pixels: bytes, width: int, height: int, radius: float) -> bytes:
+    """Generate Halley's single-channel signed-distance representation."""
+    if len(pixels) != width * height:
+        raise HalleyFontError("SDF input has the wrong size")
+    if radius < 0:
+        raise HalleyFontError("SDF radius must be non-negative")
+    result = bytearray(width * height)
+    iradius = int(radius + 0.999999)
+    for cy in range(height):
+        for cx in range(width):
+            inside = pixels[cx + cy * width] > 127
+            best = None
+            for y in range(max(0, cy - iradius), min(height, cy + iradius + 1)):
+                for x in range(max(0, cx - iradius), min(width, cx + iradius + 1)):
+                    if (pixels[x + y * width] > 127) != inside:
+                        distance = (x - cx) ** 2 + (y - cy) ** 2
+                        best = distance if best is None else min(best, distance)
+            distance = (best ** 0.5) if best is not None else float(iradius)
+            normal = (2.0 * distance - 1.0) / (2.0 * radius) if radius else 0.0
+            value = 0.5 * (1.0 + normal if inside else 1.0 - normal)
+            result[cx + cy * width] = max(0, min(255, int(value * 255)))
+    return bytes(result)
+
+
 def _read_string(data: bytes, offset: int) -> tuple[str, int]:
     if offset + 4 > len(data):
         raise HalleyFontError("truncated string length")

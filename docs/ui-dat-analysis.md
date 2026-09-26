@@ -195,11 +195,11 @@ This confirms that exporting `_payloadHex` produces a proprietary Halley font
 asset, not a standard font file. A TTF-to-Halley converter would need to
 generate both these glyph metrics and the matching raster atlas.
 
-The initial project converter generates a single-channel grayscale bitmap
-atlas and therefore emits a non-distance-field font (`distance_field=false`,
-`smooth_radius=0`). It does not yet reproduce Halley's MSDF/SDF generation.
-This is intentional: a raw grayscale atlas must not be labeled as a
-distance-field asset. MSDF/SDF output is a separate compatibility task.
+The project converter now generates Halley's single-channel SDF atlas by
+default, using the same radius-based signed-distance mapping as the engine.
+`--bitmap` remains available for diagnostic output only. MSDF/MTSDF generation
+is separate and is not required for the original single-channel
+`Wargroove Medium` asset.
 
 For the current translation build, this conversion is deferred: the original
 Windows WG2 fonts rendered the Korean test strings successfully. Revisit font

@@ -14,6 +14,7 @@ try:
         GlyphRecord,
         HalleyFontError,
         encode_hlif_single_channel,
+        generate_sdf,
         load_payload_json,
         parse_font_payload,
         serialize_font_payload,
@@ -23,6 +24,7 @@ except ModuleNotFoundError:
         GlyphRecord,
         HalleyFontError,
         encode_hlif_single_channel,
+        generate_sdf,
         load_payload_json,
         parse_font_payload,
         serialize_font_payload,
@@ -161,8 +163,8 @@ def convert_font(args: argparse.Namespace) -> dict[str, Any]:
         reference.ascender,
         reference.height,
         reference.size_pt,
-        False,
-        0.0,
+        not args.bitmap,
+        args.sdf_radius if not args.bitmap else 0.0,
         (args.atlas_width, atlas_height),
         reference.replacement_scale,
         glyphs,
@@ -171,8 +173,13 @@ def convert_font(args: argparse.Namespace) -> dict[str, Any]:
         reference.trailing,
     )
     font_payload = serialize_font_payload(output_font)
+    texture_pixels = (
+        generate_sdf(bytes(pixels), args.atlas_width, atlas_height, args.sdf_radius)
+        if not args.bitmap
+        else bytes(pixels)
+    )
     texture_payload = encode_hlif_single_channel(
-        pixels, args.atlas_width, atlas_height
+        texture_pixels, args.atlas_width, atlas_height
     )
     output_font_path = args.output / "font" / f"{reference.name}.json"
     output_texture_path = args.output / "texture" / "fontTex" / f"{reference.name}.json"
@@ -222,7 +229,9 @@ def main() -> int:
     parser.add_argument("--output", type=Path, required=True)
     parser.add_argument("--pixel-size", type=int, default=16)
     parser.add_argument("--atlas-width", type=int, default=256)
-    parser.add_argument("--padding", type=int, default=1)
+    parser.add_argument("--padding", type=int, default=2)
+    parser.add_argument("--sdf-radius", type=float, default=1.5)
+    parser.add_argument("--bitmap", action="store_true", help="disable SDF generation")
     args = parser.parse_args()
     try:
         print(json.dumps(convert_font(args), ensure_ascii=False, indent=2))

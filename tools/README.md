@@ -265,9 +265,11 @@ manifest.json
 ```
 
 The character file is UTF-8 text. Each distinct non-newline character becomes
-one glyph. The default render size and atlas width are 16 px and 256 px; use
-`--pixel-size`, `--atlas-width`, and `--padding` to change them. The command
-refuses to overwrite existing output files.
+one glyph. The default output is a single-channel SDF atlas matching the
+legacy Wargroove font mode. Use `--bitmap` only for diagnostic bitmap output.
+The default render size, atlas width, padding, and SDF radius are 16 px,
+256 px, 2 px, and 1.5 px; use the corresponding options to change them. The
+command refuses to overwrite existing output files.
 
 ### Decode ConfigFile assets
 

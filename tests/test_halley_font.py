@@ -11,6 +11,7 @@ from tools.halley_font import (
     HalleyFontError,
     decode_hlif_single_channel,
     encode_hlif_single_channel,
+    generate_sdf,
     load_payload_json,
     parse_font_payload,
     serialize_font_payload,
@@ -45,6 +46,13 @@ class HalleyFontTest(unittest.TestCase):
         image = decode_hlif_single_channel(payload)
         self.assertEqual((image.width, image.height), (4, 2))
         self.assertEqual(image.pixels, pixels)
+
+    def test_generates_single_channel_sdf(self) -> None:
+        source = bytes([0, 0, 0, 0, 255, 255, 0, 0, 0])
+        sdf = generate_sdf(source, 3, 3, 1.5)
+        self.assertEqual(len(sdf), 9)
+        self.assertGreater(sdf[4], 127)
+        self.assertLess(sdf[0], 127)
 
     def test_rejects_non_hex_json_payload(self) -> None:
         with tempfile.TemporaryDirectory() as directory:
