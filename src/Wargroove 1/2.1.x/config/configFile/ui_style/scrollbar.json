@@ -1,0 +1,84 @@
+{
+  "uiStyle": {
+    "scrollbar": {
+      "bar": {
+        "horizontal": "ui/widgets/scrollbar/scrollbar_horizontal.png",
+        "vertical": "ui/widgets/scrollbar/scrollbar_vertical.png"
+      },
+      "down": {
+        "disabled": "ui/widgets/scrollbar/scrollbar_down.png",
+        "down": "ui/widgets/scrollbar/scrollbar_down_down.png",
+        "downSound": "ui/menuSelect",
+        "hover": "ui/widgets/scrollbar/scrollbar_down_hover.png",
+        "hoverSound": "",
+        "innerBorder": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "normal": "ui/widgets/scrollbar/scrollbar_down.png",
+        "upSound": ""
+      },
+      "left": {
+        "disabled": "ui/widgets/scrollbar/scrollbar_up.png",
+        "down": "ui/widgets/scrollbar/scrollbar_up_down.png",
+        "downSound": "ui/menuSelect",
+        "hover": "ui/widgets/scrollbar/scrollbar_up_hover.png",
+        "hoverSound": "",
+        "innerBorder": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "normal": "ui/widgets/scrollbar/scrollbar_up.png",
+        "upSound": ""
+      },
+      "right": {
+        "disabled": "ui/widgets/scrollbar/scrollbar_down.png",
+        "down": "ui/widgets/scrollbar/scrollbar_down_down.png",
+        "downSound": "ui/menuSelect",
+        "hover": "ui/widgets/scrollbar/scrollbar_down_hover.png",
+        "hoverSound": "",
+        "innerBorder": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "normal": "ui/widgets/scrollbar/scrollbar_down.png",
+        "upSound": ""
+      },
+      "thumb": {
+        "down": "ui/widgets/button/button_down.png",
+        "downSound": "ui/menuSelect",
+        "hover": "ui/widgets/button/button_hover.png",
+        "hoverSound": "",
+        "innerBorder": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "normal": "ui/widgets/button/button.png",
+        "upSound": ""
+      },
+      "up": {
+        "disabled": "ui/widgets/scrollbar/scrollbar_up.png",
+        "down": "ui/widgets/scrollbar/scrollbar_up_down.png",
+        "downSound": "ui/menuSelect",
+        "hover": "ui/widgets/scrollbar/scrollbar_up_hover.png",
+        "hoverSound": "",
+        "innerBorder": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "normal": "ui/widgets/scrollbar/scrollbar_up.png",
+        "upSound": ""
+      }
+    }
+  }
+}

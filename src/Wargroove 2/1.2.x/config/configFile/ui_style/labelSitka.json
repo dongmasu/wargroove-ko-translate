@@ -1,0 +1,14 @@
+{
+  "uiStyle": {
+    "labelSitka": {
+      "label": {
+        "colour": "#F4F6E9",
+        "font": "Sitka Text Bold Italic",
+        "outline": 2,
+        "outlineColour": "#000000",
+        "size": 28,
+        "smoothness": 0.3499999940395355
+      }
+    }
+  }
+}

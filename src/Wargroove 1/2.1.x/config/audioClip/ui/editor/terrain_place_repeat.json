@@ -1,0 +1,28 @@
+{
+  "_assetType": "audioClip",
+  "_decoded": {
+    "legacy": true,
+    "actions": [
+      {
+        "type": "play",
+        "scope": 1,
+        "clip": "sfx/ui/editor/terrain_place_repeat.ogg",
+        "group": "sfx",
+        "gain": [
+          1.0,
+          1.0
+        ],
+        "pitch": [
+          1.0,
+          1.0
+        ],
+        "legacyTailHex": "000000000000000001",
+        "legacyTailFloats": [
+          0.0,
+          0.0
+        ]
+      }
+    ]
+  },
+  "_payloadHex": "0100000004000000706c617901000000260000007366782f75692f656469746f722f7465727261696e5f706c6163655f7265706561742e6f6767030000007366780000803f0000803f0000803f0000803f000000000000000001"
+}

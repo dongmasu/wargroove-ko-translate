@@ -1,0 +1,11 @@
+{
+  "author": "Finn",
+  "base": "colour_schemes/base_flat",
+  "colours": {
+    "toolbarNormal": "#d9814f",
+    "ui_listSelected": "#d9814f",
+    "ui_stringMatchText": "#874c2a",
+    "ui_unselectedTextAlt": "#874c2a"
+  },
+  "name": "Flat Autumn"
+}

@@ -1,0 +1,1429 @@
+{
+  "uiStyle": {
+    "button": {
+      "classes": [
+        "button"
+      ],
+      "disabled": {
+        "colour": "$ui_buttonDisabled",
+        "img": "$ui_button"
+      },
+      "disabledLabel": {
+        "colour": "$ui_disabledText",
+        "font": "Ubuntu Bold",
+        "size": 15
+      },
+      "down": {
+        "colour": "$ui_buttonDown",
+        "img": "$ui_button"
+      },
+      "downSound": "",
+      "hover": {
+        "colour": "$ui_buttonHover",
+        "img": "$ui_button"
+      },
+      "hoverSound": "",
+      "iconBorder": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "iconColour": "$ui_text",
+      "iconColourDisabled": "$ui_disabledText",
+      "innerBorder": [
+        5,
+        5,
+        5,
+        5
+      ],
+      "label": {
+        "colour": "$ui_text",
+        "font": "Ubuntu Bold",
+        "size": 15
+      },
+      "labelBorder": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "normal": {
+        "colour": "$ui_buttonNormal",
+        "img": "$ui_button"
+      },
+      "upSound": ""
+    },
+    "buttonSmall": {
+      "classes": [
+        "button"
+      ],
+      "disabled": {
+        "colour": "$ui_buttonDisabled",
+        "img": "$ui_button"
+      },
+      "disabledLabel": {
+        "colour": "$ui_disabledText",
+        "font": "Ubuntu Bold",
+        "size": 15
+      },
+      "down": {
+        "colour": "$ui_buttonDown",
+        "img": "$ui_button"
+      },
+      "downSound": "",
+      "hover": {
+        "colour": "$ui_buttonHover",
+        "img": "$ui_button"
+      },
+      "hoverSound": "",
+      "iconBorder": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "iconColour": "$ui_text",
+      "iconColourDisabled": "$ui_disabledText",
+      "innerBorder": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "label": {
+        "colour": "$ui_text",
+        "font": "Ubuntu Bold",
+        "size": 15
+      },
+      "labelBorder": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "normal": {
+        "colour": "$ui_buttonNormal",
+        "img": "$ui_button"
+      },
+      "upSound": ""
+    },
+    "buttonThin": {
+      "classes": [
+        "button"
+      ],
+      "disabled": {
+        "colour": "$ui_buttonDisabled",
+        "img": "$ui_button"
+      },
+      "disabledIconColour": "$ui_disabledText",
+      "disabledLabel": {
+        "colour": "$ui_disabledText",
+        "font": "Ubuntu Bold",
+        "size": 14
+      },
+      "down": {
+        "colour": "$ui_buttonDown",
+        "img": "$ui_button"
+      },
+      "downSound": "",
+      "hover": {
+        "colour": "$ui_buttonHover",
+        "img": "$ui_button"
+      },
+      "hoverSound": "",
+      "iconBorder": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "iconColour": "$ui_text",
+      "innerBorder": [
+        5,
+        0,
+        5,
+        1
+      ],
+      "label": {
+        "colour": "$ui_text",
+        "font": "Ubuntu Bold",
+        "size": 14
+      },
+      "labelBorder": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "normal": {
+        "colour": "$ui_buttonNormal",
+        "img": "$ui_button"
+      },
+      "upSound": ""
+    },
+    "checkbox": {
+      "checked": {
+        "colour": "$ui_inputNormal",
+        "img": "$ui_checkbox_checked"
+      },
+      "checkedDisabled": {
+        "colour": "$ui_inputDisabled",
+        "img": "$ui_checkbox_checked"
+      },
+      "checkedHover": {
+        "colour": "$ui_inputHover",
+        "img": "$ui_checkbox_checked"
+      },
+      "classes": [
+        "checkbox"
+      ],
+      "disabled": {
+        "colour": "$ui_inputDisabled",
+        "img": "$ui_checkbox"
+      },
+      "hover": {
+        "colour": "$ui_inputHover",
+        "img": "$ui_checkbox"
+      },
+      "normal": {
+        "colour": "$ui_inputNormal",
+        "img": "$ui_checkbox"
+      }
+    },
+    "curveEditor": {
+      "background": {
+        "colour": "$ui_popupWindow",
+        "img": "$ui_window"
+      },
+      "display": {
+        "colour": "$ui_listBackground",
+        "img": "whitebox.png"
+      },
+      "gridLine": {
+        "colour": "#0E79E440",
+        "img": "whitebox.png"
+      },
+      "lineColour": "#0E79E4",
+      "tooltipLabel": {
+        "colour": "$ui_text",
+        "font": "Ubuntu Light",
+        "size": 12
+      }
+    },
+    "dragList": {
+      "background": "",
+      "classes": [
+        "list"
+      ],
+      "disabledLabel": {
+        "colour": "$ui_disabledText",
+        "font": "Ubuntu Regular",
+        "size": 15
+      },
+      "extraMouseBorder": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "gap": 1,
+      "innerBorder": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "item": {
+        "drag": {
+          "colour": "$ui_listDrag",
+          "img": "halley_ui/drag_item.png"
+        },
+        "hover": {
+          "colour": "$ui_listDrag",
+          "img": "halley_ui/drag_item.png"
+        },
+        "innerBorder": [
+          20,
+          0,
+          0,
+          0
+        ],
+        "normal": {
+          "colour": "$ui_listBackground",
+          "img": "halley_ui/drag_item.png"
+        }
+      },
+      "label": {
+        "colour": "$ui_unselectedText",
+        "font": "Ubuntu Regular",
+        "size": 15
+      },
+      "selectedLabel": {
+        "colour": "$ui_selectedText",
+        "font": "Ubuntu Regular",
+        "size": 15
+      },
+      "selectionChangedSound": ""
+    },
+    "dropdown": {
+      "background": {
+        "colour": "$ui_inputHover",
+        "img": "$ui_dropdown_window"
+      },
+      "backgroundUp": {
+        "colour": "$ui_inputHover",
+        "img": "$ui_dropdown_window_up"
+      },
+      "classes": [
+        "dropdown"
+      ],
+      "closeSound": "",
+      "disabled": {
+        "colour": "$ui_inputDisabled",
+        "img": "$ui_dropdown_closed"
+      },
+      "height": 200,
+      "hover": {
+        "colour": "$ui_inputHover",
+        "img": "$ui_dropdown_closed"
+      },
+      "iconGap": 4,
+      "innerBorder": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "label": {
+        "colour": "$ui_text",
+        "font": "Ubuntu Regular",
+        "size": 15
+      },
+      "labelBorder": [
+        6,
+        2,
+        0,
+        -4
+      ],
+      "listStyle": "list",
+      "minSize": 22,
+      "minSizeMargins": [
+        40,
+        20,
+        0,
+        0
+      ],
+      "normal": {
+        "colour": "$ui_inputNormal",
+        "img": "$ui_dropdown_closed"
+      },
+      "open": {
+        "colour": "$ui_inputHover",
+        "img": "$ui_dropdown_open"
+      },
+      "openSound": "",
+      "openUp": {
+        "colour": "$ui_inputHover",
+        "img": "$ui_dropdown_open_up"
+      },
+      "scrollbarStyle": "scrollbarHalley",
+      "selectedLabel": {
+        "colour": "$ui_text",
+        "font": "Ubuntu Regular",
+        "size": 15
+      }
+    },
+    "dropdownLight": {
+      "background": {
+        "colour": "$ui_inputHover",
+        "img": "$ui_dropdown_window"
+      },
+      "classes": [
+        "dropdown"
+      ],
+      "closeSound": "",
+      "disabled": {
+        "colour": "$ui_inputDisabled",
+        "img": "$ui_dropdown_closed"
+      },
+      "height": 200,
+      "hover": {
+        "colour": "$ui_inputHover",
+        "img": "$ui_dropdown_closed"
+      },
+      "iconGap": 4,
+      "innerBorder": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "label": {
+        "colour": "$ui_text",
+        "font": "Ubuntu Light",
+        "size": 14
+      },
+      "labelBorder": [
+        6,
+        2,
+        0,
+        -4
+      ],
+      "listStyle": "listLight",
+      "minSize": 22,
+      "minSizeMargins": [
+        40,
+        20,
+        0,
+        0
+      ],
+      "normal": {
+        "colour": "$ui_inputNormal",
+        "img": "$ui_dropdown_closed"
+      },
+      "open": {
+        "colour": "$ui_inputHover",
+        "img": "$ui_dropdown_open"
+      },
+      "openSound": "",
+      "scrollbarStyle": "scrollbarHalley",
+      "selectedLabel": {
+        "colour": "$ui_text",
+        "font": "Ubuntu Light",
+        "size": 14
+      }
+    },
+    "gradientEditor": {
+      "anchor": {
+        "colour": "$ui_listBackground",
+        "img": "ui/gradient_anchor.png"
+      },
+      "anchorColour": {
+        "colour": "#FFFFFF",
+        "img": "ui/gradient_anchor_colour.png"
+      },
+      "background": {
+        "colour": "$ui_popupWindow",
+        "img": "$ui_window"
+      }
+    },
+    "graphConnections": {
+      "colourBuffer": "$ui_logErrorText",
+      "depthStencilBuffer": "$ui_logDevText",
+      "texture": "$ui_logInfoText"
+    },
+    "graphNode": {
+      "imageOutputBackground": {
+        "colour": "$taskError",
+        "img": "$ui_title_capsule"
+      },
+      "outputBackground": {
+        "colour": "$taskError",
+        "img": "$ui_title_capsule"
+      },
+      "overlayBackground": {
+        "colour": "$taskRunning",
+        "img": "$ui_title_capsule"
+      },
+      "paintBackground": {
+        "colour": "$taskComplete",
+        "img": "$ui_title_capsule"
+      }
+    },
+    "infiniCanvas": {
+      "background": {
+        "colour": "$ui_scrollBackground",
+        "img": "$ui_scroll_background"
+      },
+      "border": {
+        "colour": "$background0",
+        "img": "$ui_canvas_border"
+      },
+      "classes": [
+        "scrollPane"
+      ]
+    },
+    "input": {
+      "box": {
+        "colour": "$ui_inputNormal",
+        "img": "$ui_input_thin"
+      },
+      "caret": {
+        "colour": "$ui_inputCaret",
+        "img": "halley_ui/ui_caret.png"
+      },
+      "classes": [
+        "textInput"
+      ],
+      "errorColour": "#FC2847",
+      "innerBorder": [
+        6,
+        2,
+        6,
+        1
+      ],
+      "label": {
+        "colour": "$ui_text",
+        "font": "Ubuntu Regular",
+        "size": 15
+      },
+      "labelGhost": {
+        "colour": "$ui_textGhost",
+        "font": "Ubuntu Regular",
+        "size": 15
+      },
+      "minSize": 22,
+      "selectionBg": {
+        "colour": "#FFFFFF40",
+        "img": "whitebox.png"
+      }
+    },
+    "inputThin": {
+      "box": {
+        "colour": "$ui_inputNormal",
+        "img": "$ui_input_thin"
+      },
+      "caret": {
+        "colour": "$ui_inputCaret",
+        "img": "halley_ui/ui_caret.png"
+      },
+      "classes": [
+        "textInput"
+      ],
+      "errorColour": "#FC2847",
+      "innerBorder": [
+        6,
+        2,
+        6,
+        3
+      ],
+      "label": {
+        "colour": "$ui_text",
+        "font": "Ubuntu Light",
+        "size": 14
+      },
+      "labelGhost": {
+        "colour": "$ui_textGhost",
+        "font": "Ubuntu Light",
+        "size": 14
+      },
+      "minSize": 22,
+      "selectionBg": {
+        "colour": "#FFFFFF40",
+        "img": "whitebox.png"
+      }
+    },
+    "label": {
+      "classes": [
+        "label"
+      ],
+      "label": {
+        "colour": "$ui_text",
+        "font": "Ubuntu Bold",
+        "size": 15
+      }
+    },
+    "labelLight": {
+      "classes": [
+        "label"
+      ],
+      "label": {
+        "colour": "$ui_text",
+        "font": "Ubuntu Light",
+        "size": 14
+      }
+    },
+    "labelOutline": {
+      "classes": [
+        "label"
+      ],
+      "label": {
+        "colour": "$ui_text",
+        "font": "Ubuntu Bold",
+        "outline": 2,
+        "outlineColour": "$ui_text_outline",
+        "size": 15
+      }
+    },
+    "labelSmall": {
+      "classes": [
+        "label"
+      ],
+      "label": {
+        "colour": "$ui_text",
+        "font": "Ubuntu Light",
+        "size": 12
+      }
+    },
+    "labelSmallDisabled": {
+      "classes": [
+        "label"
+      ],
+      "label": {
+        "colour": "$ui_disabledText",
+        "font": "Ubuntu Light",
+        "size": 12
+      }
+    },
+    "labelToolbar": {
+      "classes": [
+        "label"
+      ],
+      "label": {
+        "colour": "$toolbarText",
+        "font": "Ubuntu Bold",
+        "size": 15
+      }
+    },
+    "list": {
+      "background": {
+        "colour": "$ui_listBackground",
+        "img": "$ui_list_background"
+      },
+      "classes": [
+        "list"
+      ],
+      "disabledLabel": {
+        "colour": "$ui_disabledText",
+        "font": "Ubuntu Regular",
+        "size": 15
+      },
+      "extraMouseBorder": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "gap": 1,
+      "innerBorder": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "item": {
+        "drag": {
+          "colour": "$ui_listDrag",
+          "img": "$ui_list_item_drag"
+        },
+        "hover": {
+          "colour": "$ui_listHover",
+          "img": "$ui_list_item"
+        },
+        "innerBorder": [
+          6,
+          5,
+          6,
+          2
+        ],
+        "normal": "",
+        "selected": {
+          "colour": "$ui_listSelected",
+          "img": "$ui_list_item"
+        }
+      },
+      "label": {
+        "colour": "$ui_unselectedText",
+        "font": "Ubuntu Regular",
+        "size": 15
+      },
+      "selectedLabel": {
+        "colour": "$ui_selectedText",
+        "font": "Ubuntu Regular",
+        "size": 15
+      },
+      "selectionChangedSound": ""
+    },
+    "listLight": {
+      "background": {
+        "colour": "$ui_listBackground",
+        "img": "$ui_list_background"
+      },
+      "classes": [
+        "list"
+      ],
+      "extraMouseBorder": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "gap": 1,
+      "innerBorder": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "item": {
+        "drag": {
+          "colour": "$ui_listDrag",
+          "img": "$ui_list_item_drag"
+        },
+        "hover": {
+          "colour": "$ui_listHover",
+          "img": "$ui_list_item"
+        },
+        "innerBorder": [
+          6,
+          5,
+          6,
+          2
+        ],
+        "normal": "",
+        "selected": {
+          "colour": "$ui_listSelected",
+          "img": "$ui_list_item"
+        }
+      },
+      "label": {
+        "colour": "$ui_unselectedText",
+        "font": "Ubuntu Light",
+        "size": 14
+      },
+      "selectedLabel": {
+        "colour": "$ui_selectedText",
+        "font": "Ubuntu Light",
+        "size": 14
+      },
+      "selectionChangedSound": ""
+    },
+    "listNarrow": {
+      "background": {
+        "colour": "$ui_listBackground",
+        "img": "$ui_list_background"
+      },
+      "classes": [
+        "list"
+      ],
+      "extraMouseBorder": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "gap": 1,
+      "innerBorder": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "item": {
+        "drag": {
+          "colour": "$ui_listDrag",
+          "img": "$ui_list_item_drag"
+        },
+        "hover": {
+          "colour": "$ui_listHover",
+          "img": "$ui_list_item"
+        },
+        "innerBorder": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "normal": "",
+        "selected": {
+          "colour": "$ui_listSelected",
+          "img": "$ui_list_item"
+        }
+      },
+      "label": {
+        "colour": "$ui_unselectedText",
+        "font": "Ubuntu Light",
+        "size": 14
+      },
+      "selectedLabel": {
+        "colour": "$ui_selectedText",
+        "font": "Ubuntu Light",
+        "size": 14
+      },
+      "selectionChangedSound": ""
+    },
+    "popupMenu": {
+      "background": {
+        "colour": "$ui_popupWindow",
+        "img": "$ui_popup"
+      },
+      "disabledImageColour": "$ui_disabledText",
+      "disabledLabel": {
+        "colour": "$ui_disabledText",
+        "font": "Ubuntu Regular",
+        "size": 13
+      },
+      "extraMouseBorder": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "gap": 1,
+      "innerBorder": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "item": {
+        "drag": {
+          "colour": "$ui_listDrag",
+          "img": "$ui_list_item_drag"
+        },
+        "hover": {
+          "colour": "$ui_listHover",
+          "img": "$ui_list_item"
+        },
+        "innerBorder": [
+          6,
+          5,
+          6,
+          2
+        ],
+        "normal": "",
+        "selected": {
+          "colour": "$ui_listSelected",
+          "img": "$ui_list_item"
+        }
+      },
+      "label": {
+        "colour": "$ui_unselectedText",
+        "font": "Ubuntu Regular",
+        "size": 13
+      },
+      "selectedLabel": {
+        "colour": "$ui_selectedText",
+        "font": "Ubuntu Regular",
+        "size": 13
+      },
+      "selectionChangedSound": "",
+      "separator": {
+        "colour": "$ui_disabledText",
+        "img": "$ui_separator"
+      }
+    },
+    "scrollBackground": {
+      "background": {
+        "colour": "$ui_scrollBackground",
+        "img": "$ui_scroll_background"
+      },
+      "border": "",
+      "classes": [
+        "scrollPane"
+      ]
+    },
+    "scrollbar": {
+      "bar": {
+        "horizontal": {
+          "colour": "$ui_scrollBackground",
+          "img": "halley_ui/ui_scrollbar.png"
+        },
+        "vertical": {
+          "colour": "$ui_scrollBackground",
+          "img": "halley_ui/ui_scrollbar.png"
+        }
+      },
+      "classes": [
+        "scrollbar"
+      ],
+      "thumb": {
+        "disabled": {
+          "colour": "$ui_scrollBarDisabled",
+          "img": "halley_ui/ui_scrollbar.png"
+        },
+        "down": {
+          "colour": "$ui_scrollBarDown",
+          "img": "halley_ui/ui_scrollbar.png"
+        },
+        "downSound": "",
+        "hover": {
+          "colour": "$ui_scrollBarHover",
+          "img": "halley_ui/ui_scrollbar.png"
+        },
+        "hoverSound": "",
+        "innerBorder": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "normal": {
+          "colour": "$ui_scrollBarNormal",
+          "img": "halley_ui/ui_scrollbar.png"
+        },
+        "upSound": ""
+      }
+    },
+    "scrollbarHalley": {
+      "bar": {
+        "horizontal": {
+          "colour": "$ui_scrollBackground",
+          "img": "halley_ui/ui_scrollbar.png"
+        },
+        "vertical": {
+          "colour": "$ui_scrollBackground",
+          "img": "halley_ui/ui_scrollbar.png"
+        }
+      },
+      "classes": [
+        "scrollbar"
+      ],
+      "thumb": {
+        "disabled": {
+          "colour": "$ui_scrollBarDisabled",
+          "img": "halley_ui/ui_scrollbar.png"
+        },
+        "down": {
+          "colour": "$ui_scrollBarDown",
+          "img": "halley_ui/ui_scrollbar.png"
+        },
+        "downSound": "",
+        "hover": {
+          "colour": "$ui_scrollBarHover",
+          "img": "halley_ui/ui_scrollbar.png"
+        },
+        "hoverSound": "",
+        "innerBorder": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "normal": {
+          "colour": "$ui_scrollBarNormal",
+          "img": "halley_ui/ui_scrollbar.png"
+        },
+        "upSound": ""
+      }
+    },
+    "slider": {
+      "barBorder": [
+        0,
+        1,
+        6,
+        1
+      ],
+      "classes": [
+        "slider"
+      ],
+      "emptyBar": {
+        "colour": "$ui_controlDisabled",
+        "img": "halley_ui/slider_bar_empty.png"
+      },
+      "extraMouseBorder": [
+        1,
+        3,
+        1,
+        3
+      ],
+      "fullBar": {
+        "colour": "$ui_controlNormal",
+        "img": "halley_ui/slider_bar_full.png"
+      },
+      "innerBorder": [
+        3,
+        0,
+        2,
+        0
+      ],
+      "label": {
+        "colour": "$ui_text",
+        "font": "Ubuntu Bold",
+        "size": 14
+      },
+      "labelBorder": {
+        "colour": "#00000000",
+        "img": "whitebox.png"
+      },
+      "labelInnerBorder": [
+        2,
+        0,
+        2,
+        0
+      ],
+      "left": {
+        "colour": "$ui_controlNormal",
+        "img": "halley_ui/slider_bar_left.png"
+      },
+      "right": {
+        "colour": "$ui_controlDisabled",
+        "img": "halley_ui/slider_bar_right.png"
+      },
+      "spinControl": {
+        "box": {
+          "colour": "$ui_inputNormal",
+          "img": "$ui_input_thin"
+        },
+        "caret": {
+          "colour": "$ui_inputCaret",
+          "img": "halley_ui/ui_caret.png"
+        },
+        "downButton": {
+          "colour": "$ui_text",
+          "img": "halley_ui/icon_down.png"
+        },
+        "errorColour": "#FC2847",
+        "innerBorder": [
+          6,
+          2,
+          6,
+          3
+        ],
+        "label": {
+          "colour": "$ui_text",
+          "font": "Ubuntu Light",
+          "size": 14
+        },
+        "labelGhost": {
+          "colour": "$ui_textGhost",
+          "font": "Ubuntu Light",
+          "size": 14
+        },
+        "minSize": [
+          60,
+          22
+        ],
+        "spinButton": {
+          "disabled": {
+            "colour": "$ui_buttonDisabled",
+            "img": "halley_ui/ui_window.png"
+          },
+          "disabledIconColour": "$ui_disabledText",
+          "disabledLabel": {
+            "colour": "$ui_disabledText",
+            "font": "Ubuntu Bold",
+            "size": 14
+          },
+          "down": {
+            "colour": "$ui_buttonDown",
+            "img": "halley_ui/ui_window.png"
+          },
+          "downSound": "",
+          "hover": {
+            "colour": "$ui_buttonHover",
+            "img": "halley_ui/ui_window.png"
+          },
+          "hoverSound": "",
+          "iconBorder": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "iconColour": "$ui_text",
+          "innerBorder": [
+            -5,
+            -4,
+            -5,
+            -4
+          ],
+          "label": {
+            "colour": "$ui_text",
+            "font": "Ubuntu Bold",
+            "size": 14
+          },
+          "labelBorder": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "normal": {
+            "colour": "$ui_inputNormalActual",
+            "img": "halley_ui/ui_window.png"
+          },
+          "upSound": ""
+        },
+        "upButton": {
+          "colour": "$ui_text",
+          "img": "halley_ui/icon_up.png"
+        }
+      },
+      "thumb": {
+        "colour": "$ui_controlHover",
+        "img": "halley_ui/slider_thumb.png"
+      }
+    },
+    "spinControl": {
+      "box": {
+        "colour": "$ui_inputNormal",
+        "img": "$ui_input_thin"
+      },
+      "caret": {
+        "colour": "$ui_inputCaret",
+        "img": "halley_ui/ui_caret.png"
+      },
+      "classes": [
+        "spinControl",
+        "spinControl2"
+      ],
+      "downButton": {
+        "colour": "$ui_text",
+        "img": "halley_ui/icon_down.png"
+      },
+      "errorColour": "#FC2847",
+      "innerBorder": [
+        6,
+        2,
+        6,
+        3
+      ],
+      "label": {
+        "colour": "$ui_text",
+        "font": "Ubuntu Light",
+        "size": 14
+      },
+      "labelGhost": {
+        "colour": "$ui_textGhost",
+        "font": "Ubuntu Light",
+        "size": 14
+      },
+      "minSize": 22,
+      "selectionBg": {
+        "colour": "#FFFFFF40",
+        "img": "whitebox.png"
+      },
+      "spinButton": {
+        "disabled": {
+          "colour": "$ui_buttonDisabled",
+          "img": "halley_ui/ui_window.png"
+        },
+        "disabledIconColour": "$ui_disabledText",
+        "disabledLabel": {
+          "colour": "$ui_disabledText",
+          "font": "Ubuntu Bold",
+          "size": 14
+        },
+        "down": {
+          "colour": "$ui_buttonDown",
+          "img": "halley_ui/ui_window.png"
+        },
+        "downSound": "",
+        "hover": {
+          "colour": "$ui_buttonHover",
+          "img": "halley_ui/ui_window.png"
+        },
+        "hoverSound": "",
+        "iconBorder": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "iconColour": "$ui_text",
+        "innerBorder": [
+          -5,
+          -4,
+          -5,
+          -4
+        ],
+        "label": {
+          "colour": "$ui_text",
+          "font": "Ubuntu Bold",
+          "size": 14
+        },
+        "labelBorder": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "normal": {
+          "colour": "$ui_inputNormalActual",
+          "img": "halley_ui/ui_window.png"
+        },
+        "upSound": ""
+      },
+      "upButton": {
+        "colour": "$ui_text",
+        "img": "halley_ui/icon_up.png"
+      }
+    },
+    "tabs": {
+      "background": {
+        "colour": "$ui_controlNormal",
+        "img": "$ui_tabs_bg"
+      },
+      "classes": [
+        "list"
+      ],
+      "disabledLabel": {
+        "colour": "$ui_disabledText",
+        "font": "Ubuntu Bold",
+        "size": 14
+      },
+      "extraMouseBorder": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "gap": 2,
+      "innerBorder": [
+        10,
+        0,
+        10,
+        0
+      ],
+      "item": {
+        "disabled": {
+          "colour": "$ui_controlNormal",
+          "img": "$ui_tab_normal"
+        },
+        "drag": {
+          "colour": "$ui_controlNormal",
+          "img": "$ui_tab_selected"
+        },
+        "hover": {
+          "colour": "$ui_controlNormal",
+          "img": "$ui_tab_hover"
+        },
+        "innerBorder": [
+          5,
+          6,
+          5,
+          2
+        ],
+        "normal": {
+          "colour": "$ui_controlNormal",
+          "img": "$ui_tab_normal"
+        },
+        "selected": {
+          "colour": "$ui_controlNormal",
+          "img": "$ui_tab_selected"
+        }
+      },
+      "label": {
+        "colour": "$ui_unselectedText",
+        "font": "Ubuntu Bold",
+        "size": 14
+      },
+      "selectedLabel": {
+        "colour": "$ui_selectedText",
+        "font": "Ubuntu Bold",
+        "size": 14
+      },
+      "selectionChangedSound": ""
+    },
+    "tooltip": {
+      "background": {
+        "colour": "$ui_listHover",
+        "img": "$ui_tooltip"
+      },
+      "classes": [
+        "tooltip"
+      ],
+      "delay": 0.30000001192092896,
+      "innerBorder": [
+        5,
+        5,
+        5,
+        5
+      ],
+      "label": {
+        "colour": "$ui_text",
+        "font": "Ubuntu Bold",
+        "size": 14
+      },
+      "maxWidth": 200
+    },
+    "treeList": {
+      "background": {
+        "colour": "$ui_listBackground",
+        "img": "$ui_list_background"
+      },
+      "classes": [
+        "treeList"
+      ],
+      "controls": {
+        "collapseButton": {
+          "disabled": {
+            "colour": "$ui_buttonDisabled",
+            "img": "halley_ui/ui_treeview_expanded.png"
+          },
+          "down": {
+            "colour": "$ui_buttonDown",
+            "img": "halley_ui/ui_treeview_expanded.png"
+          },
+          "downSound": "",
+          "hover": {
+            "colour": "$ui_buttonHover",
+            "img": "halley_ui/ui_treeview_expanded.png"
+          },
+          "hoverSound": "",
+          "innerBorder": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "label": {
+            "colour": "$ui_text",
+            "font": "Ubuntu Regular",
+            "size": 13
+          },
+          "labelBorder": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "normal": {
+            "colour": "$ui_buttonNormal",
+            "img": "halley_ui/ui_treeview_expanded.png"
+          },
+          "upSound": ""
+        },
+        "element": {
+          "colour": "#FFFFFF",
+          "img": "halley_ui/ui_treeview_element.png"
+        },
+        "expandButton": {
+          "disabled": {
+            "colour": "$ui_buttonDisabled",
+            "img": "halley_ui/ui_treeview_collapsed.png"
+          },
+          "down": {
+            "colour": "$ui_buttonDown",
+            "img": "halley_ui/ui_treeview_collapsed.png"
+          },
+          "downSound": "",
+          "hover": {
+            "colour": "$ui_buttonHover",
+            "img": "halley_ui/ui_treeview_collapsed.png"
+          },
+          "hoverSound": "",
+          "innerBorder": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "label": {
+            "colour": "$ui_text",
+            "font": "Ubuntu Regular",
+            "size": 13
+          },
+          "labelBorder": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "normal": {
+            "colour": "$ui_buttonNormal",
+            "img": "halley_ui/ui_treeview_collapsed.png"
+          },
+          "upSound": ""
+        },
+        "guide_empty": {
+          "colour": "#00000000",
+          "img": "halley_ui/ui_treeview_line_i.png"
+        },
+        "guide_i": {
+          "colour": "$ui_controlNormal",
+          "img": "halley_ui/ui_treeview_line_i.png"
+        },
+        "guide_l": {
+          "colour": "$ui_controlNormal",
+          "img": "halley_ui/ui_treeview_line_l.png"
+        },
+        "guide_t": {
+          "colour": "$ui_controlNormal",
+          "img": "halley_ui/ui_treeview_line_t.png"
+        },
+        "leaf": {
+          "colour": "$ui_controlNormal",
+          "img": "halley_ui/ui_treeview_leaf.png"
+        }
+      },
+      "cursor": {
+        "beforeAfter": {
+          "img": "whitebox.png"
+        },
+        "over": {
+          "colour": "#FFFFFF80",
+          "img": "whitebox.png"
+        }
+      },
+      "extraMouseBorder": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "gap": 1,
+      "indentation": 20,
+      "innerBorder": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "item": {
+        "drag": {
+          "colour": "$ui_listDrag",
+          "img": "$ui_list_item_drag"
+        },
+        "hover": {
+          "colour": "$ui_listHover",
+          "img": "$ui_list_item"
+        },
+        "innerBorder": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "normal": "",
+        "selected": {
+          "colour": "$ui_listSelected",
+          "img": "$ui_list_item"
+        }
+      },
+      "label": {
+        "disabled": {
+          "colour": "$ui_disabledText",
+          "font": "Ubuntu Regular",
+          "size": 13
+        },
+        "normal": {
+          "colour": "$ui_unselectedText",
+          "font": "Ubuntu Regular",
+          "size": 13
+        },
+        "selected": {
+          "colour": "$ui_selectedText",
+          "font": "Ubuntu Regular",
+          "size": 13
+        }
+      },
+      "labelBorder": [
+        6,
+        5,
+        6,
+        2
+      ],
+      "labelSpecial": {
+        "disabled": {
+          "colour": "$ui_disabledTextAlt",
+          "font": "Ubuntu Regular",
+          "size": 13
+        },
+        "normal": {
+          "colour": "$ui_unselectedTextAlt",
+          "font": "Ubuntu Regular",
+          "size": 13
+        },
+        "selected": {
+          "colour": "$ui_selectedTextAlt",
+          "font": "Ubuntu Regular",
+          "size": 13
+        }
+      },
+      "selectionChangedSound": ""
+    }
+  }
+}

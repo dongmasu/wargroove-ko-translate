@@ -1,0 +1,66 @@
+{
+  "_assetType": "audioClip",
+  "_decoded": {
+    "legacy": true,
+    "actions": [
+      {
+        "type": "play",
+        "scope": 1,
+        "clip": "sfx/ui/victory_whoosh.ogg",
+        "group": "sfx",
+        "gain": [
+          1.0,
+          1.0
+        ],
+        "pitch": [
+          1.0,
+          1.0
+        ],
+        "legacyTailHex": "000000000000000000",
+        "legacyTailFloats": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "type": "play",
+        "scope": 1,
+        "clip": "sfx/ui/victory_smash.ogg",
+        "group": "sfx",
+        "gain": [
+          1.0,
+          1.0
+        ],
+        "pitch": [
+          1.0,
+          1.0
+        ],
+        "legacyTailHex": "0000803e0000000000",
+        "legacyTailFloats": [
+          0.25,
+          0.0
+        ]
+      },
+      {
+        "type": "play",
+        "scope": 1,
+        "clip": "sfx/ui/defeat_whooshes.ogg",
+        "group": "sfx",
+        "gain": [
+          1.0,
+          1.0
+        ],
+        "pitch": [
+          1.0,
+          1.0
+        ],
+        "legacyTailHex": "6666a63f0000000000",
+        "legacyTailFloats": [
+          1.2999999523162842,
+          0.0
+        ]
+      }
+    ]
+  },
+  "_payloadHex": "0300000004000000706c617901000000190000007366782f75692f766963746f72795f77686f6f73682e6f6767030000007366780000803f0000803f0000803f0000803f00000000000000000004000000706c617901000000180000007366782f75692f766963746f72795f736d6173682e6f6767030000007366780000803f0000803f0000803f0000803f0000803e000000000004000000706c6179010000001a0000007366782f75692f6465666561745f77686f6f736865732e6f6767030000007366780000803f0000803f0000803f0000803f6666a63f0000000000"
+}

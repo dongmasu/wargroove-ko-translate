@@ -1,0 +1,18 @@
+{
+  "_assetType": "audioEvent",
+  "_decoded": {
+    "actions": [
+      {
+        "type": "stop",
+        "scope": 0,
+        "object": "map_music",
+        "fade": {
+          "length": 1.0,
+          "delay": 0.0,
+          "curve": 1
+        }
+      }
+    ]
+  },
+  "_payloadHex": "010000000400000073746f7000000000090000006d61705f6d757369630000803f0000000001000000"
+}

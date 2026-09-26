@@ -1,0 +1,283 @@
+{
+  "children": [
+    {
+      "proportion": 1,
+      "widget": {
+        "class": "tabbedPane",
+        "id": "tabs",
+        "tabs": [
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "border": [
+                      2,
+                      2,
+                      2,
+                      0
+                    ],
+                    "children": [
+                      {
+                        "widget": {
+                          "class": "label",
+                          "maxWidth": 390,
+                          "style": "labelLight",
+                          "textKey": "ui_event_editor_help_triggers"
+                        }
+                      }
+                    ],
+                    "widget": {
+                      "class": "image",
+                      "image": "ui/widgets/window/cartouche.png",
+                      "innerBorder": [
+                        4,
+                        3,
+                        4,
+                        3
+                      ],
+                      "size": [
+                        250,
+                        20
+                      ]
+                    }
+                  },
+                  {
+                    "widget": {
+                      "canDrag": "true",
+                      "class": "list",
+                      "id": "triggers"
+                    }
+                  }
+                ],
+                "proportion": 1,
+                "sizer": {
+                  "type": "vertical"
+                },
+                "widget": {
+                  "class": "scrollBarPane",
+                  "clipSize": [
+                    250,
+                    150
+                  ]
+                }
+              }
+            ],
+            "sizer": {
+              "type": "vertical"
+            },
+            "textKey": "ui_event_editor_triggers"
+          },
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "border": [
+                      2,
+                      2,
+                      2,
+                      0
+                    ],
+                    "children": [
+                      {
+                        "widget": {
+                          "class": "label",
+                          "maxWidth": 390,
+                          "style": "labelLight",
+                          "textKey": "ui_event_editor_help_flags"
+                        }
+                      }
+                    ],
+                    "widget": {
+                      "class": "image",
+                      "image": "ui/widgets/window/cartouche.png",
+                      "innerBorder": [
+                        4,
+                        3,
+                        4,
+                        3
+                      ],
+                      "size": [
+                        250,
+                        20
+                      ]
+                    }
+                  },
+                  {
+                    "widget": {
+                      "canDrag": "true",
+                      "class": "list",
+                      "id": "flags"
+                    }
+                  }
+                ],
+                "proportion": 1,
+                "sizer": {
+                  "type": "vertical"
+                },
+                "widget": {
+                  "class": "scrollBarPane",
+                  "clipSize": [
+                    250,
+                    150
+                  ]
+                }
+              }
+            ],
+            "sizer": {
+              "type": "vertical"
+            },
+            "textKey": "ui_event_editor_flags"
+          },
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "border": [
+                      2,
+                      2,
+                      2,
+                      0
+                    ],
+                    "children": [
+                      {
+                        "widget": {
+                          "class": "label",
+                          "maxWidth": 390,
+                          "style": "labelLight",
+                          "textKey": "ui_event_editor_help_counters"
+                        }
+                      }
+                    ],
+                    "widget": {
+                      "class": "image",
+                      "image": "ui/widgets/window/cartouche.png",
+                      "innerBorder": [
+                        4,
+                        3,
+                        4,
+                        3
+                      ],
+                      "size": [
+                        250,
+                        20
+                      ]
+                    }
+                  },
+                  {
+                    "widget": {
+                      "canDrag": "true",
+                      "class": "list",
+                      "id": "counters"
+                    }
+                  }
+                ],
+                "proportion": 1,
+                "sizer": {
+                  "type": "vertical"
+                },
+                "widget": {
+                  "class": "scrollBarPane",
+                  "clipSize": [
+                    250,
+                    150
+                  ]
+                }
+              }
+            ],
+            "sizer": {
+              "type": "vertical"
+            },
+            "textKey": "ui_event_editor_counters"
+          }
+        ]
+      }
+    },
+    {
+      "widget": {
+        "class": "horizontalDiv"
+      }
+    },
+    {
+      "children": [
+        {
+          "widget": {
+            "button": "tertiary",
+            "class": "gamepadButton",
+            "id": "new",
+            "size": [
+              40,
+              16
+            ],
+            "textKey": "ui_widget_button_new"
+          }
+        },
+        {
+          "widget": {
+            "button": "primary",
+            "class": "gamepadButton",
+            "id": "edit",
+            "size": [
+              40,
+              16
+            ],
+            "textKey": "ui_widget_button_edit"
+          }
+        },
+        {
+          "widget": {
+            "button": "secondary",
+            "class": "gamepadButton",
+            "id": "move",
+            "size": [
+              40,
+              16
+            ],
+            "textKey": "ui_widget_button_move"
+          }
+        },
+        {
+          "widget": {
+            "button": "start",
+            "class": "gamepadButton",
+            "id": "duplicate",
+            "size": [
+              40,
+              16
+            ],
+            "textKey": "ui_map_select_duplicate"
+          }
+        },
+        {
+          "proportion": 1,
+          "stretchSpacer": {}
+        },
+        {
+          "widget": {
+            "class": "dialogueButtons",
+            "hasCancel": "false",
+            "hasClose": "true",
+            "hasOK": "false"
+          }
+        }
+      ],
+      "sizer": {
+        "type": "horizontal"
+      }
+    }
+  ],
+  "sizer": {
+    "type": "vertical"
+  },
+  "widget": {
+    "class": "dialogue",
+    "size": [
+      430,
+      244
+    ],
+    "style": "optionBorder",
+    "titleKey": "ui_event_editor_title"
+  }
+}

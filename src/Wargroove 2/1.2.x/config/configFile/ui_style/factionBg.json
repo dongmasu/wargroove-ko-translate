@@ -1,0 +1,20 @@
+{
+  "uiStyle": {
+    "factionBg": {
+      "frame": "",
+      "frameBorder": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "framedImage": "ui/background/faction_bg_win_cherrystone.png",
+      "innerBorder": [
+        2,
+        2,
+        2,
+        2
+      ]
+    }
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "_assetType": "audioClip",
+  "_decoded": {
+    "legacy": true,
+    "actions": [
+      {
+        "type": "play",
+        "scope": 1,
+        "clip": "sfx/valder/valderYouFoughtWell.ogg",
+        "group": "voice",
+        "gain": [
+          1.0,
+          1.0
+        ],
+        "pitch": [
+          1.0,
+          1.0
+        ],
+        "legacyTailHex": "000000000000000000",
+        "legacyTailFloats": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "type": "play",
+        "scope": 1,
+        "clip": "sfx/valder/valderAttackClothFoley.ogg",
+        "group": "sfx",
+        "gain": [
+          1.0,
+          1.0
+        ],
+        "pitch": [
+          1.0,
+          1.0
+        ],
+        "legacyTailHex": "9a99193e0000000000",
+        "legacyTailFloats": [
+          0.15000000596046448,
+          0.0
+        ]
+      },
+      {
+        "type": "play",
+        "scope": 1,
+        "clip": "sfx/valder/valderAttackCastingFoley.ogg",
+        "group": "sfx",
+        "gain": [
+          1.0,
+          1.0
+        ],
+        "pitch": [
+          1.0,
+          1.0
+        ],
+        "legacyTailHex": "cdcc4c3f0000000000",
+        "legacyTailFloats": [
+          0.800000011920929,
+          0.0
+        ]
+      },
+      {
+        "type": "play",
+        "scope": 1,
+        "clip": "sfx/valder/valderAttackCloseHandFoley.ogg",
+        "group": "sfx",
+        "gain": [
+          1.0,
+          1.0
+        ],
+        "pitch": [
+          1.0,
+          1.0
+        ],
+        "legacyTailHex": "cdcccc3f0000000000",
+        "legacyTailFloats": [
+          1.600000023841858,
+          0.0
+        ]
+      }
+    ]
+  },
+  "_payloadHex": "0400000004000000706c617901000000220000007366782f76616c6465722f76616c646572596f75466f7567687457656c6c2e6f676705000000766f6963650000803f0000803f0000803f0000803f00000000000000000004000000706c617901000000250000007366782f76616c6465722f76616c64657241747461636b436c6f7468466f6c65792e6f6767030000007366780000803f0000803f0000803f0000803f9a99193e000000000004000000706c617901000000270000007366782f76616c6465722f76616c64657241747461636b43617374696e67466f6c65792e6f6767030000007366780000803f0000803f0000803f0000803fcdcc4c3f000000000004000000706c617901000000290000007366782f76616c6465722f76616c64657241747461636b436c6f736548616e64466f6c65792e6f6767030000007366780000803f0000803f0000803f0000803fcdcccc3f0000000000"
+}

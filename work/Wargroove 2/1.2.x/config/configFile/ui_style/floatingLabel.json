@@ -1,0 +1,14 @@
+{
+  "uiStyle": {
+    "floatingLabel": {
+      "label": {
+        "colour": "#FFFFFF",
+        "font": "Wargroove Medium",
+        "outline": 1,
+        "outlineColour": "#2e1d1a",
+        "size": 16,
+        "smoothness": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,211 @@
+{
+  "unitClasses": [
+    {
+      "aiPriority": 1.0,
+      "battleUnitCount": 4,
+      "cost": 150,
+      "damageMultiplier": 1,
+      "id": "dog",
+      "moveRange": 5,
+      "movement": "walking",
+      "name": "unit_class_name_dog",
+      "passiveMultiplier": 1.5,
+      "runsAway": "true",
+      "scout": "true",
+      "sightRange": 4,
+      "tags": [
+        "dog",
+        "type.ground.light",
+        "animal"
+      ],
+      "verbs": [
+        "load"
+      ],
+      "weapons": [
+        {
+          "id": "bite"
+        }
+      ]
+    }
+  ],
+  "units": [
+    {
+      "attacks": [
+        {
+          "hitDelay": 0.30000001192092896,
+          "hitSpark": "fx/bs_stab_attack",
+          "id": "primary"
+        }
+      ],
+      "battleAnimation": "units/dog/cherrystone/battle_dog_cherrystone",
+      "battleAnimationRiver": "fx/river_overlay/battle_dog_cherrystone_river",
+      "class": "dog",
+      "faction": "cherrystone",
+      "grabPos": [
+        15,
+        23
+      ],
+      "mapAnimation": "units/dog/cherrystone/map_dog_cherrystone",
+      "mapSpeed": 5.0,
+      "mediumPortrait": "units/dog/cherrystone/portrait_dog_cherrystone_medium.png",
+      "name": "unit_name_dog_cherrystone",
+      "shouts": {
+        "caesar_bark1": "dogShoutBark",
+        "dog_shout1": "dogShoutGrowl"
+      },
+      "smallPortrait": "units/dog/cherrystone/portrait_dog_cherrystone_small.png",
+      "sounds": {
+        "attack": "dogAttack",
+        "attackMap": "unitAttack",
+        "attackShout": "dogPreAttack",
+        "death": "dogDie",
+        "deathMap": "unitDie",
+        "hit": "hitOrganic",
+        "hitMap": "hitOrganic",
+        "run": "dogEntry",
+        "runMap": "dogMapEntry"
+      }
+    },
+    {
+      "attacks": [
+        {
+          "hitDelay": 0.30000001192092896,
+          "hitSpark": "fx/bs_stab_attack",
+          "id": "primary"
+        }
+      ],
+      "battleAnimation": "units/dog/felheim/battle_dog_felheim",
+      "battleAnimationRiver": "fx/river_overlay/battle_dog_felheim_river",
+      "class": "dog",
+      "faction": "felheim",
+      "grabPos": [
+        15,
+        23
+      ],
+      "mapAnimation": "units/dog/felheim/map_dog_felheim",
+      "mapSpeed": 5.0,
+      "mediumPortrait": "units/dog/felheim/portrait_dog_felheim_medium.png",
+      "name": "unit_name_dog_felheim",
+      "shouts": {
+        "caesar_bark1": "dogShoutBark",
+        "dog_shout1": "dogShoutGrowl"
+      },
+      "smallPortrait": "units/dog/felheim/portrait_dog_felheim_small.png",
+      "sounds": {
+        "attack": "dogAttack",
+        "attackMap": "unitAttack",
+        "attackShout": "dogPreAttack",
+        "death": "dogDie",
+        "deathMap": "unitDie",
+        "hit": "hitOrganic",
+        "hitMap": "hitOrganic",
+        "run": "dogEntry",
+        "runMap": "dogMapEntry"
+      }
+    },
+    {
+      "attacks": [
+        {
+          "hitDelay": 0.30000001192092896,
+          "hitSpark": "fx/bs_stab_attack",
+          "id": "primary"
+        }
+      ],
+      "battleAnimation": "units/dog/heavensong/battle_dog_heavensong",
+      "battleAnimationRiver": "fx/river_overlay/battle_dog_heavensong_river",
+      "class": "dog",
+      "faction": "heavensong",
+      "grabPos": [
+        15,
+        23
+      ],
+      "mapAnimation": "units/dog/heavensong/map_dog_heavensong",
+      "mapSpeed": 5.0,
+      "mediumPortrait": "units/dog/heavensong/portrait_dog_heavensong_medium.png",
+      "name": "unit_name_dog_heavensong",
+      "shouts": {
+        "caesar_bark1": "dogShoutBark",
+        "dog_shout1": "dogShoutGrowl"
+      },
+      "smallPortrait": "units/dog/heavensong/portrait_dog_heavensong_small.png",
+      "sounds": {
+        "attack": "dogAttack",
+        "attackMap": "unitAttack",
+        "attackShout": "dogPreAttack",
+        "death": "dogDie",
+        "deathMap": "unitDie",
+        "hit": "hitOrganic",
+        "hitMap": "hitOrganic",
+        "run": "dogEntry",
+        "runMap": "dogMapEntry"
+      }
+    },
+    {
+      "attacks": [
+        {
+          "hitDelay": 0.800000011920929,
+          "hitSpark": "fx/bs_stab_attack",
+          "id": "primary"
+        }
+      ],
+      "battleAnimation": "units/dog/floran/battle_dog_floran",
+      "battleAnimationRiver": "fx/river_overlay/battle_dog_floran_river",
+      "class": "dog",
+      "faction": "floran",
+      "grabPos": [
+        16,
+        22
+      ],
+      "mapAnimation": "units/dog/floran/map_dog_floran",
+      "mapSpeed": 5.0,
+      "mediumPortrait": "units/dog/floran/portrait_dog_floran_medium.png",
+      "name": "unit_name_dog_floran",
+      "shouts": {
+        "caesar_bark1": "dogShoutBarkGreen",
+        "dog_shout1": "dogShoutGrowl"
+      },
+      "smallPortrait": "units/dog/floran/portrait_dog_floran_small.png",
+      "sounds": {
+        "attack": "dogAttackGreen",
+        "attackMap": "unitAttack",
+        "attackShout": "dogPreAttack",
+        "death": "dogDie",
+        "deathMap": "unitDie",
+        "hit": "hitOrganic",
+        "hitMap": "hitOrganic",
+        "run": "dogEntry",
+        "runMap": "dogMapEntry"
+      }
+    }
+  ],
+  "weapons": [
+    {
+      "baseDamage": {
+        "land": 1
+      },
+      "canMoveAndAttack": "true",
+      "id": "bite",
+      "rangeMax": 1,
+      "rangeMin": 1,
+      "tagDamage": {
+        "archer": 0.75,
+        "ballista": 0.4000000059604645,
+        "commander": 0.15000000596046448,
+        "dog": 0.6499999761581421,
+        "dragon": 100,
+        "giant": 0.05000000074505806,
+        "knight": 0.10000000149011612,
+        "mage": 0.550000011920929,
+        "merman": 0.75,
+        "rifleman": 1.100000023841858,
+        "soldier": 0.75,
+        "spearman": 0.44999998807907104,
+        "structure": 0.20000000298023224,
+        "thief": 0.8500000238418579,
+        "trebuchet": 0.3499999940395355,
+        "villager": 0.75,
+        "wagon": 0.30000001192092896
+      }
+    }
+  ]
+}

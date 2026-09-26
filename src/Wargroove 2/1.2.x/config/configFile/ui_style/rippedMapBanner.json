@@ -1,0 +1,20 @@
+{
+  "uiStyle": {
+    "rippedMapBanner": {
+      "frame": "ui/background/scroll_frame_ends_only.png",
+      "frameBorder": [
+        0,
+        8,
+        0,
+        8
+      ],
+      "framedImage": "ui/background/ripped_canvas_world_map.png",
+      "innerBorder": [
+        27,
+        10,
+        27,
+        10
+      ]
+    }
+  }
+}

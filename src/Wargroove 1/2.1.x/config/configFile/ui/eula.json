@@ -1,0 +1,236 @@
+{
+  "children": [
+    {
+      "border": [
+        25,
+        15,
+        25,
+        15
+      ],
+      "children": [
+        {
+          "fill": "centre",
+          "widget": {
+            "alignment": 0.5,
+            "class": "label",
+            "maxWidth": 375,
+            "textKey": "eula_info"
+          }
+        },
+        {
+          "border": [
+            10,
+            0,
+            10,
+            0
+          ],
+          "children": [
+            {
+              "border": [
+                -12,
+                0,
+                -10,
+                0
+              ],
+              "fill": "centre",
+              "widget": {
+                "class": "button",
+                "id": "leftArrow",
+                "mouseBorder": [
+                  10,
+                  85,
+                  10,
+                  85
+                ],
+                "style": "buttonCodexLeft"
+              }
+            },
+            {
+              "border": [
+                13,
+                2,
+                13,
+                2
+              ],
+              "children": [
+                {
+                  "border": [
+                    0,
+                    -2,
+                    0,
+                    0
+                  ],
+                  "widget": {
+                    "class": "label",
+                    "id": "description",
+                    "maxWidth": 375,
+                    "text": "Queen Mercia is the young daughter of King Mercival II, the legendary and beloved ruler of the Cherrystone Kingdom. She is well-meaning, but inexperienced in the matters of diplomacy."
+                  }
+                },
+                {
+                  "proportion": 1,
+                  "stretchSpacer": {}
+                },
+                {
+                  "border": [
+                    0,
+                    0,
+                    0,
+                    -2
+                  ],
+                  "children": [
+                    {
+                      "border": [
+                        2,
+                        -2,
+                        1,
+                        -1
+                      ],
+                      "fill": "centre",
+                      "widget": {
+                        "class": "label",
+                        "id": "pageNumber",
+                        "text": "1/4"
+                      }
+                    }
+                  ],
+                  "fill": "centre",
+                  "sizer": {
+                    "type": "vertical"
+                  },
+                  "widget": {
+                    "class": "image",
+                    "colour": "#DFC686",
+                    "id": "pageNumberRoot",
+                    "image": "ui/widgets/list/list_item_bg.png",
+                    "size": [
+                      20,
+                      10
+                    ]
+                  }
+                }
+              ],
+              "proportion": 1,
+              "sizer": {
+                "type": "vertical"
+              },
+              "widget": {
+                "class": "image",
+                "colour": "#E9D6A4",
+                "image": "ui/whitebox.png",
+                "innerBorder": [
+                  3,
+                  3,
+                  3,
+                  0
+                ]
+              }
+            },
+            {
+              "border": [
+                -4,
+                0,
+                -12,
+                0
+              ],
+              "fill": "centre",
+              "widget": {
+                "class": "button",
+                "id": "rightArrow",
+                "mouseBorder": [
+                  10,
+                  85,
+                  10,
+                  85
+                ],
+                "style": "buttonCodexRight"
+              }
+            }
+          ],
+          "fill": "fill",
+          "proportion": 1,
+          "sizer": {
+            "type": "horizontal"
+          },
+          "widget": {
+            "class": "image",
+            "image": "ui/codex/page.png",
+            "size": [
+              285,
+              100
+            ]
+          }
+        },
+        {
+          "children": [
+            {
+              "border": [
+                0,
+                2,
+                0,
+                1
+              ],
+              "widget": {
+                "class": "horizontalDiv"
+              }
+            },
+            {
+              "widget": {
+                "class": "dialogueButtons",
+                "hasCancel": "false",
+                "hasClose": "true",
+                "hasOK": "false"
+              }
+            }
+          ],
+          "sizer": {
+            "type": "vertical"
+          },
+          "widget": {
+            "active": "false",
+            "class": "widget",
+            "id": "bottomBar"
+          }
+        },
+        {
+          "widget": {
+            "class": "nearZoomButtons"
+          }
+        }
+      ],
+      "sizer": {
+        "type": "vertical"
+      },
+      "widget": {
+        "class": "image",
+        "image": "ui/widgets/window/scroll_embed_window.png",
+        "innerBorder": [
+          10,
+          8,
+          10,
+          8
+        ],
+        "size": [
+          439,
+          252
+        ]
+      }
+    }
+  ],
+  "sizer": {
+    "gap": 0,
+    "type": "vertical"
+  },
+  "widget": {
+    "class": "framedImage",
+    "scrollPos": [
+      10,
+      -170
+    ],
+    "scrollSpeed": [
+      10,
+      0
+    ],
+    "style": "paperScroll"
+  }
+}

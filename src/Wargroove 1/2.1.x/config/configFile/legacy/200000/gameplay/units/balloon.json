@@ -1,0 +1,141 @@
+{
+  "unitClasses": [
+    {
+      "aiPriority": 1.5,
+      "battleUnitCount": 1,
+      "canSeeOverTerrain": "true",
+      "cost": 450,
+      "damageMultiplier": 1,
+      "id": "balloon",
+      "loadCapacity": 2,
+      "moveRange": 6,
+      "movement": "flying",
+      "name": "unit_class_name_balloon",
+      "tags": [
+        "balloon",
+        "type.air"
+      ],
+      "transportTags": [
+        "type.ground.light",
+        "type.amphibious",
+        "type.ground.hideout"
+      ],
+      "verbs": [
+        "unload"
+      ],
+      "weapons": []
+    }
+  ],
+  "units": [
+    {
+      "battleAnimation": "units/balloon/cherrystone/battle_balloon_cherrystone",
+      "class": "balloon",
+      "faction": "cherrystone",
+      "grabPos": [
+        22,
+        5
+      ],
+      "mapAnimation": "units/balloon/cherrystone/map_balloon_cherrystone",
+      "mapSpeed": 6.0,
+      "mediumPortrait": "units/balloon/cherrystone/portrait_balloon_cherrystone_medium.png",
+      "name": "unit_name_balloon_cherrystone",
+      "smallPortrait": "units/balloon/cherrystone/portrait_balloon_cherrystone_small.png",
+      "sounds": {
+        "death": "balloonDie",
+        "deathMap": "unitDie",
+        "hit": "hitWood",
+        "hitMap": "hitWood",
+        "run": "balloonEntry",
+        "runMap": "balloonEntryMap"
+      }
+    },
+    {
+      "battleAnimation": "units/balloon/felheim/battle_balloon_felheim",
+      "class": "balloon",
+      "faction": "felheim",
+      "grabPos": [
+        22,
+        5
+      ],
+      "mapAnimation": "units/balloon/felheim/map_balloon_felheim",
+      "mapSpeed": 6.0,
+      "mediumPortrait": "units/balloon/felheim/portrait_balloon_felheim_medium.png",
+      "name": "unit_name_balloon_felheim",
+      "smallPortrait": "units/balloon/felheim/portrait_balloon_felheim_small.png",
+      "sounds": {
+        "death": "balloonDieBlue",
+        "deathMap": "unitDie",
+        "hit": "hitWood",
+        "hitMap": "hitWood",
+        "run": "balloonEntry",
+        "runMap": "balloonEntryMap"
+      }
+    },
+    {
+      "battleAnimation": "units/balloon/heavensong/battle_balloon_heavensong",
+      "class": "balloon",
+      "faction": "heavensong",
+      "grabPos": [
+        23,
+        4
+      ],
+      "mapAnimation": "units/balloon/heavensong/map_balloon_heavensong",
+      "mapSpeed": 6.0,
+      "mediumPortrait": "units/balloon/heavensong/portrait_balloon_heavensong_medium.png",
+      "name": "unit_name_balloon_heavensong",
+      "smallPortrait": "units/balloon/heavensong/portrait_balloon_heavensong_small.png",
+      "sounds": {
+        "death": "balloonDie",
+        "deathMap": "unitDie",
+        "hit": "hitWood",
+        "hitMap": "hitWood",
+        "run": "balloonEntry",
+        "runMap": "balloonEntryMap"
+      }
+    },
+    {
+      "battleAnimation": "units/balloon/floran/battle_balloon_floran",
+      "class": "balloon",
+      "faction": "floran",
+      "grabPos": [
+        22,
+        5
+      ],
+      "mapAnimation": "units/balloon/floran/map_balloon_floran",
+      "mapSpeed": 6.0,
+      "mediumPortrait": "units/balloon/floran/portrait_balloon_floran_medium.png",
+      "name": "unit_name_balloon_floran",
+      "smallPortrait": "units/balloon/floran/portrait_balloon_floran_small.png",
+      "sounds": {
+        "death": "balloonDie",
+        "deathMap": "unitDie",
+        "hit": "hitWood",
+        "hitMap": "hitWood",
+        "run": "balloonEntry",
+        "runMap": "balloonEntryMap"
+      }
+    },
+    {
+      "battleAnimation": "units/balloon/outlaw/battle_balloon_outlaw",
+      "class": "balloon",
+      "faction": "outlaw",
+      "grabPos": [
+        22,
+        5
+      ],
+      "mapAnimation": "units/balloon/outlaw/map_balloon_outlaw",
+      "mapSpeed": 6.0,
+      "mediumPortrait": "units/balloon/outlaw/portrait_balloon_outlaw_medium.png",
+      "name": "unit_name_balloon_cherrystone",
+      "smallPortrait": "units/balloon/outlaw/portrait_balloon_outlaw_small.png",
+      "sounds": {
+        "death": "balloonDie",
+        "deathMap": "unitDie",
+        "hit": "hitWood",
+        "hitMap": "hitWood",
+        "run": "balloonEntry",
+        "runMap": "balloonEntryMap"
+      }
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "_assetType": "audioClip",
+  "_decoded": {
+    "legacy": true,
+    "actions": [
+      {
+        "type": "play",
+        "scope": 1,
+        "clip": "sfx/elodie/elodieAttackFoley1.ogg",
+        "group": "sfx",
+        "gain": [
+          1.0,
+          1.0
+        ],
+        "pitch": [
+          1.0,
+          1.0
+        ],
+        "legacyTailHex": "9a99b93f0000000000",
+        "legacyTailFloats": [
+          1.4500000476837158,
+          0.0
+        ]
+      }
+    ]
+  },
+  "_payloadHex": "0100000004000000706c617901000000210000007366782f656c6f6469652f656c6f64696541747461636b466f6c6579312e6f6767030000007366780000803f0000803f0000803f0000803f9a99b93f0000000000"
+}

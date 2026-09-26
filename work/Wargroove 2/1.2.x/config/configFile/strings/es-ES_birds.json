@@ -1,0 +1,30 @@
+{
+  "es-ES": {
+    "bird_lore_barnowl": "¡Parece una especie de primo lejano del estigiforme! Por desgracia, solo conozco a estas enormes bestias gracias de las historias que he podido leer. Aunque, por supuesto, he estado en Cristelar, nunca se me ha permitido el paso a las cimas ni a las galerías de las montañas, donde viven los faahri. ¡Los seres humanos que habitan en las ciudades de las estribaciones protegen con gran celo a sus vecinos!\n",
+    "bird_lore_crownedeagle": "¡Llevaba años deseando ver un águila de cerca! Pero ahora que por fin lo he conseguido, su canto me parece... bastante patético, la verdad. Supongo que tienen razón quienes dicen eso de «nunca conozcas a tus héroes».\n",
+    "bird_lore_hummingbird": "Un ave tropical bastante peculiar. Disuade a los depredadores con un grito escalofriante que suena demasiado potente para proceder de un cuerpo tan pequeño.\n",
+    "bird_lore_king_eider": "Ah, hace siglos que no veo una de estas aves. Reciben su nombre en honor a la primera y última monarca de Macabria. En tiempos remotos, Macabria se escindió de Guíndal y se convirtió en un reino por derecho propio. Sin embargo, después de que el guantelete macabro fuera recuperado de aquel discreto túmulo funerario, la monarquía llegó a un abrupto y violento final.\n",
+    "bird_lore_kingfisher": "Un pájaro azul, eso seguro, pero distinto del ruiseñor azul (¡para mí solo existe una ruiseñora!).\n¿No me regaló Émeric uno de estos una vez? Con idea de gastarme una broma, si mal no recuerdo. Acababa de ascender al trono.\n\n¡Era una época más simple e inocente!\n",
+    "bird_lore_kiwi": "Un ave curiosa, cuyos huevos no «eclosionan», por explicarlo de algún modo... En vez de eso, cuando la cría está lista, unas plumas que parecen pelos empiezan a atravesar el cascarón una tras otra. A medida que la criatura crece, el huevo no se rompe, sino que parece disolverse en su piel. ¡La naturaleza está llena de prodigios!\n",
+    "bird_lore_pigeon": "¡Muy probablemente, la especie más encantadora y querida en todos los reinos! A menudo, la gente las cría para competir en torneos de matemáticas.\n",
+    "bird_lore_puffin": "Desde lejos, es normal preguntarse cómo es posible que estos pequeñajos tan atrevidos sobrevivan en un lugar como Macabria, pero después te das cuenta: los dientes.\n\nPor la barba de Myden, ¡esos DIENTES! Cuando ve de cerca sus mandíbulas, seguro que la presa del priorcillo *desearía* estar muerta.\n",
+    "bird_lore_raven": "Hay antiguas historias de brujas que conocían tan bien la canción del nóxel, ¡que eran capaces de transformarse ellas mismas en esta ave!\nSegún asegura la leyenda, es fácil distinguir a un verdadero nóxel de una persona: los nóxeles son mucho más inteligentes.\n",
+    "bird_lore_robotality": "¡No es un ave! Sin embargo, vuela igualmente... ¿Es posible que se trate de la afamada tecnología de la República de Faahri? Espero que no nos estén espiando...\n",
+    "bird_lore_sparrowbomb": "¿Qué clase de ingenio...? Debe de ser el juguete perdido del algún niño de Cantaria. Si Mercia aún fuera un bebé, ¡me lo llevaría a casa y lo pondría en su habitación!\n",
+    "bird_lore_toucan": "Una de las especies favoritas del difunto emperador, quizá por su rareza. Por lo visto, había una gran población de ellos en las islas Azafrán antes de que se incorporaran a Cantaria, pero, por algún motivo, los avistamientos se fueron reduciendo cada vez más a lo largo de los años.\n",
+    "bird_lore_woodpecker": "Sus picos son lo suficientemente fuertes para perforar incluso la corteza de un árbol de los ancestros. Yo soy demasiado impresionable para confirmarlo, pero dicen que, en la adultez, su sangre tiene al menos un 30 % de savia. Si hicieran eso conmigo, seguro que mi sangre sería un 70 % regaliz.\n",
+    "bird_name_barnowl": "Estigio",
+    "bird_name_crownedeagle": "Águila imperial",
+    "bird_name_hummingbird": "Pájaro chillón",
+    "bird_name_king_eider": "Reina Ander",
+    "bird_name_kingfisher": "Pequeñajo señorial",
+    "bird_name_kiwi": "Kiwi",
+    "bird_name_pigeon": "Paloma",
+    "bird_name_puffin": "Priorcillo",
+    "bird_name_raven": "Nóxel",
+    "bird_name_robotality": "¿¿??",
+    "bird_name_sparrowbomb": "Bomba gorrión",
+    "bird_name_toucan": "Tocotocanoco",
+    "bird_name_woodpecker": "Sorbesavia"
+  }
+}

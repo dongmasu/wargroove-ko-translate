@@ -1,0 +1,404 @@
+{
+  "children": [
+    {
+      "border": [
+        -1,
+        -7,
+        -1,
+        -2
+      ],
+      "children": [
+        {
+          "widget": {
+            "class": "image",
+            "id": "positioner",
+            "image": "ui/arcade/arcade_vs_border.png",
+            "size": [
+              394,
+              10
+            ]
+          }
+        },
+        {
+          "widget": {
+            "class": "image",
+            "image": "ui/arcade/arcade_vs_cur_sel.png",
+            "size": [
+              36,
+              49
+            ]
+          }
+        },
+        {
+          "proportion": 1,
+          "widget": {
+            "class": "image",
+            "image": "ui/arcade/arcade_vs_border.png"
+          }
+        }
+      ],
+      "proportion": 0,
+      "sizer": {
+        "gap": 0,
+        "type": "horizontal"
+      }
+    },
+    {
+      "border": [
+        0,
+        -40,
+        0,
+        4
+      ],
+      "children": [
+        {
+          "proportion": 1,
+          "stretchSpacer": {}
+        },
+        {
+          "widget": {
+            "animation": "units/commanders/mercia/map_mercia",
+            "class": "paletteSwapAnimation",
+            "direction": "left",
+            "id": "commander0",
+            "offset": [
+              13,
+              33
+            ],
+            "sequence": "idle",
+            "size": [
+              28,
+              36
+            ],
+            "skinColour": "typeII"
+          }
+        },
+        {
+          "border": [
+            2,
+            0,
+            2,
+            2
+          ],
+          "fill": "bottom",
+          "widget": {
+            "class": "image",
+            "image": "ui/arcade/arcade_dots.png"
+          }
+        },
+        {
+          "widget": {
+            "animation": "units/commanders/caesar/map_caesar",
+            "class": "paletteSwapAnimation",
+            "direction": "left",
+            "id": "commander1",
+            "offset": [
+              13,
+              33
+            ],
+            "sequence": "idle",
+            "size": [
+              28,
+              36
+            ],
+            "skinColour": "typeII"
+          }
+        },
+        {
+          "border": [
+            2,
+            0,
+            2,
+            2
+          ],
+          "fill": "bottom",
+          "widget": {
+            "class": "image",
+            "image": "ui/arcade/arcade_dots.png"
+          }
+        },
+        {
+          "widget": {
+            "animation": "units/commanders/koji/map_koji",
+            "class": "paletteSwapAnimation",
+            "colour": "yellow",
+            "direction": "left",
+            "id": "commander2",
+            "offset": [
+              13,
+              33
+            ],
+            "sequence": "idle",
+            "size": [
+              28,
+              36
+            ],
+            "skinColour": "typeIII"
+          }
+        },
+        {
+          "border": [
+            2,
+            0,
+            2,
+            2
+          ],
+          "fill": "bottom",
+          "widget": {
+            "class": "image",
+            "image": "ui/arcade/arcade_dots.png"
+          }
+        },
+        {
+          "widget": {
+            "animation": "units/commanders/greenfinger/map_greenfinger",
+            "class": "paletteSwapAnimation",
+            "colour": "green",
+            "direction": "left",
+            "id": "commander3",
+            "offset": [
+              13,
+              33
+            ],
+            "sequence": "idle",
+            "size": [
+              28,
+              36
+            ],
+            "skinColour": "green"
+          }
+        },
+        {
+          "border": [
+            2,
+            0,
+            2,
+            2
+          ],
+          "fill": "bottom",
+          "widget": {
+            "class": "image",
+            "image": "ui/arcade/arcade_dots.png"
+          }
+        },
+        {
+          "widget": {
+            "animation": "units/commanders/elodie/map_elodie",
+            "class": "paletteSwapAnimation",
+            "colour": "purple",
+            "direction": "left",
+            "id": "commander4",
+            "offset": [
+              13,
+              33
+            ],
+            "sequence": "idle",
+            "size": [
+              28,
+              36
+            ],
+            "skinColour": "typeIV"
+          }
+        },
+        {
+          "proportion": 1,
+          "stretchSpacer": {}
+        }
+      ],
+      "proportion": 0,
+      "sizer": {
+        "gap": 0,
+        "type": "horizontal"
+      }
+    },
+    {
+      "border": [
+        0,
+        -21,
+        0,
+        4
+      ],
+      "children": [
+        {
+          "border": [
+            5,
+            0,
+            0,
+            0
+          ],
+          "widget": {
+            "button": "cancel",
+            "class": "gamepadButton",
+            "id": "cancel",
+            "size": [
+              50,
+              16
+            ],
+            "textKey": "ui_menu_back"
+          }
+        },
+        {
+          "border": [
+            1,
+            0,
+            0,
+            0
+          ],
+          "widget": {
+            "active": "false",
+            "button": "tertiary",
+            "class": "gamepadButton",
+            "id": "reset_arcade",
+            "size": [
+              50,
+              16
+            ],
+            "textKey": "arcade_reset"
+          }
+        },
+        {
+          "proportion": 1,
+          "stretchSpacer": {}
+        },
+        {
+          "border": [
+            0,
+            0,
+            5,
+            0
+          ],
+          "widget": {
+            "button": "accept",
+            "class": "gamepadButton",
+            "id": "ok",
+            "size": [
+              50,
+              16
+            ],
+            "textKey": "ui_menu_next"
+          }
+        }
+      ],
+      "fill": "centre",
+      "sizer": {
+        "type": "horizontal"
+      },
+      "widget": {
+        "class": "widget",
+        "id": "bottomBarWide"
+      }
+    },
+    {
+      "border": [
+        0,
+        -21,
+        0,
+        4
+      ],
+      "children": [
+        {
+          "border": [
+            2,
+            0,
+            0,
+            0
+          ],
+          "fill": "left",
+          "widget": {
+            "active": "false",
+            "button": "tertiary",
+            "class": "gamepadButton",
+            "id": "reset_arcade",
+            "size": [
+              50,
+              16
+            ],
+            "textKey": "arcade_reset"
+          }
+        },
+        {
+          "children": [
+            {
+              "border": [
+                2,
+                0,
+                0,
+                0
+              ],
+              "fill": "left",
+              "widget": {
+                "button": "cancel",
+                "class": "gamepadButton",
+                "id": "cancel",
+                "size": [
+                  50,
+                  16
+                ],
+                "textKey": "ui_menu_back"
+              }
+            },
+            {
+              "proportion": 1,
+              "stretchSpacer": {}
+            },
+            {
+              "border": [
+                0,
+                0,
+                2,
+                0
+              ],
+              "fill": "right",
+              "widget": {
+                "button": "accept",
+                "class": "gamepadButton",
+                "id": "ok",
+                "size": [
+                  50,
+                  16
+                ],
+                "textKey": "ui_menu_next"
+              }
+            }
+          ],
+          "sizer": {
+            "type": "horizontal"
+          }
+        }
+      ],
+      "fill": "centre",
+      "sizer": {
+        "gap": 2,
+        "type": "vertical"
+      },
+      "widget": {
+        "class": "widget",
+        "id": "bottomBarNarrow",
+        "size": [
+          428,
+          0
+        ]
+      }
+    }
+  ],
+  "sizer": {
+    "gap": 0,
+    "type": "vertical"
+  },
+  "widget": {
+    "class": "framedImage",
+    "scrollPos": [
+      10,
+      40
+    ],
+    "scrollSpeed": [
+      20,
+      0
+    ],
+    "size": [
+      0,
+      10
+    ],
+    "style": "backgroundScroll"
+  }
+}

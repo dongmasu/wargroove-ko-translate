@@ -1,0 +1,20 @@
+{
+  "uiStyle": {
+    "backgroundScroll": {
+      "frame": "ui/background/scroll_frame.png",
+      "frameBorder": [
+        27,
+        10,
+        27,
+        10
+      ],
+      "framedImage": "ui/background/canvas_world_map.png",
+      "innerBorder": [
+        27,
+        10,
+        27,
+        10
+      ]
+    }
+  }
+}

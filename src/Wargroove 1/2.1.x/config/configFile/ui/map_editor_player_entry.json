@@ -1,0 +1,70 @@
+{
+  "children": [
+    {
+      "fill": "false",
+      "widget": {
+        "class": "image",
+        "id": "childOf",
+        "image": "ui/map_editor/child_of.png"
+      }
+    },
+    {
+      "border": [
+        0,
+        -1,
+        0,
+        0
+      ],
+      "widget": {
+        "class": "paletteSwapImage",
+        "id": "portrait",
+        "image": "units/commanders/mercia/portrait_mercia_small.png",
+        "material": "Wargroove/PaletteSwap",
+        "skinColour": "typeII",
+        "swapColour": "red"
+      }
+    },
+    {
+      "border": [
+        1,
+        2,
+        1,
+        2
+      ],
+      "widget": {
+        "class": "image",
+        "id": "colour",
+        "image": "ui/widgets/list/list_item_bg.png",
+        "size": [
+          12,
+          8
+        ]
+      }
+    },
+    {
+      "border": [
+        2,
+        0,
+        0,
+        0
+      ],
+      "widget": {
+        "class": "label",
+        "id": "name",
+        "text": "Mercia"
+      }
+    }
+  ],
+  "sizer": {
+    "type": "horizontal"
+  },
+  "widget": {
+    "class": "widget",
+    "innerBorder": [
+      4,
+      1,
+      4,
+      1
+    ]
+  }
+}

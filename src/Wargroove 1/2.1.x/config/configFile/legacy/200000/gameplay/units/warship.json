@@ -1,0 +1,268 @@
+{
+  "unitClasses": [
+    {
+      "aiPriority": 1.0,
+      "battleUnitCount": 1,
+      "cargoSpace": 2,
+      "cost": 900,
+      "damageMultiplier": 1,
+      "id": "warship",
+      "isHiddenInCutsceneEditor": "true",
+      "moveRange": 8,
+      "movement": "sailing",
+      "name": "unit_class_name_warship",
+      "passiveMultiplier": 1.5,
+      "sightRange": 5,
+      "tags": [
+        "warship",
+        "type.sea"
+      ],
+      "weapons": [
+        {
+          "id": "warshipCannon"
+        }
+      ]
+    }
+  ],
+  "units": [
+    {
+      "attacks": [
+        {
+          "effect": "fx/bs_warship_attack",
+          "effectDelay": 1.7999999523162842,
+          "hitDelay": [
+            2.0,
+            2.299999952316284,
+            2.5999999046325684
+          ],
+          "hitSpark": "fx/bs_stab_attack",
+          "id": "primary",
+          "ranged": "true"
+        }
+      ],
+      "battleAnimation": "units/warship/cherrystone/battle_warship_cherrystone",
+      "class": "warship",
+      "deathMoveMax": 80,
+      "deathMoveMin": 80,
+      "faction": "cherrystone",
+      "grabPos": [
+        10,
+        9
+      ],
+      "mapAnimation": "units/warship/cherrystone/map_warship_cherrystone",
+      "mapSpeed": 6.0,
+      "mediumPortrait": "units/warship/cherrystone/portrait_warship_cherrystone_medium.png",
+      "name": "unit_name_warship_cherrystone",
+      "smallPortrait": "units/warship/cherrystone/portrait_warship_cherrystone_small.png",
+      "sounds": {
+        "attack": "warshipAttack",
+        "attackEffect": "warshipAttackEffect",
+        "attackMap": "unitAttack",
+        "death": "shipDie",
+        "deathMap": "unitDie",
+        "hit": "hitWood",
+        "hitMap": "hitWood",
+        "run": "waterBoatEntry",
+        "runMap": "waterBoatEntry"
+      }
+    },
+    {
+      "attacks": [
+        {
+          "effect": "fx/bs_warship_attack",
+          "effectDelay": 1.7999999523162842,
+          "hitDelay": [
+            2.0,
+            2.299999952316284,
+            2.5999999046325684
+          ],
+          "hitSpark": "fx/bs_stab_attack",
+          "id": "primary",
+          "ranged": "true"
+        }
+      ],
+      "battleAnimation": "units/warship/felheim/battle_warship_felheim",
+      "class": "warship",
+      "deathMoveMax": 80,
+      "deathMoveMin": 80,
+      "faction": "felheim",
+      "grabPos": [
+        10,
+        9
+      ],
+      "mapAnimation": "units/warship/felheim/map_warship_felheim",
+      "mapSpeed": 6.0,
+      "mediumPortrait": "units/warship/felheim/portrait_warship_felheim_medium.png",
+      "name": "unit_name_warship_felheim",
+      "smallPortrait": "units/warship/felheim/portrait_warship_felheim_small.png",
+      "sounds": {
+        "attack": "warshipAttack",
+        "attackEffect": "warshipAttackEffect",
+        "attackMap": "unitAttack",
+        "death": "shipDie",
+        "deathMap": "unitDie",
+        "hit": "hitWood",
+        "hitMap": "hitWood",
+        "run": "waterBoatEntry",
+        "runMap": "waterBoatEntry"
+      }
+    },
+    {
+      "attacks": [
+        {
+          "effect": "fx/bs_warship_attack",
+          "effectDelay": 1.7999999523162842,
+          "hitDelay": [
+            2.0,
+            2.299999952316284,
+            2.5999999046325684
+          ],
+          "hitSpark": "fx/bs_stab_attack",
+          "id": "primary",
+          "ranged": "true"
+        }
+      ],
+      "battleAnimation": "units/warship/heavensong/battle_warship_heavensong",
+      "class": "warship",
+      "deathMoveMax": 80,
+      "deathMoveMin": 80,
+      "faction": "heavensong",
+      "grabPos": [
+        10,
+        9
+      ],
+      "mapAnimation": "units/warship/heavensong/map_warship_heavensong",
+      "mapSpeed": 6.0,
+      "mediumPortrait": "units/warship/heavensong/portrait_warship_heavensong_medium.png",
+      "name": "unit_name_warship_heavensong",
+      "smallPortrait": "units/warship/heavensong/portrait_warship_heavensong_small.png",
+      "sounds": {
+        "attack": "warshipAttackYellow",
+        "attackEffect": "warshipAttackEffect",
+        "attackMap": "unitAttack",
+        "death": "shipDie",
+        "deathMap": "unitDie",
+        "hit": "hitWood",
+        "hitMap": "hitWood",
+        "run": "waterBoatEntry",
+        "runMap": "waterBoatEntry"
+      }
+    },
+    {
+      "attacks": [
+        {
+          "effect": "fx/bs_warship_attack",
+          "effectDelay": 1.7999999523162842,
+          "hitDelay": [
+            2.0,
+            2.299999952316284,
+            2.5999999046325684
+          ],
+          "hitSpark": "fx/bs_stab_attack",
+          "id": "primary",
+          "ranged": "true"
+        }
+      ],
+      "battleAnimation": "units/warship/floran/battle_warship_floran",
+      "class": "warship",
+      "deathMoveMax": 80,
+      "deathMoveMin": 80,
+      "faction": "floran",
+      "grabPos": [
+        10,
+        9
+      ],
+      "mapAnimation": "units/warship/floran/map_warship_floran",
+      "mapSpeed": 6.0,
+      "mediumPortrait": "units/warship/floran/portrait_warship_floran_medium.png",
+      "name": "unit_name_warship_floran",
+      "smallPortrait": "units/warship/floran/portrait_warship_floran_small.png",
+      "sounds": {
+        "attack": "warshipAttackGreen",
+        "attackEffect": "warshipAttackEffect",
+        "attackMap": "unitAttack",
+        "death": "shipDie",
+        "deathMap": "unitDie",
+        "hit": "hitWood",
+        "hitMap": "hitWood",
+        "run": "waterBoatEntry",
+        "runMap": "waterBoatEntry"
+      }
+    },
+    {
+      "attacks": [
+        {
+          "effect": "fx/bs_warship_attack",
+          "effectDelay": 1.7999999523162842,
+          "hitDelay": [
+            2.0,
+            2.299999952316284,
+            2.5999999046325684
+          ],
+          "hitSpark": "fx/bs_stab_attack",
+          "id": "primary",
+          "ranged": "true"
+        }
+      ],
+      "battleAnimation": "units/warship/outlaw/battle_warship_outlaw",
+      "class": "warship",
+      "deathMoveMax": 80,
+      "deathMoveMin": 80,
+      "faction": "outlaw",
+      "grabPos": [
+        10,
+        9
+      ],
+      "mapAnimation": "units/warship/outlaw/map_warship_outlaw",
+      "mapSpeed": 6.0,
+      "mediumPortrait": "units/warship/outlaw/portrait_warship_outlaw_medium.png",
+      "name": "unit_name_warship_cherrystone",
+      "smallPortrait": "units/warship/outlaw/portrait_warship_outlaw_small.png",
+      "sounds": {
+        "attack": "warshipAttack",
+        "attackEffect": "warshipAttackEffect",
+        "attackMap": "unitAttack",
+        "death": "shipDie",
+        "deathMap": "unitDie",
+        "hit": "hitWood",
+        "hitMap": "hitWood",
+        "run": "waterBoatEntry",
+        "runMap": "waterBoatEntry"
+      }
+    }
+  ],
+  "weapons": [
+    {
+      "baseDamage": {
+        "land": 1,
+        "water": 1
+      },
+      "canMoveAndAttack": "true",
+      "id": "warshipCannon",
+      "rangeMax": 4,
+      "rangeMin": 2,
+      "tagDamage": {
+        "archer": 1.2000000476837158,
+        "ballista": 0.8500000238418579,
+        "commander": 0.25,
+        "dog": 1.100000023841858,
+        "giant": 0.550000011920929,
+        "harpoonship": 0.800000011920929,
+        "knight": 0.699999988079071,
+        "mage": 0.800000011920929,
+        "merman": 0.75,
+        "rifleman": 1.100000023841858,
+        "soldier": 1.0,
+        "spearman": 0.75,
+        "structure": 0.75,
+        "thief": 1.0,
+        "travelboat": 0.6499999761581421,
+        "trebuchet": 0.800000011920929,
+        "turtle": 0.30000001192092896,
+        "villager": 1.0,
+        "wagon": 0.6000000238418579,
+        "warship": 0.550000011920929
+      }
+    }
+  ]
+}

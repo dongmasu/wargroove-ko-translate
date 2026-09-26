@@ -1,0 +1,23 @@
+{
+  "uiStyle": {
+    "whiteLabel": {
+      "iconBorder": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "label": {
+        "colour": "#FFFFFF",
+        "font": "Wargroove Medium",
+        "size": 16
+      },
+      "labelBorder": [
+        0,
+        -4,
+        -1,
+        -3
+      ]
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "uiStyle": {
+    "spinlist": {
+      "disabled": "ui/widgets/spinlist/spinlist_disabled.png",
+      "hover": "ui/widgets/spinlist/spinlist_hover.png",
+      "innerBorder": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "label": {
+        "colour": "#3D4265",
+        "font": "Wargroove Medium",
+        "size": 16,
+        "smoothness": 0
+      },
+      "normal": "ui/widgets/spinlist/spinlist.png",
+      "selectedLabel": {
+        "colour": "#F4F4E8",
+        "font": "Wargroove Medium",
+        "size": 16,
+        "smoothness": 0
+      },
+      "spinSound": "ui/menuSelect"
+    }
+  }
+}

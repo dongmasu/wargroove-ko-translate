@@ -1,0 +1,9 @@
+{
+  "uiStyle": {
+    "cartoucheOld": {
+      "background": {
+        "img": "ui/widgets/window/flat_window_borderless.png"
+      }
+    }
+  }
+}

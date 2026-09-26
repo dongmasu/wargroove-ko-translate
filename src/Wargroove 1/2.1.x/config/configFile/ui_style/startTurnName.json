@@ -1,0 +1,13 @@
+{
+  "uiStyle": {
+    "startTurnName": {
+      "label": {
+        "colour": "#FFFFFF",
+        "font": "Wargroove Medium",
+        "outline": 1,
+        "outlineColour": "#000000",
+        "size": 16
+      }
+    }
+  }
+}

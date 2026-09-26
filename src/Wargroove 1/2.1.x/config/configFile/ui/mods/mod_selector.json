@@ -1,0 +1,272 @@
+{
+  "children": [
+    {
+      "widget": {
+        "class": "widget",
+        "size": [
+          0,
+          2
+        ]
+      }
+    },
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "widget": {
+                "canDrag": "true",
+                "class": "list",
+                "id": "modList",
+                "style": "listModInactive"
+              }
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "fill": [
+                        "centreHorizontal"
+                      ],
+                      "widget": {
+                        "class": "image",
+                        "image": "ui/cutscene/cutscene_editor/soldier_felheim_create.png",
+                        "size": [
+                          48,
+                          64
+                        ]
+                      }
+                    },
+                    {
+                      "widget": {
+                        "alignment": 0.5,
+                        "class": "label",
+                        "maxWidth": 100,
+                        "textKey": "ui_modlist_empty"
+                      }
+                    }
+                  ],
+                  "fill": "centre",
+                  "proportion": 1,
+                  "sizer": {
+                    "type": "vertical"
+                  },
+                  "widget": {
+                    "class": "widget"
+                  }
+                }
+              ],
+              "fill": "centre",
+              "proportion": 1,
+              "widget": {
+                "active": "false",
+                "class": "widget",
+                "id": "emptyModList"
+              }
+            }
+          ],
+          "proportion": 1,
+          "sizer": {
+            "type": "vertical"
+          },
+          "widget": {
+            "class": "scrollBarPane",
+            "clipSize": [
+              250,
+              150
+            ]
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "fill": "true",
+                  "proportion": 1,
+                  "widget": {
+                    "class": "label",
+                    "id": "modDescription",
+                    "maxWidth": 90
+                  }
+                }
+              ],
+              "fill": [
+                "fillVertical",
+                "fillHorizontal"
+              ],
+              "proportion": 1,
+              "sizer": {
+                "type": "vertical"
+              },
+              "widget": {
+                "class": "image",
+                "image": "ui/widgets/window/clip_border.png",
+                "innerBorder": [
+                  5,
+                  5,
+                  5,
+                  5
+                ],
+                "size": [
+                  100,
+                  0
+                ]
+              }
+            },
+            {
+              "children": [
+                {
+                  "fill": "true",
+                  "proportion": 1,
+                  "widget": {
+                    "class": "label",
+                    "id": "modAuthor",
+                    "maxWidth": 90
+                  }
+                }
+              ],
+              "sizer": {
+                "type": "vertical"
+              },
+              "widget": {
+                "class": "image",
+                "colour": "#DFC686",
+                "image": "ui/widgets/list/list_item_bg.png",
+                "innerBorder": [
+                  5,
+                  0,
+                  5,
+                  0
+                ],
+                "size": [
+                  100,
+                  0
+                ]
+              }
+            }
+          ],
+          "sizer": {
+            "type": "vertical"
+          }
+        }
+      ],
+      "proportion": 1,
+      "sizer": {
+        "type": "horizontal"
+      }
+    },
+    {
+      "widget": {
+        "class": "horizontalDiv"
+      }
+    },
+    {
+      "children": [
+        {
+          "widget": {
+            "button": "primary",
+            "class": "gamepadButton",
+            "id": "toggleMod",
+            "size": [
+              40,
+              16
+            ],
+            "textKey": "ui_widget_button_toggle"
+          }
+        },
+        {
+          "widget": {
+            "button": "secondary",
+            "class": "gamepadButton",
+            "id": "moveMod",
+            "size": [
+              40,
+              16
+            ],
+            "textKey": "ui_widget_button_move"
+          }
+        },
+        {
+          "proportion": 1,
+          "stretchSpacer": {}
+        },
+        {
+          "widget": {
+            "class": "dialogueButtons",
+            "hasCancel": "true",
+            "hasClose": "false",
+            "hasOK": "false"
+          }
+        },
+        {
+          "widget": {
+            "button": "tertiary",
+            "class": "gamepadButton",
+            "id": "saveAndReload",
+            "size": [
+              40,
+              16
+            ],
+            "textKey": "ui_widget_button_save_and_reload"
+          }
+        }
+      ],
+      "fill": [
+        "fillHorizontal"
+      ],
+      "sizer": {
+        "type": "horizontal"
+      },
+      "widget": {
+        "class": "widget",
+        "id": "activeEditing"
+      }
+    },
+    {
+      "children": [
+        {
+          "proportion": 1,
+          "stretchSpacer": {}
+        },
+        {
+          "widget": {
+            "button": "primary",
+            "class": "gamepadButton",
+            "id": "close",
+            "size": [
+              40,
+              16
+            ],
+            "textKey": "ui_widget_button_close"
+          }
+        }
+      ],
+      "fill": [
+        "fillHorizontal"
+      ],
+      "sizer": {
+        "type": "horizontal"
+      },
+      "widget": {
+        "active": "false",
+        "class": "widget",
+        "id": "noEditing"
+      }
+    }
+  ],
+  "sizer": {
+    "type": "vertical"
+  },
+  "widget": {
+    "class": "dialogue",
+    "id": "modSelector",
+    "size": [
+      430,
+      244
+    ],
+    "style": "optionBorder",
+    "titleKey": "ui_mod_selector_title"
+  }
+}

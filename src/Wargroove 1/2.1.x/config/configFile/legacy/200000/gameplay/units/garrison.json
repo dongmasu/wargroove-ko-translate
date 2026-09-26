@@ -1,0 +1,208 @@
+{
+  "unitClasses": [
+    {
+      "aiPriority": 1.0,
+      "battleUnitCount": 1,
+      "cost": 100,
+      "damageMultiplier": 1,
+      "id": "garrison",
+      "isHidden": "true",
+      "isRecruitable": "false",
+      "isSpawnable": "false",
+      "moveRange": 3,
+      "movement": "walking",
+      "name": "unit_class_name_garrison",
+      "tags": [
+        "soldier",
+        "type.ground.light"
+      ],
+      "verbs": [
+        "capture",
+        "load"
+      ],
+      "weapons": [
+        {
+          "ammo": 100,
+          "id": "citybow"
+        }
+      ]
+    }
+  ],
+  "units": [
+    {
+      "attacks": [
+        {
+          "effect": "fx/bs_city_counterattack",
+          "effectDelay": 0.0,
+          "hitDelay": [
+            1.100000023841858,
+            1.2999999523162842,
+            1.5,
+            1.7000000476837158,
+            1.7999999523162842
+          ],
+          "hitSpark": "fx/bs_stab_attack",
+          "id": "primary",
+          "ranged": "true"
+        }
+      ],
+      "battleAnimation": "units/keeper/cherrystone/battle_keeper_cherrystone",
+      "class": "garrison",
+      "enabled": "false",
+      "faction": "cherrystone",
+      "mapAnimation": "units/soldier/cherrystone/map_soldier_cherrystone",
+      "mapSpeed": 4.0,
+      "mediumPortrait": "portraits/medium/city.png",
+      "name": "unit_name_soldier_cherrystone",
+      "smallPortrait": "portraits/small/portrait_structure_small.png",
+      "sounds": {
+        "attackEffect": "cityAttack",
+        "death": "",
+        "hit": "",
+        "run": "",
+        "runMap": ""
+      }
+    },
+    {
+      "attacks": [
+        {
+          "effect": "fx/bs_city_counterattack",
+          "effectDelay": 0.0,
+          "hitDelay": [
+            1.100000023841858,
+            1.2999999523162842,
+            1.5,
+            1.7000000476837158,
+            1.7999999523162842
+          ],
+          "hitSpark": "fx/bs_stab_attack",
+          "id": "primary",
+          "ranged": "true"
+        }
+      ],
+      "battleAnimation": "units/keeper/felheim/battle_keeper_felheim",
+      "class": "garrison",
+      "enabled": "false",
+      "faction": "felheim",
+      "mapAnimation": "units/soldier/felheim/map_soldier_felheim",
+      "mapSpeed": 4.0,
+      "mediumPortrait": "portraits/medium/city.png",
+      "name": "unit_name_soldier_felheim",
+      "smallPortrait": "portraits/small/portrait_structure_small.png",
+      "sounds": {
+        "attackEffect": "cityAttack",
+        "death": "",
+        "hit": "",
+        "run": "",
+        "runMap": ""
+      }
+    },
+    {
+      "attacks": [
+        {
+          "effect": "fx/bs_city_counterattack",
+          "effectDelay": 0.0,
+          "hitDelay": [
+            1.100000023841858,
+            1.2999999523162842,
+            1.5,
+            1.7000000476837158,
+            1.7999999523162842
+          ],
+          "hitSpark": "fx/bs_stab_attack",
+          "id": "primary",
+          "ranged": "true"
+        }
+      ],
+      "battleAnimation": "units/keeper/heavensong/battle_keeper_heavensong",
+      "class": "garrison",
+      "enabled": "false",
+      "faction": "heavensong",
+      "mapAnimation": "units/soldier/heavensong/map_soldier_heavensong",
+      "mapSpeed": 4.0,
+      "mediumPortrait": "portraits/medium/city.png",
+      "name": "unit_name_soldier_heavensong",
+      "smallPortrait": "portraits/small/portrait_structure_small.png",
+      "sounds": {
+        "attackEffect": "cityAttack",
+        "death": "",
+        "hit": "",
+        "run": "",
+        "runMap": ""
+      }
+    },
+    {
+      "attacks": [
+        {
+          "effect": "fx/bs_city_counterattack",
+          "effectDelay": 0.0,
+          "hitDelay": [
+            1.100000023841858,
+            1.2999999523162842,
+            1.5,
+            1.7000000476837158,
+            1.7999999523162842
+          ],
+          "hitSpark": "fx/bs_stab_attack",
+          "id": "primary",
+          "ranged": "true"
+        }
+      ],
+      "battleAnimation": "units/keeper/floran/battle_keeper_floran",
+      "class": "garrison",
+      "enabled": "false",
+      "faction": "floran",
+      "mapAnimation": "units/soldier/floran/map_soldier_floran",
+      "mapSpeed": 4.0,
+      "mediumPortrait": "portraits/medium/city.png",
+      "name": "unit_name_soldier_floran",
+      "smallPortrait": "portraits/small/portrait_structure_small.png",
+      "sounds": {
+        "attackEffect": "cityAttack",
+        "death": "",
+        "hit": "",
+        "run": "",
+        "runMap": ""
+      }
+    }
+  ],
+  "weapons": [
+    {
+      "baseDamage": {
+        "air": 1,
+        "land": 1,
+        "water": 1
+      },
+      "canMoveAndAttack": "true",
+      "id": "citybow",
+      "rangeMax": 1,
+      "rangeMin": 1,
+      "tagDamage": {
+        "archer": 0.30000001192092896,
+        "ballista": 0.25,
+        "balloon": 0.20000000298023224,
+        "commander": 0.05000000074505806,
+        "dog": 0.3499999940395355,
+        "dragon": 0.05000000074505806,
+        "giant": 0.05000000074505806,
+        "harpoonship": 0.20000000298023224,
+        "harpy": 0.30000001192092896,
+        "knight": 0.10000000149011612,
+        "mage": 0.3499999940395355,
+        "merman": 0.30000001192092896,
+        "rifleman": 0.4000000059604645,
+        "soldier": 0.30000001192092896,
+        "spearman": 0.30000001192092896,
+        "structure": 0.20000000298023224,
+        "thief": 0.30000001192092896,
+        "travelboat": 0.20000000298023224,
+        "trebuchet": 0.20000000298023224,
+        "turtle": 0.20000000298023224,
+        "villager": 0.30000001192092896,
+        "wagon": 0.3499999940395355,
+        "warship": 0.20000000298023224,
+        "witch": 0.20000000298023224
+      }
+    }
+  ]
+}

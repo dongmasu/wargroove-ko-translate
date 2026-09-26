@@ -1,0 +1,28 @@
+{
+  "_assetType": "audioClip",
+  "_decoded": {
+    "legacy": true,
+    "actions": [
+      {
+        "type": "play",
+        "scope": 1,
+        "clip": "sfx/cutscene/shieldBlock.ogg",
+        "group": "sfx",
+        "gain": [
+          1.0,
+          1.0
+        ],
+        "pitch": [
+          0.699999988079071,
+          0.699999988079071
+        ],
+        "legacyTailHex": "000000000000000000",
+        "legacyTailFloats": [
+          0.0,
+          0.0
+        ]
+      }
+    ]
+  },
+  "_payloadHex": "0100000004000000706c6179010000001c0000007366782f6375747363656e652f736869656c64426c6f636b2e6f6767030000007366780000803f0000803f3333333f3333333f000000000000000000"
+}

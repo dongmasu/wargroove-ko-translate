@@ -1,0 +1,132 @@
+{
+  "unitClasses": [
+    {
+      "aiPriority": 1.5,
+      "battleUnitCount": 1,
+      "cost": 300,
+      "damageMultiplier": 1,
+      "id": "wagon",
+      "loadCapacity": 1,
+      "moveRange": 12,
+      "movement": "wheels",
+      "name": "unit_class_name_wagon",
+      "tags": [
+        "wagon",
+        "type.ground.heavy",
+        "transport"
+      ],
+      "transportTags": [
+        "type.ground.light",
+        "type.amphibious",
+        "type.ground.hideout"
+      ],
+      "verbs": [
+        "load",
+        "unload"
+      ],
+      "weapons": []
+    }
+  ],
+  "units": [
+    {
+      "battleAnimation": "units/wagon/cherrystone/battle_wagon_cherrystone",
+      "class": "wagon",
+      "deathMoveMax": 0,
+      "deathMoveMin": 0,
+      "faction": "cherrystone",
+      "grabPos": [
+        15,
+        14
+      ],
+      "mapAnimation": "units/wagon/cherrystone/map_wagon_cherrystone",
+      "mapSpeed": 6.0,
+      "mediumPortrait": "units/wagon/cherrystone/portrait_wagon_cherrystone_medium.png",
+      "name": "unit_name_wagon_cherrystone",
+      "smallPortrait": "units/wagon/cherrystone/portrait_wagon_cherrystone_small.png",
+      "sounds": {
+        "death": "gateDie",
+        "deathMap": "unitDie",
+        "hit": "hitWood",
+        "hitMap": "hitWood",
+        "run": "wagonEntry",
+        "runMap": "wagonEntry"
+      },
+      "stayAfterDeath": "true"
+    },
+    {
+      "battleAnimation": "units/wagon/felheim/battle_wagon_felheim",
+      "class": "wagon",
+      "deathMoveMax": 0,
+      "deathMoveMin": 0,
+      "faction": "felheim",
+      "grabPos": [
+        15,
+        14
+      ],
+      "mapAnimation": "units/wagon/felheim/map_wagon_felheim",
+      "mapSpeed": 8.0,
+      "mediumPortrait": "units/wagon/felheim/portrait_wagon_felheim_medium.png",
+      "name": "unit_name_wagon_felheim",
+      "smallPortrait": "units/wagon/felheim/portrait_wagon_felheim_small.png",
+      "sounds": {
+        "death": "gateDie",
+        "deathMap": "unitDie",
+        "hit": "hitWood",
+        "hitMap": "hitWood",
+        "run": "wagonEntry",
+        "runMap": "wagonEntry"
+      },
+      "stayAfterDeath": "true"
+    },
+    {
+      "battleAnimation": "units/wagon/heavensong/battle_wagon_heavensong",
+      "class": "wagon",
+      "deathMoveMax": 0,
+      "deathMoveMin": 0,
+      "faction": "heavensong",
+      "grabPos": [
+        15,
+        14
+      ],
+      "mapAnimation": "units/wagon/heavensong/map_wagon_heavensong",
+      "mapSpeed": 6.0,
+      "mediumPortrait": "units/wagon/heavensong/portrait_wagon_heavensong_medium.png",
+      "name": "unit_name_wagon_heavensong",
+      "smallPortrait": "units/wagon/heavensong/portrait_wagon_heavensong_small.png",
+      "sounds": {
+        "death": "gateDie",
+        "deathMap": "unitDie",
+        "hit": "hitWood",
+        "hitMap": "hitWood",
+        "run": "wagonEntry",
+        "runMap": "wagonEntry"
+      },
+      "stayAfterDeath": "true"
+    },
+    {
+      "battleAnimation": "units/wagon/floran/battle_wagon_floran",
+      "class": "wagon",
+      "deathMoveMax": 0,
+      "deathMoveMin": 0,
+      "faction": "floran",
+      "grabPos": [
+        15,
+        14
+      ],
+      "mapAnimation": "units/wagon/floran/map_wagon_floran",
+      "mapSpeed": 6.0,
+      "mediumPortrait": "units/wagon/floran/portrait_wagon_floran_medium.png",
+      "name": "unit_name_wagon_floran",
+      "smallPortrait": "units/wagon/floran/portrait_wagon_floran_small.png",
+      "sounds": {
+        "death": "gateDie",
+        "deathMap": "unitDie",
+        "hit": "hitWood",
+        "hitMap": "hitWood",
+        "run": "wagonEntry",
+        "runMap": "wagonEntry"
+      },
+      "stayAfterDeath": "true"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "uiStyle": {
+    "optionBorder": {
+      "background": "ui/widgets/window/paper_border_options.png",
+      "clearBackground": {
+        "colour": "#F4F6E9",
+        "img": "ui/whitebox.png"
+      },
+      "innerBorder": [
+        31,
+        5,
+        31,
+        11
+      ],
+      "titleBar": "",
+      "titleBorder": [
+        3,
+        2,
+        3,
+        7
+      ],
+      "titleLabel": {
+        "colour": "#F4F6E9",
+        "font": "Nope",
+        "size": 16,
+        "smoothness": 0
+      }
+    }
+  }
+}

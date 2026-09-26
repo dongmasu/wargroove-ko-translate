@@ -1,0 +1,64 @@
+{
+  "children": [
+    {
+      "border": [
+        5,
+        5,
+        5,
+        5
+      ],
+      "widget": {
+        "class": "hybridList",
+        "id": "menu",
+        "options": [
+          {
+            "id": "play",
+            "textKey": "ui_campaign_editor_play"
+          },
+          {
+            "id": "properties",
+            "textKey": "ui_campaign_editor_properties"
+          },
+          {
+            "divider": "true",
+            "id": "modDivider"
+          },
+          {
+            "id": "mods",
+            "textKey": "ui_scenario_editor_mods"
+          },
+          {
+            "divider": "true"
+          },
+          {
+            "id": "delete_progress",
+            "textKey": "ui_campaign_editor_delete_progress"
+          },
+          {
+            "divider": "true"
+          },
+          {
+            "id": "exit",
+            "textKey": "ui_campaign_editor_exit"
+          },
+          {
+            "id": "cancel",
+            "textKey": "ui_campaign_editor_cancel"
+          }
+        ],
+        "size": [
+          150,
+          14
+        ]
+      }
+    }
+  ],
+  "sizer": {
+    "type": "vertical"
+  },
+  "widget": {
+    "class": "dialogue",
+    "style": "optionBorder",
+    "titleKey": "ui_campaign_editor_title"
+  }
+}

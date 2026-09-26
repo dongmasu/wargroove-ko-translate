@@ -1,0 +1,192 @@
+{
+  "unitClasses": [
+    {
+      "aiPriority": 8.0,
+      "battleUnitCount": 1,
+      "cost": 500,
+      "grooveId": "drone_bombs",
+      "id": "commander_koji",
+      "isCommander": "true",
+      "moveRange": 4,
+      "movement": "walking",
+      "name": "unit_class_name_commander",
+      "regeneration": 5,
+      "tags": [
+        "commander",
+        "type.ground.light",
+        "tall"
+      ],
+      "verbs": [
+        "load",
+        "capture"
+      ],
+      "weapons": [
+        {
+          "id": "kojiAttack"
+        }
+      ]
+    }
+  ],
+  "units": [
+    {
+      "alternativeAttackSounds": {
+        "no_voice": "koji/kojiAttackNoVoice"
+      },
+      "alternativeCapture": {
+        "endPosOffset": -160
+      },
+      "alternativeRuns": [
+        {
+          "id": "emote_mech",
+          "sound": "trebuchetMapEntry"
+        }
+      ],
+      "attacks": [
+        {
+          "hitDelay": 2.6500000953674316,
+          "hitSpark": "fx/bs_stab_attack",
+          "id": "primary"
+        }
+      ],
+      "battleAnimation": "units/commanders/koji/battle_koji",
+      "battleAnimationRiver": "fx/river_overlay/battle_koji_river",
+      "class": "commander_koji",
+      "deathMoveMax": 0,
+      "deathMoveMin": 0,
+      "emotes": {
+        "bow": "emote_bow",
+        "dance": "emote_dance",
+        "hypno": "emote_hypno",
+        "idle": "idle",
+        "mech": "emote_mech",
+        "negative": "emote_negative",
+        "positive": "emote_positive",
+        "surprise": "emote_surprise"
+      },
+      "faction": "heavensong",
+      "grabPos": [
+        29,
+        39
+      ],
+      "hidden": {
+        "alternativeRuns": [
+          "emote_mech"
+        ],
+        "emotes": [
+          "mech"
+        ]
+      },
+      "mapAnimation": "units/commanders/koji/map_koji",
+      "mapSpeed": 4.0,
+      "mediumPortrait": "units/commanders/koji/portrait_koji_medium.png",
+      "name": "character_koji_name",
+      "shouts": {
+        "koji_attack1": "koji/kojiShoutAttack1",
+        "koji_attack2": "koji/kojiShoutAttack2",
+        "koji_attack3": "koji/kojiShoutAttack3",
+        "koji_attack4": "koji/kojiShoutAttack4",
+        "koji_capture1": "koji/kojiShoutHopeICanFit",
+        "koji_capture2": "koji/kojiShoutAnyoneHome",
+        "koji_die": "koji/kojiShoutSorryMum",
+        "koji_groove": "koji/kojiShoutSparrowBombs",
+        "koji_groovecheer1": "koji/kojiShoutYeah2",
+        "koji_groovecheer2": "koji/kojiShoutHaha",
+        "koji_hey": "koji/kojiShoutHey",
+        "koji_heyangry": "koji/kojiShoutHeyAngry",
+        "koji_hit1": "koji/kojiShoutHit1",
+        "koji_hit2": "koji/kojiShoutHit2",
+        "koji_hit3": "koji/kojiShoutHit3",
+        "koji_hit4": "koji/kojiShoutHit4",
+        "koji_hit5": "koji/kojiShoutHit5",
+        "koji_hmph": "koji/kojiShoutHmph",
+        "koji_imadeitmyself": "koji/kojiShoutIMadeItMyself",
+        "koji_imrealsorry": "koji/kojiShoutImRealSorry",
+        "koji_imtougherthanyouthink": "koji/kojiShoutImTougherThanYouThink",
+        "koji_introdution": "koji/kojiShoutIntroduction",
+        "koji_ivemessedup": "koji/kojiShoutIveMessedUp",
+        "koji_iwon": "koji/kojiShoutIWon",
+        "koji_iwonawesome": "koji/kojiShoutIWonAwesome",
+        "koji_laugh1": "koji/kojiShoutLaugh1",
+        "koji_laugh2": "koji/kojiShoutLaugh2",
+        "koji_letshopethisworks": "koji/kojiShoutLetsHopeThisWorks",
+        "koji_naw": "koji/kojiShoutNaw",
+        "koji_oops": "koji/kojiShoutOops",
+        "koji_preattack1": "koji/kojiShoutIaidoStance",
+        "koji_preattack2": "koji/kojiShoutLetsGoTenko",
+        "koji_preattack3": "koji/kojiShoutBattleStanceActivate",
+        "koji_seeya": "koji/kojiShoutSeeYa",
+        "koji_select1": "koji/kojiShoutThisIsMyChance",
+        "koji_select2": "koji/kojiShoutThisWillBeAwesome",
+        "koji_sigh": "koji/kojiShoutSigh",
+        "koji_tenkoisdueforanupgrade": "koji/kojiShoutTenkoIsDueForAnUpgrade",
+        "koji_thanks": "koji/kojiShoutThanks",
+        "koji_thefinishingblow": "koji/kojiShoutTheFinishingBlow",
+        "koji_thisismypuppettenko": "koji/kojiShoutThisIsMyPuppetTenko",
+        "koji_thiswillbefun": "koji/kojiShoutThisWillBeFun",
+        "koji_uh": "koji/kojiShoutUh",
+        "koji_waah": "koji/kojiShoutWaah",
+        "koji_wha": "koji/kojiShoutWha",
+        "koji_wow": "koji/kojiShoutWow",
+        "koji_yeah": "koji/kojiShoutYeah1",
+        "koji_youshouldntthreatenme": "koji/kojiShoutYouShouldntThreatenMe",
+        "koji_youunderestimatedme": "koji/kojiShoutYouUnderestimatedMe"
+      },
+      "skinColour": "typeIII",
+      "smallPortrait": "units/commanders/koji/portrait_koji_small.png",
+      "sounds": {
+        "attack": "koji/kojiAttack",
+        "attackCommanderShout": "koji/kojiCommanderKillShout",
+        "attackMap": "unitAttack",
+        "attackShout": "koji/kojiPreAttack",
+        "capture": "koji/kojiCaptureCrash",
+        "captureShout": "koji/kojiCapture",
+        "death": "koji/kojiDie",
+        "deathMap": "koji/kojiDieGhost",
+        "deathMapNoBattle": "koji/kojiDieNoBattle",
+        "firstHit": "koji/kojiHit",
+        "groove": "koji/kojiGrooveIntro",
+        "hit": "hitWood",
+        "hitMap": "hitWood",
+        "run": "giantEntry",
+        "runMap": "giantEntry"
+      }
+    }
+  ],
+  "weapons": [
+    {
+      "baseDamage": {
+        "land": 1
+      },
+      "canMoveAndAttack": "true",
+      "id": "kojiAttack",
+      "rangeMax": 1,
+      "rangeMin": 1,
+      "tagDamage": {
+        "archer": 1.2999999523162842,
+        "ballista": 0.6000000238418579,
+        "balloon": 0.550000011920929,
+        "commander": 0.4000000059604645,
+        "dog": 1.149999976158142,
+        "dragon": 0.3499999940395355,
+        "giant": 0.4000000059604645,
+        "harpoonship": 0.44999998807907104,
+        "harpy": 0.8999999761581421,
+        "knight": 0.550000011920929,
+        "mage": 0.800000011920929,
+        "merman": 0.949999988079071,
+        "rifleman": 1.0499999523162842,
+        "soldier": 1.149999976158142,
+        "spearman": 0.75,
+        "structure": 0.699999988079071,
+        "thief": 0.949999988079071,
+        "travelboat": 0.6000000238418579,
+        "trebuchet": 0.550000011920929,
+        "turtle": 0.550000011920929,
+        "villager": 0.949999988079071,
+        "wagon": 0.699999988079071,
+        "warship": 0.550000011920929,
+        "witch": 0.699999988079071
+      }
+    }
+  ]
+}

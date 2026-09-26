@@ -1,0 +1,11 @@
+{
+  "author": "Finn",
+  "base": "colour_schemes/base_flat_dark",
+  "colours": {
+    "toolbarNormal": "#cb83cc",
+    "ui_listSelected": "#cb83cc",
+    "ui_stringMatchText": "#feacff",
+    "ui_unselectedTextAlt": "#feacff"
+  },
+  "name": "Flat Violet (Dark)"
+}

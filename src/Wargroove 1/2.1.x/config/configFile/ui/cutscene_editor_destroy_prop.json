@@ -1,0 +1,107 @@
+{
+  "children": [
+    {
+      "children": [
+        {
+          "proportion": 1,
+          "widget": {
+            "class": "optionsGrid",
+            "columnProportions": [
+              1.0,
+              0.0
+            ],
+            "options": [
+              {
+                "fill": "false",
+                "textKey": "ui_cutscene_blocking",
+                "widget": {
+                  "class": "checkbox",
+                  "id": "blocking"
+                }
+              },
+              {
+                "textKey": "ui_cutscene_prop",
+                "widget": {
+                  "class": "button",
+                  "id": "selectProp",
+                  "size": [
+                    100,
+                    14
+                  ],
+                  "textKey": "ui_widget_button_choose_prop"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "widget": {
+            "class": "horizontalDiv"
+          }
+        },
+        {
+          "children": [
+            {
+              "fill": [
+                "left"
+              ],
+              "widget": {
+                "button": "tertiary",
+                "class": "gamepadButton",
+                "id": "deleteEvent",
+                "size": [
+                  40,
+                  0
+                ],
+                "textKey": "ui_widget_button_delete_event"
+              }
+            },
+            {
+              "fill": [
+                "right"
+              ],
+              "proportion": 1,
+              "widget": {
+                "button": "cancel",
+                "class": "gamepadButton",
+                "id": "close",
+                "size": [
+                  40,
+                  12
+                ],
+                "textKey": "ui_widget_button_close"
+              }
+            }
+          ],
+          "fill": [
+            "fillHorizontal"
+          ],
+          "sizer": {
+            "columns": 2,
+            "type": "horizontal"
+          }
+        }
+      ],
+      "sizer": {
+        "type": "vertical"
+      },
+      "widget": {
+        "class": "dialogue",
+        "id": "window",
+        "size": [
+          200,
+          240
+        ],
+        "style": "optionBorder",
+        "titleKey": "ui_cutscene_action_type_destroy_prop"
+      }
+    }
+  ],
+  "sizer": {
+    "type": "vertical"
+  },
+  "widget": {
+    "childLayerAdjustment": 1,
+    "class": "widget"
+  }
+}

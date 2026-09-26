@@ -1,0 +1,63 @@
+{
+  "uiStyle": {
+    "listModActive": {
+      "background": "",
+      "disabledLabel": {
+        "colour": "#AFB1B4",
+        "font": "Wargroove Medium",
+        "size": 16
+      },
+      "extraMouseBorder": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "gap": 1,
+      "innerBorder": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "item": {
+        "disabled": {
+          "colour": "#EBE2C2",
+          "img": "ui/widgets/checkslider_list/checkslider_list_item_bg.png"
+        },
+        "drag": {
+          "img": "ui/widgets/checkslider_list/checkslider_list_item_drag.png"
+        },
+        "hover": {
+          "colour": "#BD9877",
+          "img": "ui/widgets/checkslider_list/checkslider_list_item_bg.png"
+        },
+        "innerBorder": [
+          3,
+          0,
+          3,
+          0
+        ],
+        "normal": {
+          "colour": "#DFC686",
+          "img": "ui/widgets/checkslider_list/checkslider_list_item_bg.png"
+        },
+        "selected": {
+          "colour": "#A47750",
+          "img": "ui/widgets/checkslider_list/checkslider_list_item_bg.png"
+        }
+      },
+      "label": {
+        "colour": "#3D4265",
+        "font": "Wargroove Medium",
+        "size": 16
+      },
+      "selectedLabel": {
+        "colour": "#F4F4E8",
+        "font": "Wargroove Medium",
+        "size": 16
+      },
+      "selectionChangedSound": "ui/menuSelect"
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "children": [
+    {
+      "children": [
+        {
+          "fill": "centre",
+          "proportion": 1,
+          "widget": {
+            "class": "image",
+            "id": "icon",
+            "sprite": "unit_icons_dragon",
+            "spriteSheet": "ui"
+          }
+        }
+      ],
+      "sizer": {
+        "type": "vertical"
+      },
+      "widget": {
+        "class": "image",
+        "colour": "#77AA08",
+        "id": "background",
+        "image": "ui/widgets/window/flat_box.png",
+        "size": [
+          11,
+          11
+        ]
+      }
+    }
+  ],
+  "sizer": {
+    "type": "vertical"
+  },
+  "widget": {
+    "class": "image",
+    "image": "ui/widgets/window/icon_border.png",
+    "innerBorder": [
+      2,
+      2,
+      2,
+      2
+    ]
+  }
+}

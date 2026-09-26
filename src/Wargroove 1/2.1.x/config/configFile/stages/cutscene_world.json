@@ -1,0 +1,35 @@
+{
+  "timelines": {
+    "render": [
+      "SpriteRender",
+      "SpriteSeparateShadowRender",
+      "WeatherRender",
+      "UIShadowRender",
+      "UIRender",
+      "CameraRender"
+    ],
+    "variableUpdate": [
+      "CutsceneCoordinator",
+      "CutsceneDialogue",
+      "CutsceneNarration",
+      "PlayerColour",
+      "Weather",
+      "Rain",
+      "Sandstorm",
+      "Snow",
+      "Wind",
+      "Ash",
+      "Move",
+      "Hierarchy",
+      "LoopingSound",
+      "Fade",
+      "DestroyAfterAnimation",
+      "SpriteAnimation",
+      "TimeShader",
+      "CameraShake",
+      "ScreenPosition",
+      "Particle",
+      "UILayout"
+    ]
+  }
+}

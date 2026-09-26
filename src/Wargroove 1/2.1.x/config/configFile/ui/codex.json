@@ -1,0 +1,622 @@
+{
+  "children": [
+    {
+      "children": [
+        {
+          "border": [
+            25,
+            15,
+            25,
+            15
+          ],
+          "children": [
+            {
+              "children": [
+                {
+                  "border": [
+                    2,
+                    0,
+                    2,
+                    0
+                  ],
+                  "children": [
+                    {
+                      "proportion": 1,
+                      "stretchSpacer": {}
+                    },
+                    {
+                      "border": [
+                        0,
+                        0,
+                        4,
+                        1
+                      ],
+                      "fill": "bottom",
+                      "widget": {
+                        "class": "image",
+                        "image": "ui/codex/codex_icon.png"
+                      }
+                    },
+                    {
+                      "fill": "centre",
+                      "widget": {
+                        "class": "label",
+                        "textKey": "ui_codex_title"
+                      }
+                    },
+                    {
+                      "proportion": 1,
+                      "stretchSpacer": {}
+                    }
+                  ],
+                  "fill": "left",
+                  "sizer": {
+                    "type": "horizontal"
+                  },
+                  "widget": {
+                    "class": "image",
+                    "colour": "#dfc686",
+                    "image": "ui/widgets/window/flat_box.png",
+                    "innerBorder": [
+                      5,
+                      -1,
+                      5,
+                      0
+                    ]
+                  }
+                },
+                {
+                  "border": [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  "widget": {
+                    "childLayerAdjustment": 1,
+                    "class": "list",
+                    "id": "tabs",
+                    "inputButtons": "tabs",
+                    "options": [
+                      {
+                        "id": "commanders",
+                        "textKey": "ui_codex_commanders"
+                      },
+                      {
+                        "id": "units",
+                        "textKey": "ui_codex_units"
+                      },
+                      {
+                        "id": "terrain",
+                        "textKey": "ui_codex_terrain"
+                      },
+                      {
+                        "id": "lore",
+                        "textKey": "ui_codex_lore"
+                      },
+                      {
+                        "id": "rules",
+                        "textKey": "ui_codex_rules"
+                      },
+                      {
+                        "id": "fish",
+                        "textKey": "ui_codex_fish"
+                      }
+                    ],
+                    "style": "tabs",
+                    "type": "horizontal"
+                  }
+                }
+              ],
+              "sizer": {
+                "type": "horizontal"
+              }
+            },
+            {
+              "border": [
+                0,
+                -2,
+                0,
+                1
+              ],
+              "widget": {
+                "class": "horizontalDiv",
+                "style": "darkHorizontalDiv"
+              }
+            },
+            {
+              "border": [
+                0,
+                -2,
+                0,
+                -2
+              ],
+              "children": [
+                {
+                  "border": [
+                    0,
+                    2,
+                    0,
+                    2
+                  ],
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "widget": {
+                            "class": "list",
+                            "id": "entriesList",
+                            "options": [
+                              {
+                                "id": "test1",
+                                "text": "Test1"
+                              },
+                              {
+                                "id": "test2",
+                                "text": "Test2"
+                              },
+                              {
+                                "id": "test3",
+                                "text": "Test3"
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      "proportion": 1,
+                      "sizer": {
+                        "type": "vertical"
+                      },
+                      "widget": {
+                        "class": "scrollBarPane",
+                        "size": [
+                          90,
+                          100
+                        ]
+                      }
+                    },
+                    {
+                      "border": [
+                        0,
+                        2,
+                        0,
+                        0
+                      ],
+                      "widget": {
+                        "button": "secondary",
+                        "class": "gamepadButton",
+                        "icon": "ui/icons/toggle_faction.png",
+                        "id": "toggleFaction",
+                        "size": [
+                          60,
+                          15
+                        ],
+                        "textKey": "ui_widget_button_toggle_faction"
+                      }
+                    },
+                    {
+                      "border": [
+                        0,
+                        2,
+                        0,
+                        0
+                      ],
+                      "widget": {
+                        "button": "secondary",
+                        "class": "gamepadButton",
+                        "icon": "ui/icons/toggle_faction.png",
+                        "id": "toggleBiome",
+                        "size": [
+                          60,
+                          15
+                        ],
+                        "textKey": "ui_widget_button_toggle_biome"
+                      }
+                    }
+                  ],
+                  "proportion": 0,
+                  "sizer": {
+                    "type": "vertical"
+                  }
+                },
+                {
+                  "proportion": 1,
+                  "stretchSpacer": {}
+                },
+                {
+                  "children": [
+                    {
+                      "border": [
+                        -14,
+                        0,
+                        -10,
+                        0
+                      ],
+                      "children": [
+                        {
+                          "widget": {
+                            "class": "button",
+                            "id": "leftArrow",
+                            "mouseBorder": [
+                              10,
+                              85,
+                              10,
+                              85
+                            ],
+                            "style": "buttonCodexLeft"
+                          }
+                        }
+                      ],
+                      "fill": "centre",
+                      "widget": {
+                        "class": "widget",
+                        "id": "leftArrowContainer",
+                        "size": [
+                          14,
+                          24
+                        ]
+                      }
+                    },
+                    {
+                      "border": [
+                        13,
+                        2,
+                        13,
+                        2
+                      ],
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "widget": {
+                                "class": "label",
+                                "id": "title",
+                                "maxWidth": 150,
+                                "text": "MERCIA"
+                              }
+                            },
+                            {
+                              "border": [
+                                0,
+                                -1,
+                                0,
+                                2
+                              ],
+                              "widget": {
+                                "class": "horizontalDiv",
+                                "id": "titleDiv",
+                                "style": "horizontalDivBlue"
+                              }
+                            },
+                            {
+                              "widget": {
+                                "class": "widget"
+                              }
+                            }
+                          ],
+                          "fill": "left",
+                          "sizer": {
+                            "gap": 0,
+                            "type": "vertical"
+                          }
+                        },
+                        {
+                          "widget": {
+                            "class": "label",
+                            "id": "description",
+                            "maxWidth": 150,
+                            "text": "Queen Mercia is the young daughter of King Mercival II, the legendary and beloved ruler of the Cherrystone Kingdom. She is well-meaning, but inexperienced in the matters of diplomacy."
+                          }
+                        },
+                        {
+                          "children": [
+                            {
+                              "proportion": 1,
+                              "stretchSpacer": {}
+                            },
+                            {
+                              "children": [
+                                {
+                                  "proportion": 1,
+                                  "stretchSpacer": {}
+                                },
+                                {
+                                  "children": [],
+                                  "sizer": {
+                                    "type": "horizontal"
+                                  },
+                                  "widget": {
+                                    "class": "widget",
+                                    "id": "matrix"
+                                  }
+                                },
+                                {
+                                  "proportion": 1,
+                                  "stretchSpacer": {}
+                                }
+                              ],
+                              "sizer": {
+                                "type": "horizontal"
+                              },
+                              "widget": {
+                                "active": "false",
+                                "class": "widget",
+                                "id": "matrixBase"
+                              }
+                            },
+                            {
+                              "proportion": 1,
+                              "stretchSpacer": {}
+                            }
+                          ],
+                          "fill": "centre",
+                          "proportion": 1,
+                          "sizer": {
+                            "type": "horizontal"
+                          }
+                        },
+                        {
+                          "border": [
+                            0,
+                            0,
+                            0,
+                            -2
+                          ],
+                          "children": [
+                            {
+                              "border": [
+                                2,
+                                -2,
+                                1,
+                                -1
+                              ],
+                              "fill": "centre",
+                              "widget": {
+                                "class": "label",
+                                "id": "pageNumber",
+                                "text": "1/4"
+                              }
+                            }
+                          ],
+                          "fill": "centre",
+                          "sizer": {
+                            "type": "vertical"
+                          },
+                          "widget": {
+                            "class": "image",
+                            "colour": "#DFC686",
+                            "id": "pageNumberRoot",
+                            "image": "ui/widgets/list/list_item_bg.png",
+                            "size": [
+                              20,
+                              10
+                            ]
+                          }
+                        }
+                      ],
+                      "proportion": 1,
+                      "sizer": {
+                        "type": "vertical"
+                      },
+                      "widget": {
+                        "class": "image",
+                        "colour": "#E9D6A4",
+                        "image": "ui/whitebox.png",
+                        "innerBorder": [
+                          3,
+                          3,
+                          3,
+                          0
+                        ]
+                      }
+                    },
+                    {
+                      "border": [
+                        -10,
+                        5,
+                        8,
+                        5
+                      ],
+                      "fill": "centre",
+                      "widget": {
+                        "active": "false",
+                        "animation": "ui/codex/content/commander_merciagroove",
+                        "class": "animation",
+                        "id": "animation",
+                        "size": [
+                          113,
+                          179
+                        ]
+                      }
+                    },
+                    {
+                      "border": [
+                        -10,
+                        5,
+                        8,
+                        5
+                      ],
+                      "fill": "centre",
+                      "widget": {
+                        "active": "true",
+                        "class": "image",
+                        "id": "image",
+                        "image": "ui/whitebox.png",
+                        "size": [
+                          113,
+                          179
+                        ]
+                      }
+                    },
+                    {
+                      "border": [
+                        -10,
+                        5,
+                        8,
+                        5
+                      ],
+                      "children": [],
+                      "fill": "centre",
+                      "sizer": {
+                        "type": "horizontal"
+                      },
+                      "widget": {
+                        "active": "false",
+                        "class": "widget",
+                        "id": "unitSpriteRoot"
+                      }
+                    },
+                    {
+                      "border": [
+                        -4,
+                        0,
+                        -14,
+                        0
+                      ],
+                      "children": [
+                        {
+                          "widget": {
+                            "class": "button",
+                            "id": "rightArrow",
+                            "mouseBorder": [
+                              10,
+                              85,
+                              10,
+                              85
+                            ],
+                            "style": "buttonCodexRight"
+                          }
+                        }
+                      ],
+                      "fill": "centre",
+                      "widget": {
+                        "class": "widget",
+                        "id": "rightArrowContainer",
+                        "size": [
+                          14,
+                          24
+                        ]
+                      }
+                    }
+                  ],
+                  "fill": "centre",
+                  "proportion": 0,
+                  "sizer": {
+                    "type": "horizontal"
+                  },
+                  "widget": {
+                    "class": "image",
+                    "image": "ui/codex/page.png",
+                    "size": [
+                      285,
+                      189
+                    ]
+                  }
+                },
+                {
+                  "proportion": 1,
+                  "stretchSpacer": {}
+                }
+              ],
+              "proportion": 1,
+              "sizer": {
+                "type": "horizontal"
+              },
+              "widget": {
+                "class": "image",
+                "colour": "#f4f6e9",
+                "image": "ui/whitebox.png"
+              }
+            },
+            {
+              "children": [
+                {
+                  "border": [
+                    0,
+                    2,
+                    0,
+                    1
+                  ],
+                  "widget": {
+                    "class": "horizontalDiv"
+                  }
+                },
+                {
+                  "widget": {
+                    "class": "dialogueButtons",
+                    "hasCancel": "false",
+                    "hasClose": "true",
+                    "hasOK": "false"
+                  }
+                }
+              ],
+              "sizer": {
+                "type": "vertical"
+              },
+              "widget": {
+                "active": "false",
+                "class": "widget",
+                "id": "bottomBar"
+              }
+            },
+            {
+              "widget": {
+                "class": "nearZoomButtons"
+              }
+            }
+          ],
+          "sizer": {
+            "type": "vertical"
+          },
+          "widget": {
+            "class": "framedImage",
+            "scrollPos": [
+              5,
+              -170
+            ],
+            "scrollSpeed": [
+              -10,
+              10
+            ],
+            "size": [
+              434,
+              245
+            ],
+            "style": "paperPattern"
+          }
+        }
+      ],
+      "fill": "centre",
+      "proportion": 1,
+      "sizer": {
+        "gap": 0,
+        "type": "vertical"
+      },
+      "widget": {
+        "class": "framedImage",
+        "scrollPos": [
+          10,
+          -170
+        ],
+        "scrollSpeed": [
+          10,
+          0
+        ],
+        "style": "bookScroll"
+      }
+    }
+  ],
+  "sizer": {
+    "type": "vertical"
+  },
+  "widget": {
+    "class": "image",
+    "colour": "#000000B0",
+    "id": "overlay",
+    "image": "ui/whitebox.png",
+    "size": [
+      4000,
+      4000
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "uiStyle": {
+    "discordButton": {
+      "borderOnly": "ui/widgets/button/button_border.png",
+      "disabled": "ui/widgets/button/button_disabled.png",
+      "down": "ui/widgets/button/discord_button_down.png",
+      "downSound": "ui/menuSelect",
+      "hover": "ui/widgets/button/discord_button_hover.png",
+      "hoverSound": "",
+      "iconBorder": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "innerBorder": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "label": {
+        "colour": "#F4F4E8",
+        "font": "Wargroove Medium",
+        "size": 16,
+        "smoothness": 0
+      },
+      "labelBorder": [
+        2,
+        -2,
+        1,
+        -1
+      ],
+      "normal": "ui/widgets/button/discord_button.png",
+      "shortcutPressedSound": "ui/menuSelect",
+      "upSound": ""
+    }
+  }
+}

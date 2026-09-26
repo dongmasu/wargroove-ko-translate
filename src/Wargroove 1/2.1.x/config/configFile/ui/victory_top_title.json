@@ -1,0 +1,7 @@
+{
+  "widget": {
+    "class": "image",
+    "id": "title",
+    "image": "ui/end_of_match/victory_defeat/victory.png"
+  }
+}

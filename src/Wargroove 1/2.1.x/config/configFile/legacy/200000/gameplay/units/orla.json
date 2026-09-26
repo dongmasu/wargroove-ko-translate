@@ -1,0 +1,173 @@
+{
+  "unitClasses": [
+    {
+      "aiPriority": 0,
+      "battleUnitCount": 1,
+      "classIcon": "unit_icons_commander",
+      "cost": 0,
+      "damageMultiplier": 1,
+      "hasTurn": "false",
+      "id": "commander_orla",
+      "isCommander": "true",
+      "isHidden": "false",
+      "isRecruitable": "false",
+      "isSpawnable": "false",
+      "moveRange": 4,
+      "movement": "walking",
+      "name": "character_orla_name",
+      "tags": [
+        "structure",
+        "summon"
+      ]
+    }
+  ],
+  "units": [
+    {
+      "alternativeRuns": [
+        {
+          "id": "run_requiem"
+        }
+      ],
+      "battleAnimation": "units/commanders/orla/battle_orla",
+      "class": "commander_orla",
+      "emotes": {
+        "aiming": "emote_aiming",
+        "cactus": "emote_cactus",
+        "crying": "emote_sad",
+        "dance": "emote_dance",
+        "dark_orla": "emote_dark_orla",
+        "idle": "idle",
+        "laugh": "emote_laugh",
+        "negative": "emote_angry",
+        "petting": "emote_petting",
+        "positive": "emote_happy",
+        "rope": "emote_rope",
+        "surprise": "emote_surprise"
+      },
+      "faction": "outlaw",
+      "grabPos": [
+        26,
+        16
+      ],
+      "hasBattleScreen": "false",
+      "hasUnitInfo": "false",
+      "hidden": {
+        "alternativeRuns": [
+          "run_requiem"
+        ],
+        "emotes": [
+          "rope",
+          "cactus",
+          "petting"
+        ],
+        "shouts": [
+          "twins_da",
+          "twins_hit",
+          "twins_laugh",
+          "twins_wondertwinpowers"
+        ]
+      },
+      "mapAnimation": "units/commanders/orla/map_orla",
+      "mapSpeed": 4.0,
+      "mediumPortrait": "units/commanders/orla/portrait_orla_medium.png",
+      "name": "character_orla_name",
+      "shouts": {
+        "orla_acuteweebeastie": "twins/orlaShoutCuteWeeBeastie",
+        "orla_alwright": "twins/orlaShoutAlright",
+        "orla_arewethereyet": "twins/orlaShoutAreWeThereYet",
+        "orla_attack1": "twins/orlaShoutAttack1",
+        "orla_attack2": "twins/orlaShoutAttack2",
+        "orla_attack3": "twins/orlaShoutAttack3",
+        "orla_attack4": "twins/orlaShoutAttack4",
+        "orla_aye": "twins/orlaShoutAye",
+        "orla_bombsaway": "twins/orlaShoutBombsAway",
+        "orla_bullseye": "twins/orlaShoutBullseye",
+        "orla_caesar": "twins/orlaShoutCaesar",
+        "orla_da": "twins/orlaShoutDa1",
+        "orla_dashout": "twins/orlaShoutDa2",
+        "orla_didyeseeme": "twins/orlaShoutDidYouSeeMe",
+        "orla_dog": "twins/orlaShoutDog",
+        "orla_donnaeunderestimateme": "twins/orlaShoutDontUnderestimateMe",
+        "orla_enid": "twins/orlaShoutEnid",
+        "orla_errol": "twins/orlaShoutErrol1",
+        "orla_errolshout": "twins/orlaShoutErrol2",
+        "orla_finderskeepers": "twins/orlaShoutFindersKeepers",
+        "orla_goodgearcomesin": "twins/orlaShoutGoodGear",
+        "orla_greenfinger": "twins/orlaShoutGreenfinger",
+        "orla_haha": "twins/orlaShoutHaha",
+        "orla_hit1": "twins/orlaShoutHit1",
+        "orla_hit2": "twins/orlaShoutHit2",
+        "orla_hit3": "twins/orlaShoutHit3",
+        "orla_hit4": "twins/orlaShoutHit4",
+        "orla_hit5": "twins/orlaShoutHit5",
+        "orla_hmm": "twins/orlaShoutHm2",
+        "orla_hmmquestion": "twins/orlaShoutHm1",
+        "orla_hmmthinking": "twins/orlaShoutHmm",
+        "orla_huh": "twins/orlaShoutHuh",
+        "orla_iknowahagwhen": "twins/orlaShoutIKnowAHag",
+        "orla_imangry": "twins/orlaShoutImAngry",
+        "orla_imgonnaehitemright": "twins/orlaShoutRightBetweenTheEyes",
+        "orla_imorla": "twins/orlaShoutIntroduction",
+        "orla_imsorryda": "twins/orlaShoutImSorryDa",
+        "orla_ireckonicandothat": "twins/orlaShoutReckonICanDoThat",
+        "orla_itsmeandyouerrol": "twins/orlaShoutItsMeAndYou",
+        "orla_iwasne": "twins/orlaShoutIWasne",
+        "orla_koji": "twins/orlaShoutKoji",
+        "orla_laugh1": "twins/orlaShoutLaugh1",
+        "orla_laugh2": "twins/orlaShoutLaugh2",
+        "orla_mercia": "twins/orlaShoutMercia",
+        "orla_mremeric": "twins/orlaShoutEmeric",
+        "orla_no": "twins/orlaShoutNo",
+        "orla_nodistressed": "twins/orlaShoutNoDistressed",
+        "orla_nowweretalking": "twins/orlaShoutNowWereTalking",
+        "orla_nuru": "twins/orlaShoutNuru",
+        "orla_oops": "twins/orlaShoutOops",
+        "orla_peskycritter": "twins/orlaShoutPeskyCritter",
+        "orla_ragna": "twins/orlaShoutRagna",
+        "orla_restinpeace": "twins/orlaShoutWhatHappenedToRestInPeace",
+        "orla_restinpieces": "twins/orlaShoutRestInPieces",
+        "orla_ryota": "twins/orlaShoutRyota",
+        "orla_sedge": "twins/orlaShoutSedge",
+        "orla_shhh": "twins/orlaShoutShhh",
+        "orla_shutyerface": "twins/orlaShoutShutYourFace",
+        "orla_sigh": "twins/orlaShoutSigh",
+        "orla_sigrid": "twins/orlaShoutSigrid",
+        "orla_sneakierthanashadow": "twins/orlaShoutSneakierThanAShadow",
+        "orla_tenri": "twins/orlaShoutTenri",
+        "orla_thankye": "twins/orlaShoutThankYou",
+        "orla_thatwasgreat": "twins/orlaShoutThatWasGreat",
+        "orla_thatwastough": "twins/orlaShoutThatWasTough",
+        "orla_theycannaehurtusnow": "twins/orlaShoutTheyCantHurtUsNow",
+        "orla_theywontseethiscoming": "twins/orlaShoutTheyWontSeeThisComing",
+        "orla_thislldonicely": "twins/orlaShoutThisWillDoNicely",
+        "orla_timetogo": "twins/orlaShoutTimeToGo",
+        "orla_twoheadsarebetter": "twins/orlaShoutTwoHeadsAreBetter",
+        "orla_uh": "twins/orlaShoutUh",
+        "orla_valder": "twins/orlaShoutValder",
+        "orla_vesper": "twins/orlaShoutVesper1",
+        "orla_vespersurprised": "twins/orlaShoutVesper2",
+        "orla_wereinvincible": "twins/orlaShoutWereInvincible",
+        "orla_wevegotthiserrol": "twins/orlaShoutWeveGotThis",
+        "orla_what": "twins/orlaShoutWhat",
+        "orla_whatacowbag": "twins/orlaShoutWhatACowbag",
+        "orla_whatsitfeelliketo": "twins/orlaShoutWhatsItFeelLike",
+        "orla_wondertwinpowers": "twins/orlaShoutWonderTwinPowers",
+        "orla_yebahookie": "twins/orlaShoutYeBahookie",
+        "orla_yergoindown": "twins/orlaShoutYoureGoingDown",
+        "orla_youdonnaewanttomess": "twins/orlaShoutImAnOutlaw",
+        "twins_da": "twins/twinsShoutDa",
+        "twins_hit": "twins/twinsShoutHit",
+        "twins_laugh": "twins/twinsShoutLaugh",
+        "twins_wondertwinpowers": "twins/twinsShoutWonderTwinPowers"
+      },
+      "skinColour": "typeVI",
+      "smallPortrait": "units/commanders/orla/portrait_orla_small.png",
+      "sounds": {
+        "groove": "twins/orlaGrooveIntro",
+        "hit": "hitOrganic",
+        "run": "infantryLightEntry",
+        "runMap": "infantryLightMapEntry"
+      }
+    }
+  ]
+}

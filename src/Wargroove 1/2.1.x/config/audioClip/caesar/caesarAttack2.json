@@ -1,0 +1,85 @@
+{
+  "_assetType": "audioClip",
+  "_decoded": {
+    "legacy": true,
+    "actions": [
+      {
+        "type": "play",
+        "scope": 1,
+        "clip": "sfx/caesar/caesarAttackCirclesFoley.ogg",
+        "group": "sfx",
+        "gain": [
+          1.0,
+          1.0
+        ],
+        "pitch": [
+          1.0,
+          1.0
+        ],
+        "legacyTailHex": "000000000000000000",
+        "legacyTailFloats": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "type": "play",
+        "scope": 1,
+        "clip": "sfx/caesar/caesarAttackCrossbowFoley.ogg",
+        "group": "sfx",
+        "gain": [
+          1.0,
+          1.0
+        ],
+        "pitch": [
+          1.0,
+          1.0
+        ],
+        "legacyTailHex": "0000003f0000000000",
+        "legacyTailFloats": [
+          0.5,
+          0.0
+        ]
+      },
+      {
+        "type": "play",
+        "scope": 1,
+        "clip": "sfx/caesar/caesarAttackCrossbowFoley.ogg",
+        "group": "sfx",
+        "gain": [
+          1.0,
+          1.0
+        ],
+        "pitch": [
+          1.0,
+          1.0
+        ],
+        "legacyTailHex": "9a99193f0000000000",
+        "legacyTailFloats": [
+          0.6000000238418579,
+          0.0
+        ]
+      },
+      {
+        "type": "play",
+        "scope": 1,
+        "clip": "sfx/caesar/caesarPantingShort.ogg",
+        "group": "voice",
+        "gain": [
+          1.0,
+          1.0
+        ],
+        "pitch": [
+          1.0,
+          1.0
+        ],
+        "legacyTailHex": "9a99593f0000000000",
+        "legacyTailFloats": [
+          0.8500000238418579,
+          0.0
+        ]
+      }
+    ]
+  },
+  "_payloadHex": "0400000004000000706c617901000000270000007366782f6361657361722f63616573617241747461636b436972636c6573466f6c65792e6f6767030000007366780000803f0000803f0000803f0000803f00000000000000000004000000706c617901000000280000007366782f6361657361722f63616573617241747461636b43726f7373626f77466f6c65792e6f6767030000007366780000803f0000803f0000803f0000803f0000003f000000000004000000706c617901000000280000007366782f6361657361722f63616573617241747461636b43726f7373626f77466f6c65792e6f6767030000007366780000803f0000803f0000803f0000803f9a99193f000000000004000000706c617901000000210000007366782f6361657361722f63616573617250616e74696e6753686f72742e6f676705000000766f6963650000803f0000803f0000803f0000803f9a99593f0000000000"
+}

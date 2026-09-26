@@ -1,0 +1,70 @@
+{
+  "children": [
+    {
+      "children": [
+        {
+          "fill": "centre",
+          "widget": {
+            "class": "label",
+            "textKey": "ui_codex_stats"
+          }
+        },
+        {
+          "border": [
+            2,
+            2,
+            2,
+            2
+          ],
+          "children": [
+            {
+              "widget": {
+                "class": "image",
+                "colour": "#F4F6E9",
+                "image": "ui/widgets/list/list_item_bg.png",
+                "size": [
+                  100,
+                  16
+                ]
+              }
+            },
+            {
+              "widget": {
+                "class": "image",
+                "colour": "#F4F6E9",
+                "image": "ui/widgets/list/list_item_bg.png",
+                "size": [
+                  100,
+                  16
+                ]
+              }
+            }
+          ],
+          "sizer": {
+            "type": "vertical"
+          },
+          "widget": {
+            "class": "widget",
+            "id": "statsSizer"
+          }
+        }
+      ],
+      "sizer": {
+        "type": "vertical"
+      },
+      "widget": {
+        "class": "image",
+        "colour": "#DFC686",
+        "id": "statsRoot",
+        "image": "ui/widgets/list/list_item_bg.png"
+      }
+    }
+  ],
+  "sizer": {
+    "gap": 4,
+    "type": "horizontal"
+  },
+  "widget": {
+    "class": "widget"
+  }
+}

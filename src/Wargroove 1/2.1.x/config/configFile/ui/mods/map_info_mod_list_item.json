@@ -1,0 +1,87 @@
+{
+  "children": [
+    {
+      "proportion": 1.0,
+      "widget": {
+        "class": "label",
+        "id": "name",
+        "textKey": "content_validation_missing_mods_name"
+      }
+    },
+    {
+      "children": [
+        {
+          "fill": "centre",
+          "proportion": 1,
+          "widget": {
+            "class": "label",
+            "id": "version",
+            "textKey": "content_validation_missing_mods_version"
+          }
+        }
+      ],
+      "fill": "right",
+      "sizer": {
+        "type": "vertical"
+      },
+      "widget": {
+        "class": "widget",
+        "size": [
+          60,
+          0
+        ]
+      }
+    },
+    {
+      "children": [
+        {
+          "fill": "centre",
+          "widget": {
+            "class": "label",
+            "id": "upgradeTitle",
+            "textKey": "content_validation_missing_mods_upgrade"
+          }
+        },
+        {
+          "border": [
+            0,
+            0,
+            -2,
+            0
+          ],
+          "fill": "centre",
+          "widget": {
+            "class": "checkbox",
+            "id": "upgradeCheck",
+            "style": "checkbox_colour_indicator"
+          }
+        }
+      ],
+      "fill": "right",
+      "sizer": {
+        "type": "vertical"
+      },
+      "widget": {
+        "class": "widget",
+        "id": "upgradeHolder",
+        "size": [
+          40,
+          0
+        ]
+      }
+    }
+  ],
+  "sizer": {
+    "gap": 2,
+    "type": "horizontal"
+  },
+  "widget": {
+    "class": "widget",
+    "innerBorder": [
+      2,
+      2,
+      2,
+      2
+    ]
+  }
+}

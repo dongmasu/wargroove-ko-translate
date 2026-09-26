@@ -1,0 +1,28 @@
+{
+  "_assetType": "audioClip",
+  "_decoded": {
+    "legacy": true,
+    "actions": [
+      {
+        "type": "play",
+        "scope": 1,
+        "clip": "sfx/greenfinger/greenfingerFloranCallForAid.ogg",
+        "group": "voice",
+        "gain": [
+          1.0,
+          1.0
+        ],
+        "pitch": [
+          1.0,
+          1.0
+        ],
+        "legacyTailHex": "000000000000000000",
+        "legacyTailFloats": [
+          0.0,
+          0.0
+        ]
+      }
+    ]
+  },
+  "_payloadHex": "0100000004000000706c6179010000002f0000007366782f677265656e66696e6765722f677265656e66696e676572466c6f72616e43616c6c466f724169642e6f676705000000766f6963650000803f0000803f0000803f0000803f000000000000000000"
+}

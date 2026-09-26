@@ -1,0 +1,34 @@
+{
+  "children": [
+    {
+      "fill": [
+        "centre"
+      ],
+      "widget": {
+        "class": "image",
+        "id": "image",
+        "image": "ui/main_menu/big_logo/chucklefishpixel_logo.png",
+        "size": [
+          133,
+          133
+        ]
+      }
+    },
+    {
+      "fill": "false",
+      "widget": {
+        "class": "label",
+        "id": "text",
+        "style": "labelWhite",
+        "text": "<Firstname Lastname>"
+      }
+    }
+  ],
+  "fill": "false",
+  "sizer": {
+    "type": "vertical"
+  },
+  "widget": {
+    "class": "widget"
+  }
+}

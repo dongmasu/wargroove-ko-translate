@@ -1,0 +1,53 @@
+{
+  "unitClasses": [
+    {
+      "appearsInLists": "false",
+      "battleUnitCount": 1,
+      "buffId": "crystal",
+      "classIcon": "unit_icons_summon",
+      "damageMultiplier": 1.0,
+      "deathVerbId": "death_area_heal",
+      "hasDeathAnimation": "false",
+      "hasTurn": "false",
+      "id": "area_heal",
+      "isHidden": "true",
+      "isRecruitable": "false",
+      "isSpawnable": "false",
+      "moveRange": 0,
+      "movement": "walking",
+      "name": "unit_class_name_area_heal",
+      "passiveMultiplier": 1.25,
+      "regeneration": -100,
+      "sightRange": 0,
+      "tags": [
+        "summon"
+      ]
+    }
+  ],
+  "units": [
+    {
+      "battleAnimation": "units/commanders/emeric/battle_crystal",
+      "class": "area_heal",
+      "deathMoveMax": 0,
+      "deathMoveMin": 0,
+      "faction": "outlaw",
+      "grabPos": [
+        13,
+        14
+      ],
+      "mapAnimation": "units/commanders/emeric/crystal",
+      "mapSpeed": 4.0,
+      "mediumPortrait": "units/commanders/emeric/portrait_crystal_medium.png",
+      "name": "unit_class_name_area_heal",
+      "runsIn": "false",
+      "smallPortrait": "units/balloon/heavensong/portrait_balloon_heavensong_small.png",
+      "sounds": {
+        "death": "emeric/emericCrystalDie",
+        "deathMap": "unitDie",
+        "deathMapNoBattle": "emeric/emericCrystalDie",
+        "hit": "hitStone",
+        "hitMap": "hitStone"
+      }
+    }
+  ]
+}

@@ -1,0 +1,179 @@
+{
+  "children": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "border": [
+                20,
+                10,
+                20,
+                10
+              ],
+              "children": [
+                {
+                  "border": [
+                    20,
+                    5,
+                    20,
+                    5
+                  ],
+                  "children": [
+                    {
+                      "widget": {
+                        "class": "optionsGrid",
+                        "columnProportions": [
+                          1.0,
+                          0.0
+                        ],
+                        "options": [
+                          {
+                            "textKey": "server_lobby_title_input",
+                            "widget": {
+                              "class": "textInput",
+                              "id": "titleInput",
+                              "maxLength": 140,
+                              "size": [
+                                100,
+                                15
+                              ]
+                            }
+                          },
+                          {
+                            "textKey": "server_lobby_privacy_input",
+                            "widget": {
+                              "class": "dropdown",
+                              "id": "privacyInput",
+                              "size": [
+                                100,
+                                15
+                              ]
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "sizer": {
+                    "type": "vertical"
+                  }
+                },
+                {
+                  "border": [
+                    0,
+                    5,
+                    0,
+                    0
+                  ],
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "widget": {
+                            "button": "cancel",
+                            "class": "gamepadButton",
+                            "id": "cancel",
+                            "size": [
+                              40,
+                              15
+                            ],
+                            "textKey": "ui_widget_button_back"
+                          }
+                        }
+                      ],
+                      "proportion": 1,
+                      "sizer": {
+                        "gap": 0,
+                        "type": "horizontal"
+                      }
+                    },
+                    {
+                      "children": [
+                        {
+                          "widget": {
+                            "button": "secondary",
+                            "class": "gamepadButton",
+                            "id": "ok",
+                            "size": [
+                              40,
+                              15
+                            ],
+                            "textKey": "ui_widget_button_ok"
+                          }
+                        }
+                      ],
+                      "fill": "right",
+                      "proportion": 1,
+                      "sizer": {
+                        "gap": 0,
+                        "type": "horizontal"
+                      }
+                    }
+                  ],
+                  "fill": [
+                    "fillHorizontal"
+                  ],
+                  "sizer": {
+                    "type": "horizontal"
+                  }
+                }
+              ],
+              "fill": "centre",
+              "sizer": {
+                "gap": 0,
+                "type": "vertical"
+              },
+              "widget": {
+                "class": "dialogue",
+                "style": "dialogueLight",
+                "titleKey": "server_lobby_privacy"
+              }
+            }
+          ],
+          "fill": "centre",
+          "proportion": 1,
+          "sizer": {
+            "gap": 0,
+            "type": "vertical"
+          },
+          "widget": {
+            "class": "framedImage",
+            "scrollPos": [
+              10,
+              -170
+            ],
+            "scrollSpeed": [
+              15,
+              0
+            ],
+            "size": [
+              700,
+              10
+            ],
+            "style": "paperScroll"
+          }
+        }
+      ],
+      "sizer": {
+        "type": "vertical"
+      },
+      "widget": {
+        "class": "image",
+        "colour": "#000000B0",
+        "image": "ui/whitebox.png",
+        "size": [
+          640,
+          360
+        ]
+      }
+    }
+  ],
+  "sizer": {
+    "type": "vertical"
+  },
+  "widget": {
+    "childLayerAdjustment": 1,
+    "class": "widget"
+  }
+}

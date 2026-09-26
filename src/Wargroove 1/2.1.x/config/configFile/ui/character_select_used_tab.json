@@ -1,0 +1,64 @@
+{
+  "children": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "border": [
+                4,
+                -2,
+                0,
+                0
+              ],
+              "fill": "top",
+              "widget": {
+                "class": "paletteSwapImage",
+                "id": "portrait",
+                "image": "units/commanders/mercia/portrait_mercia_small.png",
+                "material": "Wargroove/PaletteSwap",
+                "skinColour": "typeII",
+                "swapColour": "red"
+              }
+            },
+            {
+              "border": [
+                2,
+                0,
+                0,
+                0
+              ],
+              "fill": "left",
+              "proportion": 1,
+              "widget": {
+                "class": "label",
+                "id": "playerId",
+                "style": "labelWhite",
+                "text": "P1"
+              }
+            }
+          ],
+          "widget": {
+            "class": "image",
+            "colour": "#FFFFFFFF",
+            "id": "flashing",
+            "image": "ui/character_select/player_tab_flash.png",
+            "layerAdjustment": 1
+          }
+        }
+      ],
+      "fill": "top",
+      "widget": {
+        "class": "paletteSwapImage",
+        "id": "tab",
+        "image": "ui/character_select/player_tab_used.png",
+        "material": "Wargroove/PaletteSwap",
+        "skinColour": "typeII",
+        "swapColour": "red"
+      }
+    }
+  ],
+  "widget": {
+    "class": "widget"
+  }
+}

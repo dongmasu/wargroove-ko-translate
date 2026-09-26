@@ -1,0 +1,433 @@
+{
+  "unitClasses": [
+    {
+      "aiPriority": 1.0,
+      "battleUnitCount": 4,
+      "canSeeOverTerrain": "true",
+      "cost": 800,
+      "damageMultiplier": 1.0,
+      "id": "witch",
+      "moveRange": 7,
+      "movement": "flying",
+      "name": "unit_class_name_witch",
+      "passiveMultiplier": 2.0,
+      "sightRange": 6,
+      "tags": [
+        "witch",
+        "type.air",
+        "spellcaster"
+      ],
+      "verbs": [
+        "spell_hex"
+      ],
+      "weapons": [
+        {
+          "id": "witchSpell"
+        }
+      ]
+    }
+  ],
+  "units": [
+    {
+      "attacks": [
+        {
+          "attackEffectSound": "attackEffect1",
+          "cutscenePivot": [
+            -35,
+            140
+          ],
+          "effect": "fx/bs_witch_fx_1",
+          "effectDelay": 0.5,
+          "hitDelay": [
+            1.4500000476837158
+          ],
+          "id": "oneWitch",
+          "numAttackers": 1,
+          "ranged": "true"
+        },
+        {
+          "attackEffectSound": "attackEffect2",
+          "cutscenePivot": [
+            -35,
+            140
+          ],
+          "effect": "fx/bs_witch_fx_2",
+          "effectDelay": 0.5,
+          "hitDelay": [
+            1.4500000476837158,
+            1.75
+          ],
+          "id": "twoWitches",
+          "numAttackers": 2,
+          "ranged": "true"
+        },
+        {
+          "attackEffectSound": "attackEffect3",
+          "cutscenePivot": [
+            -35,
+            140
+          ],
+          "effect": "fx/bs_witch_fx_3",
+          "effectDelay": 0.5,
+          "hitDelay": [
+            1.4500000476837158,
+            1.75,
+            2.1500000953674316
+          ],
+          "id": "threeWitches",
+          "numAttackers": 3,
+          "ranged": "true"
+        },
+        {
+          "attackEffectSound": "attackEffect4",
+          "cutscenePivot": [
+            -35,
+            140
+          ],
+          "effect": "fx/bs_witch_fx_4",
+          "effectDelay": 0.5,
+          "hitDelay": [
+            1.4500000476837158,
+            1.75,
+            2.1500000953674316,
+            2.549999952316284
+          ],
+          "id": "fourWitches",
+          "numAttackers": 4,
+          "ranged": "true"
+        }
+      ],
+      "battleAnimation": "units/witch/cherrystone/battle_witch_cherrystone",
+      "class": "witch",
+      "faction": "cherrystone",
+      "grabPos": [
+        17,
+        15
+      ],
+      "mapAnimation": "units/witch/cherrystone/map_witch_cherrystone",
+      "mapSpeed": 8.0,
+      "mediumPortrait": "units/witch/cherrystone/portrait_witch_cherrystone_medium.png",
+      "name": "unit_name_witch_cherrystone",
+      "smallPortrait": "units/witch/cherrystone/portrait_witch_cherrystone_small.png",
+      "sounds": {
+        "attack": "witchAttack",
+        "attackEffect1": "witchAttackEffect1",
+        "attackEffect2": "witchAttackEffect2",
+        "attackEffect3": "witchAttackEffect3",
+        "attackEffect4": "witchAttackEffect4",
+        "attackMap": "unitAttack",
+        "death": "witchDie",
+        "deathMap": "unitDie",
+        "hit": "hitOrganic",
+        "hitMap": "hitOrganic",
+        "run": "witchEntry",
+        "runMap": "witchEntryMap"
+      }
+    },
+    {
+      "attacks": [
+        {
+          "attackEffectSound": "attackEffect1",
+          "cutscenePivot": [
+            -35,
+            140
+          ],
+          "effect": "fx/bs_witch_fx_1",
+          "effectDelay": 0.5,
+          "hitDelay": [
+            1.4500000476837158
+          ],
+          "id": "oneWitch",
+          "numAttackers": 1,
+          "ranged": "true"
+        },
+        {
+          "attackEffectSound": "attackEffect2",
+          "cutscenePivot": [
+            -35,
+            140
+          ],
+          "effect": "fx/bs_witch_fx_2",
+          "effectDelay": 0.5,
+          "hitDelay": [
+            1.4500000476837158,
+            1.75
+          ],
+          "id": "twoWitches",
+          "numAttackers": 2,
+          "ranged": "true"
+        },
+        {
+          "attackEffectSound": "attackEffect3",
+          "cutscenePivot": [
+            -35,
+            140
+          ],
+          "effect": "fx/bs_witch_fx_3",
+          "effectDelay": 0.5,
+          "hitDelay": [
+            1.4500000476837158,
+            1.75,
+            2.1500000953674316
+          ],
+          "id": "threeWitches",
+          "numAttackers": 3,
+          "ranged": "true"
+        },
+        {
+          "attackEffectSound": "attackEffect4",
+          "cutscenePivot": [
+            -35,
+            140
+          ],
+          "effect": "fx/bs_witch_fx_4",
+          "effectDelay": 0.5,
+          "hitDelay": [
+            1.4500000476837158,
+            1.75,
+            2.1500000953674316,
+            2.549999952316284
+          ],
+          "id": "fourWitches",
+          "numAttackers": 4,
+          "ranged": "true"
+        }
+      ],
+      "battleAnimation": "units/witch/felheim/battle_witch_felheim",
+      "class": "witch",
+      "faction": "felheim",
+      "grabPos": [
+        17,
+        15
+      ],
+      "mapAnimation": "units/witch/felheim/map_witch_felheim",
+      "mapSpeed": 8.0,
+      "mediumPortrait": "units/witch/felheim/portrait_witch_felheim_medium.png",
+      "name": "unit_name_witch_felheim",
+      "smallPortrait": "units/witch/felheim/portrait_witch_felheim_small.png",
+      "sounds": {
+        "attack": "witchAttackBlue",
+        "attackEffect1": "witchAttackEffect1",
+        "attackEffect2": "witchAttackEffect2",
+        "attackEffect3": "witchAttackEffect3",
+        "attackEffect4": "witchAttackEffect4",
+        "attackMap": "unitAttack",
+        "death": "undeadDieCrumble",
+        "deathMap": "unitDie",
+        "hit": "hitBone",
+        "hitMap": "hitBone",
+        "run": "witchEntry",
+        "runMap": "witchEntryMap"
+      }
+    },
+    {
+      "attacks": [
+        {
+          "attackEffectSound": "attackEffect1",
+          "cutscenePivot": [
+            -35,
+            140
+          ],
+          "effect": "fx/bs_witch_fx_1",
+          "effectDelay": 0.5,
+          "hitDelay": [
+            1.4500000476837158
+          ],
+          "id": "oneWitch",
+          "numAttackers": 1,
+          "ranged": "true"
+        },
+        {
+          "attackEffectSound": "attackEffect2",
+          "cutscenePivot": [
+            -35,
+            140
+          ],
+          "effect": "fx/bs_witch_fx_2",
+          "effectDelay": 0.5,
+          "hitDelay": [
+            1.4500000476837158,
+            1.75
+          ],
+          "id": "twoWitches",
+          "numAttackers": 2,
+          "ranged": "true"
+        },
+        {
+          "attackEffectSound": "attackEffect3",
+          "cutscenePivot": [
+            -35,
+            140
+          ],
+          "effect": "fx/bs_witch_fx_3",
+          "effectDelay": 0.5,
+          "hitDelay": [
+            1.4500000476837158,
+            1.75,
+            2.1500000953674316
+          ],
+          "id": "threeWitches",
+          "numAttackers": 3,
+          "ranged": "true"
+        },
+        {
+          "attackEffectSound": "attackEffect4",
+          "cutscenePivot": [
+            -35,
+            140
+          ],
+          "effect": "fx/bs_witch_fx_4",
+          "effectDelay": 0.5,
+          "hitDelay": [
+            1.4500000476837158,
+            1.75,
+            2.1500000953674316,
+            2.549999952316284
+          ],
+          "id": "fourWitches",
+          "numAttackers": 4,
+          "ranged": "true"
+        }
+      ],
+      "battleAnimation": "units/witch/heavensong/battle_witch_heavensong",
+      "class": "witch",
+      "faction": "heavensong",
+      "grabPos": [
+        17,
+        15
+      ],
+      "mapAnimation": "units/witch/heavensong/map_witch_heavensong",
+      "mapSpeed": 8.0,
+      "mediumPortrait": "units/witch/heavensong/portrait_witch_heavensong_medium.png",
+      "name": "unit_name_witch_heavensong",
+      "smallPortrait": "units/witch/heavensong/portrait_witch_heavensong_small.png",
+      "sounds": {
+        "attack": "witchAttack",
+        "attackEffect1": "witchAttackEffect1",
+        "attackEffect2": "witchAttackEffect2",
+        "attackEffect3": "witchAttackEffect3",
+        "attackEffect4": "witchAttackEffect4",
+        "attackMap": "unitAttack",
+        "death": "witchDie",
+        "deathMap": "unitDie",
+        "hit": "hitOrganic",
+        "hitMap": "hitOrganic",
+        "run": "witchEntry",
+        "runMap": "witchEntryMap"
+      }
+    },
+    {
+      "attacks": [
+        {
+          "attackEffectSound": "attackEffect1",
+          "cutscenePivot": [
+            -35,
+            140
+          ],
+          "effect": "fx/bs_witch_fx_1",
+          "effectDelay": 0.5,
+          "hitDelay": [
+            1.4500000476837158
+          ],
+          "id": "oneWitch",
+          "numAttackers": 1,
+          "ranged": "true"
+        },
+        {
+          "attackEffectSound": "attackEffect2",
+          "cutscenePivot": [
+            -35,
+            140
+          ],
+          "effect": "fx/bs_witch_fx_2",
+          "effectDelay": 0.5,
+          "hitDelay": [
+            1.4500000476837158,
+            1.75
+          ],
+          "id": "twoWitches",
+          "numAttackers": 2,
+          "ranged": "true"
+        },
+        {
+          "attackEffectSound": "attackEffect3",
+          "cutscenePivot": [
+            -35,
+            140
+          ],
+          "effect": "fx/bs_witch_fx_3",
+          "effectDelay": 0.5,
+          "hitDelay": [
+            1.4500000476837158,
+            1.75,
+            2.1500000953674316
+          ],
+          "id": "threeWitches",
+          "numAttackers": 3,
+          "ranged": "true"
+        },
+        {
+          "attackEffectSound": "attackEffect4",
+          "cutscenePivot": [
+            -35,
+            140
+          ],
+          "effect": "fx/bs_witch_fx_4",
+          "effectDelay": 0.5,
+          "hitDelay": [
+            1.4500000476837158,
+            1.75,
+            2.1500000953674316,
+            2.549999952316284
+          ],
+          "id": "fourWitches",
+          "numAttackers": 4,
+          "ranged": "true"
+        }
+      ],
+      "battleAnimation": "units/witch/floran/battle_witch_floran",
+      "class": "witch",
+      "faction": "floran",
+      "grabPos": [
+        17,
+        17
+      ],
+      "mapAnimation": "units/witch/floran/map_witch_floran",
+      "mapSpeed": 8.0,
+      "mediumPortrait": "units/witch/floran/portrait_witch_floran_medium.png",
+      "name": "unit_name_witch_floran",
+      "smallPortrait": "units/witch/floran/portrait_witch_floran_small.png",
+      "sounds": {
+        "attack": "witchAttackGreen",
+        "attackEffect1": "witchAttackEffect1",
+        "attackEffect2": "witchAttackEffect2",
+        "attackEffect3": "witchAttackEffect3",
+        "attackEffect4": "witchAttackEffect4",
+        "attackMap": "unitAttack",
+        "death": "soldierDieGreen",
+        "deathMap": "unitDie",
+        "hit": "hitOrganic",
+        "hitMap": "hitOrganic",
+        "run": "witchEntry",
+        "runMap": "witchEntryMap"
+      }
+    }
+  ],
+  "weapons": [
+    {
+      "baseDamage": {
+        "air": 1
+      },
+      "canMoveAndAttack": "true",
+      "id": "witchSpell",
+      "rangeMax": 1,
+      "rangeMin": 1,
+      "tagDamage": {
+        "balloon": 0.5,
+        "dragon": 0.3499999940395355,
+        "harpy": 0.6000000238418579,
+        "witch": 0.3499999940395355
+      }
+    }
+  ]
+}

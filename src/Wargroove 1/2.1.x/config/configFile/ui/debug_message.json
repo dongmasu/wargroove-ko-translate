@@ -1,0 +1,9 @@
+{
+  "widget": {
+    "class": "label",
+    "id": "text",
+    "maxWidth": 320,
+    "style": "floatingLabel",
+    "text": "Hello world"
+  }
+}

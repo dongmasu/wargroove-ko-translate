@@ -1,0 +1,51 @@
+{
+  "children": [
+    {
+      "children": [
+        {
+          "proportion": 1,
+          "stretchSpacer": {}
+        },
+        {
+          "border": [
+            0,
+            0,
+            0,
+            60
+          ],
+          "fill": "centre",
+          "widget": {
+            "animation": "units/soldier/cherrystone/battle_soldier_cherrystone",
+            "class": "paletteSwapAnimation",
+            "colour": "red",
+            "direction": "left",
+            "id": "unit",
+            "sequence": "idle",
+            "skinColour": "typeIII"
+          }
+        }
+      ],
+      "sizer": {
+        "type": "vertical"
+      },
+      "widget": {
+        "class": "scrollPane",
+        "clipSize": [
+          113,
+          179
+        ],
+        "scrollHorizontal": "false",
+        "scrollVertical": "false",
+        "size": [
+          113,
+          179
+        ]
+      }
+    }
+  ],
+  "widget": {
+    "class": "image",
+    "id": "background",
+    "image": "ui/codex/content/background_road_grass.png"
+  }
+}

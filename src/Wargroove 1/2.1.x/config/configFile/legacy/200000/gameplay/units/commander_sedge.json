@@ -1,0 +1,196 @@
+{
+  "unitClasses": [
+    {
+      "aiPriority": 8.0,
+      "battleUnitCount": 1,
+      "cost": 500,
+      "grooveId": "sadistic_rush",
+      "id": "commander_sedge",
+      "isCommander": "true",
+      "moveRange": 4,
+      "movement": "walking",
+      "name": "unit_class_name_commander",
+      "regeneration": 5,
+      "tags": [
+        "commander",
+        "type.ground.light"
+      ],
+      "verbs": [
+        "load",
+        "capture"
+      ],
+      "weapons": [
+        {
+          "id": "sedgeAttack"
+        }
+      ]
+    }
+  ],
+  "units": [
+    {
+      "alternativeAttackSounds": {
+        "no_voice": "sedge/sedgeAttackNoVoice"
+      },
+      "attackRunTimeMax": 0,
+      "attackRunTimeMin": 0,
+      "attacks": [
+        {
+          "hitDelay": 0.6000000238418579,
+          "hitSpark": "fx/bs_stab_attack",
+          "id": "secondary",
+          "samePanel": "true"
+        },
+        {
+          "againstBuilding": "true",
+          "attackAnimationSequence": "attack_building",
+          "attackSound": "attackBuilding",
+          "hitDelay": 0.800000011920929,
+          "hitSpark": "fx/bs_stab_attack",
+          "id": "attackBuilding"
+        },
+        {
+          "hitDelay": 0.6000000238418579,
+          "hitSpark": "fx/bs_stab_attack",
+          "id": "primary"
+        }
+      ],
+      "battleAnimation": "units/commanders/sedge/battle_sedge",
+      "battleAnimationRiver": "fx/river_overlay/battle_sedge_river",
+      "class": "commander_sedge",
+      "deathMoveMax": 0,
+      "deathMoveMin": 0,
+      "emotes": {
+        "dance": "emote_dance",
+        "dead": "emote_dead",
+        "dying": "emote_dying",
+        "idle": "idle",
+        "laugh": "emote_laugh",
+        "negative": "emote_negative",
+        "positive": "emote_positive",
+        "surprise": "emote_surprise"
+      },
+      "faction": "floran",
+      "grabPos": [
+        36,
+        62
+      ],
+      "hidden": {
+        "alternativeRuns": [
+          "angry_run"
+        ],
+        "emotes": [
+          "dead",
+          "dying"
+        ],
+        "shouts": [
+          "sedge_blades"
+        ]
+      },
+      "mapAnimation": "units/commanders/sedge/map_sedge",
+      "mapSpeed": 4.0,
+      "mediumPortrait": "units/commanders/sedge/portrait_sedge_medium.png",
+      "name": "character_sedge_name",
+      "shouts": {
+        "sedge_alwayswins": "sedge/sedgeShoutAlwaysWins",
+        "sedge_attack1": "sedge/sedgeShoutAttack1",
+        "sedge_attack2": "sedge/sedgeShoutAttack2",
+        "sedge_attack3": "sedge/sedgeShoutAttack3",
+        "sedge_attackgloat1": "sedge/sedgeShoutAttackGloat1",
+        "sedge_attackgloat2": "sedge/sedgeShoutAttackGloat2",
+        "sedge_blades": "sedge/sedgeShoutBlades",
+        "sedge_capture": "sedge/sedgeShoutAllBelongs",
+        "sedge_die": "sedge/sedgeShoutTheHuntEnds",
+        "sedge_doesntteleport": "sedge/sedgeShoutDoesntTeleport",
+        "sedge_flyaway": "sedge/sedgeShoutFlyAway",
+        "sedge_freshprey": "sedge/sedgeShoutFreshPrey",
+        "sedge_goodbye": "sedge/sedgeShoutGoodbye",
+        "sedge_hellofriends": "sedge/sedgeShoutHelloFriends",
+        "sedge_hiss": "sedge/sedgeShoutHiss",
+        "sedge_hit1": "sedge/sedgeShoutHit1",
+        "sedge_hit2": "sedge/sedgeShoutHit2",
+        "sedge_hit3": "sedge/sedgeShoutHit3",
+        "sedge_hmph1": "sedge/sedgeShoutHmph1",
+        "sedge_hmph2": "sedge/sedgeShoutHmph2",
+        "sedge_hungers": "sedge/sedgeShoutHungers",
+        "sedge_laugh1": "sedge/sedgeShoutLaugh1",
+        "sedge_laugh2": "sedge/sedgeShoutLaugh2",
+        "sedge_laugh3": "sedge/sedgeShoutLaugh3",
+        "sedge_look": "sedge/sedgeShoutLook",
+        "sedge_neverloses": "sedge/sedgeShoutNeverLoses",
+        "sedge_no": "sedge/sedgeShoutNo",
+        "sedge_oops": "sedge/sedgeShoutOops",
+        "sedge_select": "sedge/sedgeShoutTheHuntBegins",
+        "sedge_sigh": "sedge/sedgeShoutSigh",
+        "sedge_sighcontented": "sedge/sedgeShoutSighContented",
+        "sedge_thanks": "sedge/sedgeShoutThanks",
+        "sedge_thehunt": "sedge/sedgeShoutTheHunt",
+        "sedge_thiswasfun": "sedge/sedgeShoutThisWasFun",
+        "sedge_timetorun": "sedge/sedgeShoutTimeToRun",
+        "sedge_trespassers": "sedge/sedgeShoutTrespassers",
+        "sedge_watchyourstep": "sedge/sedgeShoutWatchYourStep",
+        "sedge_what": "sedge/sedgeShoutWhat",
+        "sedge_willbeeasy": "sedge/sedgeShoutWillBeEasy",
+        "sedge_willcatchyou": "sedge/sedgeShoutWillCatchYou",
+        "sedge_yes": "sedge/sedgeShoutYes",
+        "sedge_youllregretthis": "sedge/sedgeShoutYoullRegretThis",
+        "sedge_youlltastegood": "sedge/sedgeShoutYoullTasteGood",
+        "sedge_yousmellgood": "sedge/sedgeShoutYouSmellGood"
+      },
+      "smallPortrait": "units/commanders/sedge/portrait_sedge_small.png",
+      "sounds": {
+        "attack": "sedge/sedgeAttack",
+        "attackBuilding": "sedge/sedgeAttackBuilding",
+        "attackCommander": "sedge/sedgeCommanderKillAttack",
+        "attackMap": "unitAttack",
+        "captureShout": "sedge/sedgeShoutAllBelongs",
+        "death": "sedge/sedgeDie",
+        "deathMap": "sedge/sedgeDieGhost",
+        "deathMapNoBattle": "sedge/sedgeDieNoBattle",
+        "firstHit": "sedge/sedgeHit",
+        "groove": "sedge/sedgeGrooveIntro",
+        "hit": "hitOrganic",
+        "hitMap": "hitOrganic",
+        "preAttack": "sedge/sedgePreAttack",
+        "run": "infantryLightMapEntry",
+        "runMap": "infantryLightMapEntry"
+      }
+    }
+  ],
+  "weapons": [
+    {
+      "baseDamage": {
+        "land": 1
+      },
+      "canMoveAndAttack": "true",
+      "id": "sedgeAttack",
+      "rangeMax": 1,
+      "rangeMin": 1,
+      "tagDamage": {
+        "archer": 1.2999999523162842,
+        "ballista": 0.6000000238418579,
+        "balloon": 0.550000011920929,
+        "commander": 0.4000000059604645,
+        "dog": 1.149999976158142,
+        "dragon": 0.3499999940395355,
+        "giant": 0.4000000059604645,
+        "harpoonship": 0.44999998807907104,
+        "harpy": 0.8999999761581421,
+        "knight": 0.550000011920929,
+        "mage": 0.800000011920929,
+        "merman": 0.949999988079071,
+        "rifleman": 1.0499999523162842,
+        "soldier": 1.149999976158142,
+        "spearman": 0.75,
+        "structure": 0.699999988079071,
+        "thief": 0.949999988079071,
+        "travelboat": 0.6000000238418579,
+        "trebuchet": 0.550000011920929,
+        "turtle": 0.550000011920929,
+        "villager": 0.949999988079071,
+        "wagon": 0.699999988079071,
+        "warship": 0.550000011920929,
+        "witch": 0.699999988079071
+      }
+    }
+  ]
+}

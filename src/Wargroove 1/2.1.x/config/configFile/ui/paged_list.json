@@ -1,0 +1,97 @@
+{
+  "children": [
+    {
+      "children": [
+        {
+          "widget": {
+            "class": "list",
+            "id": "list"
+          }
+        }
+      ],
+      "proportion": 1,
+      "sizer": {
+        "type": "vertical"
+      },
+      "widget": {
+        "class": "scrollBarPane"
+      }
+    },
+    {
+      "children": [
+        {
+          "border": [
+            2,
+            2,
+            2,
+            2
+          ],
+          "fill": "left",
+          "proportion": 0,
+          "widget": {
+            "class": "button",
+            "id": "pageLeft",
+            "mouseBorder": [
+              10,
+              4,
+              50,
+              4
+            ],
+            "style": "buttonPageLeft"
+          }
+        },
+        {
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "fill": "centre",
+          "proportion": 1,
+          "widget": {
+            "class": "label",
+            "id": "pageLabel"
+          }
+        },
+        {
+          "border": [
+            2,
+            2,
+            2,
+            2
+          ],
+          "fill": "right",
+          "proprtion": 0,
+          "widget": {
+            "class": "button",
+            "id": "pageRight",
+            "mouseBorder": [
+              50,
+              4,
+              10,
+              4
+            ],
+            "style": "buttonPageRight"
+          }
+        }
+      ],
+      "proportion": 0,
+      "sizer": {
+        "gap": 0,
+        "type": "horizontal"
+      },
+      "widget": {
+        "class": "widget",
+        "id": "footer"
+      }
+    }
+  ],
+  "sizer": {
+    "gap": 0,
+    "type": "vertical"
+  },
+  "widget": {
+    "class": "widget"
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "children": [
+    {
+      "sizer": {
+        "type": "vertical"
+      },
+      "widget": {
+        "class": "widget",
+        "id": "stateHolder"
+      }
+    },
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "widget": {
+                "class": "image",
+                "id": "portrait",
+                "image": "ui/medium_portrait_background.png"
+              }
+            }
+          ],
+          "widget": {
+            "class": "image",
+            "id": "background",
+            "image": "ui/medium_portrait_background.png"
+          }
+        }
+      ],
+      "fill": "centre",
+      "sizer": {
+        "type": "vertical"
+      },
+      "widget": {
+        "class": "image",
+        "image": "ui/main_game_ui/card_ui_middle.png",
+        "innerBorder": [
+          2,
+          2,
+          2,
+          2
+        ]
+      }
+    },
+    {
+      "border": [
+        3,
+        0,
+        3,
+        0
+      ],
+      "children": [
+        {
+          "border": [
+            0,
+            -1,
+            0,
+            0
+          ],
+          "fill": "centre",
+          "widget": {
+            "class": "image",
+            "sprite": "mapscreen_selectedunitinfo_icons_life",
+            "spriteSheet": "ui"
+          }
+        },
+        {
+          "border": [
+            0,
+            -3,
+            -1,
+            0
+          ],
+          "fill": null,
+          "widget": {
+            "class": "label",
+            "id": "health",
+            "style": "labelSmall",
+            "text": "100%"
+          }
+        }
+      ],
+      "sizer": {
+        "type": "horizontal"
+      },
+      "widget": {
+        "class": "widget",
+        "innerBorder": [
+          1,
+          0,
+          0,
+          0
+        ]
+      }
+    }
+  ],
+  "sizer": {
+    "type": "vertical"
+  },
+  "widget": {
+    "class": "image",
+    "image": "ui/main_game_ui/card_ui_sliced.png",
+    "innerBorder": [
+      0,
+      2,
+      0,
+      1
+    ]
+  }
+}

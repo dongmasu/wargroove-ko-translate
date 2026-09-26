@@ -1,0 +1,47 @@
+{
+  "unitClasses": [
+    {
+      "aiPriority": 0,
+      "battleUnitCount": 1,
+      "classIcon": "unit_icons_commander",
+      "cost": 0,
+      "damageMultiplier": 1,
+      "hasTurn": "false",
+      "id": "ghost_mercival",
+      "isHidden": "true",
+      "isRecruitable": "false",
+      "isSpawnable": "false",
+      "moveRange": 4,
+      "movement": "walking",
+      "name": "character_ghost_mercival_name",
+      "tags": [
+        "structure",
+        "summon"
+      ]
+    }
+  ],
+  "units": [
+    {
+      "battleAnimation": "units/commanders/mercival/battle_mercival",
+      "class": "ghost_mercival",
+      "faction": "cherrystone",
+      "grabPos": [
+        26,
+        16
+      ],
+      "hasBattleScreen": "false",
+      "hasUnitInfo": "false",
+      "mapAnimation": "units/commanders/mercival/map_mercival_ghost",
+      "mapSpeed": 4.0,
+      "mediumPortrait": "units/commanders/mercival/portrait_mercival_ghost_medium.png",
+      "name": "character_mercival_name",
+      "smallPortrait": "units/commanders/mercival/portrait_mercival_ghost_small.png",
+      "sounds": {
+        "death": "soldierDieRed",
+        "hit": "hitOrganic",
+        "run": "infantryLightEntry",
+        "runMap": "infantryLightMapEntry"
+      }
+    }
+  ]
+}

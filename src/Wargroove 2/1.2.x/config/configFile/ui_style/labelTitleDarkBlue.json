@@ -1,0 +1,24 @@
+{
+  "uiStyle": {
+    "labelTitleDarkBlue": {
+      "iconBorder": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "label": {
+        "colour": "#46324c",
+        "font": "Nope",
+        "size": 16,
+        "smoothness": 0
+      },
+      "labelBorder": [
+        0,
+        -4,
+        -1,
+        -3
+      ]
+    }
+  }
+}

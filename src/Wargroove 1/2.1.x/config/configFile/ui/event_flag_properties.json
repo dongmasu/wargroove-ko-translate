@@ -1,0 +1,85 @@
+{
+  "children": [
+    {
+      "border": [
+        5,
+        5,
+        5,
+        5
+      ],
+      "widget": {
+        "class": "optionsGrid",
+        "columnProportions": [
+          1.0,
+          0.0
+        ],
+        "options": [
+          {
+            "sprite": "menuicons_flag",
+            "spriteSheet": "ui",
+            "textKey": "ui_flag_properties_name",
+            "widget": {
+              "class": "textInput",
+              "id": "name",
+              "size": [
+                120,
+                14
+              ]
+            }
+          },
+          {
+            "fill": "false",
+            "sprite": "menuicons_enabled",
+            "spriteSheet": "ui",
+            "textKey": "ui_flag_properties_default",
+            "widget": {
+              "class": "checkbox",
+              "id": "flagValue"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "widget": {
+        "class": "horizontalDiv"
+      }
+    },
+    {
+      "children": [
+        {
+          "widget": {
+            "button": "tertiary",
+            "class": "gamepadButton",
+            "id": "delete",
+            "size": [
+              40,
+              16
+            ],
+            "textKey": "ui_widget_button_delete"
+          }
+        },
+        {
+          "proportion": 1,
+          "stretchSpacer": {}
+        },
+        {
+          "widget": {
+            "class": "dialogueButtons",
+            "hasCancel": "false",
+            "hasClose": "true",
+            "hasOK": "false"
+          }
+        }
+      ]
+    }
+  ],
+  "sizer": {
+    "type": "vertical"
+  },
+  "widget": {
+    "class": "dialogue",
+    "style": "optionBorder",
+    "titleKey": "ui_flag_properties_title"
+  }
+}

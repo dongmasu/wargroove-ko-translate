@@ -1,0 +1,409 @@
+{
+  "children": [
+    {
+      "widget": {
+        "class": "tabbedPane",
+        "id": "tabs",
+        "tabs": [
+          {
+            "children": [
+              {
+                "border": [
+                  3,
+                  4,
+                  3,
+                  2
+                ],
+                "fill": "fill",
+                "widget": {
+                  "class": "optionsGrid",
+                  "columnProportions": [
+                    1.0,
+                    0.0
+                  ],
+                  "options": [
+                    {
+                      "sprite": "menuicons_mapname",
+                      "spriteSheet": "ui",
+                      "textKey": "ui_map_properties_name",
+                      "widget": {
+                        "class": "textInput",
+                        "ghostKey": "ui_map_properties_name_ghost",
+                        "id": "mapName",
+                        "maxLength": 40,
+                        "size": [
+                          150,
+                          12
+                        ]
+                      }
+                    },
+                    {
+                      "sprite": "menuicons_description",
+                      "spriteSheet": "ui",
+                      "textKey": "ui_map_properties_description",
+                      "widget": {
+                        "class": "textInput",
+                        "ghostKey": "ui_map_properties_description_ghost",
+                        "id": "description",
+                        "maxLength": 300,
+                        "size": [
+                          150,
+                          12
+                        ]
+                      }
+                    },
+                    {
+                      "sprite": "menuicons_maptype",
+                      "spriteSheet": "ui",
+                      "textKey": "ui_map_properties_map_type",
+                      "widget": {
+                        "class": "dropdown",
+                        "id": "mapType"
+                      }
+                    },
+                    {
+                      "sprite": "menuicons_biome",
+                      "spriteSheet": "ui",
+                      "textKey": "ui_map_properties_biome",
+                      "widget": {
+                        "class": "dropdown",
+                        "id": "biome"
+                      }
+                    },
+                    {
+                      "sprite": "menuicons_fow",
+                      "spriteSheet": "ui",
+                      "textKey": "ui_map_properties_visibility",
+                      "widget": {
+                        "class": "dropdown",
+                        "id": "visibility"
+                      }
+                    },
+                    {
+                      "sprite": "menuicons_weather",
+                      "spriteSheet": "ui",
+                      "textKey": "ui_map_properties_weather",
+                      "widget": {
+                        "class": "dropdown",
+                        "id": "weatherFrequency"
+                      }
+                    },
+                    {
+                      "sprite": "menuicons_plays_music",
+                      "spriteSheet": "ui",
+                      "textKey": "ui_map_properties_music",
+                      "widget": {
+                        "class": "dropdown",
+                        "id": "music"
+                      }
+                    },
+                    {
+                      "if": "false",
+                      "sprite": "menuicons_screen_filter",
+                      "spriteSheet": "ui",
+                      "textKey": "ui_map_properties_screen_filter",
+                      "widget": {
+                        "class": "dropdown",
+                        "id": "screenFilter"
+                      }
+                    }
+                  ]
+                }
+              }
+            ],
+            "sizer": {
+              "type": "vertical"
+            },
+            "textKey": "ui_map_properties_general"
+          },
+          {
+            "children": [
+              {
+                "border": [
+                  0,
+                  3,
+                  3,
+                  3
+                ],
+                "fill": "centre",
+                "widget": {
+                  "class": "mapResizePreview",
+                  "id": "mapResizePreview"
+                }
+              },
+              {
+                "border": [
+                  0,
+                  3,
+                  0,
+                  3
+                ],
+                "children": [
+                  {
+                    "border": [
+                      10,
+                      20,
+                      10,
+                      0
+                    ],
+                    "proportion": 1,
+                    "widget": {
+                      "class": "optionsGrid",
+                      "columnProportions": [
+                        2.5,
+                        1.0
+                      ],
+                      "options": [
+                        {
+                          "sprite": "menuicons_resize_left",
+                          "spriteSheet": "ui",
+                          "textKey": "ui_map_size_left",
+                          "widget": {
+                            "class": "spinControl",
+                            "id": "sizeLeft",
+                            "maxValue": 250,
+                            "minValue": -250
+                          }
+                        },
+                        {
+                          "sprite": "menuicons_resize_top",
+                          "spriteSheet": "ui",
+                          "textKey": "ui_map_size_top",
+                          "widget": {
+                            "class": "spinControl",
+                            "id": "sizeTop",
+                            "maxValue": 250,
+                            "minValue": -250
+                          }
+                        },
+                        {
+                          "sprite": "menuicons_resize_right",
+                          "spriteSheet": "ui",
+                          "textKey": "ui_map_size_right",
+                          "widget": {
+                            "class": "spinControl",
+                            "id": "sizeRight",
+                            "maxValue": 250,
+                            "minValue": -250
+                          }
+                        },
+                        {
+                          "sprite": "menuicons_resize_bottom",
+                          "spriteSheet": "ui",
+                          "textKey": "ui_map_size_bottom",
+                          "widget": {
+                            "class": "spinControl",
+                            "id": "sizeBottom",
+                            "maxValue": 250,
+                            "minValue": -250
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "proportion": 1,
+                "widget": {
+                  "class": "image",
+                  "colour": "#f4f6e9",
+                  "image": "ui/widgets/window/cartouche.png"
+                }
+              }
+            ],
+            "sizer": {
+              "type": "horizontal"
+            },
+            "textKey": "ui_map_properties_resize"
+          },
+          {
+            "children": [
+              {
+                "border": [
+                  3,
+                  3,
+                  3,
+                  3
+                ],
+                "proportion": 1,
+                "widget": {
+                  "class": "optionsGrid",
+                  "columnProportions": [
+                    1.0,
+                    0.0
+                  ],
+                  "id": "scenarioOptions",
+                  "options": [
+                    {
+                      "sprite": "menuicons_objective",
+                      "spriteSheet": "ui",
+                      "textKey": "ui_map_properties_objective",
+                      "widget": {
+                        "class": "textInput",
+                        "ghostKey": "ui_map_properties_objective_ghost",
+                        "id": "objective",
+                        "maxLength": 200,
+                        "size": [
+                          150,
+                          12
+                        ]
+                      }
+                    },
+                    {
+                      "fill": "false",
+                      "sprite": "menuicons_commander",
+                      "spriteSheet": "ui",
+                      "textKey": "ui_map_properties_choose_character",
+                      "widget": {
+                        "class": "checkbox",
+                        "id": "chooseCharacter"
+                      }
+                    },
+                    {
+                      "fill": "false",
+                      "sprite": "menuicons_joint_defeat",
+                      "spriteSheet": "ui",
+                      "textKey": "ui_map_properties_joint_defeat",
+                      "widget": {
+                        "class": "checkbox",
+                        "id": "jointDefeat"
+                      }
+                    },
+                    {
+                      "fill": "false",
+                      "sprite": "menuicons_money",
+                      "spriteSheet": "ui",
+                      "textKey": "ui_map_properties_income_multiplier",
+                      "widget": {
+                        "class": "spinControl",
+                        "id": "income",
+                        "increment": 0.10000000149011612,
+                        "maxValue": 10,
+                        "minValue": 0,
+                        "size": [
+                          60,
+                          15
+                        ]
+                      }
+                    }
+                  ]
+                }
+              }
+            ],
+            "sizer": {
+              "type": "vertical"
+            },
+            "textKey": "ui_map_properties_scenario"
+          }
+        ]
+      }
+    },
+    {
+      "widget": {
+        "class": "toolTip",
+        "maxHeight": 42,
+        "maxWidth": 270,
+        "size": [
+          250,
+          51
+        ],
+        "tips": [
+          {
+            "id": "mapName",
+            "textKey": "ui_map_properties_name_tooltip"
+          },
+          {
+            "id": "description",
+            "textKey": "ui_map_properties_description_tooltip"
+          },
+          {
+            "id": "biome",
+            "textKey": "ui_map_properties_biome_tooltip"
+          },
+          {
+            "id": "visibility",
+            "textKey": "ui_map_properties_visibility_tooltip"
+          },
+          {
+            "id": "weatherFrequency",
+            "textKey": "ui_map_properties_weather_tooltip"
+          },
+          {
+            "id": "music",
+            "textKey": "ui_map_properties_music_tooltip"
+          },
+          {
+            "id": "mapType",
+            "textKey": "ui_map_properties_map_type_tooltip"
+          },
+          {
+            "id": "sizeLeft",
+            "startsWith": "true",
+            "textKey": "ui_map_size_left_tooltip"
+          },
+          {
+            "id": "sizeTop",
+            "startsWith": "true",
+            "textKey": "ui_map_size_top_tooltip"
+          },
+          {
+            "id": "sizeRight",
+            "startsWith": "true",
+            "textKey": "ui_map_size_right_tooltip"
+          },
+          {
+            "id": "sizeBottom",
+            "startsWith": "true",
+            "textKey": "ui_map_size_bottom_tooltip"
+          },
+          {
+            "id": "chooseCharacter",
+            "textKey": "ui_map_properties_choose_character_tooltip"
+          },
+          {
+            "id": "sRankTurns",
+            "startsWith": "true",
+            "textKey": "ui_map_properties_s_rank_turns_tooltip"
+          },
+          {
+            "id": "objective",
+            "textKey": "ui_map_properties_objective_tooltip"
+          },
+          {
+            "id": "jointDefeat",
+            "textKey": "ui_map_properties_joint_defeat_tooltip"
+          },
+          {
+            "id": "income",
+            "startsWith": "true",
+            "textKey": "ui_map_properties_income_tooltip"
+          },
+          {
+            "id": "screenFilter",
+            "textKey": "ui_map_properties_screen_filter_tooltip"
+          }
+        ]
+      }
+    },
+    {
+      "widget": {
+        "class": "horizontalDiv"
+      }
+    },
+    {
+      "widget": {
+        "class": "dialogueButtons",
+        "hasCancel": "false",
+        "hasClose": "true",
+        "hasOK": "false"
+      }
+    }
+  ],
+  "sizer": {
+    "type": "vertical"
+  },
+  "widget": {
+    "class": "dialogue",
+    "style": "optionBorder",
+    "titleKey": "ui_map_properties_title"
+  }
+}

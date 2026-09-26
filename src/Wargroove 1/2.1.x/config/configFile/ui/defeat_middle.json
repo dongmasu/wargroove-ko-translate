@@ -1,0 +1,36 @@
+{
+  "children": [
+    {
+      "border": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "fill": "centre",
+      "proportion": 1,
+      "widget": {
+        "class": "image",
+        "id": "title",
+        "image": "ui/end_of_match/victory_defeat/defeat.png"
+      }
+    }
+  ],
+  "fill": "centre",
+  "widget": {
+    "class": "framedImage",
+    "scrollPos": [
+      0,
+      0
+    ],
+    "scrollSpeed": [
+      20,
+      0
+    ],
+    "size": [
+      502,
+      75
+    ],
+    "style": "rippedMapBanner"
+  }
+}

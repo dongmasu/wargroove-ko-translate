@@ -1,0 +1,35 @@
+{
+  "timelines": {
+    "render": [
+      "CampaignOverlay",
+      "SpriteRender",
+      "DottedLineRender",
+      "UIRender",
+      "CameraRenderTarget",
+      "CameraRender"
+    ],
+    "variableUpdate": [
+      "UIMouse",
+      "SelectionCursor",
+      "LoopingSound",
+      "ConquestUnlocksLoading",
+      "ConquestUnlocksUI",
+      "Bird",
+      "Cloud",
+      "ShadowCaster",
+      "LightSourceCaster",
+      "DestroyAfterAnimation",
+      "CameraShake",
+      "Hierarchy",
+      "CameraScrolling",
+      "ScreenPosition",
+      "GridPositioning",
+      "PlayerColour",
+      "SpriteAnimation",
+      "LightSourceAnimation",
+      "TimeShader",
+      "UILayout",
+      "Fade"
+    ]
+  }
+}

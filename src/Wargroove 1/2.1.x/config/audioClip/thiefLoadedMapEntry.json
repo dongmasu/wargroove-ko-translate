@@ -1,0 +1,28 @@
+{
+  "_assetType": "audioClip",
+  "_decoded": {
+    "legacy": true,
+    "actions": [
+      {
+        "type": "play",
+        "scope": 1,
+        "clip": "sfx/thiefLoadedEntry.ogg",
+        "group": "sfx",
+        "gain": [
+          1.100000023841858,
+          1.100000023841858
+        ],
+        "pitch": [
+          1.0,
+          1.0
+        ],
+        "legacyTailHex": "000000000000000001",
+        "legacyTailFloats": [
+          0.0,
+          0.0
+        ]
+      }
+    ]
+  },
+  "_payloadHex": "0100000004000000706c617901000000180000007366782f74686965664c6f61646564456e7472792e6f676703000000736678cdcc8c3fcdcc8c3f0000803f0000803f000000000000000001"
+}

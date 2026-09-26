@@ -1,0 +1,65 @@
+{
+  "unitClasses": [
+    {
+      "aiPriority": 3.0,
+      "battleUnitCount": 1,
+      "canBeCaptured": "true",
+      "canBeReinforced": "false",
+      "canReinforce": "true",
+      "cost": 500,
+      "damageMultiplier": 1,
+      "id": "water_city",
+      "income": 100,
+      "isNeutraliseable": "true",
+      "isStructure": "true",
+      "movement": "sea_building",
+      "name": "structure_name_water_city",
+      "regeneration": 10,
+      "sightRange": 6,
+      "tags": [
+        "structure"
+      ]
+    }
+  ],
+  "units": [
+    {
+      "class": "water_city",
+      "faction": "neutral",
+      "grabPos": [
+        14,
+        13
+      ],
+      "mapAnimation": [
+        "structures/watercities",
+        "structures/watercities2",
+        "structures/watercities3"
+      ],
+      "mediumPortrait": "portraits/medium/water_city.png",
+      "name": "structure_name_water_city",
+      "smallPortrait": "portraits/small/portrait_structure_small.png",
+      "sounds": {
+        "death": "gateDie",
+        "hit": "hitWood",
+        "hitMap": "hitWood"
+      },
+      "structureImage": {
+        "farBackground": "watercity_background_full_background_2",
+        "foreground": "watercity_background_full_foreground",
+        "keeperPosition": [
+          78,
+          95
+        ],
+        "leftBannerOffset": [
+          -6,
+          2
+        ],
+        "nearBackground": "watercity_background_full_background_1",
+        "rightBannerOffset": [
+          0,
+          2
+        ],
+        "spriteSheet": "backgrounds/watercity/watercity_background_full"
+      }
+    }
+  ]
+}

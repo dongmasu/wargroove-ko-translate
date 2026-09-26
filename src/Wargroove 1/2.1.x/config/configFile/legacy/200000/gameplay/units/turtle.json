@@ -1,0 +1,192 @@
+{
+  "unitClasses": [
+    {
+      "aiPriority": 1.0,
+      "battleUnitCount": 4,
+      "cost": 400,
+      "damageMultiplier": 1,
+      "id": "turtle",
+      "isHiddenInCutsceneEditor": "true",
+      "moveRange": 12,
+      "movement": "sailing",
+      "name": "unit_class_name_turtle",
+      "passiveMultiplier": 1.5,
+      "scout": "true",
+      "sightRange": 6,
+      "tags": [
+        "turtle",
+        "type.sea"
+      ],
+      "weapons": [
+        {
+          "id": "turtleBite"
+        }
+      ]
+    }
+  ],
+  "units": [
+    {
+      "attacks": [
+        {
+          "effect": "fx/bs_turtle_attack",
+          "effectDelay": 2,
+          "hitDelay": 2.200000047683716,
+          "id": "primary",
+          "ranged": "true"
+        }
+      ],
+      "battleAnimation": "units/turtle/cherrystone/battle_turtle_cherrystone",
+      "class": "turtle",
+      "enabled": "true",
+      "faction": "cherrystone",
+      "grabPos": [
+        13,
+        19
+      ],
+      "mapAnimation": "units/turtle/cherrystone/map_turtle_cherrystone",
+      "mapSpeed": 4.0,
+      "mediumPortrait": "units/turtle/cherrystone/portrait_turtle_cherrystone.png",
+      "name": "unit_name_turtle_cherrystone",
+      "smallPortrait": "units/turtle/cherrystone/portrait_turtle_cherrystone_small.png",
+      "sounds": {
+        "attack": "turtleAttack",
+        "attackEffect": "waveCrash",
+        "attackMap": "unitAttack",
+        "attackShout": "soldierPreAttackRed",
+        "death": "merfolkDie",
+        "deathMap": "unitDie",
+        "hit": "hitOrganic",
+        "hitMap": "hitOrganic",
+        "run": "waterEntry",
+        "runMap": "waterMapEntry"
+      }
+    },
+    {
+      "attacks": [
+        {
+          "effect": "fx/bs_turtle_attack",
+          "effectDelay": 2,
+          "hitDelay": 2.200000047683716,
+          "id": "primary",
+          "ranged": "true"
+        }
+      ],
+      "battleAnimation": "units/turtle/felheim/battle_turtle_felheim",
+      "class": "turtle",
+      "enabled": "true",
+      "faction": "felheim",
+      "grabPos": [
+        13,
+        19
+      ],
+      "mapAnimation": "units/turtle/felheim/map_turtle_felheim",
+      "mapSpeed": 4.0,
+      "mediumPortrait": "units/turtle/felheim/portrait_turtle_felheim.png",
+      "name": "unit_name_turtle_felheim",
+      "smallPortrait": "units/turtle/felheim/portrait_turtle_felheim_small.png",
+      "sounds": {
+        "attack": "turtleAttack",
+        "attackEffect": "waveCrash",
+        "attackMap": "unitAttack",
+        "attackShout": "soldierPreAttackRed",
+        "death": "merfolkDie",
+        "deathMap": "unitDie",
+        "hit": "hitOrganic",
+        "hitMap": "hitOrganic",
+        "run": "waterEntry",
+        "runMap": "waterMapEntry"
+      }
+    },
+    {
+      "attacks": [
+        {
+          "effect": "fx/bs_turtle_attack",
+          "effectDelay": 2,
+          "hitDelay": 2.200000047683716,
+          "id": "primary",
+          "ranged": "true"
+        }
+      ],
+      "battleAnimation": "units/turtle/heavensong/battle_turtle_heavensong",
+      "class": "turtle",
+      "enabled": "true",
+      "faction": "heavensong",
+      "grabPos": [
+        13,
+        19
+      ],
+      "mapAnimation": "units/turtle/heavensong/map_turtle_heavensong",
+      "mapSpeed": 4.0,
+      "mediumPortrait": "units/turtle/heavensong/portrait_turtle_heavensong.png",
+      "name": "unit_name_turtle_heavensong",
+      "smallPortrait": "units/turtle/heavensong/portrait_turtle_heavensong_small.png",
+      "sounds": {
+        "attack": "turtleAttackYellow",
+        "attackEffect": "waveCrash",
+        "attackMap": "unitAttack",
+        "attackShout": "soldierPreAttackRed",
+        "death": "soldierDieYellow",
+        "deathMap": "unitDie",
+        "hit": "hitOrganic",
+        "hitMap": "hitWood",
+        "run": "waterEntry",
+        "runMap": "waterMapEntry"
+      }
+    },
+    {
+      "attacks": [
+        {
+          "effect": "fx/bs_turtle_attack",
+          "effectDelay": 2,
+          "hitDelay": 2.200000047683716,
+          "id": "primary",
+          "ranged": "true"
+        }
+      ],
+      "battleAnimation": "units/turtle/floran/battle_turtle_floran",
+      "class": "turtle",
+      "enabled": "true",
+      "faction": "floran",
+      "grabPos": [
+        13,
+        19
+      ],
+      "mapAnimation": "units/turtle/floran/map_turtle_floran",
+      "mapSpeed": 4.0,
+      "mediumPortrait": "units/turtle/floran/portrait_turtle_floran.png",
+      "name": "unit_name_turtle_floran",
+      "smallPortrait": "units/turtle/floran/portrait_turtle_floran_small.png",
+      "sounds": {
+        "attack": "turtleAttackGreen",
+        "attackEffect": "waveCrash",
+        "attackMap": "unitAttack",
+        "attackShout": "soldierPreAttackRed",
+        "death": "soldierDieGreen",
+        "deathMap": "unitDie",
+        "hit": "hitOrganic",
+        "hitMap": "hitOrganic",
+        "run": "waterEntry",
+        "runMap": "waterMapEntry"
+      }
+    }
+  ],
+  "weapons": [
+    {
+      "baseDamage": {
+        "water": 1
+      },
+      "canMoveAndAttack": "true",
+      "id": "turtleBite",
+      "rangeMax": 1,
+      "rangeMin": 1,
+      "tagDamage": {
+        "harpoonship": 0.3499999940395355,
+        "merman": 1.100000023841858,
+        "structure": 0.44999998807907104,
+        "travelboat": 0.550000011920929,
+        "turtle": 0.5,
+        "warship": 0.800000011920929
+      }
+    }
+  ]
+}

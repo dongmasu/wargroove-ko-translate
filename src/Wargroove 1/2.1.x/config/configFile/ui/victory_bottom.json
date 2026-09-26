@@ -1,0 +1,78 @@
+{
+  "children": [
+    {
+      "children": [
+        {
+          "border": [
+            0,
+            2,
+            15,
+            0
+          ],
+          "children": [
+            {
+              "border": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "proportion": 1,
+              "widget": {
+                "class": "widget"
+              }
+            }
+          ],
+          "fill": [
+            "right",
+            "centreVertical"
+          ],
+          "proportion": 1,
+          "sizer": {
+            "gap": 4,
+            "type": "horizontal"
+          },
+          "widget": {
+            "childLayerAdjustment": -2,
+            "class": "widget",
+            "id": "loserPortraits"
+          }
+        }
+      ],
+      "fill": [
+        "centre"
+      ],
+      "proportion": 0,
+      "sizer": {
+        "type": "horizontal"
+      },
+      "widget": {
+        "class": "widget",
+        "id": "bottomHolder"
+      }
+    }
+  ],
+  "fill": [
+    "centre"
+  ],
+  "proportion": 0,
+  "sizer": {
+    "type": "vertical"
+  },
+  "widget": {
+    "class": "framedImage",
+    "scrollPos": [
+      10,
+      -170
+    ],
+    "scrollSpeed": [
+      -20,
+      0
+    ],
+    "size": [
+      300,
+      66
+    ],
+    "style": "backgroundScroll"
+  }
+}

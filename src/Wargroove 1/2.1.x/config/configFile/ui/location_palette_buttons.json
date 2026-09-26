@@ -1,0 +1,36 @@
+{
+  "children": [
+    {
+      "proportion": 1,
+      "widget": {
+        "button": "tertiary",
+        "class": "gamepadButton",
+        "id": "addLocation",
+        "size": [
+          40,
+          16
+        ],
+        "textKey": "ui_palette_add_location"
+      }
+    },
+    {
+      "proportion": 1,
+      "widget": {
+        "button": "secondary",
+        "class": "gamepadButton",
+        "id": "editLocation",
+        "size": [
+          40,
+          16
+        ],
+        "textKey": "ui_palette_edit_location"
+      }
+    }
+  ],
+  "sizer": {
+    "type": "horizontal"
+  },
+  "widget": {
+    "class": "widget"
+  }
+}

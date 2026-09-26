@@ -1,0 +1,12 @@
+{
+  "uiStyle": {
+    "checkslider": {
+      "checked": "ui/widgets/checkslider/checkslider_checked.png",
+      "checkedDisabled": "ui/widgets/checkslider/checkslider_checked_disabled.png",
+      "checkedHover": "ui/widgets/checkslider/checkslider_checked_hover.png",
+      "disabled": "ui/widgets/checkslider/checkslider_disabled.png",
+      "hover": "ui/widgets/checkslider/checkslider_hover.png",
+      "normal": "ui/widgets/checkslider/checkslider.png"
+    }
+  }
+}

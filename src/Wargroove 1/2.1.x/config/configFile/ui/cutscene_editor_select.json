@@ -1,0 +1,91 @@
+{
+  "children": [
+    {
+      "children": [
+        {
+          "proportion": 1,
+          "widget": {
+            "class": "list",
+            "id": "cutsceneList"
+          }
+        }
+      ],
+      "proportion": 1,
+      "sizer": {
+        "type": "vertical"
+      },
+      "widget": {
+        "class": "scrollBarPane"
+      }
+    },
+    {
+      "widget": {
+        "class": "horizontalDiv"
+      }
+    },
+    {
+      "children": [
+        {
+          "widget": {
+            "button": "secondary",
+            "class": "gamepadButton",
+            "id": "new",
+            "size": [
+              40,
+              12
+            ],
+            "textKey": "ui_widget_button_new"
+          }
+        },
+        {
+          "widget": {
+            "button": "primary",
+            "class": "gamepadButton",
+            "id": "edit",
+            "size": [
+              40,
+              12
+            ],
+            "textKey": "ui_widget_button_edit"
+          }
+        },
+        {
+          "widget": {
+            "button": "tertiary",
+            "class": "gamepadButton",
+            "id": "delete",
+            "size": [
+              40,
+              12
+            ],
+            "textKey": "ui_widget_button_delete"
+          }
+        },
+        {
+          "proportion": 1,
+          "widget": {
+            "class": "dialogueButtons",
+            "hasCancel": "false",
+            "hasClose": "true",
+            "hasOK": "false"
+          }
+        }
+      ],
+      "sizer": {
+        "type": "horizontal"
+      }
+    }
+  ],
+  "sizer": {
+    "type": "vertical"
+  },
+  "widget": {
+    "class": "dialogue",
+    "size": [
+      300,
+      150
+    ],
+    "style": "optionBorder",
+    "titleKey": "ui_cutscene_select"
+  }
+}

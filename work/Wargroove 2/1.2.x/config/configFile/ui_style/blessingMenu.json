@@ -1,0 +1,32 @@
+{
+  "uiStyle": {
+    "blessingMenu": {
+      "label": {
+        "colour": "#46324c",
+        "font": "Wargroove Medium",
+        "outline": 0,
+        "size": 16,
+        "smoothness": 0
+      },
+      "labelFat": {
+        "colour": "#a47750",
+        "font": "Wargroove Medium",
+        "outline": 0,
+        "size": 16,
+        "smoothness": 0
+      },
+      "title": {
+        "colour": "#F4F6E9",
+        "font": "MatchFont",
+        "size": 16,
+        "smoothness": 0
+      },
+      "titleSmall": {
+        "colour": "#F4F6E9",
+        "font": "Wargroove Medium",
+        "size": 16,
+        "smoothness": 0
+      }
+    }
+  }
+}

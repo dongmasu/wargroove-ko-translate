@@ -1,0 +1,66 @@
+{
+  "unitClasses": [
+    {
+      "aiPriority": 3.0,
+      "battleUnitCount": 1,
+      "canBeCaptured": "true",
+      "canBeReinforced": "false",
+      "canReinforce": "true",
+      "cargoSpace": 1,
+      "cost": 500,
+      "damageMultiplier": 1,
+      "id": "city",
+      "income": 100,
+      "isNeutraliseable": "true",
+      "isStructure": "true",
+      "movement": "land_building",
+      "name": "structure_name_city",
+      "regeneration": 10,
+      "sightRange": 6,
+      "tags": [
+        "structure"
+      ]
+    }
+  ],
+  "units": [
+    {
+      "class": "city",
+      "faction": "neutral",
+      "grabPos": [
+        14,
+        15
+      ],
+      "mapAnimation": [
+        "structures/cities",
+        "structures/cities2",
+        "structures/cities3"
+      ],
+      "mediumPortrait": "portraits/medium/city.png",
+      "name": "structure_name_city",
+      "smallPortrait": "portraits/small/portrait_structure_small.png",
+      "sounds": {
+        "death": "gateDie",
+        "hit": "hitWood",
+        "hitMap": "hitStone"
+      },
+      "structureImage": {
+        "farBackground": "city_background_full_background_2",
+        "foreground": "city_background_full_foreground",
+        "keeperPosition": [
+          78,
+          95
+        ],
+        "leftBannerOffset": [
+          -6,
+          2
+        ],
+        "nearBackground": "city_background_full_background_1",
+        "rightBannerOffset": [
+          0,
+          2
+        ],
+        "spriteSheet": "backgrounds/city/city_background_full"
+      }
+    }
+  ]
+}

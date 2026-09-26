@@ -1,0 +1,222 @@
+{
+  "children": [
+    {
+      "border": [
+        25,
+        15,
+        25,
+        14
+      ],
+      "children": [
+        {
+          "children": [
+            {
+              "border": [
+                -20,
+                -42,
+                -50,
+                -44
+              ],
+              "proportion": 1,
+              "sizer": {
+                "type": "vertical"
+              },
+              "widget": {
+                "class": "widget",
+                "id": "avatarHolder"
+              }
+            },
+            {
+              "border": [
+                0,
+                -4,
+                -4,
+                0
+              ],
+              "children": [
+                {
+                  "children": [
+                    {
+                      "border": [
+                        0,
+                        9,
+                        30,
+                        0
+                      ],
+                      "children": [],
+                      "fill": [
+                        "top",
+                        "right"
+                      ],
+                      "proportion": 1,
+                      "widget": {
+                        "class": "widget",
+                        "id": "panelHolder"
+                      }
+                    }
+                  ],
+                  "widget": {
+                    "class": "paletteSwapImage",
+                    "id": "factionStripe",
+                    "image": "ui/character_select/faction_stripe.png",
+                    "material": "Wargroove/PaletteSwap",
+                    "skinColour": "typeII",
+                    "swapColour": "red"
+                  }
+                }
+              ],
+              "fill": "right",
+              "widget": {
+                "class": "image",
+                "image": "ui/character_select/faction_stripe_base.png"
+              }
+            }
+          ],
+          "proportion": 1,
+          "sizer": {
+            "type": "horizontal"
+          },
+          "widget": {
+            "class": "widget"
+          }
+        },
+        {
+          "border": [
+            -45,
+            -30,
+            -45,
+            -10
+          ],
+          "children": [
+            {
+              "fill": "centre",
+              "proportion": 1,
+              "sizer": {
+                "type": "vertical"
+              },
+              "widget": {
+                "class": "widget",
+                "id": "portraitsHolder"
+              }
+            }
+          ],
+          "widget": {
+            "class": "image",
+            "image": "ui/character_select/dark_scroll.png"
+          }
+        },
+        {
+          "border": [
+            0,
+            0,
+            0,
+            -18
+          ],
+          "children": [],
+          "fill": "centre",
+          "sizer": {
+            "type": "horizontal"
+          },
+          "widget": {
+            "active": "true",
+            "class": "image",
+            "id": "indicatorsHolder",
+            "image": "ui/character_select/player_tab_bar.png",
+            "innerBorder": [
+              5,
+              0,
+              5,
+              0
+            ],
+            "size": [
+              10,
+              18
+            ]
+          }
+        },
+        {
+          "border": [
+            0,
+            3,
+            0,
+            0
+          ],
+          "children": [
+            {
+              "widget": {
+                "button": "cancel",
+                "class": "gamepadButton",
+                "id": "cancel",
+                "size": [
+                  50,
+                  16
+                ],
+                "textKey": "ui_menu_back"
+              }
+            },
+            {
+              "proportion": 1,
+              "stretchSpacer": {}
+            },
+            {
+              "widget": {
+                "button": "accept",
+                "class": "gamepadButton",
+                "id": "ok",
+                "size": [
+                  50,
+                  16
+                ],
+                "textKey": "ui_menu_next"
+              }
+            }
+          ],
+          "sizer": {
+            "type": "horizontal"
+          },
+          "widget": {
+            "class": "widget",
+            "id": "bottomBar"
+          }
+        }
+      ],
+      "sizer": {
+        "gap": 0,
+        "type": "vertical"
+      },
+      "widget": {
+        "class": "framedImage",
+        "scrollPos": [
+          5,
+          -170
+        ],
+        "scrollSpeed": [
+          -10,
+          10
+        ],
+        "size": [
+          434,
+          243
+        ],
+        "style": "paperPattern"
+      }
+    }
+  ],
+  "sizer": {
+    "gap": 0,
+    "type": "vertical"
+  },
+  "widget": {
+    "class": "framedImage",
+    "id": "characterSelectParent",
+    "scrollPos": [
+      10,
+      -170
+    ],
+    "scrollSpeed": [
+      10,
+      0
+    ],
+    "style": "paperScroll"
+  }
+}

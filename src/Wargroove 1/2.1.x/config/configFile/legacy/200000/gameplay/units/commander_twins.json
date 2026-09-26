@@ -1,0 +1,157 @@
+{
+  "unitClasses": [
+    {
+      "aiPriority": 8.0,
+      "battleUnitCount": 1,
+      "cost": 500,
+      "grooveId": "dual_bombs",
+      "hiddenFromCutsceneEditior": "true",
+      "id": "commander_twins",
+      "isCommander": "true",
+      "moveRange": 4,
+      "movement": "walking",
+      "name": "unit_class_name_commander",
+      "regeneration": 5,
+      "tags": [
+        "commander",
+        "type.ground.light"
+      ],
+      "verbs": [
+        "load",
+        "capture"
+      ],
+      "weapons": [
+        {
+          "id": "twinsAttack"
+        }
+      ]
+    }
+  ],
+  "units": [
+    {
+      "attackOffset": [
+        30,
+        0
+      ],
+      "attacks": [
+        {
+          "attackAnimationSequence": "counter",
+          "attackCommanderSound": "counter",
+          "attackSound": "counter",
+          "effectDelay": 0.800000011920929,
+          "hitDelay": 0.800000011920929,
+          "hitSpark": "fx/bs_stab_attack",
+          "id": "closeRange",
+          "samePanel": "true"
+        },
+        {
+          "effect": "fx/bs_tnt_attack_single",
+          "effectDelay": 3.4000000953674316,
+          "hitDelay": [
+            3.700000047683716
+          ],
+          "hitSpark": "fx/bs_stab_attack",
+          "id": "primary",
+          "ranged": "true"
+        }
+      ],
+      "battleAnimation": "units/commanders/twins/battle_twins",
+      "battleAnimationRiver": "fx/river_overlay/battle_twins_river",
+      "battlePosOffset": [
+        -2,
+        0
+      ],
+      "class": "commander_twins",
+      "cutsceneHasAttack": "false",
+      "deathMoveMax": 0,
+      "deathMoveMin": 0,
+      "emotes": {
+        "brave": "emote_aiming",
+        "crying": "emote_sad",
+        "dance": "emote_dance",
+        "idle": "idle",
+        "laugh": "emote_laugh",
+        "negative": "emote_angry",
+        "positive": "emote_positive",
+        "surprise": "emote_surprise"
+      },
+      "faction": "outlaw",
+      "grabPos": [
+        47,
+        47
+      ],
+      "hitSparkOffset": [
+        30,
+        0
+      ],
+      "mapAnimation": "units/commanders/twins/map_twins",
+      "mapSpeed": 4.0,
+      "mediumPortrait": "units/commanders/twins/portrait_twins_medium.png",
+      "name": "character_twins_name",
+      "shouts": {
+        "twins_da": "twins/twinsShoutDa",
+        "twins_hit": "twins/twinsShoutHit",
+        "twins_laugh": "twins/twinsShoutLaugh",
+        "twins_wondertwinpowers": "twins/twinsShoutWonderTwinPowers"
+      },
+      "skinColour": "typeVI",
+      "smallPortrait": "units/commanders/twins/portrait_twins_small.png",
+      "sounds": {
+        "attack": "twins/twinsAttack",
+        "attackCommander": "twins/twinsCommanderKillAttack",
+        "attackEffect": "twins/twinsAttackEffect",
+        "attackMap": "unitAttack",
+        "captureShout": "twins/twinsCapture",
+        "counter": "twins/twinsCounterAttack",
+        "death": "twins/twinsDie",
+        "deathMap": "twins/twinsDieGhost",
+        "deathMapNoBattle": "twins/twinsDieNoBattle",
+        "firstHit": "twins/twinsHit",
+        "hit": "twins/twinsShieldHit",
+        "hitEnd": "twins/twinsShieldEnd",
+        "hitLeadup": "twins/twinsShieldUp",
+        "hitMap": "hitOrganic",
+        "run": "infantryLightMapEntry",
+        "runMap": "infantryLightMapEntry"
+      },
+      "stayAfterDeath": "true"
+    }
+  ],
+  "weapons": [
+    {
+      "baseDamage": {
+        "land": 1
+      },
+      "canMoveAndAttack": "true",
+      "id": "twinsAttack",
+      "rangeMax": 1,
+      "rangeMin": 1,
+      "tagDamage": {
+        "archer": 1.2999999523162842,
+        "ballista": 0.6000000238418579,
+        "balloon": 0.550000011920929,
+        "commander": 0.4000000059604645,
+        "dog": 1.149999976158142,
+        "dragon": 0.3499999940395355,
+        "giant": 0.4000000059604645,
+        "harpoonship": 0.44999998807907104,
+        "harpy": 0.8999999761581421,
+        "knight": 0.550000011920929,
+        "mage": 0.800000011920929,
+        "merman": 0.949999988079071,
+        "rifleman": 1.0499999523162842,
+        "soldier": 1.149999976158142,
+        "spearman": 0.75,
+        "structure": 0.699999988079071,
+        "thief": 0.949999988079071,
+        "travelboat": 0.6000000238418579,
+        "trebuchet": 0.550000011920929,
+        "turtle": 0.550000011920929,
+        "villager": 0.949999988079071,
+        "wagon": 0.699999988079071,
+        "warship": 0.550000011920929,
+        "witch": 0.699999988079071
+      }
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "_assetType": "audioClip",
+  "_decoded": {
+    "legacy": true,
+    "actions": [
+      {
+        "type": "play",
+        "scope": 1,
+        "clip": "sfx/nuru/nuruNotFromRoundHere.ogg",
+        "group": "voice",
+        "gain": [
+          1.0,
+          1.0
+        ],
+        "pitch": [
+          1.0,
+          1.0
+        ],
+        "legacyTailHex": "000000000000000000",
+        "legacyTailFloats": [
+          0.0,
+          0.0
+        ]
+      }
+    ]
+  },
+  "_payloadHex": "0100000004000000706c617901000000210000007366782f6e7572752f6e7572754e6f7446726f6d526f756e64486572652e6f676705000000766f6963650000803f0000803f0000803f0000803f000000000000000000"
+}

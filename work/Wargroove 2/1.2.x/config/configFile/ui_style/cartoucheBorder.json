@@ -1,0 +1,9 @@
+{
+  "uiStyle": {
+    "cartoucheBorder": {
+      "background": {
+        "img": "ui/widgets/window/flat_box_thin.png"
+      }
+    }
+  }
+}

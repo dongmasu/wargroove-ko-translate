@@ -1,0 +1,122 @@
+{
+  "children": [
+    {
+      "children": [
+        {
+          "proportion": 1,
+          "widget": {
+            "class": "optionsGrid",
+            "columnProportions": [
+              0.5,
+              0.5
+            ],
+            "options": [
+              {
+                "textKey": "ui_cutscene_emote_name",
+                "widget": {
+                  "class": "dropdown",
+                  "id": "emote"
+                }
+              },
+              {
+                "textKey": "ui_cutscene_direction",
+                "widget": {
+                  "class": "dropdown",
+                  "id": "direction",
+                  "size": [
+                    100,
+                    14
+                  ]
+                }
+              },
+              {
+                "textKey": "ui_cutscene_moving_character",
+                "widget": {
+                  "class": "button",
+                  "id": "selectCharacter",
+                  "style": "slimButton",
+                  "textKey": "ui_widget_button_choose_character"
+                }
+              },
+              {
+                "fill": "false",
+                "textKey": "ui_cutscene_looping",
+                "widget": {
+                  "class": "checkbox",
+                  "id": "looping"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "widget": {
+            "class": "horizontalDiv"
+          }
+        },
+        {
+          "children": [
+            {
+              "fill": [
+                "left"
+              ],
+              "widget": {
+                "button": "tertiary",
+                "class": "gamepadButton",
+                "id": "deleteEvent",
+                "size": [
+                  40,
+                  0
+                ],
+                "textKey": "ui_widget_button_delete_event"
+              }
+            },
+            {
+              "fill": [
+                "right"
+              ],
+              "proportion": 1,
+              "widget": {
+                "button": "cancel",
+                "class": "gamepadButton",
+                "id": "close",
+                "size": [
+                  40,
+                  12
+                ],
+                "textKey": "ui_widget_button_close"
+              }
+            }
+          ],
+          "fill": [
+            "fillHorizontal"
+          ],
+          "sizer": {
+            "columns": 2,
+            "type": "horizontal"
+          }
+        }
+      ],
+      "sizer": {
+        "type": "vertical"
+      },
+      "widget": {
+        "class": "dialogue",
+        "id": "window",
+        "size": [
+          200,
+          240
+        ],
+        "style": "optionBorder",
+        "titleKey": "ui_cutscene_action_type_emote"
+      }
+    }
+  ],
+  "sizer": {
+    "type": "vertical"
+  },
+  "widget": {
+    "childLayerAdjustment": 1,
+    "class": "widget"
+  }
+}

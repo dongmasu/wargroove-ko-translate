@@ -1,0 +1,47 @@
+{
+  "_assetType": "audioClip",
+  "_decoded": {
+    "legacy": true,
+    "actions": [
+      {
+        "type": "play",
+        "scope": 1,
+        "clip": "sfx/gateDie.ogg",
+        "group": "sfx",
+        "gain": [
+          1.0,
+          1.0
+        ],
+        "pitch": [
+          1.0,
+          1.0
+        ],
+        "legacyTailHex": "000000000000000000",
+        "legacyTailFloats": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "type": "play",
+        "scope": 1,
+        "clip": "sfx/vehicleInfantryEscape.ogg",
+        "group": "sfx",
+        "gain": [
+          1.0,
+          1.0
+        ],
+        "pitch": [
+          1.0,
+          1.0
+        ],
+        "legacyTailHex": "0000003f0000000000",
+        "legacyTailFloats": [
+          0.5,
+          0.0
+        ]
+      }
+    ]
+  },
+  "_payloadHex": "0200000004000000706c6179010000000f0000007366782f676174654469652e6f6767030000007366780000803f0000803f0000803f0000803f00000000000000000004000000706c6179010000001d0000007366782f76656869636c65496e66616e7472794573636170652e6f6767030000007366780000803f0000803f0000803f0000803f0000003f0000000000"
+}

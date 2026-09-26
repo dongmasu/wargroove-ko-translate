@@ -1,0 +1,24 @@
+{
+  "uiStyle": {
+    "brownLabel": {
+      "iconBorder": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "label": {
+        "colour": "#a47750",
+        "font": "Wargroove Medium",
+        "size": 16,
+        "smoothness": 0
+      },
+      "labelBorder": [
+        0,
+        -4,
+        -1,
+        -3
+      ]
+    }
+  }
+}

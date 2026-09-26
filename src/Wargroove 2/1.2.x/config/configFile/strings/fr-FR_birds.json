@@ -1,0 +1,30 @@
+{
+  "fr-FR": {
+    "bird_lore_barnowl": "Apparemment, cet oiseau est un cousin éloigné du strigriffon ! Hélas, jamais je n'ai vu ces majestueuses bêtes de mes propres yeux. Bien que je me sois déjà rendu à Stelverre, on ne m'a pas donné l'autorisation de m'aventurer dans les montagnes, là où vivent les Faahris. Les humains qui résident dans les villes des collines semblent déterminés à protéger leurs voisins !\n",
+    "bird_lore_crownedeagle": "Cela fait des années que je rêve de voir un aigle de près ! Maintenant que j'en ai enfin eu l'occasion, je trouve son cri... assez pitoyable, en fait. Comme dit le vieil adage, « on est toujours déçu par ses héros ! »\n",
+    "bird_lore_hummingbird": "Un oiseau tropical assez particulier. Il dissuade ses prédateurs en poussant un cri effrayant qui semble bien trop puissant pour provenir d'un si petit corps.\n",
+    "bird_lore_king_eider": "Ah, cela faisait une éternité que je n'avais pas vu cet oiseau, qui porte le nom de la première et dernière souveraine de Felheim. Jadis, Felheim prit son indépendance vis-à-vis de Carmina et devint un royaume à part entière, mais la monarchie connut une fin soudaine et brutale après la découverte du Gantelet de Fell dans cette modeste sépulture.\n",
+    "bird_lore_kingfisher": "Un oiseau bleu, certes, mais pas un merlebleu. (Il n'en existe qu'un seul à mes yeux !) D'ailleurs, Émeric ne m'avait-il pas offert un nobliau ? Par plaisanterie, si je me souviens bien, car je venais à peine de monter sur le trône ! Ah, tout était beaucoup plus simple, à l'époque...\n",
+    "bird_lore_kiwi": "Voilà un oiseau des plus étranges dont les œufs n'éclosent pas. Au contraire, lorsque l'oisillon est prêt, des plumes semblables à des poils commencent à sortir de la coquille, une à une. À mesure que l'oiseau grandit, l'œuf ne se brise pas : la coquille finit par se dissoudre dans la peau de l'oisillon. La nature nous réserve décidément bien des surprises !\n",
+    "bird_lore_pigeon": "C'est probablement l'oiseau le plus charmant et le plus aimé de tout le pays ! Les gens les élèvent souvent pour participer à des tournois de mathématiques.\n",
+    "bird_lore_puffin": "De prime abord, on pourrait se demander comment cet adorable petit oiseau peut bien survivre dans un endroit aussi hostile que Felheim ! Jusqu'à ce que l'on aperçoive... ses dents.\nPar la barbe de Myden, quelles DENTS ! Quand il fonce sur sa proie, prêt à la happer dans son bec grand ouvert, cette dernière ne souhaite sûrement qu'une seule chose : être déjà morte !\n",
+    "bird_lore_raven": "De vieilles histoires racontent que des sorcières connaissaient si bien le chant des nocturnels qu'elles étaient capables de se transformer pour prendre leur apparence !\nSelon la légende, on peut facilement distinguer un vrai nocturnel d'un humain transformé : et pour cause, ces oiseaux sont plus intelligents !\n",
+    "bird_lore_robotality": "Ce n'est pas un oiseau ! Mais il vole tout de même... Serait-ce la technologie légendaire de la République de Faahri ? J'espère qu'ils ne nous espionnent pas...\n",
+    "bird_lore_sparrowbomb": "Mais quel est cet étrange objet ? Ah, ce doit être le jouet perdu d'un enfant de Chant d'éden. Si Mercia était encore un bébé, je le rapporterais pour décorer sa chambre !\n",
+    "bird_lore_toucan": "L'un des oiseaux préférés du défunt empereur, peut-être en raison de sa rareté. On dit qu'ils étaient assez répandus dans les îles Safran avant qu'elles ne soient annexées par Chant d'éden. Cependant, il est de plus en plus rare d'en observer.\n",
+    "bird_lore_woodpecker": "Le bec de cet oiseau est assez puissant pour transpercer l'écorce de sureau. À l'âge adulte, son sang serait composé d'au moins un tiers de sève, mais ce n'est certainement pas moi qui irai vérifier ! Dans mon cas, il est certainement composé aux trois-quarts de réglisse.\n",
+    "bird_name_barnowl": "Strigette",
+    "bird_name_crownedeagle": "Aigle impérial",
+    "bird_name_hummingbird": "Braillard",
+    "bird_name_king_eider": "Reine Ander",
+    "bird_name_kingfisher": "Nobliau",
+    "bird_name_kiwi": "Kiwi",
+    "bird_name_pigeon": "Pigeon",
+    "bird_name_puffin": "Happetout",
+    "bird_name_raven": "Nocturnel",
+    "bird_name_robotality": "???",
+    "bird_name_sparrowbomb": "Bomboiseau",
+    "bird_name_toucan": "Toucotoucanoco",
+    "bird_name_woodpecker": "Pic-sève"
+  }
+}

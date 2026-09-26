@@ -1,0 +1,44 @@
+{
+  "children": [
+    {
+      "widget": {
+        "button": "secondary",
+        "class": "gamepadButton",
+        "id": "cutsceneSettings",
+        "size": [
+          40,
+          12
+        ],
+        "textKey": "ui_widget_button_cutscene_settings"
+      }
+    },
+    {
+      "widget": {
+        "button": "tertiary",
+        "class": "gamepadButton",
+        "id": "timeline",
+        "size": [
+          40,
+          12
+        ],
+        "textKey": "ui_widget_button_timeline"
+      }
+    }
+  ],
+  "fill": [
+    "centreHorizontal"
+  ],
+  "sizer": {
+    "type": "horizontal"
+  },
+  "widget": {
+    "class": "image",
+    "image": "ui/widgets/window/scroll_embed_window.png",
+    "innerBorder": [
+      8,
+      8,
+      8,
+      8
+    ]
+  }
+}

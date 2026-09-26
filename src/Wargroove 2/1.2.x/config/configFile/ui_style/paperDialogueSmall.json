@@ -1,0 +1,29 @@
+{
+  "uiStyle": {
+    "paperDialogueSmall": {
+      "background": "ui/widgets/window/paper_border_small.png",
+      "clearBackground": {
+        "colour": "#F4F6E9",
+        "img": "ui/whitebox.png"
+      },
+      "innerBorder": [
+        27,
+        23,
+        27,
+        12
+      ],
+      "titleBarBorder": [
+        -4,
+        -6,
+        0,
+        9
+      ],
+      "titleLabel": {
+        "colour": "#F4F6E9",
+        "font": "Nope",
+        "size": 16,
+        "smoothness": 0
+      }
+    }
+  }
+}

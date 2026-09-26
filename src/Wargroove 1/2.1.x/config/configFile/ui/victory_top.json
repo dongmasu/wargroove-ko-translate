@@ -1,0 +1,64 @@
+{
+  "children": [
+    {
+      "children": [
+        {
+          "fill": [
+            "left",
+            "centreVertical"
+          ],
+          "proportion": 1,
+          "sizer": {
+            "gap": 4,
+            "type": "horizontal"
+          },
+          "widget": {
+            "childLayerAdjustment": -2,
+            "class": "widget",
+            "id": "winnerPortraits",
+            "innerBorder": [
+              15,
+              2,
+              0,
+              0
+            ]
+          }
+        }
+      ],
+      "fill": [
+        "centre"
+      ],
+      "proportion": 0,
+      "sizer": {
+        "type": "horizontal"
+      },
+      "widget": {
+        "class": "widget",
+        "id": "topHolder"
+      }
+    }
+  ],
+  "fill": [
+    "centre"
+  ],
+  "proportion": 0,
+  "sizer": {
+    "type": "vertical"
+  },
+  "widget": {
+    "class": "framedImage",
+    "scrollPos": [
+      10,
+      -170
+    ],
+    "scrollSpeed": [
+      20,
+      0
+    ],
+    "size": [
+      300,
+      66
+    ],
+    "style": "backgroundScroll"
+  }
+}

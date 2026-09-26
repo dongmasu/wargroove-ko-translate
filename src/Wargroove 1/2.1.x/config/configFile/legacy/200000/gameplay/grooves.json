@@ -1,0 +1,287 @@
+{
+  "grooves": [
+    {
+      "chargeBy": {
+        "attack": 20,
+        "counter": 10,
+        "endOfTurn": 10,
+        "kill": 30
+      },
+      "chargePerUse": 100,
+      "description": "groove_description_heal_aura",
+      "id": "heal_aura",
+      "maxCharge": 100,
+      "name": "groove_name_heal_aura",
+      "verb": "groove_heal_aura"
+    },
+    {
+      "chargeBy": {
+        "attack": 20,
+        "counter": 10,
+        "endOfTurn": 10,
+        "kill": 30
+      },
+      "chargePerUse": 50,
+      "description": "groove_description_raise_dead",
+      "id": "raise_dead",
+      "maxCharge": 50,
+      "name": "groove_name_raise_dead",
+      "verb": "groove_raise_dead"
+    },
+    {
+      "chargeBy": {
+        "attack": 20,
+        "counter": 10,
+        "endOfTurn": 10,
+        "kill": 30
+      },
+      "chargePerUse": 200,
+      "description": "groove_description_splash_jump",
+      "id": "splash_jump",
+      "maxCharge": 200,
+      "name": "groove_name_splash_jump",
+      "verb": "groove_splash_jump"
+    },
+    {
+      "chargeBy": {
+        "attack": 20,
+        "counter": 10,
+        "endOfTurn": 10,
+        "kill": 30
+      },
+      "chargePerUse": 150,
+      "description": "groove_description_second_wind",
+      "id": "second_wind",
+      "maxCharge": 150,
+      "name": "groove_name_second_wind",
+      "verb": "groove_second_wind"
+    },
+    {
+      "chargeBy": {
+        "attack": 20,
+        "counter": 10,
+        "endOfTurn": 10,
+        "kill": 30
+      },
+      "chargePerUse": 150,
+      "description": "groove_description_vine_wall",
+      "id": "vine_wall",
+      "maxCharge": 150,
+      "name": "groove_name_vine_wall",
+      "verb": "groove_vine_wall"
+    },
+    {
+      "chargeBy": {
+        "attack": 20,
+        "counter": 10,
+        "endOfTurn": 10,
+        "kill": 30
+      },
+      "chargePerUse": 150,
+      "description": "groove_description_vampiric_touch",
+      "id": "vampiric_touch",
+      "maxCharge": 150,
+      "name": "groove_name_vampiric_touch",
+      "verb": "groove_vampiric_touch"
+    },
+    {
+      "chargeBy": {
+        "attack": 20,
+        "counter": 10,
+        "endOfTurn": 10,
+        "kill": 30
+      },
+      "chargePerUse": 100,
+      "description": "groove_description_diplomacy",
+      "id": "diplomacy",
+      "maxCharge": 100,
+      "name": "groove_name_diplomacy",
+      "verb": "groove_diplomacy"
+    },
+    {
+      "chargeBy": {
+        "attack": 20,
+        "counter": 10,
+        "endOfTurn": 10,
+        "kill": 30
+      },
+      "chargePerUse": 200,
+      "description": "groove_description_sadistic_rush",
+      "id": "sadistic_rush",
+      "maxCharge": 200,
+      "name": "groove_name_sadistic_rush",
+      "verb": "groove_sadistic_rush"
+    },
+    {
+      "chargeBy": {
+        "attack": 20,
+        "counter": 10,
+        "endOfTurn": 10,
+        "kill": 30
+      },
+      "chargePerUse": 100,
+      "description": "groove_description_teleport_beam",
+      "id": "teleport_beam",
+      "maxCharge": 100,
+      "name": "groove_name_teleport_beam",
+      "verb": "groove_teleport_beam"
+    },
+    {
+      "chargeBy": {
+        "attack": 20,
+        "counter": 10,
+        "endOfTurn": 10,
+        "kill": 30
+      },
+      "chargePerUse": 200,
+      "description": "groove_description_drone_bombs",
+      "id": "drone_bombs",
+      "maxCharge": 200,
+      "name": "groove_name_drone_bombs",
+      "verb": "groove_drone_bombs"
+    },
+    {
+      "chargeBy": {
+        "attack": 20,
+        "counter": 10,
+        "endOfTurn": 10,
+        "kill": 30
+      },
+      "chargePerUse": 100,
+      "description": "groove_description_cherrystone_defence",
+      "id": "cherrystone_defence",
+      "maxCharge": 100,
+      "name": "groove_name_cherrystone_defence",
+      "verb": "groove_cherrystone_defence"
+    },
+    {
+      "chargeBy": {
+        "attack": 20,
+        "counter": 10,
+        "endOfTurn": 10,
+        "kill": 30
+      },
+      "chargePerUse": 100,
+      "description": "groove_description_dash",
+      "id": "dash",
+      "maxCharge": 100,
+      "name": "groove_name_dash",
+      "verb": "groove_dash"
+    },
+    {
+      "chargeBy": {
+        "attack": 20,
+        "counter": 10,
+        "endOfTurn": 10,
+        "kill": 30
+      },
+      "chargePerUse": 200,
+      "description": "groove_description_tornado",
+      "id": "tornado",
+      "maxCharge": 200,
+      "name": "groove_name_tornado",
+      "verb": "groove_tornado"
+    },
+    {
+      "chargeBy": {
+        "attack": 20,
+        "counter": 10,
+        "endOfTurn": 10,
+        "kill": 30
+      },
+      "chargePerUse": 200,
+      "description": "groove_description_convert",
+      "id": "convert",
+      "maxCharge": 200,
+      "name": "groove_name_convert",
+      "verb": "groove_convert"
+    },
+    {
+      "chargeBy": {
+        "attack": 20,
+        "counter": 10,
+        "endOfTurn": 10,
+        "kill": 30
+      },
+      "chargePerUse": 200,
+      "description": "groove_description_drain_aura",
+      "id": "drain_aura",
+      "maxCharge": 200,
+      "name": "groove_name_drain_aura",
+      "verb": "groove_drain_aura"
+    },
+    {
+      "chargeBy": {
+        "attack": 20,
+        "counter": 10,
+        "endOfTurn": 10,
+        "kill": 30
+      },
+      "chargePerUse": 150,
+      "description": "groove_description_fish",
+      "id": "fish",
+      "maxCharge": 150,
+      "name": "groove_name_fish",
+      "verb": "groove_fish"
+    },
+    {
+      "chargeBy": {
+        "attack": 20,
+        "counter": 10,
+        "endOfTurn": 10,
+        "kill": 30
+      },
+      "chargePerUse": 100,
+      "description": "groove_description_golf",
+      "id": "golf",
+      "maxCharge": 100,
+      "name": "groove_name_golf",
+      "verb": "groove_golf"
+    },
+    {
+      "chargeBy": {
+        "attack": 20,
+        "counter": 10,
+        "endOfTurn": 10,
+        "kill": 30
+      },
+      "chargePerUse": 200,
+      "description": "groove_description_smoke_screen",
+      "id": "smoke_screen",
+      "maxCharge": 200,
+      "name": "groove_name_smoke_screen",
+      "verb": "groove_smoke_screen"
+    },
+    {
+      "chargeBy": {
+        "attack": 20,
+        "counter": 10,
+        "endOfTurn": 10,
+        "kill": 30
+      },
+      "chargePerUse": 150,
+      "description": "groove_description_dual_bombs",
+      "id": "dual_bombs",
+      "maxCharge": 150,
+      "name": "groove_name_dual_bombs",
+      "verb": [
+        "groove_area_heal",
+        "groove_area_damage"
+      ]
+    },
+    {
+      "chargeBy": {
+        "attack": 20,
+        "counter": 10,
+        "endOfTurn": 10,
+        "kill": 30
+      },
+      "chargePerUse": 200,
+      "description": "groove_description_smoke_screen",
+      "id": "shadow_sisters",
+      "maxCharge": 200,
+      "name": "groove_name_shadow_sisters",
+      "verb": "groove_smoke_screen"
+    }
+  ]
+}

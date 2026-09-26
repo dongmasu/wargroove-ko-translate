@@ -1,0 +1,10 @@
+{
+  "uiStyle": {
+    "verticalDiv": {
+      "image": {
+        "colour": "#dfc686",
+        "img": "ui/widgets/divider/verticaldiv.png"
+      }
+    }
+  }
+}

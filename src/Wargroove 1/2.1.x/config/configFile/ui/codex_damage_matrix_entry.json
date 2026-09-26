@@ -1,0 +1,67 @@
+{
+  "children": [
+    {
+      "border": [
+        -1,
+        -1,
+        0,
+        0
+      ],
+      "widget": {
+        "class": "paletteSwapImage",
+        "id": "portrait",
+        "image": "units/soldier/cherrystone/portrait_soldier_cherrystone_small.png",
+        "material": "Wargroove/PaletteSwap",
+        "skinColour": "typeII",
+        "swapColour": "red"
+      }
+    },
+    {
+      "border": [
+        3,
+        2,
+        3,
+        2
+      ],
+      "children": [
+        {
+          "border": [
+            2,
+            -3,
+            2,
+            -1
+          ],
+          "fill": "centre",
+          "widget": {
+            "class": "label",
+            "id": "value",
+            "style": "labelSmall",
+            "text": 150
+          }
+        }
+      ],
+      "fill": [
+        "fillHorizontal",
+        "centreVertical"
+      ],
+      "proportion": 1,
+      "sizer": {
+        "type": "vertical"
+      },
+      "widget": {
+        "class": "image",
+        "colour": "#DFC686",
+        "image": "ui/widgets/list/list_item_bg.png"
+      }
+    }
+  ],
+  "widget": {
+    "class": "image",
+    "colour": "#F4F6E9",
+    "image": "ui/widgets/list/list_item_bg.png",
+    "size": [
+      42,
+      16
+    ]
+  }
+}

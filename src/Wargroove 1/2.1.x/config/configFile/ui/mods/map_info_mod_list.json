@@ -1,0 +1,212 @@
+{
+  "children": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "border": [
+                20,
+                10,
+                20,
+                10
+              ],
+              "children": [
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "fill": "centre",
+                          "proportion": 1,
+                          "widget": {
+                            "class": "label",
+                            "id": "title",
+                            "textKey": "map_info_mod_list_title"
+                          }
+                        }
+                      ],
+                      "fill": "centre",
+                      "sizer": {
+                        "type": "horizontal"
+                      },
+                      "widget": {
+                        "class": "image",
+                        "image": "ui/widgets/window/dialoguetitle_light.png",
+                        "innerBorder": [
+                          5,
+                          0,
+                          5,
+                          0
+                        ],
+                        "size": [
+                          300,
+                          0
+                        ]
+                      }
+                    }
+                  ],
+                  "fill": [
+                    "centre",
+                    "fillHorizontal"
+                  ],
+                  "widget": {
+                    "class": "widget"
+                  }
+                },
+                {
+                  "children": [
+                    {
+                      "border": [
+                        0,
+                        0,
+                        9,
+                        0
+                      ],
+                      "sizer": {
+                        "type": "vertical"
+                      },
+                      "widget": {
+                        "class": "image",
+                        "id": "modListTitle",
+                        "image": "ui/widgets/window/list_title_holder.png",
+                        "innerBorder": [
+                          3,
+                          0,
+                          3,
+                          0
+                        ]
+                      }
+                    },
+                    {
+                      "children": [
+                        {
+                          "proportion": 1,
+                          "widget": {
+                            "canDrag": "false",
+                            "class": "list",
+                            "id": "modList"
+                          }
+                        }
+                      ],
+                      "widget": {
+                        "class": "scrollBarPane",
+                        "size": [
+                          0,
+                          100
+                        ]
+                      }
+                    }
+                  ],
+                  "sizer": {
+                    "type": "vertical"
+                  },
+                  "widget": {
+                    "class": "widget",
+                    "innerBorder": [
+                      8,
+                      0,
+                      8,
+                      3
+                    ]
+                  }
+                },
+                {
+                  "children": [
+                    {
+                      "proportion": 1,
+                      "stretchSpacer": {}
+                    },
+                    {
+                      "widget": {
+                        "button": "primary",
+                        "class": "gamepadButton",
+                        "id": "ok",
+                        "size": [
+                          40,
+                          16
+                        ],
+                        "textKey": "ui_widget_button_ok"
+                      }
+                    }
+                  ],
+                  "fill": [
+                    "fillHorizontal"
+                  ],
+                  "sizer": {
+                    "type": "horizontal"
+                  },
+                  "widget": {
+                    "class": "widget",
+                    "innerBorder": [
+                      3,
+                      0,
+                      3,
+                      0
+                    ]
+                  }
+                }
+              ],
+              "fill": "centre",
+              "sizer": {
+                "type": "vertical"
+              },
+              "widget": {
+                "class": "image",
+                "image": "ui/widgets/window/scroll_embed_window.png",
+                "innerBorder": [
+                  6,
+                  6,
+                  6,
+                  8
+                ],
+                "size": [
+                  40,
+                  40
+                ]
+              }
+            }
+          ],
+          "fill": "centre",
+          "proportion": 1,
+          "sizer": {
+            "gap": 0,
+            "type": "vertical"
+          },
+          "widget": {
+            "class": "framedImage",
+            "scrollPos": [
+              10,
+              -170
+            ],
+            "scrollSpeed": [
+              15,
+              0
+            ],
+            "size": [
+              4200,
+              10
+            ],
+            "style": "backgroundScroll"
+          }
+        }
+      ],
+      "sizer": {
+        "type": "vertical"
+      },
+      "widget": {
+        "class": "image",
+        "colour": "#000000B0",
+        "image": "ui/whitebox.png",
+        "size": [
+          4000,
+          4000
+        ]
+      }
+    }
+  ],
+  "widget": {
+    "childLayerAdjustment": 10,
+    "class": "widget"
+  }
+}

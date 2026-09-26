@@ -1,0 +1,778 @@
+{
+  "_assetType": "uiDefinition",
+  "_decoded": {
+    "children": [
+      {
+        "border": [
+          25,
+          15,
+          25,
+          19
+        ],
+        "children": [
+          {
+            "border": [
+              18,
+              -3,
+              18,
+              6
+            ],
+            "fill": "centre",
+            "uuid": "beb3ff83-8a01-4bd2-b5e9-9c4bd92b0977",
+            "widget": {
+              "class": "label",
+              "id": "title",
+              "style": "labelTitle",
+              "textKey": "ui_ugc_title"
+            }
+          },
+          {
+            "border": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "children": [
+              {
+                "border": [
+                  0,
+                  0,
+                  0,
+                  -6
+                ],
+                "children": [
+                  {
+                    "border": [
+                      0,
+                      2,
+                      0,
+                      -1
+                    ],
+                    "fill": "bottom",
+                    "sizer": {
+                      "columnProportions": []
+                    },
+                    "uuid": "1f512914-9e31-4e50-904a-230a91b587c1",
+                    "widget": {
+                      "childLayerAdjustment": 1,
+                      "class": "list",
+                      "id": "tabs",
+                      "inputButtons": "tabs",
+                      "options": [
+                        {
+                          "id": "featured",
+                          "textKey": "ui_ugc_select_featured"
+                        },
+                        {
+                          "id": "browse",
+                          "textKey": "ui_ugc_select_browse"
+                        },
+                        {
+                          "id": "mine",
+                          "textKey": "ui_ugc_select_my_content"
+                        },
+                        {
+                          "id": "downloaded",
+                          "textKey": "ui_ugc_select_downloaded"
+                        }
+                      ],
+                      "style": "tabs",
+                      "type": "horizontal",
+                      "uniformSizedItems": true
+                    }
+                  },
+                  {
+                    "border": [
+                      4,
+                      3,
+                      -1,
+                      5
+                    ],
+                    "children": [
+                      {
+                        "fill": "centre",
+                        "proportion": 1,
+                        "uuid": "91064851-4a76-425d-89c0-2134e182fa53",
+                        "widget": {
+                          "class": "label",
+                          "textKey": "ui_map_select_loading"
+                        }
+                      }
+                    ],
+                    "proportion": 1,
+                    "sizer": {
+                      "columnProportions": []
+                    },
+                    "uuid": "5973d84b-b499-487e-96ba-acfafeb847d7",
+                    "widget": {
+                      "active": false,
+                      "class": "image",
+                      "colour": "#f4f6e9",
+                      "id": "loadingArea",
+                      "image": "ui/whitebox.png"
+                    }
+                  },
+                  {
+                    "border": [
+                      4,
+                      3,
+                      -1,
+                      8
+                    ],
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "fill": [
+                              "centreHorizontal"
+                            ],
+                            "uuid": "5ebb6473-56f8-4140-ba18-03b2373e6a6e",
+                            "widget": {
+                              "class": "image",
+                              "image": "ui/cutscene/cutscene_editor/soldier_felheim_create.png",
+                              "size": [
+                                48,
+                                64
+                              ]
+                            }
+                          },
+                          {
+                            "uuid": "853f2d90-da4a-431e-8166-7229aeb39f6d",
+                            "widget": {
+                              "alignment": 0.5,
+                              "class": "label",
+                              "maxWidth": 100,
+                              "textKey": "ui_ugc_list_empty"
+                            }
+                          }
+                        ],
+                        "fill": "centre",
+                        "proportion": 1,
+                        "sizer": {
+                          "type": "vertical"
+                        },
+                        "uuid": "2cd02ae2-c5ee-442c-bf7b-0b86aac6ee7e",
+                        "widget": {
+                          "class": "widget"
+                        }
+                      }
+                    ],
+                    "fill": "fill",
+                    "proportion": 1,
+                    "sizer": {
+                      "columnProportions": []
+                    },
+                    "uuid": "cf39be30-7bef-4779-8e68-5d2af2e5972d",
+                    "widget": {
+                      "active": false,
+                      "class": "image",
+                      "colour": "#f4f6e9",
+                      "id": "emptyArea",
+                      "image": "ui/whitebox.png"
+                    }
+                  },
+                  {
+                    "border": [
+                      4,
+                      3,
+                      -1,
+                      5
+                    ],
+                    "children": [
+                      {
+                        "border": [
+                          1,
+                          -1,
+                          1,
+                          3
+                        ],
+                        "proportion": 1,
+                        "sizer": {
+                          "columnProportions": []
+                        },
+                        "uuid": "a2f4c0d0-ba96-44f1-80a2-7ba6f0453c88",
+                        "widget": {
+                          "class": "pagedPane",
+                          "id": "pagedPane",
+                          "pages": [
+                            {
+                              "children": [
+                                {
+                                  "proportion": 1,
+                                  "widget": {
+                                    "class": "pagedList",
+                                    "id": "featuredList"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "children": [
+                                {
+                                  "children": [
+                                    {
+                                      "border": [
+                                        0,
+                                        2,
+                                        0,
+                                        3
+                                      ],
+                                      "children": [
+                                        {
+                                          "children": [
+                                            {
+                                              "widget": {
+                                                "class": "widget"
+                                              }
+                                            },
+                                            {
+                                              "children": [
+                                                {
+                                                  "border": [
+                                                    0,
+                                                    0,
+                                                    3,
+                                                    2
+                                                  ],
+                                                  "widget": {
+                                                    "class": "label",
+                                                    "style": "brownLabel",
+                                                    "textKey": "ui_ugc_filter_author"
+                                                  }
+                                                },
+                                                {
+                                                  "border": [
+                                                    0,
+                                                    1,
+                                                    0,
+                                                    -1
+                                                  ],
+                                                  "widget": {
+                                                    "class": "playerName",
+                                                    "id": "filterAuthor",
+                                                    "maxHeight": 15,
+                                                    "maxWidth": 100,
+                                                    "style": "labelWhite"
+                                                  }
+                                                }
+                                              ],
+                                              "sizer": {
+                                                "type": "horizontal"
+                                              },
+                                              "widget": {
+                                                "class": "image",
+                                                "colour": "#dfc686",
+                                                "id": "filterAuthorPane",
+                                                "image": "ui/widgets/window/flat_box.png",
+                                                "innerBorder": [
+                                                  3,
+                                                  -2,
+                                                  3,
+                                                  -1
+                                                ]
+                                              }
+                                            },
+                                            {
+                                              "children": [
+                                                {
+                                                  "border": [
+                                                    0,
+                                                    0,
+                                                    3,
+                                                    2
+                                                  ],
+                                                  "widget": {
+                                                    "class": "label",
+                                                    "style": "brownLabel",
+                                                    "textKey": "ui_ugc_filter_title"
+                                                  }
+                                                },
+                                                {
+                                                  "widget": {
+                                                    "class": "label",
+                                                    "id": "filterTitle",
+                                                    "maxHeight": 15,
+                                                    "maxWidth": 100,
+                                                    "style": "brownLabel"
+                                                  }
+                                                },
+                                                {
+                                                  "border": [
+                                                    0,
+                                                    0,
+                                                    0,
+                                                    2
+                                                  ],
+                                                  "widget": {
+                                                    "active": false,
+                                                    "class": "label",
+                                                    "id": "filterTitleMore",
+                                                    "style": "brownLabel",
+                                                    "text": "…"
+                                                  }
+                                                }
+                                              ],
+                                              "sizer": {
+                                                "type": "horizontal"
+                                              },
+                                              "widget": {
+                                                "class": "image",
+                                                "colour": "#dfc686",
+                                                "id": "filterTitlePane",
+                                                "image": "ui/widgets/window/flat_box.png",
+                                                "innerBorder": [
+                                                  3,
+                                                  -2,
+                                                  3,
+                                                  -1
+                                                ]
+                                              }
+                                            }
+                                          ],
+                                          "fill": "left",
+                                          "sizer": {
+                                            "gap": 1,
+                                            "type": "horizontal"
+                                          }
+                                        },
+                                        {
+                                          "children": [
+                                            {
+                                              "widget": {
+                                                "class": "widget"
+                                              }
+                                            },
+                                            {
+                                              "children": [
+                                                {
+                                                  "border": [
+                                                    0,
+                                                    0,
+                                                    3,
+                                                    2
+                                                  ],
+                                                  "widget": {
+                                                    "class": "label",
+                                                    "style": "brownLabel",
+                                                    "textKey": "ui_ugc_filter_order"
+                                                  }
+                                                },
+                                                {
+                                                  "border": [
+                                                    0,
+                                                    0,
+                                                    0,
+                                                    2
+                                                  ],
+                                                  "widget": {
+                                                    "class": "label",
+                                                    "id": "filterOrder",
+                                                    "style": "brownLabel"
+                                                  }
+                                                }
+                                              ],
+                                              "sizer": {
+                                                "type": "horizontal"
+                                              },
+                                              "widget": {
+                                                "class": "image",
+                                                "colour": "#dfc686",
+                                                "id": "filterOrderPane",
+                                                "image": "ui/widgets/window/flat_box.png",
+                                                "innerBorder": [
+                                                  3,
+                                                  -2,
+                                                  3,
+                                                  -1
+                                                ]
+                                              }
+                                            },
+                                            {
+                                              "children": [
+                                                {
+                                                  "border": [
+                                                    0,
+                                                    0,
+                                                    3,
+                                                    2
+                                                  ],
+                                                  "widget": {
+                                                    "class": "label",
+                                                    "style": "brownLabel",
+                                                    "textKey": "ui_ugc_filter_players"
+                                                  }
+                                                },
+                                                {
+                                                  "border": [
+                                                    0,
+                                                    0,
+                                                    0,
+                                                    2
+                                                  ],
+                                                  "widget": {
+                                                    "class": "label",
+                                                    "id": "filterPlayers",
+                                                    "style": "brownLabel"
+                                                  }
+                                                }
+                                              ],
+                                              "sizer": {
+                                                "type": "horizontal"
+                                              },
+                                              "widget": {
+                                                "class": "image",
+                                                "colour": "#dfc686",
+                                                "id": "filterPlayersPane",
+                                                "image": "ui/widgets/window/flat_box.png",
+                                                "innerBorder": [
+                                                  3,
+                                                  -2,
+                                                  3,
+                                                  -1
+                                                ]
+                                              }
+                                            },
+                                            {
+                                              "children": [
+                                                {
+                                                  "border": [
+                                                    0,
+                                                    0,
+                                                    3,
+                                                    2
+                                                  ],
+                                                  "widget": {
+                                                    "class": "label",
+                                                    "style": "brownLabel",
+                                                    "textKey": "ui_ugc_filter_content"
+                                                  }
+                                                },
+                                                {
+                                                  "border": [
+                                                    0,
+                                                    0,
+                                                    0,
+                                                    2
+                                                  ],
+                                                  "widget": {
+                                                    "class": "label",
+                                                    "id": "filterContent",
+                                                    "style": "brownLabel"
+                                                  }
+                                                }
+                                              ],
+                                              "sizer": {
+                                                "type": "horizontal"
+                                              },
+                                              "widget": {
+                                                "class": "image",
+                                                "colour": "#dfc686",
+                                                "id": "filterContentPane",
+                                                "image": "ui/widgets/window/flat_box.png",
+                                                "innerBorder": [
+                                                  3,
+                                                  -2,
+                                                  3,
+                                                  -1
+                                                ]
+                                              }
+                                            }
+                                          ],
+                                          "fill": "left",
+                                          "sizer": {
+                                            "gap": 1,
+                                            "type": "horizontal"
+                                          }
+                                        }
+                                      ],
+                                      "fill": "fillHorizontal",
+                                      "sizer": {
+                                        "gap": 1,
+                                        "type": "vertical"
+                                      },
+                                      "widget": {
+                                        "class": "widget",
+                                        "id": "filterPane"
+                                      }
+                                    },
+                                    {
+                                      "proportion": 1,
+                                      "widget": {
+                                        "class": "pagedList",
+                                        "id": "browseList"
+                                      }
+                                    }
+                                  ],
+                                  "proportion": 1,
+                                  "sizer": {
+                                    "type": "vertical"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "children": [
+                                {
+                                  "children": [
+                                    {
+                                      "border": [
+                                        0,
+                                        1,
+                                        0,
+                                        0
+                                      ],
+                                      "children": [
+                                        {
+                                          "border": [
+                                            10,
+                                            -2,
+                                            10,
+                                            6
+                                          ],
+                                          "widget": {
+                                            "class": "label",
+                                            "id": "slotsLabel",
+                                            "style": "labelFat",
+                                            "textKey": "ui_ugc_slots"
+                                          }
+                                        }
+                                      ],
+                                      "fill": "left",
+                                      "sizer": {
+                                        "gap": 3,
+                                        "type": "horizontal"
+                                      },
+                                      "widget": {
+                                        "class": "image",
+                                        "colour": "#c19f6b",
+                                        "image": "ui/widgets/window/flat_box_rounded.png",
+                                        "innerBorder": [
+                                          0,
+                                          0,
+                                          0,
+                                          0
+                                        ]
+                                      }
+                                    },
+                                    {
+                                      "proportion": 1,
+                                      "widget": {
+                                        "class": "pagedList",
+                                        "id": "mineList"
+                                      }
+                                    }
+                                  ],
+                                  "proportion": 1,
+                                  "sizer": {
+                                    "gap": 2,
+                                    "type": "vertical"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "children": [
+                                {
+                                  "proportion": 1,
+                                  "widget": {
+                                    "class": "pagedList",
+                                    "id": "downloadedList"
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "proportion": 1,
+                    "sizer": {
+                      "columnProportions": [],
+                      "type": "horizontal"
+                    },
+                    "uuid": "62439e83-0a83-4056-acbc-f3dcd2ecf94b",
+                    "widget": {
+                      "active": true,
+                      "class": "image",
+                      "colour": "#f4f6e9",
+                      "id": "contentArea",
+                      "image": "ui/whitebox.png",
+                      "innerBorder": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ]
+                    }
+                  }
+                ],
+                "proportion": 1,
+                "sizer": {
+                  "columnProportions": [],
+                  "type": "vertical"
+                },
+                "uuid": "77375439-b7a2-4eaa-8373-00320ce4fc4d"
+              },
+              {
+                "border": [
+                  2,
+                  1,
+                  2,
+                  -2
+                ],
+                "children": [
+                  {
+                    "border": [
+                      0,
+                      1,
+                      0,
+                      0
+                    ],
+                    "fill": [
+                      "centreHorizontal",
+                      "top"
+                    ],
+                    "proportion": 1,
+                    "sizer": {
+                      "columnProportions": []
+                    },
+                    "uuid": "8d68227c-b28b-4be8-bcd3-525638ccf240",
+                    "widget": {
+                      "class": "mapInfo",
+                      "id": "mapInfo",
+                      "shortened": true
+                    }
+                  },
+                  {
+                    "border": [
+                      0,
+                      1,
+                      0,
+                      0
+                    ],
+                    "children": [
+                      {
+                        "border": [
+                          2,
+                          1,
+                          3,
+                          1
+                        ],
+                        "sizer": {
+                          "columnProportions": []
+                        },
+                        "uuid": "8e5eca6b-2675-4a9b-9a78-83e8195ed3f2",
+                        "widget": {
+                          "class": "playerName",
+                          "id": "authorLabel",
+                          "maxHeight": 15,
+                          "maxWidth": 98,
+                          "wordWrapped": false
+                        }
+                      }
+                    ],
+                    "fill": [
+                      "fillHorizontal",
+                      "centreVertical"
+                    ],
+                    "proportion": 0,
+                    "sizer": {
+                      "columnProportions": [],
+                      "type": "vertical"
+                    },
+                    "uuid": "6a230c82-34d9-4b08-b37e-64cbf9dab3ff",
+                    "widget": {
+                      "active": true,
+                      "class": "image",
+                      "colour": "#c19f6b",
+                      "id": "authorPane",
+                      "image": "ui/widgets/window/flat_box_rounded.png"
+                    }
+                  }
+                ],
+                "fill": [
+                  "centreHorizontal",
+                  "fillVertical"
+                ],
+                "sizer": {
+                  "columnProportions": [],
+                  "type": "vertical"
+                },
+                "uuid": "40676c97-be83-428a-be2f-0e746ae09181",
+                "widget": {
+                  "class": "widget",
+                  "innerBorder": [
+                    0,
+                    0,
+                    0,
+                    2
+                  ]
+                }
+              }
+            ],
+            "proportion": 1,
+            "sizer": {
+              "columnProportions": [],
+              "type": "horizontal"
+            },
+            "uuid": "34a14bac-fbfb-44bd-a84c-50e999281c9d"
+          },
+          {
+            "border": [
+              3,
+              5,
+              0,
+              0
+            ],
+            "sizer": {
+              "columnProportions": []
+            },
+            "uuid": "9d8ccdbb-4a22-4e27-8555-a8607003ae9d",
+            "widget": {
+              "class": "nearZoomButtons"
+            }
+          }
+        ],
+        "sizer": {
+          "columnProportions": [],
+          "type": "vertical"
+        },
+        "uuid": "627c0dfe-93d7-4819-9d4c-94e05ac07b9a",
+        "widget": {
+          "class": "image",
+          "image": "ui/widgets/window/paper_border_lobby.png",
+          "innerBorder": [
+            25,
+            11,
+            28,
+            7
+          ],
+          "size": [
+            474,
+            249
+          ]
+        }
+      }
+    ],
+    "sizer": {
+      "columnProportions": [],
+      "gap": 0,
+      "type": "vertical"
+    },
+    "uuid": "844ad81c-a6e0-4096-881e-346f01b0e748",
+    "widget": {
+      "class": "framedImage",
+      "scrollPos": [
+        10,
+        -170
+      ],
+      "scrollSpeed": [
+        -10,
+        10
+      ],
+      "style": "paperScroll"
+    }
+  },
+  "_payloadHex": "03000000010300000004000000080000006368696c6472656e0200000001000000030000000500000006000000626f72646572020000000400000004000000190000000c0000000d000000040000000f0000000c0000001100000004000000190000000c0000001500000004000000130000000c000000190000000c0000000c000000080000006368696c6472656e0200000003000000030000000400000006000000626f7264657202000000040000000400000012000000170000001100000004000000fdffffff1700000015000000040000001200000017000000190000000400000006000000170000001d00000017000000100000000400000066696c6c010000000600000063656e7472651d0000000e0000000400000075756964010000002400000062656233666638332d386130312d346264322d623565392d396334626439326230393737160000000e00000006000000776964676574030000000400000005000000636c61737301000000050000006c6162656c190000001100000002000000696401000000050000007469746c651a0000000e000000050000007374796c65010000000a0000006c6162656c5469746c651b0000001100000007000000746578744b6579010000000c00000075695f7567635f7469746c651c00000013000000190000000a0000001600000008000000030000000500000006000000626f7264657202000000040000000400000000000000200000001100000004000000000000002000000014000000040000000000000020000000170000000400000000000000200000001a0000002000000010000000080000006368696c6472656e0200000002000000030000000500000006000000626f72646572020000000400000004000000000000002700000015000000040000000000000027000000180000000400000000000000270000001b00000004000000faffffff270000001e0000002700000014000000080000006368696c6472656e0200000004000000030000000500000006000000626f72646572020000000400000004000000000000002d0000001900000004000000020000002d0000001c00000004000000000000002d0000001f00000004000000ffffffff2d000000220000002d000000180000000400000066696c6c0100000006000000626f74746f6d41000000160000000500000073697a6572030000000100000011000000636f6c756d6e50726f706f7274696f6e7302000000000000002f000000250000002f000000120000000400000075756964010000002400000031663531323931342d396533312d346535302d393034612d3233306139316235383763312c00000016000000060000007769646765740300000008000000140000006368696c644c6179657241646a7573746d656e740400000001000000310000002800000005000000636c61737301000000040000006c697374320000001900000002000000696401000000040000007461627333000000160000000c000000696e707574427574746f6e730100000004000000746162733400000020000000070000006f7074696f6e730200000004000000030000000200000002000000696401000000080000006665617475726564360000001a00000007000000746578744b6579010000001600000075695f7567635f73656c6563745f6665617475726564370000001f00000036000000160000000300000002000000020000006964010000000600000062726f777365380000001a00000007000000746578744b6579010000001400000075695f7567635f73656c6563745f62726f777365390000001f0000003800000016000000030000000200000002000000696401000000040000006d696e653a0000001a00000007000000746578744b6579010000001800000075695f7567635f73656c6563745f6d795f636f6e74656e743b0000001f0000003a000000160000000300000002000000020000006964010000000a000000646f776e6c6f616465643c0000001a00000007000000746578744b6579010000001800000075695f7567635f73656c6563745f646f776e6c6f616465643d0000001f0000003c000000160000003600000014000000050000007374796c650100000004000000746162733e000000190000000400000074797065010000000a000000686f72697a6f6e74616c3f0000001800000011000000756e69666f726d53697a65644974656d731000000001400000002500000031000000120000002c00000010000000030000000600000006000000626f726465720200000004000000040000000400000044000000190000000400000003000000440000001c00000004000000ffffffff440000001f000000040000000500000044000000230000004400000018000000080000006368696c6472656e020000000100000003000000040000000400000066696c6c010000000600000063656e747265530000001a0000000a00000070726f706f7274696f6e04000000010000004f000000200000000400000075756964010000002400000039313036343835312d346137362d343235642d383963302d3231333465313832666135334e0000001a00000006000000776964676574030000000200000005000000636c61737301000000050000006c6162656c510000001d00000007000000746578744b6579010000001500000075695f6d61705f73656c6563745f6c6f6164696e67520000001f00000051000000160000004e000000140000004e000000120000000a00000070726f706f7274696f6e0400000001000000430000001c0000000500000073697a6572030000000100000011000000636f6c756d6e50726f706f7274696f6e730200000000000000460000002500000046000000120000000400000075756964010000002400000035393733643834622d623439392d343837652d393662612d6163666166656238343764374200000016000000060000007769646765740300000005000000060000006163746976651000000000480000001a00000005000000636c6173730100000005000000696d616765490000001900000006000000636f6c6f75720100000007000000236634663665394a0000001a000000020000006964010000000b0000006c6f6164696e67417265614b0000001600000005000000696d616765010000000f00000075692f7768697465626f782e706e674c0000001900000048000000120000004200000010000000030000000700000006000000626f726465720200000004000000040000000400000056000000190000000400000003000000560000001c00000004000000ffffffff560000001f000000040000000800000056000000230000005600000018000000080000006368696c6472656e02000000010000000300000006000000080000006368696c6472656e020000000200000003000000030000000400000066696c6c0200000001000000010000001000000063656e747265486f72697a6f6e74616c6c0000001f0000006c0000001e0000000400000075756964010000002400000035656262363437332d353666382d343134302d626131382d303362323337336536613665670000001e00000006000000776964676574030000000300000005000000636c6173730100000005000000696d616765690000002100000005000000696d616765010000003600000075692f6375747363656e652f6375747363656e655f656469746f722f736f6c646965725f66656c6865696d5f6372656174652e706e676a000000210000000400000073697a65020000000200000004000000300000006b0000002100000004000000400000006b000000250000006b00000020000000690000001a000000670000001800000003000000020000000400000075756964010000002400000038353366326439302d646134612d343331652d383136362d3732323961656233396636646d0000001e00000006000000776964676574030000000400000009000000616c69676e6d656e74050000000000003f6f0000002500000005000000636c61737301000000050000006c6162656c7000000021000000080000006d617857696474680400000064000000710000002400000007000000746578744b6579010000001100000075695f7567635f6c6973745f656d70747972000000230000006f0000001a0000006d0000001800000067000000160000000400000066696c6c010000000600000063656e747265730000001a0000000a00000070726f706f7274696f6e040000000100000061000000200000000500000073697a6572030000000100000004000000747970650100000008000000766572746963616c630000001c00000063000000160000000400000075756964010000002400000032636430326165322d633565652d343432632d626637622d306238366161633665653765600000001a00000006000000776964676574030000000100000005000000636c6173730100000006000000776964676574650000001d0000006500000016000000600000001400000060000000120000000400000066696c6c010000000400000066696c6c74000000160000000a00000070726f706f7274696f6e0400000001000000550000001c0000000500000073697a6572030000000100000011000000636f6c756d6e50726f706f7274696f6e730200000000000000580000002500000058000000120000000400000075756964010000002400000063663339626533302d376265662d343737392d386536382d35643261663265353937326454000000160000000600000077696467657403000000050000000600000061637469766510000000005a0000001a00000005000000636c6173730100000005000000696d6167655b0000001900000006000000636f6c6f75720100000007000000236634663665395c0000001a0000000200000069640100000009000000656d707479417265615d0000001600000005000000696d616765010000000f00000075692f7768697465626f782e706e675e000000190000005a000000120000005400000010000000030000000600000006000000626f726465720200000004000000040000000400000077000000190000000400000003000000770000001c00000004000000ffffffff770000001f000000040000000500000077000000230000007700000018000000080000006368696c6472656e0200000001000000030000000500000006000000626f7264657202000000040000000400000001000000850000001d00000004000000ffffffff85000000200000000400000001000000850000002400000004000000030000008500000027000000850000001c0000000a00000070726f706f7274696f6e040000000100000084000000200000000500000073697a6572030000000100000011000000636f6c756d6e50726f706f7274696f6e730200000000000000870000002900000087000000160000000400000075756964010000002400000061326634633064302d626139362d343466312d383061322d376261366630343533633838830000001a00000006000000776964676574030000000300000005000000636c6173730100000009000000706167656450616e65890000001d0000000200000069640100000009000000706167656450616e658a0000001a00000005000000706167657302000000040000000300000001000000080000006368696c6472656e020000000100000003000000020000000a00000070726f706f7274696f6e04000000010000008d0000002a00000006000000776964676574030000000200000005000000636c617373010000000900000070616765644c6973748f00000027000000020000006964010000000c00000066656174757265644c69737490000000240000008f000000200000008d0000001e0000008d0000001c0000008c0000001a0000000300000001000000080000006368696c6472656e02000000010000000300000003000000080000006368696c6472656e0200000002000000030000000500000006000000626f7264657202000000040000000400000000000000960000002b0000000400000002000000960000002e0000000400000000000000960000003100000004000000030000009600000034000000960000002a000000080000006368696c6472656e02000000020000000300000003000000080000006368696c6472656e0200000003000000030000000100000006000000776964676574030000000100000005000000636c6173730100000006000000776964676574a300000033000000a30000002c000000a20000002a0000000300000003000000080000006368696c6472656e0200000002000000030000000200000006000000626f7264657202000000040000000400000000000000ad000000370000000400000000000000ad0000003a0000000400000003000000ad0000003d0000000400000002000000ad00000040000000ad0000003600000006000000776964676574030000000300000005000000636c61737301000000050000006c6162656caf00000037000000050000007374796c65010000000a00000062726f776e4c6162656cb00000003700000007000000746578744b6579010000001400000075695f7567635f66696c7465725f617574686f72b100000039000000af00000030000000ad0000002e000000030000000200000006000000626f7264657202000000040000000400000000000000b2000000370000000400000001000000b20000003a0000000400000000000000b20000003d00000004000000ffffffffb200000040000000b20000003600000006000000776964676574030000000500000005000000636c617373010000000a000000706c617965724e616d65b400000037000000020000006964010000000c00000066696c746572417574686f72b500000034000000090000006d6178486569676874040000000f000000b60000003b000000080000006d617857696474680400000064000000b70000003a000000050000007374796c65010000000a0000006c6162656c5768697465b800000037000000b400000030000000b20000002e000000ad0000002c0000000500000073697a657203000000010000000400000074797065010000000a000000686f72697a6f6e74616ca500000032000000a50000002c00000006000000776964676574030000000500000005000000636c6173730100000005000000696d616765a70000003300000006000000636f6c6f7572010000000700000023646663363836a800000034000000020000006964010000001000000066696c746572417574686f7250616e65a90000003000000005000000696d616765010000001e00000075692f776964676574732f77696e646f772f666c61745f626f782e706e67aa000000330000000b000000696e6e6572426f7264657202000000040000000400000003000000ab0000003a00000004000000feffffffab0000003d0000000400000003000000ab0000004100000004000000ffffffffab00000044000000ab00000039000000a70000002c000000a40000002a0000000300000003000000080000006368696c6472656e0200000003000000030000000200000006000000626f7264657202000000040000000400000000000000c2000000370000000400000000000000c20000003a0000000400000003000000c20000003d0000000400000002000000c200000040000000c20000003600000006000000776964676574030000000300000005000000636c61737301000000050000006c6162656cc400000037000000050000007374796c65010000000a00000062726f776e4c6162656cc50000003700000007000000746578744b6579010000001300000075695f7567635f66696c7465725f7469746c65c600000039000000c400000030000000c20000002e000000030000000100000006000000776964676574030000000500000005000000636c61737301000000050000006c6162656cc800000037000000020000006964010000000b00000066696c7465725469746c65c900000034000000090000006d6178486569676874040000000f000000ca0000003b000000080000006d617857696474680400000064000000cb0000003a000000050000007374796c65010000000a00000062726f776e4c6162656ccc00000037000000c800000030000000c70000002e000000030000000200000006000000626f7264657202000000040000000400000000000000cd000000370000000400000000000000cd0000003a0000000400000000000000cd0000003d0000000400000002000000cd00000040000000cd00000036000000060000007769646765740300000005000000060000006163746976651000000000cf0000003800000005000000636c61737301000000050000006c6162656cd000000037000000020000006964010000000f00000066696c7465725469746c654d6f7265d100000034000000050000007374796c65010000000a00000062726f776e4c6162656cd20000003700000004000000746578740100000003000000e280a6d300000036000000cf00000030000000cd0000002e000000c20000002c0000000500000073697a657203000000010000000400000074797065010000000a000000686f72697a6f6e74616cba00000032000000ba0000002c00000006000000776964676574030000000500000005000000636c6173730100000005000000696d616765bc0000003300000006000000636f6c6f7572010000000700000023646663363836bd00000034000000020000006964010000000f00000066696c7465725469746c6550616e65be0000003000000005000000696d616765010000001e00000075692f776964676574732f77696e646f772f666c61745f626f782e706e67bf000000330000000b000000696e6e6572426f7264657202000000040000000400000003000000c00000003a00000004000000feffffffc00000003d0000000400000003000000c00000004100000004000000ffffffffc000000044000000c000000039000000bc0000002c000000b90000002a000000a2000000280000000400000066696c6c01000000040000006c656674d40000002c0000000500000073697a657203000000020000000300000067617004000000010000009f0000002d0000000400000074797065010000000a000000686f72697a6f6e74616ca00000002e0000009f000000280000009e000000260000000300000003000000080000006368696c6472656e0200000004000000030000000100000006000000776964676574030000000100000005000000636c6173730100000006000000776964676574da00000033000000da0000002c000000d90000002a0000000300000003000000080000006368696c6472656e0200000002000000030000000200000006000000626f7264657202000000040000000400000000000000e4000000370000000400000000000000e40000003a0000000400000003000000e40000003d0000000400000002000000e400000040000000e40000003600000006000000776964676574030000000300000005000000636c61737301000000050000006c6162656ce600000037000000050000007374796c65010000000a00000062726f776e4c6162656ce70000003700000007000000746578744b6579010000001300000075695f7567635f66696c7465725f6f72646572e800000039000000e600000030000000e40000002e000000030000000200000006000000626f7264657202000000040000000400000000000000e9000000370000000400000000000000e90000003a0000000400000000000000e90000003d0000000400000002000000e900000040000000e90000003600000006000000776964676574030000000300000005000000636c61737301000000050000006c6162656ceb00000037000000020000006964010000000b00000066696c7465724f72646572ec00000034000000050000007374796c65010000000a00000062726f776e4c6162656ced00000037000000eb00000030000000e90000002e000000e40000002c0000000500000073697a657203000000010000000400000074797065010000000a000000686f72697a6f6e74616cdc00000032000000dc0000002c00000006000000776964676574030000000500000005000000636c6173730100000005000000696d616765de0000003300000006000000636f6c6f7572010000000700000023646663363836df00000034000000020000006964010000000f00000066696c7465724f7264657250616e65e00000003000000005000000696d616765010000001e00000075692f776964676574732f77696e646f772f666c61745f626f782e706e67e1000000330000000b000000696e6e6572426f7264657202000000040000000400000003000000e20000003a00000004000000feffffffe20000003d0000000400000003000000e20000004100000004000000ffffffffe200000044000000e200000039000000de0000002c000000db0000002a0000000300000003000000080000006368696c6472656e0200000002000000030000000200000006000000626f7264657202000000040000000400000000000000f7000000370000000400000000000000f70000003a0000000400000003000000f70000003d0000000400000002000000f700000040000000f70000003600000006000000776964676574030000000300000005000000636c61737301000000050000006c6162656cf900000037000000050000007374796c65010000000a00000062726f776e4c6162656cfa0000003700000007000000746578744b6579010000001500000075695f7567635f66696c7465725f706c6179657273fb00000039000000f900000030000000f70000002e000000030000000200000006000000626f7264657202000000040000000400000000000000fc000000370000000400000000000000fc0000003a0000000400000000000000fc0000003d0000000400000002000000fc00000040000000fc0000003600000006000000776964676574030000000300000005000000636c61737301000000050000006c6162656cfe00000037000000020000006964010000000d00000066696c746572506c6179657273ff00000034000000050000007374796c65010000000a00000062726f776e4c6162656c0001000037000000fe00000030000000fc0000002e000000f70000002c0000000500000073697a657203000000010000000400000074797065010000000a000000686f72697a6f6e74616cef00000032000000ef0000002c00000006000000776964676574030000000500000005000000636c6173730100000005000000696d616765f10000003300000006000000636f6c6f7572010000000700000023646663363836f200000034000000020000006964010000001100000066696c746572506c617965727350616e65f30000003000000005000000696d616765010000001e00000075692f776964676574732f77696e646f772f666c61745f626f782e706e67f4000000330000000b000000696e6e6572426f7264657202000000040000000400000003000000f50000003a00000004000000fefffffff50000003d0000000400000003000000f50000004100000004000000fffffffff500000044000000f500000039000000f10000002c000000ee0000002a0000000300000003000000080000006368696c6472656e0200000002000000030000000200000006000000626f72646572020000000400000004000000000000000a0100003700000004000000000000000a0100003a00000004000000030000000a0100003d00000004000000020000000a010000400000000a0100003600000006000000776964676574030000000300000005000000636c61737301000000050000006c6162656c0c01000037000000050000007374796c65010000000a00000062726f776e4c6162656c0d0100003700000007000000746578744b6579010000001500000075695f7567635f66696c7465725f636f6e74656e740e010000390000000c010000300000000a0100002e000000030000000200000006000000626f72646572020000000400000004000000000000000f0100003700000004000000000000000f0100003a00000004000000000000000f0100003d00000004000000020000000f010000400000000f0100003600000006000000776964676574030000000300000005000000636c61737301000000050000006c6162656c1101000037000000020000006964010000000d00000066696c746572436f6e74656e741201000034000000050000007374796c65010000000a00000062726f776e4c6162656c130100003700000011010000300000000f0100002e0000000a0100002c0000000500000073697a657203000000010000000400000074797065010000000a000000686f72697a6f6e74616c0201000032000000020100002c00000006000000776964676574030000000500000005000000636c6173730100000005000000696d616765040100003300000006000000636f6c6f75720100000007000000236466633638360501000034000000020000006964010000001100000066696c746572436f6e74656e7450616e65060100003000000005000000696d616765010000001e00000075692f776964676574732f77696e646f772f666c61745f626f782e706e6707010000330000000b000000696e6e6572426f7264657202000000040000000400000003000000080100003a00000004000000feffffff080100003d0000000400000003000000080100004100000004000000ffffffff08010000440000000801000039000000040100002c000000010100002a000000d9000000280000000400000066696c6c01000000040000006c656674140100002c0000000500000073697a65720300000002000000030000006761700400000001000000d60000002d0000000400000074797065010000000a000000686f72697a6f6e74616cd70000002e000000d600000028000000d5000000260000009e000000240000000400000066696c6c010000000e00000066696c6c486f72697a6f6e74616c15010000280000000500000073697a65720300000002000000030000006761700400000001000000980000002900000004000000747970650100000008000000766572746963616c990000002a000000980000002400000006000000776964676574030000000200000005000000636c61737301000000060000007769646765749b0000002b000000020000006964010000000a00000066696c74657250616e659c000000280000009b00000024000000960000002200000003000000020000000a00000070726f706f7274696f6e0400000001000000160100002e00000006000000776964676574030000000200000005000000636c617373010000000900000070616765644c697374180100002b000000020000006964010000000a00000062726f7773654c69737419010000280000001801000024000000160100002200000096000000200000000a00000070726f706f7274696f6e0400000001000000920000002a0000000500000073697a6572030000000100000004000000747970650100000008000000766572746963616c94000000260000009400000020000000920000001e000000920000001c000000910000001a0000000300000001000000080000006368696c6472656e02000000010000000300000003000000080000006368696c6472656e0200000002000000030000000500000006000000626f7264657202000000040000000400000000000000200100002b0000000400000001000000200100002e0000000400000000000000200100003100000004000000000000002001000034000000200100002a000000080000006368696c6472656e0200000001000000030000000200000006000000626f726465720200000004000000040000000a0000002a0100002f00000004000000feffffff2a01000033000000040000000a0000002a0100003700000004000000060000002a0100003b0000002a0100002e00000006000000776964676574030000000400000005000000636c61737301000000050000006c6162656c2c0100002f000000020000006964010000000a000000736c6f74734c6162656c2d0100002c000000050000007374796c6501000000080000006c6162656c4661742e0100002f00000007000000746578744b6579010000000c00000075695f7567635f736c6f74732f010000310000002c010000280000002a010000260000002a010000240000000400000066696c6c01000000040000006c65667430010000280000000500000073697a6572030000000200000003000000676170040000000300000022010000290000000400000074797065010000000a000000686f72697a6f6e74616c230100002a000000220100002400000006000000776964676574030000000400000005000000636c6173730100000005000000696d616765250100002b00000006000000636f6c6f7572010000000700000023633139663662260100002c00000005000000696d616765010000002600000075692f776964676574732f77696e646f772f666c61745f626f785f726f756e6465642e706e67270100002b0000000b000000696e6e6572426f7264657202000000040000000400000000000000280100003200000004000000000000002801000035000000040000000000000028010000380000000400000000000000280100003b00000028010000310000002501000024000000200100002200000003000000020000000a00000070726f706f7274696f6e0400000001000000310100002e00000006000000776964676574030000000200000005000000636c617373010000000900000070616765644c697374330100002b00000002000000696401000000080000006d696e654c69737434010000280000003301000024000000310100002200000020010000200000000a00000070726f706f7274696f6e04000000010000001b0100002a0000000500000073697a657203000000020000000300000067617004000000020000001d0100002500000004000000747970650100000008000000766572746963616c1e010000260000001d010000200000001b0100001e0000001b0100001c0000001a0100001a0000000300000001000000080000006368696c6472656e020000000100000003000000020000000a00000070726f706f7274696f6e0400000001000000360100002a00000006000000776964676574030000000200000005000000636c617373010000000900000070616765644c6973743801000027000000020000006964010000000e000000646f776e6c6f616465644c69737439010000240000003801000020000000360100001e000000360100001c000000350100001a0000008c000000180000008900000016000000830000001400000083000000120000000a00000070726f706f7274696f6e0400000001000000760000001c0000000500000073697a6572030000000200000011000000636f6c756d6e50726f706f7274696f6e73020000000000000079000000250000000400000074797065010000000a000000686f72697a6f6e74616c7a0000001800000079000000120000000400000075756964010000002400000036323433396538332d306138332d343035362d616362632d66336463643265636639346275000000160000000600000077696467657403000000060000000600000061637469766510000000017c0000001a00000005000000636c6173730100000005000000696d6167657d0000001900000006000000636f6c6f75720100000007000000236634663665397e0000001a000000020000006964010000000b000000636f6e74656e74417265617f0000001600000005000000696d616765010000000f00000075692f7768697465626f782e706e6780000000190000000b000000696e6e6572426f72646572020000000400000004000000000000008100000020000000040000000000000081000000230000000400000000000000810000002600000004000000000000008100000029000000810000001f0000007c0000001200000075000000100000002c0000000e0000000a00000070726f706f7274696f6e040000000100000026000000180000000500000073697a6572030000000200000011000000636f6c756d6e50726f706f7274696f6e730200000000000000290000002100000004000000747970650100000008000000766572746963616c2a00000014000000290000000e0000000400000075756964010000002400000037373337353433392d623761322d346561612d383337332d3030333230636534666334642500000012000000250000000c000000030000000600000006000000626f72646572020000000400000004000000020000003b0100001500000004000000010000003b0100001800000004000000020000003b0100001b00000004000000feffffff3b0100001e0000003b01000014000000080000006368696c6472656e0200000002000000030000000600000006000000626f726465720200000004000000040000000000000045010000190000000400000001000000450100001c0000000400000000000000450100001f0000000400000000000000450100002200000045010000180000000400000066696c6c0200000002000000010000001000000063656e747265486f72697a6f6e74616c4c010000170000000100000003000000746f704c010000290000004c010000160000000a00000070726f706f7274696f6e0400000001000000440100001c0000000500000073697a6572030000000100000011000000636f6c756d6e50726f706f7274696f6e730200000000000000470100002500000047010000120000000400000075756964010000002400000038643638323237632d623238622d346265382d626364332d353235363338636366323430430100001600000006000000776964676574030000000300000005000000636c61737301000000070000006d6170496e666f490100001900000002000000696401000000070000006d6170496e666f4a010000160000000900000073686f7274656e656410000000014b0100001d00000049010000120000004301000010000000030000000700000006000000626f72646572020000000400000004000000000000004f0100001900000004000000010000004f0100001c00000004000000000000004f0100001f00000004000000000000004f010000220000004f01000018000000080000006368696c6472656e0200000001000000030000000400000006000000626f72646572020000000400000004000000020000005b0100001d00000004000000010000005b0100002000000004000000030000005b0100002300000004000000010000005b010000260000005b0100001c0000000500000073697a6572030000000100000011000000636f6c756d6e50726f706f7274696f6e7302000000000000005d010000290000005d010000160000000400000075756964010000002400000038653565636136622d323637352d346139622d396137382d3833653831393565643366325a0100001a00000006000000776964676574030000000500000005000000636c617373010000000a000000706c617965724e616d655f0100001d000000020000006964010000000b000000617574686f724c6162656c600100001a000000090000006d6178486569676874040000000f0000006101000021000000080000006d61785769647468040000006200000062010000200000000b000000776f726457726170706564100000000063010000230000005f010000160000005a010000140000005a010000120000000400000066696c6c0200000002000000010000000e00000066696c6c486f72697a6f6e74616c6401000017000000010000000e00000063656e747265566572746963616c640100002700000064010000160000000a00000070726f706f7274696f6e04000000000000004e0100001c0000000500000073697a6572030000000200000011000000636f6c756d6e50726f706f7274696f6e730200000000000000510100002500000004000000747970650100000008000000766572746963616c520100001800000051010000120000000400000075756964010000002400000036613233306338322d333464392d346230382d623337652d3634636266396461623366664d01000016000000060000007769646765740300000005000000060000006163746976651000000001540100001a00000005000000636c6173730100000005000000696d616765550100001900000006000000636f6c6f7572010000000700000023633139663662560100001a000000020000006964010000000a000000617574686f7250616e65570100001600000005000000696d616765010000002600000075692f776964676574732f77696e646f772f666c61745f626f785f726f756e6465642e706e67580100001900000054010000120000004d01000010000000430100000e0000000400000066696c6c0200000002000000010000001000000063656e747265486f72697a6f6e74616c6501000013000000010000000c00000066696c6c566572746963616c650100002500000065010000120000000500000073697a6572030000000200000011000000636f6c756d6e50726f706f7274696f6e7302000000000000003d0100002100000004000000747970650100000008000000766572746963616c3e010000140000003d0100000e0000000400000075756964010000002400000034303637366339372d626538332d343238612d626532662d3065373436616530393138313a0100001200000006000000776964676574030000000200000005000000636c617373010000000600000077696467657440010000150000000b000000696e6e6572426f7264657202000000040000000400000000000000410100001c0000000400000000000000410100001f0000000400000000000000410100002200000004000000020000004101000025000000410100001b000000400100000e0000003a0100000c000000250000000a0000000a00000070726f706f7274696f6e04000000010000001f000000140000000500000073697a6572030000000200000011000000636f6c756d6e50726f706f7274696f6e730200000000000000220000001d0000000400000074797065010000000a000000686f72697a6f6e74616c2300000010000000220000000a0000000400000075756964010000002400000033346131346261632d666266622d343462642d613834632d3530653939393238316339641e0000000e0000001e00000008000000030000000400000006000000626f7264657202000000040000000400000003000000670100001100000004000000050000006701000014000000040000000000000067010000170000000400000000000000670100001a00000067010000100000000500000073697a6572030000000100000011000000636f6c756d6e50726f706f7274696f6e730200000000000000690100001d000000690100000a0000000400000075756964010000002400000039643863636462622d346132322d346532372d383535352d613836303730303361653964660100000e00000006000000776964676574030000000100000005000000636c617373010000000f0000006e6561725a6f6f6d427574746f6e736b010000110000006b0100000a000000660100000800000016000000060000000500000073697a6572030000000200000011000000636f6c756d6e50726f706f7274696f6e7302000000000000000e0000001900000004000000747970650100000008000000766572746963616c0f0000000c0000000e000000060000000400000075756964010000002400000036323763306466652d393364372d343831392d396434632d3934653035616330376239610b0000000a00000006000000776964676574030000000400000005000000636c6173730100000005000000696d616765110000000d00000005000000696d616765010000002800000075692f776964676574732f77696e646f772f70617065725f626f726465725f6c6f6262792e706e67120000000d0000000b000000696e6e6572426f72646572020000000400000004000000190000001300000014000000040000000b0000001300000018000000040000001c000000130000001c0000000400000007000000130000002000000013000000130000000400000073697a65020000000200000004000000da010000140000000d00000004000000f90000001400000012000000140000000c00000011000000060000000b000000040000000b000000020000000500000073697a6572030000000300000011000000636f6c756d6e50726f706f7274696f6e7302000000000000000200000015000000030000006761700400000000000000030000000700000004000000747970650100000008000000766572746963616c040000000800000002000000020000000400000075756964010000002400000038343461643831632d613665302d343039362d383831652d333436663031623065373438000000000600000006000000776964676574030000000400000005000000636c617373010000000b0000006672616d6564496d6167650600000009000000090000007363726f6c6c506f730200000002000000040000000a000000070000000e0000000400000056ffffff0700000012000000070000000d0000000b0000007363726f6c6c5370656564020000000200000004000000f6ffffff0800000010000000040000000a0000000800000015000000080000000f000000050000007374796c65010000000b00000070617065725363726f6c6c090000000900000006000000020000000000000000000000"
+}

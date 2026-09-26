@@ -1,0 +1,11 @@
+{
+  "uiStyle": {
+    "menuLabel": {
+      "label": {
+        "colour": "#3D4265",
+        "font": "Wargroove Medium",
+        "size": 16
+      }
+    }
+  }
+}

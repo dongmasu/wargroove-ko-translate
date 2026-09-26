@@ -1,0 +1,20 @@
+{
+  "uiStyle": {
+    "objectivesScroll": {
+      "frame": "ui/background/black_frame.png",
+      "frameBorder": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "framedImage": "ui/background/pattern_factions_bg.png",
+      "innerBorder": [
+        5,
+        5,
+        5,
+        5
+      ]
+    }
+  }
+}

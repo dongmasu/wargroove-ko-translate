@@ -1,0 +1,23 @@
+{
+  "uiStyle": {
+    "optionBorder": {
+      "background": "ui/widgets/window/option_border.png",
+      "clearBackground": {
+        "colour": "#F4F6E9",
+        "img": "ui/whitebox.png"
+      },
+      "innerBorder": [
+        8,
+        5,
+        8,
+        6
+      ],
+      "titleBar": "ui/widgets/window/dialoguetitle_light.png",
+      "titleLabel": {
+        "colour": "#3D4265",
+        "font": "Wargroove Medium",
+        "size": 16
+      }
+    }
+  }
+}

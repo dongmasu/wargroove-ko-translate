@@ -1,0 +1,111 @@
+{
+  "children": [
+    {
+      "border": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "widget": {
+        "class": "optionsGrid",
+        "columnProportions": [
+          1.0,
+          0.0
+        ],
+        "options": [
+          {
+            "sprite": "menuicons_commander",
+            "spriteSheet": "ui",
+            "textKey": "ui_player_properties_commander",
+            "widget": {
+              "class": "dropdown",
+              "id": "commander",
+              "size": [
+                100,
+                15
+              ]
+            }
+          },
+          {
+            "sprite": "menuicons_colour",
+            "spriteSheet": "ui",
+            "textKey": "ui_player_properties_colour",
+            "widget": {
+              "class": "colourList",
+              "id": "colour"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "widget": {
+        "class": "toolTip",
+        "maxHeight": 28,
+        "maxWidth": 240,
+        "size": [
+          250,
+          34
+        ],
+        "tips": [
+          {
+            "id": "commander",
+            "textKey": "ui_player_properties_commander_tooltip"
+          },
+          {
+            "id": "colour",
+            "textKey": "ui_player_properties_colour_tooltip"
+          },
+          {
+            "id": "control"
+          }
+        ]
+      }
+    },
+    {
+      "widget": {
+        "class": "horizontalDiv"
+      }
+    },
+    {
+      "children": [
+        {
+          "widget": {
+            "button": "secondary",
+            "class": "gamepadButton",
+            "id": "delete",
+            "size": [
+              45,
+              15
+            ],
+            "textKey": "ui_widget_button_delete"
+          }
+        },
+        {
+          "proportion": 1,
+          "stretchSpacer": {}
+        },
+        {
+          "widget": {
+            "class": "dialogueButtons",
+            "hasCancel": "false",
+            "hasClose": "true",
+            "hasOK": "false"
+          }
+        }
+      ],
+      "sizer": {
+        "type": "horizontal"
+      }
+    }
+  ],
+  "sizer": {
+    "type": "vertical"
+  },
+  "widget": {
+    "class": "dialogue",
+    "style": "optionBorder",
+    "titleKey": "ui_player_properties_title"
+  }
+}

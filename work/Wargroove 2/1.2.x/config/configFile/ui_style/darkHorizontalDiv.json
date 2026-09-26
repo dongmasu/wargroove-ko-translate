@@ -1,0 +1,11 @@
+{
+  "uiStyle": {
+    "darkHorizontalDiv": {
+      "image": {
+        "colour": "#a47750",
+        "img": "ui/widgets/divider/horizontaldiv.png",
+        "smoothness": 0
+      }
+    }
+  }
+}

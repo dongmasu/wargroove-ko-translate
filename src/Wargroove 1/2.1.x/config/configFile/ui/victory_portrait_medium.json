@@ -1,0 +1,54 @@
+{
+  "children": [
+    {
+      "children": [
+        {
+          "border": [
+            3,
+            0,
+            0,
+            0
+          ],
+          "fill": "centre",
+          "widget": {
+            "class": "paletteSwapImage",
+            "flip": "true",
+            "id": "commanderPortrait",
+            "image": "portraits/commanders/small/koji_portrait_small.png",
+            "layerAdjustment": 2,
+            "material": "Wargroove/PaletteSwap",
+            "pivot": [
+              1,
+              0
+            ],
+            "skinColour": "typeIII",
+            "swapColour": "yellow"
+          }
+        }
+      ],
+      "sizer": {
+        "type": "horizontal"
+      },
+      "widget": {
+        "class": "image",
+        "id": "portraitBox",
+        "image": "ui/end_of_match/end_of_match_portrait.png",
+        "layerAdjustment": 2,
+        "size": [
+          42,
+          42
+        ]
+      }
+    }
+  ],
+  "sizer": {
+    "gap": 0,
+    "type": "vertical"
+  },
+  "widget": {
+    "class": "image",
+    "colour": "#000000",
+    "image": "ui/end_of_match/end_of_match_portrait.png",
+    "layerAdjustment": 1
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "children": [
+    {
+      "border": [
+        0,
+        0,
+        0,
+        8
+      ],
+      "proportion": 0,
+      "widget": {
+        "class": "widget"
+      }
+    },
+    {
+      "border": [
+        10,
+        0,
+        10,
+        0
+      ],
+      "fill": "left",
+      "proportion": 1,
+      "widget": {
+        "class": "label",
+        "id": "message",
+        "style": "whiteLabel",
+        "text": ""
+      }
+    },
+    {
+      "children": [
+        {
+          "border": [
+            0,
+            0,
+            0,
+            12
+          ],
+          "proportion": 1,
+          "widget": {
+            "class": "widget"
+          }
+        },
+        {
+          "border": [
+            0,
+            0,
+            12,
+            12
+          ],
+          "fill": [
+            "bottom",
+            "right"
+          ],
+          "proportion": 0,
+          "widget": {
+            "animation": "ui/cutscene/textbox_arrow_white",
+            "class": "animation",
+            "id": "nextCursor"
+          }
+        }
+      ],
+      "sizer": {
+        "type": "horizontal"
+      },
+      "widget": {
+        "class": "widget"
+      }
+    }
+  ],
+  "sizer": {
+    "gap": 0,
+    "type": "vertical"
+  },
+  "widget": {
+    "class": "framedImage",
+    "size": [
+      0,
+      0
+    ],
+    "style": "narrationBackground"
+  }
+}

@@ -1,0 +1,164 @@
+{
+  "children": [
+    {
+      "children": [
+        {
+          "border": [
+            20,
+            10,
+            20,
+            10
+          ],
+          "children": [
+            {
+              "border": [
+                0,
+                5,
+                0,
+                5
+              ],
+              "fill": "centre",
+              "widget": {
+                "animation": "units/dog/cherrystone/battle_dog_cherrystone",
+                "class": "paletteSwapAnimation",
+                "colour": "red",
+                "direction": "right",
+                "id": "doggo",
+                "offset": [
+                  13,
+                  30
+                ],
+                "sequence": "idle",
+                "size": [
+                  28,
+                  36
+                ],
+                "skinColour": "typeII"
+              }
+            },
+            {
+              "border": [
+                10,
+                1,
+                10,
+                1
+              ],
+              "children": [
+                {
+                  "border": [
+                    3,
+                    0,
+                    2,
+                    0
+                  ],
+                  "fill": "centre",
+                  "proportion": 1,
+                  "widget": {
+                    "class": "label",
+                    "id": "playerPrompt",
+                    "style": "label",
+                    "textKey": "hold_any_button"
+                  }
+                }
+              ],
+              "proportion": 0,
+              "widget": {
+                "class": "image",
+                "colour": "#dfc686",
+                "id": "sharePane",
+                "image": "ui/widgets/window/flat_box.png"
+              }
+            },
+            {
+              "border": [
+                5,
+                0,
+                5,
+                5
+              ],
+              "children": [
+                {
+                  "border": [
+                    1,
+                    1,
+                    1,
+                    1
+                  ],
+                  "fill": "left",
+                  "widget": {
+                    "class": "image",
+                    "id": "progress",
+                    "image": "ui/start_turn/start_bar_fill.png",
+                    "size": [
+                      100,
+                      3
+                    ]
+                  }
+                }
+              ],
+              "fill": "fill",
+              "widget": {
+                "class": "image",
+                "id": "progressBorder",
+                "image": "ui/start_turn/start_bar.png",
+                "size": [
+                  100,
+                  5
+                ]
+              }
+            }
+          ],
+          "fill": "centre",
+          "sizer": {
+            "type": "vertical"
+          },
+          "widget": {
+            "class": "dialogue",
+            "maxWidth": 180,
+            "size": [
+              180,
+              0
+            ],
+            "style": "dialogueLight",
+            "titleId": "title",
+            "titleKey": "ui_player_label_1"
+          }
+        }
+      ],
+      "fill": "centre",
+      "proportion": 1,
+      "sizer": {
+        "gap": 0,
+        "type": "vertical"
+      },
+      "widget": {
+        "class": "framedImage",
+        "scrollPos": [
+          10,
+          -170
+        ],
+        "scrollSpeed": [
+          15,
+          0
+        ],
+        "size": [
+          700,
+          10
+        ],
+        "style": "paperScroll"
+      }
+    }
+  ],
+  "sizer": {
+    "type": "vertical"
+  },
+  "widget": {
+    "class": "image",
+    "colour": "#000000B0",
+    "image": "ui/whitebox.png",
+    "size": [
+      640,
+      360
+    ]
+  }
+}

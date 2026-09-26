@@ -1,0 +1,44 @@
+{
+  "children": [
+    {
+      "border": [
+        3,
+        0,
+        3,
+        0
+      ],
+      "proportion": 1,
+      "widget": {
+        "class": "label",
+        "id": "mainObjective",
+        "maxWidth": 190,
+        "text": "Some objectives here! They can be really really long and stuff!! Whoa mate!"
+      }
+    },
+    {
+      "widget": {
+        "class": "horizontalDiv"
+      }
+    },
+    {
+      "widget": {
+        "class": "dialogueButtons",
+        "hasCancel": "false",
+        "hasClose": "true",
+        "hasOK": "false"
+      }
+    }
+  ],
+  "sizer": {
+    "type": "vertical"
+  },
+  "widget": {
+    "class": "dialogue",
+    "size": [
+      200,
+      100
+    ],
+    "style": "optionBorder",
+    "titleKey": "ui_objectives_title"
+  }
+}

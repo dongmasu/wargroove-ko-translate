@@ -1,0 +1,214 @@
+{
+  "children": [
+    {
+      "border": [
+        0,
+        -7,
+        0,
+        0
+      ],
+      "fill": "centre",
+      "widget": {
+        "class": "image",
+        "id": "upArrow",
+        "image": "ui/main_game_ui/damage_preview_up_arrow.png"
+      }
+    },
+    {
+      "children": [
+        {
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "fill": [
+            "top",
+            "left"
+          ],
+          "widget": {
+            "class": "paletteSwapImage",
+            "id": "attackerPortrait",
+            "image": "units/soldier/felheim/portrait_soldier_felheim_small.png",
+            "material": "Wargroove/PaletteSwap",
+            "skinColour": "typeI",
+            "swapColour": "blue"
+          }
+        },
+        {
+          "children": [
+            {
+              "proportion": 1,
+              "stretchSpacer": {}
+            },
+            {
+              "border": [
+                0,
+                1,
+                0,
+                0
+              ],
+              "children": [
+                {
+                  "border": [
+                    6,
+                    0,
+                    6,
+                    0
+                  ],
+                  "children": [
+                    {
+                      "border": [
+                        2,
+                        -4,
+                        0,
+                        -3
+                      ],
+                      "fill": "centre",
+                      "widget": {
+                        "class": "label",
+                        "id": "attackDamage",
+                        "style": "labelSmall",
+                        "text": "100%"
+                      }
+                    }
+                  ],
+                  "fill": "centre",
+                  "widget": {
+                    "class": "image",
+                    "colour": "#F4F6E9",
+                    "image": "ui/whitebox.png",
+                    "size": [
+                      4,
+                      4
+                    ]
+                  }
+                }
+              ],
+              "sizer": {
+                "type": "vertical"
+              },
+              "widget": {
+                "class": "image",
+                "colour": "#366ECA",
+                "id": "attackArrow",
+                "image": "ui/main_game_ui/damage_preview_arrow.png"
+              }
+            },
+            {
+              "children": [
+                {
+                  "border": [
+                    6,
+                    0,
+                    6,
+                    0
+                  ],
+                  "children": [
+                    {
+                      "border": [
+                        2,
+                        -4,
+                        0,
+                        -3
+                      ],
+                      "fill": "centre",
+                      "widget": {
+                        "class": "label",
+                        "id": "defendDamage",
+                        "style": "labelSmall",
+                        "text": "15%"
+                      }
+                    }
+                  ],
+                  "fill": "centre",
+                  "widget": {
+                    "class": "image",
+                    "colour": "#F4F6E9",
+                    "image": "ui/whitebox.png",
+                    "size": [
+                      4,
+                      4
+                    ]
+                  }
+                }
+              ],
+              "sizer": {
+                "type": "vertical"
+              },
+              "widget": {
+                "class": "image",
+                "colour": "#AA003F",
+                "id": "defendArrow",
+                "image": "ui/main_game_ui/damage_preview_arrow.png",
+                "pivot": [
+                  1,
+                  1
+                ],
+                "rotation": 180
+              }
+            },
+            {
+              "proportion": 1,
+              "stretchSpacer": {}
+            }
+          ],
+          "sizer": {
+            "type": "vertical"
+          }
+        },
+        {
+          "border": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "fill": [
+            "top",
+            "left"
+          ],
+          "widget": {
+            "class": "paletteSwapImage",
+            "id": "defenderPortrait",
+            "image": "units/harpy/cherrystone/portrait_harpy_cherrystone_small.png",
+            "material": "Wargroove/PaletteSwap",
+            "skinColour": "typeII",
+            "swapColour": "red"
+          }
+        }
+      ],
+      "sizer": {
+        "type": "horizontal"
+      }
+    },
+    {
+      "border": [
+        0,
+        0,
+        0,
+        -9
+      ],
+      "fill": "centre",
+      "widget": {
+        "class": "image",
+        "id": "downArrow",
+        "image": "ui/main_game_ui/damage_preview_down_arrow.png"
+      }
+    }
+  ],
+  "sizer": {
+    "type": "vertical"
+  },
+  "widget": {
+    "class": "image",
+    "image": "ui/main_game_ui/damage_preview.png",
+    "innerBorder": [
+      3,
+      3,
+      4,
+      4
+    ]
+  }
+}

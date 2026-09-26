@@ -1,0 +1,247 @@
+{
+  "unitClasses": [
+    {
+      "aiPriority": 1.0,
+      "battleUnitCount": 1,
+      "canSeeOverTerrain": "true",
+      "cost": 1250,
+      "damageMultiplier": 1,
+      "id": "dragon",
+      "moveRange": 8,
+      "movement": "flying",
+      "name": "unit_class_name_dragon",
+      "passiveMultiplier": 2,
+      "sightRange": 6,
+      "tags": [
+        "dragon",
+        "type.air"
+      ],
+      "weapons": [
+        {
+          "id": "fireBreath"
+        }
+      ]
+    }
+  ],
+  "units": [
+    {
+      "alternativeRuns": [
+        {
+          "id": "run_norider"
+        }
+      ],
+      "attackOffset": [
+        10,
+        0
+      ],
+      "attacks": [
+        {
+          "effect": "fx/bs_dragon_attack",
+          "effectDelay": 0.8999999761581421,
+          "hitDelay": 1.5,
+          "hitSpark": "fx/bs_stab_attack",
+          "id": "primary",
+          "ranged": "true"
+        }
+      ],
+      "battleAnimation": "units/dragon/cherrystone/battle_dragon_cherrystone",
+      "class": "dragon",
+      "cutsceneStartOffset": [
+        75,
+        0
+      ],
+      "emotes": {
+        "idle": "idle",
+        "idle_norider": "idle_norider"
+      },
+      "faction": "cherrystone",
+      "grabPos": [
+        24,
+        13
+      ],
+      "mapAnimation": "units/dragon/cherrystone/map_dragon_cherrystone",
+      "mapSpeed": 8.0,
+      "mediumPortrait": "units/dragon/cherrystone/portrait_dragon_cherrystone_medium.png",
+      "name": "unit_name_dragon_cherrystone",
+      "smallPortrait": "units/dragon/cherrystone/portrait_dragon_cherrystone_small.png",
+      "sounds": {
+        "attack": "dragonAttack",
+        "attackEffect": "dragonBreathFireEffect",
+        "attackMap": "unitAttack",
+        "death": "dragonDie",
+        "deathMap": "unitDie",
+        "firstHit": "dragonHit",
+        "hit": "hitOrganic",
+        "hitMap": "hitOrganic",
+        "run": "dragonEntry",
+        "runMap": "dragonEntry"
+      }
+    },
+    {
+      "attackOffset": [
+        10,
+        0
+      ],
+      "attacks": [
+        {
+          "effect": "fx/bs_dragon_attack",
+          "effectDelay": 0.8999999761581421,
+          "hitDelay": 1.5,
+          "hitSpark": "fx/bs_stab_attack",
+          "id": "primary",
+          "ranged": "true"
+        }
+      ],
+      "battleAnimation": "units/dragon/felheim/battle_dragon_felheim",
+      "class": "dragon",
+      "cutsceneStartOffset": [
+        75,
+        0
+      ],
+      "faction": "felheim",
+      "grabPos": [
+        24,
+        13
+      ],
+      "mapAnimation": "units/dragon/felheim/map_dragon_felheim",
+      "mapSpeed": 8.0,
+      "mediumPortrait": "units/dragon/felheim/portrait_dragon_felheim_medium.png",
+      "name": "unit_name_dragon_felheim",
+      "smallPortrait": "units/dragon/felheim/portrait_dragon_felheim_small.png",
+      "sounds": {
+        "attack": "dragonAttackBlue",
+        "attackEffect": "dragonBreathFireEffect",
+        "attackMap": "unitAttack",
+        "death": "dragonDie",
+        "deathMap": "unitDie",
+        "firstHit": "dragonHitBlue",
+        "hit": "hitOrganic",
+        "hitMap": "hitOrganic",
+        "run": "dragonEntry",
+        "runMap": "dragonEntry"
+      }
+    },
+    {
+      "attackOffset": [
+        10,
+        0
+      ],
+      "attacks": [
+        {
+          "effect": "fx/bs_dragon_attack",
+          "effectDelay": 0.8999999761581421,
+          "hitDelay": 1.5,
+          "hitSpark": "fx/bs_stab_attack",
+          "id": "primary",
+          "ranged": "true"
+        }
+      ],
+      "battleAnimation": "units/dragon/heavensong/battle_dragon_heavensong",
+      "class": "dragon",
+      "cutsceneStartOffset": [
+        75,
+        0
+      ],
+      "faction": "heavensong",
+      "grabPos": [
+        24,
+        13
+      ],
+      "mapAnimation": "units/dragon/heavensong/map_dragon_heavensong",
+      "mapSpeed": 8.0,
+      "mediumPortrait": "units/dragon/heavensong/portrait_dragon_heavensong_medium.png",
+      "name": "unit_name_dragon_heavensong",
+      "smallPortrait": "units/dragon/heavensong/portrait_dragon_heavensong_small.png",
+      "sounds": {
+        "attack": "dragonAttackYellow",
+        "attackEffect": "dragonBreathFireEffect",
+        "attackMap": "unitAttack",
+        "death": "dragonDieYellow",
+        "deathMap": "unitDie",
+        "firstHit": "",
+        "hit": "hitWood",
+        "hitMap": "hitWood",
+        "run": "dragonEntry",
+        "runMap": "dragonEntry"
+      }
+    },
+    {
+      "attackOffset": [
+        10,
+        0
+      ],
+      "attacks": [
+        {
+          "effect": "fx/bs_dragon_attack",
+          "effectDelay": 0.8999999761581421,
+          "hitDelay": 1.5,
+          "hitSpark": "fx/bs_stab_attack",
+          "id": "primary",
+          "ranged": "true"
+        }
+      ],
+      "battleAnimation": "units/dragon/floran/battle_dragon_floran",
+      "class": "dragon",
+      "cutsceneStartOffset": [
+        75,
+        0
+      ],
+      "faction": "floran",
+      "grabPos": [
+        24,
+        13
+      ],
+      "mapAnimation": "units/dragon/floran/map_dragon_floran",
+      "mapSpeed": 8.0,
+      "mediumPortrait": "units/dragon/floran/portrait_dragon_floran_medium.png",
+      "name": "unit_name_dragon_floran",
+      "smallPortrait": "units/dragon/floran/portrait_dragon_floran_small.png",
+      "sounds": {
+        "attack": "dragonAttack",
+        "attackEffect": "dragonBreathFireEffect",
+        "attackMap": "unitAttack",
+        "death": "dragonDie",
+        "deathMap": "unitDie",
+        "firstHit": "dragonHit",
+        "hit": "hitOrganic",
+        "hitMap": "hitOrganic",
+        "run": "dragonEntry",
+        "runMap": "dragonEntry"
+      }
+    }
+  ],
+  "weapons": [
+    {
+      "baseDamage": {
+        "land": 1,
+        "water": 1
+      },
+      "canMoveAndAttack": "true",
+      "id": "fireBreath",
+      "rangeMax": 1,
+      "rangeMin": 1,
+      "tagDamage": {
+        "archer": 1.399999976158142,
+        "ballista": 1.100000023841858,
+        "commander": 0.3499999940395355,
+        "dog": 1.5,
+        "giant": 0.6499999761581421,
+        "harpoonship": 0.699999988079071,
+        "knight": 1,
+        "mage": 0.6499999761581421,
+        "merman": 1.2000000476837158,
+        "rifleman": 1.2999999523162842,
+        "soldier": 1.2000000476837158,
+        "spearman": 1.2000000476837158,
+        "structure": 0.6499999761581421,
+        "thief": 1.2000000476837158,
+        "travelboat": 1.100000023841858,
+        "trebuchet": 1.0499999523162842,
+        "turtle": 0.75,
+        "villager": 1.2000000476837158,
+        "wagon": 0.800000011920929,
+        "warship": 0.8999999761581421
+      }
+    }
+  ]
+}

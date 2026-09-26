@@ -1,0 +1,27 @@
+{
+  "children": [
+    {
+      "border": [
+        32,
+        6,
+        6,
+        4
+      ],
+      "widget": {
+        "class": "label",
+        "id": "text",
+        "maxWidth": 330,
+        "style": "labelRed",
+        "text": ""
+      }
+    }
+  ],
+  "widget": {
+    "class": "image",
+    "image": "ui/map_editor/alert_box.png",
+    "size": [
+      200,
+      29
+    ]
+  }
+}

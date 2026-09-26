@@ -1,0 +1,13 @@
+{
+  "uiStyle": {
+    "staticBox": {
+      "background": "ui/widgets/window/static_box_window.png",
+      "innerBorder": [
+        3,
+        3,
+        3,
+        3
+      ]
+    }
+  }
+}

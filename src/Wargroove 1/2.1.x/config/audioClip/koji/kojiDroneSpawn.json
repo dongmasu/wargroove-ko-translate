@@ -1,0 +1,28 @@
+{
+  "_assetType": "audioClip",
+  "_decoded": {
+    "legacy": true,
+    "actions": [
+      {
+        "type": "play",
+        "scope": 1,
+        "clip": "sfx/koji/kojiDroneSpawnFoley.ogg",
+        "group": "sfx",
+        "gain": [
+          1.0,
+          1.0
+        ],
+        "pitch": [
+          1.0,
+          1.0
+        ],
+        "legacyTailHex": "9a99993e0000000000",
+        "legacyTailFloats": [
+          0.30000001192092896,
+          0.0
+        ]
+      }
+    ]
+  },
+  "_payloadHex": "0100000004000000706c617901000000200000007366782f6b6f6a692f6b6f6a6944726f6e65537061776e466f6c65792e6f6767030000007366780000803f0000803f0000803f0000803f9a99993e0000000000"
+}

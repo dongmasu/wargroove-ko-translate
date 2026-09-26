@@ -1,0 +1,313 @@
+{
+  "children": [
+    {
+      "widget": {
+        "class": "tabbedPane",
+        "id": "tabs",
+        "tabs": [
+          {
+            "children": [
+              {
+                "border": [
+                  3,
+                  3,
+                  3,
+                  3
+                ],
+                "widget": {
+                  "class": "optionsGrid",
+                  "columnProportions": [
+                    1.0,
+                    0.0
+                  ],
+                  "options": [
+                    {
+                      "sprite": "menuicons_mapname",
+                      "spriteSheet": "ui",
+                      "textKey": "campaign_map_properties_name",
+                      "widget": {
+                        "class": "textInput",
+                        "enabled": "false",
+                        "id": "title",
+                        "size": [
+                          100,
+                          12
+                        ]
+                      }
+                    },
+                    {
+                      "sprite": "menuicons_stage",
+                      "spriteSheet": "ui",
+                      "textKey": "campaign_map_properties_stage",
+                      "widget": {
+                        "class": "dropdown",
+                        "id": "stage"
+                      }
+                    },
+                    {
+                      "sprite": "menuicons_maptype",
+                      "spriteSheet": "ui",
+                      "textKey": "campaign_map_properties_type",
+                      "widget": {
+                        "class": "dropdown",
+                        "id": "type"
+                      }
+                    },
+                    {
+                      "sprite": "menuicons_month",
+                      "spriteSheet": "ui",
+                      "textKey": "campaign_map_properties_month",
+                      "widget": {
+                        "class": "dropdown",
+                        "id": "month"
+                      }
+                    },
+                    {
+                      "sprite": "menuicons_day",
+                      "spriteSheet": "ui",
+                      "textKey": "campaign_map_properties_day",
+                      "widget": {
+                        "class": "dropdown",
+                        "id": "day"
+                      }
+                    },
+                    {
+                      "sprite": "menuicons_biome",
+                      "spriteSheet": "ui",
+                      "textKey": "campaign_map_properties_region",
+                      "widget": {
+                        "class": "textInput",
+                        "id": "region",
+                        "maxLength": 22
+                      }
+                    },
+                    {
+                      "sprite": "menuicons_description",
+                      "spriteSheet": "ui",
+                      "textKey": "campaign_map_properties_mission",
+                      "widget": {
+                        "class": "textInput",
+                        "id": "mission",
+                        "maxLength": 22
+                      }
+                    }
+                  ]
+                }
+              }
+            ],
+            "sizer": {
+              "type": "vertical"
+            },
+            "textKey": "campaign_map_properties_properties"
+          },
+          {
+            "children": [
+              {
+                "border": [
+                  3,
+                  3,
+                  3,
+                  3
+                ],
+                "children": [
+                  {
+                    "widget": {
+                      "class": "list",
+                      "columns": 5,
+                      "id": "paletteList",
+                      "style": "editorPalette",
+                      "type": "grid"
+                    }
+                  }
+                ],
+                "proportion": 1,
+                "sizer": {
+                  "type": "vertical"
+                },
+                "widget": {
+                  "class": "scrollBarPane"
+                }
+              }
+            ],
+            "sizer": {
+              "type": "vertical"
+            },
+            "textKey": "campaign_map_properties_icon"
+          },
+          {
+            "children": [
+              {
+                "border": [
+                  3,
+                  3,
+                  3,
+                  3
+                ],
+                "widget": {
+                  "class": "optionsGrid",
+                  "columnProportions": [
+                    1.0,
+                    0.0
+                  ],
+                  "options": [
+                    {
+                      "sprite": "menuicons_mapname",
+                      "spriteSheet": "ui",
+                      "textKey": "campaign_map_properties_map_id",
+                      "widget": {
+                        "class": "textInput",
+                        "enabled": "false",
+                        "id": "mapId",
+                        "size": [
+                          100,
+                          12
+                        ]
+                      }
+                    },
+                    {
+                      "sprite": "menuicons_import",
+                      "spriteSheet": "ui",
+                      "textKey": "campaign_map_properties_import",
+                      "widget": {
+                        "class": "button",
+                        "id": "import",
+                        "textKey": "campaign_map_properties_import"
+                      }
+                    },
+                    {
+                      "sprite": "menuicons_export",
+                      "spriteSheet": "ui",
+                      "textKey": "campaign_map_properties_export",
+                      "widget": {
+                        "class": "button",
+                        "id": "export",
+                        "textKey": "campaign_map_properties_export"
+                      }
+                    },
+                    {
+                      "sprite": "menuicons_rank",
+                      "spriteSheet": "ui",
+                      "textKey": "campaign_map_properties_min_stars",
+                      "widget": {
+                        "class": "spinControl",
+                        "id": "minStars",
+                        "maxValue": 200,
+                        "minValue": 0
+                      }
+                    }
+                  ]
+                }
+              }
+            ],
+            "if": "dev",
+            "sizer": {
+              "type": "vertical"
+            },
+            "text": "Dev"
+          }
+        ]
+      }
+    },
+    {
+      "widget": {
+        "class": "toolTip",
+        "maxHeight": 42,
+        "maxWidth": 190,
+        "size": [
+          200,
+          48
+        ],
+        "tips": [
+          {
+            "id": "title",
+            "textKey": "campaign_map_properties_title_tooltip"
+          },
+          {
+            "id": "stage",
+            "textKey": "campaign_map_properties_stage_tooltip"
+          },
+          {
+            "id": "type",
+            "textKey": "campaign_map_properties_type_tooltip"
+          },
+          {
+            "id": "month",
+            "textKey": "campaign_map_properties_month_tooltip"
+          },
+          {
+            "id": "day",
+            "textKey": "campaign_map_properties_day_tooltip"
+          },
+          {
+            "id": "region",
+            "textKey": "campaign_map_properties_region_tooltip"
+          },
+          {
+            "id": "mission",
+            "textKey": "campaign_map_properties_mission_tooltip"
+          },
+          {
+            "id": "paletteList",
+            "textKey": "campaign_map_properties_palette_list_tooltip"
+          }
+        ]
+      }
+    },
+    {
+      "widget": {
+        "class": "horizontalDiv"
+      }
+    },
+    {
+      "children": [
+        {
+          "widget": {
+            "button": "tertiary",
+            "class": "gamepadButton",
+            "id": "conditions",
+            "size": [
+              50,
+              15
+            ],
+            "textKey": "campaign_map_properties_conditions"
+          }
+        },
+        {
+          "widget": {
+            "button": "secondary",
+            "class": "gamepadButton",
+            "id": "edit",
+            "size": [
+              50,
+              15
+            ],
+            "textKey": "campaign_map_properties_edit"
+          }
+        },
+        {
+          "proportion": 1,
+          "stretchSpacer": {}
+        },
+        {
+          "widget": {
+            "class": "dialogueButtons",
+            "hasCancel": "false",
+            "hasClose": "true",
+            "hasOK": "false"
+          }
+        }
+      ],
+      "sizer": {
+        "type": "horizontal"
+      }
+    }
+  ],
+  "sizer": {
+    "type": "vertical"
+  },
+  "widget": {
+    "class": "dialogue",
+    "style": "optionBorder",
+    "titleKey": "campaign_map_properties_title"
+  }
+}

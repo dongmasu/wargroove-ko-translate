@@ -1,0 +1,42 @@
+{
+  "timelines": {
+    "render": [
+      "CampaignOverlay",
+      "SpriteRender",
+      "DottedLineRender",
+      "UIRender",
+      "CameraRenderTarget",
+      "CameraRender"
+    ],
+    "variableUpdate": [
+      "UIMouse",
+      "SelectionCursor",
+      "CampaignCutscene",
+      "CutsceneRunner",
+      "CampaignLoading",
+      "CampaignCharacter",
+      "CampaignUnlockAnimation",
+      "CampaignUI",
+      "CampaignMusic",
+      "CampaignOrderRunner",
+      "Session",
+      "LoopingSound",
+      "Bird",
+      "Fish",
+      "Cloud",
+      "ShadowCaster",
+      "LightSourceCaster",
+      "DestroyAfterAnimation",
+      "CameraShake",
+      "Hierarchy",
+      "CameraScrolling",
+      "ScreenPosition",
+      "GridPositioning",
+      "PlayerColour",
+      "SpriteAnimation",
+      "LightSourceAnimation",
+      "TimeShader",
+      "UILayout"
+    ]
+  }
+}

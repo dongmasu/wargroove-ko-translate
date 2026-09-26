@@ -1,0 +1,20 @@
+{
+  "uiStyle": {
+    "matchmaking": {
+      "frame": "ui/background/matchmaking_frame.png",
+      "frameBorder": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "framedImage": "ui/background/matchmaking_bg.png",
+      "innerBorder": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  }
+}

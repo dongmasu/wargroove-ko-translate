@@ -1,0 +1,26 @@
+{
+  "children": [
+    {
+      "fill": "centre",
+      "proportion": 1,
+      "widget": {
+        "class": "label",
+        "id": "unitsDefeated"
+      }
+    }
+  ],
+  "widget": {
+    "class": "image",
+    "image": "ui/end_of_match/player_stats_box.png",
+    "innerBorder": [
+      3,
+      3,
+      3,
+      4
+    ],
+    "size": [
+      35,
+      15
+    ]
+  }
+}

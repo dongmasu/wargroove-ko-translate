@@ -1,0 +1,191 @@
+{
+  "unitClasses": [
+    {
+      "aiPriority": 8.0,
+      "battleUnitCount": 1,
+      "cost": 500,
+      "grooveId": "drain_aura",
+      "id": "commander_darkmercia",
+      "isCommander": "true",
+      "moveRange": 4,
+      "movement": "walking",
+      "name": "unit_class_name_commander",
+      "regeneration": 5,
+      "tags": [
+        "commander",
+        "type.ground.light"
+      ],
+      "verbs": [
+        "load",
+        "capture"
+      ],
+      "weapons": [
+        {
+          "id": "darkmerciaSword"
+        }
+      ]
+    }
+  ],
+  "units": [
+    {
+      "alternativeAttackSounds": {
+        "no_voice": "darkmercia/darkmerciaAttackNoVoice"
+      },
+      "attackRunTimeMax": 1.5,
+      "attackRunTimeMin": 1,
+      "attacks": [
+        {
+          "hitDelay": [
+            1.399999976158142,
+            2.5999999046325684
+          ],
+          "hitSpark": "fx/bs_stab_attack",
+          "id": "primary"
+        }
+      ],
+      "battleAnimation": "units/commanders/darkmercia/battle_darkmercia",
+      "battleAnimationRiver": "fx/river_overlay/battle_darkmercia_river",
+      "class": "commander_darkmercia",
+      "deathMoveMax": 0,
+      "deathMoveMin": 0,
+      "emotes": {
+        "charge": "emote_charge",
+        "crouching": "emote_crouching",
+        "dance": "emote_dance",
+        "dead": "emote_dead",
+        "death": "emote_death",
+        "dying": "emote_dying",
+        "equip_hurt": "equip_hurt",
+        "equip_weapons": "equip_weapons",
+        "idle": "idle",
+        "idle_standing": "idle_standing",
+        "idle_standing_2": "idle_standing_2",
+        "idle_standing_3": "idle_standing_3",
+        "idle_unarmed": "idle_unarmed",
+        "positive": "emote_positive"
+      },
+      "faction": "guardian",
+      "grabPos": [
+        45,
+        64
+      ],
+      "hidden": {
+        "shouts": [
+          "darkmercia_dyinggasp"
+        ]
+      },
+      "mapAnimation": "units/commanders/darkmercia/map_darkmercia",
+      "mapSpeed": 4.0,
+      "mediumPortrait": "units/commanders/darkmercia/portrait_darkmercia_medium.png",
+      "name": "character_darkmercia_name",
+      "shouts": {
+        "darkmercia_abandonallhope": "darkmercia/darkmerciaShoutAbandonAllHope",
+        "darkmercia_absolutepower": "darkmercia/darkmerciaShoutAbsolutePower",
+        "darkmercia_allshallfall": "darkmercia/darkmerciaShoutAllShallFall",
+        "darkmercia_allwillfallbeforeme": "darkmercia/darkmerciaShoutAllWillFallBeforeMe",
+        "darkmercia_attack1": "darkmercia/darkmerciaShoutAttack1",
+        "darkmercia_attack2": "darkmercia/darkmerciaShoutAttack2",
+        "darkmercia_attack3": "darkmercia/darkmerciaShoutAttack3",
+        "darkmercia_attack4": "darkmercia/darkmerciaShoutAttack4",
+        "darkmercia_attack5": "darkmercia/darkmerciaShoutAttack5",
+        "darkmercia_darknessfalls": "darkmercia/darkmerciaShoutDarknessFalls",
+        "darkmercia_dyinggasp": "darkmercia/darkmerciaDieGasp",
+        "darkmercia_embraceyourend": "darkmercia/darkmerciaShoutEmbraceYourEnd",
+        "darkmercia_farewell": "darkmercia/darkmerciaShoutFarewell",
+        "darkmercia_greetings": "darkmercia/darkmerciaShoutGreetings",
+        "darkmercia_hit1": "darkmercia/darkmerciaShoutHit1",
+        "darkmercia_hit2": "darkmercia/darkmerciaShoutHit2",
+        "darkmercia_hit3": "darkmercia/darkmerciaShoutHit3",
+        "darkmercia_hit4": "darkmercia/darkmerciaShoutHit4",
+        "darkmercia_hmph": "darkmercia/darkmerciaShoutHmph",
+        "darkmercia_howcouldthisbe": "darkmercia/darkmerciaShoutHowCouldThisBe",
+        "darkmercia_iamyou": "darkmercia/darkmerciaShoutIAmYou",
+        "darkmercia_ibringruin": "darkmercia/darkmerciaShoutIBringRuin",
+        "darkmercia_itsnotpossible": "darkmercia/darkmerciaShoutItsNotPossible",
+        "darkmercia_joinme": "darkmercia/darkmerciaShoutJoinMe",
+        "darkmercia_kingdomsfall": "darkmercia/darkmerciaShoutKingdomsFall",
+        "darkmercia_laugh1": "darkmercia/darkmerciaShoutLaugh1",
+        "darkmercia_laugh2": "darkmercia/darkmerciaShoutLaugh2",
+        "darkmercia_laugh3": "darkmercia/darkmerciaShoutLaugh3",
+        "darkmercia_no": "darkmercia/darkmerciaShoutNo",
+        "darkmercia_oops": "darkmercia/darkmerciaShoutOops",
+        "darkmercia_paletteswap": "darkmercia/darkmerciaShoutPaletteSwap",
+        "darkmercia_pitiful": "darkmercia/darkmerciaShoutPitiful",
+        "darkmercia_requiemspower": "darkmercia/darkmerciaShoutRequiemsPower",
+        "darkmercia_sheisgone": "darkmercia/darkmerciaShoutSheIsGone",
+        "darkmercia_sigh": "darkmercia/darkmerciaShoutSigh",
+        "darkmercia_strongconquertheweak": "darkmercia/darkmerciaShoutStrongConquerTheWeak",
+        "darkmercia_submittothedarkness": "darkmercia/darkmerciaShoutSubmitToTheDarkness",
+        "darkmercia_thankyou": "darkmercia/darkmerciaShoutThankYou",
+        "darkmercia_theabyssstaresback": "darkmercia/darkmerciaShoutTheAbyssStaresBack",
+        "darkmercia_theendofallthings": "darkmercia/darkmerciaShoutTheEndOfAllThings",
+        "darkmercia_thenproveit": "darkmercia/darkmerciaShoutThenProveIt",
+        "darkmercia_verywell": "darkmercia/darkmerciaShoutVeryWell",
+        "darkmercia_what": "darkmercia/darkmerciaShoutWhat",
+        "darkmercia_whatisbestinlife": "darkmercia/darkmerciaShoutWhatIsBestInLife",
+        "darkmercia_witnesstruestrength": "darkmercia/darkmerciaShoutWitnessTrueStrength",
+        "darkmercia_yes": "darkmercia/darkmerciaShoutYes",
+        "darkmercia_you": "darkmercia/darkmerciaShoutYou",
+        "darkmercia_youareweak": "darkmercia/darkmerciaShoutYouAreWeak",
+        "darkmercia_youchallengeme": "darkmercia/darkmerciaShoutYouChallengeMe"
+      },
+      "skinColour": "typeII",
+      "smallPortrait": "units/commanders/darkmercia/portrait_darkmercia_small.png",
+      "sounds": {
+        "attack": "darkmercia/darkmerciaAttack",
+        "attackCommanderShout": "darkmercia/darkmerciaCommanderKillShout",
+        "attackMap": "unitAttack",
+        "attackShout": "darkmercia/darkmerciaAttackShout",
+        "captureShout": "darkmercia/darkmerciaCapture",
+        "death": "darkmercia/darkmerciaDie",
+        "deathMap": "darkmercia/darkmerciaDieGhost",
+        "deathMapNoBattle": "darkmercia/darkmerciaDieNoBattle",
+        "firstHit": "darkmercia/darkmerciaHit",
+        "groove": "darkmercia/darkmerciaGrooveIntro",
+        "hit": "hitOrganic",
+        "hitMap": "hitOrganic",
+        "preAttack": "darkmercia/darkmerciaPreAttack",
+        "run": "balloonEntry",
+        "runMap": "balloonEntryMap"
+      },
+      "stayAfterDeath": "true"
+    }
+  ],
+  "weapons": [
+    {
+      "baseDamage": {
+        "land": 1
+      },
+      "canMoveAndAttack": "true",
+      "id": "darkmerciaSword",
+      "rangeMax": 1,
+      "rangeMin": 1,
+      "tagDamage": {
+        "archer": 1.2999999523162842,
+        "ballista": 0.6000000238418579,
+        "balloon": 0.550000011920929,
+        "commander": 0.4000000059604645,
+        "dog": 1.149999976158142,
+        "dragon": 0.3499999940395355,
+        "giant": 0.4000000059604645,
+        "harpoonship": 0.44999998807907104,
+        "harpy": 0.8999999761581421,
+        "knight": 0.550000011920929,
+        "mage": 0.800000011920929,
+        "merman": 0.949999988079071,
+        "rifleman": 1.0499999523162842,
+        "soldier": 1.149999976158142,
+        "spearman": 0.75,
+        "structure": 0.699999988079071,
+        "thief": 0.949999988079071,
+        "travelboat": 0.6000000238418579,
+        "trebuchet": 0.550000011920929,
+        "turtle": 0.550000011920929,
+        "villager": 0.949999988079071,
+        "wagon": 0.699999988079071,
+        "warship": 0.550000011920929,
+        "witch": 0.699999988079071
+      }
+    }
+  ]
+}

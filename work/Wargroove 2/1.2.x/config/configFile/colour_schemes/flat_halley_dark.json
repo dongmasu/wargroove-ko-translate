@@ -1,0 +1,11 @@
+{
+  "author": "Finn",
+  "base": "colour_schemes/base_flat_dark",
+  "colours": {
+    "toolbarNormal": "#fc2847",
+    "ui_listSelected": "#fc2847",
+    "ui_stringMatchText": "#ffaab6",
+    "ui_unselectedTextAlt": "#ffaab6"
+  },
+  "name": "Flat Halley (Dark)"
+}

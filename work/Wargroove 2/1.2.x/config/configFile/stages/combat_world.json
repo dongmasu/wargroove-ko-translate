@@ -1,0 +1,40 @@
+{
+  "timelines": {
+    "render": [
+      "SpriteRender",
+      "SpriteSeparateShadowRender",
+      "WeatherRender",
+      "CombatOverlay",
+      "UIShadowRender",
+      "UIRender",
+      "CameraRender"
+    ],
+    "variableUpdate": [
+      "LightSourceCaster",
+      "InBattleCoordinator",
+      "InBattleUnitControl",
+      "PlayerColour",
+      "InBattleUI",
+      "CombatAnimation",
+      "Move",
+      "Hierarchy",
+      "LoopingSound",
+      "DestroyAfterAnimation",
+      "SpriteAnimation",
+      "LightSourceAnimation",
+      "TimeShader",
+      "CameraShake",
+      "HealthBarUI",
+      "CombatWeather",
+      "Weather",
+      "Rain",
+      "Sandstorm",
+      "Snow",
+      "Wind",
+      "Ash",
+      "Mist",
+      "Particle",
+      "UILayout"
+    ]
+  }
+}

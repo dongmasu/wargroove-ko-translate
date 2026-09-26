@@ -1,0 +1,123 @@
+{
+  "_assetType": "audioClip",
+  "_decoded": {
+    "legacy": true,
+    "actions": [
+      {
+        "type": "play",
+        "scope": 1,
+        "clip": "sfx/clothMovement3.ogg",
+        "group": "sfx",
+        "gain": [
+          1.0,
+          1.0
+        ],
+        "pitch": [
+          0.5,
+          0.5
+        ],
+        "legacyTailHex": "cdcccc3e0000000000",
+        "legacyTailFloats": [
+          0.4000000059604645,
+          0.0
+        ]
+      },
+      {
+        "type": "play",
+        "scope": 1,
+        "clip": "sfx/wulfar/wulfarAttackWindupFoley1.ogg",
+        "group": "sfx",
+        "gain": [
+          1.0,
+          1.0
+        ],
+        "pitch": [
+          1.0,
+          1.0
+        ],
+        "legacyTailHex": "9a99193f0000000000",
+        "legacyTailFloats": [
+          0.6000000238418579,
+          0.0
+        ]
+      },
+      {
+        "type": "play",
+        "scope": 1,
+        "clip": "sfx/wulfar/wulfarAttackVoice2.ogg",
+        "group": "voice",
+        "gain": [
+          1.0,
+          1.0
+        ],
+        "pitch": [
+          0.5,
+          0.5
+        ],
+        "legacyTailHex": "9a99993e0000000000",
+        "legacyTailFloats": [
+          0.30000001192092896,
+          0.0
+        ]
+      },
+      {
+        "type": "play",
+        "scope": 1,
+        "clip": "sfx/wulfar/wulfarAttackSwingFoley.ogg",
+        "group": "sfx",
+        "gain": [
+          1.0,
+          1.0
+        ],
+        "pitch": [
+          1.0,
+          1.0
+        ],
+        "legacyTailHex": "3333f33f0000000000",
+        "legacyTailFloats": [
+          1.899999976158142,
+          0.0
+        ]
+      },
+      {
+        "type": "play",
+        "scope": 1,
+        "clip": "sfx/wulfar/wulfarAttackVoiceRelease1.ogg",
+        "group": "voice",
+        "gain": [
+          1.0,
+          1.0
+        ],
+        "pitch": [
+          0.5,
+          0.5
+        ],
+        "legacyTailHex": "000000400000000000",
+        "legacyTailFloats": [
+          2.0,
+          0.0
+        ]
+      },
+      {
+        "type": "play",
+        "scope": 1,
+        "clip": "sfx/wulfar/wulfarAttackSmashFoley.ogg",
+        "group": "sfx",
+        "gain": [
+          1.0,
+          1.0
+        ],
+        "pitch": [
+          0.699999988079071,
+          0.699999988079071
+        ],
+        "legacyTailHex": "000000400000000000",
+        "legacyTailFloats": [
+          2.0,
+          0.0
+        ]
+      }
+    ]
+  },
+  "_payloadHex": "0600000004000000706c617901000000160000007366782f636c6f74684d6f76656d656e74332e6f6767030000007366780000803f0000803f0000003f0000003fcdcccc3e000000000004000000706c617901000000270000007366782f77756c6661722f77756c66617241747461636b57696e647570466f6c6579312e6f6767030000007366780000803f0000803f0000803f0000803f9a99193f000000000004000000706c617901000000210000007366782f77756c6661722f77756c66617241747461636b566f696365322e6f676705000000766f6963650000803f0000803f0000003f0000003f9a99993e000000000004000000706c617901000000250000007366782f77756c6661722f77756c66617241747461636b5377696e67466f6c65792e6f6767030000007366780000803f0000803f0000803f0000803f3333f33f000000000004000000706c617901000000280000007366782f77756c6661722f77756c66617241747461636b566f69636552656c65617365312e6f676705000000766f6963650000803f0000803f0000003f0000003f00000040000000000004000000706c617901000000250000007366782f77756c6661722f77756c66617241747461636b536d617368466f6c65792e6f6767030000007366780000803f0000803f3333333f3333333f000000400000000000"
+}

@@ -1,0 +1,12 @@
+{
+  "_assetType": "sprite",
+  "_decoded": {
+    "assetType": "sprite",
+    "decoded": false,
+    "decodeNote": "Historical serializer schema is not implemented.",
+    "size": 36,
+    "strings": [],
+    "payloadHex": "2275692f6368617261637465725f73656c6563742f66616374696f6e5f73747269706500"
+  },
+  "_payloadHex": "2275692f6368617261637465725f73656c6563742f66616374696f6e5f73747269706500"
+}

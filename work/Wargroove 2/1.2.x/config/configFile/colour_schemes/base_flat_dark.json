@@ -1,0 +1,174 @@
+{
+  "author": "Finn",
+  "base": "colour_schemes/base_dark",
+  "colours": {
+    "background0": "#2f424b",
+    "background1": "#2f424b",
+    "backgroundLogo": "#2C3E45",
+    "taskComplete": "#66DB8F",
+    "taskError": "#F05959",
+    "taskRunning": "#74AEE9",
+    "taskStatusBackground": "#d7d8e3",
+    "taskWarning": "#F4CD55",
+    "taskbarLogoBackground": "#22333b",
+    "toolbarDown": "#ECEEF2",
+    "toolbarHover": "#f6f7f9",
+    "toolbarIconHover": "#000000",
+    "toolbarIconNormal": "#ffffff",
+    "toolbarIconSelected": "#000000",
+    "toolbarNormal": "#5c80c3",
+    "toolbarSelected": "#f6f7f9",
+    "toolbarText": "#ffffff",
+    "ui_backgroundBox": "#22333b",
+    "ui_buttonDisabled": "#4a5e68",
+    "ui_buttonDown": "#3D4D54",
+    "ui_buttonHover": "#6e7b81",
+    "ui_buttonNormal": "#4a5e68",
+    "ui_controlDisabled": "#b4b5bd",
+    "ui_controlDown": "#EAEAEA",
+    "ui_controlHover": "#ffffff",
+    "ui_controlNormal": "#d7d8e3",
+    "ui_debugConsole": "#000000c0",
+    "ui_disabledText": "#9d9da4",
+    "ui_disabledTextAlt": "#546973",
+    "ui_inputDisabled": "#000000",
+    "ui_inputDown": "#BEBFD1",
+    "ui_inputHover": "#d7d8e3",
+    "ui_inputNormal": "#d7d8e3",
+    "ui_inputNormalActual": "#1D2B34",
+    "ui_listBackground": "#22333b",
+    "ui_listDrag": "#405965",
+    "ui_listHover": "#405965",
+    "ui_listSelected": "#5c80c3",
+    "ui_popupWindow": "#1A262D",
+    "ui_scrollBackground": "#26363E",
+    "ui_scrollBarDisabled": "#D7AAB6",
+    "ui_scrollBarDown": "#5C686D",
+    "ui_scrollBarHover": "#97a1a5",
+    "ui_scrollBarNormal": "#6e7b81",
+    "ui_selectedTextAlt": "#ffffff",
+    "ui_staticBox": "#2f424b",
+    "ui_staticBoxSubdue": "#2f424b",
+    "ui_stringMatchText": "#cadcff",
+    "ui_unselectedTextAlt": "#cadcff"
+  },
+  "enabled": false,
+  "name": "Base (Flat) dark",
+  "sprites": {
+    "ui_button": {
+      "img": "halley_ui/ui_button_flat.png"
+    },
+    "ui_canvas_border": {
+      "img": "halley_ui/rounded_corners_border.png",
+      "material": "Halley/Sprite"
+    },
+    "ui_checkbox": {
+      "img": "halley_ui/ui_checkbox_flat.png",
+      "material": "Halley/Sprite"
+    },
+    "ui_checkbox_checked": {
+      "img": "halley_ui/ui_checkbox_checked_flat.png",
+      "material": "Halley/Sprite"
+    },
+    "ui_dropdown_closed": {
+      "img": "halley_ui/ui_dropdown_closed_flat.png",
+      "material": "Halley/Sprite"
+    },
+    "ui_dropdown_open": {
+      "img": "halley_ui/ui_dropdown_open_flat.png",
+      "material": "Halley/Sprite"
+    },
+    "ui_dropdown_open_up": {
+      "img": "halley_ui/ui_dropdown_open_up_flat.png",
+      "material": "Halley/Sprite"
+    },
+    "ui_dropdown_window": {
+      "img": "halley_ui/ui_dropdown_window_flat.png",
+      "material": "Halley/Sprite"
+    },
+    "ui_dropdown_window_up": {
+      "img": "halley_ui/ui_dropdown_window_up_flat.png",
+      "material": "Halley/Sprite"
+    },
+    "ui_float_window": {
+      "img": "halley_ui/ui_float_window_flat.png",
+      "material": "Halley/Sprite"
+    },
+    "ui_hex_background": {
+      "img": "halley_ui/hex_bg_small.png",
+      "material": "Halley/Sprite"
+    },
+    "ui_input": {
+      "img": "halley_ui/ui_input_flat.png",
+      "material": "Halley/Sprite"
+    },
+    "ui_input_thin": {
+      "img": "halley_ui/ui_input_thin_flat.png",
+      "material": "Halley/Sprite"
+    },
+    "ui_list_background": {
+      "img": "halley_ui/ui_list_item.png",
+      "material": "Halley/Sprite"
+    },
+    "ui_list_item": {
+      "img": "halley_ui/ui_list_item.png",
+      "material": "Halley/Sprite"
+    },
+    "ui_list_item_drag": {
+      "img": "halley_ui/ui_list_item.png",
+      "material": "Halley/Sprite"
+    },
+    "ui_popup": {
+      "img": "halley_ui/ui_popup_flat.png",
+      "material": "Halley/Sprite"
+    },
+    "ui_scroll_background": {
+      "img": "halley_ui/checkered.png",
+      "material": "Halley/Sprite"
+    },
+    "ui_separator": {
+      "img": "halley_ui/ui_separator.png",
+      "material": "Halley/Sprite"
+    },
+    "ui_tab_hover": {
+      "img": "halley_ui/tabs/tab_hover_flat.png",
+      "material": "Halley/Sprite"
+    },
+    "ui_tab_modified": {
+      "img": "halley_ui/ui_tab_modified.png",
+      "material": "Halley/Sprite"
+    },
+    "ui_tab_normal": {
+      "img": "halley_ui/tabs/tab_normal_flat.png",
+      "material": "Halley/Sprite"
+    },
+    "ui_tab_selected": {
+      "img": "halley_ui/tabs/tab_selected_flat.png",
+      "material": "Halley/Sprite"
+    },
+    "ui_tabs_bg": {
+      "img": "halley_ui/tabs/tabs_bg_flat.png",
+      "material": "Halley/Sprite"
+    },
+    "ui_task": {
+      "img": "halley_ui/ui_input_flat.png",
+      "material": "Halley/Sprite"
+    },
+    "ui_task_fill": {
+      "img": "halley_ui/ui_list_item_flat.png",
+      "material": "Halley/Sprite"
+    },
+    "ui_title_capsule": {
+      "img": "halley_ui/ui_title_capsule_flat.png",
+      "material": "Halley/Sprite"
+    },
+    "ui_tooltip": {
+      "img": "halley_ui/ui_tooltip_flat.png",
+      "material": "Halley/Sprite"
+    },
+    "ui_window": {
+      "img": "halley_ui/ui_window.png",
+      "material": "Halley/Sprite"
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "timelines": {
+    "variableUpdate": [
+      "SelectionServiceBacking",
+      "LuaServiceBacking",
+      "CutsceneRunner",
+      "RecruitServiceBacking",
+      "UnitLoading",
+      "AIControl",
+      "PlayerEvent",
+      "Revenue",
+      "Healing",
+      "Capture",
+      "Combat",
+      "UnitOrderRunner",
+      "PathFollowing",
+      "Death",
+      "TurnControl",
+      "Groove",
+      "DemoInfo",
+      "Debug",
+      "UnitEffect",
+      "Gizmo",
+      "TrackCamera",
+      "Anchor",
+      "DialogueBox",
+      "StartTurnAnimation",
+      "EndOfMatch",
+      "Time",
+      "Move",
+      "Fade",
+      "PlayerColour",
+      "CameraOriginShader",
+      "FogOfWar"
+    ]
+  }
+}

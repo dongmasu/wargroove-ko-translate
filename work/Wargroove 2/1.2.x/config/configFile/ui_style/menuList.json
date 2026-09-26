@@ -1,0 +1,35 @@
+{
+  "uiStyle": {
+    "menuList": {
+      "background": "",
+      "extraMouseBorder": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "gap": 5,
+      "item": {
+        "hover": {
+          "colour": "#BD9877",
+          "img": "ui/widgets/list/list_item_bg.png"
+        },
+        "innerBorder": [
+          5,
+          5,
+          5,
+          5
+        ],
+        "normal": {
+          "colour": "#A47750",
+          "img": "ui/widgets/list/list_item_bg.png"
+        },
+        "selected": {
+          "colour": "#FFFFFF",
+          "img": "ui/widgets/list/list_item_sel_bg.png"
+        }
+      },
+      "selectionChangedSound": ""
+    }
+  }
+}

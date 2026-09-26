@@ -1,0 +1,291 @@
+{
+  "children": [
+    {
+      "border": [
+        25,
+        15,
+        25,
+        15
+      ],
+      "children": [
+        {
+          "border": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "children": [
+            {
+              "proportion": 1,
+              "stretchSpacer": {}
+            },
+            {
+              "border": [
+                0,
+                0,
+                2,
+                2
+              ],
+              "fill": "bottom",
+              "widget": {
+                "class": "image",
+                "image": "ui/jukebox/jukebox_icon.png"
+              }
+            },
+            {
+              "fill": "centre",
+              "widget": {
+                "class": "label",
+                "textKey": "ui_jukebox_title"
+              }
+            },
+            {
+              "proportion": 1,
+              "stretchSpacer": {}
+            }
+          ],
+          "fill": "left",
+          "sizer": {
+            "type": "horizontal"
+          },
+          "widget": {
+            "class": "image",
+            "colour": "#dfc686",
+            "image": "ui/widgets/window/flat_box.png",
+            "innerBorder": [
+              5,
+              -1,
+              5,
+              0
+            ]
+          }
+        },
+        {
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "widget": {
+            "class": "horizontalDiv",
+            "style": "darkHorizontalDiv"
+          }
+        },
+        {
+          "children": [
+            {
+              "border": [
+                0,
+                -1,
+                0,
+                0
+              ],
+              "children": [
+                {
+                  "border": [
+                    10,
+                    2,
+                    0,
+                    5
+                  ],
+                  "children": [
+                    {
+                      "widget": {
+                        "animation": "ui/jukebox/backgrounds/tavern_bg",
+                        "class": "animation",
+                        "id": "bg"
+                      }
+                    },
+                    {
+                      "fill": "centre",
+                      "proportion": 1,
+                      "widget": {
+                        "animation": "units/commanders/mercia/battle_mercia",
+                        "class": "paletteSwapAnimation",
+                        "colour": "red",
+                        "direction": "right",
+                        "id": "characterAnimation",
+                        "offset": [
+                          0,
+                          30
+                        ],
+                        "sequence": "emote_positive_crown",
+                        "size": [
+                          0,
+                          0
+                        ],
+                        "skinColour": "typeII"
+                      }
+                    }
+                  ],
+                  "fill": "centre",
+                  "sizer": {
+                    "gap": 0,
+                    "type": "vertical"
+                  },
+                  "widget": {
+                    "active": "true",
+                    "class": "image",
+                    "id": "coverImage",
+                    "image": "ui/widgets/list/list_item_bg.png",
+                    "size": [
+                      187,
+                      186
+                    ]
+                  }
+                },
+                {
+                  "border": [
+                    0,
+                    2,
+                    10,
+                    5
+                  ],
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "fill": "centre",
+                          "widget": {
+                            "class": "image",
+                            "colour": "#A47750",
+                            "image": "ui/codex/padlock_large.png"
+                          }
+                        },
+                        {
+                          "fill": "centre",
+                          "widget": {
+                            "alignment": 0.5,
+                            "class": "label",
+                            "id": "unlockText",
+                            "maxWidth": 170,
+                            "style": "labelBrown",
+                            "text": "Hi go play the game or something"
+                          }
+                        }
+                      ],
+                      "fill": "centre",
+                      "proportion": 1,
+                      "sizer": {
+                        "type": "vertical"
+                      },
+                      "widget": {
+                        "class": "widget"
+                      }
+                    }
+                  ],
+                  "fill": "centre",
+                  "widget": {
+                    "active": "false",
+                    "class": "image",
+                    "colour": "#dfc686",
+                    "id": "unlockPanel",
+                    "image": "ui/widgets/window/flat_box.png",
+                    "size": [
+                      187,
+                      186
+                    ]
+                  }
+                },
+                {
+                  "border": [
+                    0,
+                    2,
+                    10,
+                    4
+                  ],
+                  "children": [
+                    {
+                      "widget": {
+                        "class": "list",
+                        "id": "trackList",
+                        "options": [
+                          {
+                            "id": "test",
+                            "text": "Wargroove song title"
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "proportion": 1,
+                  "sizer": {
+                    "type": "vertical"
+                  },
+                  "widget": {
+                    "class": "scrollBarPane"
+                  }
+                }
+              ],
+              "fill": [
+                "top",
+                "fillHorizontal"
+              ],
+              "proportion": 1,
+              "sizer": {
+                "gap": 10,
+                "type": "horizontal"
+              },
+              "widget": {
+                "class": "image",
+                "colour": "#f4f6e9",
+                "image": "ui/whitebox.png"
+              }
+            },
+            {
+              "border": [
+                0,
+                -2,
+                0,
+                0
+              ],
+              "widget": {
+                "class": "nearZoomButtons"
+              }
+            }
+          ],
+          "sizer": {
+            "type": "vertical"
+          }
+        }
+      ],
+      "sizer": {
+        "type": "vertical"
+      },
+      "widget": {
+        "class": "framedImage",
+        "scrollPos": [
+          5,
+          -170
+        ],
+        "scrollSpeed": [
+          -10,
+          10
+        ],
+        "size": [
+          434,
+          235
+        ],
+        "style": "paperPattern"
+      }
+    }
+  ],
+  "sizer": {
+    "gap": 0,
+    "type": "vertical"
+  },
+  "widget": {
+    "class": "framedImage",
+    "scrollPos": [
+      10,
+      -170
+    ],
+    "scrollSpeed": [
+      10,
+      0
+    ],
+    "style": "bookScroll"
+  }
+}

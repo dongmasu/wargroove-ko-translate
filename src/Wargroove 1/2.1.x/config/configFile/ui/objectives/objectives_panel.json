@@ -1,0 +1,522 @@
+{
+  "children": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "border": [
+                0,
+                0,
+                0,
+                2
+              ],
+              "fill": "centre",
+              "widget": {
+                "class": "label",
+                "textKey": "ui_map_objectives"
+              }
+            },
+            {
+              "widget": {
+                "class": "label",
+                "id": "objectivesText",
+                "maxHeight": 170,
+                "maxWidth": 168
+              }
+            },
+            {
+              "border": [
+                0,
+                2,
+                0,
+                2
+              ],
+              "children": [
+                {
+                  "border": [
+                    0,
+                    0,
+                    4,
+                    1
+                  ],
+                  "widget": {
+                    "class": "label",
+                    "id": "rank"
+                  }
+                },
+                {
+                  "children": [
+                    {
+                      "fill": "centre",
+                      "proportion": 1,
+                      "widget": {
+                        "class": "label",
+                        "id": "turnsCount"
+                      }
+                    },
+                    {
+                      "fill": "centre",
+                      "proportion": 1,
+                      "widget": {
+                        "active": "false",
+                        "class": "image",
+                        "id": "locked",
+                        "image": "ui/icons/locked_star.png"
+                      }
+                    }
+                  ],
+                  "fill": "centre",
+                  "widget": {
+                    "class": "image",
+                    "image": "ui/widgets/textinput/inputbox.png",
+                    "innerBorder": [
+                      2,
+                      0,
+                      2,
+                      1
+                    ],
+                    "size": [
+                      30,
+                      0
+                    ]
+                  }
+                }
+              ],
+              "fill": "centre",
+              "proportion": 1,
+              "widget": {
+                "active": "false",
+                "class": "image",
+                "colour": "#D1BEAD",
+                "id": "turnsForRank",
+                "image": "ui/widgets/list/list_item_bg.png",
+                "innerBorder": [
+                  4,
+                  0,
+                  0,
+                  0
+                ]
+              }
+            }
+          ],
+          "sizer": {
+            "type": "vertical"
+          },
+          "widget": {
+            "class": "image",
+            "id": "objectives",
+            "image": "ui/main_game_ui/objectives_panel.png",
+            "innerBorder": [
+              5,
+              2,
+              5,
+              5
+            ],
+            "size": [
+              196,
+              0
+            ]
+          }
+        },
+        {
+          "children": [
+            {
+              "fill": "centre",
+              "widget": {
+                "class": "label",
+                "textKey": "ui_map_player_stats"
+              }
+            },
+            {
+              "children": [
+                {
+                  "widget": {
+                    "class": "widget",
+                    "size": [
+                      17,
+                      15
+                    ]
+                  }
+                },
+                {
+                  "children": [
+                    {
+                      "fill": "centre",
+                      "proportion": 1,
+                      "widget": {
+                        "class": "label",
+                        "textKey": "ui_map_player_stats_commander"
+                      }
+                    }
+                  ],
+                  "widget": {
+                    "class": "widget",
+                    "size": [
+                      60,
+                      15
+                    ]
+                  }
+                },
+                {
+                  "children": [
+                    {
+                      "fill": "centre",
+                      "proportion": 1,
+                      "widget": {
+                        "class": "label",
+                        "textKey": "ui_map_player_stats_money"
+                      }
+                    }
+                  ],
+                  "widget": {
+                    "class": "widget",
+                    "size": [
+                      35,
+                      15
+                    ]
+                  }
+                },
+                {
+                  "children": [
+                    {
+                      "fill": "centre",
+                      "proportion": 1,
+                      "widget": {
+                        "class": "label",
+                        "textKey": "ui_map_player_stats_income"
+                      }
+                    }
+                  ],
+                  "widget": {
+                    "class": "widget",
+                    "size": [
+                      35,
+                      15
+                    ]
+                  }
+                },
+                {
+                  "children": [
+                    {
+                      "fill": "centre",
+                      "proportion": 1,
+                      "widget": {
+                        "class": "label",
+                        "textKey": "ui_map_player_stats_units"
+                      }
+                    }
+                  ],
+                  "widget": {
+                    "class": "widget",
+                    "size": [
+                      35,
+                      15
+                    ]
+                  }
+                }
+              ],
+              "fill": "centre",
+              "sizer": {
+                "type": "horizontal"
+              }
+            }
+          ],
+          "sizer": {
+            "type": "vertical"
+          },
+          "widget": {
+            "class": "image",
+            "id": "playerStats",
+            "image": "ui/main_game_ui/objectives_panel.png",
+            "innerBorder": [
+              5,
+              2,
+              5,
+              5
+            ]
+          }
+        },
+        {
+          "children": [
+            {
+              "border": [
+                0,
+                0,
+                0,
+                2
+              ],
+              "fill": "centre",
+              "widget": {
+                "class": "label",
+                "textKey": "ui_map_num_spectators"
+              }
+            },
+            {
+              "widget": {
+                "class": "label",
+                "id": "numSpectators",
+                "maxWidth": 168
+              }
+            }
+          ],
+          "sizer": {
+            "type": "vertical"
+          },
+          "widget": {
+            "class": "image",
+            "id": "spectators",
+            "image": "ui/main_game_ui/objectives_panel.png",
+            "innerBorder": [
+              5,
+              2,
+              5,
+              5
+            ]
+          }
+        },
+        {
+          "border": [
+            0,
+            0,
+            0,
+            5
+          ],
+          "fill": [
+            "bottom",
+            "centreHorizontal"
+          ],
+          "proportion": 1,
+          "widget": {
+            "button": "cancel",
+            "class": "gamepadButton",
+            "id": "close",
+            "size": [
+              74,
+              16
+            ],
+            "textKey": "ui_widget_button_close_overview"
+          }
+        },
+        {
+          "children": [
+            {
+              "border": [
+                10,
+                0,
+                0,
+                5
+              ],
+              "fill": [
+                "bottom",
+                "left"
+              ],
+              "proportion": 1,
+              "widget": {
+                "button": "cancel",
+                "class": "gamepadButton",
+                "id": "closeWithToggle",
+                "size": [
+                  74,
+                  16
+                ],
+                "textKey": "ui_widget_button_close_overview"
+              }
+            },
+            {
+              "border": [
+                0,
+                0,
+                10,
+                5
+              ],
+              "fill": [
+                "bottom",
+                "right"
+              ],
+              "widget": {
+                "active": "false",
+                "button": "primary",
+                "class": "gamepadButton",
+                "id": "toggleInfoObjectives",
+                "size": [
+                  74,
+                  16
+                ],
+                "textKey": "ui_widget_toggle_overview_info_objectives"
+              }
+            },
+            {
+              "border": [
+                0,
+                0,
+                10,
+                5
+              ],
+              "fill": [
+                "bottom",
+                "right"
+              ],
+              "widget": {
+                "active": "false",
+                "button": "primary",
+                "class": "gamepadButton",
+                "id": "toggleInfoPlayerStats",
+                "size": [
+                  74,
+                  16
+                ],
+                "textKey": "ui_widget_toggle_overview_info_player_stats"
+              }
+            }
+          ],
+          "fill": [
+            "bottom",
+            "fillHorizontal"
+          ],
+          "proportion": 1,
+          "sizer": {
+            "type": "horizontal"
+          },
+          "widget": {
+            "active": "false",
+            "class": "widget",
+            "id": "toggles"
+          }
+        },
+        {
+          "border": [
+            0,
+            0,
+            0,
+            5
+          ],
+          "fill": [
+            "bottom",
+            "centreHorizontal"
+          ],
+          "widget": {
+            "active": "false",
+            "button": "start",
+            "class": "gamepadButton",
+            "id": "showPlayersInfo_xboxlive",
+            "size": [
+              74,
+              16
+            ],
+            "textKey": "server_lobby_show_players_info_xboxlive"
+          }
+        }
+      ],
+      "fill": [
+        "fillHorizontal",
+        "fillVertical"
+      ],
+      "proportion": 1,
+      "sizer": {
+        "gap": 1,
+        "type": "vertical"
+      },
+      "widget": {
+        "class": "framedImage",
+        "id": "backgroundPanel",
+        "scrollPos": [
+          10,
+          -170
+        ],
+        "scrollSpeed": [
+          0,
+          10
+        ],
+        "size": [
+          181,
+          0
+        ],
+        "style": "objectivesScroll"
+      }
+    },
+    {
+      "fill": [
+        "centreVertical"
+      ],
+      "proportion": 0,
+      "sizer": {
+        "type": "vertical"
+      },
+      "widget": {
+        "button": "secondary",
+        "class": "gamepadButton",
+        "id": "togglePanelGamepad",
+        "innerBorder": [
+          0,
+          0,
+          5,
+          0
+        ],
+        "size": [
+          12,
+          28
+        ],
+        "style": "panelToggleButtonIcon"
+      }
+    },
+    {
+      "children": [
+        {
+          "border": [
+            7,
+            15,
+            -2,
+            -4
+          ],
+          "fill": [
+            "centreHorizontal",
+            "centerVertical"
+          ],
+          "proportion": 1,
+          "widget": {
+            "class": "image",
+            "flip": "false",
+            "id": "toggleArrow",
+            "image": "ui/main_game_ui/objectives_panel_arrow.png",
+            "size": [
+              9,
+              15
+            ]
+          }
+        }
+      ],
+      "fill": [
+        "centreVertical"
+      ],
+      "proportion": 0,
+      "sizer": {
+        "type": "vertical"
+      },
+      "widget": {
+        "class": "button",
+        "id": "togglePanelMouse",
+        "mouseBorder": [
+          15,
+          30,
+          15,
+          30
+        ],
+        "size": [
+          12,
+          28
+        ],
+        "style": "panelToggleButton",
+        "text": ""
+      }
+    }
+  ],
+  "sizer": {
+    "gap": 0,
+    "type": "horizontal"
+  },
+  "widget": {
+    "class": "widget",
+    "id": "objectivesPanel"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "author": "Finn",
+  "base": "colour_schemes/base_flat_dark",
+  "colours": {
+    "toolbarNormal": "#5c80c3",
+    "ui_listSelected": "#5c80c3",
+    "ui_stringMatchText": "#cadcff",
+    "ui_unselectedTextAlt": "#cadcff"
+  },
+  "name": "Flat Cobalt (Dark)"
+}

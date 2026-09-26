@@ -1,0 +1,75 @@
+{
+  "children": [
+    {
+      "widget": {
+        "class": "image",
+        "colour": "#FF0000",
+        "id": "sprite",
+        "image": "ui/medium_portrait_background.png"
+      }
+    },
+    {
+      "border": [
+        0,
+        4,
+        0,
+        0
+      ],
+      "children": [
+        {
+          "fill": "centre",
+          "widget": {
+            "class": "image",
+            "id": "icon0",
+            "sprite": "mapscreen_selectedunitinfo_icons_defenseEmpty",
+            "spriteSheet": "ui"
+          }
+        },
+        {
+          "fill": "centre",
+          "widget": {
+            "class": "image",
+            "id": "icon1",
+            "sprite": "mapscreen_selectedunitinfo_icons_defenseEmpty",
+            "spriteSheet": "ui"
+          }
+        },
+        {
+          "fill": "centre",
+          "widget": {
+            "class": "image",
+            "id": "icon2",
+            "sprite": "mapscreen_selectedunitinfo_icons_defenseEmpty",
+            "spriteSheet": "ui"
+          }
+        },
+        {
+          "fill": "centre",
+          "widget": {
+            "class": "image",
+            "id": "icon3",
+            "sprite": "mapscreen_selectedunitinfo_icons_defenseEmpty",
+            "spriteSheet": "ui"
+          }
+        }
+      ],
+      "sizer": {
+        "gap": 0,
+        "type": "horizontal"
+      }
+    }
+  ],
+  "sizer": {
+    "type": "vertical"
+  },
+  "widget": {
+    "class": "image",
+    "image": "ui/main_game_ui/card_ui.png",
+    "innerBorder": [
+      4,
+      4,
+      4,
+      4
+    ]
+  }
+}

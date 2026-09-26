@@ -1,0 +1,305 @@
+{
+  "children": [
+    {
+      "border": [
+        25,
+        16,
+        25,
+        15
+      ],
+      "children": [
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "fill": "centre",
+                  "proportion": 1,
+                  "widget": {
+                    "class": "label",
+                    "textKey": "ui_mod_selector_title"
+                  }
+                }
+              ],
+              "fill": "left",
+              "widget": {
+                "class": "image",
+                "colour": "#DFC686",
+                "image": "ui/widgets/list/list_item_bg.png",
+                "innerBorder": [
+                  4,
+                  -1,
+                  4,
+                  1
+                ]
+              }
+            },
+            {
+              "border": [
+                0,
+                2,
+                0,
+                0
+              ],
+              "widget": {
+                "class": "horizontalDiv",
+                "style": "darkHorizontalDiv"
+              }
+            },
+            {
+              "border": [
+                0,
+                0,
+                0,
+                -1
+              ],
+              "children": [
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "children": [
+                                {
+                                  "widget": {
+                                    "canDrag": "true",
+                                    "class": "list",
+                                    "id": "modList",
+                                    "style": "listModInactive"
+                                  }
+                                },
+                                {
+                                  "children": [
+                                    {
+                                      "children": [
+                                        {
+                                          "fill": [
+                                            "centreHorizontal"
+                                          ],
+                                          "widget": {
+                                            "class": "image",
+                                            "image": "ui/cutscene/cutscene_editor/soldier_felheim_create.png",
+                                            "size": [
+                                              48,
+                                              64
+                                            ]
+                                          }
+                                        },
+                                        {
+                                          "widget": {
+                                            "alignment": 0.5,
+                                            "class": "label",
+                                            "maxWidth": 100,
+                                            "textKey": "ui_modlist_empty"
+                                          }
+                                        }
+                                      ],
+                                      "fill": "centre",
+                                      "proportion": 1,
+                                      "sizer": {
+                                        "type": "vertical"
+                                      },
+                                      "widget": {
+                                        "class": "widget"
+                                      }
+                                    }
+                                  ],
+                                  "fill": "centre",
+                                  "proportion": 1,
+                                  "widget": {
+                                    "active": "false",
+                                    "class": "widget",
+                                    "id": "emptyModList"
+                                  }
+                                }
+                              ],
+                              "proportion": 1,
+                              "sizer": {
+                                "type": "vertical"
+                              },
+                              "widget": {
+                                "class": "scrollBarPane",
+                                "clipSize": [
+                                  250,
+                                  150
+                                ]
+                              }
+                            },
+                            {
+                              "children": [
+                                {
+                                  "children": [
+                                    {
+                                      "fill": "true",
+                                      "proportion": 1,
+                                      "widget": {
+                                        "class": "label",
+                                        "id": "modDescription",
+                                        "maxWidth": 90
+                                      }
+                                    }
+                                  ],
+                                  "fill": [
+                                    "fillVertical",
+                                    "fillHorizontal"
+                                  ],
+                                  "proportion": 1,
+                                  "sizer": {
+                                    "type": "vertical"
+                                  },
+                                  "widget": {
+                                    "class": "image",
+                                    "image": "ui/widgets/window/clip_border.png",
+                                    "innerBorder": [
+                                      5,
+                                      5,
+                                      5,
+                                      5
+                                    ],
+                                    "size": [
+                                      100,
+                                      0
+                                    ]
+                                  }
+                                },
+                                {
+                                  "children": [
+                                    {
+                                      "fill": "true",
+                                      "proportion": 1,
+                                      "widget": {
+                                        "class": "label",
+                                        "id": "modAuthor",
+                                        "maxWidth": 90
+                                      }
+                                    }
+                                  ],
+                                  "sizer": {
+                                    "type": "vertical"
+                                  },
+                                  "widget": {
+                                    "class": "image",
+                                    "colour": "#DFC686",
+                                    "image": "ui/widgets/list/list_item_bg.png",
+                                    "innerBorder": [
+                                      5,
+                                      0,
+                                      5,
+                                      0
+                                    ],
+                                    "size": [
+                                      100,
+                                      0
+                                    ]
+                                  }
+                                }
+                              ],
+                              "sizer": {
+                                "type": "vertical"
+                              }
+                            }
+                          ],
+                          "fill": [
+                            "fill"
+                          ],
+                          "proportion": 1,
+                          "sizer": {
+                            "type": "horizontal"
+                          }
+                        }
+                      ],
+                      "fill": [
+                        "fill"
+                      ],
+                      "proportion": 1,
+                      "sizer": {
+                        "type": "vertical"
+                      }
+                    }
+                  ],
+                  "proportion": 1,
+                  "sizer": {
+                    "type": "vertical"
+                  }
+                }
+              ],
+              "fill": "fill",
+              "proportion": 1,
+              "sizer": {
+                "type": "horizontal"
+              },
+              "widget": {
+                "class": "image",
+                "colour": "#f4f6e9",
+                "image": "ui/whitebox.png",
+                "innerBorder": [
+                  0,
+                  2,
+                  0,
+                  2
+                ]
+              }
+            }
+          ],
+          "proportion": 1,
+          "sizer": {
+            "gap": 0,
+            "type": "vertical"
+          }
+        },
+        {
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "widget": {
+            "class": "nearZoomButtons"
+          }
+        }
+      ],
+      "fill": [
+        "fillVertical",
+        "fillHorizontal"
+      ],
+      "sizer": {
+        "type": "vertical"
+      },
+      "widget": {
+        "class": "framedImage",
+        "scrollPos": [
+          5,
+          -170
+        ],
+        "scrollSpeed": [
+          -10,
+          10
+        ],
+        "size": [
+          434,
+          245
+        ],
+        "style": "paperPattern"
+      }
+    }
+  ],
+  "sizer": {
+    "gap": 0,
+    "type": "vertical"
+  },
+  "widget": {
+    "class": "framedImage",
+    "scrollPos": [
+      0,
+      -14
+    ],
+    "scrollSpeed": [
+      10,
+      0
+    ],
+    "style": "paperScroll"
+  }
+}

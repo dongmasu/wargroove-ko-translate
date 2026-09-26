@@ -1,0 +1,29 @@
+{
+  "uiStyle": {
+    "stoneDialogue": {
+      "background": "ui/widgets/window/stone_border.png",
+      "clearBackground": {
+        "colour": "#F4F6E9",
+        "img": "ui/whitebox.png"
+      },
+      "innerBorder": [
+        36,
+        29,
+        33,
+        10
+      ],
+      "titleBarBorder": [
+        -4,
+        -8,
+        0,
+        9
+      ],
+      "titleLabel": {
+        "colour": "#F4F6E9",
+        "font": "Nope",
+        "size": 16,
+        "smoothness": 0
+      }
+    }
+  }
+}

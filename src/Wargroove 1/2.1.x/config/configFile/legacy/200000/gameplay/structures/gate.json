@@ -1,0 +1,65 @@
+{
+  "unitClasses": [
+    {
+      "aiPriority": 3.0,
+      "battleUnitCount": 1,
+      "canBeReinforced": "false",
+      "canReinforce": "false",
+      "cargoSpace": 1,
+      "cost": 500,
+      "damageMultiplier": 0.5,
+      "garrisonUnit": "",
+      "hostileNeutral": "true",
+      "id": "gate",
+      "isLineOfSightBlocker": "true",
+      "isStructure": "true",
+      "movement": "indoor_building",
+      "name": "structure_name_gate",
+      "tags": [
+        "structure"
+      ]
+    }
+  ],
+  "units": [
+    {
+      "class": "gate",
+      "faction": "neutral",
+      "grabPos": [
+        15,
+        12
+      ],
+      "hasBattleScreen": "false",
+      "mapAnimation": [
+        "structures/gate",
+        "structures/gate_2"
+      ],
+      "mediumPortrait": "portraits/medium/gate.png",
+      "name": "structure_name_gate",
+      "smallPortrait": "portraits/small/portrait_structure_small.png",
+      "sounds": {
+        "death": "gateDie",
+        "deathMap": "strongholdDieRed",
+        "hit": "hitWood",
+        "hitMap": "hitStone"
+      },
+      "structureImage": {
+        "farBackground": "gate_background_full_background_2",
+        "foreground": "gate_background_full_background_2",
+        "keeperPosition": [
+          54,
+          75
+        ],
+        "leftBannerOffset": [
+          0,
+          0
+        ],
+        "nearBackground": "gate_background_full_background_2",
+        "rightBannerOffset": [
+          0,
+          0
+        ],
+        "spriteSheet": "backgrounds/gate/gate_background_full"
+      }
+    }
+  ]
+}

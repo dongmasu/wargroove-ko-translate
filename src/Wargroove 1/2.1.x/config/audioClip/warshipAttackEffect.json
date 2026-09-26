@@ -1,0 +1,66 @@
+{
+  "_assetType": "audioClip",
+  "_decoded": {
+    "legacy": true,
+    "actions": [
+      {
+        "type": "play",
+        "scope": 1,
+        "clip": "sfx/explosion1.ogg",
+        "group": "sfx",
+        "gain": [
+          1.0,
+          1.0
+        ],
+        "pitch": [
+          0.800000011920929,
+          0.800000011920929
+        ],
+        "legacyTailHex": "cdcc4c3e0000000000",
+        "legacyTailFloats": [
+          0.20000000298023224,
+          0.0
+        ]
+      },
+      {
+        "type": "play",
+        "scope": 1,
+        "clip": "sfx/explosion1.ogg",
+        "group": "sfx",
+        "gain": [
+          1.0,
+          1.0
+        ],
+        "pitch": [
+          0.8999999761581421,
+          0.8999999761581421
+        ],
+        "legacyTailHex": "0000003f0000000000",
+        "legacyTailFloats": [
+          0.5,
+          0.0
+        ]
+      },
+      {
+        "type": "play",
+        "scope": 1,
+        "clip": "sfx/explosion1.ogg",
+        "group": "sfx",
+        "gain": [
+          1.0,
+          1.0
+        ],
+        "pitch": [
+          1.0,
+          1.0
+        ],
+        "legacyTailHex": "cdcc4c3f0000000000",
+        "legacyTailFloats": [
+          0.800000011920929,
+          0.0
+        ]
+      }
+    ]
+  },
+  "_payloadHex": "0300000004000000706c617901000000120000007366782f6578706c6f73696f6e312e6f6767030000007366780000803f0000803fcdcc4c3fcdcc4c3fcdcc4c3e000000000004000000706c617901000000120000007366782f6578706c6f73696f6e312e6f6767030000007366780000803f0000803f6666663f6666663f0000003f000000000004000000706c617901000000120000007366782f6578706c6f73696f6e312e6f6767030000007366780000803f0000803f0000803f0000803fcdcc4c3f0000000000"
+}

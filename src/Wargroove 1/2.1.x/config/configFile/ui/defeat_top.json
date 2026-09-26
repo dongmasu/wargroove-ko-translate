@@ -1,0 +1,16 @@
+{
+  "fill": "centre",
+  "sizer": {
+    "gap": 5,
+    "type": "horizontal"
+  },
+  "widget": {
+    "childLayerAdjustment": -2,
+    "class": "widget",
+    "id": "loserPortraits",
+    "size": [
+      42,
+      42
+    ]
+  }
+}

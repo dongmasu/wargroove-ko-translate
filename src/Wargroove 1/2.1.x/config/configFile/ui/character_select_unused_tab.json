@@ -1,0 +1,24 @@
+{
+  "children": [
+    {
+      "border": [
+        0,
+        -4,
+        0,
+        0
+      ],
+      "fill": "centre",
+      "proportion": 1,
+      "widget": {
+        "class": "label",
+        "id": "playerId",
+        "text": "P2"
+      }
+    }
+  ],
+  "fill": "top",
+  "widget": {
+    "class": "image",
+    "image": "ui/character_select/player_tab_unused.png"
+  }
+}

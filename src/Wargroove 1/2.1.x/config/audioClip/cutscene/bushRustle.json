@@ -1,0 +1,28 @@
+{
+  "_assetType": "audioClip",
+  "_decoded": {
+    "legacy": true,
+    "actions": [
+      {
+        "type": "play",
+        "scope": 1,
+        "clip": "sfx/cutscene/bushRustle.ogg",
+        "group": "sfx",
+        "gain": [
+          0.949999988079071,
+          1.0499999523162842
+        ],
+        "pitch": [
+          1.0,
+          1.0
+        ],
+        "legacyTailHex": "000000000000000000",
+        "legacyTailFloats": [
+          0.0,
+          0.0
+        ]
+      }
+    ]
+  },
+  "_payloadHex": "0100000004000000706c6179010000001b0000007366782f6375747363656e652f62757368527573746c652e6f6767030000007366783333733f6666863f0000803f0000803f000000000000000000"
+}

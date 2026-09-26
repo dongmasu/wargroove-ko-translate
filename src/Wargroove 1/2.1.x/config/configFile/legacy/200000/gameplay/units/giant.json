@@ -1,0 +1,200 @@
+{
+  "unitClasses": [
+    {
+      "aiPriority": 1.0,
+      "battleUnitCount": 1,
+      "cost": 1200,
+      "damageMultiplier": 1,
+      "id": "giant",
+      "moveRange": 5,
+      "movement": "walking",
+      "name": "unit_class_name_giant",
+      "passiveMultiplier": 2.5,
+      "sightRange": 3,
+      "tags": [
+        "giant",
+        "type.ground.heavy",
+        "tall"
+      ],
+      "verbs": [
+        "load"
+      ],
+      "weapons": [
+        {
+          "id": "giantSlam"
+        }
+      ]
+    }
+  ],
+  "units": [
+    {
+      "attacks": [
+        {
+          "hitDelay": 0.75,
+          "hitSpark": "fx/bs_stab_attack",
+          "id": "primary"
+        }
+      ],
+      "battleAnimation": "units/giant/cherrystone/battle_giant_cherrystone",
+      "battleAnimationRiver": "fx/river_overlay/battle_giant_cherrystone_river",
+      "class": "giant",
+      "deathMoveMax": 0,
+      "deathMoveMin": 0,
+      "faction": "cherrystone",
+      "grabPos": [
+        27,
+        13
+      ],
+      "mapAnimation": "units/giant/cherrystone/map_giant_cherrystone",
+      "mapSpeed": 4.0,
+      "mediumPortrait": "units/giant/cherrystone/portrait_giant_cherrystone_medium.png",
+      "name": "unit_name_giant_cherrystone",
+      "smallPortrait": "units/giant/cherrystone/portrait_giant_cherrystone_small.png",
+      "sounds": {
+        "attack": "giantAttack",
+        "attackMap": "unitAttack",
+        "death": "giantDie",
+        "deathMap": "unitDie",
+        "hit": "hitStone",
+        "hitMap": "hitStone",
+        "preAttack": "giantPoseStone",
+        "run": "giantEntry",
+        "runMap": "giantEntry"
+      }
+    },
+    {
+      "attacks": [
+        {
+          "hitDelay": 0.75,
+          "hitSpark": "fx/bs_stab_attack",
+          "id": "primary"
+        }
+      ],
+      "battleAnimation": "units/giant/felheim/battle_giant_felheim",
+      "battleAnimationRiver": "fx/river_overlay/battle_giant_felheim_river",
+      "class": "giant",
+      "deathMoveMax": 0,
+      "deathMoveMin": 0,
+      "faction": "felheim",
+      "grabPos": [
+        27,
+        13
+      ],
+      "mapAnimation": "units/giant/felheim/map_giant_felheim",
+      "mapSpeed": 4.0,
+      "mediumPortrait": "units/giant/felheim/portrait_giant_felheim_medium.png",
+      "name": "unit_name_giant_felheim",
+      "smallPortrait": "units/giant/felheim/portrait_giant_felheim_small.png",
+      "sounds": {
+        "attack": "giantAttackMetal",
+        "attackMap": "unitAttack",
+        "death": "giantDieMetal",
+        "deathMap": "unitDie",
+        "hit": "hitMetal",
+        "hitMap": "hitMetal",
+        "preAttack": "giantPoseMetal",
+        "run": "giantEntryMetal",
+        "runMap": "giantEntryMetal"
+      }
+    },
+    {
+      "attacks": [
+        {
+          "hitDelay": 0.75,
+          "hitSpark": "fx/bs_stab_attack",
+          "id": "primary"
+        }
+      ],
+      "battleAnimation": "units/giant/heavensong/battle_giant_heavensong",
+      "battleAnimationRiver": "fx/river_overlay/battle_giant_heavensong_river",
+      "class": "giant",
+      "deathMoveMax": 0,
+      "deathMoveMin": 0,
+      "faction": "heavensong",
+      "grabPos": [
+        27,
+        13
+      ],
+      "mapAnimation": "units/giant/heavensong/map_giant_heavensong",
+      "mapSpeed": 4.0,
+      "mediumPortrait": "units/giant/heavensong/portrait_giant_heavensong_medium.png",
+      "name": "unit_name_giant_heavensong",
+      "smallPortrait": "units/giant/heavensong/portrait_giant_heavensong_small.png",
+      "sounds": {
+        "attack": "giantAttackMetal",
+        "attackMap": "unitAttack",
+        "death": "giantDieMetal",
+        "deathMap": "unitDie",
+        "hit": "hitMetal",
+        "hitMap": "hitMetal",
+        "preAttack": "giantPoseMetal",
+        "run": "giantEntry",
+        "runMap": "giantEntry"
+      }
+    },
+    {
+      "attacks": [
+        {
+          "hitDelay": 0.75,
+          "hitSpark": "fx/bs_stab_attack",
+          "id": "primary"
+        }
+      ],
+      "battleAnimation": "units/giant/floran/battle_giant_floran",
+      "battleAnimationRiver": "fx/river_overlay/battle_giant_floran_river",
+      "class": "giant",
+      "deathMoveMax": 0,
+      "deathMoveMin": 0,
+      "faction": "floran",
+      "grabPos": [
+        27,
+        13
+      ],
+      "mapAnimation": "units/giant/floran/map_giant_floran",
+      "mapSpeed": 4.0,
+      "mediumPortrait": "units/giant/floran/portrait_giant_floran_medium.png",
+      "name": "unit_name_giant_floran",
+      "smallPortrait": "units/giant/floran/portrait_giant_floran_small.png",
+      "sounds": {
+        "attack": "giantAttackWood",
+        "attackMap": "unitAttack",
+        "death": "giantDieWood",
+        "deathMap": "unitDie",
+        "hit": "hitWood",
+        "hitMap": "hitWood",
+        "preAttack": "giantPoseWood",
+        "run": "giantEntryWood",
+        "runMap": "giantEntryWood"
+      }
+    }
+  ],
+  "weapons": [
+    {
+      "baseDamage": {
+        "land": 1
+      },
+      "canMoveAndAttack": "true",
+      "id": "giantSlam",
+      "rangeMax": 1,
+      "rangeMin": 1,
+      "tagDamage": {
+        "archer": 1.5,
+        "ballista": 1,
+        "commander": 0.3499999940395355,
+        "dog": 1.5,
+        "giant": 0.44999998807907104,
+        "knight": 0.8500000238418579,
+        "mage": 1.100000023841858,
+        "merman": 1.2999999523162842,
+        "rifleman": 1.399999976158142,
+        "soldier": 1.2999999523162842,
+        "spearman": 1,
+        "structure": 0.8500000238418579,
+        "thief": 1.2999999523162842,
+        "trebuchet": 1.0499999523162842,
+        "villager": 1.2999999523162842,
+        "wagon": 0.75
+      }
+    }
+  ]
+}

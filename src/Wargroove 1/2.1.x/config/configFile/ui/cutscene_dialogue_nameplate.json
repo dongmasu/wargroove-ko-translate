@@ -1,0 +1,49 @@
+{
+  "children": [
+    {
+      "children": [
+        {
+          "fill": "centre",
+          "proportion": 0,
+          "widget": {
+            "class": "label",
+            "id": "message",
+            "style": "whiteLabel",
+            "text": ""
+          }
+        }
+      ],
+      "fill": "centre",
+      "proportion": 1,
+      "sizer": {
+        "type": "vertical"
+      },
+      "widget": {
+        "class": "image",
+        "colour": "#AA003F",
+        "id": "teamColour",
+        "image": "ui/cutscene/dialoguebox_nameplate_colour.png",
+        "innerBorder": [
+          5,
+          0,
+          5,
+          0
+        ]
+      }
+    }
+  ],
+  "sizer": {
+    "gaps": 0,
+    "type": "vertical"
+  },
+  "widget": {
+    "class": "image",
+    "image": "ui/cutscene/dialoguebox_nameplate.png",
+    "innerBorder": [
+      3,
+      3,
+      3,
+      0
+    ]
+  }
+}

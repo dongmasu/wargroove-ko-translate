@@ -1,0 +1,116 @@
+{
+  "children": [
+    {
+      "border": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "children": [
+        {
+          "border": [
+            0,
+            -1,
+            0,
+            0
+          ],
+          "fill": "centre",
+          "widget": {
+            "class": "label",
+            "id": "unitName",
+            "style": "labelWhite",
+            "text": "Unit Name"
+          }
+        }
+      ],
+      "sizer": {
+        "type": "vertical"
+      },
+      "widget": {
+        "class": "image",
+        "colour": "#A47750",
+        "image": "ui/widgets/window/flat_box.png",
+        "innerBorder": [
+          3,
+          0,
+          3,
+          0
+        ]
+      }
+    },
+    {
+      "children": [
+        {
+          "border": [
+            2,
+            0,
+            0,
+            2
+          ],
+          "children": [
+            {
+              "widget": {
+                "animation": "units/soldier/cherrystone/map_soldier_cherrystone",
+                "class": "paletteSwapAnimation",
+                "colour": "red",
+                "direction": "right",
+                "id": "leftUnit",
+                "offset": [
+                  13,
+                  20
+                ],
+                "sequence": "idle",
+                "size": [
+                  24,
+                  24
+                ],
+                "skinColour": "typeII"
+              }
+            }
+          ],
+          "fill": "centre",
+          "widget": {
+            "childLayerAdjustment": 2,
+            "class": "image",
+            "image": "ui/widgets/window/bordered_box.png",
+            "size": [
+              26,
+              26
+            ]
+          }
+        }
+      ],
+      "sizer": {
+        "type": "vertical"
+      }
+    },
+    {
+      "border": [
+        0,
+        0,
+        0,
+        -9
+      ],
+      "fill": "centre",
+      "widget": {
+        "class": "image",
+        "id": "downArrow",
+        "image": "ui/main_game_ui/damage_preview_down_arrow.png"
+      }
+    }
+  ],
+  "sizer": {
+    "type": "vertical"
+  },
+  "widget": {
+    "class": "image",
+    "image": "ui/main_game_ui/damage_preview.png",
+    "innerBorder": [
+      3,
+      3,
+      4,
+      4
+    ]
+  }
+}

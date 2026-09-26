@@ -1,0 +1,126 @@
+{
+  "uiStyle": {
+    "spinControl": {
+      "input": {
+        "box": "ui/widgets/textinput/inputbox.png",
+        "caret": "ui/widgets/textinput/caret.png",
+        "innerBorder": [
+          3,
+          0,
+          3,
+          0
+        ],
+        "label": {
+          "colour": "#3D4265",
+          "font": "Wargroove Medium",
+          "size": 16,
+          "smoothness": 0
+        },
+        "labelGhost": {
+          "colour": "#92928B",
+          "font": "Wargroove Medium",
+          "size": 16,
+          "smoothness": 0
+        }
+      },
+      "leftButton": {
+        "borderOnly": {
+          "colour": "#C7A486",
+          "img": "ui/widgets/spincontrol/left_arrow.png"
+        },
+        "disabled": {
+          "colour": "#C7A486",
+          "img": "ui/widgets/spincontrol/left_arrow.png"
+        },
+        "down": {
+          "colour": "#4E2D28",
+          "img": "ui/widgets/spincontrol/left_arrow.png"
+        },
+        "downSound": "ui/menuSelect",
+        "hover": {
+          "colour": "#623A34",
+          "img": "ui/widgets/spincontrol/left_arrow.png"
+        },
+        "hoverSound": "",
+        "iconBorder": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "innerBorder": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "label": {
+          "colour": "#F4F4E8",
+          "font": "Wargroove Medium",
+          "size": 16,
+          "smoothness": 0
+        },
+        "labelBorder": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "normal": {
+          "colour": "#A47750",
+          "img": "ui/widgets/spincontrol/left_arrow.png"
+        },
+        "upSound": ""
+      },
+      "rightButton": {
+        "borderOnly": {
+          "colour": "#C7A486",
+          "img": "ui/widgets/spincontrol/right_arrow.png"
+        },
+        "disabled": {
+          "colour": "#C7A486",
+          "img": "ui/widgets/spincontrol/right_arrow.png"
+        },
+        "down": {
+          "colour": "#4E2D28",
+          "img": "ui/widgets/spincontrol/right_arrow.png"
+        },
+        "downSound": "ui/menuSelect",
+        "hover": {
+          "colour": "#623A34",
+          "img": "ui/widgets/spincontrol/right_arrow.png"
+        },
+        "hoverSound": "",
+        "iconBorder": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "innerBorder": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "label": {
+          "colour": "#F4F4E8",
+          "font": "Wargroove Medium",
+          "size": 16,
+          "smoothness": 0
+        },
+        "labelBorder": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "normal": {
+          "colour": "#A47750",
+          "img": "ui/widgets/spincontrol/right_arrow.png"
+        },
+        "upSound": ""
+      }
+    }
+  }
+}

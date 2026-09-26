@@ -1,0 +1,73 @@
+{
+  "children": [
+    {
+      "proportion": 1,
+      "widget": {
+        "class": "hybridList",
+        "id": "menu",
+        "options": [
+          {
+            "id": "codex",
+            "if": "hasCodex",
+            "textKey": "ui_in_game_menu_codex"
+          },
+          {
+            "id": "options",
+            "if": "hasOptions",
+            "textKey": "ui_in_game_menu_options"
+          },
+          {
+            "id": "sync_controllers",
+            "if": "hasSyncControllers",
+            "textKey": "ui_in_game_menu_sync_controllers"
+          },
+          {
+            "divider": "true"
+          },
+          {
+            "id": "save_checkpoint",
+            "if": "hasSaveCheckpoint",
+            "textKey": "ui_in_game_menu_save_checkpoint"
+          },
+          {
+            "id": "resign",
+            "if": "hasResign",
+            "textKey": "ui_in_game_menu_resign"
+          },
+          {
+            "id": "abandon",
+            "if": "hasAbandon",
+            "textKey": "ui_in_game_menu_abandon"
+          },
+          {
+            "id": "exit_game",
+            "if": "hasExit",
+            "textKey": "ui_in_game_menu_exit"
+          },
+          {
+            "id": "suspend",
+            "if": "hasSuspend",
+            "textKey": "ui_in_game_menu_suspend"
+          },
+          {
+            "divider": "true"
+          },
+          {
+            "id": "back",
+            "textKey": "ui_in_game_menu_back"
+          }
+        ]
+      }
+    }
+  ],
+  "widget": {
+    "class": "image",
+    "image": "ui/widgets/window/flat_window.png",
+    "innerBorder": [
+      4,
+      4,
+      4,
+      4
+    ]
+  }
+}

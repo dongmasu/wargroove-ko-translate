@@ -1,0 +1,311 @@
+{
+  "children": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "border": [
+                20,
+                10,
+                20,
+                10
+              ],
+              "children": [
+                {
+                  "border": [
+                    20,
+                    5,
+                    20,
+                    5
+                  ],
+                  "children": [
+                    {
+                      "widget": {
+                        "class": "optionsGrid",
+                        "columnProportions": [
+                          1.0,
+                          0.0
+                        ],
+                        "options": [
+                          {
+                            "sprite": "menuicons_language",
+                            "spriteSheet": "ui",
+                            "textKey": "server_lobby_filter_title",
+                            "widget": {
+                              "class": "textInput",
+                              "id": "title",
+                              "maxLength": 40,
+                              "size": [
+                                100,
+                                15
+                              ]
+                            }
+                          },
+                          {
+                            "sprite": "menuicons_mapname",
+                            "spriteSheet": "ui",
+                            "textKey": "server_lobby_filter_map",
+                            "widget": {
+                              "class": "button",
+                              "id": "map",
+                              "size": [
+                                100,
+                                15
+                              ],
+                              "style": "slimButton",
+                              "textKey": "server_lobby_filter_value_any"
+                            }
+                          },
+                          {
+                            "divider": {
+                              "border": [
+                                -20,
+                                2,
+                                -20,
+                                2
+                              ]
+                            }
+                          },
+                          {
+                            "sprite": "menuicons_weather",
+                            "spriteSheet": "ui",
+                            "textKey": "match_settings_weather",
+                            "widget": {
+                              "class": "optionListMorpher",
+                              "id": "weather",
+                              "size": [
+                                100,
+                                15
+                              ]
+                            }
+                          },
+                          {
+                            "sprite": "menuicons_fow",
+                            "spriteSheet": "ui",
+                            "textKey": "match_settings_fog_of_war",
+                            "widget": {
+                              "class": "optionListMorpher",
+                              "id": "fogOfWar",
+                              "size": [
+                                100,
+                                15
+                              ]
+                            }
+                          },
+                          {
+                            "sprite": "menuicons_biome",
+                            "spriteSheet": "ui",
+                            "textKey": "match_settings_biome",
+                            "widget": {
+                              "class": "optionListMorpher",
+                              "id": "biome",
+                              "size": [
+                                100,
+                                15
+                              ]
+                            }
+                          },
+                          {
+                            "sprite": "menuicons_end_turn_confirmation",
+                            "spriteSheet": "ui",
+                            "textKey": "server_lobby_filter_state",
+                            "widget": {
+                              "class": "optionListMorpher",
+                              "id": "state",
+                              "size": [
+                                100,
+                                15
+                              ]
+                            }
+                          },
+                          {
+                            "sprite": "menuicons_commander",
+                            "spriteSheet": "ui",
+                            "textKey": "match_settings_commanders",
+                            "widget": {
+                              "class": "optionListMorpher",
+                              "id": "commanders",
+                              "size": [
+                                100,
+                                15
+                              ]
+                            }
+                          },
+                          {
+                            "sprite": "menuicons_groove",
+                            "spriteSheet": "ui",
+                            "textKey": "server_lobby_filter_grooves",
+                            "widget": {
+                              "class": "optionListMorpher",
+                              "id": "grooves",
+                              "size": [
+                                100,
+                                15
+                              ]
+                            }
+                          },
+                          {
+                            "sprite": "menuicons_numberofplayers",
+                            "spriteSheet": "ui",
+                            "textKey": "server_lobby_filter_players",
+                            "widget": {
+                              "class": "optionListMorpher",
+                              "id": "players",
+                              "size": [
+                                100,
+                                15
+                              ]
+                            }
+                          },
+                          {
+                            "sprite": "menuicons_team",
+                            "spriteSheet": "ui",
+                            "textKey": "match_settings_team",
+                            "widget": {
+                              "class": "optionListMorpher",
+                              "id": "team",
+                              "size": [
+                                100,
+                                15
+                              ]
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "sizer": {
+                    "type": "vertical"
+                  }
+                },
+                {
+                  "border": [
+                    0,
+                    5,
+                    0,
+                    0
+                  ],
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "widget": {
+                            "button": "cancel",
+                            "class": "gamepadButton",
+                            "id": "cancel",
+                            "size": [
+                              40,
+                              15
+                            ],
+                            "textKey": "ui_widget_button_back"
+                          }
+                        },
+                        {
+                          "widget": {
+                            "button": "tertiary",
+                            "class": "gamepadButton",
+                            "id": "clear",
+                            "size": [
+                              40,
+                              15
+                            ],
+                            "textKey": "ui_widget_button_clear"
+                          }
+                        }
+                      ],
+                      "proportion": 1,
+                      "sizer": {
+                        "gap": 0,
+                        "type": "horizontal"
+                      }
+                    },
+                    {
+                      "children": [
+                        {
+                          "widget": {
+                            "button": "secondary",
+                            "class": "gamepadButton",
+                            "id": "ok",
+                            "size": [
+                              40,
+                              15
+                            ],
+                            "textKey": "ui_widget_button_ok"
+                          }
+                        }
+                      ],
+                      "fill": "right",
+                      "proportion": 1,
+                      "sizer": {
+                        "gap": 0,
+                        "type": "horizontal"
+                      }
+                    }
+                  ],
+                  "fill": [
+                    "fillHorizontal"
+                  ],
+                  "sizer": {
+                    "type": "horizontal"
+                  }
+                }
+              ],
+              "fill": "centre",
+              "sizer": {
+                "gap": 0,
+                "type": "vertical"
+              },
+              "widget": {
+                "class": "dialogue",
+                "style": "dialogueLight",
+                "titleKey": "server_game_list_filter"
+              }
+            }
+          ],
+          "fill": "centre",
+          "proportion": 1,
+          "sizer": {
+            "gap": 0,
+            "type": "vertical"
+          },
+          "widget": {
+            "class": "framedImage",
+            "scrollPos": [
+              10,
+              -170
+            ],
+            "scrollSpeed": [
+              15,
+              0
+            ],
+            "size": [
+              700,
+              10
+            ],
+            "style": "paperScroll"
+          }
+        }
+      ],
+      "sizer": {
+        "type": "vertical"
+      },
+      "widget": {
+        "class": "image",
+        "colour": "#000000B0",
+        "image": "ui/whitebox.png",
+        "size": [
+          640,
+          360
+        ]
+      }
+    }
+  ],
+  "sizer": {
+    "type": "vertical"
+  },
+  "widget": {
+    "childLayerAdjustment": 1,
+    "class": "widget"
+  }
+}

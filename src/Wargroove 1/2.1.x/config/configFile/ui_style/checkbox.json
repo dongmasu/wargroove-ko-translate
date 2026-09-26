@@ -1,0 +1,12 @@
+{
+  "uiStyle": {
+    "checkbox": {
+      "checked": "ui/widgets/checkbox/checkbox_checked.png",
+      "checkedDisabled": "ui/widgets/checkbox/checkbox_checked_disabled.png",
+      "checkedHover": "ui/widgets/checkbox/checkbox_checked_hover.png",
+      "disabled": "ui/widgets/checkbox/checkbox_disabled.png",
+      "hover": "ui/widgets/checkbox/checkbox_hover.png",
+      "normal": "ui/widgets/checkbox/checkbox.png"
+    }
+  }
+}

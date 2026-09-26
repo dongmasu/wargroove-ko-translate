@@ -1,0 +1,47 @@
+{
+  "_assetType": "audioClip",
+  "_decoded": {
+    "legacy": true,
+    "actions": [
+      {
+        "type": "play",
+        "scope": 1,
+        "clip": "sfx/ragna/ragnaGrooveFallingFoley.ogg",
+        "group": "sfx",
+        "gain": [
+          1.0,
+          1.0
+        ],
+        "pitch": [
+          0.5,
+          0.5
+        ],
+        "legacyTailHex": "000000000000000000",
+        "legacyTailFloats": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "type": "play",
+        "scope": 1,
+        "clip": "sfx/ragna/ragnaGrooveLandingFoley.ogg",
+        "group": "sfx",
+        "gain": [
+          1.0,
+          1.0
+        ],
+        "pitch": [
+          0.5,
+          0.5
+        ],
+        "legacyTailHex": "9a99193f0000000000",
+        "legacyTailFloats": [
+          0.6000000238418579,
+          0.0
+        ]
+      }
+    ]
+  },
+  "_payloadHex": "0200000004000000706c617901000000250000007366782f7261676e612f7261676e6147726f6f766546616c6c696e67466f6c65792e6f6767030000007366780000803f0000803f0000003f0000003f00000000000000000004000000706c617901000000250000007366782f7261676e612f7261676e6147726f6f76654c616e64696e67466f6c65792e6f6767030000007366780000803f0000803f0000003f0000003f9a99193f0000000000"
+}

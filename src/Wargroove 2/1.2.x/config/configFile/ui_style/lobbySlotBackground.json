@@ -1,0 +1,20 @@
+{
+  "uiStyle": {
+    "lobbySlotBackground": {
+      "frame": "ui/widgets/window/clip_border.png",
+      "frameBorder": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "framedImage": "ui/background/lobby_bg.png",
+      "innerBorder": [
+        3,
+        3,
+        3,
+        3
+      ]
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "uiStyle": {
+    "panelToggleButtonIcon": {
+      "borderOnly": "ui/main_game_ui/objectives_panel_toggle.png",
+      "disabled": "ui/main_game_ui/objectives_panel_toggle.png",
+      "down": "ui/main_game_ui/objectives_panel_toggle.png",
+      "downSound": "ui/menuSelect",
+      "hover": "ui/main_game_ui/objectives_panel_toggle.png",
+      "hoverSound": "",
+      "iconBorder": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "innerBorder": [
+        3,
+        3,
+        7,
+        3
+      ],
+      "label": {
+        "colour": "#f4f6e9",
+        "font": "Wargroove Medium",
+        "size": 16,
+        "smoothness": 0
+      },
+      "labelBorder": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "labelGamepad": {
+        "colour": "#f4f6e9",
+        "font": "Wargroove Medium",
+        "size": 16,
+        "smoothness": 0
+      },
+      "normal": "ui/main_game_ui/objectives_panel_toggle.png",
+      "upSound": ""
+    }
+  }
+}

@@ -1,0 +1,536 @@
+{
+  "children": [
+    {
+      "children": [
+        {
+          "border": [
+            -1,
+            -1,
+            -1,
+            0
+          ],
+          "children": [
+            {
+              "border": [
+                3,
+                -2,
+                3,
+                -3
+              ],
+              "fill": "centre",
+              "proportion": 0,
+              "widget": {
+                "class": "label",
+                "colour": "#3D4265",
+                "id": "titleLabel",
+                "textKey": "ui_map_select_teams_free_for_all"
+              }
+            }
+          ],
+          "fill": [
+            "fillHorizontal",
+            "top"
+          ],
+          "proportion": 0,
+          "sizer": {
+            "gap": 0,
+            "type": "vertical"
+          },
+          "widget": {
+            "class": "image",
+            "image": "ui/widgets/window/dialoguetitle_light.png"
+          }
+        },
+        {
+          "border": [
+            -2,
+            1,
+            -2,
+            0
+          ],
+          "proportion": 0,
+          "widget": {
+            "class": "image",
+            "colour": "#d1bead",
+            "image": "ui/widgets/divider/horizontaldiv.png"
+          }
+        }
+      ],
+      "fill": [
+        "fillHorizontal"
+      ],
+      "proportion": 1,
+      "sizer": {
+        "gap": 0,
+        "type": "vertical"
+      },
+      "widget": {
+        "class": "widget",
+        "id": "titleBar"
+      }
+    },
+    {
+      "border": [
+        5,
+        5,
+        5,
+        4
+      ],
+      "children": [
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "border": [
+                    0,
+                    -7,
+                    0,
+                    0
+                  ],
+                  "widget": {
+                    "class": "image",
+                    "image": "ui/map_select/unit_icons_city.png"
+                  }
+                },
+                {
+                  "border": [
+                    0,
+                    0,
+                    1,
+                    0
+                  ],
+                  "children": [
+                    {
+                      "border": [
+                        0,
+                        -6,
+                        0,
+                        -3
+                      ],
+                      "fill": "centre",
+                      "proportion": 1,
+                      "widget": {
+                        "class": "label",
+                        "id": "city",
+                        "textKey": "ui_map_select_units_zero"
+                      }
+                    }
+                  ],
+                  "fill": [
+                    "right",
+                    "centreVertical"
+                  ],
+                  "proportion": 1,
+                  "widget": {
+                    "class": "image",
+                    "image": "ui/map_select/unit_count_border.png",
+                    "size": [
+                      19,
+                      12
+                    ]
+                  }
+                }
+              ],
+              "fill": "fillHorizontal",
+              "proportion": 1,
+              "sizer": {
+                "gap": 4,
+                "type": "horizontal"
+              },
+              "widget": {
+                "class": "image",
+                "colour": "#dfc686",
+                "image": "ui/widgets/window/flat_box.png"
+              }
+            },
+            {
+              "children": [
+                {
+                  "border": [
+                    0,
+                    -7,
+                    0,
+                    0
+                  ],
+                  "widget": {
+                    "class": "image",
+                    "image": "ui/map_select/unit_icons_water_city.png"
+                  }
+                },
+                {
+                  "border": [
+                    0,
+                    0,
+                    1,
+                    0
+                  ],
+                  "children": [
+                    {
+                      "border": [
+                        0,
+                        -6,
+                        0,
+                        -3
+                      ],
+                      "fill": "centre",
+                      "proportion": 1,
+                      "widget": {
+                        "class": "label",
+                        "id": "water_city",
+                        "textKey": "ui_map_select_units_zero"
+                      }
+                    }
+                  ],
+                  "fill": [
+                    "right",
+                    "centreVertical"
+                  ],
+                  "proportion": 1,
+                  "widget": {
+                    "class": "image",
+                    "image": "ui/map_select/unit_count_border.png",
+                    "size": [
+                      19,
+                      12
+                    ]
+                  }
+                }
+              ],
+              "fill": "fillHorizontal",
+              "proportion": 1,
+              "sizer": {
+                "gap": 4,
+                "type": "horizontal"
+              },
+              "widget": {
+                "class": "image",
+                "colour": "#dfc686",
+                "image": "ui/widgets/window/flat_box.png"
+              }
+            }
+          ],
+          "fill": [
+            "fillHorizontal"
+          ],
+          "sizer": {
+            "gap": 5,
+            "type": "horizontal"
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "border": [
+                    0,
+                    -7,
+                    0,
+                    0
+                  ],
+                  "widget": {
+                    "class": "image",
+                    "image": "ui/map_select/unit_icons_barracks.png"
+                  }
+                },
+                {
+                  "border": [
+                    0,
+                    0,
+                    1,
+                    0
+                  ],
+                  "children": [
+                    {
+                      "border": [
+                        0,
+                        -6,
+                        0,
+                        -3
+                      ],
+                      "fill": "centre",
+                      "proportion": 1,
+                      "widget": {
+                        "class": "label",
+                        "id": "barracks",
+                        "textKey": "ui_map_select_units_zero"
+                      }
+                    }
+                  ],
+                  "fill": [
+                    "right",
+                    "centreVertical"
+                  ],
+                  "proportion": 1,
+                  "widget": {
+                    "class": "image",
+                    "image": "ui/map_select/unit_count_border.png",
+                    "size": [
+                      19,
+                      12
+                    ]
+                  }
+                }
+              ],
+              "fill": "fillHorizontal",
+              "proportion": 1,
+              "sizer": {
+                "gap": 4,
+                "type": "horizontal"
+              },
+              "widget": {
+                "class": "image",
+                "colour": "#dfc686",
+                "image": "ui/widgets/window/flat_box.png"
+              }
+            },
+            {
+              "children": [
+                {
+                  "border": [
+                    0,
+                    -7,
+                    0,
+                    0
+                  ],
+                  "widget": {
+                    "class": "image",
+                    "image": "ui/map_select/unit_icons_tower.png"
+                  }
+                },
+                {
+                  "border": [
+                    0,
+                    0,
+                    1,
+                    0
+                  ],
+                  "children": [
+                    {
+                      "border": [
+                        0,
+                        -6,
+                        0,
+                        -3
+                      ],
+                      "fill": "centre",
+                      "proportion": 1,
+                      "widget": {
+                        "class": "label",
+                        "id": "tower",
+                        "textKey": "ui_map_select_units_zero"
+                      }
+                    }
+                  ],
+                  "fill": [
+                    "right",
+                    "centreVertical"
+                  ],
+                  "proportion": 1,
+                  "widget": {
+                    "class": "image",
+                    "image": "ui/map_select/unit_count_border.png",
+                    "size": [
+                      19,
+                      12
+                    ]
+                  }
+                }
+              ],
+              "fill": "fillHorizontal",
+              "proportion": 1,
+              "sizer": {
+                "gap": 4,
+                "type": "horizontal"
+              },
+              "widget": {
+                "class": "image",
+                "colour": "#dfc686",
+                "image": "ui/widgets/window/flat_box.png"
+              }
+            }
+          ],
+          "fill": [
+            "fillHorizontal"
+          ],
+          "sizer": {
+            "gap": 5,
+            "type": "horizontal"
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "border": [
+                    0,
+                    -7,
+                    0,
+                    0
+                  ],
+                  "widget": {
+                    "class": "image",
+                    "image": "ui/map_select/unit_icons_hideout.png"
+                  }
+                },
+                {
+                  "border": [
+                    0,
+                    0,
+                    1,
+                    0
+                  ],
+                  "children": [
+                    {
+                      "border": [
+                        0,
+                        -6,
+                        0,
+                        -3
+                      ],
+                      "fill": "centre",
+                      "proportion": 1,
+                      "widget": {
+                        "class": "label",
+                        "id": "hideout",
+                        "textKey": "ui_map_select_units_zero"
+                      }
+                    }
+                  ],
+                  "fill": [
+                    "right",
+                    "centreVertical"
+                  ],
+                  "proportion": 1,
+                  "widget": {
+                    "class": "image",
+                    "image": "ui/map_select/unit_count_border.png",
+                    "size": [
+                      19,
+                      12
+                    ]
+                  }
+                }
+              ],
+              "fill": "fillHorizontal",
+              "proportion": 1,
+              "sizer": {
+                "gap": 4,
+                "type": "horizontal"
+              },
+              "widget": {
+                "class": "image",
+                "colour": "#dfc686",
+                "image": "ui/widgets/window/flat_box.png"
+              }
+            },
+            {
+              "children": [
+                {
+                  "border": [
+                    0,
+                    -7,
+                    0,
+                    0
+                  ],
+                  "widget": {
+                    "class": "image",
+                    "image": "ui/map_select/unit_icons_port.png"
+                  }
+                },
+                {
+                  "border": [
+                    0,
+                    0,
+                    1,
+                    0
+                  ],
+                  "children": [
+                    {
+                      "border": [
+                        0,
+                        -6,
+                        0,
+                        -3
+                      ],
+                      "fill": "centre",
+                      "proportion": 1,
+                      "widget": {
+                        "class": "label",
+                        "id": "port",
+                        "textKey": "ui_map_select_units_zero"
+                      }
+                    }
+                  ],
+                  "fill": [
+                    "right",
+                    "centreVertical"
+                  ],
+                  "proportion": 1,
+                  "widget": {
+                    "class": "image",
+                    "image": "ui/map_select/unit_count_border.png",
+                    "size": [
+                      19,
+                      12
+                    ]
+                  }
+                }
+              ],
+              "fill": "fillHorizontal",
+              "proportion": 1,
+              "sizer": {
+                "gap": 4,
+                "type": "horizontal"
+              },
+              "widget": {
+                "class": "image",
+                "colour": "#dfc686",
+                "image": "ui/widgets/window/flat_box.png"
+              }
+            }
+          ],
+          "fill": [
+            "fillHorizontal"
+          ],
+          "sizer": {
+            "gap": 5,
+            "type": "horizontal"
+          }
+        }
+      ],
+      "fill": [
+        "fillHorizontal",
+        "centreVertical"
+      ],
+      "sizer": {
+        "gap": 5,
+        "type": "vertical"
+      },
+      "widget": {
+        "class": "widget"
+      }
+    }
+  ],
+  "fill": [
+    "fillHorizontal",
+    "fillVertical"
+  ],
+  "proportion": 1,
+  "sizer": {
+    "gap": 0,
+    "type": "vertical"
+  },
+  "widget": {
+    "class": "image",
+    "image": "ui/widgets/window/static_box_window.png",
+    "innerBorder": [
+      3,
+      3,
+      3,
+      3
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "_assetType": "audioClip",
+  "_decoded": {
+    "legacy": true,
+    "actions": [
+      {
+        "type": "play",
+        "scope": 1,
+        "clip": "sfx/greenfinger/greenfingerAttackFoley.ogg",
+        "group": "sfx",
+        "gain": [
+          1.0,
+          1.0
+        ],
+        "pitch": [
+          1.0,
+          1.0
+        ],
+        "legacyTailHex": "cdcccc3d0000000000",
+        "legacyTailFloats": [
+          0.10000000149011612,
+          0.0
+        ]
+      }
+    ]
+  },
+  "_payloadHex": "0100000004000000706c6179010000002a0000007366782f677265656e66696e6765722f677265656e66696e67657241747461636b466f6c65792e6f6767030000007366780000803f0000803f0000803f0000803fcdcccc3d0000000000"
+}

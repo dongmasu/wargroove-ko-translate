@@ -1,0 +1,166 @@
+{
+  "unitClasses": [
+    {
+      "aiPriority": 0.5,
+      "battleUnitCount": 4,
+      "canBeReinforced": "false",
+      "cost": 50,
+      "damageMultiplier": 1,
+      "id": "villager",
+      "isRecruitable": "false",
+      "moveRange": 3,
+      "movement": "walking",
+      "name": "unit_class_name_villager",
+      "palettePriority": 1,
+      "tags": [
+        "villager",
+        "type.ground.light"
+      ],
+      "verbs": [
+        "load"
+      ],
+      "weapons": []
+    }
+  ],
+  "units": [
+    {
+      "alternativeRuns": [
+        {
+          "id": "run_gold"
+        }
+      ],
+      "battleAnimation": "units/villager/cherrystone/battle_villager_cherrystone",
+      "battleAnimationRiver": "fx/river_overlay/battle_villager_river",
+      "class": "villager",
+      "emotes": {
+        "cower": "emote_cower",
+        "idle": "idle",
+        "idle_gold": "emote_idle_gold",
+        "throw_gold": "emote_throw_gold"
+      },
+      "faction": "cherrystone",
+      "grabPos": [
+        13,
+        14
+      ],
+      "mapAnimation": "units/villager/cherrystone/map_villager_cherrystone",
+      "mapSpeed": 4.0,
+      "mediumPortrait": "units/villager/cherrystone/portrait_villager_cherrystone_medium.png",
+      "name": "unit_name_villager_cherrystone",
+      "shouts": {
+        "villager_female_shout1": "cutscene/villagerScreamFemale1",
+        "villager_female_shout2": "cutscene/villagerScreamFemale2",
+        "villager_male_shout1": "cutscene/villagerScreamMale1",
+        "villager_male_shout2": "cutscene/villagerScreamMale2"
+      },
+      "smallPortrait": "units/villager/cherrystone/portrait_villager_cherrystone_small.png",
+      "sounds": {
+        "death": "soldierDieRed",
+        "deathMap": "unitDie",
+        "hit": "hitOrganic",
+        "hitMap": "hitOrganic",
+        "run": "infantryLightEntry",
+        "runMap": "infantryLightMapEntry"
+      }
+    },
+    {
+      "battleAnimation": "units/villager/felheim/battle_villager_felheim",
+      "battleAnimationRiver": "fx/river_overlay/battle_villager_river",
+      "class": "villager",
+      "emotes": {
+        "cower": "emote_cower",
+        "idle": "idle"
+      },
+      "faction": "felheim",
+      "grabPos": [
+        13,
+        14
+      ],
+      "mapAnimation": "units/villager/felheim/map_villager_felheim",
+      "mapSpeed": 4.0,
+      "mediumPortrait": "units/villager/felheim/portrait_villager_felheim_medium.png",
+      "name": "unit_name_villager_felheim",
+      "shouts": {
+        "soldier_blue_shout1": "soldierShoutBlue1",
+        "soldier_blue_shout2": "soldierShoutBlue2"
+      },
+      "smallPortrait": "units/villager/felheim/portrait_villager_felheim_small.png",
+      "sounds": {
+        "death": "soldierDieBlue",
+        "deathMap": "unitDie",
+        "hit": "hitOrganic",
+        "hitMap": "hitOrganic",
+        "run": "infantryLightEntry",
+        "runMap": "infantryLightMapEntry"
+      }
+    },
+    {
+      "battleAnimation": "units/villager/heavensong/battle_villager_heavensong",
+      "battleAnimationRiver": "fx/river_overlay/battle_villager_river",
+      "class": "villager",
+      "emotes": {
+        "cower": "emote_cower",
+        "idle": "idle"
+      },
+      "faction": "heavensong",
+      "grabPos": [
+        13,
+        14
+      ],
+      "mapAnimation": "units/villager/heavensong/map_villager_heavensong",
+      "mapSpeed": 4.0,
+      "mediumPortrait": "units/villager/heavensong/portrait_villager_heavensong_medium.png",
+      "name": "unit_name_villager_heavensong",
+      "shouts": {
+        "villager_female_shout1": "cutscene/villagerScreamFemale1",
+        "villager_female_shout2": "cutscene/villagerScreamFemale2",
+        "villager_male_shout1": "cutscene/villagerScreamMale1",
+        "villager_male_shout2": "cutscene/villagerScreamMale2"
+      },
+      "smallPortrait": "units/villager/heavensong/portrait_villager_heavensong_small.png",
+      "sounds": {
+        "death": "soldierDieRed",
+        "deathMap": "unitDie",
+        "hit": "hitOrganic",
+        "hitMap": "hitOrganic",
+        "run": "infantryLightEntry",
+        "runMap": "infantryLightMapEntry"
+      }
+    },
+    {
+      "battleAnimation": "units/villager/floran/battle_villager_floran",
+      "battleAnimationRiver": "fx/river_overlay/battle_villager_river",
+      "class": "villager",
+      "emotes": {
+        "cower": "emote_cower",
+        "idle": "idle"
+      },
+      "faction": "floran",
+      "grabPos": [
+        13,
+        14
+      ],
+      "mapAnimation": "units/villager/floran/map_villager_floran",
+      "mapSpeed": 4.0,
+      "mediumPortrait": "units/villager/floran/portrait_villager_floran_medium.png",
+      "name": "unit_name_villager_floran",
+      "shouts": {
+        "soldier_green_shout1": "soldierShoutGreen1",
+        "soldier_green_shout2": "soldierShoutGreen2",
+        "soldier_green_shout3": "soldierShoutGreen3",
+        "soldier_green_shout4": "soldierShoutGreen4",
+        "soldier_green_shout5": "soldierShoutGreen5",
+        "soldier_green_shout6": "soldierShoutGreen6"
+      },
+      "smallPortrait": "units/villager/floran/portrait_villager_floran_small.png",
+      "sounds": {
+        "death": "soldierDieGreen",
+        "deathMap": "unitDie",
+        "hit": "hitOrganic",
+        "hitMap": "hitOrganic",
+        "run": "infantryLightEntry",
+        "runMap": "infantryLightMapEntry"
+      }
+    }
+  ]
+}

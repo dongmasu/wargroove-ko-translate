@@ -1,0 +1,11 @@
+{
+  "author": "Finn",
+  "base": "colour_schemes/base_flat_dark",
+  "colours": {
+    "toolbarNormal": "#275c0a",
+    "ui_listSelected": "#275c0a",
+    "ui_stringMatchText": "#83cc5c",
+    "ui_unselectedTextAlt": "#83cc5c"
+  },
+  "name": "Flat Forest (Dark)"
+}

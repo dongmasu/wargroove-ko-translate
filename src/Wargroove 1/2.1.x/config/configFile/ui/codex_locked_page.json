@@ -1,0 +1,29 @@
+{
+  "children": [
+    {
+      "fill": "centre",
+      "widget": {
+        "class": "image",
+        "colour": "#A47750",
+        "image": "ui/codex/padlock_large.png"
+      }
+    },
+    {
+      "fill": "centre",
+      "widget": {
+        "alignment": 0.5,
+        "class": "label",
+        "id": "label",
+        "maxWidth": 130,
+        "style": "labelBrown",
+        "text": "Locked"
+      }
+    }
+  ],
+  "sizer": {
+    "type": "vertical"
+  },
+  "widget": {
+    "class": "widget"
+  }
+}

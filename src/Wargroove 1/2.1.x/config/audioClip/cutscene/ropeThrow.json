@@ -1,0 +1,28 @@
+{
+  "_assetType": "audioClip",
+  "_decoded": {
+    "legacy": true,
+    "actions": [
+      {
+        "type": "play",
+        "scope": 1,
+        "clip": "sfx/cutscene/ropeThrow.ogg",
+        "group": "sfx",
+        "gain": [
+          0.8999999761581421,
+          1.100000023841858
+        ],
+        "pitch": [
+          1.0,
+          1.0
+        ],
+        "legacyTailHex": "000000000000000000",
+        "legacyTailFloats": [
+          0.0,
+          0.0
+        ]
+      }
+    ]
+  },
+  "_payloadHex": "0100000004000000706c6179010000001a0000007366782f6375747363656e652f726f70655468726f772e6f6767030000007366786666663fcdcc8c3f0000803f0000803f000000000000000000"
+}

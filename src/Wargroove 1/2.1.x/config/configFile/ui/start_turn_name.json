@@ -1,0 +1,8 @@
+{
+  "widget": {
+    "class": "playerName",
+    "id": "playerName",
+    "showIcon": "false",
+    "style": "startTurnName"
+  }
+}

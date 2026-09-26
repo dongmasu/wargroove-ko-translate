@@ -1,0 +1,24 @@
+{
+  "uiStyle": {
+    "labelRed": {
+      "iconBorder": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "label": {
+        "colour": "#AA003F",
+        "font": "Wargroove Medium",
+        "size": 16,
+        "smoothness": 0
+      },
+      "labelBorder": [
+        0,
+        -4,
+        -1,
+        -3
+      ]
+    }
+  }
+}

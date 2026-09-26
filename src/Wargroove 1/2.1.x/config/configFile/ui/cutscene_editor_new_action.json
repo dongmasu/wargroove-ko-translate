@@ -1,0 +1,102 @@
+{
+  "children": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "fill": [
+                "fillVertical",
+                "fillHorizontal"
+              ],
+              "proportion": 1,
+              "widget": {
+                "class": "list",
+                "id": "actionList"
+              }
+            }
+          ],
+          "fill": [
+            "fillVertical",
+            "fillHorizontal"
+          ],
+          "proportion": 1,
+          "widget": {
+            "class": "scrollBarPane"
+          }
+        },
+        {
+          "widget": {
+            "class": "horizontalDiv"
+          }
+        },
+        {
+          "children": [
+            {
+              "border": [
+                0,
+                5,
+                0,
+                5
+              ],
+              "widget": {
+                "button": "cancel",
+                "class": "gamepadButton",
+                "id": "back",
+                "size": [
+                  40,
+                  12
+                ],
+                "textKey": "ui_widget_button_back"
+              }
+            },
+            {
+              "border": [
+                70,
+                5,
+                0,
+                5
+              ],
+              "widget": {
+                "button": "primary",
+                "class": "gamepadButton",
+                "id": "select",
+                "size": [
+                  40,
+                  12
+                ],
+                "textKey": "ui_widget_button_select"
+              }
+            }
+          ],
+          "fill": [
+            "centreHorizontal"
+          ],
+          "sizer": {
+            "type": "horizontal"
+          }
+        }
+      ],
+      "sizer": {
+        "type": "vertical"
+      },
+      "widget": {
+        "class": "dialogue",
+        "id": "newActionWindowDialogue",
+        "size": [
+          220,
+          240
+        ],
+        "style": "optionBorder",
+        "titleKey": "ui_cutscene_new_action_title"
+      }
+    }
+  ],
+  "sizer": {
+    "type": "vertical"
+  },
+  "widget": {
+    "childLayerAdjustment": 1,
+    "class": "widget"
+  }
+}

@@ -1,0 +1,218 @@
+{
+  "unitClasses": [
+    {
+      "aiPriority": 8.0,
+      "battleUnitCount": 1,
+      "cost": 500,
+      "grooveId": "cherrystone_defence",
+      "id": "commander_emeric",
+      "isCommander": "true",
+      "moveRange": 4,
+      "movement": "walking",
+      "name": "unit_class_name_commander",
+      "regeneration": 5,
+      "tags": [
+        "commander",
+        "type.ground.light"
+      ],
+      "verbs": [
+        "load",
+        "capture"
+      ],
+      "weapons": [
+        {
+          "id": "emericSpell"
+        }
+      ]
+    }
+  ],
+  "units": [
+    {
+      "alternativeAttackSounds": {
+        "no_voice": "emeric/emericAttackNoVoice"
+      },
+      "alternativeRuns": [
+        {
+          "id": "run_river",
+          "sound": "infantryLightRiverMapEntry"
+        }
+      ],
+      "attacks": [
+        {
+          "effectDelay": 2.950000047683716,
+          "hitDelay": 3.0,
+          "hitSpark": "fx/bs_stab_attack",
+          "id": "closeRange",
+          "samePanel": "true"
+        },
+        {
+          "effect": "fx/bs_emeric_attack",
+          "effectDelay": 2.950000047683716,
+          "hitDelay": 3.0,
+          "hitSpark": "fx/bs_stab_attack",
+          "id": "primary",
+          "ranged": "true"
+        }
+      ],
+      "battleAnimation": "units/commanders/emeric/battle_emeric",
+      "battleAnimationRiver": "fx/river_overlay/battle_emeric_river",
+      "class": "commander_emeric",
+      "deathMoveMax": 0,
+      "deathMoveMin": 0,
+      "emotes": {
+        "casting": "emote_casting",
+        "dance": "emote_dance",
+        "hypno": "emote_hypno",
+        "idle": "idle",
+        "idle_river": "idle_river",
+        "laugh": "emote_laugh",
+        "negative": "emote_negative",
+        "negative_river": "emote_negative_river",
+        "positive": "emote_positive",
+        "positive_river": "emote_positive_river",
+        "surprise": "emote_surprise",
+        "surprise_river": "emote_surprise_river",
+        "thinking": "emote_thinking",
+        "thinking_river": "emote_thinking_river"
+      },
+      "faction": "cherrystone",
+      "grabPos": [
+        40,
+        28
+      ],
+      "hidden": {
+        "alternativeRuns": [
+          "run_river"
+        ],
+        "emotes": [
+          "idle_river",
+          "positive_river",
+          "negative_river",
+          "thinking_river",
+          "surprise_river"
+        ],
+        "shouts": [
+          "emeric_attack2",
+          "emeric_hit3",
+          "emeric_ghostlaugh"
+        ]
+      },
+      "mapAnimation": "units/commanders/emeric/map_emeric",
+      "mapSpeed": 4.0,
+      "mediumPortrait": "units/commanders/emeric/portrait_emeric_medium.png",
+      "name": "character_emeric_name",
+      "shouts": {
+        "emeric_attack1": "emeric/emericShoutAttack1",
+        "emeric_attack2": "emeric/emericShoutAttack2",
+        "emeric_attack3": "emeric/emericShoutAttack3",
+        "emeric_attack4": "emeric/emericShoutAttack4",
+        "emeric_cherrystonesdefend": "emeric/emericShoutCherrystonesDefendUs",
+        "emeric_dothetrick": "emeric/emericShoutThisShouldDoTheTrick",
+        "emeric_educatedchoice": "emeric/emericShoutEducatedChoice",
+        "emeric_farewell": "emeric/emericShoutFarewell",
+        "emeric_ghostlaugh": "emeric/emericShoutGhostLaugh",
+        "emeric_gravemistake": "emeric/emericShoutGraveMistake",
+        "emeric_greetings": "emeric/emericShoutGreetings",
+        "emeric_haveaspell1": "emeric/emericShoutIHaveASpell1",
+        "emeric_haveaspell2": "emeric/emericShoutIHaveASpell2",
+        "emeric_hit1": "emeric/emericShoutHit1",
+        "emeric_hit2": "emeric/emericShoutHit2",
+        "emeric_hit3": "emeric/emericShoutHit3",
+        "emeric_hit4": "emeric/emericShoutHit4",
+        "emeric_hit5": "emeric/emericShoutHit5",
+        "emeric_hmm1": "emeric/emericShoutHmm1",
+        "emeric_hmm2": "emeric/emericShoutHmm2",
+        "emeric_hmm3": "emeric/emericShoutHmm3",
+        "emeric_hmph": "emeric/emericShoutHmph",
+        "emeric_iagree": "emeric/emericShoutIAgree",
+        "emeric_imsorry": "emeric/emericShoutImSorry",
+        "emeric_interesting": "emeric/emericShoutInteresting",
+        "emeric_itisntsafe": "emeric/emericShoutItIsntSafe",
+        "emeric_iwasfoolish": "emeric/emericShoutIWasFoolish",
+        "emeric_laugh1": "emeric/emericShoutLaugh1",
+        "emeric_laugh2": "emeric/emericShoutLaugh2",
+        "emeric_lightningblast": "emeric/emericShoutLightningBlast",
+        "emeric_mercival1": "emeric/emericShoutMercival",
+        "emeric_mercival2": "emeric/emericShoutMercivalDistressed",
+        "emeric_myqueen1": "emeric/emericShoutMyQueenDistressed",
+        "emeric_myqueen2": "emeric/emericShoutMyQueenProud",
+        "emeric_myqueen3": "emeric/emericShoutMyQueenSerious",
+        "emeric_myqueen4": "emeric/emericShoutMyQueenSurprised",
+        "emeric_no": "emeric/emericShoutNo",
+        "emeric_nodoubt": "emeric/emericShoutNoDoubt",
+        "emeric_oops": "emeric/emericShoutOops",
+        "emeric_outmatched": "emeric/emericShoutSimplyOutmatched",
+        "emeric_proudofyou": "emeric/emericShoutImProudOfYou",
+        "emeric_shouldbeadvantageous": "emeric/emericShoutThisShouldBeAdvantageous",
+        "emeric_shouldprotectus": "emeric/emericShoutThisShouldProtectUs",
+        "emeric_sigh": "emeric/emericShoutSigh",
+        "emeric_soproudofyou": "emeric/emericShoutImSoProudOfYou",
+        "emeric_tacticaladvantage": "emeric/emericShoutTacticalAdvantage",
+        "emeric_thankyou": "emeric/emericShoutThankYou",
+        "emeric_theresnotime": "emeric/emericShoutThereIsNoTime",
+        "emeric_verywell": "emeric/emericShoutVeryWell",
+        "emeric_wellearned": "emeric/emericShoutVictoryWellEarned",
+        "emeric_what": "emeric/emericShoutWhat",
+        "emeric_wisedecision": "emeric/emericShoutWiseDecision",
+        "emeric_yes1": "emeric/emericShoutYes1",
+        "emeric_yes2": "emeric/emericShoutYes2",
+        "emeric_yourhighness": "emeric/emericShoutYourHighness",
+        "emeric_youshallnotpass": "emeric/emericShoutYouShallNotPass"
+      },
+      "skinColour": "typeVI",
+      "smallPortrait": "units/commanders/emeric/portrait_emeric_small.png",
+      "sounds": {
+        "attack": "emeric/emericAttack",
+        "attackCommander": "emeric/emericCommanderKillAttack",
+        "attackMap": "unitAttack",
+        "captureShout": "emeric/emericCapture",
+        "death": "emeric/emericDie",
+        "deathMap": "emeric/emericDieGhost",
+        "deathMapNoBattle": "emeric/emericDieNoBattle",
+        "firstHit": "emeric/emericHit",
+        "groove": "emeric/emericGrooveIntro",
+        "hit": "hitOrganic",
+        "hitMap": "hitOrganic",
+        "run": "infantryLightMapEntry",
+        "runMap": "infantryLightMapEntry"
+      }
+    }
+  ],
+  "weapons": [
+    {
+      "baseDamage": {
+        "land": 1
+      },
+      "canMoveAndAttack": "true",
+      "id": "emericSpell",
+      "rangeMax": 1,
+      "rangeMin": 1,
+      "tagDamage": {
+        "archer": 1.2999999523162842,
+        "ballista": 0.6000000238418579,
+        "balloon": 0.550000011920929,
+        "commander": 0.4000000059604645,
+        "dog": 1.149999976158142,
+        "dragon": 0.3499999940395355,
+        "giant": 0.4000000059604645,
+        "harpoonship": 0.44999998807907104,
+        "harpy": 0.8999999761581421,
+        "knight": 0.550000011920929,
+        "mage": 0.800000011920929,
+        "merman": 0.949999988079071,
+        "rifleman": 1.0499999523162842,
+        "soldier": 1.149999976158142,
+        "spearman": 0.75,
+        "structure": 0.699999988079071,
+        "thief": 0.949999988079071,
+        "travelboat": 0.6000000238418579,
+        "trebuchet": 0.550000011920929,
+        "turtle": 0.550000011920929,
+        "villager": 0.949999988079071,
+        "wagon": 0.699999988079071,
+        "warship": 0.550000011920929,
+        "witch": 0.699999988079071
+      }
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "uiStyle": {
+    "slider": {
+      "barBorder": [
+        0,
+        1,
+        6,
+        1
+      ],
+      "emptyBar": "ui/widgets/slider/bar_empty.png",
+      "extraMouseBorder": [
+        1,
+        3,
+        1,
+        3
+      ],
+      "fullBar": "ui/widgets/slider/bar_full.png",
+      "innerBorder": [
+        3,
+        0,
+        2,
+        0
+      ],
+      "label": {
+        "alignment": 0.0,
+        "colour": "#3D4265",
+        "font": "Wargroove Medium",
+        "size": 16
+      },
+      "labelBorder": "ui/widgets/window/static_box_window.png",
+      "labelInnerBorder": [
+        2,
+        0,
+        2,
+        0
+      ],
+      "left": "ui/widgets/slider/bar_left.png",
+      "right": "ui/widgets/slider/bar_right.png",
+      "thumb": "ui/widgets/slider/thumb.png"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "uiStyle": {
+    "scrollDialogue": {
+      "background": "ui/widgets/window/scroll_embed_window.png",
+      "innerBorder": [
+        6,
+        6,
+        6,
+        6
+      ]
+    }
+  }
+}

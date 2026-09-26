@@ -1,0 +1,18 @@
+{
+  "widget": {
+    "class": "framedImage",
+    "scrollPos": [
+      10,
+      40
+    ],
+    "scrollSpeed": [
+      20,
+      0
+    ],
+    "size": [
+      700,
+      62
+    ],
+    "style": "backgroundScroll"
+  }
+}

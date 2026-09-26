@@ -1,0 +1,172 @@
+{
+  "children": [
+    {
+      "children": [
+        {
+          "border": [
+            20,
+            10,
+            20,
+            10
+          ],
+          "children": [
+            {
+              "proportion": 1,
+              "stretchSpacer": {}
+            },
+            {
+              "children": [
+                {
+                  "border": [
+                    3,
+                    0,
+                    3,
+                    1
+                  ],
+                  "fill": "centre",
+                  "widget": {
+                    "class": "label",
+                    "id": "label",
+                    "textKey": "server_matchmaking"
+                  }
+                }
+              ],
+              "widget": {
+                "class": "image",
+                "colour": "#dfc686",
+                "image": "ui/widgets/window/flat_box.png"
+              }
+            },
+            {
+              "children": [
+                {
+                  "proportion": 1,
+                  "stretchSpacer": {}
+                },
+                {
+                  "border": [
+                    5,
+                    0,
+                    0,
+                    0
+                  ],
+                  "widget": {
+                    "animation": "units/commanders/mercia/map_mercia",
+                    "class": "paletteSwapAnimation",
+                    "colour": "red",
+                    "direction": "right",
+                    "id": "commander0",
+                    "offset": [
+                      13,
+                      30
+                    ],
+                    "sequence": "run",
+                    "size": [
+                      28,
+                      36
+                    ],
+                    "skinColour": "typeII"
+                  }
+                },
+                {
+                  "proportion": 1,
+                  "stretchSpacer": {}
+                },
+                {
+                  "widget": {
+                    "animation": "units/commanders/ragna/map_ragna",
+                    "class": "paletteSwapAnimation",
+                    "colour": "blue",
+                    "direction": "right",
+                    "id": "commander1",
+                    "offset": [
+                      13,
+                      30
+                    ],
+                    "sequence": "run",
+                    "size": [
+                      28,
+                      36
+                    ],
+                    "skinColour": "typeI"
+                  }
+                },
+                {
+                  "proportion": 1,
+                  "stretchSpacer": {}
+                }
+              ],
+              "sizer": {
+                "type": "horizontal"
+              }
+            },
+            {
+              "fill": "centre",
+              "widget": {
+                "class": "dialogueButtons",
+                "hasOK": "false"
+              }
+            },
+            {
+              "proportion": 1,
+              "stretchSpacer": {}
+            }
+          ],
+          "fill": "centre",
+          "sizer": {
+            "type": "vertical"
+          },
+          "widget": {
+            "class": "image",
+            "id": "mainPanel",
+            "image": "ui/widgets/window/scroll_embed_window.png",
+            "innerBorder": [
+              20,
+              8,
+              20,
+              8
+            ],
+            "size": [
+              140,
+              75
+            ]
+          }
+        }
+      ],
+      "fill": "centre",
+      "proportion": 1,
+      "sizer": {
+        "gap": 0,
+        "type": "vertical"
+      },
+      "widget": {
+        "class": "framedImage",
+        "scrollPos": [
+          10,
+          -170
+        ],
+        "scrollSpeed": [
+          15,
+          0
+        ],
+        "size": [
+          700,
+          10
+        ],
+        "style": "paperScroll"
+      }
+    }
+  ],
+  "sizer": {
+    "type": "vertical"
+  },
+  "widget": {
+    "class": "image",
+    "colour": "#000000B0",
+    "image": "ui/whitebox.png",
+    "size": [
+      640,
+      360
+    ]
+  }
+}

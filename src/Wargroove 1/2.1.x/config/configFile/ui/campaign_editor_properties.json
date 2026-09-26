@@ -1,0 +1,435 @@
+{
+  "children": [
+    {
+      "widget": {
+        "class": "tabbedPane",
+        "id": "tabs",
+        "tabs": [
+          {
+            "children": [
+              {
+                "border": [
+                  3,
+                  3,
+                  3,
+                  3
+                ],
+                "widget": {
+                  "class": "optionsGrid",
+                  "columnProportions": [
+                    1.0,
+                    0.0
+                  ],
+                  "options": [
+                    {
+                      "sprite": "menuicons_mapname",
+                      "spriteSheet": "ui",
+                      "textKey": "ui_campaign_properties_name",
+                      "widget": {
+                        "class": "textInput",
+                        "ghostKey": "ui_campaign_properties_name_ghost",
+                        "id": "name",
+                        "size": [
+                          150,
+                          12
+                        ]
+                      }
+                    },
+                    {
+                      "sprite": "menuicons_description",
+                      "spriteSheet": "ui",
+                      "textKey": "ui_campaign_properties_description",
+                      "widget": {
+                        "class": "textInput",
+                        "ghostKey": "ui_campaign_properties_description_ghost",
+                        "id": "description",
+                        "size": [
+                          150,
+                          12
+                        ]
+                      }
+                    },
+                    {
+                      "sprite": "menuicons_plays_music",
+                      "spriteSheet": "ui",
+                      "textKey": "ui_campaign_properties_music",
+                      "widget": {
+                        "class": "dropdown",
+                        "id": "music",
+                        "size": [
+                          150,
+                          12
+                        ]
+                      }
+                    },
+                    {
+                      "sprite": "menuicons_biome",
+                      "spriteSheet": "ui",
+                      "textKey": "ui_campaign_properties_world_map",
+                      "widget": {
+                        "class": "dropdown",
+                        "id": "worldMap",
+                        "size": [
+                          150,
+                          12
+                        ]
+                      }
+                    },
+                    {
+                      "fill": "false",
+                      "sprite": "menuicons_start",
+                      "spriteSheet": "ui",
+                      "textKey": "ui_campaign_properties_auto_start",
+                      "widget": {
+                        "class": "checkbox",
+                        "id": "autoStart"
+                      }
+                    }
+                  ]
+                }
+              }
+            ],
+            "sizer": {
+              "type": "vertical"
+            },
+            "textKey": "ui_campaign_properties_general"
+          },
+          {
+            "children": [
+              {
+                "border": [
+                  3,
+                  3,
+                  3,
+                  3
+                ],
+                "children": [
+                  {
+                    "widget": {
+                      "class": "optionsGrid",
+                      "columnProportions": [
+                        1.0,
+                        0.0
+                      ],
+                      "id": "commanderList"
+                    }
+                  }
+                ],
+                "proportion": 1,
+                "sizer": {
+                  "type": "vertical"
+                },
+                "widget": {
+                  "class": "scrollBarPane"
+                }
+              }
+            ],
+            "sizer": {
+              "type": "vertical"
+            },
+            "textKey": "ui_campaign_properties_initial_party"
+          },
+          {
+            "children": [
+              {
+                "border": [
+                  3,
+                  3,
+                  3,
+                  3
+                ],
+                "children": [
+                  {
+                    "widget": {
+                      "canDrag": "true",
+                      "class": "list",
+                      "id": "flagList"
+                    }
+                  }
+                ],
+                "proportion": 1,
+                "sizer": {
+                  "type": "vertical"
+                },
+                "widget": {
+                  "class": "scrollBarPane",
+                  "size": [
+                    100,
+                    100
+                  ]
+                }
+              }
+            ],
+            "sizer": {
+              "type": "vertical"
+            },
+            "sprite": "menuicons_flag",
+            "spriteSheet": "ui",
+            "textKey": "ui_campaign_properties_flags"
+          },
+          {
+            "children": [
+              {
+                "border": [
+                  3,
+                  3,
+                  3,
+                  3
+                ],
+                "children": [
+                  {
+                    "border": [
+                      1,
+                      2,
+                      1,
+                      2
+                    ],
+                    "widget": {
+                      "canDrag": "true",
+                      "class": "list",
+                      "id": "playerList",
+                      "size": [
+                        200,
+                        100
+                      ],
+                      "style": "listHighlight"
+                    }
+                  },
+                  {
+                    "children": [
+                      {
+                        "fill": [
+                          "centreHorizontal"
+                        ],
+                        "widget": {
+                          "class": "image",
+                          "image": "ui/cutscene/cutscene_editor/soldier_felheim_create.png",
+                          "size": [
+                            48,
+                            64
+                          ]
+                        }
+                      },
+                      {
+                        "fill": [
+                          "centreHorizontal"
+                        ],
+                        "widget": {
+                          "alignment": 0.5,
+                          "class": "label",
+                          "maxWidth": 100,
+                          "textKey": "ui_campaign_properties_coop_empty"
+                        }
+                      }
+                    ],
+                    "fill": "centre",
+                    "proportion": 1,
+                    "sizer": {
+                      "type": "vertical"
+                    },
+                    "widget": {
+                      "class": "widget",
+                      "id": "emptyPlayerList",
+                      "size": [
+                        200,
+                        100
+                      ]
+                    }
+                  }
+                ],
+                "proportion": 1,
+                "sizer": {
+                  "type": "vertical"
+                },
+                "widget": {
+                  "class": "scrollBarPane",
+                  "size": [
+                    100,
+                    100
+                  ]
+                }
+              },
+              {
+                "children": [
+                  {
+                    "proportion": 1,
+                    "widget": {
+                      "button": "tertiary",
+                      "class": "gamepadButton",
+                      "id": "newPlayer",
+                      "size": [
+                        45,
+                        15
+                      ],
+                      "textKey": "ui_widget_button_new"
+                    }
+                  },
+                  {
+                    "proportion": 1,
+                    "widget": {
+                      "button": "secondary",
+                      "class": "gamepadButton",
+                      "id": "movePlayer",
+                      "size": [
+                        45,
+                        15
+                      ],
+                      "textKey": "ui_widget_button_move"
+                    }
+                  },
+                  {
+                    "proportion": 1,
+                    "widget": {
+                      "button": "accept",
+                      "class": "gamepadButton",
+                      "id": "editPlayer",
+                      "size": [
+                        45,
+                        15
+                      ],
+                      "textKey": "ui_widget_button_edit"
+                    }
+                  }
+                ],
+                "sizer": {
+                  "type": "horizontal"
+                }
+              }
+            ],
+            "sizer": {
+              "type": "vertical"
+            },
+            "sprite": "menuicons_flag",
+            "spriteSheet": "ui",
+            "textKey": "ui_campaign_properties_coop"
+          }
+        ]
+      }
+    },
+    {
+      "widget": {
+        "class": "toolTip",
+        "maxHeight": 28,
+        "maxWidth": 240,
+        "size": [
+          250,
+          34
+        ],
+        "tips": [
+          {
+            "id": "name",
+            "textKey": "ui_campaign_properties_name_tooltip"
+          },
+          {
+            "id": "description",
+            "textKey": "ui_campaign_properties_description_tooltip"
+          },
+          {
+            "id": "music",
+            "textKey": "ui_campaign_properties_music_tooltip"
+          },
+          {
+            "id": "worldMap",
+            "textKey": "ui_campaign_properties_world_map_tooltip"
+          },
+          {
+            "id": "commanderList",
+            "textKey": "ui_campaign_properties_commander_list_tooltip"
+          },
+          {
+            "id": "flagList",
+            "textKey": "ui_campaign_properties_flag_list_tooltip"
+          },
+          {
+            "id": "autoStart",
+            "textKey": "ui_campaign_properties_auto_start_tooltip"
+          },
+          {
+            "id": "coop",
+            "textKey": "ui_campaign_properties_coop_tooltip"
+          }
+        ]
+      }
+    },
+    {
+      "widget": {
+        "class": "horizontalDiv"
+      }
+    },
+    {
+      "children": [
+        {
+          "widget": {
+            "button": "start",
+            "class": "gamepadButton",
+            "id": "delete",
+            "size": [
+              45,
+              15
+            ],
+            "textKey": "ui_widget_button_delete"
+          }
+        },
+        {
+          "widget": {
+            "button": "tertiary",
+            "class": "gamepadButton",
+            "id": "new",
+            "size": [
+              45,
+              15
+            ],
+            "textKey": "ui_widget_button_new"
+          }
+        },
+        {
+          "widget": {
+            "button": "secondary",
+            "class": "gamepadButton",
+            "id": "move",
+            "size": [
+              45,
+              15
+            ],
+            "textKey": "ui_widget_button_move"
+          }
+        },
+        {
+          "widget": {
+            "button": "primary",
+            "class": "gamepadButton",
+            "id": "edit",
+            "size": [
+              45,
+              15
+            ],
+            "textKey": "ui_widget_button_edit"
+          }
+        },
+        {
+          "proportion": 1,
+          "stretchSpacer": {}
+        },
+        {
+          "widget": {
+            "class": "dialogueButtons",
+            "hasCancel": "false",
+            "hasClose": "true",
+            "hasOK": "false"
+          }
+        }
+      ],
+      "sizer": {
+        "type": "horizontal"
+      }
+    }
+  ],
+  "sizer": {
+    "type": "vertical"
+  },
+  "widget": {
+    "class": "dialogue",
+    "style": "optionBorder",
+    "titleKey": "ui_campaign_properties_title"
+  }
+}

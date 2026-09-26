@@ -1,0 +1,12 @@
+{
+  "uiStyle": {
+    "checkbox_colour_indicator": {
+      "checked": "ui/widgets/checkbox_colour/checkbox_colour_checked.png",
+      "checkedDisabled": "ui/widgets/checkbox_colour/checkbox_colour_checked.png",
+      "checkedHover": "ui/widgets/checkbox_colour/checkbox_colour_checked_hover.png",
+      "disabled": "ui/widgets/checkbox_colour/checkbox_colour.png",
+      "hover": "ui/widgets/checkbox_colour/checkbox_colour_hover.png",
+      "normal": "ui/widgets/checkbox_colour/checkbox_colour.png"
+    }
+  }
+}

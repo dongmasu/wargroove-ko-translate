@@ -1,0 +1,29 @@
+{
+  "uiStyle": {
+    "dropdown": {
+      "background": "ui/widgets/dropdown/dropdown_window.png",
+      "closeSound": "ui/menuSelect",
+      "disabled": "ui/widgets/dropdown/dropdown_disabled.png",
+      "hover": "ui/widgets/dropdown/dropdown_hover.png",
+      "innerBorder": [
+        2,
+        1,
+        2,
+        2
+      ],
+      "label": {
+        "colour": "#3D4265",
+        "font": "Wargroove Medium",
+        "size": 16
+      },
+      "normal": "ui/widgets/dropdown/dropdown.png",
+      "open": "ui/widgets/dropdown/dropdown_open.png",
+      "openSound": "ui/menuSelect",
+      "selectedLabel": {
+        "colour": "#F4F4E8",
+        "font": "Wargroove Medium",
+        "size": 16
+      }
+    }
+  }
+}

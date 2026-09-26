@@ -1,0 +1,103 @@
+{
+  "children": [
+    {
+      "border": [
+        0,
+        -1,
+        0,
+        0
+      ],
+      "children": [
+        {
+          "border": [
+            2,
+            2,
+            2,
+            2
+          ],
+          "children": [
+            {
+              "border": [
+                1,
+                0,
+                12,
+                12
+              ],
+              "fill": [
+                "right",
+                "centreVertical"
+              ],
+              "widget": {
+                "active": "false",
+                "animation": "ui/jukebox/jukebox_playing_anim",
+                "class": "animation",
+                "id": "playingIcon"
+              }
+            },
+            {
+              "border": [
+                3,
+                -2,
+                2,
+                -1
+              ],
+              "fill": "centre",
+              "proportion": 1,
+              "widget": {
+                "class": "label",
+                "id": "trackNumber",
+                "style": "labelSmall",
+                "text": 10
+              }
+            }
+          ],
+          "proportion": 1,
+          "widget": {
+            "class": "image",
+            "colour": "#FF0000",
+            "id": "colour",
+            "image": "ui/widgets/list/list_item_bg.png",
+            "size": [
+              14,
+              10
+            ]
+          }
+        }
+      ],
+      "widget": {
+        "class": "image",
+        "image": "ui/widgets/window/cartouche.png"
+      }
+    },
+    {
+      "border": [
+        2,
+        0,
+        0,
+        1
+      ],
+      "fill": [
+        "left",
+        "centreVertical"
+      ],
+      "proportion": 1,
+      "widget": {
+        "class": "label",
+        "id": "trackName",
+        "text": "Track name"
+      }
+    }
+  ],
+  "sizer": {
+    "type": "horizontal"
+  },
+  "widget": {
+    "class": "widget",
+    "innerBorder": [
+      4,
+      1,
+      4,
+      1
+    ]
+  }
+}

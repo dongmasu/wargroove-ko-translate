@@ -1,0 +1,28 @@
+{
+  "_assetType": "audioClip",
+  "_decoded": {
+    "legacy": true,
+    "actions": [
+      {
+        "type": "play",
+        "scope": 1,
+        "clip": "sfx/ui/textScroll.ogg",
+        "group": "sfx",
+        "gain": [
+          0.5,
+          0.6000000238418579
+        ],
+        "pitch": [
+          1.0,
+          1.0
+        ],
+        "legacyTailHex": "000000000000000000",
+        "legacyTailFloats": [
+          0.0,
+          0.0
+        ]
+      }
+    ]
+  },
+  "_payloadHex": "0100000004000000706c617901000000150000007366782f75692f746578745363726f6c6c2e6f6767030000007366780000003f9a99193f0000803f0000803f000000000000000000"
+}

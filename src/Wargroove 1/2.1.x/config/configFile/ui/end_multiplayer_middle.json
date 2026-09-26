@@ -1,0 +1,228 @@
+{
+  "children": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "widget": {
+                    "class": "widget",
+                    "size": [
+                      19,
+                      0
+                    ]
+                  }
+                },
+                {
+                  "children": [
+                    {
+                      "fill": "centre",
+                      "proportion": 1,
+                      "widget": {
+                        "class": "label",
+                        "textKey": "ui_map_player_stats_commander"
+                      }
+                    }
+                  ],
+                  "fill": "right",
+                  "widget": {
+                    "class": "image",
+                    "image": "ui/end_of_match/category_box.png",
+                    "innerBorder": [
+                      10,
+                      3,
+                      10,
+                      3
+                    ],
+                    "size": [
+                      86,
+                      21
+                    ]
+                  }
+                }
+              ],
+              "sizer": {
+                "type": "horizontal"
+              },
+              "widget": {
+                "class": "widget",
+                "size": [
+                  105,
+                  21
+                ]
+              }
+            },
+            {
+              "children": [
+                {
+                  "border": [
+                    0,
+                    1,
+                    0,
+                    0
+                  ],
+                  "fill": "centre",
+                  "proportion": 1,
+                  "widget": {
+                    "class": "image",
+                    "image": "ui/end_of_match/defeated_icon.png"
+                  }
+                }
+              ],
+              "widget": {
+                "class": "image",
+                "image": "ui/end_of_match/category_box.png",
+                "innerBorder": [
+                  10,
+                  3,
+                  10,
+                  3
+                ]
+              }
+            },
+            {
+              "children": [
+                {
+                  "border": [
+                    0,
+                    1,
+                    0,
+                    0
+                  ],
+                  "fill": "centre",
+                  "proportion": 1,
+                  "widget": {
+                    "class": "image",
+                    "image": "ui/end_of_match/lost_icon.png"
+                  }
+                }
+              ],
+              "widget": {
+                "class": "image",
+                "image": "ui/end_of_match/category_box.png",
+                "innerBorder": [
+                  10,
+                  3,
+                  10,
+                  3
+                ]
+              }
+            }
+          ],
+          "fill": "centre",
+          "sizer": {
+            "columns": 3,
+            "type": "grid"
+          },
+          "widget": {
+            "class": "widget",
+            "id": "statsGrid"
+          }
+        }
+      ],
+      "fill": [
+        "centreHorizontal",
+        "bottom"
+      ],
+      "sizer": {
+        "type": "vertical"
+      },
+      "widget": {
+        "class": "widget",
+        "id": "statsWindow"
+      }
+    },
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "fill": [
+                "left",
+                "centreVertical"
+              ],
+              "proportion": 1,
+              "widget": {
+                "class": "label",
+                "textKey": "ui_end_of_match_stats_total_turns"
+              }
+            },
+            {
+              "fill": [
+                "right",
+                "centreVertical"
+              ],
+              "widget": {
+                "class": "label",
+                "id": "totalTurns",
+                "text": "XX"
+              }
+            }
+          ],
+          "fill": "left",
+          "sizer": {
+            "type": "horizontal"
+          },
+          "widget": {
+            "active": "false",
+            "class": "image",
+            "image": "ui/cutscene/dialoguebox_simple.png",
+            "innerBorder": [
+              8,
+              0,
+              8,
+              2
+            ],
+            "size": [
+              25,
+              18
+            ]
+          }
+        },
+        {
+          "proportion": 1,
+          "stretchSpacer": {}
+        },
+        {
+          "widget": {
+            "active": "false",
+            "button": "start",
+            "class": "gamepadButton",
+            "id": "showPlayersInfo_xboxlive",
+            "size": [
+              71,
+              16
+            ],
+            "style": "buttonF",
+            "textKey": "server_lobby_show_players_info_xboxlive"
+          }
+        },
+        {
+          "fill": "right",
+          "widget": {
+            "button": "primary",
+            "class": "gamepadButton",
+            "id": "ok",
+            "size": [
+              71,
+              16
+            ],
+            "style": "buttonFNoDisable",
+            "textKey": "ui_widget_button_ok"
+          }
+        }
+      ],
+      "sizer": {
+        "type": "horizontal"
+      }
+    }
+  ],
+  "sizer": {
+    "type": "vertical"
+  },
+  "widget": {
+    "class": "widget"
+  }
+}

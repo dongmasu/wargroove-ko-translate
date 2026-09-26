@@ -1,0 +1,2531 @@
+{
+  "credits": {
+    "lines": [
+      {
+        "actions": [
+          {
+            "credits": [
+              "win",
+              "win_dlc"
+            ],
+            "id": "setPosition",
+            "value": "right"
+          },
+          {
+            "credits": [
+              "menu"
+            ],
+            "id": "playMusic",
+            "value": "music/adventurous"
+          },
+          {
+            "credits": [
+              "lose"
+            ],
+            "id": "playMusic",
+            "value": "music/sad"
+          },
+          {
+            "credits": [
+              "win"
+            ],
+            "id": "playMusic",
+            "value": "music/happy"
+          },
+          {
+            "credits": [
+              "win_dlc"
+            ],
+            "id": "playMusic",
+            "value": "music/tavern"
+          }
+        ],
+        "style": "credits_title",
+        "textKey": "credits_wargroove"
+      },
+      {
+        "actions": [
+          {
+            "credits": [
+              "win"
+            ],
+            "id": "playImageSequence",
+            "value": "final"
+          }
+        ],
+        "style": "empty"
+      },
+      {
+        "actions": [
+          {
+            "credits": [
+              "win_dlc"
+            ],
+            "id": "playImageSequence",
+            "value": "final_dlc1"
+          }
+        ],
+        "style": "empty"
+      },
+      {
+        "style": "credits_department",
+        "textKey": "credits_design_and_writing"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "credits_role",
+        "textKey": "credits_lead_designer"
+      },
+      {
+        "style": "credits_name",
+        "text": "Finn Brice"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "credits_role",
+        "textKey": "credits_game_design"
+      },
+      {
+        "style": "credits_name",
+        "text": "Finn Brice"
+      },
+      {
+        "style": "credits_name",
+        "text": "Rodrigo Braz Monteiro"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "credits_role",
+        "textKey": "credits_additional_game_design"
+      },
+      {
+        "style": "credits_name",
+        "text": "Jay Baylis"
+      },
+      {
+        "style": "credits_name",
+        "text": "Stephen Alexander"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "credits_role",
+        "textKey": "credits_level_design"
+      },
+      {
+        "style": "credits_name",
+        "text": "Stephen Alexander"
+      },
+      {
+        "style": "credits_name",
+        "text": "Doris Carrascosa"
+      },
+      {
+        "style": "credits_name",
+        "text": "Abi Cooke Hunt"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "credits_role",
+        "textKey": "credits_additional_level_design"
+      },
+      {
+        "style": "credits_name",
+        "text": "David Barrett"
+      },
+      {
+        "style": "credits_name",
+        "text": "Caleb Gedarro"
+      },
+      {
+        "style": "credits_name",
+        "text": "James Grant"
+      },
+      {
+        "style": "credits_name",
+        "text": "Shane Guidaboni"
+      },
+      {
+        "style": "credits_name",
+        "text": "Harriet Jones"
+      },
+      {
+        "style": "credits_name",
+        "text": "Sakuya NA"
+      },
+      {
+        "style": "credits_name",
+        "text": "Annalise Wood"
+      },
+      {
+        "style": "credits_name",
+        "text": "Zeronix"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "credits_role",
+        "textKey": "credits_writing"
+      },
+      {
+        "style": "credits_name",
+        "text": "Abi Cooke Hunt"
+      },
+      {
+        "style": "credits_name",
+        "text": "Finn Brice"
+      },
+      {
+        "style": "credits_name",
+        "text": "Jay Baylis"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "credits_department",
+        "textKey": "credits_programming_and_engineering"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "credits_role",
+        "textKey": "credits_lead_programmer"
+      },
+      {
+        "style": "credits_name",
+        "text": "Rodrigo Braz Monteiro"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "credits_role",
+        "textKey": "credits_game_programming"
+      },
+      {
+        "style": "credits_name",
+        "text": "Rodrigo Braz Monteiro"
+      },
+      {
+        "style": "credits_name",
+        "text": "Caryn Krakauer"
+      },
+      {
+        "style": "credits_name",
+        "text": "Tom Coxon"
+      },
+      {
+        "style": "credits_name",
+        "text": "William Lundstedt"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "credits_role",
+        "textKey": "credits_server_programming"
+      },
+      {
+        "style": "credits_name",
+        "text": "William Lundstedt"
+      },
+      {
+        "style": "credits_name",
+        "text": "Catherine West"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "credits_role",
+        "textKey": "credits_engine_programming_and_ports"
+      },
+      {
+        "style": "credits_name",
+        "text": "Rodrigo Braz Monteiro"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "credits_department",
+        "textKey": "credits_visual_arts"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "credits_role",
+        "textKey": "credits_original_art_style"
+      },
+      {
+        "style": "credits_name",
+        "text": "Lu Nascimento"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "credits_role",
+        "textKey": "credits_art_director"
+      },
+      {
+        "style": "credits_name",
+        "text": "Lili Ibrahim"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "credits_role",
+        "textKey": "credits_pixel_art_and_animation"
+      },
+      {
+        "style": "credits_name",
+        "text": "Lu Nascimento"
+      },
+      {
+        "style": "credits_name",
+        "text": "Jay Baylis"
+      },
+      {
+        "style": "credits_name",
+        "text": "Michael Azzi"
+      },
+      {
+        "style": "credits_name",
+        "text": "Adam Riches"
+      },
+      {
+        "style": "credits_name",
+        "text": "Lili Ibrahim"
+      },
+      {
+        "style": "credits_name",
+        "text": "Doris Carrascosa"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "credits_role",
+        "textKey": "credits_additional_art_and_animation"
+      },
+      {
+        "style": "credits_name",
+        "text": "Camilo Arturo"
+      },
+      {
+        "style": "credits_name",
+        "text": "Angelo Di Rosa"
+      },
+      {
+        "style": "credits_name",
+        "text": "Steph Caskenette"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "credits_role",
+        "textKey": "credits_concept_art"
+      },
+      {
+        "style": "credits_name",
+        "text": "Lu Nascimento"
+      },
+      {
+        "style": "credits_name",
+        "text": "Jay Baylis"
+      },
+      {
+        "style": "credits_name",
+        "text": "Lili Ibrahim"
+      },
+      {
+        "style": "credits_name",
+        "text": "Doris Carrascosa"
+      },
+      {
+        "style": "credits_name",
+        "text": "Adam Riches"
+      },
+      {
+        "style": "credits_name",
+        "text": "Abi Cooke Hunt"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "credits_role",
+        "textKey": "credits_user_interface_art"
+      },
+      {
+        "style": "credits_name",
+        "text": "Doris Carrascosa"
+      },
+      {
+        "style": "credits_name",
+        "text": "Finn Brice"
+      },
+      {
+        "style": "credits_name",
+        "text": "Lili Ibrahim"
+      },
+      {
+        "style": "credits_name",
+        "text": "Lu Nascimento"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "credits_department",
+        "textKey": "credits_audio"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "credits_role",
+        "textKey": "credits_sound_design"
+      },
+      {
+        "style": "credits_name",
+        "text": "Stephen Alexander"
+      },
+      {
+        "style": "credits_name",
+        "text": "Finn Brice"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "credits_role",
+        "textKey": "credits_music_by"
+      },
+      {
+        "style": "credits_name",
+        "text": "Phonetic Hero"
+      },
+      {
+        "style": "credits_name",
+        "text": "(rep. The Otherworld Agency)"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "credits_role",
+        "textKey": "credits_music_agent"
+      },
+      {
+        "style": "credits_name",
+        "text": "Fabian Malabello"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "credits_department",
+        "textKey": "credits_production_and_qa"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "credits_role",
+        "textKey": "credits_production"
+      },
+      {
+        "style": "credits_name",
+        "text": "Lili Ibrahim"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "credits_role",
+        "textKey": "credits_additional_production"
+      },
+      {
+        "style": "credits_name",
+        "text": "Rodrigo Braz Monteiro"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "credits_role",
+        "textKey": "credits_quality_assurance"
+      },
+      {
+        "style": "credits_name",
+        "text": "Shona Feltham"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "credits_role",
+        "textKey": "credits_additional_qa"
+      },
+      {
+        "style": "credits_name",
+        "text": "Sam Marshall-Smith"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "credits_department",
+        "textKey": "credits_marketing_and_management"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "credits_role",
+        "textKey": "credits_marketing_team"
+      },
+      {
+        "style": "credits_name",
+        "text": "Katy Ellis"
+      },
+      {
+        "style": "credits_name",
+        "text": "Tom Katkus"
+      },
+      {
+        "style": "credits_name",
+        "text": "Rosie Ball"
+      },
+      {
+        "style": "credits_name",
+        "text": "Donna Orlowski"
+      },
+      {
+        "style": "credits_name",
+        "text": "Molly Carroll"
+      },
+      {
+        "style": "credits_name",
+        "text": "Ryan Alfred Page"
+      },
+      {
+        "style": "credits_name",
+        "text": "Alexis Trust"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "credits_role",
+        "textKey": "credits_community_managers"
+      },
+      {
+        "style": "credits_name",
+        "text": "Tom Katkus"
+      },
+      {
+        "style": "credits_name",
+        "text": "Molly Carroll"
+      },
+      {
+        "style": "credits_name",
+        "text": "Katy Ellis"
+      },
+      {
+        "style": "credits_name",
+        "text": "Alexis Trust"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "credits_role",
+        "textKey": "credits_pr_manager"
+      },
+      {
+        "style": "credits_name",
+        "text": "Katy Ellis"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "credits_role",
+        "textKey": "credits_wiki_and_web_development"
+      },
+      {
+        "style": "credits_name",
+        "text": "Tom Katkus"
+      },
+      {
+        "style": "credits_name",
+        "text": "Rosie Ball"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "credits_role",
+        "textKey": "credits_branding_and_marketing_design"
+      },
+      {
+        "style": "credits_name",
+        "text": "Rosie Ball"
+      },
+      {
+        "style": "credits_name",
+        "text": "Ryan Alfred Page"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "credits_role",
+        "textKey": "credits_product_and_release_management"
+      },
+      {
+        "style": "credits_name",
+        "text": "Katy Ellis"
+      },
+      {
+        "style": "credits_name",
+        "text": "Donna Orlowski"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "credits_role",
+        "textKey": "credits_marketing"
+      },
+      {
+        "style": "credits_name",
+        "text": "LocalizeDirect"
+      },
+      {
+        "style": "credits_name",
+        "text": "Riotloc"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "credits_role",
+        "textKey": "credits_events_team"
+      },
+      {
+        "style": "credits_name",
+        "text": "Katy Ellis"
+      },
+      {
+        "style": "credits_name",
+        "text": "Rosie Ball"
+      },
+      {
+        "style": "credits_name",
+        "text": "Tom Katkus"
+      },
+      {
+        "style": "credits_name",
+        "text": "Rodrigo Braz Monteiro"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "credits_role",
+        "textKey": "credits_merchandise_manager"
+      },
+      {
+        "style": "credits_name",
+        "text": "Rosie Ball"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "credits_role",
+        "textKey": "credits_trailers"
+      },
+      {
+        "style": "credits_name",
+        "text": "Stephen Alexander"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "credits_role",
+        "textKey": "credits_key_art"
+      },
+      {
+        "style": "credits_name",
+        "text": "PiNe"
+      },
+      {
+        "style": "credits_name",
+        "text": "Lili Ibrahim"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "credits_role",
+        "textKey": "credits_business"
+      },
+      {
+        "style": "credits_name",
+        "text": "Donna Orlowski"
+      },
+      {
+        "style": "credits_name",
+        "text": "Finn Brice"
+      },
+      {
+        "style": "credits_name",
+        "text": "Molly Carroll"
+      },
+      {
+        "style": "credits_name",
+        "text": "Harriet Jones"
+      },
+      {
+        "style": "credits_name",
+        "text": "Rosie Ball"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "credits_role",
+        "textKey": "credits_legal_and_finance"
+      },
+      {
+        "style": "credits_name",
+        "text": "Donna Orlowski"
+      },
+      {
+        "style": "credits_name",
+        "text": "Harriet Jones"
+      },
+      {
+        "style": "credits_name",
+        "text": "Rich Heibel-Yanase"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "credits_department",
+        "textKey": "credits_additional_port_work"
+      },
+      {
+        "style": "credits_department",
+        "text": "BlitWorks"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "credits_role",
+        "textKey": "credits_team_lead"
+      },
+      {
+        "style": "credits_name",
+        "text": "Tony Cabello"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "credits_role",
+        "textKey": "credits_developers"
+      },
+      {
+        "style": "credits_name",
+        "text": "Javier Moya"
+      },
+      {
+        "style": "credits_name",
+        "text": "Julio García"
+      },
+      {
+        "style": "credits_name",
+        "text": "Oscar Serrano"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "credits_department",
+        "textKey": "credits_voice_acting"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "credits_role",
+        "textKey": "character_mercia_name"
+      },
+      {
+        "style": "credits_name",
+        "text": "Tamara Fritz"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "credits_role",
+        "textKey": "character_emeric_name"
+      },
+      {
+        "style": "credits_name",
+        "text": "Jason Marnocha"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "credits_role",
+        "textKey": "character_mercival_name"
+      },
+      {
+        "style": "credits_name",
+        "text": "David Dixon"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "credits_role",
+        "textKey": "character_valder_name"
+      },
+      {
+        "style": "credits_name",
+        "text": "Sean Chiplock"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "credits_role",
+        "textKey": "character_ragna_name"
+      },
+      {
+        "style": "credits_name",
+        "text": "Kimlinh Tran"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "credits_role",
+        "textKey": "character_sigrid_name"
+      },
+      {
+        "style": "credits_name",
+        "text": "Elsie Lovelock"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "credits_role",
+        "textKey": "character_tenri_name"
+      },
+      {
+        "style": "credits_name",
+        "text": "Dawn M. Bennett"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "credits_role",
+        "textKey": "character_ryota_name"
+      },
+      {
+        "style": "credits_name",
+        "text": "Aleks Le"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "credits_role",
+        "textKey": "character_koji_name"
+      },
+      {
+        "style": "credits_name",
+        "text": "Amber Lee Connors"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "credits_role",
+        "textKey": "character_greenfinger_name"
+      },
+      {
+        "style": "credits_name",
+        "text": "Sean Chiplock"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "credits_role",
+        "textKey": "character_nuru_name"
+      },
+      {
+        "style": "credits_name",
+        "text": "Elsie Lovelock"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "credits_role",
+        "textKey": "character_sedge_name"
+      },
+      {
+        "style": "credits_name",
+        "text": "Sean Chiplock"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "credits_role",
+        "textKey": "character_elodie_name"
+      },
+      {
+        "style": "credits_name",
+        "text": "Rachael Messer"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "credits_role",
+        "textKey": "character_wulfar_name"
+      },
+      {
+        "style": "credits_name",
+        "text": "Adrian Vaughan"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "credits_role",
+        "textKey": "character_orla_name"
+      },
+      {
+        "style": "credits_name",
+        "text": "Vivien Taylor"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "credits_role",
+        "textKey": "character_errol_name"
+      },
+      {
+        "style": "credits_name",
+        "text": "Eileen Montgomery"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "credits_role",
+        "textKey": "character_vesper_name"
+      },
+      {
+        "style": "credits_name",
+        "text": "Jessica Straus"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "credits_role",
+        "textKey": "credits_casting"
+      },
+      {
+        "style": "credits_name",
+        "text": "Aimee Smith"
+      },
+      {
+        "style": "credits_name",
+        "text": "Kimlinh Tran"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "credits_department",
+        "textKey": "credits_intro_animation"
+      },
+      {
+        "style": "credits_department",
+        "text": "The Line"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "credits_role",
+        "textKey": "credits_director"
+      },
+      {
+        "style": "credits_name",
+        "text": "Wesley Louis"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "credits_role",
+        "textKey": "credits_executive_producer"
+      },
+      {
+        "style": "credits_name",
+        "text": "Sam Taylor"
+      },
+      {
+        "style": "credits_name",
+        "text": "James Duveen"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "credits_role",
+        "textKey": "credits_producer"
+      },
+      {
+        "style": "credits_name",
+        "text": "Hanae Seida"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "credits_role",
+        "textKey": "credits_character_design"
+      },
+      {
+        "style": "credits_name",
+        "text": "Wesley Louis"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "credits_role",
+        "textKey": "credits_storyboard"
+      },
+      {
+        "style": "credits_name",
+        "text": "Wesley Louis"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "credits_role",
+        "textKey": "credits_editor"
+      },
+      {
+        "style": "credits_name",
+        "text": "Max Taylor"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "credits_role",
+        "textKey": "credits_art_director"
+      },
+      {
+        "style": "credits_name",
+        "text": "Bjorn-Erik Aschim"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "credits_role",
+        "textKey": "credits_layout"
+      },
+      {
+        "style": "credits_name",
+        "text": "Igor Piwowarczyk"
+      },
+      {
+        "style": "credits_name",
+        "text": "Max Taylor"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "credits_role",
+        "textKey": "credits_animation"
+      },
+      {
+        "style": "credits_name",
+        "text": "Wesley Louis"
+      },
+      {
+        "style": "credits_name",
+        "text": "Jonathan Djob Nkondo"
+      },
+      {
+        "style": "credits_name",
+        "text": "Venla Linna"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "credits_role",
+        "textKey": "credits_fx_animation"
+      },
+      {
+        "style": "credits_name",
+        "text": "Naoki Araiza Tokumasu"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "credits_role",
+        "textKey": "credits_cleanup_and_colour"
+      },
+      {
+        "style": "credits_name",
+        "text": "Amix"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "credits_role",
+        "textKey": "credits_backgrounds"
+      },
+      {
+        "style": "credits_name",
+        "text": "Igor Piwowarczyk"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "credits_role",
+        "textKey": "credits_compositing"
+      },
+      {
+        "style": "credits_name",
+        "text": "Deborah Ho"
+      },
+      {
+        "style": "credits_name",
+        "text": "Guillaume Cassuto"
+      },
+      {
+        "style": "credits_name",
+        "text": "Jonathan Vuillemin"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "credits_role",
+        "textKey": "credits_production_manager"
+      },
+      {
+        "style": "credits_name",
+        "text": "Samia Ahmed"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "credits_department",
+        "textKey": "credits_logo_animation"
+      },
+      {
+        "style": "credits_department",
+        "text": "The Line"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "credits_role",
+        "textKey": "credits_director"
+      },
+      {
+        "style": "credits_name",
+        "text": "Wesley Louis"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "credits_role",
+        "textKey": "credits_producer"
+      },
+      {
+        "style": "credits_name",
+        "text": "Hanae Seida"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "credits_role",
+        "textKey": "credits_animation"
+      },
+      {
+        "style": "credits_name",
+        "text": "Venla Linna"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "credits_role",
+        "textKey": "credits_cleanup_and_colour"
+      },
+      {
+        "style": "credits_name",
+        "text": "Ash Wu"
+      },
+      {
+        "style": "credits_name",
+        "text": "Isobel Stenhouse"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "credits_department",
+        "textKey": "credits_localisation"
+      },
+      {
+        "style": "credits_department",
+        "text": "Shloc"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "credits_role",
+        "textKey": "credits_project_management"
+      },
+      {
+        "style": "credits_name",
+        "text": "Oli Chance"
+      },
+      {
+        "style": "credits_name",
+        "text": "Geraint Howells"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "credits_role",
+        "textKey": "credits_english_revision"
+      },
+      {
+        "style": "credits_name",
+        "text": "Oli Chance"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "credits_role",
+        "textKey": "credits_french_lead"
+      },
+      {
+        "style": "credits_name",
+        "text": "Cédric Tannay"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "credits_role",
+        "textKey": "credits_french"
+      },
+      {
+        "style": "credits_name",
+        "text": "Adeline Guichard-Lepetit"
+      },
+      {
+        "style": "credits_name",
+        "text": "Raphaël Rouby"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "credits_role",
+        "textKey": "credits_german_lead"
+      },
+      {
+        "style": "credits_name",
+        "text": "Andreas Teubler"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "credits_role",
+        "textKey": "credits_german"
+      },
+      {
+        "style": "credits_name",
+        "text": "Mareica Hauck"
+      },
+      {
+        "style": "credits_name",
+        "text": "Christina Milner"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "credits_role",
+        "textKey": "credits_italian_lead"
+      },
+      {
+        "style": "credits_name",
+        "text": "Gaetano Fabozzi"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "credits_role",
+        "textKey": "credits_italian"
+      },
+      {
+        "style": "credits_name",
+        "text": "Teodoro Di Bello"
+      },
+      {
+        "style": "credits_name",
+        "text": "Massimiliano Sacchi"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "credits_role",
+        "textKey": "credits_spanish_lead"
+      },
+      {
+        "style": "credits_name",
+        "text": "Aurora Martínez-Esparza Ramírez"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "credits_role",
+        "textKey": "credits_spanish"
+      },
+      {
+        "style": "credits_name",
+        "text": "Concha Fernández Álvarez"
+      },
+      {
+        "style": "credits_name",
+        "text": "Jose Miguel Aguilar"
+      },
+      {
+        "style": "credits_name",
+        "text": "Ana M. Benita"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "credits_role",
+        "textKey": "credits_portuguese_lead"
+      },
+      {
+        "style": "credits_name",
+        "text": "Thiago Araujo"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "credits_role",
+        "textKey": "credits_portuguese"
+      },
+      {
+        "style": "credits_name",
+        "text": "Jéssica Alonso"
+      },
+      {
+        "style": "credits_name",
+        "text": "Angélica Halcsik"
+      },
+      {
+        "style": "credits_name",
+        "text": "Hugo Medeiros"
+      },
+      {
+        "style": "credits_name",
+        "text": "Gabriel Ninô"
+      },
+      {
+        "style": "credits_name",
+        "text": "Danilo Venturini"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "credits_role",
+        "textKey": "credits_russian_lead"
+      },
+      {
+        "style": "credits_name",
+        "text": "Ilya Rudnev"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "credits_role",
+        "textKey": "credits_russian"
+      },
+      {
+        "style": "credits_name",
+        "text": "Alexandra Krivonos"
+      },
+      {
+        "style": "credits_name",
+        "text": "Innokentii Shcherbinin"
+      },
+      {
+        "style": "credits_name",
+        "text": "Anton Sidorov"
+      },
+      {
+        "style": "credits_name",
+        "text": "Ivan Yakovlev"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "credits_role",
+        "textKey": "credits_japanese_lead"
+      },
+      {
+        "style": "credits_name",
+        "text": "Naomi Kimura"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "credits_role",
+        "textKey": "credits_japanese"
+      },
+      {
+        "style": "credits_name",
+        "text": "Sumiko Okada"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "credits_role",
+        "textKey": "credits_chinese_traditional_lead"
+      },
+      {
+        "style": "credits_name",
+        "text": "Hanson Lau"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "credits_role",
+        "textKey": "credits_chinese_traditional"
+      },
+      {
+        "style": "credits_name",
+        "text": "Joyce Hong"
+      },
+      {
+        "style": "credits_name",
+        "text": "Charles Kwok"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "credits_role",
+        "textKey": "credits_korean_lead"
+      },
+      {
+        "style": "credits_name",
+        "text": "Ji Pain"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "credits_role",
+        "textKey": "credits_korean"
+      },
+      {
+        "style": "credits_name",
+        "text": "Eunjoo Lee"
+      },
+      {
+        "style": "credits_name",
+        "text": "Yoonsun Park"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "credits_department",
+        "textKey": "credits_testers"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "credits_role",
+        "textKey": "credits_beta_testers"
+      },
+      {
+        "style": "credits_name",
+        "text": "AnemoneMeer"
+      },
+      {
+        "style": "credits_name",
+        "text": "David Armstrong"
+      },
+      {
+        "style": "credits_name",
+        "text": "Pablo Barea"
+      },
+      {
+        "style": "credits_name",
+        "text": "Seth Brisco"
+      },
+      {
+        "style": "credits_name",
+        "text": "Samuel Brown"
+      },
+      {
+        "style": "credits_name",
+        "text": "Sam Challis"
+      },
+      {
+        "style": "credits_name",
+        "text": "John Draconis"
+      },
+      {
+        "style": "credits_name",
+        "text": "Gareth Dutton"
+      },
+      {
+        "style": "credits_name",
+        "text": "Andrew Feres"
+      },
+      {
+        "style": "credits_name",
+        "text": "Erin Heathcote"
+      },
+      {
+        "style": "credits_name",
+        "text": "Chapin Holland"
+      },
+      {
+        "style": "credits_name",
+        "text": "Ryan Koops"
+      },
+      {
+        "style": "credits_name",
+        "text": "Victoria Lawrance"
+      },
+      {
+        "style": "credits_name",
+        "text": "Alex Lawson"
+      },
+      {
+        "style": "credits_name",
+        "text": "Shayne Lovig"
+      },
+      {
+        "style": "credits_name",
+        "text": "Ivy Fox Lundy"
+      },
+      {
+        "style": "credits_name",
+        "text": "Juan Manuel Lineros Fernández"
+      },
+      {
+        "style": "credits_name",
+        "text": "Antonio M. \"Matchet\""
+      },
+      {
+        "style": "credits_name",
+        "text": "Rupert McKay"
+      },
+      {
+        "style": "credits_name",
+        "text": "Lily Roseen"
+      },
+      {
+        "style": "credits_name",
+        "text": "Todd Schlickbernd"
+      },
+      {
+        "style": "credits_name",
+        "text": "Todd Simpson"
+      },
+      {
+        "style": "credits_name",
+        "text": "Zach Soares"
+      },
+      {
+        "style": "credits_name",
+        "text": "Kamil Sztuczka"
+      },
+      {
+        "style": "credits_name",
+        "text": "Allie Wenisch"
+      },
+      {
+        "style": "credits_name",
+        "text": "George Wyman V"
+      },
+      {
+        "style": "credits_name",
+        "text": "Laura Yang"
+      },
+      {
+        "style": "credits_name",
+        "text": "Priscila Zanuzzo"
+      },
+      {
+        "style": "credits_name",
+        "text": "Ian Zell"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "credits_department",
+        "text": "GlobalStep"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "credits_role",
+        "textKey": "credits_qa_manager"
+      },
+      {
+        "style": "credits_name",
+        "text": "Jack Lewis"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "credits_role",
+        "textKey": "credits_testers_alphabetical"
+      },
+      {
+        "style": "credits_name",
+        "text": "Andrew Brown"
+      },
+      {
+        "style": "credits_name",
+        "text": "Michael Cole"
+      },
+      {
+        "style": "credits_name",
+        "text": "Jareth Gale"
+      },
+      {
+        "style": "credits_name",
+        "text": "Steve Lawrie"
+      },
+      {
+        "style": "credits_name",
+        "text": "Ewan Weir"
+      },
+      {
+        "style": "credits_name",
+        "text": "Alex Wood"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "credits_department",
+        "text": "Testronic"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "credits_role",
+        "textKey": "credits_testers_alphabetical"
+      },
+      {
+        "style": "credits_name",
+        "text": "Jedrzej Barglowski"
+      },
+      {
+        "style": "credits_name",
+        "text": "Dorian Geisler"
+      },
+      {
+        "style": "credits_name",
+        "text": "Katarzyna Kalbarczyk"
+      },
+      {
+        "style": "credits_name",
+        "text": "Krzysztof Kepa"
+      },
+      {
+        "style": "credits_name",
+        "text": "Alan Parsons"
+      },
+      {
+        "style": "credits_name",
+        "text": "Michal Radlowski"
+      },
+      {
+        "style": "credits_name",
+        "text": "Krzysztof Skora"
+      },
+      {
+        "style": "credits_name",
+        "text": "Iwona Szarzynska"
+      },
+      {
+        "style": "credits_name",
+        "text": "Radoslaw Szymanski"
+      },
+      {
+        "style": "credits_name",
+        "text": "Malgorzata Twarogal"
+      },
+      {
+        "style": "credits_name",
+        "text": "Cezary Zaporowski"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "credits_department",
+        "text": "Lollipop Robot"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "credits_role",
+        "textKey": "credits_testers_alphabetical"
+      },
+      {
+        "style": "credits_name",
+        "text": "Pablo Granada"
+      },
+      {
+        "style": "credits_name",
+        "text": "Oscar Navalón"
+      },
+      {
+        "style": "credits_name",
+        "text": "Francesc Sánchez"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "credits_department",
+        "textKey": "credits_special_thanks"
+      },
+      {
+        "style": "credits_name",
+        "text": "Damon Baker"
+      },
+      {
+        "style": "credits_name",
+        "text": "Davide Bertoletti"
+      },
+      {
+        "style": "credits_name",
+        "text": "Hugo Bille"
+      },
+      {
+        "style": "credits_name",
+        "text": "Seiji Boku"
+      },
+      {
+        "style": "credits_name",
+        "text": "Amora B."
+      },
+      {
+        "style": "credits_name",
+        "text": "David Capello"
+      },
+      {
+        "style": "credits_name",
+        "text": "Tom Giardino"
+      },
+      {
+        "style": "credits_name",
+        "text": "Ulf Hartelius"
+      },
+      {
+        "style": "credits_name",
+        "text": "Christopher Heck"
+      },
+      {
+        "style": "credits_name",
+        "text": "Neil Holmes"
+      },
+      {
+        "style": "credits_name",
+        "text": "Seb Jordan"
+      },
+      {
+        "style": "credits_name",
+        "text": "Hana E Kamata"
+      },
+      {
+        "style": "credits_name",
+        "text": "Takayoshi Katori"
+      },
+      {
+        "style": "credits_name",
+        "text": "Laura Krohn"
+      },
+      {
+        "style": "credits_name",
+        "text": "Grace Liu"
+      },
+      {
+        "style": "credits_name",
+        "text": "Belinda HK Leung"
+      },
+      {
+        "style": "credits_name",
+        "text": "Caroline Pelletier"
+      },
+      {
+        "style": "credits_name",
+        "text": "Magnus Nyström"
+      },
+      {
+        "style": "credits_name",
+        "text": "Viktor Nyström"
+      },
+      {
+        "style": "credits_name",
+        "text": "Marco Podda"
+      },
+      {
+        "style": "credits_name",
+        "text": "Kitty Poon"
+      },
+      {
+        "style": "credits_name",
+        "text": "Sai Wun Poon"
+      },
+      {
+        "style": "credits_name",
+        "text": "Kasim Rehman"
+      },
+      {
+        "style": "credits_name",
+        "text": "Guy Richards"
+      },
+      {
+        "style": "credits_name",
+        "text": "Ulysse Richert-Botté"
+      },
+      {
+        "style": "credits_name",
+        "text": "Kirk Scott"
+      },
+      {
+        "style": "credits_name",
+        "text": "Agostino Simonetta"
+      },
+      {
+        "style": "credits_name",
+        "text": "Zach Soares"
+      },
+      {
+        "style": "credits_name",
+        "text": "Cristina Suárez"
+      },
+      {
+        "style": "credits_name",
+        "text": "Alexey Testov"
+      },
+      {
+        "style": "credits_name",
+        "text": "Alex Tutty"
+      },
+      {
+        "style": "credits_name",
+        "text": "Adam Vian"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "credits_role",
+        "textKey": "credits_dogs"
+      },
+      {
+        "style": "credits_name",
+        "text": "Iorek"
+      },
+      {
+        "style": "credits_name",
+        "text": "Pixel"
+      },
+      {
+        "style": "credits_name",
+        "text": "Tolstoy"
+      },
+      {
+        "style": "credits_name",
+        "text": "Voxel"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "credits_role",
+        "textKey": "credits_snakes"
+      },
+      {
+        "style": "credits_name",
+        "text": "Egg"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "credits_department",
+        "textKey": "credits_acknowledgements"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "credits_role",
+        "textKey": "credits_open_source_libraries"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "credits_name",
+        "text": "Halley Game Engine"
+      },
+      {
+        "style": "credits_name",
+        "text": "Copyright (c) 2007-2019 Rodrigo Braz Monteiro"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "credits_name",
+        "text": "Boost"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "credits_name",
+        "text": "Simple DirectMedia Layer (SDL2)"
+      },
+      {
+        "style": "credits_name",
+        "text": "Copyright (c) 1997-2018 Sam Lantinga"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "credits_name",
+        "text": "Lua"
+      },
+      {
+        "style": "credits_name",
+        "text": "Copyright (c) 1994-2018 Lua.org, PUC-Rio"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "credits_name",
+        "text": "libogg"
+      },
+      {
+        "style": "credits_name",
+        "text": "Copyright (c) 2002 Xiph.org Foundation"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "credits_name",
+        "text": "libvorbis"
+      },
+      {
+        "style": "credits_name",
+        "text": "Copyright (c) 2002-2015 Xiph.org Foundation"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "credits_name",
+        "text": "LodePNG"
+      },
+      {
+        "style": "credits_name",
+        "text": "Copyright (c) 2005-2016 Lode Vandevenne"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "credits_name",
+        "text": "Speex Resampler"
+      },
+      {
+        "style": "credits_name",
+        "text": "Copyright (c) 2007 Jean-Marc Valin"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "credits_name",
+        "text": "TinyXML"
+      },
+      {
+        "style": "credits_name",
+        "text": "Copyright (c) 2006 Ryan Pusztai, Ryan Mulder"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "credits_name",
+        "text": "xxHash"
+      },
+      {
+        "style": "credits_name",
+        "text": "Copyright (c) 2012-2016, Yann Collet."
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "credits_name",
+        "text": "FreeType 2"
+      },
+      {
+        "style": "credits_name",
+        "text": "Copyright (c) 1996-2016 The FreeType Project"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "credits_name",
+        "text": "Guidelines Support Library"
+      },
+      {
+        "style": "credits_name",
+        "text": "Copyright (c) 2015 Microsoft Corporation"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "empty"
+      },
+      {
+        "style": "credits_name",
+        "text": "Wargroove - Copyright (c) 2019, Chucklefish Limited"
+      },
+      {
+        "actions": [
+          {
+            "id": "waitForEmpty"
+          }
+        ],
+        "style": "empty"
+      },
+      {
+        "actions": [
+          {
+            "id": "setPosition",
+            "value": "middle"
+          },
+          {
+            "id": "setMode",
+            "value": "centerFade"
+          }
+        ],
+        "style": "empty"
+      },
+      {
+        "credits": [
+          "win",
+          "win_dlc"
+        ],
+        "style": "credits_name",
+        "textKey": "credits_fin"
+      },
+      {
+        "credits": [
+          "lose"
+        ],
+        "style": "credits_name",
+        "textKey": "credits_fin_lose"
+      },
+      {
+        "actions": [
+          {
+            "id": "waitForEmpty"
+          }
+        ],
+        "style": "empty"
+      },
+      {
+        "actions": [
+          {
+            "credits": [
+              "win"
+            ],
+            "id": "playImageSequence",
+            "value": "groupPhoto"
+          }
+        ],
+        "style": "empty"
+      },
+      {
+        "actions": [
+          {
+            "id": "waitForEmpty"
+          }
+        ],
+        "style": "empty"
+      },
+      {
+        "style": "credits_thank_you_for_playing",
+        "textKey": "credits_thank_you_for_playing"
+      },
+      {
+        "actions": [
+          {
+            "id": "waitForEmpty"
+          }
+        ],
+        "style": "empty"
+      },
+      {
+        "actions": [
+          {
+            "credits": [
+              "win"
+            ],
+            "id": "playCutscene",
+            "value": "final"
+          }
+        ],
+        "style": "empty"
+      }
+    ],
+    "xAnchorLeft": 0.20000000298023224,
+    "xAnchorRight": 0.6499999761581421
+  },
+  "creditsImageSequence": [
+    {
+      "fadeTime": 0.5,
+      "id": "final",
+      "sequence": [
+        {
+          "animation": "dance",
+          "image": "credits/mercia_dance"
+        },
+        {
+          "animation": "dance",
+          "image": "credits/emeric_dance"
+        },
+        {
+          "animation": "dance",
+          "image": "credits/caesar_dance"
+        },
+        {
+          "animation": "dance",
+          "image": "credits/valder_dance"
+        },
+        {
+          "animation": "dance",
+          "image": "credits/ragna_dance"
+        },
+        {
+          "animation": "dance",
+          "image": "credits/sigrid_dance"
+        },
+        {
+          "animation": "dance",
+          "image": "credits/greenfinger_dance"
+        },
+        {
+          "animation": "dance",
+          "image": "credits/nuru_dance"
+        },
+        {
+          "animation": "dance",
+          "image": "credits/sedge_dance"
+        },
+        {
+          "animation": "dance",
+          "image": "credits/tenri_dance"
+        },
+        {
+          "animation": "dance",
+          "image": "credits/koji_dance"
+        },
+        {
+          "animation": "dance",
+          "image": "credits/ryota_dance"
+        },
+        {
+          "animation": "dance",
+          "image": "credits/elodie_dance"
+        },
+        {
+          "animation": "dance",
+          "image": "credits/darkmercia_dance"
+        },
+        {
+          "animation": "dance",
+          "image": "credits/mercival_dance"
+        },
+        {
+          "animation": "dance",
+          "image": "credits/outlaw_dance"
+        },
+        {
+          "animation": "dance",
+          "image": "credits/soldier_dance"
+        }
+      ],
+      "timePerImage": 30.399999618530273
+    },
+    {
+      "fadeTime": 2.0,
+      "id": "groupPhoto",
+      "sequence": [
+        {
+          "image": "credits/group_photo.png"
+        }
+      ],
+      "timePerImage": 10
+    },
+    {
+      "fadeTime": 0.5,
+      "id": "final_dlc1",
+      "sequence": [
+        {
+          "animation": "dance",
+          "image": "credits/wulfar_dance"
+        },
+        {
+          "animation": "dance",
+          "image": "credits/twins_dance"
+        },
+        {
+          "animation": "dance",
+          "image": "credits/vesper_dance"
+        },
+        {
+          "animation": "dance",
+          "image": "credits/mercia_dance"
+        },
+        {
+          "animation": "dance",
+          "image": "credits/emeric_dance"
+        },
+        {
+          "animation": "dance",
+          "image": "credits/caesar_dance"
+        },
+        {
+          "animation": "dance",
+          "image": "credits/valder_dance"
+        },
+        {
+          "animation": "dance",
+          "image": "credits/ragna_dance"
+        },
+        {
+          "animation": "dance",
+          "image": "credits/sigrid_dance"
+        },
+        {
+          "animation": "dance",
+          "image": "credits/greenfinger_dance"
+        },
+        {
+          "animation": "dance",
+          "image": "credits/nuru_dance"
+        },
+        {
+          "animation": "dance",
+          "image": "credits/sedge_dance"
+        },
+        {
+          "animation": "dance",
+          "image": "credits/tenri_dance"
+        },
+        {
+          "animation": "dance",
+          "image": "credits/koji_dance"
+        },
+        {
+          "animation": "dance",
+          "image": "credits/ryota_dance"
+        },
+        {
+          "animation": "dance",
+          "image": "credits/outlaw_dance"
+        },
+        {
+          "animation": "dance",
+          "image": "credits/soldier_dance"
+        }
+      ],
+      "timePerImage": 31.200000762939453
+    }
+  ]
+}

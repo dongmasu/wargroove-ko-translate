@@ -1,0 +1,37 @@
+{
+  "uiStyle": {
+    "colourList": {
+      "background": "",
+      "extraMouseBorder": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "gap": 0,
+      "image": "ui/widgets/list/list_item_bg.png",
+      "innerBorder": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "item": {
+        "hover": {
+          "img": "ui/widgets/list/colour_list_sel.png"
+        },
+        "innerBorder": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "normal": "",
+        "selected": {
+          "img": "ui/widgets/list/colour_list_sel.png"
+        }
+      },
+      "selectionChangedSound": "ui/menuSelect"
+    }
+  }
+}

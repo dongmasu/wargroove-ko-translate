@@ -1,0 +1,10 @@
+{
+  "uiStyle": {
+    "flatCartouche": {
+      "background": {
+        "colour": "#A47750",
+        "img": "ui/widgets/list/list_item_bg.png"
+      }
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "de-DE": {
+    "bird_lore_barnowl": "Diese Art scheint ein entfernter Verwandter der Strigiformes zu sein! Bedauerlicherweise konnte ich von diesen prächtigen Tieren nur Geschichten lesen. Selbstredend war ich schon einmal in Sternglas, doch man hat mich nie auf die Gipfel oder in die Hallen der Berge gelassen, wo die Faahri leben. Die Menschen, die in den Ausläuferstädten leben, passen gut auf ihre Nachbarn auf!\n",
+    "bird_lore_crownedeagle": "Ich sehne mich schon seit Jahren danach, einen Adler aus nächster Nähe zu sehen! Aber jetzt, da es mir endlich gelungen ist, erscheint mir ihr Gesang … recht erbärmlich. Man nennt die Realität wohl nicht umsonst bisweilen ernüchternd.\n",
+    "bird_lore_hummingbird": "Ein recht markanter Tropenvogel. Er schreckt Raubtiere mit einem furchterregenden Schrei ab, der viel zu gewaltig für ein so kleines Wesen klingt.\n",
+    "bird_lore_king_eider": "Ah, es ist ewig her, seit ich so eine gesehen habe. Sie ist nach der ersten und letzten Monarchin von Höllheim benannt. Vor vielen Jahren spaltete sich Höllheim von Kirschenstein ab und wurde zu einem eigenen Königreich. Doch nachdem der Höllenhandschuh von einer unscheinbar wirkenden Grabesstätte geborgen wurde, endete die Monarchie jäh und brutal.\n",
+    "bird_lore_kingfisher": "Diesen Vögel könnte man wunderbar Blauschopf nennen (der Spitzname ist für mich aber schon belegt)! Hat Emeric mir nicht als Scherz einen Marquis geschenkt, kurz nachdem ich auf den Thron gestiegen war? Ach, damals war alles noch etwas einfacher!\n",
+    "bird_lore_kiwi": "Eine sonderbare Art. Diese Vögel schlüpfen nicht im eigentlichen Sinne aus Eiern … Wenn das Küken so weit ist, schießt stattdessen eine haarähnliche Feder nach der anderen aus der Eierschale. Auch während der Vogel wächst, zerbricht das Ei nicht, sondern scheint vielmehr mit seiner Haut zu verschmelzen. Die Natur ist wahrlich voller Wunder!\n",
+    "bird_lore_pigeon": "Die wohl charmanteste und beliebteste Vogelart aller Länder! Oft werden diese Tiere dressiert, um dann an Matheturnieren teilzunehmen.\n",
+    "bird_lore_puffin": "Von weitem fragt man sich fast, wie diese putzigen Vögelchen an einem Ort wie Höllheim überleben können! Doch dann fällt der Groschen schnell: \nDie Zähne. \nBei Mydens Barte, die ZÄHNE! Wenn der Papageifaucher sein Maul öffnet, wünscht sich seine Beute sicher, sie wäre längst tot!\n",
+    "bird_lore_raven": "Es gibt alte Erzählungen von Hexen, die das Lied des Noxels so gut kannten, dass sie sich selbst in Noxel verwandeln konnten!\nDoch den Legenden nach kann man einen Noxel kinderleicht von einem Menschen unterscheiden - Noxel sind schlauer.\n",
+    "bird_lore_robotality": "Das ist gar kein Vogel! Und doch fliegt es … Könnte das die sagenumwobene Technologie der Faahri-Republik sein? Ich hoffe, sie spionieren uns nicht aus …\n",
+    "bird_lore_sparrowbomb": "Was für eine Vorrichtung …? Ah, dies muss das verlorene Spielzeug eines Kindes aus Himmelsang sein. Oh, wenn Mercia noch klein wäre, würde ich es ihr sofort mitnehmen!\n",
+    "bird_lore_toucan": "Diese Art gehörte - vielleicht wegen ihrer Seltenheit? - zu den Lieblingstieren des verstorbenen Kaisers. Angeblich war sie in Safran recht verbreitet, bevor es Teil von Himmelsang wurde, doch aus unerfindlichen Gründen wurde sie in den letzten Jahren immer seltener gesichtet.\n",
+    "bird_lore_woodpecker": "Ihre Schnäbel sind stark genug, um sogar die Rinde von Holunderbäumen zu durchdringen. Ich bin viel zu zartbesaitet, um das zu prüfen, aber angeblich besteht das Blut erwachsener Exemplare zu mindestens dreißig Prozent aus Baumsaft! Wenn man mich aufschneiden würde, bestünde mein Blut sicher zu siebzig Prozent aus Lakritz.\n",
+    "bird_name_barnowl": "Strigling",
+    "bird_name_crownedeagle": "Imperialadler",
+    "bird_name_hummingbird": "Urschreihals",
+    "bird_name_king_eider": "Königin Ander",
+    "bird_name_kingfisher": "Mini-Marquis",
+    "bird_name_kiwi": "Kihwih",
+    "bird_name_pigeon": "Taube",
+    "bird_name_puffin": "Papageifaucher",
+    "bird_name_raven": "Noxel",
+    "bird_name_robotality": "???",
+    "bird_name_sparrowbomb": "Spatzenbombe",
+    "bird_name_toucan": "Tocotocanoco",
+    "bird_name_woodpecker": "Saftlutscher"
+  }
+}

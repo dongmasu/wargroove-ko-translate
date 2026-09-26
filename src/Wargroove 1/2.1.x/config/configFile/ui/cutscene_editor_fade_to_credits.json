@@ -1,0 +1,127 @@
+{
+  "children": [
+    {
+      "children": [
+        {
+          "proportion": 1,
+          "widget": {
+            "class": "optionsGrid",
+            "columnProportions": [
+              0.5,
+              0.5
+            ],
+            "options": [
+              {
+                "textKey": "credits_type",
+                "widget": {
+                  "class": "dropdown",
+                  "id": "credits",
+                  "size": [
+                    100,
+                    14
+                  ]
+                }
+              },
+              {
+                "textKey": "ui_cutscene_action_fade_time",
+                "widget": {
+                  "class": "textInput",
+                  "id": "fadeTime",
+                  "size": [
+                    100,
+                    14
+                  ],
+                  "text": 0.0
+                }
+              },
+              {
+                "fill": "false",
+                "textKey": "ui_cutscene_blocking",
+                "widget": {
+                  "class": "checkbox",
+                  "id": "blocking"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "widget": {
+            "class": "horizontalDiv"
+          }
+        },
+        {
+          "children": [
+            {
+              "fill": [
+                "left"
+              ],
+              "proportion": 1,
+              "widget": {
+                "button": "tertiary",
+                "class": "gamepadButton",
+                "id": "deleteEvent",
+                "size": [
+                  40,
+                  12
+                ],
+                "textKey": "ui_widget_button_delete_event"
+              }
+            }
+          ],
+          "fill": [
+            "fillHorizontal"
+          ],
+          "sizer": {
+            "type": "horizontal"
+          }
+        },
+        {
+          "children": [
+            {
+              "fill": [
+                "left"
+              ],
+              "widget": {
+                "button": "cancel",
+                "class": "gamepadButton",
+                "id": "close",
+                "size": [
+                  40,
+                  12
+                ],
+                "textKey": "ui_widget_button_close"
+              }
+            }
+          ],
+          "fill": [
+            "fillHorizontal"
+          ],
+          "sizer": {
+            "type": "horizontal"
+          }
+        }
+      ],
+      "sizer": {
+        "type": "vertical"
+      },
+      "widget": {
+        "class": "dialogue",
+        "id": "window",
+        "size": [
+          300,
+          150
+        ],
+        "style": "optionBorder",
+        "titleKey": "ui_cutscene_action_type_fade_to_credits"
+      }
+    }
+  ],
+  "sizer": {
+    "type": "vertical"
+  },
+  "widget": {
+    "childLayerAdjustment": 1,
+    "class": "widget"
+  }
+}

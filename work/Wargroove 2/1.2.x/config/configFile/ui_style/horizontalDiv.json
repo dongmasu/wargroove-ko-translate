@@ -1,0 +1,10 @@
+{
+  "uiStyle": {
+    "horizontalDiv": {
+      "image": {
+        "colour": "#d4bb84",
+        "img": "ui/widgets/divider/horizontaldiv.png"
+      }
+    }
+  }
+}

@@ -1,0 +1,229 @@
+{
+  "children": [
+    {
+      "border": [
+        -2,
+        -1,
+        1,
+        1
+      ],
+      "children": [
+        {
+          "children": [
+            {
+              "border": [
+                4,
+                4,
+                4,
+                0
+              ],
+              "children": [
+                {
+                  "border": [
+                    3,
+                    0,
+                    2,
+                    -1
+                  ],
+                  "fill": "centre",
+                  "widget": {
+                    "class": "playerName",
+                    "id": "commanderName",
+                    "showIcon": "false",
+                    "style": "whiteLabel",
+                    "text": "Mercia"
+                  }
+                }
+              ],
+              "sizer": {
+                "type": "vertical"
+              },
+              "widget": {
+                "class": "image",
+                "colour": "#AA003F",
+                "id": "teamColour",
+                "image": "ui/main_game_ui/team_name.png",
+                "size": [
+                  52,
+                  13
+                ]
+              }
+            },
+            {
+              "border": [
+                5,
+                1,
+                4,
+                1
+              ],
+              "children": [
+                {
+                  "children": [
+                    {
+                      "fill": "centre",
+                      "widget": {
+                        "class": "image",
+                        "image": "ui/icons/coin.png"
+                      }
+                    },
+                    {
+                      "border": [
+                        1,
+                        0,
+                        0,
+                        1
+                      ],
+                      "widget": {
+                        "class": "label",
+                        "id": "coinLabel",
+                        "text": 100
+                      }
+                    }
+                  ],
+                  "sizer": {
+                    "type": "horizontal"
+                  }
+                },
+                {
+                  "border": [
+                    0,
+                    -7,
+                    0,
+                    0
+                  ],
+                  "widget": {
+                    "class": "label",
+                    "id": "dayLabel",
+                    "text": "Day 1"
+                  }
+                }
+              ],
+              "fill": "right",
+              "sizer": {
+                "type": "vertical"
+              }
+            }
+          ],
+          "proportion": 1,
+          "sizer": {
+            "type": "vertical"
+          }
+        },
+        {
+          "border": [
+            0,
+            4,
+            4,
+            0
+          ],
+          "fill": [
+            "top",
+            "right"
+          ],
+          "proportion": 0,
+          "widget": {
+            "class": "paletteSwapImage",
+            "flip": "true",
+            "id": "commanderPortrait",
+            "image": "portraits/commanders/small/mercia_portrait_small.png",
+            "material": "Wargroove/PaletteSwap",
+            "pivot": [
+              1,
+              0
+            ],
+            "skinColour": "typeII",
+            "swapColour": "red"
+          }
+        }
+      ],
+      "sizer": {
+        "type": "horizontal"
+      },
+      "widget": {
+        "class": "image",
+        "flip": "true",
+        "image": "ui/main_game_ui/mapscreen_teaminfo.png",
+        "pivot": [
+          1,
+          0
+        ],
+        "size": [
+          101,
+          44
+        ]
+      }
+    },
+    {
+      "border": [
+        0,
+        -2,
+        1,
+        1
+      ],
+      "children": [
+        {
+          "border": [
+            10,
+            0,
+            0,
+            0
+          ],
+          "fill": "centre",
+          "widget": {
+            "animation": "ui/main_game_ui/icon_hourglass",
+            "class": "animation",
+            "id": "hourglass",
+            "sequence": "idle",
+            "size": [
+              7,
+              9
+            ]
+          }
+        },
+        {
+          "border": [
+            5,
+            1,
+            0,
+            0
+          ],
+          "widget": {
+            "class": "label",
+            "id": "timerText",
+            "text": "0:00:00"
+          }
+        }
+      ],
+      "fill": "right",
+      "sizer": {
+        "type": "horizontal"
+      },
+      "widget": {
+        "active": "true",
+        "class": "image",
+        "id": "timer",
+        "image": "ui/main_game_ui/timer.png"
+      }
+    },
+    {
+      "border": [
+        0,
+        -2,
+        1,
+        0
+      ],
+      "fill": "right",
+      "widget": {
+        "class": "weatherPreview",
+        "id": "weatherPreview"
+      }
+    }
+  ],
+  "sizer": {
+    "gap": 0,
+    "type": "vertical"
+  },
+  "widget": {
+    "class": "widget"
+  }
+}

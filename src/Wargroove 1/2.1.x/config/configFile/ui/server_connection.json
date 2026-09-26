@@ -1,0 +1,123 @@
+{
+  "children": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "border": [
+                20,
+                10,
+                20,
+                10
+              ],
+              "children": [
+                {
+                  "border": [
+                    0,
+                    3,
+                    0,
+                    3
+                  ],
+                  "widget": {
+                    "class": "horizontalDiv",
+                    "style": "horizontalDiv"
+                  }
+                },
+                {
+                  "fill": "centre",
+                  "widget": {
+                    "class": "label",
+                    "id": "statusLabel",
+                    "textKey": "ui_ugc_download_status"
+                  }
+                },
+                {
+                  "border": [
+                    0,
+                    3,
+                    0,
+                    1
+                  ],
+                  "widget": {
+                    "class": "horizontalDiv",
+                    "style": "horizontalDiv"
+                  }
+                },
+                {
+                  "fill": [
+                    "bottom",
+                    "right"
+                  ],
+                  "widget": {
+                    "class": "dialogueButtons",
+                    "hasCancel": "true",
+                    "hasOK": "false"
+                  }
+                }
+              ],
+              "fill": "centre",
+              "sizer": {
+                "gap": 0,
+                "type": "vertical"
+              },
+              "widget": {
+                "class": "dialogue",
+                "maxWidth": 180,
+                "size": [
+                  180,
+                  0
+                ],
+                "style": "dialogueLight",
+                "titleKey": "server_connecting_title"
+              }
+            }
+          ],
+          "fill": [
+            "centre"
+          ],
+          "proportion": 1,
+          "sizer": {
+            "gap": 0,
+            "type": "vertical"
+          },
+          "widget": {
+            "class": "framedImage",
+            "scrollPos": [
+              10,
+              -170
+            ],
+            "scrollSpeed": [
+              15,
+              0
+            ],
+            "size": [
+              700,
+              10
+            ],
+            "style": "paperScroll"
+          }
+        }
+      ],
+      "sizer": {
+        "type": "vertical"
+      },
+      "widget": {
+        "class": "image",
+        "colour": "#000000B0",
+        "image": "ui/whitebox.png",
+        "size": [
+          640,
+          360
+        ]
+      }
+    }
+  ],
+  "sizer": {
+    "type": "vertical"
+  },
+  "widget": {
+    "childLayerAdjustment": 1,
+    "class": "widget"
+  }
+}

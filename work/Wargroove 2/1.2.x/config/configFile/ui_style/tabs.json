@@ -1,0 +1,216 @@
+{
+  "uiStyle": {
+    "tabs": {
+      "background": "ui/widgets/tabs/tabs_bg.png",
+      "disabledLabel": {
+        "colour": "#AFB1B4",
+        "font": "MatchFont",
+        "size": 16,
+        "smoothness": 0
+      },
+      "extraMouseBorder": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "gap": 3,
+      "hoveredLabel": {
+        "colour": "#f4f6e9",
+        "font": "MatchFont",
+        "size": 16,
+        "smoothness": 0
+      },
+      "innerBorder": [
+        10,
+        0,
+        10,
+        0
+      ],
+      "item": {
+        "disabled": "ui/widgets/tabs/tab_normal.png",
+        "hover": "ui/widgets/tabs/tab_hover.png",
+        "innerBorder": [
+          5,
+          -1,
+          5,
+          6
+        ],
+        "normal": "ui/widgets/tabs/tab_normal.png",
+        "selected": "ui/widgets/tabs/tab_selected.png"
+      },
+      "label": {
+        "colour": "#e7d9b0",
+        "font": "MatchFont",
+        "size": 16,
+        "smoothness": 0
+      },
+      "selectedLabel": {
+        "colour": "#3d4265",
+        "font": "MatchFont",
+        "size": 16,
+        "smoothness": 0
+      },
+      "selectionChangedSound": "ui/menuSelect"
+    },
+    "tabsBordered": {
+      "background": "ui/widgets/tabs/tabs_bordered_bg.png",
+      "disabledLabel": {
+        "colour": "#AFB1B4",
+        "font": "MatchFont",
+        "size": 16,
+        "smoothness": 0
+      },
+      "extraMouseBorder": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "gap": 3,
+      "hoveredLabel": {
+        "colour": "#f4f6e9",
+        "font": "MatchFont",
+        "size": 16,
+        "smoothness": 0
+      },
+      "innerBorder": [
+        10,
+        0,
+        10,
+        0
+      ],
+      "item": {
+        "disabled": "ui/widgets/tabs/tab_bordered_normal.png",
+        "hover": "ui/widgets/tabs/tab_bordered_hover.png",
+        "innerBorder": [
+          5,
+          -1,
+          5,
+          6
+        ],
+        "normal": "ui/widgets/tabs/tab_bordered_normal.png",
+        "selected": "ui/widgets/tabs/tab_bordered_selected.png"
+      },
+      "label": {
+        "colour": "#e7d9b0",
+        "font": "MatchFont",
+        "size": 16,
+        "smoothness": 0
+      },
+      "selectedLabel": {
+        "colour": "#3d4265",
+        "font": "MatchFont",
+        "size": 16,
+        "smoothness": 0
+      },
+      "selectionChangedSound": "ui/menuSelect"
+    },
+    "tabsImage": {
+      "background": "ui/widgets/tabs/tabs_bg.png",
+      "disabledLabel": {
+        "colour": "#AFB1B4",
+        "font": "MatchFont",
+        "size": 16,
+        "smoothness": 0
+      },
+      "extraMouseBorder": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "gap": 3,
+      "hoveredLabel": {
+        "colour": "#f4f6e9",
+        "font": "MatchFont",
+        "size": 16,
+        "smoothness": 0
+      },
+      "innerBorder": [
+        6,
+        0,
+        6,
+        0
+      ],
+      "item": {
+        "disabled": "ui/widgets/tabs/tab_normal.png",
+        "hover": "ui/widgets/tabs/tab_hover.png",
+        "innerBorder": [
+          2,
+          3,
+          2,
+          1
+        ],
+        "normal": "ui/widgets/tabs/tab_normal.png",
+        "selected": "ui/widgets/tabs/tab_selected.png"
+      },
+      "label": {
+        "colour": "#e7d9b0",
+        "font": "MatchFont",
+        "size": 16,
+        "smoothness": 0
+      },
+      "selectedLabel": {
+        "colour": "#3d4265",
+        "font": "MatchFont",
+        "size": 16,
+        "smoothness": 0
+      },
+      "selectionChangedSound": "ui/menuSelect"
+    },
+    "tabsSmall": {
+      "background": "ui/widgets/tabs/tabs_bg.png",
+      "disabledLabel": {
+        "colour": "#AFB1B4",
+        "font": "MatchFont",
+        "size": 16,
+        "smoothness": 0
+      },
+      "extraMouseBorder": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "gap": 3,
+      "hoveredLabel": {
+        "colour": "#f4f6e9",
+        "font": "MatchFont",
+        "size": 16,
+        "smoothness": 0
+      },
+      "innerBorder": [
+        10,
+        0,
+        10,
+        0
+      ],
+      "item": {
+        "disabled": "ui/widgets/tabs/tab_normal.png",
+        "hover": "ui/widgets/tabs/tab_hover.png",
+        "innerBorder": [
+          5,
+          0,
+          5,
+          0
+        ],
+        "normal": "ui/widgets/tabs/tab_normal.png",
+        "selected": "ui/widgets/tabs/tab_selected.png"
+      },
+      "label": {
+        "colour": "#e7d9b0",
+        "font": "Wargroove Medium",
+        "size": 16,
+        "smoothness": 0
+      },
+      "selectedLabel": {
+        "colour": "#3d4265",
+        "font": "MatchFont",
+        "size": 16,
+        "smoothness": 0
+      },
+      "selectionChangedSound": ""
+    }
+  }
+}

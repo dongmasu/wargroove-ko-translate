@@ -1,0 +1,24 @@
+{
+  "uiStyle": {
+    "labelSmall": {
+      "iconBorder": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "label": {
+        "colour": "#3D4265",
+        "font": "Wargroove Small",
+        "size": 16,
+        "smoothness": 0
+      },
+      "labelBorder": [
+        0,
+        -4,
+        -1,
+        -3
+      ]
+    }
+  }
+}

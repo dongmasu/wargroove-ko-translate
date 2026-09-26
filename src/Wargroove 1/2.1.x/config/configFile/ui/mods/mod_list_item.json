@@ -1,0 +1,75 @@
+{
+  "children": [
+    {
+      "border": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "proportion": 1.0,
+      "widget": {
+        "class": "label",
+        "id": "name",
+        "text": "Name of Mod"
+      }
+    },
+    {
+      "border": [
+        0,
+        0,
+        5,
+        0
+      ],
+      "fill": [
+        "right",
+        "centreVertical"
+      ],
+      "widget": {
+        "class": "checkbox",
+        "id": "active",
+        "style": "checkslider"
+      }
+    },
+    {
+      "border": [
+        0,
+        0,
+        -5,
+        0
+      ],
+      "fill": "right",
+      "widget": {
+        "class": "button",
+        "id": "addToMod",
+        "textKey": "ui_widget_button_add_to_mod"
+      }
+    },
+    {
+      "border": [
+        0,
+        0,
+        -5,
+        0
+      ],
+      "fill": "right",
+      "widget": {
+        "class": "button",
+        "id": "removeFromMod",
+        "textKey": "ui_widget_button_remove_from_mod"
+      }
+    }
+  ],
+  "sizer": {
+    "type": "horizontal"
+  },
+  "widget": {
+    "class": "widget",
+    "innerBorder": [
+      2,
+      0,
+      2,
+      0
+    ]
+  }
+}

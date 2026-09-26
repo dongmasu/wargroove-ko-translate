@@ -1,0 +1,11 @@
+{
+  "author": "Finn",
+  "base": "colour_schemes/base_flat",
+  "colours": {
+    "toolbarNormal": "#fc2847",
+    "ui_listSelected": "#fc2847",
+    "ui_stringMatchText": "#8f0f22",
+    "ui_unselectedTextAlt": "#8f0f22"
+  },
+  "name": "Flat Halley"
+}

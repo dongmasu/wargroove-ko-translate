@@ -1,0 +1,156 @@
+{
+  "children": [
+    {
+      "children": [
+        {
+          "border": [
+            1,
+            1,
+            0,
+            2
+          ],
+          "children": [
+            {
+              "border": [
+                20,
+                0,
+                10,
+                0
+              ],
+              "fill": "centre",
+              "widget": {
+                "class": "label",
+                "id": "commanderLabel",
+                "style": "labelWhite",
+                "text": "Mercia"
+              }
+            }
+          ],
+          "widget": {
+            "class": "image",
+            "id": "factionIcon",
+            "image": "ui/character_select/charlabel/charlabel_cherrystone.png"
+          }
+        },
+        {
+          "border": [
+            0,
+            0,
+            4,
+            0
+          ],
+          "fill": "centre",
+          "widget": {
+            "class": "label",
+            "id": "curTitleLabel",
+            "text": "Cherrystone Queen"
+          }
+        }
+      ],
+      "sizer": {
+        "type": "horizontal"
+      }
+    },
+    {
+      "border": [
+        4,
+        0,
+        3,
+        0
+      ],
+      "children": [
+        {
+          "border": [
+            0,
+            2,
+            0,
+            0
+          ],
+          "children": [
+            {
+              "children": [
+                {
+                  "border": [
+                    0,
+                    0,
+                    2,
+                    0
+                  ],
+                  "fill": "centre",
+                  "widget": {
+                    "class": "image",
+                    "colour": "#3D4265",
+                    "id": "grooveIcon",
+                    "image": "ui/icons/grooves/unit_action_icon_crystals.png"
+                  }
+                },
+                {
+                  "fill": "centre",
+                  "widget": {
+                    "class": "label",
+                    "id": "grooveName",
+                    "text": "Groove Name"
+                  }
+                }
+              ],
+              "sizer": {
+                "type": "horizontal"
+              },
+              "widget": {
+                "class": "image",
+                "colour": "#dfc686",
+                "image": "ui/widgets/window/flat_box.png",
+                "innerBorder": [
+                  3,
+                  0,
+                  3,
+                  0
+                ]
+              }
+            }
+          ],
+          "fill": "centre",
+          "sizer": {
+            "type": "horizontal"
+          }
+        },
+        {
+          "border": [
+            2,
+            0,
+            3,
+            0
+          ],
+          "fill": "left",
+          "widget": {
+            "class": "label",
+            "id": "grooveDesc",
+            "maxWidth": 194,
+            "text": "Groove Description goes here. It does this and that and whatever, lol."
+          }
+        },
+        {
+          "proportion": 1,
+          "stretchSpacer": {}
+        }
+      ],
+      "proportion": 1,
+      "sizer": {
+        "type": "vertical"
+      }
+    }
+  ],
+  "sizer": {
+    "type": "vertical"
+  },
+  "widget": {
+    "class": "image",
+    "image": "ui/character_select/character_desc.png",
+    "innerBorder": [
+      2,
+      2,
+      2,
+      2
+    ]
+  }
+}

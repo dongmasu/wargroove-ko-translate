@@ -1,0 +1,363 @@
+{
+  "achievements": {
+    "achievements": [
+      {
+        "id": "complete_prologue",
+        "platform_ids": {
+          "steam": "complete_prologue",
+          "xboxlive": 1
+        },
+        "requirements": [
+          {
+            "counter": "campaign_prologue"
+          }
+        ]
+      },
+      {
+        "id": "complete_earth",
+        "platform_ids": {
+          "steam": "complete_earth",
+          "xboxlive": 2
+        },
+        "requirements": [
+          {
+            "counter": "campaign_earth"
+          }
+        ]
+      },
+      {
+        "id": "complete_air",
+        "platform_ids": {
+          "steam": "complete_air",
+          "xboxlive": 3
+        },
+        "requirements": [
+          {
+            "counter": "campaign_air"
+          }
+        ]
+      },
+      {
+        "id": "complete_sea",
+        "platform_ids": {
+          "steam": "complete_sea",
+          "xboxlive": 4
+        },
+        "requirements": [
+          {
+            "counter": "campaign_sea"
+          }
+        ]
+      },
+      {
+        "id": "complete_final",
+        "platform_ids": {
+          "steam": "complete_final",
+          "xboxlive": 5
+        },
+        "requirements": [
+          {
+            "counter": "campaign_final"
+          }
+        ]
+      },
+      {
+        "id": "conquest_single",
+        "platform_ids": {
+          "steam": "conquest_single",
+          "xboxlive": 6
+        },
+        "requirements": [
+          {
+            "counter": "complete_conquest"
+          }
+        ]
+      },
+      {
+        "id": "conquest_all",
+        "platform_ids": {
+          "steam": "conquest_all",
+          "xboxlive": 7
+        },
+        "requirements": [
+          {
+            "counter": "complete_all_conquest",
+            "value": 4
+          }
+        ]
+      },
+      {
+        "id": "conquest_all_hard",
+        "platform_ids": {
+          "steam": "conquest_all_hard",
+          "xboxlive": 8
+        },
+        "requirements": [
+          {
+            "counter": "complete_all_conquest_hard",
+            "value": 4
+          }
+        ]
+      },
+      {
+        "id": "conquest_unlocks",
+        "platform_ids": {
+          "steam": "conquest_unlocks",
+          "xboxlive": 9
+        },
+        "requirements": [
+          {
+            "counter": "complete_conquest_unlocks",
+            "value": 44
+          }
+        ]
+      },
+      {
+        "id": "win_skirmish",
+        "platform_ids": {
+          "steam": "win_skirmish",
+          "xboxlive": 10
+        },
+        "requirements": [
+          {
+            "counter": "complete_skirmish"
+          }
+        ]
+      },
+      {
+        "id": "create_map",
+        "platform_ids": {
+          "steam": "create_map",
+          "xboxlive": 11
+        },
+        "requirements": [
+          {
+            "counter": "make_map"
+          }
+        ]
+      },
+      {
+        "id": "three_star_map",
+        "platform_ids": {
+          "steam": "three_star_map",
+          "xboxlive": 12
+        },
+        "requirements": [
+          {
+            "counter": "complete_three_star"
+          }
+        ]
+      },
+      {
+        "id": "all_three_star_map",
+        "platform_ids": {
+          "steam": "all_three_star_map",
+          "xboxlive": 13
+        },
+        "requirements": [
+          {
+            "counter": "complete_all_three_star",
+            "value": 85
+          }
+        ]
+      },
+      {
+        "id": "super_groove",
+        "platform_ids": {
+          "steam": "super_groove",
+          "xboxlive": 14
+        },
+        "requirements": [
+          {
+            "counter": "complete_super_groove"
+          }
+        ]
+      },
+      {
+        "id": "commander_duplication",
+        "platform_ids": {
+          "steam": "commander_duplication",
+          "xboxlive": 15
+        },
+        "requirements": [
+          {
+            "counter": "complete_commander_duplication"
+          }
+        ]
+      },
+      {
+        "id": "all_birds",
+        "platform_ids": {
+          "steam": "all_birds",
+          "xboxlive": 16
+        },
+        "requirements": [
+          {
+            "counter": "complete_all_birds",
+            "value": 13
+          }
+        ]
+      },
+      {
+        "id": "spin_dunk",
+        "platform_ids": {
+          "steam": "spin_dunk",
+          "xboxlive": 17
+        },
+        "requirements": [
+          {
+            "counter": "complete_spin_dunk"
+          }
+        ]
+      },
+      {
+        "id": "rhomb",
+        "platform_ids": {
+          "steam": "rhomb",
+          "xboxlive": 18
+        },
+        "requirements": [
+          {
+            "counter": "complete_rhomb"
+          }
+        ]
+      },
+      {
+        "id": "fallow",
+        "platform_ids": {
+          "steam": "fallow",
+          "xboxlive": 19
+        },
+        "requirements": [
+          {
+            "counter": "complete_fallow"
+          }
+        ]
+      },
+      {
+        "id": "twins",
+        "platform_ids": {
+          "steam": "twins",
+          "xboxlive": 20
+        },
+        "requirements": [
+          {
+            "counter": "complete_twins"
+          }
+        ]
+      },
+      {
+        "id": "nadia",
+        "platform_ids": {
+          "steam": "nadia",
+          "xboxlive": 21
+        },
+        "requirements": [
+          {
+            "counter": "complete_nadia"
+          }
+        ]
+      },
+      {
+        "id": "x_marks",
+        "platform_ids": {
+          "steam": "x_marks",
+          "xboxlive": 22
+        },
+        "requirements": [
+          {
+            "counter": "complete_x_marks"
+          }
+        ]
+      },
+      {
+        "id": "reunion",
+        "platform_ids": {
+          "steam": "reunion",
+          "xboxlive": 23
+        },
+        "requirements": [
+          {
+            "counter": "complete_reunion"
+          }
+        ]
+      }
+    ],
+    "counters": [
+      {
+        "id": "campaign_prologue"
+      },
+      {
+        "id": "campaign_earth"
+      },
+      {
+        "id": "campaign_air"
+      },
+      {
+        "id": "campaign_sea"
+      },
+      {
+        "id": "campaign_final"
+      },
+      {
+        "id": "complete_conquest"
+      },
+      {
+        "id": "complete_all_conquest",
+        "max": 4
+      },
+      {
+        "id": "complete_conquest_unlocks",
+        "max": 44
+      },
+      {
+        "id": "complete_skirmish"
+      },
+      {
+        "id": "make_map"
+      },
+      {
+        "id": "complete_three_star"
+      },
+      {
+        "id": "complete_all_three_star",
+        "max": 85
+      },
+      {
+        "id": "complete_all_conquest_hard",
+        "max": 4
+      },
+      {
+        "id": "complete_super_groove"
+      },
+      {
+        "id": "complete_commander_duplication"
+      },
+      {
+        "id": "complete_all_birds",
+        "max": 13
+      },
+      {
+        "id": "complete_spin_dunk"
+      },
+      {
+        "id": "complete_rhomb"
+      },
+      {
+        "id": "complete_fallow"
+      },
+      {
+        "id": "complete_twins"
+      },
+      {
+        "id": "complete_nadia"
+      },
+      {
+        "id": "complete_x_marks"
+      },
+      {
+        "id": "complete_reunion"
+      }
+    ]
+  }
+}

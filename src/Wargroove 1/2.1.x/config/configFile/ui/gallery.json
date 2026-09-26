@@ -1,0 +1,485 @@
+{
+  "children": [
+    {
+      "border": [
+        25,
+        15,
+        25,
+        15
+      ],
+      "children": [
+        {
+          "children": [
+            {
+              "border": [
+                0,
+                -3,
+                0,
+                0
+              ],
+              "children": [
+                {
+                  "proportion": 1,
+                  "stretchSpacer": {}
+                },
+                {
+                  "border": [
+                    0,
+                    0,
+                    2,
+                    1
+                  ],
+                  "fill": "bottom",
+                  "widget": {
+                    "class": "image",
+                    "image": "ui/gallery/gallery_icon.png"
+                  }
+                },
+                {
+                  "fill": "centre",
+                  "widget": {
+                    "class": "label",
+                    "textKey": "ui_gallery_title"
+                  }
+                },
+                {
+                  "proportion": 1,
+                  "stretchSpacer": {}
+                }
+              ],
+              "fill": "left",
+              "sizer": {
+                "type": "horizontal"
+              },
+              "widget": {
+                "class": "image",
+                "colour": "#dfc686",
+                "image": "ui/widgets/window/flat_box.png",
+                "innerBorder": [
+                  5,
+                  -1,
+                  5,
+                  0
+                ]
+              }
+            },
+            {
+              "proportion": 1,
+              "stretchSpacer": {}
+            },
+            {
+              "border": [
+                0,
+                -4,
+                0,
+                -1
+              ],
+              "widget": {
+                "class": "image",
+                "image": "ui/icons/big_star.png"
+              }
+            },
+            {
+              "border": [
+                2,
+                -3,
+                0,
+                -1
+              ],
+              "fill": "centre",
+              "widget": {
+                "class": "label",
+                "id": "starsLabel",
+                "style": "floatingLabel",
+                "text": "10/150"
+              }
+            }
+          ],
+          "sizer": {
+            "type": "horizontal"
+          }
+        },
+        {
+          "border": [
+            0,
+            0,
+            0,
+            "0z"
+          ],
+          "widget": {
+            "class": "horizontalDiv",
+            "style": "darkHorizontalDiv"
+          }
+        },
+        {
+          "children": [
+            {
+              "proportion": 1,
+              "stretchSpacer": {}
+            },
+            {
+              "children": [
+                {
+                  "border": [
+                    -13,
+                    0,
+                    -2,
+                    0
+                  ],
+                  "fill": "centre",
+                  "widget": {
+                    "class": "button",
+                    "id": "leftArrow",
+                    "mouseBorder": [
+                      10,
+                      85,
+                      10,
+                      85
+                    ],
+                    "style": "buttonCodexLeft"
+                  }
+                },
+                {
+                  "border": [
+                    5,
+                    5,
+                    5,
+                    5
+                  ],
+                  "children": [
+                    {
+                      "border": [
+                        -5,
+                        -5,
+                        0,
+                        -12
+                      ],
+                      "children": [
+                        {
+                          "border": [
+                            6,
+                            -1,
+                            5,
+                            4
+                          ],
+                          "widget": {
+                            "class": "label",
+                            "id": "galleryItemDescription",
+                            "text": "Some plant dude on a weird mount idk"
+                          }
+                        }
+                      ],
+                      "fill": "left",
+                      "widget": {
+                        "childLayerAdjustment": 1,
+                        "class": "image",
+                        "image": "ui/gallery/gallery_tab.png",
+                        "layerAdjustment": 1,
+                        "size": [
+                          80,
+                          14
+                        ]
+                      }
+                    },
+                    {
+                      "fill": "centre",
+                      "proportion": 1,
+                      "widget": {
+                        "active": "true",
+                        "class": "image",
+                        "id": "galleryImage",
+                        "image": "ui/whitebox.png",
+                        "size": [
+                          384,
+                          184
+                        ]
+                      }
+                    },
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "fill": "centre",
+                              "widget": {
+                                "class": "image",
+                                "colour": "#A47750",
+                                "image": "ui/codex/padlock_large.png"
+                              }
+                            },
+                            {
+                              "widget": {
+                                "class": "label",
+                                "id": "lockedText",
+                                "style": "labelBrown",
+                                "text": "Do some stuff to unlock this"
+                              }
+                            }
+                          ],
+                          "fill": "centre",
+                          "proportion": 1,
+                          "sizer": {
+                            "type": "vertical"
+                          }
+                        }
+                      ],
+                      "fill": "centre",
+                      "proportion": 1,
+                      "widget": {
+                        "active": "false",
+                        "class": "image",
+                        "id": "galleryLocked",
+                        "image": "ui/whitebox.png",
+                        "size": [
+                          384,
+                          184
+                        ]
+                      }
+                    },
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "border": [
+                                0,
+                                16,
+                                0,
+                                0
+                              ],
+                              "fill": "centre",
+                              "widget": {
+                                "class": "image",
+                                "image": "ui/gallery/gallery_unrevealed.png"
+                              }
+                            },
+                            {
+                              "fill": "centre",
+                              "widget": {
+                                "class": "label",
+                                "id": "lockedText",
+                                "style": "labelBrown",
+                                "textKey": "gallery_unlock_message"
+                              }
+                            },
+                            {
+                              "children": [
+                                {
+                                  "widget": {
+                                    "class": "label",
+                                    "style": "labelBrown",
+                                    "textKey": "ui_gallery_requirement"
+                                  }
+                                },
+                                {
+                                  "border": [
+                                    3,
+                                    0,
+                                    3,
+                                    0
+                                  ],
+                                  "widget": {
+                                    "class": "image",
+                                    "image": "ui/icons/big_star.png"
+                                  }
+                                },
+                                {
+                                  "widget": {
+                                    "class": "label",
+                                    "id": "starsRequiredLabel",
+                                    "style": "labelBrown",
+                                    "text": 5
+                                  }
+                                }
+                              ],
+                              "fill": "centre",
+                              "sizer": {
+                                "type": "horizontal"
+                              }
+                            }
+                          ],
+                          "fill": "centre",
+                          "proportion": 1,
+                          "sizer": {
+                            "type": "vertical"
+                          }
+                        }
+                      ],
+                      "fill": "centre",
+                      "proportion": 1,
+                      "widget": {
+                        "active": "false",
+                        "class": "image",
+                        "id": "galleryUnrevealed",
+                        "image": "ui/whitebox.png",
+                        "size": [
+                          384,
+                          184
+                        ]
+                      }
+                    },
+                    {
+                      "border": [
+                        -2,
+                        -10,
+                        0,
+                        -2
+                      ],
+                      "children": [
+                        {
+                          "border": [
+                            5,
+                            -2,
+                            3,
+                            0
+                          ],
+                          "widget": {
+                            "class": "label",
+                            "id": "pageNumber",
+                            "style": "labelSmall",
+                            "text": "22/42"
+                          }
+                        }
+                      ],
+                      "fill": "left",
+                      "widget": {
+                        "childLayerAdjustment": 1,
+                        "class": "image",
+                        "colour": "#dfc686",
+                        "image": "ui/widgets/list/list_item_bg.png",
+                        "layerAdjustment": 1
+                      }
+                    }
+                  ],
+                  "proportion": 1,
+                  "sizer": {
+                    "gap": 0,
+                    "type": "vertical"
+                  }
+                },
+                {
+                  "border": [
+                    -3,
+                    0,
+                    -13,
+                    0
+                  ],
+                  "fill": "centre",
+                  "widget": {
+                    "class": "button",
+                    "id": "rightArrow",
+                    "mouseBorder": [
+                      10,
+                      85,
+                      10,
+                      85
+                    ],
+                    "style": "buttonCodexRight"
+                  }
+                }
+              ],
+              "fill": "centre",
+              "proportion": 0,
+              "sizer": {
+                "type": "horizontal"
+              },
+              "widget": {
+                "class": "image",
+                "image": "ui/gallery/gallery_page.png",
+                "size": [
+                  394,
+                  193
+                ]
+              }
+            },
+            {
+              "proportion": 1,
+              "stretchSpacer": {}
+            }
+          ],
+          "proportion": 1,
+          "sizer": {
+            "type": "horizontal"
+          }
+        },
+        {
+          "children": [
+            {
+              "border": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "widget": {
+                "class": "horizontalDiv"
+              }
+            },
+            {
+              "widget": {
+                "class": "dialogueButtons",
+                "hasCancel": "false",
+                "hasClose": "true",
+                "hasOK": "false"
+              }
+            }
+          ],
+          "sizer": {
+            "type": "vertical"
+          },
+          "widget": {
+            "active": "false",
+            "class": "widget",
+            "id": "bottomBar"
+          }
+        },
+        {
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "widget": {
+            "class": "nearZoomButtons"
+          }
+        }
+      ],
+      "sizer": {
+        "type": "vertical"
+      },
+      "widget": {
+        "class": "framedImage",
+        "scrollPos": [
+          5,
+          -170
+        ],
+        "scrollSpeed": [
+          -10,
+          10
+        ],
+        "size": [
+          434,
+          235
+        ],
+        "style": "paperPattern"
+      }
+    }
+  ],
+  "sizer": {
+    "gap": 0,
+    "type": "vertical"
+  },
+  "widget": {
+    "class": "framedImage",
+    "scrollPos": [
+      10,
+      -170
+    ],
+    "scrollSpeed": [
+      10,
+      0
+    ],
+    "style": "bookScroll"
+  }
+}

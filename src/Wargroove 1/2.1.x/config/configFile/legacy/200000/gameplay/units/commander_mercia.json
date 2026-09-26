@@ -1,0 +1,241 @@
+{
+  "unitClasses": [
+    {
+      "aiPriority": 8.0,
+      "battleUnitCount": 1,
+      "cost": 500,
+      "grooveId": "heal_aura",
+      "id": "commander_mercia",
+      "isCommander": "true",
+      "moveRange": 4,
+      "movement": "walking",
+      "name": "unit_class_name_commander",
+      "regeneration": 5,
+      "tags": [
+        "commander",
+        "type.ground.light"
+      ],
+      "verbs": [
+        "load",
+        "capture"
+      ],
+      "weapons": [
+        {
+          "id": "merciaSword"
+        }
+      ]
+    }
+  ],
+  "units": [
+    {
+      "alternativeAttackSounds": {
+        "no_voice": "mercia/merciaAttackNoVoice"
+      },
+      "alternativeRuns": [
+        {
+          "id": "run_crown"
+        },
+        {
+          "id": "run_nosword"
+        }
+      ],
+      "attacks": [
+        {
+          "hitDelay": 1.2000000476837158,
+          "hitSpark": "fx/bs_stab_attack",
+          "id": "primary"
+        }
+      ],
+      "battleAnimation": "units/commanders/mercia/battle_mercia",
+      "battleAnimationRiver": "fx/river_overlay/battle_mercia_river",
+      "class": "commander_mercia",
+      "deathMoveMax": 0,
+      "deathMoveMin": 0,
+      "emotes": {
+        "brave": "emote_brave",
+        "brave2": "emote_brave2",
+        "crouching": "emote_crouching",
+        "crouching_loop": "emote_crouching_loop",
+        "crown_surprise": "emote_crown_surprise",
+        "dance": "emote_dance",
+        "hesitate": "emote_hesitate",
+        "hurt": "emote_hurt",
+        "hypno": "emote_hypno",
+        "idle": "idle",
+        "idle_crown": "idle_crown",
+        "idle_nosword": "idle_nosword",
+        "laugh": "emote_laugh",
+        "negative": "emote_negative",
+        "pet": "emote_pet",
+        "pickup_sword": "emote_pickup",
+        "positive": "emote_positive",
+        "positive_crown": "emote_positive_crown",
+        "reachingdown": "emote_reachingdown",
+        "sad": "emote_sad",
+        "sad_sword": "emote_sad_sword",
+        "stab": "emote_stab",
+        "stab_loop": "emote_stab_loop",
+        "stare": "emote_stare",
+        "surprise": "emote_surprise",
+        "surprise_nosword": "emote_surprise_nosword",
+        "sword_1": "emote_sword_1",
+        "talk": "emote_talk",
+        "talk_crown": "emote_talk_crown",
+        "talk_nosword": "emote_talk_nosword"
+      },
+      "faction": "cherrystone",
+      "grabPos": [
+        47,
+        47
+      ],
+      "hidden": {
+        "alternativeRuns": [
+          "angry_run"
+        ],
+        "emotes": [
+          "stab_loop",
+          "stab",
+          "stare",
+          "pickup_sword",
+          "sword_1",
+          "crouching",
+          "hesitate",
+          "reachingdown",
+          "crouching_loop"
+        ],
+        "shouts": [
+          "mercia_thispower",
+          "mercia_attack5",
+          "mercia_hit3"
+        ]
+      },
+      "mapAnimation": "units/commanders/mercia/map_mercia",
+      "mapSpeed": 4.0,
+      "mediumPortrait": "units/commanders/mercia/portrait_mercia_medium.png",
+      "name": "character_mercia_name",
+      "shouts": {
+        "mercia_attack1": "mercia/merciaShoutAttack1",
+        "mercia_attack2": "mercia/merciaShoutAttack2",
+        "mercia_attack3": "mercia/merciaShoutAttack3",
+        "mercia_attack4": "mercia/merciaShoutAttack4",
+        "mercia_attack5": "mercia/merciaShoutAttack5",
+        "mercia_braceyourself": "mercia/merciaShoutBraceYourself",
+        "mercia_but": "mercia/merciaShoutBut",
+        "mercia_dad": "mercia/merciaShoutDad",
+        "mercia_emeric": "mercia/merciaShoutEmeric",
+        "mercia_endingthis": "mercia/merciaShoutImEndingThis",
+        "mercia_father": "mercia/merciaShoutFather",
+        "mercia_goodboy": "mercia/merciaShoutGoodBoy",
+        "mercia_healingaura": "mercia/merciaShoutHealingAura",
+        "mercia_heretohelp": "mercia/merciaShoutImHereToHelp",
+        "mercia_hit1": "mercia/merciaShoutHit1",
+        "mercia_hit2": "mercia/merciaShoutHit2",
+        "mercia_hit3": "mercia/merciaShoutHit3",
+        "mercia_hit4": "mercia/merciaShoutHit4",
+        "mercia_hmm1": "mercia/merciaShoutHmm1",
+        "mercia_hmm2": "mercia/merciaShoutHmm2",
+        "mercia_huh": "mercia/merciaShoutHuh",
+        "mercia_imgoingin": "mercia/merciaShoutImGoingIn",
+        "mercia_imsorry": "mercia/merciaShoutImSorry",
+        "mercia_introduction": "mercia/merciaShoutIntroduction",
+        "mercia_introductionqueen": "mercia/merciaShoutIntroductionQueen",
+        "mercia_itsover": "mercia/merciaShoutItsOver",
+        "mercia_ivefailed": "mercia/merciaShoutIveFailed",
+        "mercia_justyouandme": "mercia/merciaShoutJustYouAndMe",
+        "mercia_laugh1": "mercia/merciaShoutLaugh1",
+        "mercia_laugh2": "mercia/merciaShoutLaugh2",
+        "mercia_letsgo": "mercia/merciaShoutLetsGo",
+        "mercia_nicetomeetyou": "mercia/merciaShoutNiceToMeetYou",
+        "mercia_no1": "mercia/merciaShoutNo1",
+        "mercia_no2": "mercia/merciaShoutNo2",
+        "mercia_no3": "mercia/merciaShoutNo3",
+        "mercia_noneshallfall": "mercia/merciaShoutNoneShallFall",
+        "mercia_ohno": "mercia/merciaShoutOhNo",
+        "mercia_oops": "mercia/merciaShoutOops",
+        "mercia_protein": "mercia/merciaShoutHighProteinDiet",
+        "mercia_ragna": "mercia/merciaShoutRagna",
+        "mercia_saveyouall": "mercia/merciaShoutIllSaveYouAll",
+        "mercia_sigh": "mercia/merciaShoutSigh",
+        "mercia_surprise": "mercia/merciaShoutSurprise",
+        "mercia_thankyou": "mercia/merciaShoutThankYou",
+        "mercia_thatwastough": "mercia/merciaShoutThatWasTough",
+        "mercia_thefightisntover": "mercia/merciaShoutTheFightIsntOverYet",
+        "mercia_theresnotime": "mercia/merciaShoutTheresNoTime",
+        "mercia_thiscantbe": "mercia/merciaShoutThisCantBe",
+        "mercia_thisendsnow": "mercia/merciaShoutThisEndsNow",
+        "mercia_thispower": "mercia/merciaShoutThisPower",
+        "mercia_uh": "mercia/merciaShoutUh",
+        "mercia_valder1": "mercia/merciaShoutValder1",
+        "mercia_valder2": "mercia/merciaShoutValder2",
+        "mercia_victorywillbeours": "mercia/merciaShoutVictoryWillBeOurs",
+        "mercia_war": "mercia/merciaShoutWar",
+        "mercia_wecouldusethis": "mercia/merciaShoutWeCouldUseThis",
+        "mercia_wedidit": "mercia/merciaShoutWeDidIt",
+        "mercia_wedidit2": "mercia/merciaShoutWeDidItExcited",
+        "mercia_what": "mercia/merciaShoutWhat",
+        "mercia_whoareyou": "mercia/merciaShoutWhoAreYou",
+        "mercia_wontfail": "mercia/merciaShoutWontFail",
+        "mercia_wontgodowneasily": "mercia/merciaShoutWontGoDownEasily",
+        "mercia_wontholdback": "mercia/merciaShoutWontHoldBack",
+        "mercia_wontletyoudown": "mercia/merciaShoutWontLetYouDown",
+        "mercia_yeah": "mercia/merciaShoutYeah"
+      },
+      "skinColour": "typeII",
+      "smallPortrait": "units/commanders/mercia/portrait_mercia_small.png",
+      "sounds": {
+        "attack": "mercia/merciaAttack",
+        "attackCommanderShout": "mercia/merciaCommanderKillShout",
+        "attackMap": "unitAttack",
+        "attackShout": "mercia/merciaAttackShout",
+        "captureShout": "mercia/merciaCapture",
+        "death": "mercia/merciaDie",
+        "deathMap": "mercia/merciaDieGhost",
+        "deathMapNoBattle": "mercia/merciaDieNoBattle",
+        "firstHit": "mercia/merciaHit",
+        "groove": "mercia/merciaGrooveIntro",
+        "hit": "hitOrganic",
+        "hitMap": "hitOrganic",
+        "run": "infantryHeavyMapEntry",
+        "runMap": "infantryHeavyMapEntry"
+      },
+      "stayAfterDeath": "true"
+    }
+  ],
+  "weapons": [
+    {
+      "baseDamage": {
+        "land": 1
+      },
+      "canMoveAndAttack": "true",
+      "id": "merciaSword",
+      "rangeMax": 1,
+      "rangeMin": 1,
+      "tagDamage": {
+        "archer": 1.2999999523162842,
+        "ballista": 0.6000000238418579,
+        "balloon": 0.550000011920929,
+        "commander": 0.4000000059604645,
+        "dog": 1.149999976158142,
+        "dragon": 0.3499999940395355,
+        "giant": 0.4000000059604645,
+        "harpoonship": 0.44999998807907104,
+        "harpy": 0.8999999761581421,
+        "knight": 0.550000011920929,
+        "mage": 0.800000011920929,
+        "merman": 0.949999988079071,
+        "rifleman": 1.0499999523162842,
+        "soldier": 1.149999976158142,
+        "spearman": 0.75,
+        "structure": 0.699999988079071,
+        "thief": 0.949999988079071,
+        "travelboat": 0.6000000238418579,
+        "trebuchet": 0.550000011920929,
+        "turtle": 0.550000011920929,
+        "villager": 0.949999988079071,
+        "wagon": 0.699999988079071,
+        "warship": 0.550000011920929,
+        "witch": 0.699999988079071
+      }
+    }
+  ]
+}

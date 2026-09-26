@@ -1,0 +1,147 @@
+{
+  "children": [
+    {
+      "children": [
+        {
+          "border": [
+            20,
+            10,
+            20,
+            10
+          ],
+          "children": [
+            {
+              "border": [
+                0,
+                -3,
+                0,
+                0
+              ],
+              "fill": "centre",
+              "widget": {
+                "class": "label",
+                "id": "title",
+                "textKey": "ui_unlock_title"
+              }
+            },
+            {
+              "border": [
+                -3,
+                0,
+                -3,
+                0
+              ],
+              "children": [
+                {
+                  "border": [
+                    5,
+                    5,
+                    5,
+                    5
+                  ],
+                  "fill": "centre",
+                  "widget": {
+                    "class": "image",
+                    "id": "image",
+                    "image": "ui/unlock/unlock_music.png"
+                  }
+                }
+              ],
+              "sizer": {
+                "type": "vertical"
+              },
+              "widget": {
+                "class": "image",
+                "colour": "#E9D8AC",
+                "image": "ui/whitebox.png",
+                "size": [
+                  130,
+                  40
+                ]
+              }
+            },
+            {
+              "border": [
+                5,
+                0,
+                5,
+                5
+              ],
+              "fill": "centre",
+              "widget": {
+                "class": "label",
+                "id": "message",
+                "text": "You have unlocked a new banana phone woo"
+              }
+            },
+            {
+              "fill": "centre",
+              "widget": {
+                "button": "cancel",
+                "class": "gamepadButton",
+                "id": "close",
+                "size": [
+                  60,
+                  16
+                ],
+                "textKey": "ui_unlock_ok"
+              }
+            }
+          ],
+          "fill": "centre",
+          "sizer": {
+            "type": "vertical"
+          },
+          "widget": {
+            "class": "image",
+            "image": "ui/widgets/window/scroll_embed_window.png",
+            "innerBorder": [
+              8,
+              8,
+              8,
+              8
+            ],
+            "size": [
+              40,
+              40
+            ]
+          }
+        }
+      ],
+      "fill": "centre",
+      "proportion": 1,
+      "sizer": {
+        "gap": 0,
+        "type": "vertical"
+      },
+      "widget": {
+        "class": "framedImage",
+        "scrollPos": [
+          10,
+          -170
+        ],
+        "scrollSpeed": [
+          15,
+          0
+        ],
+        "size": [
+          4200,
+          10
+        ],
+        "style": "backgroundScroll"
+      }
+    }
+  ],
+  "sizer": {
+    "type": "vertical"
+  },
+  "widget": {
+    "class": "image",
+    "colour": "#000000B0",
+    "image": "ui/whitebox.png",
+    "size": [
+      4000,
+      4000
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "children": [
+    {
+      "widget": {
+        "class": "image",
+        "image": "ui/icons/big_star.png"
+      }
+    },
+    {
+      "border": [
+        2,
+        1,
+        0,
+        0
+      ],
+      "fill": "centre",
+      "widget": {
+        "class": "label",
+        "id": "label",
+        "style": "floatingLabel",
+        "text": "10/150"
+      }
+    }
+  ],
+  "widget": {
+    "class": "widget"
+  }
+}

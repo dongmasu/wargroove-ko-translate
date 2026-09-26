@@ -1,0 +1,50 @@
+{
+  "children": [
+    {
+      "border": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "children": [
+        {
+          "border": [
+            5,
+            -1,
+            5,
+            0
+          ],
+          "fill": "centre",
+          "widget": {
+            "class": "label",
+            "id": "dividerLabel",
+            "style": "brownLabel",
+            "text": "LABEL"
+          }
+        }
+      ],
+      "fill": "left",
+      "sizer": {
+        "type": "vertical"
+      },
+      "widget": {
+        "class": "image",
+        "colour": "#dfc686",
+        "image": "ui/widgets/window/flat_box.png"
+      }
+    },
+    {
+      "widget": {
+        "class": "horizontalDiv",
+        "style": "darkHorizontalDiv"
+      }
+    }
+  ],
+  "sizer": {
+    "type": "vertical"
+  },
+  "widget": {
+    "class": "widget"
+  }
+}

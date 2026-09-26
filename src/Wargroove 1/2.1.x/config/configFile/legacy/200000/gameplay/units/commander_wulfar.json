@@ -1,0 +1,263 @@
+{
+  "unitClasses": [
+    {
+      "aiPriority": 8.0,
+      "battleUnitCount": 1,
+      "cost": 500,
+      "grooveId": "golf",
+      "id": "commander_wulfar",
+      "isCommander": "true",
+      "moveRange": 4,
+      "movement": "walking",
+      "name": "unit_class_name_commander",
+      "regeneration": 5,
+      "tags": [
+        "commander",
+        "type.ground.light",
+        "tall"
+      ],
+      "verbs": [
+        "load",
+        "capture"
+      ],
+      "weapons": [
+        {
+          "id": "wulfarHammer"
+        }
+      ]
+    }
+  ],
+  "units": [
+    {
+      "alternativeAttackSounds": {
+        "no_voice": "wulfar/wulfarAttackNoVoice"
+      },
+      "alternativeCapture": {
+        "endPosOffset": -190
+      },
+      "alternativeRuns": [
+        {
+          "id": "emote_carrying_walk"
+        }
+      ],
+      "attacks": [
+        {
+          "hitDelay": [
+            1.100000023841858,
+            2.049999952316284
+          ],
+          "hitSpark": "fx/bs_stab_attack",
+          "id": "primary"
+        }
+      ],
+      "battleAnimation": "units/commanders/wulfar/battle_wulfar",
+      "battleAnimationRiver": "fx/river_overlay/battle_wulfar_river",
+      "class": "commander_wulfar",
+      "deathMoveMax": 0,
+      "deathMoveMin": 0,
+      "emotes": {
+        "bush": "emote_bush",
+        "bush2": "emote_bush2",
+        "bush3": "emote_bush3",
+        "cactus": "emote_cactus",
+        "carrying": "emote_carrying",
+        "crouching": "emote_crouching",
+        "dance": "emote_dance",
+        "dark_wulfar": "emote_dark_wulfar",
+        "dark_wulfar_handshake_1": "emote_dark_wulfar_handshake_1",
+        "dark_wulfar_handshake_2": "emote_dark_wulfar_handshake_2",
+        "dark_wulfar_handshake_3": "emote_dark_wulfar_handshake_3",
+        "dark_wulfar_handshake_4": "emote_dark_wulfar_handshake_4",
+        "grab": "emote_grab",
+        "handshake_1": "emote_handshake_1",
+        "handshake_2": "emote_handshake_2",
+        "handshake_3": "emote_handshake_3",
+        "idle": "idle",
+        "laugh": "emote_laugh",
+        "looking": "emote_looking",
+        "negative": "emote_negative",
+        "positive": "emote_positive",
+        "rope": "emote_rope",
+        "surprise": "emote_surprise"
+      },
+      "faction": "outlaw",
+      "grabPos": [
+        47,
+        47
+      ],
+      "hidden": {
+        "emotes": [
+          "dark_wulfar_handshake_1",
+          "dark_wulfar_handshake_2",
+          "dark_wulfar_handshake_3",
+          "dark_wulfar_handshake_4",
+          "handshake_1",
+          "handshake_2",
+          "handshake_3",
+          "rope",
+          "cactus",
+          "bush",
+          "bush2",
+          "bush3",
+          "grab"
+        ],
+        "shouts": [
+          "wulfar_attack2",
+          "wulfar_attack5"
+        ]
+      },
+      "mapAnimation": "units/commanders/wulfar/map_wulfar",
+      "mapSpeed": 4.0,
+      "mediumPortrait": "units/commanders/wulfar/portrait_wulfar_medium.png",
+      "name": "character_wulfar_name",
+      "shouts": {
+        "wulfar_agreed": "wulfar/wulfarShoutAgreed",
+        "wulfar_attack1": "wulfar/wulfarShoutAttack1",
+        "wulfar_attack2": "wulfar/wulfarShoutAttack2",
+        "wulfar_attack3": "wulfar/wulfarShoutAttack3",
+        "wulfar_attack4": "wulfar/wulfarShoutAttack4",
+        "wulfar_attack5": "wulfar/wulfarShoutAttack5",
+        "wulfar_attack6": "wulfar/wulfarShoutAttack6",
+        "wulfar_aye1": "wulfar/wulfarShoutAye1",
+        "wulfar_aye2": "wulfar/wulfarShoutAye2",
+        "wulfar_beoffwithyou": "wulfar/wulfarShoutBeOffWithYou",
+        "wulfar_boilyourhead": "wulfar/wulfarShoutBoilYourHead",
+        "wulfar_bumsoutthewindow": "wulfar/wulfarShoutBumsOutTheWindow",
+        "wulfar_caesar": "wulfar/wulfarShoutCaesar",
+        "wulfar_commanderryota": "wulfar/wulfarShoutCommanderRyota",
+        "wulfar_didyouthreaten": "wulfar/wulfarShoutDidYouThreaten",
+        "wulfar_dog": "wulfar/wulfarShoutDog",
+        "wulfar_dontdosomething": "wulfar/wulfarShoutDontDoSomething",
+        "wulfar_empresstenri": "wulfar/wulfarShoutEmpressTenri",
+        "wulfar_enid": "wulfar/wulfarShoutEnid",
+        "wulfar_errol": "wulfar/wulfarShoutErrol",
+        "wulfar_errolorla": "wulfar/wulfarShoutErrolOrla",
+        "wulfar_felllord": "wulfar/wulfarShoutFellLord",
+        "wulfar_floran": "wulfar/wulfarShoutFloran",
+        "wulfar_followme": "wulfar/wulfarShoutFollowMe",
+        "wulfar_formalcomplaint": "wulfar/wulfarShoutFormalComplaint",
+        "wulfar_gonnaneedawagon": "wulfar/wulfarShoutGonnaNeedAWagon",
+        "wulfar_goodlucklanding": "wulfar/wulfarShoutGoodLuckLanding",
+        "wulfar_greenfinger": "wulfar/wulfarShoutGreenfinger",
+        "wulfar_hammertime": "wulfar/wulfarShoutHammerTime",
+        "wulfar_hello": "wulfar/wulfarShoutHello",
+        "wulfar_hereicome": "wulfar/wulfarShoutHereICome",
+        "wulfar_herestheplan": "wulfar/wulfarShoutHeresThePlan",
+        "wulfar_hit1": "wulfar/wulfarShoutHit1",
+        "wulfar_hit2": "wulfar/wulfarShoutHit2",
+        "wulfar_hit3": "wulfar/wulfarShoutHit3",
+        "wulfar_hit4": "wulfar/wulfarShoutHit4",
+        "wulfar_hmm": "wulfar/wulfarShoutHmm",
+        "wulfar_hmmlong": "wulfar/wulfarShoutHmmLong",
+        "wulfar_hmph": "wulfar/wulfarShoutHmph",
+        "wulfar_howcouldyou": "wulfar/wulfarShoutHowCouldYou",
+        "wulfar_huh": "wulfar/wulfarShoutHuh",
+        "wulfar_icannotfall": "wulfar/wulfarShoutICannotFall",
+        "wulfar_illwallopyourhead": "wulfar/wulfarShoutIllWallopYourHead",
+        "wulfar_introduction": "wulfar/wulfarShoutIntroduction",
+        "wulfar_introductionfull": "wulfar/wulfarShoutIntroductionFull",
+        "wulfar_itsdone": "wulfar/wulfarShoutItsDone",
+        "wulfar_keepthehead": "wulfar/wulfarShoutKeepTheHead",
+        "wulfar_koji": "wulfar/wulfarShoutKoji",
+        "wulfar_laugh1": "wulfar/wulfarShoutLaugh1",
+        "wulfar_laugh2": "wulfar/wulfarShoutLaugh2",
+        "wulfar_letmehandlethis": "wulfar/wulfarShoutLetMeHandleThis",
+        "wulfar_lordemeric": "wulfar/wulfarShoutLordEmeric",
+        "wulfar_no": "wulfar/wulfarShoutNo",
+        "wulfar_nodesperate": "wulfar/wulfarShoutNoDesperate",
+        "wulfar_nuru": "wulfar/wulfarShoutNuru",
+        "wulfar_offyougo": "wulfar/wulfarShoutOffYouGo",
+        "wulfar_oops": "wulfar/wulfarShoutOops",
+        "wulfar_orla": "wulfar/wulfarShoutOrla",
+        "wulfar_queenmercia": "wulfar/wulfarShoutQueenMercia",
+        "wulfar_ragna": "wulfar/wulfarShoutRagna",
+        "wulfar_readyforawallop": "wulfar/wulfarShoutReadyForAWallop",
+        "wulfar_sedge": "wulfar/wulfarShoutSedge",
+        "wulfar_shh": "wulfar/wulfarShoutShh",
+        "wulfar_sigh": "wulfar/wulfarShoutSigh",
+        "wulfar_sigrid": "wulfar/wulfarShoutSigrid",
+        "wulfar_takeahammering": "wulfar/wulfarShoutTakeAHammering",
+        "wulfar_thankyou": "wulfar/wulfarShoutThankYou",
+        "wulfar_thatsright": "wulfar/wulfarShoutThatsRight",
+        "wulfar_thatsyoudone": "wulfar/wulfarShoutThatsYouDone",
+        "wulfar_theclancoulddo": "wulfar/wulfarShoutTheClanCouldDo",
+        "wulfar_theyllnevertake": "wulfar/wulfarShoutTheyllNeverTake",
+        "wulfar_thismightbeasqueeze": "wulfar/wulfarShoutThisMightBeASqueeze",
+        "wulfar_thismighthurtabit": "wulfar/wulfarShoutThisMightHurtABit",
+        "wulfar_thiswillhurtmore": "wulfar/wulfarShoutThisWillHurtMore",
+        "wulfar_trustyourself": "wulfar/wulfarShoutTrustYourself",
+        "wulfar_tryandland": "wulfar/wulfarShoutTryAndLand",
+        "wulfar_uh": "wulfar/wulfarShoutUh",
+        "wulfar_upforthetask": "wulfar/wulfarShoutUpForTheTask",
+        "wulfar_vampire": "wulfar/wulfarShoutVampire",
+        "wulfar_vesper1": "wulfar/wulfarShoutVesper1",
+        "wulfar_vesper2": "wulfar/wulfarShoutVesper2",
+        "wulfar_what": "wulfar/wulfarShoutWhat",
+        "wulfar_youdidntthink": "wulfar/wulfarShoutYouDidntThink",
+        "wulfar_youdidwell": "wulfar/wulfarShoutYouDidWell",
+        "wulfar_youdumpling": "wulfar/wulfarShoutYouDumpling",
+        "wulfar_yourebeaten": "wulfar/wulfarShoutYoureBeaten",
+        "wulfar_youreoffyourhead": "wulfar/wulfarShoutYoureOffYourHead",
+        "wulfar_youvebittenoff": "wulfar/wulfarShoutYouveBittenOff",
+        "wulfar_youvemadeamistake": "wulfar/wulfarShoutYouveMadeAMistake"
+      },
+      "skinColour": "typeII",
+      "smallPortrait": "units/commanders/wulfar/portrait_wulfar_small.png",
+      "sounds": {
+        "attack": "wulfar/wulfarAttack",
+        "attackCommanderShout": "wulfar/wulfarCommanderKillShout",
+        "attackMap": "unitAttack",
+        "attackShout": "wulfar/wulfarAttackShout",
+        "capture": "wulfar/wulfarStructureEntry",
+        "captureShout": "wulfar/wulfarCapture",
+        "death": "wulfar/wulfarDie",
+        "deathMap": "wulfar/wulfarDieGhost",
+        "deathMapNoBattle": "wulfar/wulfarDieNoBattle",
+        "firstHit": "wulfar/wulfarHit",
+        "groove": "wulfar/wulfarGrooveIntro",
+        "hit": "hitOrganic",
+        "hitMap": "hitOrganic",
+        "run": "wulfar/wulfarEntry",
+        "runMap": "wulfar/wulfarEntry"
+      },
+      "stayAfterDeath": "true"
+    }
+  ],
+  "weapons": [
+    {
+      "baseDamage": {
+        "land": 1
+      },
+      "canMoveAndAttack": "true",
+      "id": "wulfarHammer",
+      "rangeMax": 1,
+      "rangeMin": 1,
+      "tagDamage": {
+        "archer": 1.2999999523162842,
+        "ballista": 0.6000000238418579,
+        "balloon": 0.550000011920929,
+        "commander": 0.4000000059604645,
+        "dog": 1.149999976158142,
+        "dragon": 0.3499999940395355,
+        "giant": 0.4000000059604645,
+        "harpoonship": 0.44999998807907104,
+        "harpy": 0.8999999761581421,
+        "knight": 0.550000011920929,
+        "mage": 0.800000011920929,
+        "merman": 0.949999988079071,
+        "rifleman": 1.0499999523162842,
+        "soldier": 1.149999976158142,
+        "spearman": 0.75,
+        "structure": 0.699999988079071,
+        "thief": 0.949999988079071,
+        "travelboat": 0.6000000238418579,
+        "trebuchet": 0.550000011920929,
+        "turtle": 0.550000011920929,
+        "villager": 0.949999988079071,
+        "wagon": 0.699999988079071,
+        "warship": 0.550000011920929,
+        "witch": 0.699999988079071
+      }
+    }
+  ]
+}

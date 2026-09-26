@@ -1,0 +1,270 @@
+{
+  "children": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "fill": "centre",
+              "proportion": 1,
+              "widget": {
+                "class": "label",
+                "textKey": "ui_end_of_match_stats_results"
+              }
+            }
+          ],
+          "fill": "centre",
+          "sizer": {
+            "type": "horizontal"
+          },
+          "widget": {
+            "class": "image",
+            "image": "ui/cutscene/dialoguebox_simple.png",
+            "innerBorder": [
+              8,
+              0,
+              8,
+              2
+            ],
+            "size": [
+              47,
+              21
+            ]
+          }
+        }
+      ],
+      "sizer": {
+        "type": "horizontal"
+      }
+    },
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "fill": [
+                    "left",
+                    "centreVertical"
+                  ],
+                  "proportion": 1,
+                  "widget": {
+                    "class": "label",
+                    "textKey": "ui_end_of_match_stats_total_turns"
+                  }
+                },
+                {
+                  "fill": [
+                    "right",
+                    "centreVertical"
+                  ],
+                  "widget": {
+                    "class": "label",
+                    "id": "totalTurns",
+                    "text": "XX"
+                  }
+                }
+              ],
+              "sizer": {
+                "type": "horizontal"
+              },
+              "widget": {
+                "class": "image",
+                "image": "ui/cutscene/dialoguebox_simple.png",
+                "innerBorder": [
+                  8,
+                  0,
+                  8,
+                  2
+                ],
+                "size": [
+                  150,
+                  21
+                ]
+              }
+            },
+            {
+              "children": [
+                {
+                  "fill": [
+                    "left",
+                    "centreVertical"
+                  ],
+                  "proportion": 1,
+                  "widget": {
+                    "class": "label",
+                    "textKey": "ui_end_of_match_stats_units_defeated"
+                  }
+                },
+                {
+                  "fill": [
+                    "right",
+                    "centreVertical"
+                  ],
+                  "widget": {
+                    "class": "label",
+                    "id": "unitsKilled",
+                    "text": "XX"
+                  }
+                }
+              ],
+              "sizer": {
+                "type": "horizontal"
+              },
+              "widget": {
+                "class": "image",
+                "image": "ui/cutscene/dialoguebox_simple.png",
+                "innerBorder": [
+                  8,
+                  0,
+                  8,
+                  2
+                ],
+                "size": [
+                  150,
+                  21
+                ]
+              }
+            },
+            {
+              "children": [
+                {
+                  "fill": [
+                    "left",
+                    "centreVertical"
+                  ],
+                  "proportion": 1,
+                  "widget": {
+                    "class": "label",
+                    "textKey": "ui_end_of_match_stats_units_lost"
+                  }
+                },
+                {
+                  "fill": [
+                    "right",
+                    "centreVertical"
+                  ],
+                  "widget": {
+                    "class": "label",
+                    "id": "unitsLost",
+                    "text": "XX"
+                  }
+                }
+              ],
+              "sizer": {
+                "type": "horizontal"
+              },
+              "widget": {
+                "class": "image",
+                "image": "ui/cutscene/dialoguebox_simple.png",
+                "innerBorder": [
+                  8,
+                  0,
+                  8,
+                  2
+                ],
+                "size": [
+                  150,
+                  21
+                ]
+              }
+            },
+            {
+              "children": [
+                {
+                  "fill": [
+                    "left",
+                    "centreVertical"
+                  ],
+                  "proportion": 1,
+                  "widget": {
+                    "class": "label",
+                    "textKey": "ui_end_of_match_stats_stars_earned"
+                  }
+                },
+                {
+                  "fill": [
+                    "right",
+                    "centreVertical"
+                  ],
+                  "sizer": {
+                    "type": "horizontal"
+                  },
+                  "widget": {
+                    "class": "widget",
+                    "id": "stars"
+                  }
+                }
+              ],
+              "sizer": {
+                "type": "horizontal"
+              },
+              "widget": {
+                "class": "image",
+                "id": "starsDialogue",
+                "image": "ui/cutscene/dialoguebox_simple.png",
+                "innerBorder": [
+                  8,
+                  0,
+                  8,
+                  2
+                ],
+                "size": [
+                  150,
+                  21
+                ]
+              }
+            }
+          ],
+          "sizer": {
+            "type": "vertical"
+          }
+        },
+        {
+          "widget": {
+            "class": "image",
+            "id": "medalHolder",
+            "image": "ui/cutscene/dialoguebox_simple.png",
+            "size": [
+              80,
+              65
+            ]
+          }
+        }
+      ],
+      "sizer": {
+        "type": "horizontal"
+      }
+    },
+    {
+      "border": [
+        0,
+        10,
+        0,
+        0
+      ],
+      "fill": [
+        "bottom",
+        "right"
+      ],
+      "widget": {
+        "class": "dialogueButtons",
+        "hasCancel": "false",
+        "hasOK": "true",
+        "style": "buttonFNoDisable"
+      }
+    }
+  ],
+  "fill": [
+    "centreHorizontal",
+    "bottom"
+  ],
+  "sizer": {
+    "type": "vertical"
+  },
+  "widget": {
+    "class": "widget",
+    "id": "statsWindow"
+  }
+}

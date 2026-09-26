@@ -1,0 +1,66 @@
+{
+  "_assetType": "audioClip",
+  "_decoded": {
+    "legacy": true,
+    "actions": [
+      {
+        "type": "play",
+        "scope": 1,
+        "clip": "sfx/trebuchetEntry.ogg",
+        "group": "sfx",
+        "gain": [
+          1.0,
+          1.0
+        ],
+        "pitch": [
+          1.0,
+          1.0
+        ],
+        "legacyTailHex": "000000000000000001",
+        "legacyTailFloats": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "type": "play",
+        "scope": 1,
+        "clip": "sfx/infantrySkeletonEntry.ogg",
+        "group": "sfx",
+        "gain": [
+          0.8999999761581421,
+          1.100000023841858
+        ],
+        "pitch": [
+          0.800000011920929,
+          0.800000011920929
+        ],
+        "legacyTailHex": "000000000000000001",
+        "legacyTailFloats": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "type": "play",
+        "scope": 1,
+        "clip": "sfx/infantrySkeletonEntry.ogg",
+        "group": "sfx",
+        "gain": [
+          0.8999999761581421,
+          1.100000023841858
+        ],
+        "pitch": [
+          0.800000011920929,
+          0.800000011920929
+        ],
+        "legacyTailHex": "cdcc4c3e0000000001",
+        "legacyTailFloats": [
+          0.20000000298023224,
+          0.0
+        ]
+      }
+    ]
+  },
+  "_payloadHex": "0300000004000000706c617901000000160000007366782f747265627563686574456e7472792e6f6767030000007366780000803f0000803f0000803f0000803f00000000000000000104000000706c6179010000001d0000007366782f696e66616e747279536b656c65746f6e456e7472792e6f6767030000007366786666663fcdcc8c3fcdcc4c3fcdcc4c3f00000000000000000104000000706c6179010000001d0000007366782f696e66616e747279536b656c65746f6e456e7472792e6f6767030000007366786666663fcdcc8c3fcdcc4c3fcdcc4c3fcdcc4c3e0000000001"
+}

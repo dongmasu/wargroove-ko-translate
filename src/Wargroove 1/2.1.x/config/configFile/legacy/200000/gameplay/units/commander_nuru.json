@@ -1,0 +1,171 @@
+{
+  "unitClasses": [
+    {
+      "aiPriority": 8.0,
+      "battleUnitCount": 1,
+      "cost": 500,
+      "grooveId": "teleport_beam",
+      "id": "commander_nuru",
+      "isCommander": "true",
+      "moveRange": 4,
+      "movement": "walking",
+      "name": "unit_class_name_commander",
+      "regeneration": 5,
+      "tags": [
+        "commander",
+        "type.ground.light"
+      ],
+      "verbs": [
+        "load",
+        "capture"
+      ],
+      "weapons": [
+        {
+          "id": "nuruAttack"
+        }
+      ]
+    }
+  ],
+  "units": [
+    {
+      "alternativeAttackSounds": {
+        "no_voice": "nuru/nuruAttackNoVoice"
+      },
+      "attacks": [
+        {
+          "hitDelay": 2.049999952316284,
+          "hitSpark": "fx/bs_stab_attack",
+          "id": "primary",
+          "ranged": "false"
+        }
+      ],
+      "battleAnimation": "units/commanders/nuru/battle_nuru",
+      "battleAnimationRiver": "fx/river_overlay/battle_nuru_river",
+      "class": "commander_nuru",
+      "deathMoveMax": 0,
+      "deathMoveMin": 0,
+      "emotes": {
+        "bow": "emote_bow",
+        "dance": "emote_dance",
+        "hypno": "emote_hypno",
+        "idle": "idle",
+        "laugh": "emote_laugh",
+        "negative": "emote_negative",
+        "positive": "emote_positive",
+        "surprise": "emote_surprise"
+      },
+      "faction": "floran",
+      "grabPos": [
+        31,
+        25
+      ],
+      "mapAnimation": "units/commanders/nuru/map_nuru",
+      "mapSpeed": 4.0,
+      "mediumPortrait": "units/commanders/nuru/portrait_nuru_medium.png",
+      "name": "character_nuru_name",
+      "shouts": {
+        "nuru_attack1": "nuru/nuruShoutAttack1",
+        "nuru_attack2": "nuru/nuruShoutAttack2",
+        "nuru_attack3": "nuru/nuruShoutAttack3",
+        "nuru_attack4": "nuru/nuruShoutAttack4",
+        "nuru_bigfight": "nuru/nuruShoutBigFight",
+        "nuru_cantwait": "nuru/nuruShoutCantWait",
+        "nuru_diversion": "nuru/nuruShoutJustADiversion",
+        "nuru_fanfavourite": "nuru/nuruShoutFanFavourite",
+        "nuru_floranneversurrender": "nuru/nuruShoutFloranNeverSurrender",
+        "nuru_foughtbigger": "nuru/nuruShoutFoughtBigger",
+        "nuru_getusedtothis": "nuru/nuruShoutCouldGetUsedToThis",
+        "nuru_ha": "nuru/nuruShoutHa",
+        "nuru_hereicome": "nuru/nuruShoutHereICome",
+        "nuru_hey": "nuru/nuruShoutHey",
+        "nuru_heyesther": "nuru/nuruShoutHeyEsther",
+        "nuru_hit1": "nuru/nuruShoutHit1",
+        "nuru_hit2": "nuru/nuruShoutHit2",
+        "nuru_hit3": "nuru/nuruShoutHit3",
+        "nuru_hit4": "nuru/nuruShoutHit4",
+        "nuru_hit5": "nuru/nuruShoutHit5",
+        "nuru_hitexaggerated": "nuru/nuruShoutHitExaggerated",
+        "nuru_introduction": "nuru/nuruShoutIntroduction",
+        "nuru_laugh": "nuru/nuruShoutLaugh",
+        "nuru_likeyou": "nuru/nuruShoutLikeYouAlready",
+        "nuru_littlehelp": "nuru/nuruShoutLittleHelp",
+        "nuru_makingamistake": "nuru/nuruShoutMakingAMistake",
+        "nuru_missioncomplete": "nuru/nuruShoutMissionComplete",
+        "nuru_myfight": "nuru/nuruShoutThisIsMyFight",
+        "nuru_nah": "nuru/nuruShoutNah",
+        "nuru_needbackup": "nuru/nuruShoutNeedBackup",
+        "nuru_neverlostbefore": "nuru/nuruShoutNeverLostBefore",
+        "nuru_notfromroundhere": "nuru/nuruShoutNotFromRoundHere",
+        "nuru_oops": "nuru/nuruShoutOops",
+        "nuru_reinforcements": "nuru/nuruShoutCallingReinforcements",
+        "nuru_seeya": "nuru/nuruShoutSeeya",
+        "nuru_sidequest": "nuru/nuruShoutSideQuest",
+        "nuru_sigh": "nuru/nuruShoutSigh",
+        "nuru_stillchampion": "nuru/nuruShoutStillChampion",
+        "nuru_stillundefeated": "nuru/nuruShoutStillUndefeated",
+        "nuru_surprise": "nuru/nuruShoutSurprise",
+        "nuru_takethis": "nuru/nuruShoutIllTakeThis",
+        "nuru_terreneprotectorate": "nuru/nuruShoutTerreneProtectorate",
+        "nuru_thanks": "nuru/nuruShoutThanks",
+        "nuru_what": "nuru/nuruShoutWhat",
+        "nuru_yeah": "nuru/nuruShoutYeah",
+        "nuru_yoink": "nuru/nuruShoutYoink",
+        "nuru_yougotlucky": "nuru/nuruShoutYouGotLucky"
+      },
+      "smallPortrait": "units/commanders/nuru/portrait_nuru_small.png",
+      "sounds": {
+        "attack": "nuru/nuruAttack",
+        "attackCommanderShout": "nuru/nuruCommanderKillShout",
+        "attackMap": "unitAttack",
+        "attackShout": "nuru/nuruAttackShout",
+        "captureShout": "nuru/nuruShoutIllTakeThis",
+        "death": "nuru/nuruDie",
+        "deathMap": "nuru/nuruDieGhost",
+        "deathMapNoBattle": "nuru/nuruDieNoBattle",
+        "firstHit": "nuru/nuruHit",
+        "groove": "nuru/nuruGrooveIntro",
+        "hit": "hitOrganic",
+        "hitMap": "hitOrganic",
+        "run": "infantryLightMapEntry",
+        "runMap": "infantryLightMapEntry"
+      }
+    }
+  ],
+  "weapons": [
+    {
+      "baseDamage": {
+        "land": 1
+      },
+      "canMoveAndAttack": "true",
+      "id": "nuruAttack",
+      "rangeMax": 1,
+      "rangeMin": 1,
+      "tagDamage": {
+        "archer": 1.2999999523162842,
+        "ballista": 0.6000000238418579,
+        "balloon": 0.550000011920929,
+        "commander": 0.4000000059604645,
+        "dog": 1.149999976158142,
+        "dragon": 0.3499999940395355,
+        "giant": 0.4000000059604645,
+        "harpoonship": 0.44999998807907104,
+        "harpy": 0.8999999761581421,
+        "knight": 0.550000011920929,
+        "mage": 0.800000011920929,
+        "merman": 0.949999988079071,
+        "rifleman": 1.0499999523162842,
+        "soldier": 1.149999976158142,
+        "spearman": 0.75,
+        "structure": 0.699999988079071,
+        "thief": 0.949999988079071,
+        "travelboat": 0.6000000238418579,
+        "trebuchet": 0.550000011920929,
+        "turtle": 0.550000011920929,
+        "villager": 0.949999988079071,
+        "wagon": 0.699999988079071,
+        "warship": 0.550000011920929,
+        "witch": 0.699999988079071
+      }
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "children": [
+    {
+      "children": [
+        {
+          "proportion": 1,
+          "widget": {
+            "class": "optionsGrid",
+            "columnProportions": [
+              1.0,
+              0.0
+            ],
+            "options": [
+              {
+                "sprite": "menuicons_description",
+                "spriteSheet": "ui",
+                "textKey": "ui_cutscene_name",
+                "widget": {
+                  "class": "textInput",
+                  "id": "cutsceneName",
+                  "maxLength": 40
+                }
+              },
+              {
+                "sprite": "menuicons_biome",
+                "spriteSheet": "ui",
+                "textKey": "ui_cutscene_background",
+                "widget": {
+                  "class": "dropdown",
+                  "id": "background"
+                }
+              },
+              {
+                "sprite": "menuicons_weather",
+                "spriteSheet": "ui",
+                "textKey": "ui_cutscene_weather",
+                "widget": {
+                  "class": "dropdown",
+                  "id": "weather",
+                  "size": [
+                    100,
+                    14
+                  ]
+                }
+              },
+              {
+                "sprite": "menuicons_plays_music",
+                "spriteSheet": "ui",
+                "textKey": "ui_cutscene_music",
+                "widget": {
+                  "class": "dropdown",
+                  "id": "music",
+                  "size": [
+                    100,
+                    14
+                  ]
+                }
+              },
+              {
+                "sprite": "menuicons_soundeffect",
+                "spriteSheet": "ui",
+                "textKey": "ui_cutscene_ambience",
+                "widget": {
+                  "class": "dropdown",
+                  "id": "ambience",
+                  "size": [
+                    100,
+                    14
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "widget": {
+            "class": "horizontalDiv"
+          }
+        },
+        {
+          "widget": {
+            "class": "dialogueButtons",
+            "hasCancel": "false",
+            "hasClose": "true",
+            "hasOK": "false"
+          }
+        }
+      ],
+      "sizer": {
+        "type": "vertical"
+      },
+      "widget": {
+        "class": "dialogue",
+        "size": [
+          300,
+          150
+        ],
+        "style": "optionBorder",
+        "titleKey": "ui_cutscene_scene_settings"
+      }
+    }
+  ],
+  "sizer": {
+    "type": "vertical"
+  },
+  "widget": {
+    "childLayerAdjustment": 1,
+    "class": "widget"
+  }
+}

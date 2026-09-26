@@ -1,0 +1,23 @@
+{
+  "uiStyle": {
+    "dialogueLight": {
+      "background": "ui/widgets/window/scroll_embed_window.png",
+      "clearBackground": {
+        "colour": "#F4F6E9",
+        "img": "ui/whitebox.png"
+      },
+      "innerBorder": [
+        8,
+        7,
+        8,
+        8
+      ],
+      "titleBar": "ui/widgets/window/dialoguetitle_light.png",
+      "titleLabel": {
+        "colour": "#3D4265",
+        "font": "Wargroove Medium",
+        "size": 16
+      }
+    }
+  }
+}

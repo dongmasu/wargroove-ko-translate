@@ -1,0 +1,99 @@
+{
+  "children": [
+    {
+      "children": [
+        {
+          "proportion": 1,
+          "widget": {
+            "class": "optionsGrid",
+            "columnProportions": [
+              0.5,
+              0.5
+            ],
+            "options": [
+              {
+                "textKey": "ui_cutscene_action_time",
+                "widget": {
+                  "class": "textInput",
+                  "id": "time",
+                  "size": [
+                    100,
+                    14
+                  ],
+                  "text": 1.0
+                }
+              }
+            ]
+          }
+        },
+        {
+          "widget": {
+            "class": "horizontalDiv"
+          }
+        },
+        {
+          "children": [
+            {
+              "fill": [
+                "left"
+              ],
+              "widget": {
+                "button": "tertiary",
+                "class": "gamepadButton",
+                "id": "deleteEvent",
+                "size": [
+                  40,
+                  0
+                ],
+                "textKey": "ui_widget_button_delete_event"
+              }
+            },
+            {
+              "fill": [
+                "right"
+              ],
+              "proportion": 1,
+              "widget": {
+                "button": "cancel",
+                "class": "gamepadButton",
+                "id": "close",
+                "size": [
+                  40,
+                  12
+                ],
+                "textKey": "ui_widget_button_close"
+              }
+            }
+          ],
+          "fill": [
+            "fillHorizontal"
+          ],
+          "sizer": {
+            "columns": 2,
+            "type": "horizontal"
+          }
+        }
+      ],
+      "sizer": {
+        "type": "vertical"
+      },
+      "widget": {
+        "class": "dialogue",
+        "id": "window",
+        "size": [
+          200,
+          240
+        ],
+        "style": "optionBorder",
+        "titleKey": "ui_cutscene_action_type_wait"
+      }
+    }
+  ],
+  "sizer": {
+    "type": "vertical"
+  },
+  "widget": {
+    "childLayerAdjustment": 1,
+    "class": "widget"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "children": [
+    {
+      "border": [
+        0,
+        0,
+        0,
+        2
+      ],
+      "fill": "centre",
+      "widget": {
+        "class": "label",
+        "textKey": "ui_map_new_objective"
+      }
+    },
+    {
+      "widget": {
+        "class": "label",
+        "id": "objectivesText",
+        "maxWidth": 168
+      }
+    }
+  ],
+  "sizer": {
+    "type": "vertical"
+  },
+  "widget": {
+    "class": "image",
+    "id": "objectives",
+    "image": "ui/main_game_ui/objectives_panel.png",
+    "innerBorder": [
+      5,
+      2,
+      5,
+      5
+    ]
+  }
+}

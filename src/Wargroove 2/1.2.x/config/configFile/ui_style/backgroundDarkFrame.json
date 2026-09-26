@@ -1,0 +1,20 @@
+{
+  "uiStyle": {
+    "backgroundDarkFrame": {
+      "frame": null,
+      "frameBorder": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "framedImage": "ui/background/pattern_factions_bg.png",
+      "innerBorder": [
+        2,
+        2,
+        2,
+        2
+      ]
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "uiStyle": {
+    "editorPalette": {
+      "background": "",
+      "extraMouseBorder": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "gap": 0,
+      "innerBorder": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "item": {
+        "hover": "ui/map_editor/map_editor_palette_hover.png",
+        "innerBorder": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "normal": "ui/map_editor/map_editor_palette_normal.png",
+        "selected": "ui/map_editor/map_editor_palette_selected.png"
+      },
+      "selectionChangedSound": "ui/editor/palette_change_selection"
+    }
+  }
+}

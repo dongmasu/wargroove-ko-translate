@@ -1,0 +1,94 @@
+{
+  "uiStyle": {
+    "innerWindow": {
+      "background": "ui/widgets/window/flat_window.png",
+      "innerBorder": [
+        5,
+        5,
+        5,
+        5
+      ]
+    },
+    "innerWindowCard": {
+      "background": "ui/main_game_ui/card_container.png",
+      "innerBorder": [
+        3,
+        3,
+        4,
+        4
+      ]
+    },
+    "innerWindowCardBorder": {
+      "background": "ui/widgets/window/card_inner_border.png",
+      "innerBorder": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "innerWindowCardImageBorder": {
+      "background": "ui/widgets/window/card_image_inner_border.png",
+      "innerBorder": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "innerWindowCardOld": {
+      "background": "ui/main_game_ui/card_container_old.png",
+      "innerBorder": [
+        3,
+        3,
+        4,
+        4
+      ]
+    },
+    "innerWindowCardPaper": {
+      "background": "ui/main_game_ui/card_container_paper.png",
+      "innerBorder": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "innerWindowFilled": {
+      "background": "ui/widgets/window/flat_window_filled.png",
+      "innerBorder": [
+        3,
+        3,
+        4,
+        4
+      ]
+    },
+    "innerWindowMainMenu": {
+      "background": "ui/widgets/window/main_menu_card.png",
+      "innerBorder": [
+        11,
+        11,
+        10,
+        7
+      ]
+    },
+    "innerWindowThin": {
+      "background": "ui/widgets/window/flat_box_thin.png",
+      "innerBorder": [
+        3,
+        3,
+        4,
+        4
+      ]
+    },
+    "innerWindowWhite": {
+      "background": "ui/widgets/window/flat_window_white.png",
+      "innerBorder": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "children": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "fill": [
+                "left",
+                "centreVertical"
+              ],
+              "proportion": 1,
+              "widget": {
+                "class": "label",
+                "textKey": "ui_end_of_match_stats_total_turns"
+              }
+            },
+            {
+              "fill": [
+                "right",
+                "centreVertical"
+              ],
+              "widget": {
+                "class": "label",
+                "id": "totalTurns",
+                "text": "XX"
+              }
+            }
+          ],
+          "sizer": {
+            "type": "horizontal"
+          },
+          "widget": {
+            "class": "image",
+            "image": "ui/cutscene/dialoguebox_simple.png",
+            "innerBorder": [
+              5,
+              0,
+              10,
+              2
+            ],
+            "size": [
+              150,
+              21
+            ]
+          }
+        }
+      ],
+      "fill": "centre",
+      "sizer": {
+        "type": "vertical"
+      },
+      "widget": {
+        "class": "widget",
+        "size": [
+          0,
+          42
+        ]
+      }
+    },
+    {
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "children": [
+        {
+          "proportion": 1,
+          "widget": {
+            "button": "tertiary",
+            "class": "gamepadButton",
+            "id": "difficulty",
+            "size": [
+              45,
+              15
+            ],
+            "style": "buttonFNoDisable",
+            "textKey": "ui_end_of_match_difficulty"
+          }
+        },
+        {
+          "proportion": 1,
+          "widget": {
+            "button": "secondary",
+            "class": "gamepadButton",
+            "id": "retry",
+            "size": [
+              45,
+              15
+            ],
+            "style": "buttonFNoDisable",
+            "textKey": "ui_end_of_match_retry"
+          }
+        },
+        {
+          "proportion": 1,
+          "widget": {
+            "button": "primary",
+            "class": "gamepadButton",
+            "id": "exit",
+            "size": [
+              45,
+              15
+            ],
+            "style": "buttonFNoDisable",
+            "textKey": "ui_end_of_match_exit"
+          }
+        }
+      ],
+      "fill": [
+        "centre"
+      ],
+      "sizer": {
+        "type": "horizontal"
+      }
+    }
+  ],
+  "sizer": {
+    "type": "vertical"
+  },
+  "widget": {
+    "class": "widget"
+  }
+}

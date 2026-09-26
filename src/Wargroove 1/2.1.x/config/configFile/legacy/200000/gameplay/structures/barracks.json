@@ -1,0 +1,68 @@
+{
+  "unitClasses": [
+    {
+      "aiPriority": 4.0,
+      "battleUnitCount": 1,
+      "canBeCaptured": "true",
+      "canBeReinforced": "false",
+      "canReinforce": "true",
+      "cost": 500,
+      "damageMultiplier": 1,
+      "id": "barracks",
+      "income": 0,
+      "isNeutraliseable": "true",
+      "isStructure": "true",
+      "movement": "land_building",
+      "name": "structure_name_barracks",
+      "recruitTags": [
+        "type.ground.light",
+        "type.ground.heavy"
+      ],
+      "regeneration": 10,
+      "sightRange": 6,
+      "tags": [
+        "structure"
+      ],
+      "verbs": [
+        "recruit"
+      ]
+    }
+  ],
+  "units": [
+    {
+      "class": "barracks",
+      "faction": "neutral",
+      "grabPos": [
+        11,
+        7
+      ],
+      "mapAnimation": "structures/barracks",
+      "mediumPortrait": "portraits/medium/barracks.png",
+      "name": "structure_name_barracks",
+      "smallPortrait": "portraits/small/portrait_structure_small.png",
+      "sounds": {
+        "death": "gateDie",
+        "hit": "hitWood",
+        "hitMap": "hitStone"
+      },
+      "structureImage": {
+        "farBackground": "barracks_background_full_background_2",
+        "foreground": "barracks_background_full_foreground",
+        "keeperPosition": [
+          74,
+          85
+        ],
+        "leftBannerOffset": [
+          2,
+          0
+        ],
+        "nearBackground": "barracks_background_full_background_1",
+        "rightBannerOffset": [
+          3,
+          1
+        ],
+        "spriteSheet": "backgrounds/barracks/barracks_background_full"
+      }
+    }
+  ]
+}

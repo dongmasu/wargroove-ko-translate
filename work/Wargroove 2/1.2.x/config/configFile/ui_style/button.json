@@ -1,0 +1,45 @@
+{
+  "uiStyle": {
+    "button": {
+      "borderOnly": "ui/widgets/button/button_border.png",
+      "disabled": "ui/widgets/button/button_disabled.png",
+      "down": "ui/widgets/button/button_down.png",
+      "downSound": "ui/menuSelect",
+      "hover": "ui/widgets/button/button_hover.png",
+      "hoverSound": "",
+      "iconBorder": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "innerBorder": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "label": {
+        "colour": "#f4f6e9",
+        "font": "Wargroove Medium",
+        "size": 16,
+        "smoothness": 0
+      },
+      "labelBorder": [
+        2,
+        -2,
+        1,
+        -1
+      ],
+      "labelGamepad": {
+        "colour": "#473d52",
+        "font": "Wargroove Medium",
+        "size": 16,
+        "smoothness": 0
+      },
+      "normal": "ui/widgets/button/button.png",
+      "shortcutPressedSound": "ui/menuSelect",
+      "upSound": ""
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "timelines": {
+    "render": [
+      "SpriteRender",
+      "DottedLineRender",
+      "SectorRender",
+      "UIRender",
+      "CameraRenderTarget",
+      "CameraRender"
+    ],
+    "variableUpdate": [
+      "UIMouse",
+      "SelectionCursorEditor",
+      "SelectionCursor",
+      "CampaignEditor",
+      "PlacementPreview",
+      "CampaignLoading",
+      "CampaignMusic",
+      "LoopingSound",
+      "Bird",
+      "Fish",
+      "Cloud",
+      "ShadowCaster",
+      "DestroyAfterAnimation",
+      "CameraShake",
+      "Hierarchy",
+      "CameraScrolling",
+      "ScreenPosition",
+      "GridPositioning",
+      "SpriteAnimation",
+      "LightSourceAnimation",
+      "TimeShader",
+      "UILayout"
+    ]
+  }
+}

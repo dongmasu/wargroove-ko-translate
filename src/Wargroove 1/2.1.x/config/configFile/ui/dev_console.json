@@ -1,0 +1,109 @@
+{
+  "children": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "children": [],
+              "sizer": {
+                "type": "vertical"
+              },
+              "widget": {
+                "class": "widget",
+                "id": "messageLogContainer"
+              }
+            }
+          ],
+          "proportion": 1,
+          "sizer": {
+            "type": "vertical"
+          },
+          "widget": {
+            "class": "scrollBarPane"
+          }
+        },
+        {
+          "children": [
+            {
+              "proportion": 1,
+              "widget": {
+                "class": "optionsGrid",
+                "columnProportions": [
+                  0.0,
+                  1.0
+                ],
+                "options": [
+                  {
+                    "textKey": "ui_dev_console_command",
+                    "widget": {
+                      "class": "textInput",
+                      "id": "input",
+                      "size": [
+                        100,
+                        14
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "widget": {
+                "button": "secondary",
+                "class": "gamepadButton",
+                "id": "submit",
+                "size": [
+                  40,
+                  14
+                ],
+                "textKey": "ui_dev_console_submit"
+              }
+            }
+          ],
+          "sizer": {
+            "type": "horizontal"
+          }
+        },
+        {
+          "widget": {
+            "class": "horizontalDiv"
+          }
+        },
+        {
+          "widget": {
+            "class": "dialogueButtons",
+            "hasCancel": "false",
+            "hasClose": "true",
+            "hasOK": "false"
+          }
+        }
+      ],
+      "fill": "centre",
+      "proportion": 1,
+      "sizer": {
+        "type": "vertical"
+      },
+      "widget": {
+        "class": "dialogue",
+        "size": [
+          300,
+          200
+        ],
+        "titleKey": "ui_dev_console_title"
+      }
+    }
+  ],
+  "sizer": {
+    "type": "vertical"
+  },
+  "widget": {
+    "class": "image",
+    "colour": "#000000B0",
+    "image": "ui/whitebox.png",
+    "size": [
+      4000,
+      4000
+    ]
+  }
+}

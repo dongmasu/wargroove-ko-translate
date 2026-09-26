@@ -1,0 +1,43 @@
+{
+  "frames": [
+    {
+      "colour": "#e9e9e9",
+      "position": 0,
+      "time": 0.0
+    },
+    {
+      "colour": "#e9e9e9",
+      "position": 6,
+      "time": 0.10000000149011612
+    },
+    {
+      "colour": "#e9e9e9",
+      "position": 22,
+      "time": 0.20000000298023224
+    },
+    {
+      "colour": "#e9e9e9",
+      "position": 78,
+      "time": 0.30000001192092896
+    },
+    {
+      "colour": "#e9e9e9",
+      "position": 188,
+      "time": 0.4000000059604645
+    },
+    {
+      "colour": "#e9e9e9",
+      "drawSeparator": true,
+      "interpolate": false,
+      "position": 198,
+      "time": 0.5
+    },
+    {
+      "colour": "#e9e9e9",
+      "drawSeparator": true,
+      "interpolate": false,
+      "position": 195,
+      "time": 0.6000000238418579
+    }
+  ]
+}

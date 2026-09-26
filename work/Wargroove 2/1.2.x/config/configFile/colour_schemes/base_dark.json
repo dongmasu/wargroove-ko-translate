@@ -1,0 +1,191 @@
+{
+  "colours": {
+    "background0": "#141414",
+    "background1": "#121212",
+    "backgroundLogo": "#101010",
+    "icon_animation": "#2457FF",
+    "icon_audioClip": "#F479AD",
+    "icon_audioEvent": "#EF83F8",
+    "icon_audioObject": "#CE26CE",
+    "icon_binaryFile": "#DEAEED",
+    "icon_bitmapFont": "#D538E9",
+    "icon_colours": "#00DDE1",
+    "icon_configFile": "#26E743",
+    "icon_directory": "#CDCDCD",
+    "icon_font": "#D538E9",
+    "icon_gameProperties": "#AFD8BB",
+    "icon_image": "#3862E9",
+    "icon_localisation": "#43FA52",
+    "icon_materialDefinition": "#B81616",
+    "icon_mesh": "#9623DD",
+    "icon_meshAnimation": "#2457FF",
+    "icon_movie": "#AEBFED",
+    "icon_navmeshSet": "#ACD2FD",
+    "icon_prefab": "#FFFF40",
+    "icon_renderGraphDefinition": "#EC3C09",
+    "icon_scene": "#77E726",
+    "icon_scriptGraph": "#CE75EC",
+    "icon_shader": "#EC7171",
+    "icon_simpleCopy": "#DEAEED",
+    "icon_sprite": "#3862E9",
+    "icon_spriteSheet": "#7023DD",
+    "icon_textFile": "#AEEDBB",
+    "icon_texture": "#9D38E9",
+    "icon_uiDefinition": "#21B4E4",
+    "icon_variableTable": "#50E9BB",
+    "logo": "#FC2847",
+    "taskComplete": "#29B057",
+    "taskError": "#ED3333",
+    "taskRunning": "#2E87DE",
+    "taskStatusBackground": "#00000080",
+    "taskWarning": "#F4CD55",
+    "taskbarLogoBackground": "#1D1D1D",
+    "toolbarDown": "#D30322",
+    "toolbarHover": "#F98A9A",
+    "toolbarIconHover": "#FFCDCD",
+    "toolbarIconNormal": "#FFFFFF",
+    "toolbarIconSelected": "#000000",
+    "toolbarNormal": "#FC2847",
+    "toolbarSelected": "#FFFFFF",
+    "toolbarText": "#FFFFFF",
+    "ui_disabledText": "#7F7F7F",
+    "ui_disabledTextAlt": "#B7A351",
+    "ui_inputCaret": "#FFFFFF",
+    "ui_logDevText": "#3060FF",
+    "ui_logErrorText": "#E84A4A",
+    "ui_logInfoText": "#FFFFFF",
+    "ui_logWarningText": "#FFDD1C",
+    "ui_scrollBackground": "#808080",
+    "ui_selectedText": "#FFFFFF",
+    "ui_selectedTextAlt": "#FFCD06",
+    "ui_staticListBackground": "#3e6e53dd",
+    "ui_staticListBackgroundAlternate": "#30463ddd",
+    "ui_staticListBackgroundInvalid": "#644853dd",
+    "ui_stringMatchText": "#99FF99",
+    "ui_text": "#FFFFFF",
+    "ui_textGhost": "#7F7F7F",
+    "ui_text_outline": "#000000",
+    "ui_unselectedText": "#FFFFFF",
+    "ui_unselectedTextAlt": "#FFCD06"
+  },
+  "defaultColour": "#FFFFFF",
+  "enabled": false,
+  "name": "Base (Dark)",
+  "sprites": {
+    "ui_button": {
+      "img": "halley_ui/ui_button.png"
+    },
+    "ui_canvas_border": {
+      "img": "halley_ui/rounded_corners_border.png",
+      "material": "Halley/Sprite"
+    },
+    "ui_checkbox": {
+      "img": "halley_ui/ui_checkbox.png",
+      "material": "Halley/Sprite"
+    },
+    "ui_checkbox_checked": {
+      "img": "halley_ui/ui_checkbox_checked.png",
+      "material": "Halley/Sprite"
+    },
+    "ui_dropdown_closed": {
+      "img": "halley_ui/ui_dropdown_closed.png",
+      "material": "Halley/Sprite"
+    },
+    "ui_dropdown_open": {
+      "img": "halley_ui/ui_dropdown_open.png",
+      "material": "Halley/Sprite"
+    },
+    "ui_dropdown_open_up": {
+      "img": "halley_ui/ui_dropdown_open_up.png",
+      "material": "Halley/Sprite"
+    },
+    "ui_dropdown_window": {
+      "img": "halley_ui/ui_dropdown_window.png",
+      "material": "Halley/Sprite"
+    },
+    "ui_dropdown_window_up": {
+      "img": "halley_ui/ui_dropdown_window_up.png",
+      "material": "Halley/Sprite"
+    },
+    "ui_float_window": {
+      "img": "halley_ui/ui_float_window.png",
+      "material": "Halley/Sprite"
+    },
+    "ui_hex_background": {
+      "img": "halley_ui/hex_bg_small.png",
+      "material": "Halley/Sprite"
+    },
+    "ui_input": {
+      "img": "halley_ui/ui_input.png",
+      "material": "Halley/Sprite"
+    },
+    "ui_input_thin": {
+      "img": "halley_ui/ui_input_thin.png",
+      "material": "Halley/Sprite"
+    },
+    "ui_list_background": {
+      "img": "halley_ui/ui_list_item.png",
+      "material": "Halley/Sprite"
+    },
+    "ui_list_item": {
+      "img": "halley_ui/ui_list_item_selection.png",
+      "material": "Halley/Sprite"
+    },
+    "ui_list_item_drag": {
+      "img": "halley_ui/ui_list_item.png",
+      "material": "Halley/Sprite"
+    },
+    "ui_popup": {
+      "img": "halley_ui/ui_popup.png",
+      "material": "Halley/Sprite"
+    },
+    "ui_scroll_background": {
+      "img": "halley_ui/checkered.png",
+      "material": "Halley/Sprite"
+    },
+    "ui_separator": {
+      "img": "halley_ui/ui_separator.png",
+      "material": "Halley/Sprite"
+    },
+    "ui_tab_hover": {
+      "img": "halley_ui/tabs/tab_hover.png",
+      "material": "Halley/Sprite"
+    },
+    "ui_tab_modified": {
+      "img": "halley_ui/ui_tab_modified.png",
+      "material": "Halley/Sprite"
+    },
+    "ui_tab_normal": {
+      "img": "halley_ui/tabs/tab_normal.png",
+      "material": "Halley/Sprite"
+    },
+    "ui_tab_selected": {
+      "img": "halley_ui/tabs/tab_selected.png",
+      "material": "Halley/Sprite"
+    },
+    "ui_tabs_bg": {
+      "img": "halley_ui/tabs/tabs_bg.png",
+      "material": "Halley/Sprite"
+    },
+    "ui_task": {
+      "img": "halley_ui/ui_input.png",
+      "material": "Halley/Sprite"
+    },
+    "ui_task_fill": {
+      "img": "halley_ui/ui_list_item.png",
+      "material": "Halley/Sprite"
+    },
+    "ui_title_capsule": {
+      "img": "halley_ui/ui_title_capsule.png",
+      "material": "Halley/Sprite"
+    },
+    "ui_tooltip": {
+      "img": "halley_ui/ui_tooltip.png",
+      "material": "Halley/Sprite"
+    },
+    "ui_window": {
+      "img": "halley_ui/ui_window.png",
+      "material": "Halley/Sprite"
+    }
+  }
+}

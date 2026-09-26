@@ -1,0 +1,49 @@
+{
+  "children": [
+    {
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "fill": "centre",
+      "widget": {
+        "class": "image",
+        "id": "stateIcon",
+        "sprite": "mapscreen_selectedunitinfo_icons_groove",
+        "spriteSheet": "ui"
+      }
+    },
+    {
+      "border": [
+        0,
+        -1,
+        0,
+        0
+      ],
+      "fill": "centre",
+      "widget": {
+        "class": "label",
+        "id": "stateText",
+        "style": "labelSmall",
+        "text": "100%"
+      }
+    }
+  ],
+  "fill": "centre",
+  "proportion": 1,
+  "sizer": {
+    "type": "horizontal"
+  },
+  "widget": {
+    "class": "image",
+    "image": "ui/main_game_ui/card_ui_top_holder.png",
+    "innerBorder": [
+      2,
+      -1,
+      0,
+      0
+    ]
+  }
+}

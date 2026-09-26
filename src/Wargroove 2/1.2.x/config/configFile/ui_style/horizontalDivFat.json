@@ -1,0 +1,10 @@
+{
+  "uiStyle": {
+    "horizontalDivFat": {
+      "image": {
+        "colour": "#e7d9b0",
+        "img": "ui/widgets/divider/horizontaldivfat.png"
+      }
+    }
+  }
+}

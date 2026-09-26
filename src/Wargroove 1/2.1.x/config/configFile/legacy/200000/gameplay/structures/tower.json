@@ -1,0 +1,67 @@
+{
+  "unitClasses": [
+    {
+      "aiPriority": 4.0,
+      "battleUnitCount": 1,
+      "canBeCaptured": "true",
+      "canBeReinforced": "false",
+      "canReinforce": "true",
+      "cost": 500,
+      "damageMultiplier": 1,
+      "id": "tower",
+      "income": 0,
+      "isNeutraliseable": "true",
+      "isStructure": "true",
+      "movement": "land_building",
+      "name": "structure_name_tower",
+      "recruitTags": [
+        "type.air"
+      ],
+      "regeneration": 10,
+      "sightRange": 7,
+      "tags": [
+        "structure"
+      ],
+      "verbs": [
+        "recruit"
+      ]
+    }
+  ],
+  "units": [
+    {
+      "class": "tower",
+      "faction": "neutral",
+      "grabPos": [
+        14,
+        4
+      ],
+      "mapAnimation": "structures/tower",
+      "mediumPortrait": "portraits/medium/tower.png",
+      "name": "structure_name_tower",
+      "smallPortrait": "portraits/small/portrait_structure_small.png",
+      "sounds": {
+        "death": "gateDie",
+        "hit": "hitWood",
+        "hitMap": "hitStone"
+      },
+      "structureImage": {
+        "farBackground": "tower_background_full_background_2",
+        "foreground": "tower_background_full_foreground",
+        "keeperPosition": [
+          72,
+          75
+        ],
+        "leftBannerOffset": [
+          0,
+          0
+        ],
+        "nearBackground": "tower_background_full_background_1",
+        "rightBannerOffset": [
+          0,
+          0
+        ],
+        "spriteSheet": "backgrounds/tower/tower_background_full"
+      }
+    }
+  ]
+}

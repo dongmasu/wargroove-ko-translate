@@ -1,0 +1,228 @@
+{
+  "children": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "border": [
+                20,
+                10,
+                20,
+                10
+              ],
+              "children": [
+                {
+                  "children": [
+                    {
+                      "widget": {
+                        "class": "label",
+                        "id": "title",
+                        "text": "Title"
+                      }
+                    }
+                  ],
+                  "fill": "centre",
+                  "sizer": {
+                    "type": "horizontal"
+                  },
+                  "widget": {
+                    "class": "image",
+                    "colour": "#dfc686",
+                    "image": "ui/widgets/window/flat_box.png",
+                    "innerBorder": [
+                      3,
+                      0,
+                      3,
+                      0
+                    ]
+                  }
+                },
+                {
+                  "border": [
+                    0,
+                    10,
+                    0,
+                    10
+                  ],
+                  "fill": [
+                    "left",
+                    "centreVertical"
+                  ],
+                  "proportion": 1,
+                  "widget": {
+                    "class": "label",
+                    "id": "message",
+                    "maxWidth": 300,
+                    "text": "Message"
+                  }
+                },
+                {
+                  "children": [
+                    {
+                      "border": [
+                        0,
+                        0,
+                        9,
+                        0
+                      ],
+                      "sizer": {
+                        "type": "vertical"
+                      },
+                      "widget": {
+                        "class": "image",
+                        "id": "modListTitle",
+                        "image": "ui/widgets/window/list_title_holder.png",
+                        "innerBorder": [
+                          3,
+                          0,
+                          3,
+                          0
+                        ]
+                      }
+                    },
+                    {
+                      "children": [
+                        {
+                          "proportion": 1,
+                          "widget": {
+                            "canDrag": "false",
+                            "class": "list",
+                            "id": "modList"
+                          }
+                        }
+                      ],
+                      "proportion": 1,
+                      "widget": {
+                        "class": "scrollBarPane",
+                        "id": "modListPane",
+                        "size": [
+                          0,
+                          100
+                        ]
+                      }
+                    }
+                  ],
+                  "sizer": {
+                    "type": "vertical"
+                  },
+                  "widget": {
+                    "active": "false",
+                    "class": "widget",
+                    "id": "modListPaneHolder"
+                  }
+                },
+                {
+                  "children": [
+                    {
+                      "proportion": 1,
+                      "stretchSpacer": {}
+                    },
+                    {
+                      "widget": {
+                        "button": "accept",
+                        "class": "gamepadButton",
+                        "id": "resume",
+                        "size": [
+                          50,
+                          16
+                        ],
+                        "textKey": "ui_resume_match_resume"
+                      }
+                    },
+                    {
+                      "widget": {
+                        "button": "secondary",
+                        "class": "gamepadButton",
+                        "id": "abandon",
+                        "size": [
+                          50,
+                          16
+                        ],
+                        "textKey": "ui_resume_match_abandon"
+                      }
+                    },
+                    {
+                      "widget": {
+                        "button": "cancel",
+                        "class": "gamepadButton",
+                        "id": "cancel",
+                        "size": [
+                          50,
+                          16
+                        ],
+                        "textKey": "ui_resume_match_cancel"
+                      }
+                    },
+                    {
+                      "proportion": 1,
+                      "stretchSpacer": {}
+                    }
+                  ],
+                  "sizer": {
+                    "type": "horizontal"
+                  }
+                }
+              ],
+              "fill": "centre",
+              "sizer": {
+                "type": "vertical"
+              },
+              "widget": {
+                "class": "image",
+                "image": "ui/widgets/window/scroll_embed_window.png",
+                "innerBorder": [
+                  20,
+                  8,
+                  20,
+                  8
+                ],
+                "size": [
+                  40,
+                  40
+                ]
+              }
+            }
+          ],
+          "fill": "centre",
+          "proportion": 1,
+          "sizer": {
+            "gap": 0,
+            "type": "vertical"
+          },
+          "widget": {
+            "class": "framedImage",
+            "scrollPos": [
+              10,
+              -170
+            ],
+            "scrollSpeed": [
+              15,
+              0
+            ],
+            "size": [
+              4200,
+              10
+            ],
+            "style": "backgroundScroll"
+          }
+        }
+      ],
+      "sizer": {
+        "type": "vertical"
+      },
+      "widget": {
+        "class": "image",
+        "colour": "#000000B0",
+        "image": "ui/whitebox.png",
+        "size": [
+          4000,
+          4000
+        ]
+      }
+    }
+  ],
+  "widget": {
+    "class": "widget"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "uiStyle": {
+    "creditsRoleLabel": {
+      "label": {
+        "colour": "#656462",
+        "font": "Wargroove Medium",
+        "size": 16,
+        "smoothness": 0
+      }
+    }
+  }
+}

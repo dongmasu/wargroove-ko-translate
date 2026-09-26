@@ -1,0 +1,202 @@
+{
+  "children": [
+    {
+      "border": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "proportion": 1,
+      "widget": {
+        "class": "list",
+        "id": "toolsList",
+        "inputButtons": "tabs",
+        "options": [
+          {
+            "active": "false",
+            "border": [
+              4,
+              4,
+              4,
+              4
+            ],
+            "id": "terrain",
+            "sprite": "map_editor_tools_terrain",
+            "spriteSheet": "ui"
+          },
+          {
+            "active": "false",
+            "border": [
+              4,
+              4,
+              4,
+              4
+            ],
+            "id": "unit",
+            "sprite": "map_editor_tools_unit",
+            "spriteSheet": "ui"
+          },
+          {
+            "active": "false",
+            "border": [
+              4,
+              4,
+              4,
+              4
+            ],
+            "id": "structure",
+            "sprite": "map_editor_tools_structure",
+            "spriteSheet": "ui"
+          },
+          {
+            "active": "false",
+            "border": [
+              4,
+              4,
+              4,
+              4
+            ],
+            "id": "decoration",
+            "sprite": "map_editor_tools_decoration",
+            "spriteSheet": "ui"
+          },
+          {
+            "active": "false",
+            "border": [
+              4,
+              4,
+              4,
+              4
+            ],
+            "id": "gizmo",
+            "sprite": "map_editor_tools_gizmo",
+            "spriteSheet": "ui"
+          },
+          {
+            "active": "false",
+            "border": [
+              4,
+              4,
+              4,
+              4
+            ],
+            "id": "location",
+            "sprite": "map_editor_tools_location",
+            "spriteSheet": "ui"
+          },
+          {
+            "active": "false",
+            "border": [
+              4,
+              4,
+              4,
+              4
+            ],
+            "id": "properties",
+            "sprite": "map_editor_tools_properties",
+            "spriteSheet": "ui"
+          },
+          {
+            "active": "false",
+            "border": [
+              4,
+              4,
+              4,
+              4
+            ],
+            "id": "flag",
+            "sprite": "map_editor_tools_flag",
+            "spriteSheet": "ui"
+          },
+          {
+            "active": "false",
+            "border": [
+              4,
+              4,
+              4,
+              4
+            ],
+            "id": "path",
+            "sprite": "map_editor_tools_path",
+            "spriteSheet": "ui"
+          },
+          {
+            "active": "false",
+            "border": [
+              4,
+              4,
+              4,
+              4
+            ],
+            "id": "map_properties",
+            "sprite": "map_editor_tools_map_properties",
+            "spriteSheet": "ui"
+          },
+          {
+            "active": "false",
+            "border": [
+              4,
+              4,
+              4,
+              4
+            ],
+            "id": "move",
+            "sprite": "map_editor_tools_move",
+            "spriteSheet": "ui"
+          }
+        ],
+        "style": "editorToolbar",
+        "type": "horizontal"
+      }
+    },
+    {
+      "children": [
+        {
+          "widget": {
+            "class": "verticalDiv"
+          }
+        },
+        {
+          "border": [
+            2,
+            0,
+            2,
+            0
+          ],
+          "children": [
+            {
+              "widget": {
+                "class": "image",
+                "colour": "#F4F4E8",
+                "image": "ui/map_editor/settings_button.png"
+              }
+            }
+          ],
+          "fill": "centre",
+          "widget": {
+            "class": "button",
+            "id": "config"
+          }
+        }
+      ],
+      "widget": {
+        "class": "widget",
+        "id": "settingsButton"
+      }
+    }
+  ],
+  "sizer": {
+    "type": "horizontal"
+  },
+  "widget": {
+    "class": "image",
+    "image": "ui/widgets/window/flat_window.png",
+    "innerBorder": [
+      4,
+      4,
+      4,
+      4
+    ]
+  }
+}

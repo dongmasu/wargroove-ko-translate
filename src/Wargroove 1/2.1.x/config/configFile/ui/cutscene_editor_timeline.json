@@ -1,0 +1,177 @@
+{
+  "children": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "widget": {
+                "canDrag": "true",
+                "class": "list",
+                "id": "actionList"
+              }
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "fill": [
+                        "centreHorizontal"
+                      ],
+                      "widget": {
+                        "class": "image",
+                        "image": "ui/cutscene/cutscene_editor/soldier_felheim_create.png",
+                        "size": [
+                          48,
+                          64
+                        ]
+                      }
+                    },
+                    {
+                      "widget": {
+                        "alignment": 0.5,
+                        "class": "label",
+                        "maxWidth": 100,
+                        "textKey": "ui_cutscene_timeline_empty"
+                      }
+                    }
+                  ],
+                  "fill": "centre",
+                  "proportion": 1,
+                  "sizer": {
+                    "type": "vertical"
+                  },
+                  "widget": {
+                    "class": "widget"
+                  }
+                }
+              ],
+              "fill": "centre",
+              "proportion": 1,
+              "widget": {
+                "active": "false",
+                "class": "widget",
+                "id": "emptyActionList"
+              }
+            }
+          ],
+          "proportion": 1,
+          "sizer": {
+            "type": "vertical"
+          },
+          "widget": {
+            "class": "scrollBarPane",
+            "clipSize": [
+              250,
+              150
+            ]
+          }
+        },
+        {
+          "widget": {
+            "class": "horizontalDiv"
+          }
+        },
+        {
+          "children": [
+            {
+              "fill": [
+                "left"
+              ],
+              "proportion": 1,
+              "widget": {
+                "button": "tertiary",
+                "class": "gamepadButton",
+                "id": "new",
+                "size": [
+                  40,
+                  12
+                ],
+                "textKey": "ui_widget_button_new"
+              }
+            },
+            {
+              "fill": "right",
+              "widget": {
+                "button": "primary",
+                "class": "gamepadButton",
+                "id": "edit",
+                "size": [
+                  40,
+                  12
+                ],
+                "textKey": "ui_widget_button_edit"
+              }
+            }
+          ],
+          "fill": [
+            "fillHorizontal"
+          ],
+          "sizer": {
+            "type": "horizontal"
+          }
+        },
+        {
+          "children": [
+            {
+              "fill": [
+                "left"
+              ],
+              "proportion": 1,
+              "widget": {
+                "button": "cancel",
+                "class": "gamepadButton",
+                "id": "back",
+                "size": [
+                  40,
+                  12
+                ],
+                "textKey": "ui_widget_button_back"
+              }
+            },
+            {
+              "fill": [
+                "right"
+              ],
+              "widget": {
+                "button": "secondary",
+                "class": "gamepadButton",
+                "id": "move",
+                "size": [
+                  40,
+                  16
+                ],
+                "textKey": "ui_widget_button_move"
+              }
+            }
+          ],
+          "sizer": {
+            "type": "horizontal"
+          }
+        }
+      ],
+      "sizer": {
+        "type": "vertical"
+      },
+      "widget": {
+        "childLayerAdjustment": 1,
+        "class": "dialogue",
+        "id": "timelineDialogue",
+        "size": [
+          150,
+          0
+        ],
+        "style": "optionBorder",
+        "titleKey": "ui_cutscene_timeline"
+      }
+    }
+  ],
+  "sizer": {
+    "type": "vertical"
+  },
+  "widget": {
+    "childLayerAdjustment": 1,
+    "class": "widget"
+  }
+}

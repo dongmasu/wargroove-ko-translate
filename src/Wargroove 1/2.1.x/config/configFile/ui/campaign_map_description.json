@@ -1,0 +1,245 @@
+{
+  "children": [
+    {
+      "children": [
+        {
+          "fill": "centre",
+          "proportion": 1,
+          "widget": {
+            "alignment": 0.5,
+            "class": "label",
+            "id": "mapTitle",
+            "text": "<Map Name>"
+          }
+        }
+      ],
+      "widget": {
+        "class": "image",
+        "image": "ui/campaign/map_title_background.png",
+        "innerBorder": [
+          15,
+          0,
+          15,
+          0
+        ]
+      }
+    },
+    {
+      "children": [
+        {
+          "border": [
+            0,
+            -16,
+            -2,
+            0
+          ],
+          "fill": "right",
+          "widget": {
+            "class": "image",
+            "id": "medal",
+            "image": "ui/campaign/ui_medal_s.png"
+          }
+        }
+      ],
+      "fill": "right",
+      "widget": {
+        "class": "widget"
+      }
+    },
+    {
+      "border": [
+        0,
+        -16,
+        -2,
+        0
+      ],
+      "fill": "right",
+      "widget": {
+        "active": "false",
+        "class": "widget",
+        "id": "turnsForRankBuffer",
+        "size": [
+          16,
+          20
+        ]
+      }
+    },
+    {
+      "border": [
+        0,
+        -7,
+        0,
+        0
+      ],
+      "fill": "centre",
+      "proportion": 1,
+      "widget": {
+        "active": "true",
+        "alignment": 0.5,
+        "class": "label",
+        "id": "mapDescription",
+        "maxWidth": 134,
+        "text": "<Map Description>"
+      }
+    },
+    {
+      "border": [
+        0,
+        2,
+        0,
+        4
+      ],
+      "children": [
+        {
+          "border": [
+            0,
+            0,
+            4,
+            1
+          ],
+          "widget": {
+            "class": "label",
+            "id": "rank"
+          }
+        },
+        {
+          "children": [
+            {
+              "fill": "centre",
+              "proportion": 1,
+              "widget": {
+                "class": "label",
+                "id": "turnsCount"
+              }
+            }
+          ],
+          "fill": "centre",
+          "widget": {
+            "class": "image",
+            "image": "ui/widgets/textinput/inputbox.png",
+            "innerBorder": [
+              2,
+              0,
+              2,
+              1
+            ],
+            "size": [
+              30,
+              0
+            ]
+          }
+        }
+      ],
+      "fill": "centre",
+      "widget": {
+        "active": "false",
+        "class": "image",
+        "colour": "#D1BEAD",
+        "id": "turnsForRank",
+        "image": "ui/widgets/list/list_item_bg.png",
+        "innerBorder": [
+          4,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "children": [
+        {
+          "widget": {
+            "class": "image",
+            "image": "ui/icons/big_star.png"
+          }
+        },
+        {
+          "border": [
+            2,
+            1,
+            0,
+            0
+          ],
+          "fill": "centre",
+          "widget": {
+            "class": "label",
+            "id": "starCount",
+            "text": "65/100"
+          }
+        }
+      ],
+      "fill": "centre",
+      "proportion": 1,
+      "widget": {
+        "active": "false",
+        "class": "image",
+        "colour": "#D1BEAD",
+        "id": "needStars",
+        "image": "ui/widgets/list/list_item_bg.png",
+        "innerBorder": [
+          15,
+          5,
+          15,
+          5
+        ]
+      }
+    },
+    {
+      "children": [
+        {
+          "fill": "centre",
+          "proportion": 1,
+          "widget": {
+            "button": "cancel",
+            "class": "gamepadButton",
+            "id": "cancel",
+            "size": [
+              75,
+              15
+            ],
+            "textKey": "ui_widget_button_cancel"
+          }
+        },
+        {
+          "fill": "centre",
+          "proportion": 1,
+          "widget": {
+            "active": "true",
+            "button": "primary",
+            "class": "gamepadButton",
+            "id": "play",
+            "size": [
+              75,
+              15
+            ],
+            "textKey": "ui_widget_button_play_mission"
+          }
+        }
+      ],
+      "sizer": {
+        "type": "horizontal"
+      }
+    }
+  ],
+  "fill": [
+    "centreVertical",
+    "fillHorizontal"
+  ],
+  "sizer": {
+    "type": "vertical"
+  },
+  "widget": {
+    "class": "image",
+    "image": "ui/campaign/map_info_window.png",
+    "innerBorder": [
+      8,
+      5,
+      8,
+      8
+    ],
+    "size": [
+      167,
+      100
+    ]
+  }
+}

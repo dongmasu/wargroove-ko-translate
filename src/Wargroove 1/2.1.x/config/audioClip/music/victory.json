@@ -1,0 +1,47 @@
+{
+  "_assetType": "audioClip",
+  "_decoded": {
+    "legacy": true,
+    "actions": [
+      {
+        "type": "play",
+        "scope": 1,
+        "clip": "music/victory.ogg",
+        "group": "music",
+        "gain": [
+          1.0,
+          1.0
+        ],
+        "pitch": [
+          1.0,
+          1.0
+        ],
+        "legacyTailHex": "000000000000000000",
+        "legacyTailFloats": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "type": "play",
+        "scope": 1,
+        "clip": "music/results.ogg",
+        "group": "music",
+        "gain": [
+          1.0,
+          1.0
+        ],
+        "pitch": [
+          1.0,
+          1.0
+        ],
+        "legacyTailHex": "000008410000000001",
+        "legacyTailFloats": [
+          8.5,
+          0.0
+        ]
+      }
+    ]
+  },
+  "_payloadHex": "0200000004000000706c617901000000110000006d757369632f766963746f72792e6f6767050000006d757369630000803f0000803f0000803f0000803f00000000000000000004000000706c617901000000110000006d757369632f726573756c74732e6f6767050000006d757369630000803f0000803f0000803f0000803f000008410000000001"
+}

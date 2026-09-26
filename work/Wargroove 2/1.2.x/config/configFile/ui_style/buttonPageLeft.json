@@ -1,0 +1,54 @@
+{
+  "uiStyle": {
+    "buttonPageLeft": {
+      "borderOnly": {
+        "colour": "#A47750",
+        "img": "ui/widgets/paged_list/arrow_left.png"
+      },
+      "disabled": {
+        "colour": "#A47750",
+        "img": "ui/widgets/paged_list/arrow_left_disabled.png"
+      },
+      "down": {
+        "colour": "#DFC686",
+        "img": "ui/widgets/paged_list/arrow_left.png"
+      },
+      "downSound": "ui/menuSelect",
+      "hover": {
+        "colour": "#E9D6A4",
+        "img": "ui/widgets/paged_list/arrow_left.png"
+      },
+      "hoverSound": "",
+      "iconBorder": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "innerBorder": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "label": {
+        "colour": "#F4F4E8",
+        "font": "Wargroove Medium",
+        "size": 16,
+        "smoothness": 0
+      },
+      "labelBorder": [
+        0,
+        -4,
+        -1,
+        -3
+      ],
+      "normal": {
+        "colour": "#A47750",
+        "img": "ui/widgets/paged_list/arrow_left.png"
+      },
+      "shortcutPressedSound": "ui/menuSelect",
+      "upSound": ""
+    }
+  }
+}

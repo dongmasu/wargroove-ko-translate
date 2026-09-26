@@ -1,0 +1,18 @@
+{
+  "_assetType": "audioEvent",
+  "_decoded": {
+    "actions": [
+      {
+        "type": "stopBus",
+        "scope": 1,
+        "bus": "sfx",
+        "fade": {
+          "length": 0.5,
+          "delay": 0.0,
+          "curve": 1
+        }
+      }
+    ]
+  },
+  "_payloadHex": "010000000700000073746f7042757301000000030000007366780000003f0000000001000000"
+}

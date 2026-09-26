@@ -1,0 +1,99 @@
+{
+  "children": [
+    {
+      "fill": "left",
+      "widget": {
+        "class": "image",
+        "id": "commanderPortrait",
+        "image": "units/commanders/mercia/portrait_mercia_small.png"
+      }
+    },
+    {
+      "children": [
+        {
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "fill": [
+            "left",
+            "centreVertical"
+          ],
+          "widget": {
+            "active": "false",
+            "class": "image",
+            "id": "winIcon",
+            "image": "ui/end_of_match/winner_icon.png"
+          }
+        },
+        {
+          "fill": [
+            "left",
+            "centreVertical"
+          ],
+          "widget": {
+            "active": "false",
+            "class": "image",
+            "id": "loseIcon",
+            "image": "ui/end_of_match/loser_icon.png"
+          }
+        },
+        {
+          "fill": [
+            "left",
+            "centreVertical"
+          ],
+          "proportion": 1,
+          "widget": {
+            "class": "playerName",
+            "id": "commander",
+            "maxWidth": 59,
+            "style": "whiteLabel",
+            "textKey": "ui_map_player_stats_commander"
+          }
+        }
+      ],
+      "fill": [
+        "right",
+        "centreVertical"
+      ],
+      "proportion": 1,
+      "widget": {
+        "class": "image",
+        "colour": "#FF00FF",
+        "id": "teamColour",
+        "image": "ui/end_of_match/playerName_background.png",
+        "innerBorder": [
+          4,
+          2,
+          4,
+          2
+        ],
+        "size": [
+          82,
+          17
+        ]
+      }
+    }
+  ],
+  "sizer": {
+    "gap": 0,
+    "type": "horizontal"
+  },
+  "widget": {
+    "class": "image",
+    "image": "ui/end_of_match/commander_background.png",
+    "innerBorder": [
+      2,
+      1,
+      2,
+      1
+    ],
+    "size": [
+      105,
+      21
+    ]
+  }
+}

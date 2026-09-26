@@ -1,0 +1,26 @@
+{
+  "children": [
+    {
+      "widget": {
+        "class": "framedImage",
+        "scrollPos": [
+          10,
+          -100
+        ],
+        "scrollSpeed": [
+          10,
+          0
+        ],
+        "size": [
+          700,
+          86
+        ],
+        "style": "backgroundScroll"
+      }
+    }
+  ],
+  "widget": {
+    "childLayerAdjustment": -1,
+    "class": "widget"
+  }
+}

@@ -1,0 +1,274 @@
+{
+  "children": [
+    {
+      "widget": {
+        "class": "tabbedPane",
+        "id": "tabs",
+        "tabs": [
+          {
+            "children": [
+              {
+                "border": [
+                  3,
+                  3,
+                  3,
+                  3
+                ],
+                "widget": {
+                  "class": "optionsGrid",
+                  "columnProportions": [
+                    1.0,
+                    0.0
+                  ],
+                  "options": [
+                    {
+                      "sprite": "menuicons_commander",
+                      "spriteSheet": "ui",
+                      "textKey": "ui_player_properties_commander",
+                      "widget": {
+                        "class": "dropdown",
+                        "id": "commander",
+                        "size": [
+                          100,
+                          15
+                        ]
+                      }
+                    },
+                    {
+                      "sprite": "menuicons_colour",
+                      "spriteSheet": "ui",
+                      "textKey": "ui_player_properties_colour",
+                      "widget": {
+                        "class": "colourList",
+                        "id": "colour"
+                      }
+                    },
+                    {
+                      "sprite": "menuicons_control",
+                      "spriteSheet": "ui",
+                      "textKey": "ui_player_properties_control",
+                      "widget": {
+                        "class": "dropdown",
+                        "id": "control"
+                      }
+                    },
+                    {
+                      "sprite": "menuicons_aiProfile",
+                      "spriteSheet": "ui",
+                      "textKey": "ui_player_properties_ai_profile",
+                      "widget": {
+                        "class": "dropdown",
+                        "id": "aiProfile"
+                      }
+                    },
+                    {
+                      "sprite": "menuicons_team",
+                      "spriteSheet": "ui",
+                      "textKey": "ui_player_properties_team",
+                      "widget": {
+                        "class": "dropdown",
+                        "id": "team"
+                      }
+                    },
+                    {
+                      "sprite": "menuicons_money",
+                      "spriteSheet": "ui",
+                      "textKey": "ui_player_properties_initial_money",
+                      "widget": {
+                        "class": "spinControl",
+                        "id": "initialMoney",
+                        "increment": 50,
+                        "minValue": 0
+                      }
+                    },
+                    {
+                      "fill": "false",
+                      "if": "allowIndependent",
+                      "sprite": "menuicons_independent",
+                      "spriteSheet": "ui",
+                      "textKey": "ui_player_properties_independent",
+                      "widget": {
+                        "class": "checkbox",
+                        "id": "independent"
+                      }
+                    }
+                  ]
+                }
+              }
+            ],
+            "sizer": {
+              "type": "vertical"
+            },
+            "textKey": "ui_player_properties_general"
+          },
+          {
+            "children": [
+              {
+                "border": [
+                  3,
+                  3,
+                  3,
+                  3
+                ],
+                "children": [
+                  {
+                    "widget": {
+                      "class": "optionsGrid",
+                      "columnProportions": [
+                        1.0,
+                        0.0
+                      ],
+                      "id": "recruitList"
+                    }
+                  }
+                ],
+                "proportion": 1,
+                "sizer": {
+                  "type": "vertical"
+                },
+                "widget": {
+                  "class": "scrollBarPane"
+                }
+              }
+            ],
+            "sizer": {
+              "type": "vertical"
+            },
+            "textKey": "ui_player_properties_recruit"
+          },
+          {
+            "children": [
+              {
+                "border": [
+                  3,
+                  3,
+                  3,
+                  3
+                ],
+                "children": [
+                  {
+                    "widget": {
+                      "class": "optionsGrid",
+                      "columnProportions": [
+                        1.0,
+                        0.0
+                      ],
+                      "id": "commanderList"
+                    }
+                  }
+                ],
+                "proportion": 1,
+                "sizer": {
+                  "type": "vertical"
+                },
+                "widget": {
+                  "class": "scrollBarPane"
+                }
+              }
+            ],
+            "sizer": {
+              "type": "vertical"
+            },
+            "textKey": "ui_player_properties_commanders"
+          }
+        ]
+      }
+    },
+    {
+      "widget": {
+        "class": "toolTip",
+        "maxHeight": 28,
+        "maxWidth": 240,
+        "size": [
+          250,
+          34
+        ],
+        "tips": [
+          {
+            "id": "commander",
+            "textKey": "ui_player_properties_commander_tooltip"
+          },
+          {
+            "id": "colour",
+            "textKey": "ui_player_properties_colour_tooltip"
+          },
+          {
+            "id": "control",
+            "textKey": "ui_player_properties_control_tooltip"
+          },
+          {
+            "id": "aiProfile",
+            "textKey": "ui_player_properties_ai_profile_tooltip"
+          },
+          {
+            "id": "team",
+            "textKey": "ui_player_properties_team_tooltip"
+          },
+          {
+            "id": "initialMoney",
+            "startsWith": "true",
+            "textKey": "ui_player_properties_initial_money_tooltip"
+          },
+          {
+            "id": "independent",
+            "textKey": "ui_player_properties_independent_tooltip"
+          },
+          {
+            "id": "recruit",
+            "startsWith": "true",
+            "textKey": "ui_player_properties_recruit_list_tooltip"
+          },
+          {
+            "id": "commander",
+            "startsWith": "true",
+            "textKey": "ui_player_properties_commander_list_tooltip"
+          }
+        ]
+      }
+    },
+    {
+      "widget": {
+        "class": "horizontalDiv"
+      }
+    },
+    {
+      "children": [
+        {
+          "widget": {
+            "button": "secondary",
+            "class": "gamepadButton",
+            "id": "delete",
+            "size": [
+              45,
+              15
+            ],
+            "textKey": "ui_widget_button_delete"
+          }
+        },
+        {
+          "proportion": 1,
+          "stretchSpacer": {}
+        },
+        {
+          "widget": {
+            "class": "dialogueButtons",
+            "hasCancel": "false",
+            "hasClose": "true",
+            "hasOK": "false"
+          }
+        }
+      ],
+      "sizer": {
+        "type": "horizontal"
+      }
+    }
+  ],
+  "sizer": {
+    "type": "vertical"
+  },
+  "widget": {
+    "class": "dialogue",
+    "style": "optionBorder",
+    "titleKey": "ui_player_properties_title"
+  }
+}

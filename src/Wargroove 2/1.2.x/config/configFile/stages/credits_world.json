@@ -1,0 +1,28 @@
+{
+  "timelines": {
+    "render": [
+      "SpriteRender",
+      "UIRender",
+      "CameraRenderTarget",
+      "CameraRender"
+    ],
+    "variableUpdate": [
+      "Credits",
+      "Move",
+      "CutsceneRunner",
+      "ShadowCaster",
+      "LightSourceCaster",
+      "Daytime",
+      "DestroyAfterAnimation",
+      "CameraShake",
+      "Hierarchy",
+      "CameraScrolling",
+      "ScreenPosition",
+      "PlayerColour",
+      "SpriteAnimation",
+      "LightSourceAnimation",
+      "TimeShader",
+      "UILayout"
+    ]
+  }
+}

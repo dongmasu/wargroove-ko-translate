@@ -1,0 +1,68 @@
+{
+  "unitClasses": [
+    {
+      "aiPriority": 4.0,
+      "battleUnitCount": 1,
+      "canBeCaptured": "true",
+      "canBeReinforced": "false",
+      "canReinforce": "true",
+      "cost": 500,
+      "damageMultiplier": 1,
+      "id": "port",
+      "income": 0,
+      "isNeutraliseable": "true",
+      "isStructure": "true",
+      "movement": "sea_building",
+      "name": "structure_name_port",
+      "recruitTags": [
+        "type.sea",
+        "type.amphibious"
+      ],
+      "regeneration": 10,
+      "sightRange": 6,
+      "tags": [
+        "structure"
+      ],
+      "verbs": [
+        "recruit"
+      ]
+    }
+  ],
+  "units": [
+    {
+      "class": "port",
+      "faction": "neutral",
+      "grabPos": [
+        14,
+        5
+      ],
+      "mapAnimation": "structures/port",
+      "mediumPortrait": "portraits/medium/port.png",
+      "name": "structure_name_port",
+      "smallPortrait": "portraits/small/portrait_structure_small.png",
+      "sounds": {
+        "death": "gateDie",
+        "hit": "hitWood",
+        "hitMap": "hitWood"
+      },
+      "structureImage": {
+        "farBackground": "port_background_full_background_2",
+        "foreground": "port_background_full_foreground",
+        "keeperPosition": [
+          66,
+          98
+        ],
+        "leftBannerOffset": [
+          -6,
+          2
+        ],
+        "nearBackground": "port_background_full_background_1",
+        "rightBannerOffset": [
+          -7,
+          0
+        ],
+        "spriteSheet": "backgrounds/port/port_background_full"
+      }
+    }
+  ]
+}

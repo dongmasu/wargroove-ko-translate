@@ -1,0 +1,113 @@
+{
+  "children": [
+    {
+      "border": [
+        5,
+        5,
+        5,
+        5
+      ],
+      "widget": {
+        "class": "optionsGrid",
+        "columnProportions": [
+          1.0,
+          0.0
+        ],
+        "options": [
+          {
+            "textKey": "ui_location_properties_name",
+            "widget": {
+              "class": "textInput",
+              "id": "name",
+              "maxLength": 40,
+              "size": [
+                150,
+                14
+              ]
+            }
+          },
+          {
+            "textKey": "ui_location_properties_colour",
+            "widget": {
+              "class": "colourList",
+              "id": "colour"
+            }
+          },
+          {
+            "fill": "false",
+            "textKey": "ui_location_properties_ai_obstacle",
+            "widget": {
+              "class": "checkbox",
+              "id": "aiObstacle"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "widget": {
+        "class": "toolTip",
+        "maxHeight": 28,
+        "maxWidth": 240,
+        "size": [
+          250,
+          34
+        ],
+        "tips": [
+          {
+            "id": "name",
+            "textKey": "ui_location_properties_name_tooltip"
+          },
+          {
+            "id": "colour",
+            "textKey": "ui_location_properties_colour_tooltip"
+          },
+          {
+            "id": "aiObstacle",
+            "textKey": "ui_location_properties_ai_obstacle_tooltip"
+          }
+        ]
+      }
+    },
+    {
+      "widget": {
+        "class": "horizontalDiv"
+      }
+    },
+    {
+      "children": [
+        {
+          "widget": {
+            "button": "tertiary",
+            "class": "gamepadButton",
+            "id": "delete",
+            "size": [
+              40,
+              16
+            ],
+            "textKey": "ui_widget_button_delete"
+          }
+        },
+        {
+          "proportion": 1,
+          "stretchSpacer": {}
+        },
+        {
+          "widget": {
+            "class": "dialogueButtons",
+            "hasCancel": "false",
+            "hasClose": "true",
+            "hasOK": "false"
+          }
+        }
+      ]
+    }
+  ],
+  "sizer": {
+    "type": "vertical"
+  },
+  "widget": {
+    "class": "dialogue",
+    "titleKey": "ui_location_properties_title"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "author": "Finn",
+  "base": "colour_schemes/base_flat_dark",
+  "colours": {
+    "toolbarNormal": "#965fd4",
+    "ui_listSelected": "#8bd450",
+    "ui_stringMatchText": "#ba7dff",
+    "ui_unselectedTextAlt": "#ba7dff"
+  },
+  "name": "Flat Anime"
+}

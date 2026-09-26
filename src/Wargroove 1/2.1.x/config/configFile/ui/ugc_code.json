@@ -1,0 +1,187 @@
+{
+  "children": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "border": [
+                20,
+                10,
+                20,
+                10
+              ],
+              "children": [
+                {
+                  "border": [
+                    10,
+                    10,
+                    10,
+                    10
+                  ],
+                  "fill": "centre",
+                  "widget": {
+                    "class": "optionsGrid",
+                    "columnProportions": [
+                      1.0,
+                      0.0
+                    ],
+                    "options": [
+                      {
+                        "textKey": "ui_ugc_code",
+                        "widget": {
+                          "class": "textInput",
+                          "id": "code",
+                          "maxLength": 8,
+                          "size": [
+                            100,
+                            15
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "border": [
+                    10,
+                    0,
+                    10,
+                    10
+                  ],
+                  "fill": "centre",
+                  "widget": {
+                    "active": "false",
+                    "class": "label",
+                    "id": "resultLabel"
+                  }
+                },
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "widget": {
+                            "button": "cancel",
+                            "class": "gamepadButton",
+                            "id": "cancel",
+                            "size": [
+                              40,
+                              15
+                            ],
+                            "textKey": "ui_widget_button_back"
+                          }
+                        }
+                      ],
+                      "fill": "left",
+                      "proportion": 1,
+                      "sizer": {
+                        "type": "horizontal"
+                      }
+                    },
+                    {
+                      "children": [
+                        {
+                          "widget": {
+                            "class": "widget",
+                            "size": [
+                              0,
+                              0
+                            ]
+                          }
+                        },
+                        {
+                          "widget": {
+                            "active": "false",
+                            "button": "secondary",
+                            "class": "gamepadButton",
+                            "id": "ok",
+                            "size": [
+                              40,
+                              15
+                            ],
+                            "textKey": "ui_widget_button_ok"
+                          }
+                        }
+                      ],
+                      "fill": "right",
+                      "proportion": 1,
+                      "sizer": {
+                        "type": "horizontal"
+                      }
+                    }
+                  ],
+                  "fill": [
+                    "fillHorizontal"
+                  ],
+                  "sizer": {
+                    "type": "horizontal"
+                  }
+                }
+              ],
+              "fill": "centre",
+              "sizer": {
+                "gap": 0,
+                "type": "vertical"
+              },
+              "widget": {
+                "class": "dialogue",
+                "maxHeight": 70,
+                "maxWidth": 200,
+                "size": [
+                  200,
+                  70
+                ],
+                "style": "dialogueLight",
+                "titleKey": "ui_ugc_code_title"
+              }
+            }
+          ],
+          "fill": [
+            "centre"
+          ],
+          "proportion": 1,
+          "sizer": {
+            "gap": 0,
+            "type": "vertical"
+          },
+          "widget": {
+            "class": "framedImage",
+            "scrollPos": [
+              10,
+              -170
+            ],
+            "scrollSpeed": [
+              15,
+              0
+            ],
+            "size": [
+              700,
+              10
+            ],
+            "style": "paperScroll"
+          }
+        }
+      ],
+      "sizer": {
+        "type": "vertical"
+      },
+      "widget": {
+        "class": "image",
+        "colour": "#000000B0",
+        "image": "ui/whitebox.png",
+        "size": [
+          640,
+          360
+        ]
+      }
+    }
+  ],
+  "sizer": {
+    "type": "vertical"
+  },
+  "widget": {
+    "childLayerAdjustment": 1,
+    "class": "widget"
+  }
+}

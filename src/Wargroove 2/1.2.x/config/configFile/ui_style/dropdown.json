@@ -1,0 +1,50 @@
+{
+  "uiStyle": {
+    "dropdown": {
+      "background": "ui/widgets/dropdown/dropdown_window.png",
+      "backgroundUp": "ui/widgets/dropdown/dropdown_window_up.png",
+      "closeSound": "ui/menuSelect",
+      "disabled": "ui/widgets/dropdown/dropdown_disabled.png",
+      "height": 80,
+      "hover": "ui/widgets/dropdown/dropdown_hover.png",
+      "iconGap": 0,
+      "innerBorder": [
+        2,
+        1,
+        2,
+        2
+      ],
+      "label": {
+        "colour": "#3D4265",
+        "font": "Wargroove Medium",
+        "size": 16,
+        "smoothness": 0
+      },
+      "labelBorder": [
+        3,
+        0,
+        0,
+        0
+      ],
+      "listStyle": "list",
+      "minSize": 16,
+      "minSizeMargins": [
+        19,
+        14,
+        0,
+        0
+      ],
+      "normal": "ui/widgets/dropdown/dropdown.png",
+      "open": "ui/widgets/dropdown/dropdown_open.png",
+      "openSound": "ui/menuSelect",
+      "openUp": "ui/widgets/dropdown/dropdown_open_up.png",
+      "scrollbarStyle": "scrollbar",
+      "selectedLabel": {
+        "colour": "#F4F4E8",
+        "font": "Wargroove Medium",
+        "size": 16,
+        "smoothness": 0
+      }
+    }
+  }
+}

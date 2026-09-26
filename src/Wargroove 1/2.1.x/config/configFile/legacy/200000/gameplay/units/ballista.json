@@ -1,0 +1,312 @@
+{
+  "unitClasses": [
+    {
+      "aiPriority": 1.600000023841858,
+      "battleUnitCount": 1,
+      "cost": 800,
+      "damageMultiplier": 1,
+      "id": "ballista",
+      "moveRange": 6,
+      "movement": "wheels",
+      "name": "unit_class_name_ballista",
+      "passiveMultiplier": 1.5,
+      "tags": [
+        "ballista",
+        "type.ground.heavy"
+      ],
+      "verbs": [
+        "load"
+      ],
+      "weapons": [
+        {
+          "id": "ballistaBolt"
+        }
+      ]
+    }
+  ],
+  "units": [
+    {
+      "attackOffset": [
+        30,
+        0
+      ],
+      "attacks": [
+        {
+          "attacksFlying": "true",
+          "effect": "fx/bs_ballista_cherrystone_attack",
+          "effectDelay": 1.2999999523162842,
+          "hitDelay": 1.600000023841858,
+          "hitSpark": "fx/bs_stab_attack",
+          "id": "primary",
+          "postAttackAnimationSequence": "post_attack_idle",
+          "postAttackDeathSequence": "post_attack_death",
+          "postAttackHitSequence": "post_attack_hit",
+          "ranged": "true"
+        },
+        {
+          "effect": "fx/bs_ballista_2_cherrystone_attack",
+          "effectDelay": 1.2999999523162842,
+          "hitDelay": 1.600000023841858,
+          "hitSpark": "fx/bs_stab_attack",
+          "id": "secondary",
+          "postAttackAnimationSequence": "post_attack_idle",
+          "postAttackDeathSequence": "post_attack_death",
+          "postAttackHitSequence": "post_attack_hit",
+          "ranged": "true"
+        }
+      ],
+      "battleAnimation": "units/ballista/cherrystone/battle_ballista_cherrystone",
+      "battlePosOffset": [
+        -2,
+        0
+      ],
+      "class": "ballista",
+      "deathMoveMax": 0,
+      "deathMoveMin": 0,
+      "faction": "cherrystone",
+      "grabPos": [
+        16,
+        17
+      ],
+      "mapAnimation": "units/ballista/cherrystone/map_ballista_cherrystone",
+      "mapSpeed": 4.0,
+      "mediumPortrait": "units/ballista/cherrystone/portrait_ballista_cherrystone_medium.png",
+      "name": "unit_name_ballista_cherrystone",
+      "smallPortrait": "units/ballista/cherrystone/portrait_ballista_cherrystone_small.png",
+      "sounds": {
+        "attack": "ballistaAttack",
+        "attackEffect": "ballistaAttackEffect",
+        "attackMap": "unitAttack",
+        "death": "gateDie",
+        "deathMap": "unitDie",
+        "hit": "hitWood",
+        "hitMap": "hitWood",
+        "run": "ballistaEntry",
+        "runMap": "ballistaEntry"
+      },
+      "stayAfterDeath": "true"
+    },
+    {
+      "attackOffset": [
+        30,
+        0
+      ],
+      "attacks": [
+        {
+          "attacksFlying": "true",
+          "effect": "fx/bs_ballista_felheim_attack",
+          "effectDelay": 1.2999999523162842,
+          "hitDelay": 1.600000023841858,
+          "hitSpark": "fx/bs_stab_attack",
+          "id": "primary",
+          "postAttackAnimationSequence": "post_attack_idle",
+          "postAttackDeathSequence": "post_attack_death",
+          "postAttackHitSequence": "post_attack_hit",
+          "ranged": "true"
+        },
+        {
+          "effect": "fx/bs_ballista_2_felheim_attack",
+          "effectDelay": 1.2999999523162842,
+          "hitDelay": 1.600000023841858,
+          "hitSpark": "fx/bs_stab_attack",
+          "id": "secondary",
+          "postAttackAnimationSequence": "post_attack_idle",
+          "postAttackDeathSequence": "post_attack_death",
+          "postAttackHitSequence": "post_attack_hit",
+          "ranged": "true"
+        }
+      ],
+      "battleAnimation": "units/ballista/felheim/battle_ballista_felheim",
+      "battlePosOffset": [
+        -2,
+        0
+      ],
+      "class": "ballista",
+      "deathMoveMax": 0,
+      "deathMoveMin": 0,
+      "faction": "felheim",
+      "grabPos": [
+        16,
+        17
+      ],
+      "mapAnimation": "units/ballista/felheim/map_ballista_felheim",
+      "mapSpeed": 4.0,
+      "mediumPortrait": "units/ballista/felheim/portrait_ballista_felheim_medium.png",
+      "name": "unit_name_ballista_felheim",
+      "smallPortrait": "units/ballista/felheim/portrait_ballista_felheim_small.png",
+      "sounds": {
+        "attack": "ballistaAttack",
+        "attackEffect": "ballistaAttackEffect",
+        "attackMap": "unitAttack",
+        "death": "gateDie",
+        "deathMap": "unitDie",
+        "hit": "hitWood",
+        "hitMap": "hitWood",
+        "run": "ballistaEntry",
+        "runMap": "ballistaEntry"
+      },
+      "stayAfterDeath": "true"
+    },
+    {
+      "attackOffset": [
+        30,
+        0
+      ],
+      "attacks": [
+        {
+          "attacksFlying": "true",
+          "effect": "fx/bs_ballista_heavensong_attack",
+          "effectDelay": 1.2999999523162842,
+          "hitDelay": 1.600000023841858,
+          "hitSpark": "fx/bs_stab_attack",
+          "id": "primary",
+          "postAttackAnimationSequence": "post_attack_idle",
+          "postAttackDeathSequence": "post_attack_death",
+          "postAttackHitSequence": "post_attack_hit",
+          "ranged": "true"
+        },
+        {
+          "effect": "fx/bs_ballista_2_heavensong_attack",
+          "effectDelay": 1.2999999523162842,
+          "hitDelay": 1.600000023841858,
+          "hitSpark": "fx/bs_stab_attack",
+          "id": "secondary",
+          "postAttackAnimationSequence": "post_attack_idle",
+          "postAttackDeathSequence": "post_attack_death",
+          "postAttackHitSequence": "post_attack_hit",
+          "ranged": "true"
+        }
+      ],
+      "battleAnimation": "units/ballista/heavensong/battle_ballista_heavensong",
+      "battlePosOffset": [
+        -2,
+        0
+      ],
+      "class": "ballista",
+      "deathMoveMax": 0,
+      "deathMoveMin": 0,
+      "faction": "heavensong",
+      "grabPos": [
+        16,
+        17
+      ],
+      "mapAnimation": "units/ballista/heavensong/map_ballista_heavensong",
+      "mapSpeed": 4.0,
+      "mediumPortrait": "units/ballista/heavensong/portrait_ballista_heavensong_medium.png",
+      "name": "unit_name_ballista_heavensong",
+      "smallPortrait": "units/ballista/heavensong/portrait_ballista_heavensong_small.png",
+      "sounds": {
+        "attack": "ballistaAttack",
+        "attackEffect": "ballistaAttackEffect",
+        "attackMap": "unitAttack",
+        "death": "gateDie",
+        "deathMap": "unitDie",
+        "hit": "hitWood",
+        "hitMap": "hitWood",
+        "run": "ballistaEntry",
+        "runMap": "ballistaEntry"
+      },
+      "stayAfterDeath": "true"
+    },
+    {
+      "attackOffset": [
+        30,
+        0
+      ],
+      "attacks": [
+        {
+          "attacksFlying": "true",
+          "effect": "fx/bs_ballista_floran_attack",
+          "effectDelay": 1.2999999523162842,
+          "hitDelay": 1.600000023841858,
+          "hitSpark": "fx/bs_stab_attack",
+          "id": "primary",
+          "postAttackAnimationSequence": "post_attack_idle",
+          "postAttackDeathSequence": "post_attack_death",
+          "postAttackHitSequence": "post_attack_hit",
+          "ranged": "true"
+        },
+        {
+          "effect": "fx/bs_ballista_2_floran_attack",
+          "effectDelay": 1.2999999523162842,
+          "hitDelay": 1.600000023841858,
+          "hitSpark": "fx/bs_stab_attack",
+          "id": "primary",
+          "postAttackAnimationSequence": "post_attack_idle",
+          "postAttackDeathSequence": "post_attack_death",
+          "postAttackHitSequence": "post_attack_hit",
+          "ranged": "true"
+        }
+      ],
+      "battleAnimation": "units/ballista/floran/battle_ballista_floran",
+      "battlePosOffset": [
+        -2,
+        0
+      ],
+      "class": "ballista",
+      "deathMoveMax": 0,
+      "deathMoveMin": 0,
+      "faction": "floran",
+      "grabPos": [
+        16,
+        17
+      ],
+      "mapAnimation": "units/ballista/floran/map_ballista_floran",
+      "mapSpeed": 4.0,
+      "mediumPortrait": "units/ballista/floran/portrait_ballista_floran_medium.png",
+      "name": "unit_name_ballista_floran",
+      "smallPortrait": "units/ballista/floran/portrait_ballista_floran_small.png",
+      "sounds": {
+        "attack": "ballistaAttack",
+        "attackEffect": "ballistaAttackEffect",
+        "attackMap": "unitAttack",
+        "death": "gateDie",
+        "deathMap": "unitDie",
+        "hit": "hitWood",
+        "hitMap": "hitWood",
+        "run": "ballistaEntry",
+        "runMap": "ballistaEntry"
+      },
+      "stayAfterDeath": "true"
+    }
+  ],
+  "weapons": [
+    {
+      "baseDamage": {
+        "air": 1,
+        "land": 1,
+        "water": 1
+      },
+      "canMoveAndAttack": "false",
+      "id": "ballistaBolt",
+      "rangeMax": 6,
+      "rangeMin": 2,
+      "tagDamage": {
+        "archer": 0.30000001192092896,
+        "ballista": 0.20000000298023224,
+        "balloon": 1.100000023841858,
+        "commander": 0.10000000149011612,
+        "dog": 0.5,
+        "dragon": 0.8500000238418579,
+        "giant": 0.10000000149011612,
+        "harpoonship": 0.20000000298023224,
+        "harpy": 1.2999999523162842,
+        "knight": 0.25,
+        "mage": 0.4000000059604645,
+        "merman": 0.4000000059604645,
+        "rifleman": 0.5,
+        "soldier": 0.4000000059604645,
+        "spearman": 0.30000001192092896,
+        "structure": 0.30000001192092896,
+        "thief": 0.4000000059604645,
+        "travelboat": 0.20000000298023224,
+        "trebuchet": 0.10000000149011612,
+        "turtle": 0.20000000298023224,
+        "villager": 0.4000000059604645,
+        "wagon": 0.30000001192092896,
+        "warship": 0.20000000298023224,
+        "witch": 0.949999988079071
+      }
+    }
+  ]
+}

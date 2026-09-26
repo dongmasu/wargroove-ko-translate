@@ -1,0 +1,44 @@
+{
+  "children": [
+    {
+      "children": [
+        {
+          "fill": [
+            "centreHorizontal"
+          ],
+          "widget": {
+            "class": "image",
+            "image": "ui/cutscene/cutscene_editor/soldier_felheim_create.png",
+            "size": [
+              48,
+              64
+            ]
+          }
+        },
+        {
+          "widget": {
+            "alignment": 0.5,
+            "class": "label",
+            "maxWidth": 100,
+            "textKey": "ui_cutscene_select_empty"
+          }
+        }
+      ],
+      "sizer": {
+        "type": "vertical"
+      },
+      "widget": {
+        "class": "widget"
+      }
+    }
+  ],
+  "fill": [
+    "centreHorizontal",
+    "centreVertical"
+  ],
+  "proportion": 1,
+  "widget": {
+    "class": "widget",
+    "id": "emptyCutsceneList"
+  }
+}

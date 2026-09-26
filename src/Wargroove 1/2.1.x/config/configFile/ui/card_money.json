@@ -1,0 +1,49 @@
+{
+  "children": [
+    {
+      "children": [
+        {
+          "fill": "centre",
+          "widget": {
+            "class": "image",
+            "image": "ui/main_game_ui/placeholder_money.png"
+          }
+        }
+      ],
+      "widget": {
+        "class": "image",
+        "colour": "#4C3E3A",
+        "id": "background",
+        "image": "ui/medium_portrait_background.png"
+      }
+    },
+    {
+      "border": [
+        1,
+        -1,
+        0,
+        -4
+      ],
+      "fill": "centre",
+      "widget": {
+        "class": "label",
+        "id": "money",
+        "style": "labelSmall",
+        "text": 100
+      }
+    }
+  ],
+  "sizer": {
+    "type": "vertical"
+  },
+  "widget": {
+    "class": "image",
+    "image": "ui/main_game_ui/card_ui.png",
+    "innerBorder": [
+      4,
+      4,
+      4,
+      4
+    ]
+  }
+}

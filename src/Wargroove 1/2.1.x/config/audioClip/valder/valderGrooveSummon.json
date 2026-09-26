@@ -1,0 +1,28 @@
+{
+  "_assetType": "audioClip",
+  "_decoded": {
+    "legacy": true,
+    "actions": [
+      {
+        "type": "play",
+        "scope": 1,
+        "clip": "sfx/valder/valderGrooveSummon.ogg",
+        "group": "voice",
+        "gain": [
+          1.0,
+          1.0
+        ],
+        "pitch": [
+          1.0,
+          1.0
+        ],
+        "legacyTailHex": "0ad7a33c0000000000",
+        "legacyTailFloats": [
+          0.019999999552965164,
+          0.0
+        ]
+      }
+    ]
+  },
+  "_payloadHex": "0100000004000000706c617901000000210000007366782f76616c6465722f76616c64657247726f6f766553756d6d6f6e2e6f676705000000766f6963650000803f0000803f0000803f0000803f0ad7a33c0000000000"
+}

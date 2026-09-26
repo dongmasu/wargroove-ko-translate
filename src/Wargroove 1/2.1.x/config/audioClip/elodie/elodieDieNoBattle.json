@@ -1,0 +1,85 @@
+{
+  "_assetType": "audioClip",
+  "_decoded": {
+    "legacy": true,
+    "actions": [
+      {
+        "type": "play",
+        "scope": 1,
+        "clip": "sfx/commanderDie.ogg",
+        "group": "sfx",
+        "gain": [
+          1.0,
+          1.0
+        ],
+        "pitch": [
+          1.0,
+          1.0
+        ],
+        "legacyTailHex": "000000000000000000",
+        "legacyTailFloats": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "type": "play",
+        "scope": 1,
+        "clip": "sfx/elodie/elodieDieMapGlowFoley.ogg",
+        "group": "sfx",
+        "gain": [
+          1.0,
+          1.0
+        ],
+        "pitch": [
+          1.0,
+          1.0
+        ],
+        "legacyTailHex": "000000000000000000",
+        "legacyTailFloats": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "type": "play",
+        "scope": 1,
+        "clip": "sfx/clothMovement2.ogg",
+        "group": "sfx",
+        "gain": [
+          1.0,
+          1.0
+        ],
+        "pitch": [
+          1.0,
+          1.0
+        ],
+        "legacyTailHex": "0000803f0000000000",
+        "legacyTailFloats": [
+          1.0,
+          0.0
+        ]
+      },
+      {
+        "type": "play",
+        "scope": 1,
+        "clip": "sfx/elodie/elodieDieBurstFoley.ogg",
+        "group": "sfx",
+        "gain": [
+          1.0,
+          1.0
+        ],
+        "pitch": [
+          1.0,
+          1.0
+        ],
+        "legacyTailHex": "3333b33f0000000000",
+        "legacyTailFloats": [
+          1.399999976158142,
+          0.0
+        ]
+      }
+    ]
+  },
+  "_payloadHex": "0400000004000000706c617901000000140000007366782f636f6d6d616e6465724469652e6f6767030000007366780000803f0000803f0000803f0000803f00000000000000000004000000706c617901000000240000007366782f656c6f6469652f656c6f6469654469654d6170476c6f77466f6c65792e6f6767030000007366780000803f0000803f0000803f0000803f00000000000000000004000000706c617901000000160000007366782f636c6f74684d6f76656d656e74322e6f6767030000007366780000803f0000803f0000803f0000803f0000803f000000000004000000706c617901000000220000007366782f656c6f6469652f656c6f6469654469654275727374466f6c65792e6f6767030000007366780000803f0000803f0000803f0000803f3333b33f0000000000"
+}

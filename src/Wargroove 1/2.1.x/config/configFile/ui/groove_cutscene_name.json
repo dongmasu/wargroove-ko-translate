@@ -1,0 +1,14 @@
+{
+  "children": [
+    {
+      "widget": {
+        "class": "label",
+        "id": "grooveName",
+        "text": "SADISTIC RUSH"
+      }
+    }
+  ],
+  "widget": {
+    "class": "widget"
+  }
+}

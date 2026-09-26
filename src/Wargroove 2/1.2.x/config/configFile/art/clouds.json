@@ -1,0 +1,26 @@
+{
+  "clouds": [
+    {
+      "density": 0.05000000074505806,
+      "id": "default",
+      "mapBorder": 255.0,
+      "maxSpeed": 6.0,
+      "minSpeed": 2.0,
+      "opacity": 0.5,
+      "sprite": "cloud_shadows",
+      "tintAdd": "#000000",
+      "tintMul": "#ffffff"
+    },
+    {
+      "density": 0.05000000074505806,
+      "id": "mist",
+      "mapBorder": 255.0,
+      "maxSpeed": 6.0,
+      "minSpeed": 2.0,
+      "opacity": 0.5,
+      "sprite": "cloud_mist",
+      "tintAdd": "#3c4244",
+      "tintMul": "#f0f8fc"
+    }
+  ]
+}

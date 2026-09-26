@@ -1,0 +1,11 @@
+{
+  "author": "Finn",
+  "base": "colour_schemes/base_flat_dark",
+  "colours": {
+    "toolbarNormal": "#ff7f02",
+    "ui_listSelected": "#ff7f02",
+    "ui_stringMatchText": "#ffcc9a",
+    "ui_unselectedTextAlt": "#ffcc9a"
+  },
+  "name": "Flat Orange (Dark)"
+}

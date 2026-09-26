@@ -1,0 +1,186 @@
+{
+  "children": [
+    {
+      "border": [
+        5,
+        5,
+        5,
+        5
+      ],
+      "widget": {
+        "class": "optionsGrid",
+        "columnProportions": [
+          1.0,
+          0.0
+        ],
+        "options": [
+          {
+            "fill": "false",
+            "sprite": "menuicons_difficulty",
+            "spriteSheet": "ui",
+            "textKey": "ui_difficulty_level",
+            "widget": {
+              "class": "list",
+              "id": "difficulty",
+              "inputButtons": "",
+              "options": [
+                {
+                  "id": "story",
+                  "image": "ui/icons/difficulty_story.png"
+                },
+                {
+                  "id": "easy",
+                  "image": "ui/icons/difficulty_easy.png"
+                },
+                {
+                  "id": "medium",
+                  "image": "ui/icons/difficulty_medium.png"
+                },
+                {
+                  "id": "hard",
+                  "image": "ui/icons/difficulty_hard.png"
+                },
+                {
+                  "id": "custom",
+                  "image": "ui/icons/difficulty_custom.png"
+                }
+              ],
+              "style": "difficultyList",
+              "type": "horizontal"
+            }
+          },
+          {
+            "fill": "false",
+            "sprite": "menuicons_health_display",
+            "spriteSheet": "ui",
+            "textKey": "ui_difficulty_damage_received",
+            "widget": {
+              "class": "slider",
+              "granularity": 0.02500000037252903,
+              "id": "damageReceived",
+              "maxValue": 1.0,
+              "minValue": -1.0,
+              "size": [
+                150,
+                14
+              ]
+            }
+          },
+          {
+            "fill": "false",
+            "sprite": "menuicons_money",
+            "spriteSheet": "ui",
+            "textKey": "ui_difficulty_income",
+            "widget": {
+              "class": "slider",
+              "granularity": 0.02500000037252903,
+              "id": "income",
+              "maxValue": 1.0,
+              "minValue": -1.0,
+              "size": [
+                150,
+                14
+              ]
+            }
+          },
+          {
+            "fill": "false",
+            "sprite": "menuicons_groove",
+            "spriteSheet": "ui",
+            "textKey": "ui_difficulty_groove_charge",
+            "widget": {
+              "class": "slider",
+              "granularity": 0.02500000037252903,
+              "id": "grooveCharge",
+              "maxValue": 1.0,
+              "minValue": -1.0,
+              "size": [
+                150,
+                14
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "border": [
+        5,
+        0,
+        5,
+        0
+      ],
+      "children": [
+        {
+          "widget": {
+            "class": "label",
+            "id": "status",
+            "maxWidth": 242,
+            "text": ""
+          }
+        }
+      ],
+      "widget": {
+        "class": "image",
+        "image": "ui/widgets/window/cartouche.png",
+        "innerBorder": [
+          4,
+          3,
+          4,
+          3
+        ],
+        "size": [
+          250,
+          40
+        ]
+      }
+    },
+    {
+      "border": [
+        0,
+        3,
+        0,
+        0
+      ],
+      "widget": {
+        "class": "horizontalDiv"
+      }
+    },
+    {
+      "children": [
+        {
+          "proportion": 1,
+          "stretchSpacer": {}
+        },
+        {
+          "widget": {
+            "button": "tertiary",
+            "class": "gamepadButton",
+            "id": "default",
+            "size": [
+              40,
+              16
+            ],
+            "textKey": "ui_widget_button_default"
+          }
+        },
+        {
+          "widget": {
+            "class": "dialogueButtons",
+            "hasCancel": "false",
+            "hasClose": "true",
+            "hasOK": "false"
+          }
+        }
+      ]
+    }
+  ],
+  "sizer": {
+    "type": "vertical"
+  },
+  "widget": {
+    "class": "dialogue",
+    "style": "optionBorder",
+    "titleKey": "ui_difficulty_title"
+  }
+}

@@ -1,0 +1,165 @@
+{
+  "children": [
+    {
+      "proportion": 1,
+      "widget": {
+        "class": "tabbedPane",
+        "id": "tabs",
+        "tabs": [
+          {
+            "children": [
+              {
+                "widget": {
+                  "class": "optionsGrid",
+                  "columnProportions": [
+                    1.0,
+                    0.0
+                  ],
+                  "options": [
+                    {
+                      "text": "Label",
+                      "widget": {
+                        "class": "label",
+                        "id": "label",
+                        "text": "Label"
+                      }
+                    },
+                    {
+                      "fill": "false",
+                      "text": "Checkbox",
+                      "widget": {
+                        "class": "checkbox",
+                        "id": "checkbox"
+                      }
+                    },
+                    {
+                      "text": "Input",
+                      "widget": {
+                        "class": "textInput",
+                        "id": "input",
+                        "text": "Hi?"
+                      }
+                    },
+                    {
+                      "text": "List",
+                      "widget": {
+                        "canDrag": "true",
+                        "class": "list",
+                        "id": "list",
+                        "options": [
+                          {
+                            "id": "opt1",
+                            "text": "Option 1"
+                          },
+                          {
+                            "id": "opt2",
+                            "text": "Option 2"
+                          },
+                          {
+                            "id": "opt3",
+                            "text": "Option 3"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "Dropdown",
+                      "widget": {
+                        "class": "dropdown",
+                        "id": "dropdown",
+                        "options": [
+                          {
+                            "id": "opt1",
+                            "text": "Option 1"
+                          },
+                          {
+                            "id": "opt2",
+                            "text": "Option 2"
+                          },
+                          {
+                            "id": "opt3",
+                            "text": "Option 3"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "Slider",
+                      "widget": {
+                        "class": "slider",
+                        "id": "slider",
+                        "maxValue": 100,
+                        "size": [
+                          100,
+                          14
+                        ],
+                        "value": 60
+                      }
+                    },
+                    {
+                      "text": "Button",
+                      "widget": {
+                        "class": "button",
+                        "id": "button",
+                        "size": [
+                          10,
+                          14
+                        ],
+                        "text": "Hello world!"
+                      }
+                    }
+                  ]
+                }
+              }
+            ],
+            "sizer": {
+              "type": "vertical"
+            },
+            "text": "Basic Widgets"
+          },
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "fill": [
+                      "left",
+                      "top"
+                    ],
+                    "widget": {
+                      "class": "image",
+                      "image": "ui/main_menu/logo.png"
+                    }
+                  }
+                ],
+                "proportion": 1,
+                "sizer": {
+                  "type": "vertical"
+                },
+                "widget": {
+                  "class": "scrollBarPane",
+                  "scrollHorizontal": "true"
+                }
+              }
+            ],
+            "sizer": {
+              "type": "vertical"
+            },
+            "text": "Scroll Pane & Image"
+          }
+        ]
+      }
+    }
+  ],
+  "sizer": {
+    "type": "vertical"
+  },
+  "widget": {
+    "class": "dialogue",
+    "size": [
+      200,
+      250
+    ],
+    "title": "Test dialogue"
+  }
+}

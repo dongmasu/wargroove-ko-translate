@@ -1,0 +1,23 @@
+{
+  "timelines": {
+    "render": [
+      "SpriteRender",
+      "SpriteSeparateShadowRender",
+      "UIShadowRender",
+      "CameraRender"
+    ],
+    "variableUpdate": [
+      "CrystalTitleScreenUnitSpawn",
+      "TitleScreenBackground",
+      "TitleScreenRandomWander",
+      "Move",
+      "Hierarchy",
+      "LoopingSound",
+      "Time",
+      "PlayerColour",
+      "DestroyAfterAnimation",
+      "SpriteAnimation",
+      "TimeShader"
+    ]
+  }
+}

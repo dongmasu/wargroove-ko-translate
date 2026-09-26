@@ -1,0 +1,69 @@
+{
+  "children": [
+    {
+      "border": [
+        15,
+        15,
+        0,
+        6
+      ],
+      "children": [
+        {
+          "fill": "left",
+          "widget": {
+            "class": "label",
+            "id": "message",
+            "maxWidth": 210,
+            "text": "Hello! My name is Koji. I like puppets."
+          }
+        },
+        {
+          "border": [
+            0,
+            0,
+            4,
+            15
+          ],
+          "fill": [
+            "bottom",
+            "right"
+          ],
+          "proportion": 1,
+          "widget": {
+            "animation": "ui/cutscene/textbox_arrow",
+            "class": "animation",
+            "id": "nextCursor"
+          }
+        }
+      ],
+      "fill": "centre",
+      "sizer": {
+        "type": "horizontal"
+      },
+      "widget": {
+        "childLayerAdjustment": 3,
+        "class": "image",
+        "id": "msgBox",
+        "image": "ui/main_game_ui/dialogue_box_text.png",
+        "innerBorder": [
+          35,
+          6,
+          15,
+          2
+        ],
+        "layerAdjustment": 2,
+        "size": [
+          265,
+          40
+        ]
+      }
+    }
+  ],
+  "sizer": {
+    "gap": 0,
+    "type": "horizontal"
+  },
+  "widget": {
+    "class": "widget"
+  }
+}

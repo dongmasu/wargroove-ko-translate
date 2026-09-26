@@ -1,0 +1,28 @@
+{
+  "_assetType": "audioClip",
+  "_decoded": {
+    "legacy": true,
+    "actions": [
+      {
+        "type": "play",
+        "scope": 1,
+        "clip": "sfx/witchAttackVoiceBlue1.ogg",
+        "group": "voice",
+        "gain": [
+          1.0,
+          1.2000000476837158
+        ],
+        "pitch": [
+          0.8999999761581421,
+          1.0
+        ],
+        "legacyTailHex": "000000000000000000",
+        "legacyTailFloats": [
+          0.0,
+          0.0
+        ]
+      }
+    ]
+  },
+  "_payloadHex": "0100000004000000706c6179010000001d0000007366782f776974636841747461636b566f696365426c7565312e6f676705000000766f6963650000803f9a99993f6666663f0000803f000000000000000000"
+}

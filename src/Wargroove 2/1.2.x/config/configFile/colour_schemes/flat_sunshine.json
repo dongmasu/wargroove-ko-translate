@@ -1,0 +1,11 @@
+{
+  "author": "Finn",
+  "base": "colour_schemes/base_flat",
+  "colours": {
+    "toolbarNormal": "#ffca45",
+    "ui_listSelected": "#ffca45",
+    "ui_stringMatchText": "#b57a24",
+    "ui_unselectedTextAlt": "#b57a24"
+  },
+  "name": "Flat Sunshine"
+}

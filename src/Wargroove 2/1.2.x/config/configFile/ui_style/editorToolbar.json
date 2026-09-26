@@ -1,0 +1,32 @@
+{
+  "uiStyle": {
+    "editorToolbar": {
+      "background": "",
+      "extraMouseBorder": [
+        1,
+        4,
+        1,
+        4
+      ],
+      "gap": 2,
+      "innerBorder": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "item": {
+        "hover": "ui/map_editor/map_editor_tool_hover.png",
+        "innerBorder": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "normal": "ui/map_editor/map_editor_tool_normal.png",
+        "selected": "ui/map_editor/map_editor_tool_selected.png"
+      },
+      "selectionChangedSound": "ui/editor/toolbar_change_selection"
+    }
+  }
+}

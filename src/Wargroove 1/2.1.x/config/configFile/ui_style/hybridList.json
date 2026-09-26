@@ -1,0 +1,107 @@
+{
+  "uiStyle": {
+    "hybridList": {
+      "button": {
+        "borderOnly": "ui/widgets/button/button_border.png",
+        "disabled": "ui/widgets/button/button_disabled.png",
+        "down": "ui/widgets/button/button_down.png",
+        "downSound": "ui/menuSelect",
+        "hover": "ui/widgets/button/button_hover.png",
+        "hoverSound": "",
+        "iconBorder": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "innerBorder": [
+          7,
+          4,
+          8,
+          4
+        ],
+        "label": {
+          "colour": "#F4F4E8",
+          "font": "Wargroove Medium",
+          "size": 16
+        },
+        "labelBorder": [
+          2,
+          -3,
+          1,
+          -2
+        ],
+        "normal": "ui/widgets/button/button.png",
+        "shortcutPressedSound": "ui/menuSelect",
+        "upSound": ""
+      },
+      "divider": {
+        "border": [
+          0,
+          2,
+          0,
+          2
+        ],
+        "image": {
+          "colour": "#d1bead",
+          "img": "ui/widgets/divider/horizontaldiv.png"
+        }
+      },
+      "list": {
+        "background": "",
+        "disabledLabel": {
+          "colour": "#AFB1B4",
+          "font": "Wargroove Medium",
+          "size": 16
+        },
+        "extraMouseBorder": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "gap": 1,
+        "innerBorder": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "item": {
+          "disabled": {
+            "colour": "#EBE2C2",
+            "img": "ui/widgets/list/list_item_bg.png"
+          },
+          "hover": {
+            "colour": "#BD9877",
+            "img": "ui/widgets/list/list_item_bg.png"
+          },
+          "innerBorder": [
+            7,
+            1,
+            7,
+            2
+          ],
+          "normal": {
+            "colour": "#DFC686",
+            "img": "ui/widgets/list/list_item_bg.png"
+          },
+          "selected": {
+            "img": "ui/widgets/list/list_item_sel.png"
+          }
+        },
+        "label": {
+          "colour": "#3D4265",
+          "font": "Wargroove Medium",
+          "size": 16
+        },
+        "selectedLabel": {
+          "colour": "#F4F4E8",
+          "font": "Wargroove Medium",
+          "size": 16
+        },
+        "selectionChangedSound": "ui/menuSelect"
+      }
+    }
+  }
+}

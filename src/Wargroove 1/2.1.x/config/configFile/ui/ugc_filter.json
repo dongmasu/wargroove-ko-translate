@@ -1,0 +1,264 @@
+{
+  "children": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "border": [
+                20,
+                10,
+                20,
+                10
+              ],
+              "children": [
+                {
+                  "border": [
+                    20,
+                    5,
+                    20,
+                    5
+                  ],
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "widget": {
+                                "class": "label",
+                                "textKey": "ui_ugc_filter_author"
+                              }
+                            },
+                            {
+                              "border": [
+                                0,
+                                -1,
+                                0,
+                                2
+                              ],
+                              "widget": {
+                                "class": "horizontalDiv",
+                                "style": "horizontalDivBlue"
+                              }
+                            },
+                            {
+                              "widget": {
+                                "class": "widget"
+                              }
+                            }
+                          ],
+                          "fill": "left",
+                          "sizer": {
+                            "gap": 0,
+                            "type": "vertical"
+                          }
+                        },
+                        {
+                          "widget": {
+                            "class": "playerName",
+                            "id": "author"
+                          }
+                        }
+                      ],
+                      "sizer": {
+                        "gap": 10,
+                        "type": "horizontal"
+                      },
+                      "widget": {
+                        "active": "false",
+                        "class": "widget",
+                        "id": "authorRow"
+                      }
+                    },
+                    {
+                      "widget": {
+                        "class": "optionsGrid",
+                        "columnProportions": [
+                          1.0,
+                          0.0
+                        ],
+                        "options": [
+                          {
+                            "textKey": "ui_ugc_filter_title",
+                            "widget": {
+                              "class": "textInput",
+                              "id": "titleInput",
+                              "maxLength": 40,
+                              "size": [
+                                100,
+                                15
+                              ]
+                            }
+                          },
+                          {
+                            "textKey": "ui_ugc_filter_order",
+                            "widget": {
+                              "class": "dropdown",
+                              "id": "contentOrder",
+                              "size": [
+                                100,
+                                15
+                              ]
+                            }
+                          },
+                          {
+                            "textKey": "ui_ugc_filter_players",
+                            "widget": {
+                              "class": "dropdown",
+                              "id": "numPlayers",
+                              "size": [
+                                100,
+                                15
+                              ]
+                            }
+                          },
+                          {
+                            "textKey": "ui_ugc_filter_content",
+                            "widget": {
+                              "class": "dropdown",
+                              "id": "contentType",
+                              "size": [
+                                100,
+                                15
+                              ]
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "sizer": {
+                    "type": "vertical"
+                  }
+                },
+                {
+                  "border": [
+                    0,
+                    5,
+                    0,
+                    0
+                  ],
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "widget": {
+                            "button": "cancel",
+                            "class": "gamepadButton",
+                            "id": "cancel",
+                            "size": [
+                              40,
+                              15
+                            ],
+                            "textKey": "ui_widget_button_back"
+                          }
+                        },
+                        {
+                          "widget": {
+                            "button": "tertiary",
+                            "class": "gamepadButton",
+                            "id": "clear",
+                            "size": [
+                              40,
+                              15
+                            ],
+                            "textKey": "ui_widget_button_clear"
+                          }
+                        }
+                      ],
+                      "proportion": 1,
+                      "sizer": {
+                        "gap": 0,
+                        "type": "horizontal"
+                      }
+                    },
+                    {
+                      "children": [
+                        {
+                          "widget": {
+                            "button": "secondary",
+                            "class": "gamepadButton",
+                            "id": "ok",
+                            "size": [
+                              40,
+                              15
+                            ],
+                            "textKey": "ui_widget_button_ok"
+                          }
+                        }
+                      ],
+                      "fill": "right",
+                      "proportion": 1,
+                      "sizer": {
+                        "gap": 0,
+                        "type": "horizontal"
+                      }
+                    }
+                  ],
+                  "fill": [
+                    "fillHorizontal"
+                  ],
+                  "sizer": {
+                    "type": "horizontal"
+                  }
+                }
+              ],
+              "fill": "centre",
+              "sizer": {
+                "gap": 0,
+                "type": "vertical"
+              },
+              "widget": {
+                "class": "dialogue",
+                "style": "dialogueLight",
+                "titleKey": "ui_ugc_filter"
+              }
+            }
+          ],
+          "fill": "centre",
+          "proportion": 1,
+          "sizer": {
+            "gap": 0,
+            "type": "vertical"
+          },
+          "widget": {
+            "class": "framedImage",
+            "scrollPos": [
+              10,
+              -170
+            ],
+            "scrollSpeed": [
+              15,
+              0
+            ],
+            "size": [
+              700,
+              10
+            ],
+            "style": "paperScroll"
+          }
+        }
+      ],
+      "sizer": {
+        "type": "vertical"
+      },
+      "widget": {
+        "class": "image",
+        "colour": "#000000B0",
+        "image": "ui/whitebox.png",
+        "size": [
+          640,
+          360
+        ]
+      }
+    }
+  ],
+  "sizer": {
+    "type": "vertical"
+  },
+  "widget": {
+    "childLayerAdjustment": 1,
+    "class": "widget"
+  }
+}

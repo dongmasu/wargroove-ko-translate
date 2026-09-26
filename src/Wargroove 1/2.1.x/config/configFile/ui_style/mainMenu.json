@@ -1,0 +1,46 @@
+{
+  "uiStyle": {
+    "mainMenu": {
+      "card": {
+        "progress": {
+          "colour": "#FFFFFF",
+          "font": "Wargroove Small",
+          "size": 16
+        },
+        "progressBar": {
+          "colour": "#A47750",
+          "img": "ui/main_menu/menu_sel_bar.png"
+        },
+        "title": {
+          "colour": "#F4F6E9",
+          "font": "SitkaText Card",
+          "outline": 2,
+          "outlineColour": "#A47750",
+          "size": 14
+        }
+      },
+      "label": {
+        "colour": "#DDDDDD",
+        "font": "Wargroove Medium",
+        "outline": 1,
+        "size": 16
+      },
+      "labelDisabled": {
+        "colour": "#808080",
+        "font": "Wargroove Medium",
+        "outline": 1,
+        "size": 16
+      },
+      "labelHover": {
+        "colour": "#FFFFFF",
+        "font": "Wargroove Medium",
+        "outline": 1,
+        "size": 16
+      },
+      "selBar": {
+        "colour": "#DFC686",
+        "img": "ui/main_menu/menu_sel_bar.png"
+      }
+    }
+  }
+}

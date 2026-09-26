@@ -1,0 +1,37 @@
+{
+  "author": "Finn",
+  "backgroundParticles": {
+    "particles": {
+      "acceleration": [
+        -10,
+        10
+      ],
+      "angle": 135,
+      "angleScatter": 25,
+      "directionScatter": 150,
+      "fadeInTime": 1,
+      "fadeOutTime": 1,
+      "rotateTowardsMovement": true,
+      "spawnRate": 25,
+      "speed": 100,
+      "speedDamp": 0.20000000298023224,
+      "ttl": 10
+    },
+    "sprites": [
+      {
+        "colour": "#FFFFFF",
+        "img": "halley_ui/particles_sakura_flat.png"
+      }
+    ]
+  },
+  "base": "colour_schemes/base_flat",
+  "colours": {
+    "background0": "#ffe5ea",
+    "background1": "#fff2f5",
+    "toolbarNormal": "#ffb7c5",
+    "ui_listSelected": "#ffb7c5",
+    "ui_stringMatchText": "#d46177",
+    "ui_unselectedTextAlt": "#d46177"
+  },
+  "name": "Flat Sakura"
+}

@@ -1,0 +1,28 @@
+{
+  "_assetType": "audioClip",
+  "_decoded": {
+    "legacy": true,
+    "actions": [
+      {
+        "type": "play",
+        "scope": 1,
+        "clip": "sfx/harpyAttackVoice.ogg",
+        "group": "voice",
+        "gain": [
+          0.8999999761581421,
+          1.100000023841858
+        ],
+        "pitch": [
+          0.8999999761581421,
+          1.0
+        ],
+        "legacyTailHex": "3333b33e0000000000",
+        "legacyTailFloats": [
+          0.3499999940395355,
+          0.0
+        ]
+      }
+    ]
+  },
+  "_payloadHex": "0100000004000000706c617901000000180000007366782f686172707941747461636b566f6963652e6f676705000000766f6963656666663fcdcc8c3f6666663f0000803f3333b33e0000000000"
+}

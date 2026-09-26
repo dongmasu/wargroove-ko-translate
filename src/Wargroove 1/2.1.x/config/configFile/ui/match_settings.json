@@ -1,0 +1,352 @@
+{
+  "children": [
+    {
+      "border": [
+        25,
+        16,
+        25,
+        15
+      ],
+      "children": [
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "fill": "centre",
+                  "proportion": 1,
+                  "widget": {
+                    "class": "label",
+                    "textKey": "match_settings_title"
+                  }
+                }
+              ],
+              "fill": "left",
+              "widget": {
+                "class": "image",
+                "colour": "#DFC686",
+                "image": "ui/widgets/list/list_item_bg.png",
+                "innerBorder": [
+                  4,
+                  -1,
+                  4,
+                  1
+                ]
+              }
+            },
+            {
+              "border": [
+                0,
+                2,
+                0,
+                2
+              ],
+              "widget": {
+                "class": "horizontalDiv",
+                "style": "darkHorizontalDiv"
+              }
+            },
+            {
+              "border": [
+                0,
+                -2,
+                0,
+                -2
+              ],
+              "children": [
+                {
+                  "children": [
+                    {
+                      "border": [
+                        3,
+                        3,
+                        0,
+                        2
+                      ],
+                      "children": [
+                        {
+                          "fill": "centre",
+                          "proportion": 1,
+                          "widget": {
+                            "class": "label",
+                            "id": "mapName",
+                            "text": "<Map Name>"
+                          }
+                        }
+                      ],
+                      "fill": "left",
+                      "widget": {
+                        "class": "image",
+                        "image": "ui/widgets/window/static_box_window.png",
+                        "innerBorder": [
+                          4,
+                          0,
+                          4,
+                          1
+                        ]
+                      }
+                    },
+                    {
+                      "children": [
+                        {
+                          "border": [
+                            3,
+                            0,
+                            0,
+                            2
+                          ],
+                          "fill": "fillHorizontal",
+                          "proportion": 1,
+                          "widget": {
+                            "class": "optionsGrid",
+                            "columnProportions": [
+                              1.0,
+                              0.0
+                            ],
+                            "id": "settingsOptions",
+                            "options": [
+                              {
+                                "sprite": "menuicons_weather",
+                                "spriteSheet": "ui",
+                                "textKey": "match_settings_weather",
+                                "widget": {
+                                  "class": "optionListMorpher",
+                                  "id": "weather"
+                                }
+                              },
+                              {
+                                "sprite": "menuicons_turn_timer",
+                                "spriteSheet": "ui",
+                                "textKey": "match_settings_turn_timer",
+                                "widget": {
+                                  "class": "optionListMorpher",
+                                  "id": "turnTimer"
+                                }
+                              },
+                              {
+                                "sprite": "menuicons_fow",
+                                "spriteSheet": "ui",
+                                "textKey": "match_settings_fog_of_war",
+                                "widget": {
+                                  "class": "optionListMorpher",
+                                  "id": "fogOfWar"
+                                }
+                              },
+                              {
+                                "sprite": "menuicons_money",
+                                "spriteSheet": "ui",
+                                "textKey": "match_settings_income",
+                                "widget": {
+                                  "class": "slider",
+                                  "granularity": 10,
+                                  "id": "income",
+                                  "maxValue": 500,
+                                  "minValue": 20,
+                                  "value": 100
+                                }
+                              },
+                              {
+                                "sprite": "menuicons_biome",
+                                "spriteSheet": "ui",
+                                "textKey": "match_settings_biome",
+                                "widget": {
+                                  "class": "optionListMorpher",
+                                  "id": "biome"
+                                }
+                              },
+                              {
+                                "sprite": "menuicons_commander",
+                                "spriteSheet": "ui",
+                                "textKey": "match_settings_commanders",
+                                "widget": {
+                                  "class": "optionListMorpher",
+                                  "id": "commanders"
+                                }
+                              },
+                              {
+                                "sprite": "menuicons_team",
+                                "spriteSheet": "ui",
+                                "textKey": "match_settings_team",
+                                "widget": {
+                                  "class": "optionListMorpher",
+                                  "id": "team"
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "widget": {
+                            "class": "toolTip",
+                            "maxHeight": 48,
+                            "maxWidth": 250,
+                            "size": [
+                              250,
+                              48
+                            ],
+                            "tips": [
+                              {
+                                "id": "weather",
+                                "textKey": "match_settings_weather_description"
+                              },
+                              {
+                                "id": "turnTimer",
+                                "textKey": "match_settings_turn_timer_description"
+                              },
+                              {
+                                "id": "fogOfWar",
+                                "textKey": "match_settings_fog_of_war_description"
+                              },
+                              {
+                                "id": "income",
+                                "textKey": "match_settings_income_description"
+                              },
+                              {
+                                "id": "biome",
+                                "textKey": "match_settings_biome_description"
+                              },
+                              {
+                                "id": "commanders",
+                                "textKey": "match_settings_commanders_description"
+                              },
+                              {
+                                "id": "team",
+                                "textKey": "match_settings_team_description"
+                              },
+                              {
+                                "id": "weather_dropdown",
+                                "textKey": "match_settings_weather_description"
+                              },
+                              {
+                                "id": "turnTimer_dropdown",
+                                "textKey": "match_settings_turn_timer_description"
+                              },
+                              {
+                                "id": "fogOfWar_dropdown",
+                                "textKey": "match_settings_fog_of_war_description"
+                              },
+                              {
+                                "id": "biome_dropdown",
+                                "textKey": "match_settings_biome_description"
+                              },
+                              {
+                                "id": "commanders_dropdown",
+                                "textKey": "match_settings_commanders_description"
+                              },
+                              {
+                                "id": "team_dropdown",
+                                "textKey": "match_settings_team_description"
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      "fill": [
+                        "fillHorizontal"
+                      ],
+                      "sizer": {
+                        "type": "vertical"
+                      }
+                    }
+                  ],
+                  "proportion": 1,
+                  "sizer": {
+                    "type": "vertical"
+                  }
+                },
+                {
+                  "border": [
+                    2,
+                    1,
+                    3,
+                    2
+                  ],
+                  "widget": {
+                    "class": "verticalDiv"
+                  }
+                },
+                {
+                  "border": [
+                    0,
+                    2,
+                    0,
+                    2
+                  ],
+                  "widget": {
+                    "class": "mapInfo",
+                    "id": "mapInfo"
+                  }
+                }
+              ],
+              "fill": "fill",
+              "proportion": 1,
+              "sizer": {
+                "type": "horizontal"
+              },
+              "widget": {
+                "class": "image",
+                "colour": "#f4f6e9",
+                "image": "ui/whitebox.png"
+              }
+            }
+          ],
+          "proportion": 1,
+          "sizer": {
+            "gap": 0,
+            "type": "vertical"
+          }
+        },
+        {
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "widget": {
+            "class": "nearZoomButtons"
+          }
+        }
+      ],
+      "fill": [
+        "fillVertical",
+        "fillHorizontal"
+      ],
+      "sizer": {
+        "type": "vertical"
+      },
+      "widget": {
+        "class": "framedImage",
+        "scrollPos": [
+          5,
+          -170
+        ],
+        "scrollSpeed": [
+          -10,
+          10
+        ],
+        "size": [
+          434,
+          245
+        ],
+        "style": "paperPattern"
+      }
+    }
+  ],
+  "sizer": {
+    "gap": 0,
+    "type": "vertical"
+  },
+  "widget": {
+    "class": "framedImage",
+    "scrollPos": [
+      0,
+      -14
+    ],
+    "scrollSpeed": [
+      10,
+      0
+    ],
+    "style": "paperScroll"
+  }
+}

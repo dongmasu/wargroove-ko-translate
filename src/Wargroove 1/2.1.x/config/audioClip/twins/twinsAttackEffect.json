@@ -1,0 +1,47 @@
+{
+  "_assetType": "audioClip",
+  "_decoded": {
+    "legacy": true,
+    "actions": [
+      {
+        "type": "play",
+        "scope": 1,
+        "clip": "sfx/twins/twinsAttackEffectFuseFoley.ogg",
+        "group": "sfx",
+        "gain": [
+          1.0,
+          1.0
+        ],
+        "pitch": [
+          0.3499999940395355,
+          0.3499999940395355
+        ],
+        "legacyTailHex": "000000000000000000",
+        "legacyTailFloats": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "type": "play",
+        "scope": 1,
+        "clip": "sfx/explosion1.ogg",
+        "group": "sfx",
+        "gain": [
+          1.0,
+          1.0
+        ],
+        "pitch": [
+          1.0,
+          1.0
+        ],
+        "legacyTailHex": "9a99993e0000000000",
+        "legacyTailFloats": [
+          0.30000001192092896,
+          0.0
+        ]
+      }
+    ]
+  },
+  "_payloadHex": "0200000004000000706c617901000000280000007366782f7477696e732f7477696e7341747461636b45666665637446757365466f6c65792e6f6767030000007366780000803f0000803f3333b33e3333b33e00000000000000000004000000706c617901000000120000007366782f6578706c6f73696f6e312e6f6767030000007366780000803f0000803f0000803f0000803f9a99993e0000000000"
+}

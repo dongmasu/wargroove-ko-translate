@@ -1,0 +1,53 @@
+{
+  "credits": {
+    "lines": [
+      {
+        "actions": [
+          {
+            "id": "waitForEmpty"
+          }
+        ],
+        "style": "empty"
+      },
+      {
+        "actions": [
+          {
+            "id": "setPosition",
+            "value": "middle"
+          },
+          {
+            "id": "setMode",
+            "value": "centerFade"
+          }
+        ],
+        "style": "empty"
+      },
+      {
+        "style": "credits_name",
+        "textKey": "credits_fin_sea"
+      },
+      {
+        "actions": [
+          {
+            "id": "waitForEmpty"
+          }
+        ],
+        "style": "empty"
+      }
+    ],
+    "xAnchorLeft": 0.20000000298023224,
+    "xAnchorRight": 0.6499999761581421
+  },
+  "creditsImageSequence": [
+    {
+      "fadeTime": 2.0,
+      "id": "earth_images",
+      "sequence": [
+        {
+          "image": "credits/earth_01.png"
+        }
+      ],
+      "timePerImage": 20
+    }
+  ]
+}

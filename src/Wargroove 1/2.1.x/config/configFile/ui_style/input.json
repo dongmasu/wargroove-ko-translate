@@ -1,0 +1,24 @@
+{
+  "uiStyle": {
+    "input": {
+      "box": "ui/widgets/textinput/inputbox.png",
+      "caret": "ui/widgets/textinput/caret.png",
+      "innerBorder": [
+        3,
+        0,
+        3,
+        0
+      ],
+      "label": {
+        "colour": "#3D4265",
+        "font": "Wargroove Medium",
+        "size": 16
+      },
+      "labelGhost": {
+        "colour": "#92928B",
+        "font": "Wargroove Medium",
+        "size": 16
+      }
+    }
+  }
+}

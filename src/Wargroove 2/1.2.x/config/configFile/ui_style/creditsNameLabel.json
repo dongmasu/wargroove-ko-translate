@@ -1,0 +1,12 @@
+{
+  "uiStyle": {
+    "creditsNameLabel": {
+      "label": {
+        "colour": "#F4F6E9",
+        "font": "MatchFont",
+        "size": 16,
+        "smoothness": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "unitClasses": [
+    {
+      "battleUnitCount": 1,
+      "canAttack": "false",
+      "classIcon": "unit_icons_summon",
+      "damageMultiplier": 0.5,
+      "deathVerbId": "death_explode",
+      "id": "drone",
+      "isHidden": "true",
+      "isRecruitable": "false",
+      "moveRange": 5,
+      "movement": "hovering",
+      "name": "unit_class_name_drone",
+      "passiveMultiplier": 1.25,
+      "sightRange": 5,
+      "tags": [
+        "type.air",
+        "summon"
+      ],
+      "uiEffectivenessMultiplier": 2,
+      "verbs": [
+        "explode"
+      ]
+    }
+  ],
+  "units": [
+    {
+      "battleAnimation": "units/commanders/koji/battle_drone",
+      "class": "drone",
+      "deathMoveMax": 0,
+      "deathMoveMin": 0,
+      "faction": "heavensong",
+      "grabPos": [
+        13,
+        14
+      ],
+      "mapAnimation": "units/commanders/koji/drone",
+      "mapSpeed": 4.0,
+      "mediumPortrait": "units/commanders/koji/portrait_drone_medium.png",
+      "name": "unit_class_name_drone",
+      "smallPortrait": "units/commanders/koji/portrait_drone_small.png",
+      "sounds": {
+        "death": "koji/kojiDroneDie",
+        "hit": "hitMetal",
+        "hitMap": "hitMetal",
+        "run": "koji/kojiDroneEntry",
+        "runMap": "koji/kojiDroneEntry"
+      },
+      "stayAfterDeath": "true"
+    }
+  ]
+}

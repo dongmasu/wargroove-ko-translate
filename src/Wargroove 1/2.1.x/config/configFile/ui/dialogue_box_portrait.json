@@ -1,0 +1,41 @@
+{
+  "border": [
+    -1,
+    -1,
+    1,
+    1
+  ],
+  "children": [
+    {
+      "border": [
+        4,
+        7,
+        0,
+        0
+      ],
+      "fill": "top",
+      "widget": {
+        "class": "paletteSwapImage",
+        "id": "commanderPortrait",
+        "image": "portraits/commanders/small/koji_portrait_small.png",
+        "layerAdjustment": 2,
+        "material": "Wargroove/PaletteSwap",
+        "skinColour": "typeIII",
+        "swapColour": "yellow"
+      }
+    }
+  ],
+  "sizer": {
+    "type": "horizontal"
+  },
+  "widget": {
+    "class": "image",
+    "id": "portraitBox",
+    "image": "ui/main_game_ui/dialogue_box_portrait.png",
+    "layerAdjustment": 2,
+    "size": [
+      44,
+      50
+    ]
+  }
+}

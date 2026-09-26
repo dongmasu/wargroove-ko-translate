@@ -1,0 +1,12 @@
+{
+  "_assetType": "texture",
+  "_decoded": {
+    "assetType": "texture",
+    "decoded": false,
+    "decodeNote": "Historical serializer schema is not implemented.",
+    "size": 60,
+    "strings": [],
+    "payloadHex": "484c494676303100200020002400000020040000020000001f0001000c1f030100080f2000fff21f001f000c0f2100071f000100ff8e500000000000"
+  },
+  "_payloadHex": "484c494676303100200020002400000020040000020000001f0001000c1f030100080f2000fff21f001f000c0f2100071f000100ff8e500000000000"
+}

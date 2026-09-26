@@ -1,0 +1,67 @@
+{
+  "unitClasses": [
+    {
+      "aiPriority": 4.0,
+      "battleUnitCount": 1,
+      "canBeCaptured": "true",
+      "canBeReinforced": "false",
+      "canReinforce": "true",
+      "cost": 500,
+      "damageMultiplier": 1,
+      "id": "hideout",
+      "income": 0,
+      "isNeutraliseable": "true",
+      "isStructure": "true",
+      "movement": "land_building",
+      "name": "structure_name_hideout",
+      "recruitTags": [
+        "type.ground.hideout"
+      ],
+      "regeneration": 10,
+      "sightRange": 6,
+      "tags": [
+        "structure"
+      ],
+      "verbs": [
+        "recruit"
+      ]
+    }
+  ],
+  "units": [
+    {
+      "class": "hideout",
+      "faction": "neutral",
+      "grabPos": [
+        14,
+        7
+      ],
+      "mapAnimation": "structures/hideout",
+      "mediumPortrait": "portraits/medium/hideout.png",
+      "name": "structure_name_hideout",
+      "smallPortrait": "portraits/small/portrait_structure_small.png",
+      "sounds": {
+        "death": "gateDie",
+        "hit": "hitWood",
+        "hitMap": "hitStone"
+      },
+      "structureImage": {
+        "farBackground": "hideout_background_full_background_2",
+        "foreground": "hideout_background_full_foreground",
+        "keeperPosition": [
+          74,
+          85
+        ],
+        "leftBannerOffset": [
+          -16,
+          7
+        ],
+        "nearBackground": "hideout_background_full_background_1",
+        "rightBannerOffset": [
+          -9,
+          4
+        ],
+        "spriteSheet": "backgrounds/hideout/hideout_background_full"
+      }
+    }
+  ]
+}

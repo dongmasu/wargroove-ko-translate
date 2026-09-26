@@ -1,0 +1,14 @@
+{
+  "sizer": {
+    "gap": 0,
+    "type": "vertical"
+  },
+  "widget": {
+    "class": "image",
+    "image": "ui/cutscene/dialoguebox_tail.png",
+    "size": [
+      16,
+      16
+    ]
+  }
+}

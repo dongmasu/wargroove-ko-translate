@@ -1,0 +1,243 @@
+{
+  "children": [
+    {
+      "border": [
+        0,
+        0,
+        20,
+        0
+      ],
+      "children": [
+        {
+          "border": [
+            -23,
+            1,
+            0,
+            0
+          ],
+          "fill": [
+            "centreVertical"
+          ],
+          "widget": {
+            "class": "image",
+            "image": "ui/campaign/boot_icon.png"
+          }
+        },
+        {
+          "border": [
+            4,
+            0,
+            0,
+            0
+          ],
+          "fill": "centre",
+          "proportion": 1,
+          "widget": {
+            "alignment": 0.5,
+            "class": "label",
+            "id": "region",
+            "text": "<Region Name>"
+          }
+        }
+      ],
+      "fill": "false",
+      "sizer": {
+        "type": "horizontal"
+      },
+      "widget": {
+        "class": "image",
+        "image": "ui/campaign/title_box.png",
+        "innerBorder": [
+          10,
+          0,
+          10,
+          0
+        ]
+      }
+    },
+    {
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "children": [
+        {
+          "border": [
+            -28,
+            -4,
+            0,
+            0
+          ],
+          "fill": [
+            "centreVertical"
+          ],
+          "widget": {
+            "class": "image",
+            "image": "ui/campaign/sword_icon.png"
+          }
+        },
+        {
+          "border": [
+            2,
+            -2,
+            1,
+            0
+          ],
+          "fill": "centre",
+          "proportion": 1,
+          "widget": {
+            "alignment": 0.5,
+            "class": "label",
+            "id": "mission",
+            "text": "Act ? Mission ?"
+          }
+        }
+      ],
+      "fill": "false",
+      "sizer": {
+        "type": "horizontal"
+      },
+      "widget": {
+        "class": "image",
+        "image": "ui/campaign/title_box.png",
+        "innerBorder": [
+          14,
+          1,
+          10,
+          0
+        ]
+      }
+    },
+    {
+      "border": [
+        20,
+        0,
+        0,
+        0
+      ],
+      "children": [
+        {
+          "border": [
+            -11,
+            1,
+            0,
+            0
+          ],
+          "fill": [
+            "centreVertical"
+          ],
+          "widget": {
+            "class": "image",
+            "image": "ui/campaign/book_icon.png"
+          }
+        },
+        {
+          "border": null,
+          "children": [
+            {
+              "border": [
+                1,
+                1,
+                0,
+                2
+              ],
+              "fill": [
+                "centre",
+                "centreVertical"
+              ],
+              "proportion": 1,
+              "widget": {
+                "alignment": 0.5,
+                "class": "label",
+                "id": "date",
+                "text": "MON DY"
+              }
+            }
+          ],
+          "fill": "centre",
+          "widget": {
+            "class": "widget",
+            "size": [
+              41,
+              0
+            ]
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "fill": "false",
+                  "widget": {
+                    "class": "image",
+                    "id": "star1",
+                    "image": "ui/campaign/ui_coin_logo.png"
+                  }
+                },
+                {
+                  "fill": "false",
+                  "widget": {
+                    "class": "image",
+                    "id": "star2",
+                    "image": "ui/campaign/ui_coin_logo.png"
+                  }
+                },
+                {
+                  "fill": "false",
+                  "widget": {
+                    "class": "image",
+                    "id": "star3",
+                    "image": "ui/campaign/ui_coin_logo.png"
+                  }
+                }
+              ],
+              "fill": "centre",
+              "proportion": 1,
+              "sizer": {
+                "type": "horizontal"
+              },
+              "widget": {
+                "class": "widget",
+                "innerBorder": [
+                  0,
+                  1,
+                  0,
+                  0
+                ],
+                "size": [
+                  50,
+                  0
+                ]
+              }
+            }
+          ],
+          "fill": "right",
+          "widget": {
+            "class": "image",
+            "id": "stars",
+            "image": "ui/campaign/coin_background.png"
+          }
+        }
+      ],
+      "fill": "false",
+      "sizer": {
+        "type": "horizontal"
+      },
+      "widget": {
+        "class": "image",
+        "id": "dateHolder",
+        "image": "ui/campaign/title_box.png"
+      }
+    }
+  ],
+  "sizer": {
+    "gap": 4,
+    "type": "horizontal"
+  },
+  "widget": {
+    "class": "widget"
+  }
+}

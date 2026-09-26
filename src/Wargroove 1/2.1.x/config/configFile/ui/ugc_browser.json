@@ -1,0 +1,712 @@
+{
+  "children": [
+    {
+      "border": [
+        25,
+        15,
+        25,
+        15
+      ],
+      "children": [
+        {
+          "children": [
+            {
+              "border": [
+                0,
+                0,
+                0,
+                3
+              ],
+              "children": [
+                {
+                  "border": [
+                    10,
+                    0,
+                    10,
+                    0
+                  ],
+                  "fill": "centre",
+                  "widget": {
+                    "class": "label",
+                    "id": "title",
+                    "textKey": "ui_ugc_title"
+                  }
+                }
+              ],
+              "fill": "left",
+              "sizer": {
+                "type": "vertical"
+              },
+              "widget": {
+                "class": "image",
+                "colour": "#dfc686",
+                "image": "ui/widgets/window/flat_box.png"
+              }
+            },
+            {
+              "fill": "bottom",
+              "widget": {
+                "childLayerAdjustment": 1,
+                "class": "list",
+                "id": "tabs",
+                "inputButtons": "tabs",
+                "options": [
+                  {
+                    "id": "featured",
+                    "textKey": "ui_ugc_select_featured"
+                  },
+                  {
+                    "id": "browse",
+                    "textKey": "ui_ugc_select_browse"
+                  },
+                  {
+                    "id": "mine",
+                    "textKey": "ui_ugc_select_my_content"
+                  },
+                  {
+                    "id": "downloaded",
+                    "textKey": "ui_ugc_select_downloaded"
+                  }
+                ],
+                "style": "tabs",
+                "type": "horizontal",
+                "uniformSizedItems": "true"
+              }
+            }
+          ],
+          "sizer": {
+            "type": "horizontal"
+          }
+        },
+        {
+          "border": [
+            0,
+            -2,
+            0,
+            1
+          ],
+          "widget": {
+            "class": "horizontalDiv",
+            "style": "darkHorizontalDiv"
+          }
+        },
+        {
+          "children": [
+            {
+              "border": [
+                0,
+                -2,
+                0,
+                -2
+              ],
+              "children": [
+                {
+                  "fill": "centre",
+                  "proportion": 1,
+                  "widget": {
+                    "class": "label",
+                    "textKey": "ui_map_select_loading"
+                  }
+                }
+              ],
+              "proportion": 1,
+              "widget": {
+                "active": "false",
+                "class": "image",
+                "colour": "#f4f6e9",
+                "id": "loadingArea",
+                "image": "ui/whitebox.png"
+              }
+            },
+            {
+              "border": [
+                0,
+                -2,
+                0,
+                -2
+              ],
+              "children": [
+                {
+                  "children": [
+                    {
+                      "fill": [
+                        "centreHorizontal"
+                      ],
+                      "widget": {
+                        "class": "image",
+                        "image": "ui/cutscene/cutscene_editor/soldier_felheim_create.png",
+                        "size": [
+                          48,
+                          64
+                        ]
+                      }
+                    },
+                    {
+                      "widget": {
+                        "alignment": 0.5,
+                        "class": "label",
+                        "maxWidth": 100,
+                        "textKey": "ui_ugc_list_empty"
+                      }
+                    }
+                  ],
+                  "fill": "centre",
+                  "proportion": 1,
+                  "sizer": {
+                    "type": "vertical"
+                  },
+                  "widget": {
+                    "class": "widget"
+                  }
+                }
+              ],
+              "fill": "fill",
+              "proportion": 1,
+              "widget": {
+                "active": "false",
+                "class": "image",
+                "colour": "#f4f6e9",
+                "id": "emptyArea",
+                "image": "ui/whitebox.png"
+              }
+            },
+            {
+              "border": [
+                0,
+                -2,
+                0,
+                -2
+              ],
+              "children": [
+                {
+                  "border": [
+                    0,
+                    2,
+                    0,
+                    2
+                  ],
+                  "proportion": 1,
+                  "widget": {
+                    "class": "pagedPane",
+                    "id": "pagedPane",
+                    "pages": [
+                      {
+                        "children": [
+                          {
+                            "proportion": 1,
+                            "widget": {
+                              "class": "pagedList",
+                              "id": "featuredList"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "children": [
+                          {
+                            "children": [
+                              {
+                                "border": [
+                                  0,
+                                  2,
+                                  0,
+                                  3
+                                ],
+                                "children": [
+                                  {
+                                    "children": [
+                                      {
+                                        "widget": {
+                                          "class": "widget"
+                                        }
+                                      },
+                                      {
+                                        "children": [
+                                          {
+                                            "border": [
+                                              0,
+                                              0,
+                                              3,
+                                              2
+                                            ],
+                                            "widget": {
+                                              "class": "label",
+                                              "style": "brownLabel",
+                                              "textKey": "ui_ugc_filter_author"
+                                            }
+                                          },
+                                          {
+                                            "border": [
+                                              0,
+                                              1,
+                                              0,
+                                              -1
+                                            ],
+                                            "widget": {
+                                              "class": "playerName",
+                                              "id": "filterAuthor",
+                                              "maxHeight": 15,
+                                              "maxWidth": 100,
+                                              "style": "brownLabel"
+                                            }
+                                          }
+                                        ],
+                                        "sizer": {
+                                          "type": "horizontal"
+                                        },
+                                        "widget": {
+                                          "class": "image",
+                                          "colour": "#dfc686",
+                                          "id": "filterAuthorPane",
+                                          "image": "ui/widgets/window/flat_box.png",
+                                          "innerBorder": [
+                                            3,
+                                            -2,
+                                            3,
+                                            -1
+                                          ]
+                                        }
+                                      },
+                                      {
+                                        "children": [
+                                          {
+                                            "border": [
+                                              0,
+                                              0,
+                                              3,
+                                              2
+                                            ],
+                                            "widget": {
+                                              "class": "label",
+                                              "style": "brownLabel",
+                                              "textKey": "ui_ugc_filter_title"
+                                            }
+                                          },
+                                          {
+                                            "widget": {
+                                              "class": "label",
+                                              "id": "filterTitle",
+                                              "maxHeight": 15,
+                                              "maxWidth": 100,
+                                              "style": "brownLabel"
+                                            }
+                                          },
+                                          {
+                                            "border": [
+                                              0,
+                                              0,
+                                              0,
+                                              2
+                                            ],
+                                            "widget": {
+                                              "active": "false",
+                                              "class": "label",
+                                              "id": "filterTitleMore",
+                                              "style": "brownLabel",
+                                              "text": "…"
+                                            }
+                                          }
+                                        ],
+                                        "sizer": {
+                                          "type": "horizontal"
+                                        },
+                                        "widget": {
+                                          "class": "image",
+                                          "colour": "#dfc686",
+                                          "id": "filterTitlePane",
+                                          "image": "ui/widgets/window/flat_box.png",
+                                          "innerBorder": [
+                                            3,
+                                            -2,
+                                            3,
+                                            -1
+                                          ]
+                                        }
+                                      }
+                                    ],
+                                    "fill": "left",
+                                    "sizer": {
+                                      "gap": 1,
+                                      "type": "horizontal"
+                                    }
+                                  },
+                                  {
+                                    "children": [
+                                      {
+                                        "widget": {
+                                          "class": "widget"
+                                        }
+                                      },
+                                      {
+                                        "children": [
+                                          {
+                                            "border": [
+                                              0,
+                                              0,
+                                              3,
+                                              2
+                                            ],
+                                            "widget": {
+                                              "class": "label",
+                                              "style": "brownLabel",
+                                              "textKey": "ui_ugc_filter_order"
+                                            }
+                                          },
+                                          {
+                                            "border": [
+                                              0,
+                                              0,
+                                              0,
+                                              2
+                                            ],
+                                            "widget": {
+                                              "class": "label",
+                                              "id": "filterOrder",
+                                              "style": "brownLabel"
+                                            }
+                                          }
+                                        ],
+                                        "sizer": {
+                                          "type": "horizontal"
+                                        },
+                                        "widget": {
+                                          "class": "image",
+                                          "colour": "#dfc686",
+                                          "id": "filterOrderPane",
+                                          "image": "ui/widgets/window/flat_box.png",
+                                          "innerBorder": [
+                                            3,
+                                            -2,
+                                            3,
+                                            -1
+                                          ]
+                                        }
+                                      },
+                                      {
+                                        "children": [
+                                          {
+                                            "border": [
+                                              0,
+                                              0,
+                                              3,
+                                              2
+                                            ],
+                                            "widget": {
+                                              "class": "label",
+                                              "style": "brownLabel",
+                                              "textKey": "ui_ugc_filter_players"
+                                            }
+                                          },
+                                          {
+                                            "border": [
+                                              0,
+                                              0,
+                                              0,
+                                              2
+                                            ],
+                                            "widget": {
+                                              "class": "label",
+                                              "id": "filterPlayers",
+                                              "style": "brownLabel"
+                                            }
+                                          }
+                                        ],
+                                        "sizer": {
+                                          "type": "horizontal"
+                                        },
+                                        "widget": {
+                                          "class": "image",
+                                          "colour": "#dfc686",
+                                          "id": "filterPlayersPane",
+                                          "image": "ui/widgets/window/flat_box.png",
+                                          "innerBorder": [
+                                            3,
+                                            -2,
+                                            3,
+                                            -1
+                                          ]
+                                        }
+                                      },
+                                      {
+                                        "children": [
+                                          {
+                                            "border": [
+                                              0,
+                                              0,
+                                              3,
+                                              2
+                                            ],
+                                            "widget": {
+                                              "class": "label",
+                                              "style": "brownLabel",
+                                              "textKey": "ui_ugc_filter_content"
+                                            }
+                                          },
+                                          {
+                                            "border": [
+                                              0,
+                                              0,
+                                              0,
+                                              2
+                                            ],
+                                            "widget": {
+                                              "class": "label",
+                                              "id": "filterContent",
+                                              "style": "brownLabel"
+                                            }
+                                          }
+                                        ],
+                                        "sizer": {
+                                          "type": "horizontal"
+                                        },
+                                        "widget": {
+                                          "class": "image",
+                                          "colour": "#dfc686",
+                                          "id": "filterContentPane",
+                                          "image": "ui/widgets/window/flat_box.png",
+                                          "innerBorder": [
+                                            3,
+                                            -2,
+                                            3,
+                                            -1
+                                          ]
+                                        }
+                                      }
+                                    ],
+                                    "fill": "left",
+                                    "sizer": {
+                                      "gap": 1,
+                                      "type": "horizontal"
+                                    }
+                                  }
+                                ],
+                                "fill": "fillHorizontal",
+                                "sizer": {
+                                  "gap": 1,
+                                  "type": "vertical"
+                                },
+                                "widget": {
+                                  "class": "widget",
+                                  "id": "filterPane"
+                                }
+                              },
+                              {
+                                "proportion": 1,
+                                "widget": {
+                                  "class": "pagedList",
+                                  "id": "browseList"
+                                }
+                              }
+                            ],
+                            "proportion": 1,
+                            "sizer": {
+                              "type": "vertical"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "children": [
+                          {
+                            "children": [
+                              {
+                                "children": [
+                                  {
+                                    "widget": {
+                                      "class": "label",
+                                      "id": "slotsLabel",
+                                      "style": "brownLabel",
+                                      "textKey": "ui_ugc_slots"
+                                    }
+                                  }
+                                ],
+                                "fill": "left",
+                                "sizer": {
+                                  "gap": 3,
+                                  "type": "horizontal"
+                                },
+                                "widget": {
+                                  "class": "image",
+                                  "colour": "#dfc686",
+                                  "image": "ui/widgets/window/flat_box.png",
+                                  "innerBorder": [
+                                    3,
+                                    -2,
+                                    3,
+                                    -1
+                                  ]
+                                }
+                              },
+                              {
+                                "proportion": 1,
+                                "widget": {
+                                  "class": "pagedList",
+                                  "id": "mineList"
+                                }
+                              }
+                            ],
+                            "proportion": 1,
+                            "sizer": {
+                              "gap": 2,
+                              "type": "vertical"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "children": [
+                          {
+                            "proportion": 1,
+                            "widget": {
+                              "class": "pagedList",
+                              "id": "downloadedList"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "border": [
+                    2,
+                    2,
+                    3,
+                    2
+                  ],
+                  "widget": {
+                    "class": "verticalDiv"
+                  }
+                },
+                {
+                  "border": [
+                    0,
+                    2,
+                    0,
+                    1
+                  ],
+                  "children": [
+                    {
+                      "fill": "fillVertical",
+                      "proportion": 1,
+                      "widget": {
+                        "class": "mapInfo",
+                        "id": "mapInfo"
+                      }
+                    },
+                    {
+                      "children": [
+                        {
+                          "border": [
+                            3,
+                            0,
+                            3,
+                            0
+                          ],
+                          "widget": {
+                            "class": "playerName",
+                            "id": "authorLabel",
+                            "maxHeight": 15,
+                            "maxWidth": 98,
+                            "wordWrapped": "false"
+                          }
+                        }
+                      ],
+                      "fill": [
+                        "fillHorizontal",
+                        "bottom"
+                      ],
+                      "proportion": 0,
+                      "sizer": {
+                        "type": "vertical"
+                      },
+                      "widget": {
+                        "class": "image",
+                        "colour": "#dfc686",
+                        "id": "authorPane",
+                        "image": "ui/widgets/window/flat_box.png"
+                      }
+                    }
+                  ],
+                  "fill": "fillVertical",
+                  "sizer": {
+                    "type": "vertical"
+                  },
+                  "widget": {
+                    "class": "widget",
+                    "innerBorder": [
+                      0,
+                      0,
+                      0,
+                      2
+                    ]
+                  }
+                }
+              ],
+              "proportion": 1,
+              "sizer": {
+                "type": "horizontal"
+              },
+              "widget": {
+                "class": "image",
+                "colour": "#f4f6e9",
+                "id": "contentArea",
+                "image": "ui/whitebox.png"
+              }
+            }
+          ],
+          "proportion": 1,
+          "sizer": {
+            "type": "horizontal"
+          }
+        },
+        {
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "widget": {
+            "class": "nearZoomButtons"
+          }
+        }
+      ],
+      "sizer": {
+        "type": "vertical"
+      },
+      "widget": {
+        "class": "framedImage",
+        "scrollPos": [
+          5,
+          -170
+        ],
+        "scrollSpeed": [
+          -10,
+          10
+        ],
+        "size": [
+          434,
+          245
+        ],
+        "style": "paperPattern"
+      }
+    }
+  ],
+  "sizer": {
+    "gap": 0,
+    "type": "vertical"
+  },
+  "widget": {
+    "class": "framedImage",
+    "scrollPos": [
+      10,
+      -170
+    ],
+    "scrollSpeed": [
+      10,
+      0
+    ],
+    "style": "paperScroll"
+  }
+}

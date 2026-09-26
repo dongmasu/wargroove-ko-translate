@@ -1,0 +1,123 @@
+{
+  "_assetType": "audioClip",
+  "_decoded": {
+    "legacy": true,
+    "actions": [
+      {
+        "type": "play",
+        "scope": 1,
+        "clip": "sfx/koji/kojiAttackLeaningFoley.ogg",
+        "group": "sfx",
+        "gain": [
+          1.0,
+          1.0
+        ],
+        "pitch": [
+          1.0,
+          1.0
+        ],
+        "legacyTailHex": "000000000000000000",
+        "legacyTailFloats": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "type": "play",
+        "scope": 1,
+        "clip": "sfx/koji/kojiAttackRopePullFoley.ogg",
+        "group": "sfx",
+        "gain": [
+          1.0,
+          1.0
+        ],
+        "pitch": [
+          1.0,
+          1.0
+        ],
+        "legacyTailHex": "000000000000000000",
+        "legacyTailFloats": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "type": "play",
+        "scope": 1,
+        "clip": "sfx/cutscene/ropeTwist.ogg",
+        "group": "sfx",
+        "gain": [
+          1.0,
+          1.0
+        ],
+        "pitch": [
+          0.699999988079071,
+          0.699999988079071
+        ],
+        "legacyTailHex": "9a99193f0000000000",
+        "legacyTailFloats": [
+          0.6000000238418579,
+          0.0
+        ]
+      },
+      {
+        "type": "play",
+        "scope": 1,
+        "clip": "sfx/koji/kojiAttackSwordSwingFoley2.ogg",
+        "group": "sfx",
+        "gain": [
+          1.0,
+          1.0
+        ],
+        "pitch": [
+          1.0,
+          1.0
+        ],
+        "legacyTailHex": "6666663f0000000000",
+        "legacyTailFloats": [
+          0.8999999761581421,
+          0.0
+        ]
+      },
+      {
+        "type": "play",
+        "scope": 1,
+        "clip": "sfx/koji/kojiAttackSwordReturnFoley.ogg",
+        "group": "sfx",
+        "gain": [
+          1.0,
+          1.0
+        ],
+        "pitch": [
+          1.0,
+          1.0
+        ],
+        "legacyTailHex": "3333b33f0000000000",
+        "legacyTailFloats": [
+          1.399999976158142,
+          0.0
+        ]
+      },
+      {
+        "type": "play",
+        "scope": 1,
+        "clip": "sfx/koji/kojiAttackSwordSheathFoley.ogg",
+        "group": "sfx",
+        "gain": [
+          1.0,
+          1.0
+        ],
+        "pitch": [
+          1.0,
+          1.0
+        ],
+        "legacyTailHex": "666626400000000000",
+        "legacyTailFloats": [
+          2.5999999046325684,
+          0.0
+        ]
+      }
+    ]
+  },
+  "_payloadHex": "0600000004000000706c617901000000230000007366782f6b6f6a692f6b6f6a6941747461636b4c65616e696e67466f6c65792e6f6767030000007366780000803f0000803f0000803f0000803f00000000000000000004000000706c617901000000240000007366782f6b6f6a692f6b6f6a6941747461636b526f706550756c6c466f6c65792e6f6767030000007366780000803f0000803f0000803f0000803f00000000000000000004000000706c6179010000001a0000007366782f6375747363656e652f726f706554776973742e6f6767030000007366780000803f0000803f3333333f3333333f9a99193f000000000004000000706c617901000000270000007366782f6b6f6a692f6b6f6a6941747461636b53776f72645377696e67466f6c6579322e6f6767030000007366780000803f0000803f0000803f0000803f6666663f000000000004000000706c617901000000270000007366782f6b6f6a692f6b6f6a6941747461636b53776f726452657475726e466f6c65792e6f6767030000007366780000803f0000803f0000803f0000803f3333b33f000000000004000000706c617901000000270000007366782f6b6f6a692f6b6f6a6941747461636b53776f7264536865617468466f6c65792e6f6767030000007366780000803f0000803f0000803f0000803f666626400000000000"
+}

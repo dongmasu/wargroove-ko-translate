@@ -1,0 +1,28 @@
+{
+  "_assetType": "audioClip",
+  "_decoded": {
+    "legacy": true,
+    "actions": [
+      {
+        "type": "play",
+        "scope": 1,
+        "clip": "sfx/infantryMediumEntry2.ogg",
+        "group": "sfx",
+        "gain": [
+          0.8999999761581421,
+          1.100000023841858
+        ],
+        "pitch": [
+          0.8999999761581421,
+          1.0
+        ],
+        "legacyTailHex": "000000000000000001",
+        "legacyTailFloats": [
+          0.0,
+          0.0
+        ]
+      }
+    ]
+  },
+  "_payloadHex": "0100000004000000706c6179010000001c0000007366782f696e66616e7472794d656469756d456e747279322e6f6767030000007366786666663fcdcc8c3f6666663f0000803f000000000000000001"
+}

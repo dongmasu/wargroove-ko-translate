@@ -1,0 +1,19 @@
+{
+  "children": [
+    {
+      "proportion": 1,
+      "widget": {
+        "class": "image",
+        "id": "portrait",
+        "image": "ui/whitebox.png",
+        "size": [
+          147,
+          169
+        ]
+      }
+    }
+  ],
+  "widget": {
+    "class": "widget"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "uiStyle": {
+    "paperPattern": {
+      "frame": "ui/background/paper_scrolling_frame.png",
+      "frameBorder": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "framedImage": "ui/background/factions_pattern.png",
+      "innerBorder": [
+        3,
+        3,
+        3,
+        3
+      ]
+    }
+  }
+}

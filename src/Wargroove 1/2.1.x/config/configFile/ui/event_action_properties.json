@@ -1,0 +1,88 @@
+{
+  "children": [
+    {
+      "border": [
+        5,
+        5,
+        5,
+        5
+      ],
+      "children": [
+        {
+          "widget": {
+            "class": "label",
+            "id": "description",
+            "maxWidth": 250
+          }
+        }
+      ],
+      "widget": {
+        "class": "image",
+        "image": "ui/widgets/window/cartouche.png",
+        "innerBorder": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "size": [
+          260,
+          40
+        ]
+      }
+    },
+    {
+      "border": [
+        5,
+        0,
+        5,
+        5
+      ],
+      "widget": {
+        "class": "optionsGrid",
+        "id": "grid",
+        "options": []
+      }
+    },
+    {
+      "widget": {
+        "class": "horizontalDiv"
+      }
+    },
+    {
+      "children": [
+        {
+          "widget": {
+            "button": "tertiary",
+            "class": "gamepadButton",
+            "id": "delete",
+            "size": [
+              40,
+              16
+            ],
+            "textKey": "ui_widget_button_delete"
+          }
+        },
+        {
+          "proportion": 1,
+          "stretchSpacer": {}
+        },
+        {
+          "widget": {
+            "class": "dialogueButtons",
+            "hasCancel": "false",
+            "hasClose": "true",
+            "hasOK": "false"
+          }
+        }
+      ]
+    }
+  ],
+  "sizer": {
+    "type": "vertical"
+  },
+  "widget": {
+    "class": "dialogue",
+    "titleKey": "ui_action_properties_title"
+  }
+}

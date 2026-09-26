@@ -1,0 +1,227 @@
+{
+  "children": [
+    {
+      "fill": "centre",
+      "widget": {
+        "class": "label",
+        "id": "title",
+        "textKey": "ui_unload_select_title"
+      }
+    },
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "widget": {
+                        "class": "image",
+                        "id": "leftPortrait",
+                        "image": "ui/medium_portrait_background.png"
+                      }
+                    }
+                  ],
+                  "widget": {
+                    "class": "image",
+                    "id": "background",
+                    "image": "ui/medium_portrait_background.png"
+                  }
+                },
+                {
+                  "children": [
+                    {
+                      "border": [
+                        0,
+                        4,
+                        0,
+                        0
+                      ],
+                      "fill": "centre",
+                      "widget": {
+                        "class": "image",
+                        "sprite": "mapscreen_selectedunitinfo_icons_life",
+                        "spriteSheet": "ui"
+                      }
+                    },
+                    {
+                      "border": [
+                        0,
+                        -1,
+                        -3,
+                        -4
+                      ],
+                      "widget": {
+                        "class": "label",
+                        "id": "health0",
+                        "style": "labelSmall",
+                        "text": "100%"
+                      }
+                    }
+                  ],
+                  "sizer": {
+                    "type": "horizontal"
+                  }
+                }
+              ],
+              "sizer": {
+                "type": "vertical"
+              },
+              "widget": {
+                "class": "image",
+                "image": "ui/main_game_ui/card_ui.png",
+                "innerBorder": [
+                  3,
+                  3,
+                  4,
+                  4
+                ]
+              }
+            }
+          ],
+          "widget": {
+            "class": "button",
+            "id": "button0"
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "widget": {
+                        "class": "image",
+                        "id": "rightPortrait",
+                        "image": "ui/medium_portrait_background.png"
+                      }
+                    }
+                  ],
+                  "widget": {
+                    "class": "image",
+                    "id": "background",
+                    "image": "ui/medium_portrait_background.png"
+                  }
+                },
+                {
+                  "children": [
+                    {
+                      "border": [
+                        0,
+                        4,
+                        0,
+                        0
+                      ],
+                      "fill": "centre",
+                      "widget": {
+                        "class": "image",
+                        "sprite": "mapscreen_selectedunitinfo_icons_life",
+                        "spriteSheet": "ui"
+                      }
+                    },
+                    {
+                      "border": [
+                        0,
+                        -1,
+                        -3,
+                        -4
+                      ],
+                      "widget": {
+                        "class": "label",
+                        "id": "health1",
+                        "style": "labelSmall",
+                        "text": "100%"
+                      }
+                    }
+                  ],
+                  "sizer": {
+                    "type": "horizontal"
+                  }
+                }
+              ],
+              "sizer": {
+                "type": "vertical"
+              },
+              "widget": {
+                "class": "image",
+                "image": "ui/main_game_ui/card_ui.png",
+                "innerBorder": [
+                  3,
+                  3,
+                  4,
+                  4
+                ]
+              }
+            }
+          ],
+          "widget": {
+            "class": "button",
+            "id": "button1"
+          }
+        }
+      ],
+      "sizer": {
+        "gap": 5,
+        "type": "horizontal"
+      }
+    },
+    {
+      "border": [
+        0,
+        5,
+        0,
+        0
+      ],
+      "fill": "centre",
+      "widget": {
+        "button": "cancel",
+        "class": "gamepadButton",
+        "id": "cancel",
+        "size": [
+          40,
+          12
+        ],
+        "textKey": "ui_widget_button_cancel"
+      }
+    },
+    {
+      "widget": {
+        "class": "widget",
+        "size": [
+          0,
+          4
+        ]
+      }
+    },
+    {
+      "border": [
+        0,
+        0,
+        0,
+        -13
+      ],
+      "fill": "centre",
+      "widget": {
+        "class": "image",
+        "id": "downArrow",
+        "image": "ui/main_game_ui/damage_preview_down_arrow.png"
+      }
+    }
+  ],
+  "sizer": {
+    "type": "vertical"
+  },
+  "widget": {
+    "class": "image",
+    "image": "ui/main_game_ui/damage_preview.png",
+    "innerBorder": [
+      8,
+      3,
+      8,
+      8
+    ]
+  }
+}

@@ -1,0 +1,181 @@
+{
+  "unitClasses": [
+    {
+      "aiPriority": 8.0,
+      "battleUnitCount": 1,
+      "cost": 500,
+      "grooveId": "raise_dead",
+      "id": "commander_valder",
+      "isCommander": "true",
+      "moveRange": 4,
+      "movement": "walking",
+      "name": "unit_class_name_commander",
+      "regeneration": 5,
+      "tags": [
+        "commander",
+        "type.ground.light"
+      ],
+      "verbs": [
+        "load",
+        "capture"
+      ],
+      "weapons": [
+        {
+          "id": "valderSpell"
+        }
+      ]
+    }
+  ],
+  "units": [
+    {
+      "alternativeAttackSounds": {
+        "no_voice": "valder/valderAttackNoVoice"
+      },
+      "attacks": [
+        {
+          "effect": "fx/bs_valder_attack",
+          "effectDelay": 1.7999999523162842,
+          "hitDelay": 1.850000023841858,
+          "hitSpark": "fx/bs_stab_attack",
+          "id": "primary",
+          "ranged": "true"
+        }
+      ],
+      "battleAnimation": "units/commanders/valder/battle_valder",
+      "battleAnimationRiver": "fx/river_overlay/battle_valder_river",
+      "class": "commander_valder",
+      "deathMoveMax": 0,
+      "deathMoveMin": 0,
+      "emotes": {
+        "bow": "emote_bow",
+        "dance": "emote_dance",
+        "hypno": "emote_hypno",
+        "idle": "idle",
+        "laugh": "emote_laugh",
+        "negative": "emote_negative",
+        "surprise": "emote_surprise"
+      },
+      "faction": "felheim",
+      "grabPos": [
+        20,
+        26
+      ],
+      "hidden": {
+        "alternativeRuns": [
+          "angry_run"
+        ],
+        "shouts": [
+          "valder_pain3"
+        ]
+      },
+      "mapAnimation": "units/commanders/valder/map_valder",
+      "mapSpeed": 4.0,
+      "mediumPortrait": "units/commanders/valder/portrait_valder_medium.png",
+      "name": "character_valder_name",
+      "shouts": {
+        "valder_behold_the_gauntlet": "valder/valderBeholdTheGauntlet",
+        "valder_by_my_hand": "valder/valderByMyHand",
+        "valder_claim_this_power": "valder/valderClaimThisPower",
+        "valder_dead_outnumber": "valder/valderDeadOutnumber",
+        "valder_defeat": "valder/valderNotTheEnd",
+        "valder_felheim_rises": "valder/valderFelheimRises",
+        "valder_fooled": "valder/valderFooled",
+        "valder_goodbye": "valder/valderGoodbye",
+        "valder_hello": "valder/valderHello",
+        "valder_hmm": "valder/valderHmm",
+        "valder_hmph": "valder/valderHmph",
+        "valder_how_did_you": "valder/valderHowDidYou",
+        "valder_interesting": "valder/valderInteresting",
+        "valder_introduction": "valder/valderIntroduction",
+        "valder_laugh": "valder/valderLaugh",
+        "valder_no": "valder/valderNo",
+        "valder_no_escape": "valder/valderNoEscape",
+        "valder_nothing_personal": "valder/valderNothingPersonal",
+        "valder_oops": "valder/valderOops",
+        "valder_our_dominion": "valder/valderOurDominion",
+        "valder_pain1": "valder/valderPain1",
+        "valder_pain2": "valder/valderPain2",
+        "valder_pain3": "valder/valderPain3",
+        "valder_pain4": "valder/valderPain4",
+        "valder_perish": "valder/valderPerish",
+        "valder_ragna": "valder/valderRagna",
+        "valder_ragna_angry": "valder/valderRagnaAngry",
+        "valder_remember": "valder/valderRemember",
+        "valder_retribution": "valder/valderRetribution",
+        "valder_return_to_dust": "valder/valderReturnToDust",
+        "valder_rise": "valder/valderRise",
+        "valder_sigh": "valder/valderSigh",
+        "valder_sigrid": "valder/valderSigrid",
+        "valder_surprise": "valder/valderSurprise",
+        "valder_thanks": "valder/valderThanks",
+        "valder_this_fight": "valder/valderThisFight",
+        "valder_traitor": "valder/valderTraitor",
+        "valder_very_well": "valder/valderVeryWell",
+        "valder_victory": "valder/valderVictory",
+        "valder_what": "valder/valderWhat",
+        "valder_what_darkness": "valder/valderWhatDarkness",
+        "valder_will_not_fail": "valder/valderWillNotFail",
+        "valder_yes": "valder/valderYes",
+        "valder_you_fought_well": "valder/valderYouFoughtWell",
+        "valder_you_must_end_this": "valder/valderYouMustEndThis",
+        "valder_your_kingdom": "valder/valderYourKingdom"
+      },
+      "skinColour": "typeIV",
+      "smallPortrait": "units/commanders/valder/portrait_valder_small.png",
+      "sounds": {
+        "attack": "valder/valderAttack",
+        "attackCommander": "valder/valderCommanderKillAttack",
+        "attackEffect": "valder/valderAttackEffect",
+        "attackMap": "unitAttack",
+        "captureShout": "valder/valderCapture",
+        "death": "valder/valderDie",
+        "deathMap": "valder/valderDieGhost",
+        "deathMapNoBattle": "valder/valderDieNoBattle",
+        "firstHit": "valder/valderHit",
+        "groove": "valder/valderGrooveIntro",
+        "hit": "hitOrganic",
+        "hitMap": "hitOrganic",
+        "run": "infantryLightMapEntry",
+        "runMap": "infantryLightMapEntry"
+      },
+      "stayAfterDeath": "true"
+    }
+  ],
+  "weapons": [
+    {
+      "baseDamage": {
+        "land": 1
+      },
+      "canMoveAndAttack": "true",
+      "id": "valderSpell",
+      "rangeMax": 1,
+      "rangeMin": 1,
+      "tagDamage": {
+        "archer": 1.2999999523162842,
+        "ballista": 0.6000000238418579,
+        "balloon": 0.550000011920929,
+        "commander": 0.4000000059604645,
+        "dog": 1.149999976158142,
+        "dragon": 0.3499999940395355,
+        "giant": 0.4000000059604645,
+        "harpoonship": 0.44999998807907104,
+        "harpy": 0.8999999761581421,
+        "knight": 0.550000011920929,
+        "mage": 0.800000011920929,
+        "merman": 0.949999988079071,
+        "rifleman": 1.0499999523162842,
+        "soldier": 1.149999976158142,
+        "spearman": 0.75,
+        "structure": 0.699999988079071,
+        "thief": 0.949999988079071,
+        "travelboat": 0.6000000238418579,
+        "trebuchet": 0.550000011920929,
+        "turtle": 0.550000011920929,
+        "villager": 0.949999988079071,
+        "wagon": 0.699999988079071,
+        "warship": 0.550000011920929,
+        "witch": 0.699999988079071
+      }
+    }
+  ]
+}

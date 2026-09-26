@@ -1,0 +1,176 @@
+{
+  "children": [
+    {
+      "fill": [
+        "left",
+        "centreVertical"
+      ],
+      "widget": {
+        "class": "image",
+        "id": "commanderPortrait",
+        "image": "units/commanders/mercia/portrait_mercia_small.png"
+      }
+    },
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "border": [
+                2,
+                0,
+                0,
+                1
+              ],
+              "fill": [
+                "left",
+                "centreVertical"
+              ],
+              "proportion": 1,
+              "widget": {
+                "class": "playerName",
+                "id": "commander",
+                "maxWidth": 50,
+                "style": "whiteLabel",
+                "textKey": "ui_map_player_stats_commander"
+              }
+            },
+            {
+              "border": [
+                -14,
+                -3,
+                -3,
+                0
+              ],
+              "fill": "right",
+              "widget": {
+                "active": "false",
+                "class": "image",
+                "id": "team",
+                "image": "ui/main_game_ui/team_1.png"
+              }
+            }
+          ],
+          "fill": "centre",
+          "proportion": 1,
+          "widget": {
+            "class": "image",
+            "colour": "#FF00FF",
+            "id": "teamColour",
+            "image": "ui/main_game_ui/team_name_overview.png",
+            "size": [
+              54,
+              15
+            ]
+          }
+        }
+      ],
+      "fill": "true",
+      "widget": {
+        "class": "image",
+        "image": "ui/main_game_ui/info_holder.png",
+        "innerBorder": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "size": [
+          60,
+          15
+        ]
+      }
+    },
+    {
+      "children": [
+        {
+          "fill": "centre",
+          "proportion": 1,
+          "widget": {
+            "class": "label",
+            "id": "money",
+            "text": "ui_map_player_stats_money"
+          }
+        }
+      ],
+      "fill": "true",
+      "widget": {
+        "class": "image",
+        "image": "ui/main_game_ui/gold_holder.png",
+        "innerBorder": [
+          3,
+          3,
+          3,
+          4
+        ],
+        "size": [
+          35,
+          15
+        ]
+      }
+    },
+    {
+      "children": [
+        {
+          "fill": "centre",
+          "proportion": 1,
+          "widget": {
+            "class": "label",
+            "id": "income",
+            "text": "ui_map_player_stats_income"
+          }
+        }
+      ],
+      "fill": "true",
+      "widget": {
+        "class": "image",
+        "image": "ui/main_game_ui/income_holder.png",
+        "innerBorder": [
+          3,
+          3,
+          3,
+          4
+        ],
+        "size": [
+          35,
+          15
+        ]
+      }
+    },
+    {
+      "children": [
+        {
+          "fill": "centre",
+          "proportion": 1,
+          "widget": {
+            "class": "label",
+            "id": "units",
+            "text": "ui_map_player_stats_units"
+          }
+        }
+      ],
+      "fill": "true",
+      "widget": {
+        "class": "image",
+        "image": "ui/main_game_ui/unit_holder.png",
+        "innerBorder": [
+          3,
+          3,
+          3,
+          4
+        ],
+        "size": [
+          35,
+          15
+        ]
+      }
+    }
+  ],
+  "fill": "centre",
+  "sizer": {
+    "type": "horizontal"
+  },
+  "widget": {
+    "class": "widget"
+  }
+}

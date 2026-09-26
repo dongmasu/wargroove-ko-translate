@@ -1,0 +1,20 @@
+{
+  "uiStyle": {
+    "narrationBackground": {
+      "frame": "ui/background/scroll_frame.png",
+      "frameBorder": [
+        26,
+        10,
+        34,
+        10
+      ],
+      "framedImage": "ui/cutscene/narration_background.png",
+      "innerBorder": [
+        26,
+        10,
+        30,
+        10
+      ]
+    }
+  }
+}

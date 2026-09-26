@@ -1,0 +1,12 @@
+{
+  "uiStyle": {
+    "creditsDepartmentLabel": {
+      "label": {
+        "colour": "#656462",
+        "font": "MatchFont",
+        "size": 16,
+        "smoothness": 0
+      }
+    }
+  }
+}

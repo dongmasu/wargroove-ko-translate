@@ -1,0 +1,79 @@
+{
+  "children": [
+    {
+      "border": [
+        5,
+        5,
+        5,
+        5
+      ],
+      "widget": {
+        "class": "hybridList",
+        "id": "menu",
+        "options": [
+          {
+            "id": "properties",
+            "textKey": "ui_scenario_editor_properties"
+          },
+          {
+            "id": "players",
+            "textKey": "ui_scenario_editor_players"
+          },
+          {
+            "id": "options",
+            "textKey": "ui_scenario_editor_options"
+          },
+          {
+            "divider": "true"
+          },
+          {
+            "id": "cutscene",
+            "textKey": "ui_scenario_editor_cutscene"
+          },
+          {
+            "id": "events",
+            "textKey": "ui_scenario_editor_events"
+          },
+          {
+            "divider": "true",
+            "id": "modDivider"
+          },
+          {
+            "id": "mods",
+            "textKey": "ui_scenario_editor_mods"
+          },
+          {
+            "divider": "true"
+          },
+          {
+            "id": "play",
+            "textKey": "ui_scenario_editor_play"
+          },
+          {
+            "id": "exit",
+            "textKey": "ui_scenario_editor_exit"
+          },
+          {
+            "divider": "true"
+          },
+          {
+            "id": "cancel",
+            "textKey": "ui_scenario_editor_cancel"
+          }
+        ],
+        "size": [
+          150,
+          14
+        ]
+      }
+    }
+  ],
+  "sizer": {
+    "type": "vertical"
+  },
+  "widget": {
+    "class": "dialogue",
+    "style": "optionBorder",
+    "titleKey": "ui_scenario_editor_title"
+  }
+}

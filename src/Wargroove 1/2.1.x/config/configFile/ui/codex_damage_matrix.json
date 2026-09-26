@@ -1,0 +1,429 @@
+{
+  "children": [
+    {
+      "children": [
+        {
+          "fill": "centre",
+          "widget": {
+            "class": "label",
+            "textKey": "ui_codex_ground"
+          }
+        },
+        {
+          "border": [
+            2,
+            2,
+            2,
+            2
+          ],
+          "children": [
+            {
+              "children": [
+                {
+                  "widget": {
+                    "class": "image",
+                    "colour": "#F4F6E9",
+                    "image": "ui/widgets/list/list_item_bg.png",
+                    "size": [
+                      42,
+                      16
+                    ]
+                  }
+                },
+                {
+                  "widget": {
+                    "class": "image",
+                    "colour": "#F4F6E9",
+                    "image": "ui/widgets/list/list_item_bg.png",
+                    "size": [
+                      42,
+                      16
+                    ]
+                  }
+                },
+                {
+                  "widget": {
+                    "class": "image",
+                    "colour": "#F4F6E9",
+                    "image": "ui/widgets/list/list_item_bg.png",
+                    "size": [
+                      42,
+                      16
+                    ]
+                  }
+                },
+                {
+                  "widget": {
+                    "class": "image",
+                    "colour": "#F4F6E9",
+                    "image": "ui/widgets/list/list_item_bg.png",
+                    "size": [
+                      42,
+                      16
+                    ]
+                  }
+                },
+                {
+                  "widget": {
+                    "class": "image",
+                    "colour": "#F4F6E9",
+                    "image": "ui/widgets/list/list_item_bg.png",
+                    "size": [
+                      42,
+                      16
+                    ]
+                  }
+                },
+                {
+                  "widget": {
+                    "class": "image",
+                    "colour": "#F4F6E9",
+                    "image": "ui/widgets/list/list_item_bg.png",
+                    "size": [
+                      42,
+                      16
+                    ]
+                  }
+                }
+              ],
+              "sizer": {
+                "type": "vertical"
+              },
+              "widget": {
+                "class": "widget",
+                "id": "groundSizer0",
+                "size": [
+                  46,
+                  100
+                ]
+              }
+            },
+            {
+              "children": [
+                {
+                  "widget": {
+                    "class": "image",
+                    "colour": "#F4F6E9",
+                    "image": "ui/widgets/list/list_item_bg.png",
+                    "size": [
+                      42,
+                      16
+                    ]
+                  }
+                },
+                {
+                  "widget": {
+                    "class": "image",
+                    "colour": "#F4F6E9",
+                    "image": "ui/widgets/list/list_item_bg.png",
+                    "size": [
+                      42,
+                      16
+                    ]
+                  }
+                },
+                {
+                  "widget": {
+                    "class": "image",
+                    "colour": "#F4F6E9",
+                    "image": "ui/widgets/list/list_item_bg.png",
+                    "size": [
+                      42,
+                      16
+                    ]
+                  }
+                },
+                {
+                  "widget": {
+                    "class": "image",
+                    "colour": "#F4F6E9",
+                    "image": "ui/widgets/list/list_item_bg.png",
+                    "size": [
+                      42,
+                      16
+                    ]
+                  }
+                }
+              ],
+              "sizer": {
+                "type": "vertical"
+              },
+              "widget": {
+                "class": "widget",
+                "id": "groundSizer1",
+                "size": [
+                  46,
+                  100
+                ]
+              }
+            }
+          ],
+          "sizer": {
+            "gap": 4,
+            "type": "horizontal"
+          }
+        }
+      ],
+      "sizer": {
+        "type": "vertical"
+      },
+      "widget": {
+        "class": "image",
+        "colour": "#DFC686",
+        "id": "ground",
+        "image": "ui/widgets/list/list_item_bg.png"
+      }
+    },
+    {
+      "children": [
+        {
+          "fill": "centre",
+          "widget": {
+            "class": "label",
+            "textKey": "ui_codex_air"
+          }
+        },
+        {
+          "border": [
+            2,
+            2,
+            2,
+            2
+          ],
+          "children": [
+            {
+              "widget": {
+                "class": "image",
+                "colour": "#F4F6E9",
+                "image": "ui/widgets/list/list_item_bg.png",
+                "size": [
+                  42,
+                  16
+                ]
+              }
+            },
+            {
+              "widget": {
+                "class": "image",
+                "colour": "#F4F6E9",
+                "image": "ui/widgets/list/list_item_bg.png",
+                "size": [
+                  42,
+                  16
+                ]
+              }
+            },
+            {
+              "widget": {
+                "class": "image",
+                "colour": "#F4F6E9",
+                "image": "ui/widgets/list/list_item_bg.png",
+                "size": [
+                  42,
+                  16
+                ]
+              }
+            },
+            {
+              "widget": {
+                "class": "image",
+                "colour": "#F4F6E9",
+                "image": "ui/widgets/list/list_item_bg.png",
+                "size": [
+                  42,
+                  16
+                ]
+              }
+            }
+          ],
+          "sizer": {
+            "type": "vertical"
+          },
+          "widget": {
+            "class": "widget",
+            "id": "airSizer"
+          }
+        }
+      ],
+      "sizer": {
+        "type": "vertical"
+      },
+      "widget": {
+        "class": "image",
+        "colour": "#DFC686",
+        "id": "air",
+        "image": "ui/widgets/list/list_item_bg.png",
+        "size": [
+          46,
+          100
+        ]
+      }
+    },
+    {
+      "children": [
+        {
+          "fill": "centre",
+          "widget": {
+            "class": "label",
+            "textKey": "ui_codex_water"
+          }
+        },
+        {
+          "border": [
+            2,
+            2,
+            2,
+            2
+          ],
+          "children": [
+            {
+              "widget": {
+                "class": "image",
+                "colour": "#F4F6E9",
+                "image": "ui/widgets/list/list_item_bg.png",
+                "size": [
+                  42,
+                  16
+                ]
+              }
+            },
+            {
+              "widget": {
+                "class": "image",
+                "colour": "#F4F6E9",
+                "image": "ui/widgets/list/list_item_bg.png",
+                "size": [
+                  42,
+                  16
+                ]
+              }
+            },
+            {
+              "widget": {
+                "class": "image",
+                "colour": "#F4F6E9",
+                "image": "ui/widgets/list/list_item_bg.png",
+                "size": [
+                  42,
+                  16
+                ]
+              }
+            },
+            {
+              "widget": {
+                "class": "image",
+                "colour": "#F4F6E9",
+                "image": "ui/widgets/list/list_item_bg.png",
+                "size": [
+                  42,
+                  16
+                ]
+              }
+            },
+            {
+              "widget": {
+                "class": "image",
+                "colour": "#F4F6E9",
+                "image": "ui/widgets/list/list_item_bg.png",
+                "size": [
+                  42,
+                  16
+                ]
+              }
+            }
+          ],
+          "sizer": {
+            "type": "vertical"
+          },
+          "widget": {
+            "class": "widget",
+            "id": "waterSizer"
+          }
+        }
+      ],
+      "sizer": {
+        "type": "vertical"
+      },
+      "widget": {
+        "class": "image",
+        "colour": "#DFC686",
+        "id": "water",
+        "image": "ui/widgets/list/list_item_bg.png",
+        "size": [
+          46,
+          100
+        ]
+      }
+    },
+    {
+      "children": [
+        {
+          "fill": "centre",
+          "widget": {
+            "class": "label",
+            "textKey": "ui_codex_special"
+          }
+        },
+        {
+          "border": [
+            2,
+            2,
+            2,
+            2
+          ],
+          "children": [
+            {
+              "widget": {
+                "class": "image",
+                "colour": "#F4F6E9",
+                "image": "ui/widgets/list/list_item_bg.png",
+                "size": [
+                  42,
+                  16
+                ]
+              }
+            },
+            {
+              "widget": {
+                "class": "image",
+                "colour": "#F4F6E9",
+                "image": "ui/widgets/list/list_item_bg.png",
+                "size": [
+                  42,
+                  16
+                ]
+              }
+            }
+          ],
+          "sizer": {
+            "type": "vertical"
+          },
+          "widget": {
+            "class": "widget",
+            "id": "specialSizer"
+          }
+        }
+      ],
+      "sizer": {
+        "type": "vertical"
+      },
+      "widget": {
+        "class": "image",
+        "colour": "#DFC686",
+        "id": "special",
+        "image": "ui/widgets/list/list_item_bg.png",
+        "size": [
+          46,
+          100
+        ]
+      }
+    }
+  ],
+  "sizer": {
+    "gap": 4,
+    "type": "horizontal"
+  },
+  "widget": {
+    "class": "widget"
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "uiStyle": {
+    "buttonFNoDisable": {
+      "borderOnly": "ui/widgets/button/buttonf_border.png",
+      "disabled": "ui/widgets/button/button_f.png",
+      "down": "ui/widgets/button/buttonf_down.png",
+      "downSound": "ui/menuSelect",
+      "hover": "ui/widgets/button/buttonf_hover.png",
+      "hoverSound": "",
+      "hoveredLabel": {
+        "colour": "#F4F4E8",
+        "font": "Wargroove Medium",
+        "outline": 1,
+        "outlineColour": "#623A34",
+        "size": 16
+      },
+      "iconBorder": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "innerBorder": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "label": {
+        "colour": "#F4F4E8",
+        "font": "Wargroove Medium",
+        "outline": 1,
+        "outlineColour": "#A47750",
+        "size": 16
+      },
+      "labelBorder": [
+        0,
+        -2,
+        -1,
+        -1
+      ],
+      "normal": "ui/widgets/button/button_f.png",
+      "selectedLabel": {
+        "colour": "#F4F4E8",
+        "font": "Wargroove Medium",
+        "outline": 1,
+        "outlineColour": "#4E2D28",
+        "size": 16
+      },
+      "shortcutPressedSound": "ui/menuSelect",
+      "upSound": ""
+    }
+  }
+}

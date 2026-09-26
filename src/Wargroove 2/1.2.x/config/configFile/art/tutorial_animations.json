@@ -1,0 +1,58 @@
+{
+  "tutorialAnimations": [
+    {
+      "id": "seal",
+      "sprite": "ui/tutorial/tutorial_seal"
+    },
+    {
+      "id": "generic_codex",
+      "sprite": "ui/tutorial/generic_codex"
+    },
+    {
+      "id": "fenris",
+      "sprite": "ui/tutorial/fenris"
+    },
+    {
+      "id": "hardend_armor",
+      "sprite": "ui/tutorial/hardend_armor"
+    },
+    {
+      "id": "gold",
+      "sprite": "ui/tutorial/gold"
+    },
+    {
+      "id": "mystery_portrait",
+      "sprite": "ui/tutorial/mystery_character"
+    },
+    {
+      "hidden": true,
+      "id": "floran_captain",
+      "sprite": "ui/tutorial/mystery_character"
+    },
+    {
+      "hidden": true,
+      "id": "mercia",
+      "sprite": "ui/tutorial/mystery_character"
+    },
+    {
+      "hidden": true,
+      "id": "emeric",
+      "sprite": "ui/tutorial/mystery_character"
+    },
+    {
+      "hidden": true,
+      "id": "caesar",
+      "sprite": "ui/tutorial/mystery_character"
+    },
+    {
+      "hidden": true,
+      "id": "wulfar",
+      "sprite": "ui/tutorial/mystery_character"
+    },
+    {
+      "hidden": true,
+      "id": "wulfar_pirate",
+      "sprite": "ui/tutorial/mystery_character"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "uiStyle": {
+    "tabs": {
+      "background": "ui/widgets/tabs/tabs_bg.png",
+      "disabledLabel": {
+        "colour": "#AFB1B4",
+        "font": "Wargroove Medium",
+        "size": 16
+      },
+      "extraMouseBorder": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "gap": 1,
+      "innerBorder": [
+        10,
+        0,
+        10,
+        0
+      ],
+      "item": {
+        "disabled": "ui/widgets/tabs/tab_normal.png",
+        "hover": "ui/widgets/tabs/tab_hover.png",
+        "innerBorder": [
+          3,
+          1,
+          3,
+          1
+        ],
+        "normal": "ui/widgets/tabs/tab_normal.png",
+        "selected": "ui/widgets/tabs/tab_selected.png"
+      },
+      "label": {
+        "colour": "#3D4265",
+        "font": "Wargroove Medium",
+        "size": 16
+      },
+      "selectedLabel": {
+        "colour": "#3D4265",
+        "font": "Wargroove Medium",
+        "size": 16
+      },
+      "selectionChangedSound": "ui/menuSelect"
+    }
+  }
+}

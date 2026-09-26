@@ -1,0 +1,11 @@
+{
+  "uiStyle": {
+    "creditsDepartmentLabel": {
+      "label": {
+        "colour": "#656462",
+        "font": "Wargroove Medium",
+        "size": 16
+      }
+    }
+  }
+}

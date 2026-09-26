@@ -1,0 +1,20 @@
+{
+  "uiStyle": {
+    "paperScroll": {
+      "frame": "ui/background/book_scrolling_frame.png",
+      "frameBorder": [
+        5,
+        2,
+        5,
+        5
+      ],
+      "framedImage": "ui/background/pattern_factions_bg.png",
+      "innerBorder": [
+        2,
+        2,
+        2,
+        2
+      ]
+    }
+  }
+}

@@ -1,0 +1,236 @@
+{
+  "unitClasses": [
+    {
+      "aiPriority": 8.0,
+      "battleUnitCount": 1,
+      "cost": 500,
+      "grooveId": "vampiric_touch",
+      "id": "commander_sigrid",
+      "isCommander": "true",
+      "moveRange": 4,
+      "movement": "walking",
+      "name": "unit_class_name_commander",
+      "regeneration": 5,
+      "tags": [
+        "commander",
+        "type.ground.light"
+      ],
+      "verbs": [
+        "load",
+        "capture"
+      ],
+      "weapons": [
+        {
+          "id": "sigridAttack"
+        }
+      ]
+    }
+  ],
+  "units": [
+    {
+      "alternativeAttackSounds": {
+        "no_voice": "sigrid/sigridAttackNoVoice"
+      },
+      "alternativeRuns": [
+        {
+          "id": "run_sword"
+        },
+        {
+          "id": "angryrun_sword",
+          "sound": "balloonEntryMap"
+        },
+        {
+          "id": "idle_flying",
+          "sound": "balloonEntryMap"
+        }
+      ],
+      "attackRunTimeMax": 3.5,
+      "attackRunTimeMin": 2.5,
+      "attacks": [
+        {
+          "hitDelay": [
+            1.100000023841858
+          ],
+          "hitSpark": "fx/bs_stab_attack",
+          "id": "primary",
+          "ranged": "false"
+        }
+      ],
+      "battleAnimation": "units/commanders/sigrid/battle_sigrid",
+      "battleAnimationRiver": "fx/river_overlay/battle_sigrid_river",
+      "class": "commander_sigrid",
+      "deathMoveMax": 0,
+      "deathMoveMin": 0,
+      "emotes": {
+        "attack": "counter",
+        "brave_sword": "emote_brave_sword",
+        "dance": "emote_dance",
+        "idle": "idle",
+        "idle_floating": "angry_run",
+        "idle_flying": "idle_flying",
+        "idle_sword": "emote_idle_sword",
+        "key": "emote_key",
+        "laugh": "emote_laugh",
+        "negative": "emote_negative",
+        "negative_sword": "emote_negative_sword",
+        "positive": "emote_positive",
+        "positive_sword": "emote_positive_sword",
+        "stab": "emote_stab",
+        "stab_loop": "emote_stab_loop",
+        "surprise": "emote_surprise",
+        "surprise_flying": "emote_surprise_flying",
+        "swordswing": "emote_swordswing",
+        "swordup": "emote_swordup"
+      },
+      "faction": "felheim",
+      "grabPos": [
+        34,
+        55
+      ],
+      "hidden": {
+        "alternativeRuns": [
+          "run_sword",
+          "angryrun_sword"
+        ],
+        "emotes": [
+          "attack",
+          "idle_sword",
+          "brave_sword",
+          "key",
+          "stab_loop",
+          "stab",
+          "swordup",
+          "swordswing",
+          "negative_sword",
+          "positive_sword"
+        ],
+        "shouts": [
+          "sigrid_feralattack2"
+        ]
+      },
+      "mapAnimation": "units/commanders/sigrid/map_sigrid",
+      "mapSpeed": 4.0,
+      "mediumPortrait": "units/commanders/sigrid/portrait_sigrid_medium.png",
+      "name": "character_sigrid_name",
+      "shouts": {
+        "sigrid_calmareyouafraid": "sigrid/sigridShoutCalmAreYouAfraid",
+        "sigrid_calmdeadtravelfast": "sigrid/sigridShoutCalmDeadTravelFast",
+        "sigrid_calmfoughtmanybattles": "sigrid/sigridShoutCalmFoughtManyBattles",
+        "sigrid_calmgoodbye": "sigrid/sigridShoutCalmGoodbye",
+        "sigrid_calmhit1": "sigrid/sigridShoutCalmHit1",
+        "sigrid_calmhit2": "sigrid/sigridShoutCalmHit2",
+        "sigrid_calmhit3": "sigrid/sigridShoutCalmHit3",
+        "sigrid_calmhit4": "sigrid/sigridShoutCalmHit4",
+        "sigrid_calmhmm": "sigrid/sigridShoutCalmHmm",
+        "sigrid_calmhmph": "sigrid/sigridShoutCalmHmph",
+        "sigrid_calmhowfoolish": "sigrid/sigridShoutCalmHowFoolish",
+        "sigrid_calmidontcare": "sigrid/sigridShoutCalmIDontCare",
+        "sigrid_calminvited": "sigrid/sigridShoutCalmAmIInvited",
+        "sigrid_calmitssoclose": "sigrid/sigridShoutCalmItsSoClose",
+        "sigrid_calmlaugh": "sigrid/sigridShoutCalmLaugh1",
+        "sigrid_calmlaugh2": "sigrid/sigridShoutCalmLaugh2",
+        "sigrid_calmlaugh3": "sigrid/sigridShoutCalmLaugh3",
+        "sigrid_calmmortallife": "sigrid/sigridShoutCalmMortalLife",
+        "sigrid_calmmortalsdieeasily": "sigrid/sigridShoutCalmMortalsDieEasily",
+        "sigrid_calmno": "sigrid/sigridShoutCalmNo",
+        "sigrid_calmolderthanilook": "sigrid/sigridShoutCalmOlderThanILook",
+        "sigrid_calmqueenmercia": "sigrid/sigridShoutCalmQueenMercia",
+        "sigrid_calmsigh": "sigrid/sigridShoutCalmSigh",
+        "sigrid_calmsobeit": "sigrid/sigridShoutCalmSoBeIt",
+        "sigrid_calmthisistiresome": "sigrid/sigridShoutCalmThisIsTiresome",
+        "sigrid_calmvictorymeanslittle": "sigrid/sigridShoutCalmVictoryMeansLittle",
+        "sigrid_calmwhat": "sigrid/sigridShoutCalmWhat",
+        "sigrid_calmwhatisaman": "sigrid/sigridShoutCalmWhatIsAMan",
+        "sigrid_calmwhatsurprised": "sigrid/sigridShoutCalmWhatSurprised",
+        "sigrid_calmwhythankyou": "sigrid/sigridShoutCalmWhyThankYou",
+        "sigrid_calmyes": "sigrid/sigridShoutCalmYes",
+        "sigrid_calmyetanotherbattle": "sigrid/sigridShoutCalmYetAnotherBattle",
+        "sigrid_feralattack1": "sigrid/sigridShoutFeralAttack1",
+        "sigrid_feralattack2": "sigrid/sigridShoutFeralAttack2",
+        "sigrid_feralattack3": "sigrid/sigridShoutFeralAttack3",
+        "sigrid_feralattack4": "sigrid/sigridShoutFeralAttack4",
+        "sigrid_feralbloodislife": "sigrid/sigridShoutFeralBloodIsLife",
+        "sigrid_feralendyou": "sigrid/sigridShoutFeralEndYou",
+        "sigrid_feralfacemenow": "sigrid/sigridShoutFeralFaceMeNow",
+        "sigrid_feralfallbeforeme": "sigrid/sigridShoutFeralFallBeforeMe",
+        "sigrid_feralhaveatyou": "sigrid/sigridShoutFeralHaveAtYou",
+        "sigrid_feralhit1": "sigrid/sigridShoutFeralHit1",
+        "sigrid_feralhit2": "sigrid/sigridShoutFeralHit2",
+        "sigrid_feralhit3": "sigrid/sigridShoutFeralHit3",
+        "sigrid_feralhit4": "sigrid/sigridShoutFeralHit4",
+        "sigrid_feralihunger": "sigrid/sigridShoutFeralIHunger",
+        "sigrid_feralkillyou": "sigrid/sigridShoutFeralKillYou",
+        "sigrid_feralmynextvictim": "sigrid/sigridShoutFeralMyNextVictim",
+        "sigrid_feralnowheretorun": "sigrid/sigridShoutFeralNowhereToRun",
+        "sigrid_feralscream1": "sigrid/sigridShoutFeralScream1",
+        "sigrid_feralscream2": "sigrid/sigridShoutFeralScream2",
+        "sigrid_feralscream3": "sigrid/sigridShoutFeralScream3",
+        "sigrid_feralsohungry": "sigrid/sigridShoutFeralSoHungry",
+        "sigrid_feralvampiricforce": "sigrid/sigridShoutFeralVampiricForce",
+        "sigrid_feralwaitedlongenough": "sigrid/sigridShoutFeralWaitedLongEnough",
+        "sigrid_feralwhat": "sigrid/sigridShoutFeralWhat",
+        "sigrid_feralwhereisit": "sigrid/sigridShoutFeralWhereIsIt",
+        "sigrid_feralyouarenothing": "sigrid/sigridShoutFeralYouAreNothing"
+      },
+      "skinColour": "typeI",
+      "smallPortrait": "units/commanders/sigrid/portrait_sigrid_small.png",
+      "sounds": {
+        "angryRun": "balloonEntryMap",
+        "attack": "sigrid/sigridAttack",
+        "attackCommander": "sigrid/sigridCommanderKillAttack",
+        "attackCommanderShout": "sigrid/sigridCommanderKillShout",
+        "attackMap": "unitAttack",
+        "attackShout": "sigrid/sigridPreAttack",
+        "captureShout": "sigrid/sigridShoutCalmAmIInvited",
+        "counter": "sigrid/sigridCounterAttack",
+        "death": "sigrid/sigridDie",
+        "deathMap": "sigrid/sigridDieGhost",
+        "deathMapNoBattle": "sigrid/sigridDieNoBattle",
+        "firstHit": "sigrid/sigridHit",
+        "groove": "sigrid/sigridGrooveIntro",
+        "hit": "hitOrganic",
+        "hitMap": "hitOrganic",
+        "preAttack": "sigrid/sigridHover",
+        "run": "infantryLightMapEntry",
+        "runMap": "infantryLightMapEntry"
+      }
+    }
+  ],
+  "weapons": [
+    {
+      "baseDamage": {
+        "land": 1
+      },
+      "canMoveAndAttack": "true",
+      "id": "sigridAttack",
+      "rangeMax": 1,
+      "rangeMin": 1,
+      "tagDamage": {
+        "archer": 1.2999999523162842,
+        "ballista": 0.6000000238418579,
+        "balloon": 0.550000011920929,
+        "commander": 0.4000000059604645,
+        "dog": 1.149999976158142,
+        "dragon": 0.3499999940395355,
+        "giant": 0.4000000059604645,
+        "harpoonship": 0.44999998807907104,
+        "harpy": 0.8999999761581421,
+        "knight": 0.550000011920929,
+        "mage": 0.800000011920929,
+        "merman": 0.949999988079071,
+        "rifleman": 1.0499999523162842,
+        "soldier": 1.149999976158142,
+        "spearman": 0.75,
+        "structure": 0.699999988079071,
+        "thief": 0.949999988079071,
+        "travelboat": 0.6000000238418579,
+        "trebuchet": 0.550000011920929,
+        "turtle": 0.550000011920929,
+        "villager": 0.949999988079071,
+        "wagon": 0.699999988079071,
+        "warship": 0.550000011920929,
+        "witch": 0.699999988079071
+      }
+    }
+  ]
+}

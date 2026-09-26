@@ -1,0 +1,19 @@
+{
+  "uiStyle": {
+    "titledStaticBox": {
+      "background": "ui/widgets/window/static_box_window.png",
+      "innerBorder": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "titleBar": "ui/widgets/window/dialoguetitle_light.png",
+      "titleLabel": {
+        "colour": "#3D4265",
+        "font": "Wargroove Medium",
+        "size": 16
+      }
+    }
+  }
+}

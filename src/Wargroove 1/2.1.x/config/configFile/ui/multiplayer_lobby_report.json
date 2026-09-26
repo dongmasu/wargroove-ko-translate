@@ -1,0 +1,314 @@
+{
+  "children": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "border": [
+                20,
+                10,
+                20,
+                10
+              ],
+              "children": [
+                {
+                  "border": [
+                    5,
+                    5,
+                    5,
+                    5
+                  ],
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "border": [
+                                0,
+                                -1,
+                                0,
+                                1
+                              ],
+                              "children": [
+                                {
+                                  "widget": {
+                                    "class": "label",
+                                    "textKey": "server_lobby_report_lobby"
+                                  }
+                                },
+                                {
+                                  "border": [
+                                    0,
+                                    -1,
+                                    0,
+                                    2
+                                  ],
+                                  "widget": {
+                                    "class": "horizontalDiv",
+                                    "style": "horizontalDivBlue"
+                                  }
+                                },
+                                {
+                                  "widget": {
+                                    "class": "widget"
+                                  }
+                                }
+                              ],
+                              "fill": "left",
+                              "sizer": {
+                                "gap": 0,
+                                "type": "vertical"
+                              }
+                            }
+                          ],
+                          "fill": "left",
+                          "widget": {
+                            "class": "widget",
+                            "size": [
+                              55,
+                              0
+                            ]
+                          }
+                        },
+                        {
+                          "widget": {
+                            "class": "label",
+                            "id": "lobbyCode"
+                          }
+                        }
+                      ],
+                      "sizer": {
+                        "type": "horizontal"
+                      },
+                      "widget": {
+                        "class": "widget",
+                        "id": "lobbyRow"
+                      }
+                    },
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "border": [
+                                0,
+                                -1,
+                                0,
+                                -1
+                              ],
+                              "children": [
+                                {
+                                  "widget": {
+                                    "class": "label",
+                                    "textKey": "server_lobby_report_host"
+                                  }
+                                },
+                                {
+                                  "border": [
+                                    0,
+                                    -1,
+                                    0,
+                                    2
+                                  ],
+                                  "widget": {
+                                    "class": "horizontalDiv",
+                                    "style": "horizontalDivBlue"
+                                  }
+                                },
+                                {
+                                  "widget": {
+                                    "class": "widget"
+                                  }
+                                }
+                              ],
+                              "fill": "left",
+                              "sizer": {
+                                "gap": 0,
+                                "type": "vertical"
+                              }
+                            }
+                          ],
+                          "fill": "left",
+                          "widget": {
+                            "class": "widget",
+                            "size": [
+                              55,
+                              0
+                            ]
+                          }
+                        },
+                        {
+                          "widget": {
+                            "class": "playerName",
+                            "id": "host"
+                          }
+                        }
+                      ],
+                      "sizer": {
+                        "type": "horizontal"
+                      },
+                      "widget": {
+                        "class": "widget",
+                        "id": "hostRow"
+                      }
+                    },
+                    {
+                      "widget": {
+                        "class": "optionsGrid",
+                        "columnProportions": [
+                          1.0,
+                          0.0
+                        ],
+                        "options": [
+                          {
+                            "textKey": "ui_ugc_report_reason",
+                            "widget": {
+                              "class": "dropdown",
+                              "id": "reason"
+                            }
+                          },
+                          {
+                            "textKey": "ui_ugc_report_description",
+                            "widget": {
+                              "class": "textInput",
+                              "id": "description",
+                              "maxLength": 140
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "sizer": {
+                    "type": "vertical"
+                  },
+                  "widget": {
+                    "class": "widget",
+                    "id": "reportForm"
+                  }
+                },
+                {
+                  "border": [
+                    0,
+                    5,
+                    0,
+                    0
+                  ],
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "widget": {
+                            "button": "cancel",
+                            "class": "gamepadButton",
+                            "id": "cancel",
+                            "size": [
+                              40,
+                              15
+                            ],
+                            "textKey": "ui_widget_button_back"
+                          }
+                        }
+                      ],
+                      "proportion": 1,
+                      "sizer": {
+                        "gap": 0,
+                        "type": "horizontal"
+                      }
+                    },
+                    {
+                      "children": [
+                        {
+                          "widget": {
+                            "class": "widget"
+                          }
+                        },
+                        {
+                          "widget": {
+                            "button": "secondary",
+                            "class": "gamepadButton",
+                            "id": "ok",
+                            "size": [
+                              40,
+                              15
+                            ],
+                            "textKey": "ui_widget_button_ok"
+                          }
+                        }
+                      ],
+                      "fill": "right",
+                      "proportion": 1,
+                      "sizer": {
+                        "gap": 0,
+                        "type": "horizontal"
+                      }
+                    }
+                  ],
+                  "fill": [
+                    "fillHorizontal"
+                  ],
+                  "sizer": {
+                    "type": "horizontal"
+                  }
+                }
+              ],
+              "fill": "centre",
+              "sizer": {
+                "gap": 0,
+                "type": "vertical"
+              },
+              "widget": {
+                "class": "dialogue",
+                "style": "dialogueLight",
+                "titleKey": "ui_ugc_report"
+              }
+            }
+          ],
+          "fill": "centre",
+          "proportion": 1,
+          "sizer": {
+            "gap": 0,
+            "type": "vertical"
+          },
+          "widget": {
+            "class": "framedImage",
+            "scrollPos": [
+              10,
+              -170
+            ],
+            "scrollSpeed": [
+              15,
+              0
+            ],
+            "size": [
+              700,
+              10
+            ],
+            "style": "paperScroll"
+          }
+        }
+      ],
+      "sizer": {
+        "type": "vertical"
+      },
+      "widget": {
+        "class": "image",
+        "colour": "#000000B0",
+        "image": "ui/whitebox.png",
+        "size": [
+          640,
+          360
+        ]
+      }
+    }
+  ],
+  "sizer": {
+    "type": "vertical"
+  },
+  "widget": {
+    "childLayerAdjustment": 2,
+    "class": "widget"
+  }
+}

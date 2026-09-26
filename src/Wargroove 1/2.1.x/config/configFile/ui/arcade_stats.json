@@ -1,0 +1,306 @@
+{
+  "children": [
+    {
+      "children": [
+        {
+          "border": [
+            1,
+            1,
+            0,
+            2
+          ],
+          "children": [
+            {
+              "border": [
+                20,
+                0,
+                10,
+                0
+              ],
+              "fill": "centre",
+              "widget": {
+                "class": "label",
+                "id": "commanderLabel",
+                "style": "labelWhite",
+                "text": "Mercia"
+              }
+            }
+          ],
+          "widget": {
+            "class": "image",
+            "id": "factionIcon",
+            "image": "ui/character_select/charlabel/charlabel_cherrystone.png"
+          }
+        },
+        {
+          "border": [
+            0,
+            0,
+            4,
+            0
+          ],
+          "fill": "centre",
+          "widget": {
+            "class": "label",
+            "id": "curTitleLabel",
+            "text": "Cherrystone Queen"
+          }
+        }
+      ],
+      "sizer": {
+        "type": "horizontal"
+      }
+    },
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "proportion": 1,
+              "stretchSpacer": {}
+            },
+            {
+              "border": [
+                1,
+                0,
+                0,
+                0
+              ],
+              "fill": "centre",
+              "widget": {
+                "alignment": 0.5,
+                "class": "label",
+                "id": "curRunLabel",
+                "text": "Current Run [Normal]:"
+              }
+            },
+            {
+              "border": [
+                0,
+                4,
+                0,
+                4
+              ],
+              "children": [
+                {
+                  "widget": {
+                    "class": "image",
+                    "id": "portrait0",
+                    "image": "ui/arcade/portrait_locked_grey.png"
+                  }
+                },
+                {
+                  "widget": {
+                    "class": "image",
+                    "id": "portrait1",
+                    "image": "ui/arcade/portrait_locked_grey.png"
+                  }
+                },
+                {
+                  "widget": {
+                    "class": "image",
+                    "id": "portrait2",
+                    "image": "ui/arcade/portrait_locked_grey.png"
+                  }
+                },
+                {
+                  "widget": {
+                    "class": "image",
+                    "id": "portrait3",
+                    "image": "ui/arcade/portrait_locked_grey.png"
+                  }
+                },
+                {
+                  "widget": {
+                    "class": "image",
+                    "id": "portrait4",
+                    "image": "ui/arcade/portrait_locked_grey.png"
+                  }
+                }
+              ],
+              "fill": "centre",
+              "sizer": {
+                "type": "horizontal"
+              }
+            },
+            {
+              "proportion": 1,
+              "stretchSpacer": {}
+            }
+          ],
+          "proportion": 1,
+          "sizer": {
+            "type": "vertical"
+          }
+        },
+        {
+          "border": [
+            0,
+            -1,
+            0,
+            0
+          ],
+          "children": [
+            {
+              "proportion": 1,
+              "stretchSpacer": {}
+            },
+            {
+              "children": [
+                {
+                  "fill": "right",
+                  "widget": {
+                    "class": "label",
+                    "textKey": "difficulty_easy_label"
+                  }
+                },
+                {
+                  "border": [
+                    6,
+                    0,
+                    0,
+                    0
+                  ],
+                  "fill": "left",
+                  "widget": {
+                    "class": "image",
+                    "id": "star0",
+                    "image": "ui/icons/star_empty.png"
+                  }
+                },
+                {
+                  "fill": "right",
+                  "widget": {
+                    "class": "label",
+                    "textKey": "difficulty_normal_label"
+                  }
+                },
+                {
+                  "children": [
+                    {
+                      "border": [
+                        6,
+                        0,
+                        0,
+                        0
+                      ],
+                      "fill": "left",
+                      "widget": {
+                        "class": "image",
+                        "id": "star1",
+                        "image": "ui/icons/star_empty.png"
+                      }
+                    },
+                    {
+                      "border": [
+                        3,
+                        0,
+                        0,
+                        0
+                      ],
+                      "fill": "left",
+                      "widget": {
+                        "class": "image",
+                        "id": "star2",
+                        "image": "ui/icons/star_empty.png"
+                      }
+                    }
+                  ],
+                  "sizer": {
+                    "type": "horizontal"
+                  }
+                },
+                {
+                  "fill": "right",
+                  "widget": {
+                    "class": "label",
+                    "textKey": "difficulty_hard_label"
+                  }
+                },
+                {
+                  "children": [
+                    {
+                      "border": [
+                        6,
+                        0,
+                        0,
+                        0
+                      ],
+                      "fill": "left",
+                      "widget": {
+                        "class": "image",
+                        "id": "star3",
+                        "image": "ui/icons/star_empty.png"
+                      }
+                    },
+                    {
+                      "border": [
+                        3,
+                        0,
+                        0,
+                        0
+                      ],
+                      "fill": "left",
+                      "widget": {
+                        "class": "image",
+                        "id": "star4",
+                        "image": "ui/icons/star_empty.png"
+                      }
+                    }
+                  ],
+                  "sizer": {
+                    "type": "horizontal"
+                  }
+                }
+              ],
+              "fill": "centre",
+              "sizer": {
+                "columns": 2,
+                "type": "grid"
+              }
+            },
+            {
+              "proportion": 1,
+              "stretchSpacer": {}
+            }
+          ],
+          "proportion": 0,
+          "sizer": {
+            "type": "vertical"
+          },
+          "widget": {
+            "class": "image",
+            "image": "ui/arcade/arcade_stats.png",
+            "innerBorder": [
+              2,
+              1,
+              1,
+              1
+            ],
+            "size": [
+              100,
+              10
+            ]
+          }
+        }
+      ],
+      "proportion": 1,
+      "sizer": {
+        "type": "horizontal"
+      }
+    }
+  ],
+  "sizer": {
+    "type": "vertical"
+  },
+  "widget": {
+    "class": "image",
+    "image": "ui/character_select/character_desc.png",
+    "innerBorder": [
+      2,
+      2,
+      2,
+      2
+    ]
+  }
+}

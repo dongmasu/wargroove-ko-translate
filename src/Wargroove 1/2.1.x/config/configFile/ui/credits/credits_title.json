@@ -1,0 +1,8 @@
+{
+  "widget": {
+    "class": "label",
+    "id": "text",
+    "style": "labelWhite",
+    "text": "<Title>"
+  }
+}

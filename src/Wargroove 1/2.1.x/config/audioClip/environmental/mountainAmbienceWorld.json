@@ -1,0 +1,28 @@
+{
+  "_assetType": "audioClip",
+  "_decoded": {
+    "legacy": true,
+    "actions": [
+      {
+        "type": "play",
+        "scope": 1,
+        "clip": "sfx/environmental/mountain_ambience_mono.ogg",
+        "group": "sfx",
+        "gain": [
+          1.0,
+          1.0
+        ],
+        "pitch": [
+          0.3499999940395355,
+          0.3499999940395355
+        ],
+        "legacyTailHex": "000000000000000001",
+        "legacyTailFloats": [
+          0.0,
+          0.0
+        ]
+      }
+    ]
+  },
+  "_payloadHex": "0100000004000000706c6179010000002c0000007366782f656e7669726f6e6d656e74616c2f6d6f756e7461696e5f616d6269656e63655f6d6f6e6f2e6f6767030000007366780000803f0000803f3333b33e3333b33e000000000000000001"
+}

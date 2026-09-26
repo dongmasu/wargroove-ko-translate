@@ -1,0 +1,27 @@
+{
+  "children": [
+    {
+      "fill": "centre",
+      "widget": {
+        "class": "label",
+        "id": "teamName",
+        "text": "Team 1"
+      }
+    }
+  ],
+  "fill": "centre",
+  "sizer": {
+    "type": "vertical"
+  },
+  "widget": {
+    "class": "image",
+    "colour": "#dfc686",
+    "image": "ui/widgets/window/flat_box.png",
+    "innerBorder": [
+      3,
+      0,
+      3,
+      0
+    ]
+  }
+}

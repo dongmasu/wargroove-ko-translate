@@ -1,0 +1,66 @@
+{
+  "_assetType": "audioClip",
+  "_decoded": {
+    "legacy": true,
+    "actions": [
+      {
+        "type": "play",
+        "scope": 1,
+        "clip": "sfx/caesar/caesarAttackScratchingFoley.ogg",
+        "group": "sfx",
+        "gain": [
+          1.0,
+          1.0
+        ],
+        "pitch": [
+          1.0,
+          1.0
+        ],
+        "legacyTailHex": "9a99993e0000000000",
+        "legacyTailFloats": [
+          0.30000001192092896,
+          0.0
+        ]
+      },
+      {
+        "type": "play",
+        "scope": 1,
+        "clip": "sfx/caesar/caesarAttackCrossbowFoley.ogg",
+        "group": "sfx",
+        "gain": [
+          1.0,
+          1.0
+        ],
+        "pitch": [
+          1.0,
+          1.0
+        ],
+        "legacyTailHex": "0000003f0000000000",
+        "legacyTailFloats": [
+          0.5,
+          0.0
+        ]
+      },
+      {
+        "type": "play",
+        "scope": 1,
+        "clip": "sfx/caesar/caesarAttackCrossbowFoley.ogg",
+        "group": "sfx",
+        "gain": [
+          1.0,
+          1.0
+        ],
+        "pitch": [
+          1.0,
+          1.0
+        ],
+        "legacyTailHex": "9a99193f0000000000",
+        "legacyTailFloats": [
+          0.6000000238418579,
+          0.0
+        ]
+      }
+    ]
+  },
+  "_payloadHex": "0300000004000000706c6179010000002a0000007366782f6361657361722f63616573617241747461636b53637261746368696e67466f6c65792e6f6767030000007366780000803f0000803f0000803f0000803f9a99993e000000000004000000706c617901000000280000007366782f6361657361722f63616573617241747461636b43726f7373626f77466f6c65792e6f6767030000007366780000803f0000803f0000803f0000803f0000003f000000000004000000706c617901000000280000007366782f6361657361722f63616573617241747461636b43726f7373626f77466f6c65792e6f6767030000007366780000803f0000803f0000803f0000803f9a99193f0000000000"
+}

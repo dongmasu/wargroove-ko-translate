@@ -1,0 +1,47 @@
+{
+  "children": [
+    {
+      "proportion": 1,
+      "widget": {
+        "class": "hybridList",
+        "id": "menu",
+        "options": [
+          {
+            "id": "end_turn",
+            "if": "hasEndTurn",
+            "textKey": "ui_in_game_menu_end_turn"
+          },
+          {
+            "id": "overview",
+            "textKey": "ui_in_game_menu_overview"
+          },
+          {
+            "id": "mission",
+            "if": "hasMission",
+            "textKey": "ui_in_game_menu_mission"
+          },
+          {
+            "id": "exit_game",
+            "if": "hasExit",
+            "textKey": "ui_in_game_menu_exit"
+          },
+          {
+            "id": "cancel",
+            "textKey": "ui_in_game_menu_cancel"
+          }
+        ]
+      }
+    }
+  ],
+  "widget": {
+    "class": "image",
+    "id": "gameMenu",
+    "image": "ui/widgets/window/flat_window.png",
+    "innerBorder": [
+      4,
+      4,
+      4,
+      4
+    ]
+  }
+}

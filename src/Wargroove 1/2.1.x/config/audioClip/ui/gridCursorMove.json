@@ -1,0 +1,28 @@
+{
+  "_assetType": "audioClip",
+  "_decoded": {
+    "legacy": true,
+    "actions": [
+      {
+        "type": "play",
+        "scope": 1,
+        "clip": "sfx/ui/gridCursorMove.ogg",
+        "group": "sfx",
+        "gain": [
+          0.800000011920929,
+          1.2000000476837158
+        ],
+        "pitch": [
+          0.05999999865889549,
+          0.05999999865889549
+        ],
+        "legacyTailHex": "000000000000000000",
+        "legacyTailFloats": [
+          0.0,
+          0.0
+        ]
+      }
+    ]
+  },
+  "_payloadHex": "0100000004000000706c617901000000190000007366782f75692f67726964437572736f724d6f76652e6f676703000000736678cdcc4c3f9a99993f8fc2753d8fc2753d000000000000000000"
+}

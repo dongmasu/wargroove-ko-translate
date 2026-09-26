@@ -1,0 +1,24 @@
+{
+  "uiStyle": {
+    "labelFat": {
+      "iconBorder": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "label": {
+        "colour": "#F4F6E9",
+        "font": "MatchFont",
+        "size": 16,
+        "smoothness": 0
+      },
+      "labelBorder": [
+        0,
+        -4,
+        -1,
+        -3
+      ]
+    }
+  }
+}

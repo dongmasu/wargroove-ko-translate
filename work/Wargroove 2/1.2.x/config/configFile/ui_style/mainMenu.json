@@ -1,0 +1,60 @@
+{
+  "uiStyle": {
+    "mainMenu": {
+      "card": {
+        "progress": {
+          "colour": "#FFFFFF",
+          "font": "Wargroove Small",
+          "size": 16
+        },
+        "progressBar": {
+          "colour": "#A47750",
+          "img": "ui/main_menu/menu_sel_bar.png"
+        },
+        "title": {
+          "colour": "#F4F6E9",
+          "font": "SitkaText Card",
+          "outline": 2,
+          "outlineColour": "#9d7956",
+          "size": 14,
+          "smoothness": 0
+        },
+        "titleHovered": {
+          "colour": "#F4F6E9",
+          "font": "SitkaText Card",
+          "outline": 2,
+          "outlineColour": "#342b38",
+          "size": 14,
+          "smoothness": 0
+        }
+      },
+      "label": {
+        "colour": "#737288",
+        "font": "Nope",
+        "outline": 1,
+        "size": 16,
+        "smoothness": 0
+      },
+      "labelDisabled": {
+        "colour": "#979db8",
+        "font": "Nope",
+        "outline": 1,
+        "outlineColour": "#737288",
+        "size": 16,
+        "smoothness": 0
+      },
+      "labelHover": {
+        "colour": "#f4f6e9",
+        "font": "Nope",
+        "outline": 1,
+        "outlineColour": "#000000",
+        "size": 16,
+        "smoothness": 0
+      },
+      "selBar": {
+        "colour": "#FFFFFF",
+        "img": "ui/main_menu/menu_sel_bar.png"
+      }
+    }
+  }
+}

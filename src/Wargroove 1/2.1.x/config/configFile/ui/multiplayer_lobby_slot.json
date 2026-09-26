@@ -1,0 +1,152 @@
+{
+  "children": [
+    {
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "children": [
+        {
+          "fill": "fill",
+          "widget": {
+            "class": "playerName",
+            "id": "playerName",
+            "maxWidth": 74
+          }
+        }
+      ],
+      "sizer": {
+        "type": "vertical"
+      },
+      "widget": {
+        "class": "image",
+        "image": "ui/widgets/window/window.png",
+        "innerBorder": [
+          2,
+          1,
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "proportion": 1,
+      "stretchSpacer": {}
+    },
+    {
+      "border": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "children": [
+        {
+          "widget": {
+            "class": "button",
+            "id": "button0",
+            "text": "Join"
+          }
+        },
+        {
+          "border": [
+            0,
+            0,
+            0,
+            40
+          ],
+          "widget": {
+            "class": "button",
+            "id": "button1",
+            "text": "Cancel"
+          }
+        }
+      ],
+      "fill": "fillHorizontal",
+      "sizer": {
+        "type": "vertical"
+      },
+      "widget": {
+        "childLayerAdjustment": 1,
+        "class": "widget",
+        "id": "buttonsContainer"
+      }
+    },
+    {
+      "proportion": 25,
+      "stretchSpacer": {}
+    },
+    {
+      "children": [
+        {
+          "proportion": 1,
+          "stretchSpacer": {}
+        },
+        {
+          "widget": {
+            "animation": "units/commanders/koji/battle_koji",
+            "class": "paletteSwapAnimation",
+            "direction": "right",
+            "id": "commanderAnimation",
+            "offset": [
+              25,
+              62
+            ],
+            "sequence": "idle",
+            "size": [
+              50,
+              64
+            ],
+            "skinColour": "typeII"
+          }
+        },
+        {
+          "proportion": 1,
+          "stretchSpacer": {}
+        }
+      ],
+      "sizer": {
+        "type": "horizontal"
+      }
+    },
+    {
+      "children": [
+        {
+          "fill": "centre",
+          "widget": {
+            "class": "label",
+            "id": "readyLabel",
+            "textKey": "server_lobby_not_ready"
+          }
+        }
+      ],
+      "sizer": {
+        "type": "vertical"
+      },
+      "widget": {
+        "class": "image",
+        "image": "ui/widgets/window/window.png",
+        "innerBorder": [
+          3,
+          0,
+          3,
+          1
+        ]
+      }
+    }
+  ],
+  "sizer": {
+    "gap": 0,
+    "type": "vertical"
+  },
+  "widget": {
+    "class": "framedImage",
+    "size": [
+      86,
+      150
+    ],
+    "style": "lobbySlotBackground"
+  }
+}

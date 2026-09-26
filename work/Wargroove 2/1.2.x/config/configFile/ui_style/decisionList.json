@@ -1,0 +1,158 @@
+{
+  "uiStyle": {
+    "decisionList": {
+      "button": {
+        "borderOnly": {
+          "colour": "#EBE2C2",
+          "img": "ui/widgets/list/list_item_bg.png"
+        },
+        "disabled": {
+          "colour": "#737288",
+          "img": "ui/widgets/list/list_item_bg.png"
+        },
+        "disabledLabel": {
+          "colour": "#AFB1B4",
+          "font": "Wargroove Medium",
+          "size": 16,
+          "smoothness": 0
+        },
+        "down": {
+          "colour": "#342b38",
+          "img": "ui/widgets/list/list_item_bg.png"
+        },
+        "downSound": "ui/menuSelect",
+        "hover": {
+          "colour": "#473d52",
+          "img": "ui/widgets/list/list_item_bg.png"
+        },
+        "hoverSound": "",
+        "hoveredLabel": {
+          "colour": "#F4F4E8",
+          "font": "Wargroove Medium",
+          "size": 16,
+          "smoothness": 0
+        },
+        "iconBorder": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "innerBorder": [
+          4,
+          2,
+          6,
+          2
+        ],
+        "label": {
+          "alignment": 0.0,
+          "colour": "#3D4265",
+          "font": "Wargroove Medium",
+          "size": 16,
+          "smoothness": 0
+        },
+        "labelBorder": [
+          2,
+          -3,
+          1,
+          -2
+        ],
+        "normal": {
+          "colour": "#f4f6e9",
+          "img": "ui/widgets/list/list_item_bg.png"
+        },
+        "selectedLabel": {
+          "colour": "#F4F4E8",
+          "font": "Wargroove Medium",
+          "size": 16,
+          "smoothness": 0
+        },
+        "shortcutPressedSound": "ui/menuSelect",
+        "upSound": ""
+      },
+      "divider": {
+        "border": [
+          0,
+          2,
+          0,
+          2
+        ],
+        "image": {
+          "colour": "#d1bead",
+          "img": "ui/widgets/divider/horizontaldiv.png"
+        }
+      },
+      "list": {
+        "background": "",
+        "disabledLabel": {
+          "colour": "#AFB1B4",
+          "font": "Wargroove Medium",
+          "size": 16,
+          "smoothness": 0
+        },
+        "extraMouseBorder": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "gap": 1,
+        "hoveredLabel": {
+          "colour": "#F4F4E8",
+          "font": "Wargroove Medium",
+          "size": 16,
+          "smoothness": 0
+        },
+        "innerBorder": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "item": {
+          "disabled": {
+            "colour": "#737288",
+            "img": "ui/widgets/list/list_item_bg.png"
+          },
+          "hover": {
+            "colour": "#342b38",
+            "img": "ui/widgets/list/list_item_bg.png"
+          },
+          "innerBorder": [
+            4,
+            0,
+            6,
+            0
+          ],
+          "normal": {
+            "colour": "#f4f6e9",
+            "img": "ui/widgets/list/list_item_bg.png"
+          },
+          "selected": {
+            "colour": "#473d52",
+            "img": "ui/widgets/list/list_item_bg.png"
+          }
+        },
+        "label": {
+          "colour": "#3D4265",
+          "font": "Wargroove Medium",
+          "size": 16,
+          "smoothness": 0
+        },
+        "labelBorder": [
+          2,
+          -3,
+          1,
+          -2
+        ],
+        "selectedLabel": {
+          "colour": "#F4F4E8",
+          "font": "Wargroove Medium",
+          "size": 16,
+          "smoothness": 0
+        },
+        "selectionChangedSound": "ui/menuSelect"
+      }
+    }
+  }
+}

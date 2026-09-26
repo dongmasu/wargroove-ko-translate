@@ -1,0 +1,13 @@
+{
+  "uiStyle": {
+    "innerWindow": {
+      "background": "ui/widgets/window/flat_window.png",
+      "innerBorder": [
+        3,
+        3,
+        4,
+        4
+      ]
+    }
+  }
+}

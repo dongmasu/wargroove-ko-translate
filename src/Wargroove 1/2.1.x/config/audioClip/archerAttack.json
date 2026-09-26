@@ -1,0 +1,28 @@
+{
+  "_assetType": "audioClip",
+  "_decoded": {
+    "legacy": true,
+    "actions": [
+      {
+        "type": "play",
+        "scope": 1,
+        "clip": "sfx/archerAttack.ogg",
+        "group": "sfx",
+        "gain": [
+          0.8999999761581421,
+          1.100000023841858
+        ],
+        "pitch": [
+          0.8999999761581421,
+          1.0
+        ],
+        "legacyTailHex": "0000803e0000000000",
+        "legacyTailFloats": [
+          0.25,
+          0.0
+        ]
+      }
+    ]
+  },
+  "_payloadHex": "0100000004000000706c617901000000140000007366782f61726368657241747461636b2e6f6767030000007366786666663fcdcc8c3f6666663f0000803f0000803e0000000000"
+}

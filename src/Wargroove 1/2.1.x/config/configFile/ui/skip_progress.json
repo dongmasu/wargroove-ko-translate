@@ -1,0 +1,42 @@
+{
+  "children": [
+    {
+      "children": [
+        {
+          "border": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "fill": "left",
+          "widget": {
+            "class": "image",
+            "id": "progress",
+            "image": "ui/start_turn/start_bar_fill.png",
+            "size": [
+              0,
+              3
+            ]
+          }
+        }
+      ],
+      "fill": "fill",
+      "widget": {
+        "class": "image",
+        "id": "progressBorder",
+        "image": "ui/start_turn/start_bar.png",
+        "size": [
+          50,
+          5
+        ]
+      }
+    }
+  ],
+  "sizer": {
+    "type": "vertical"
+  },
+  "widget": {
+    "class": "widget"
+  }
+}

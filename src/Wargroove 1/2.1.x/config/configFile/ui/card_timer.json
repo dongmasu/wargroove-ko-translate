@@ -1,0 +1,47 @@
+{
+  "children": [
+    {
+      "border": [
+        1,
+        -2,
+        0,
+        0
+      ],
+      "fill": "centre",
+      "widget": {
+        "class": "label",
+        "id": "title",
+        "style": "label",
+        "textKey": "ui_main_menu_time"
+      }
+    },
+    {
+      "border": [
+        1,
+        2,
+        0,
+        -4
+      ],
+      "fill": "centre",
+      "widget": {
+        "class": "label",
+        "id": "time",
+        "style": "timerLabel",
+        "text": 50
+      }
+    }
+  ],
+  "sizer": {
+    "type": "vertical"
+  },
+  "widget": {
+    "class": "image",
+    "image": "ui/main_game_ui/card_timer.png",
+    "innerBorder": [
+      4,
+      4,
+      4,
+      4
+    ]
+  }
+}

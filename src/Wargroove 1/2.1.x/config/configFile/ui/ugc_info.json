@@ -1,0 +1,360 @@
+{
+  "children": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "border": [
+                20,
+                10,
+                20,
+                10
+              ],
+              "children": [
+                {
+                  "border": [
+                    5,
+                    5,
+                    5,
+                    0
+                  ],
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "widget": {
+                            "class": "widget"
+                          }
+                        }
+                      ],
+                      "sizer": {
+                        "gap": 2,
+                        "type": "horizontal"
+                      },
+                      "widget": {
+                        "class": "widget",
+                        "id": "iconPane"
+                      }
+                    },
+                    {
+                      "border": [
+                        2,
+                        1,
+                        2,
+                        1
+                      ],
+                      "children": [
+                        {
+                          "border": [
+                            4,
+                            0,
+                            3,
+                            0
+                          ],
+                          "widget": {
+                            "class": "label",
+                            "id": "shareLabel"
+                          }
+                        }
+                      ],
+                      "proportion": 0,
+                      "widget": {
+                        "active": "false",
+                        "class": "image",
+                        "colour": "#dfc686",
+                        "id": "sharePane",
+                        "image": "ui/widgets/window/flat_box.png"
+                      }
+                    }
+                  ],
+                  "fill": "fillHorizontal",
+                  "proportion": 0,
+                  "sizer": {
+                    "type": "horizontal"
+                  }
+                },
+                {
+                  "border": [
+                    5,
+                    2,
+                    5,
+                    5
+                  ],
+                  "children": [
+                    {
+                      "border": [
+                        5,
+                        3,
+                        5,
+                        3
+                      ],
+                      "children": [
+                        {
+                          "widget": {
+                            "active": "false",
+                            "class": "label",
+                            "id": "banLabel",
+                            "maxWidth": 180,
+                            "textKey": "ui_ugc_info_banned"
+                          }
+                        },
+                        {
+                          "children": [
+                            {
+                              "children": [
+                                {
+                                  "widget": {
+                                    "class": "label",
+                                    "textKey": "ui_ugc_filter_author"
+                                  }
+                                },
+                                {
+                                  "border": [
+                                    0,
+                                    -1,
+                                    0,
+                                    2
+                                  ],
+                                  "widget": {
+                                    "class": "horizontalDiv",
+                                    "style": "horizontalDivBlue"
+                                  }
+                                },
+                                {
+                                  "widget": {
+                                    "class": "widget"
+                                  }
+                                }
+                              ],
+                              "fill": "left",
+                              "sizer": {
+                                "gap": 0,
+                                "type": "vertical"
+                              }
+                            },
+                            {
+                              "border": [
+                                5,
+                                0,
+                                0,
+                                0
+                              ],
+                              "widget": {
+                                "class": "playerName",
+                                "id": "authorLabel",
+                                "maxWidth": 170
+                              }
+                            }
+                          ],
+                          "fill": "left",
+                          "sizer": {
+                            "gap": 0,
+                            "type": "horizontal"
+                          },
+                          "widget": {
+                            "active": "false",
+                            "class": "widget",
+                            "id": "authorPane"
+                          }
+                        },
+                        {
+                          "widget": {
+                            "class": "label",
+                            "id": "descLabel",
+                            "maxWidth": 210
+                          }
+                        }
+                      ],
+                      "fill": [
+                        "fillHorizontal"
+                      ],
+                      "sizer": {
+                        "type": "vertical"
+                      }
+                    }
+                  ],
+                  "fill": [
+                    "fillHorizontal",
+                    "fillVertical"
+                  ],
+                  "proportion": 1,
+                  "widget": {
+                    "class": "image",
+                    "image": "ui/codex/page.png"
+                  }
+                },
+                {
+                  "border": [
+                    0,
+                    5,
+                    0,
+                    0
+                  ],
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "widget": {
+                            "button": "cancel",
+                            "class": "gamepadButton",
+                            "id": "cancel",
+                            "size": [
+                              40,
+                              15
+                            ],
+                            "textKey": "ui_widget_button_back"
+                          }
+                        }
+                      ],
+                      "fill": "left",
+                      "proportion": 0.5,
+                      "sizer": {
+                        "type": "horizontal"
+                      }
+                    },
+                    {
+                      "children": [
+                        {
+                          "widget": {
+                            "class": "widget",
+                            "size": [
+                              0,
+                              0
+                            ]
+                          }
+                        },
+                        {
+                          "widget": {
+                            "active": "false",
+                            "button": "primary",
+                            "class": "gamepadButton",
+                            "id": "mods",
+                            "size": [
+                              40,
+                              15
+                            ],
+                            "textKey": "ui_widget_button_mods"
+                          }
+                        },
+                        {
+                          "widget": {
+                            "active": "false",
+                            "button": "tertiary",
+                            "class": "gamepadButton",
+                            "id": "report",
+                            "size": [
+                              40,
+                              15
+                            ],
+                            "textKey": "ui_widget_button_report"
+                          }
+                        },
+                        {
+                          "widget": {
+                            "active": "false",
+                            "button": "start",
+                            "class": "gamepadButton",
+                            "id": "showPlayerInfo_xboxlive",
+                            "size": [
+                              40,
+                              15
+                            ],
+                            "textKey": "server_lobby_show_player_info_xboxlive"
+                          }
+                        },
+                        {
+                          "widget": {
+                            "active": "false",
+                            "button": "secondary",
+                            "class": "gamepadButton",
+                            "id": "more",
+                            "size": [
+                              40,
+                              15
+                            ],
+                            "textKey": "ui_ugc_filter_user"
+                          }
+                        }
+                      ],
+                      "fill": "right",
+                      "proportion": 1,
+                      "sizer": {
+                        "type": "horizontal"
+                      }
+                    }
+                  ],
+                  "fill": [
+                    "fillHorizontal"
+                  ],
+                  "proportion": 0,
+                  "sizer": {
+                    "type": "horizontal"
+                  }
+                }
+              ],
+              "fill": "centre",
+              "sizer": {
+                "gap": 0,
+                "type": "vertical"
+              },
+              "widget": {
+                "class": "dialogue",
+                "maxHeight": 140,
+                "maxWidth": 240,
+                "size": [
+                  240,
+                  140
+                ],
+                "style": "dialogueLight",
+                "titleId": "dialogueTitleLabel",
+                "titleKey": "ui_ugc_info"
+              }
+            }
+          ],
+          "fill": "centre",
+          "proportion": 1,
+          "sizer": {
+            "gap": 0,
+            "type": "vertical"
+          },
+          "widget": {
+            "class": "framedImage",
+            "scrollPos": [
+              10,
+              -170
+            ],
+            "scrollSpeed": [
+              15,
+              0
+            ],
+            "size": [
+              700,
+              10
+            ],
+            "style": "paperScroll"
+          }
+        }
+      ],
+      "sizer": {
+        "type": "vertical"
+      },
+      "widget": {
+        "class": "image",
+        "colour": "#000000B0",
+        "image": "ui/whitebox.png",
+        "size": [
+          640,
+          360
+        ]
+      }
+    }
+  ],
+  "sizer": {
+    "type": "vertical"
+  },
+  "widget": {
+    "childLayerAdjustment": 1,
+    "class": "widget"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "children": [
+    {
+      "border": [
+        3,
+        0,
+        2,
+        0
+      ],
+      "widget": {
+        "class": "label",
+        "id": "playerPrompt",
+        "style": "floatingLabel",
+        "textKey": "start_of_turn_p1"
+      }
+    },
+    {
+      "children": [
+        {
+          "border": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "fill": "left",
+          "widget": {
+            "class": "image",
+            "id": "progress",
+            "image": "ui/start_turn/start_bar_fill.png",
+            "size": [
+              100,
+              3
+            ]
+          }
+        }
+      ],
+      "fill": "fill",
+      "widget": {
+        "class": "image",
+        "id": "progressBorder",
+        "image": "ui/start_turn/start_bar.png",
+        "size": [
+          100,
+          5
+        ]
+      }
+    }
+  ],
+  "sizer": {
+    "type": "vertical"
+  },
+  "widget": {
+    "class": "widget"
+  }
+}

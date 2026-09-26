@@ -1,0 +1,209 @@
+{
+  "unitClasses": [
+    {
+      "aiPriority": 8.0,
+      "battleUnitCount": 1,
+      "cost": 500,
+      "grooveId": "splash_jump",
+      "id": "commander_ragna",
+      "isCommander": "true",
+      "moveRange": 4,
+      "movement": "walking",
+      "name": "unit_class_name_commander",
+      "regeneration": 5,
+      "tags": [
+        "commander",
+        "type.ground.light"
+      ],
+      "verbs": [
+        "load",
+        "capture"
+      ],
+      "weapons": [
+        {
+          "id": "ragnaAttack"
+        }
+      ]
+    }
+  ],
+  "units": [
+    {
+      "alternativeAttackSounds": {
+        "no_voice": "ragna/ragnaAttackNoVoice"
+      },
+      "alternativeRuns": [
+        {
+          "id": "run_wet",
+          "sound": "infantryMediumWetMapEntry1"
+        }
+      ],
+      "attacks": [
+        {
+          "hitDelay": 0.30000001192092896,
+          "hitSpark": "fx/bs_stab_attack",
+          "id": "primary"
+        }
+      ],
+      "battleAnimation": "units/commanders/ragna/battle_ragna",
+      "battleAnimationRiver": "fx/river_overlay/battle_ragna_river",
+      "class": "commander_ragna",
+      "deathMoveMax": 0,
+      "deathMoveMin": 0,
+      "emotes": {
+        "dance": "emote_dance",
+        "idle": "idle",
+        "idle_wet": "idle_wet",
+        "invisible": "invisible",
+        "laugh": "emote_laugh",
+        "negative": "emote_negative",
+        "pose": "emote_pose",
+        "positive": "emote_positive",
+        "shock": "emote_shock",
+        "surprise": "emote_surprise",
+        "tantrum": "emote_tantrum",
+        "thumbs_up": "emote_thumbs_up"
+      },
+      "faction": "felheim",
+      "grabPos": [
+        26,
+        111
+      ],
+      "hidden": {
+        "alternativeRuns": [
+          "run_wet"
+        ],
+        "emotes": [
+          "idle_wet",
+          "invisible"
+        ],
+        "shouts": [
+          "ragna_hit4",
+          "ragna_laugh2",
+          "ragna_ughfine1",
+          "ragna_drowning",
+          "ragna_fightmemultiple"
+        ]
+      },
+      "mapAnimation": "units/commanders/ragna/map_ragna",
+      "mapSpeed": 4.0,
+      "mediumPortrait": "units/commanders/ragna/portrait_ragna_medium.png",
+      "name": "character_ragna_name",
+      "shouts": {
+        "ragna_andstaydown": "ragna/ragnaShoutAndStayDown",
+        "ragna_attack1": "ragna/ragnaShoutAttack1",
+        "ragna_attack2": "ragna/ragnaShoutAttack2",
+        "ragna_attack3": "ragna/ragnaShoutAttack3",
+        "ragna_beatyouthistime": "ragna/ragnaShoutIllBeatYouThisTime",
+        "ragna_drowning": "ragna/ragnaDrowning",
+        "ragna_fightme1": "ragna/ragnaShoutFightMe1",
+        "ragna_fightme2": "ragna/ragnaShoutFightMe2",
+        "ragna_fightmemultiple": "ragna/ragnaShoutFightMeMultiple",
+        "ragna_getgood": "ragna/ragnaShoutGetGood",
+        "ragna_getouttamyway": "ragna/ragnaShoutGetOuttaMyWay",
+        "ragna_grr": "ragna/ragnaShoutGrr",
+        "ragna_hit1": "ragna/ragnaShoutHit1",
+        "ragna_hit2": "ragna/ragnaShoutHit2",
+        "ragna_hit3": "ragna/ragnaShoutHit3",
+        "ragna_hit4": "ragna/ragnaShoutHit4",
+        "ragna_hit5": "ragna/ragnaShoutHit5",
+        "ragna_hmph": "ragna/ragnaShoutHmph",
+        "ragna_how": "ragna/ragnaShoutHow",
+        "ragna_illcrushyou": "ragna/ragnaShoutIllCrushYou",
+        "ragna_imalreadydead": "ragna/ragnaShoutImAlreadyDead",
+        "ragna_imgonnabreakyou": "ragna/ragnaShoutImGonnaBreakYou",
+        "ragna_imunstoppable": "ragna/ragnaShoutImUnstoppable",
+        "ragna_introduction": "ragna/ragnaShoutIntroduction",
+        "ragna_itsme": "ragna/ragnaShoutItsMe",
+        "ragna_itsnotlike": "ragna/ragnaShoutItsNotLike",
+        "ragna_itsoverloser": "ragna/ragnaShoutItsOverLoser",
+        "ragna_iwon": "ragna/ragnaShoutIWon",
+        "ragna_iwonhah": "ragna/ragnaShoutIWonHah",
+        "ragna_laugh1": "ragna/ragnaShoutLaugh1",
+        "ragna_laugh2": "ragna/ragnaShoutLaugh2",
+        "ragna_laugh3": "ragna/ragnaShoutLaugh3",
+        "ragna_letsendthis": "ragna/ragnaShoutLetsEndThis",
+        "ragna_no": "ragna/ragnaShoutNo",
+        "ragna_noangry": "ragna/ragnaShoutNoAngry",
+        "ragna_oh1": "ragna/ragnaShoutOh",
+        "ragna_shutup": "ragna/ragnaShoutShutUp",
+        "ragna_sigh": "ragna/ragnaShoutSigh",
+        "ragna_specialmove": "ragna/ragnaShoutSpecialMove",
+        "ragna_stopthat": "ragna/ragnaShoutStopThat",
+        "ragna_sureokay": "ragna/ragnaShoutSureOkay",
+        "ragna_takethis": "ragna/ragnaShoutTakeThis",
+        "ragna_tearyoutopieces": "ragna/ragnaShoutIllTearYouToPieces",
+        "ragna_thanksiguess": "ragna/ragnaShoutThanksIGuess",
+        "ragna_thisisminenow": "ragna/ragnaShoutThisIsMineNow",
+        "ragna_thisisntfair": "ragna/ragnaShoutThisIsntFair",
+        "ragna_thisisntover": "ragna/ragnaShoutThisIsntOver",
+        "ragna_thissucks": "ragna/ragnaShoutThisSucks",
+        "ragna_ugh": "ragna/ragnaShoutUgh",
+        "ragna_ughfine1": "ragna/ragnaShoutUghFine1",
+        "ragna_ughfine2": "ragna/ragnaShoutUghFine2",
+        "ragna_whatangry": "ragna/ragnaShoutWhatAngry",
+        "ragna_whatever": "ragna/ragnaShoutWhatever",
+        "ragna_whatshocked": "ragna/ragnaShoutWhatShocked",
+        "ragna_whatsthematter": "ragna/ragnaShoutWhatsTheMatter",
+        "ragna_yeah": "ragna/ragnaShoutYeah",
+        "ragna_yourefinished": "ragna/ragnaShoutYoureFinished",
+        "ragna_youregonnaneedstitches": "ragna/ragnaShoutYoureGonnaNeedStitches"
+      },
+      "skinColour": "typeI",
+      "smallPortrait": "units/commanders/ragna/portrait_ragna_small.png",
+      "sounds": {
+        "attack": "ragna/ragnaAttack",
+        "attackCommanderShout": "ragna/ragnaCommanderKillShout",
+        "attackMap": "unitAttack",
+        "attackShout": "ragna/ragnaPreAttack",
+        "captureShout": "ragna/ragnaCapture",
+        "death": "ragna/ragnaDie",
+        "deathMap": "ragna/ragnaDieGhost",
+        "deathMapNoBattle": "ragna/ragnaDieNoBattle",
+        "firstHit": "ragna/ragnaHit",
+        "groove": "ragna/ragnaGrooveIntro",
+        "hit": "hitOrganic",
+        "hitMap": "hitOrganic",
+        "run": "infantryMediumMapEntry1",
+        "runMap": "infantryMediumMapEntry1"
+      },
+      "stayAfterDeath": "true"
+    }
+  ],
+  "weapons": [
+    {
+      "baseDamage": {
+        "land": 1
+      },
+      "canMoveAndAttack": "true",
+      "id": "ragnaAttack",
+      "rangeMax": 1,
+      "rangeMin": 1,
+      "tagDamage": {
+        "archer": 1.2999999523162842,
+        "ballista": 0.6000000238418579,
+        "balloon": 0.550000011920929,
+        "commander": 0.4000000059604645,
+        "dog": 1.149999976158142,
+        "dragon": 0.3499999940395355,
+        "giant": 0.4000000059604645,
+        "harpoonship": 0.44999998807907104,
+        "harpy": 0.8999999761581421,
+        "knight": 0.550000011920929,
+        "mage": 0.800000011920929,
+        "merman": 0.949999988079071,
+        "rifleman": 1.0499999523162842,
+        "soldier": 1.149999976158142,
+        "spearman": 0.75,
+        "structure": 0.699999988079071,
+        "thief": 0.949999988079071,
+        "travelboat": 0.6000000238418579,
+        "trebuchet": 0.550000011920929,
+        "turtle": 0.550000011920929,
+        "villager": 0.949999988079071,
+        "wagon": 0.699999988079071,
+        "warship": 0.550000011920929,
+        "witch": 0.699999988079071
+      }
+    }
+  ]
+}

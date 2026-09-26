@@ -1,0 +1,30 @@
+{
+  "uiStyle": {
+    "dialogueBanner": {
+      "background": "ui/widgets/window/dialogue_bannered.png",
+      "clearBackground": {
+        "colour": "#F4F6E9",
+        "img": "ui/whitebox.png"
+      },
+      "innerBorder": [
+        -17,
+        0,
+        -12,
+        6
+      ],
+      "titleBar": "ui/widgets/window/dialogue_bannered_banner.png",
+      "titleBorder": [
+        0,
+        5,
+        0,
+        0
+      ],
+      "titleLabel": {
+        "colour": "#F4F6E9",
+        "font": "Nope",
+        "size": 16,
+        "smoothness": 0
+      }
+    }
+  }
+}

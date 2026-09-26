@@ -1,0 +1,205 @@
+{
+  "children": [
+    {
+      "children": [
+        {
+          "fill": "left",
+          "widget": {
+            "button": "cancel",
+            "class": "gamepadButton",
+            "id": "back",
+            "size": [
+              40,
+              12
+            ],
+            "textKey": "ui_widget_button_back"
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "widget": {
+                        "class": "widget"
+                      }
+                    }
+                  ],
+                  "widget": {
+                    "class": "widget",
+                    "id": "scrubToStartGamepadButtonHolder"
+                  }
+                },
+                {
+                  "children": [
+                    {
+                      "widget": {
+                        "button": "none",
+                        "class": "gamepadButton",
+                        "icon": "ui/cutscene/cutscene_editor/start_play_icon.png",
+                        "id": "start",
+                        "size": [
+                          30,
+                          15
+                        ]
+                      }
+                    }
+                  ],
+                  "widget": {
+                    "class": "widget",
+                    "id": "scrubToStartButtonHolder"
+                  }
+                },
+                {
+                  "widget": {
+                    "button": "none",
+                    "class": "gamepadButton",
+                    "icon": "ui/cutscene/cutscene_editor/left_play_icon.png",
+                    "id": "left",
+                    "size": [
+                      30,
+                      15
+                    ]
+                  }
+                }
+              ],
+              "widget": {
+                "class": "widget",
+                "id": "leftHolder"
+              }
+            },
+            {
+              "children": [
+                {
+                  "fill": [
+                    "left",
+                    "fillVertical"
+                  ],
+                  "widget": {
+                    "class": "image",
+                    "colour": "#A47750",
+                    "id": "progress",
+                    "image": "ui/cutscene/cutscene_editor/progress_bar.png"
+                  }
+                }
+              ],
+              "widget": {
+                "class": "image",
+                "colour": "#DFC686",
+                "id": "progressBar",
+                "image": "ui/cutscene/cutscene_editor/progress_bar.png",
+                "innerBorder": [
+                  2,
+                  2,
+                  2,
+                  2
+                ],
+                "size": [
+                  100,
+                  12
+                ]
+              }
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "widget": {
+                        "button": "none",
+                        "class": "gamepadButton",
+                        "icon": "ui/cutscene/cutscene_editor/right_play_icon.png",
+                        "id": "right",
+                        "size": [
+                          30,
+                          15
+                        ]
+                      }
+                    }
+                  ],
+                  "widget": {
+                    "class": "widget",
+                    "id": "rightButtonHolder"
+                  }
+                },
+                {
+                  "children": [
+                    {
+                      "widget": {
+                        "button": "none",
+                        "class": "gamepadButton",
+                        "icon": "ui/cutscene/cutscene_editor/end_play_icon.png",
+                        "id": "end",
+                        "size": [
+                          30,
+                          15
+                        ]
+                      }
+                    }
+                  ],
+                  "widget": {
+                    "class": "widget",
+                    "id": "endButtonHolder"
+                  }
+                }
+              ],
+              "widget": {
+                "class": "widget",
+                "id": "rightHolder"
+              }
+            }
+          ],
+          "fill": "centre",
+          "proportion": 1,
+          "sizer": {
+            "type": "horizontal"
+          }
+        },
+        {
+          "fill": "right",
+          "widget": {
+            "button": "primary",
+            "class": "gamepadButton",
+            "id": "playback",
+            "size": [
+              40,
+              12
+            ],
+            "textKey": "ui_widget_button_playback"
+          }
+        }
+      ],
+      "fill": [
+        "fillHorizontal"
+      ],
+      "proportion": 1,
+      "sizer": {
+        "type": "horizontal"
+      }
+    }
+  ],
+  "fill": [
+    "bottom",
+    "centreHorizontal"
+  ],
+  "proportion": 1,
+  "sizer": {
+    "type": "horizontal"
+  },
+  "widget": {
+    "class": "image",
+    "image": "ui/widgets/window/scroll_embed_window.png",
+    "innerBorder": [
+      8,
+      8,
+      8,
+      8
+    ],
+    "size": [
+      360,
+      0
+    ]
+  }
+}

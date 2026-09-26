@@ -1,0 +1,11 @@
+{
+  "author": "Finn",
+  "base": "colour_schemes/base_flat",
+  "colours": {
+    "toolbarNormal": "#67787d",
+    "ui_listSelected": "#67787d",
+    "ui_stringMatchText": "#36494e",
+    "ui_unselectedTextAlt": "#36494e"
+  },
+  "name": "Flat Gothic"
+}

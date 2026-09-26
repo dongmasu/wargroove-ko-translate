@@ -1,0 +1,89 @@
+{
+  "children": [
+    {
+      "border": [
+        1,
+        2,
+        1,
+        2
+      ],
+      "widget": {
+        "canDrag": "true",
+        "class": "list",
+        "id": "playerList",
+        "size": [
+          200,
+          160
+        ],
+        "style": "listHighlight"
+      }
+    },
+    {
+      "children": [
+        {
+          "proportion": 1,
+          "widget": {
+            "button": "tertiary",
+            "class": "gamepadButton",
+            "id": "new",
+            "size": [
+              45,
+              15
+            ],
+            "textKey": "ui_widget_button_new"
+          }
+        },
+        {
+          "proportion": 1,
+          "widget": {
+            "button": "secondary",
+            "class": "gamepadButton",
+            "id": "move",
+            "size": [
+              45,
+              15
+            ],
+            "textKey": "ui_widget_button_move"
+          }
+        },
+        {
+          "proportion": 1,
+          "widget": {
+            "button": "accept",
+            "class": "gamepadButton",
+            "id": "ok",
+            "size": [
+              45,
+              15
+            ],
+            "textKey": "ui_widget_button_edit"
+          }
+        },
+        {
+          "proportion": 1,
+          "widget": {
+            "button": "cancel",
+            "class": "gamepadButton",
+            "id": "cancel",
+            "size": [
+              45,
+              15
+            ],
+            "textKey": "ui_widget_button_close"
+          }
+        }
+      ],
+      "sizer": {
+        "type": "horizontal"
+      }
+    }
+  ],
+  "sizer": {
+    "type": "vertical"
+  },
+  "widget": {
+    "class": "dialogue",
+    "style": "optionBorder",
+    "titleKey": "ui_players_title"
+  }
+}

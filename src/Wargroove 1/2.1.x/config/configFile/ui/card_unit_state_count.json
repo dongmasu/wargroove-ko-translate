@@ -1,0 +1,17 @@
+{
+  "fill": "centre",
+  "proportion": 1,
+  "sizer": {
+    "type": "horizontal"
+  },
+  "widget": {
+    "class": "image",
+    "image": "ui/main_game_ui/card_ui_top_holder.png",
+    "innerBorder": [
+      2,
+      3,
+      2,
+      2
+    ]
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "unitClasses": [
+    {
+      "aiPriority": 8.0,
+      "appearsInLists": "false",
+      "battleUnitCount": 1,
+      "classIcon": "unit_icons_summon",
+      "cost": 10,
+      "grooveId": "smoke_screen",
+      "id": "shadow_vesper",
+      "isHidden": "true",
+      "isRecruitable": "false",
+      "moveRange": 4,
+      "movement": "walking",
+      "name": "unit_class_name_shadow_sister",
+      "tags": [
+        "type.ground.light",
+        "summon"
+      ],
+      "verbs": [
+        "load"
+      ],
+      "weapons": [
+        {
+          "id": "vesperWhip"
+        }
+      ]
+    }
+  ],
+  "units": [
+    {
+      "attacks": [
+        {
+          "attackAnimationSequence": "counter",
+          "attackSound": "attack",
+          "effectDelay": 0.6000000238418579,
+          "hitDelay": 0.6000000238418579,
+          "hitSpark": "fx/bs_stab_attack",
+          "id": "closeRange",
+          "samePanel": "true"
+        }
+      ],
+      "battleAnimation": "units/commanders/vesper/battle_shadow_vesper",
+      "battleAnimationRiver": "fx/river_overlay/battle_mercia_river",
+      "class": "shadow_vesper",
+      "deathMoveMax": 0,
+      "deathMoveMin": 0,
+      "faction": "outlaw",
+      "grabPos": [
+        47,
+        47
+      ],
+      "mapAnimation": "units/commanders/vesper/map_shadow_vesper",
+      "mapSpeed": 4.0,
+      "mediumPortrait": "units/commanders/vesper/portrait_shadow_vesper_medium.png",
+      "name": "unit_class_name_shadow_sister",
+      "skinColour": "typeVI",
+      "smallPortrait": "units/commanders/vesper/portrait_vesper_small.png",
+      "sounds": {
+        "attack": "vesper/shadowVesperAttack",
+        "attackMap": "unitAttack",
+        "attackShout": "vesper/shadowVesperAttackShout",
+        "death": "vesper/shadowVesperDie",
+        "deathMap": "vesper/vesperDieGhost",
+        "groove": "vesper/vesperGrooveIntro",
+        "hit": "hitOrganic",
+        "hitMap": "hitOrganic",
+        "run": "vesper/shadowVesperEntry",
+        "runMap": "vesper/shadowVesperEntry"
+      },
+      "stayAfterDeath": "true"
+    }
+  ]
+}

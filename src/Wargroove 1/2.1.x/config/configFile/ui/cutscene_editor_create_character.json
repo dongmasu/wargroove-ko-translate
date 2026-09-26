@@ -1,0 +1,224 @@
+{
+  "children": [
+    {
+      "children": [
+        {
+          "proportion": 1,
+          "widget": {
+            "class": "tabbedPane",
+            "id": "tabs",
+            "tabs": [
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "proportion": 1,
+                        "widget": {
+                          "class": "list",
+                          "id": "unitTypes"
+                        }
+                      }
+                    ],
+                    "fill": [
+                      "fillVertical",
+                      "fillHorizontal"
+                    ],
+                    "proportion": 1,
+                    "widget": {
+                      "class": "scrollBarPane"
+                    }
+                  }
+                ],
+                "sizer": {
+                  "type": "vertical"
+                },
+                "textKey": "ui_cutscene_actor"
+              },
+              {
+                "children": [
+                  {
+                    "proportion": 1,
+                    "widget": {
+                      "class": "optionsGrid",
+                      "columnProportions": [
+                        1.0,
+                        0
+                      ],
+                      "options": [
+                        {
+                          "textKey": "ui_cutscene_movement",
+                          "widget": {
+                            "class": "dropdown",
+                            "id": "movement",
+                            "size": [
+                              100,
+                              14
+                            ]
+                          }
+                        },
+                        {
+                          "textKey": "ui_cutscene_walk_type",
+                          "widget": {
+                            "class": "dropdown",
+                            "id": "walkType",
+                            "size": [
+                              100,
+                              14
+                            ]
+                          }
+                        },
+                        {
+                          "textKey": "ui_cutscene_direction",
+                          "widget": {
+                            "class": "dropdown",
+                            "id": "direction",
+                            "size": [
+                              100,
+                              14
+                            ]
+                          }
+                        },
+                        {
+                          "textKey": "ui_cutscene_unit_colour",
+                          "widget": {
+                            "class": "dropdown",
+                            "id": "unitColour",
+                            "size": [
+                              100,
+                              14
+                            ]
+                          }
+                        },
+                        {
+                          "textKey": "ui_cutscene_starting_emote_name",
+                          "widget": {
+                            "class": "dropdown",
+                            "id": "emote"
+                          }
+                        },
+                        {
+                          "fill": "false",
+                          "textKey": "ui_cutscene_blocking",
+                          "widget": {
+                            "class": "checkbox",
+                            "id": "blocking"
+                          }
+                        },
+                        {
+                          "textKey": "ui_cutscene_grid_slot",
+                          "widget": {
+                            "class": "button",
+                            "id": "position",
+                            "style": "slimButton",
+                            "textKey": "ui_widget_button_choose_position"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "sizer": {
+                  "type": "vertical"
+                },
+                "textKey": "ui_cutscene_settings"
+              }
+            ]
+          }
+        },
+        {
+          "widget": {
+            "class": "horizontalDiv"
+          }
+        },
+        {
+          "children": [
+            {
+              "fill": "fillHorizontal",
+              "proportion": 1,
+              "widget": {
+                "button": "secondary",
+                "class": "gamepadButton",
+                "id": "toggleFaction",
+                "size": [
+                  40,
+                  0
+                ],
+                "textKey": "ui_widget_button_toggle_faction"
+              }
+            }
+          ],
+          "fill": [
+            "fillHorizontal"
+          ],
+          "sizer": {
+            "columns": 2,
+            "type": "horizontal"
+          }
+        },
+        {
+          "children": [
+            {
+              "fill": [
+                "left"
+              ],
+              "widget": {
+                "button": "tertiary",
+                "class": "gamepadButton",
+                "id": "deleteEvent",
+                "size": [
+                  40,
+                  0
+                ],
+                "textKey": "ui_widget_button_delete_event"
+              }
+            },
+            {
+              "fill": [
+                "right"
+              ],
+              "proportion": 1,
+              "widget": {
+                "button": "cancel",
+                "class": "gamepadButton",
+                "id": "close",
+                "size": [
+                  40,
+                  12
+                ],
+                "textKey": "ui_widget_button_close"
+              }
+            }
+          ],
+          "fill": [
+            "fillHorizontal"
+          ],
+          "sizer": {
+            "columns": 2,
+            "type": "horizontal"
+          }
+        }
+      ],
+      "sizer": {
+        "type": "vertical"
+      },
+      "widget": {
+        "class": "dialogue",
+        "id": "window",
+        "size": [
+          200,
+          240
+        ],
+        "style": "optionBorder",
+        "titleKey": "ui_cutscene_action_type_create_character"
+      }
+    }
+  ],
+  "sizer": {
+    "type": "vertical"
+  },
+  "widget": {
+    "childLayerAdjustment": 1,
+    "class": "widget"
+  }
+}

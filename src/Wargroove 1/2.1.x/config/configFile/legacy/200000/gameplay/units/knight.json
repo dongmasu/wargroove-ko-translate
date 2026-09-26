@@ -1,0 +1,383 @@
+{
+  "unitClasses": [
+    {
+      "aiPriority": 1.0,
+      "battleUnitCount": 4,
+      "cost": 600,
+      "damageMultiplier": 1,
+      "id": "knight",
+      "moveRange": 6,
+      "movement": "riding",
+      "name": "unit_class_name_knight",
+      "passiveMultiplier": 1.5,
+      "tags": [
+        "knight",
+        "type.ground.heavy"
+      ],
+      "verbs": [
+        "load"
+      ],
+      "weapons": [
+        {
+          "id": "lance"
+        }
+      ]
+    }
+  ],
+  "units": [
+    {
+      "attackOffset": [
+        5,
+        0
+      ],
+      "attacks": [
+        {
+          "hitDelay": 1.100000023841858,
+          "hitSpark": "fx/bs_stab_attack",
+          "id": "primary"
+        }
+      ],
+      "battleAnimation": "units/knight/cherrystone/battle_knight_cherrystone",
+      "battleAnimationRiver": "fx/river_overlay/battle_knight_cherrystone_river",
+      "class": "knight",
+      "faction": "cherrystone",
+      "grabPos": [
+        14,
+        9
+      ],
+      "hidden": {
+        "shouts": [
+          "soldier_shout3",
+          "soldier_shout5",
+          "soldier_shout6",
+          "soldier_shout9",
+          "knight_shout2",
+          "knight_shout5",
+          "soldier_blue_shout1",
+          "soldier_blue_shout2",
+          "undead_shout1",
+          "undead_shout2",
+          "soldier_green_shout1",
+          "soldier_green_shout2",
+          "soldier_green_shout3",
+          "soldier_green_shout4",
+          "soldier_green_shout5",
+          "soldier_green_shout6",
+          "soldier_green_hit1",
+          "soldier_green_hit2",
+          "soldier_green_hit3",
+          "soldier_yellow_shout1",
+          "soldier_yellow_shout2",
+          "soldier_yellow_shout3",
+          "soldier_yellow_shout4",
+          "soldier_yellow_shout5",
+          "soldier_yellow_hit1",
+          "soldier_yellow_hit2",
+          "soldier_yellow_hit3",
+          "soldier_yellow_hit4",
+          "villager_male_shout1",
+          "villager_male_shout2",
+          "merfolk_shout1",
+          "merfolk_shout2"
+        ]
+      },
+      "mapAnimation": "units/knight/cherrystone/map_knight_cherrystone",
+      "mapSpeed": 6.0,
+      "mediumPortrait": "units/knight/cherrystone/portrait_knight_cherrystone_medium.png",
+      "name": "unit_name_knight_cherrystone",
+      "shouts": {
+        "knight_shout1": "knightShout1",
+        "knight_shout2": "knightShout2",
+        "knight_shout3": "knightShout3",
+        "knight_shout4": "knightShout4",
+        "knight_shout5": "knightShout5",
+        "knight_shout6": "knightShout6",
+        "merfolk_shout1": "merfolkShout1",
+        "merfolk_shout2": "merfolkShout2",
+        "soldier_blue_shout1": "soldierShoutBlue1",
+        "soldier_blue_shout2": "soldierShoutBlue2",
+        "soldier_green_hit1": "soldierHitGreen1",
+        "soldier_green_hit2": "soldierHitGreen2",
+        "soldier_green_hit3": "soldierHitGreen3",
+        "soldier_green_shout1": "soldierShoutGreen1",
+        "soldier_green_shout2": "soldierShoutGreen2",
+        "soldier_green_shout3": "soldierShoutGreen3",
+        "soldier_green_shout4": "soldierShoutGreen4",
+        "soldier_green_shout5": "soldierShoutGreen5",
+        "soldier_green_shout6": "soldierShoutGreen6",
+        "soldier_hit1": "soldierHitRed1",
+        "soldier_hit2": "soldierHitRed2",
+        "soldier_hit3": "soldierHitRed3",
+        "soldier_hit4": "soldierHitRed4",
+        "soldier_hit5": "soldierHitRed5",
+        "soldier_shout1": "soldierShoutRed1",
+        "soldier_shout2": "soldierShoutRed2",
+        "soldier_shout3": "soldierShoutRed3",
+        "soldier_shout4": "soldierShoutRed4",
+        "soldier_shout5": "soldierShoutRed5",
+        "soldier_shout6": "soldierShoutRed6",
+        "soldier_shout7": "soldierShoutRed7",
+        "soldier_shout8": "soldierShoutRed8",
+        "soldier_shout9": "soldierShoutRed9",
+        "soldier_yellow_hit1": "soldierHitYellow1",
+        "soldier_yellow_hit2": "soldierHitYellow2",
+        "soldier_yellow_hit3": "soldierHitYellow3",
+        "soldier_yellow_hit4": "soldierHitYellow4",
+        "soldier_yellow_shout1": "soldierShoutYellow1",
+        "soldier_yellow_shout2": "soldierShoutYellow2",
+        "soldier_yellow_shout3": "soldierShoutYellow3",
+        "soldier_yellow_shout4": "soldierShoutYellow4",
+        "soldier_yellow_shout5": "soldierShoutYellow5",
+        "undead_shout1": "undeadShout1",
+        "undead_shout2": "undeadShout2",
+        "villager_male_shout1": "cutscene/villagerScreamMale1",
+        "villager_male_shout2": "cutscene/villagerScreamMale2"
+      },
+      "smallPortrait": "units/knight/cherrystone/portrait_knight_cherrystone_small.png",
+      "sounds": {
+        "attack": "knightAttackRed",
+        "attackMap": "unitAttack",
+        "attackShout": "knightPreAttack",
+        "death": "soldierDieRed",
+        "deathMap": "unitDie",
+        "hit": "hitOrganic",
+        "hitMap": "hitOrganic",
+        "run": "horseEntry",
+        "runMap": "horseMapEntry"
+      }
+    },
+    {
+      "attackOffset": [
+        5,
+        0
+      ],
+      "attacks": [
+        {
+          "hitDelay": 0.6000000238418579,
+          "hitSpark": "fx/bs_stab_attack",
+          "id": "primary"
+        }
+      ],
+      "battleAnimation": "units/knight/felheim/battle_knight_felheim",
+      "battleAnimationRiver": "fx/river_overlay/battle_knight_felheim_river",
+      "class": "knight",
+      "faction": "felheim",
+      "grabPos": [
+        14,
+        9
+      ],
+      "hidden": {
+        "shouts": [
+          "knight_shout2",
+          "knight_shout5"
+        ]
+      },
+      "mapAnimation": "units/knight/felheim/map_knight_felheim",
+      "mapSpeed": 6.0,
+      "mediumPortrait": "units/knight/felheim/portrait_knight_felheim_medium.png",
+      "name": "unit_name_knight_felheim",
+      "shouts": {
+        "knight_shout1": "knightShout1",
+        "knight_shout2": "knightShout2",
+        "knight_shout3": "knightShout3",
+        "knight_shout4": "knightShout4",
+        "knight_shout5": "knightShout5",
+        "knight_shout6": "knightShout6",
+        "soldier_blue_shout1": "soldierShoutBlue1",
+        "soldier_blue_shout2": "soldierShoutBlue2",
+        "undead_shout1": "undeadShout1",
+        "undead_shout2": "undeadShout2"
+      },
+      "smallPortrait": "units/knight/felheim/portrait_knight_felheim_small.png",
+      "sounds": {
+        "attack": "knightAttackBlue",
+        "attackMap": "unitAttack",
+        "attackShout": "knightPreAttack",
+        "death": "undeadDieCrumble",
+        "deathMap": "unitDie",
+        "hit": "hitOrganic",
+        "hitMap": "hitOrganic",
+        "run": "horseEntry",
+        "runMap": "horseMapEntry"
+      }
+    },
+    {
+      "attackOffset": [
+        5,
+        0
+      ],
+      "attacks": [
+        {
+          "hitDelay": 1.100000023841858,
+          "hitSpark": "fx/bs_stab_attack",
+          "id": "primary"
+        }
+      ],
+      "battleAnimation": "units/knight/heavensong/battle_knight_heavensong",
+      "battleAnimationRiver": "fx/river_overlay/battle_knight_heavensong_river",
+      "class": "knight",
+      "faction": "heavensong",
+      "grabPos": [
+        14,
+        9
+      ],
+      "hidden": {
+        "shouts": [
+          "soldier_yellow_shout2",
+          "soldier_yellow_shout5",
+          "knight_shout2",
+          "knight_shout5",
+          "soldier_blue_shout1",
+          "soldier_blue_shout2",
+          "undead_shout1",
+          "undead_shout2",
+          "soldier_green_shout1",
+          "soldier_green_shout2",
+          "soldier_green_shout3",
+          "soldier_green_shout4",
+          "soldier_green_shout5",
+          "soldier_green_shout6",
+          "soldier_green_hit1",
+          "soldier_green_hit2",
+          "soldier_green_hit3"
+        ]
+      },
+      "mapAnimation": "units/knight/heavensong/map_knight_heavensong",
+      "mapSpeed": 6.0,
+      "mediumPortrait": "units/knight/heavensong/portrait_knight_heavensong_medium.png",
+      "name": "unit_name_knight_heavensong",
+      "shouts": {
+        "knight_shout1": "knightShout1",
+        "knight_shout2": "knightShout2",
+        "knight_shout3": "knightShout3",
+        "knight_shout4": "knightShout4",
+        "knight_shout5": "knightShout5",
+        "knight_shout6": "knightShout6",
+        "soldier_blue_shout1": "soldierShoutBlue1",
+        "soldier_blue_shout2": "soldierShoutBlue2",
+        "soldier_green_hit1": "soldierHitGreen1",
+        "soldier_green_hit2": "soldierHitGreen2",
+        "soldier_green_hit3": "soldierHitGreen3",
+        "soldier_green_shout1": "soldierShoutGreen1",
+        "soldier_green_shout2": "soldierShoutGreen2",
+        "soldier_green_shout3": "soldierShoutGreen3",
+        "soldier_green_shout4": "soldierShoutGreen4",
+        "soldier_green_shout5": "soldierShoutGreen5",
+        "soldier_green_shout6": "soldierShoutGreen6",
+        "soldier_yellow_hit1": "soldierHitYellow1",
+        "soldier_yellow_hit2": "soldierHitYellow2",
+        "soldier_yellow_hit3": "soldierHitYellow3",
+        "soldier_yellow_hit4": "soldierHitYellow4",
+        "soldier_yellow_shout1": "soldierShoutYellow1",
+        "soldier_yellow_shout2": "soldierShoutYellow2",
+        "soldier_yellow_shout3": "soldierShoutYellow3",
+        "soldier_yellow_shout4": "soldierShoutYellow4",
+        "soldier_yellow_shout5": "soldierShoutYellow5",
+        "undead_shout1": "undeadShout1",
+        "undead_shout2": "undeadShout2"
+      },
+      "smallPortrait": "units/knight/heavensong/portrait_knight_heavensong_small.png",
+      "sounds": {
+        "attack": "knightAttackRed",
+        "attackMap": "unitAttack",
+        "attackShout": "knightPreAttack",
+        "death": "soldierDieYellow",
+        "deathMap": "unitDie",
+        "hit": "hitOrganic",
+        "hitMap": "hitOrganic",
+        "run": "horseEntry",
+        "runMap": "horseMapEntry"
+      }
+    },
+    {
+      "attackOffset": [
+        5,
+        0
+      ],
+      "attacks": [
+        {
+          "hitDelay": 1.100000023841858,
+          "hitSpark": "fx/bs_stab_attack",
+          "id": "primary"
+        }
+      ],
+      "battleAnimation": "units/knight/floran/battle_knight_floran",
+      "battleAnimationRiver": "fx/river_overlay/battle_knight_floran_river",
+      "class": "knight",
+      "faction": "floran",
+      "grabPos": [
+        14,
+        9
+      ],
+      "hidden": {
+        "shouts": [
+          "soldier_green_shout2",
+          "soldier_green_shout4",
+          "soldier_green_shout5",
+          "knight_green_shout1",
+          "knight_green_shout2"
+        ]
+      },
+      "mapAnimation": "units/knight/floran/map_knight_floran",
+      "mapSpeed": 6.0,
+      "mediumPortrait": "units/knight/floran/portrait_knight_floran_medium.png",
+      "name": "unit_name_knight_floran",
+      "shouts": {
+        "knight_green_shout1": "knightShoutGreen1",
+        "knight_green_shout2": "knightShoutGreen2",
+        "knight_green_shout3": "knightShoutGreen3",
+        "knight_green_shout4": "knightShoutGreen4",
+        "soldier_green_hit1": "soldierHitGreen1",
+        "soldier_green_hit2": "soldierHitGreen2",
+        "soldier_green_hit3": "soldierHitGreen3",
+        "soldier_green_shout1": "soldierShoutGreen1",
+        "soldier_green_shout2": "soldierShoutGreen2",
+        "soldier_green_shout3": "soldierShoutGreen3",
+        "soldier_green_shout4": "soldierShoutGreen4",
+        "soldier_green_shout5": "soldierShoutGreen5",
+        "soldier_green_shout6": "soldierShoutGreen6"
+      },
+      "smallPortrait": "units/knight/floran/portrait_knight_floran_small.png",
+      "sounds": {
+        "attack": "knightAttackGreen",
+        "attackMap": "unitAttack",
+        "attackShout": "knightPreAttackGreen",
+        "death": "soldierDieGreen",
+        "deathMap": "unitDie",
+        "hit": "hitOrganic",
+        "hitMap": "hitOrganic",
+        "run": "horseEntry",
+        "runMap": "horseMapEntry"
+      }
+    }
+  ],
+  "weapons": [
+    {
+      "baseDamage": {
+        "land": 1
+      },
+      "canMoveAndAttack": "true",
+      "id": "lance",
+      "rangeMax": 1,
+      "rangeMin": 1,
+      "tagDamage": {
+        "archer": 1,
+        "ballista": 0.8500000238418579,
+        "commander": 0.25,
+        "dog": 1.2000000476837158,
+        "giant": 0.25,
+        "knight": 0.550000011920929,
+        "mage": 1.100000023841858,
+        "merman": 0.8500000238418579,
+        "rifleman": 1.0,
+        "soldier": 0.8999999761581421,
+        "spearman": 0.44999998807907104,
+        "structure": 0.6499999761581421,
+        "thief": 0.8999999761581421,
+        "trebuchet": 0.800000011920929,
+        "villager": 0.8999999761581421,
+        "wagon": 0.550000011920929
+      }
+    }
+  ]
+}

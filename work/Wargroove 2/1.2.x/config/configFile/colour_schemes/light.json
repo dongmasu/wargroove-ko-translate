@@ -1,0 +1,13 @@
+{
+  "author": "Finn",
+  "base": "colour_schemes/base_flat",
+  "colours": {
+    "background0": "#eaeff2",
+    "background1": "#eaeff2",
+    "toolbarNormal": "#fc2847",
+    "ui_listSelected": "#fc2847",
+    "ui_stringMatchText": "#8f0f22",
+    "ui_unselectedTextAlt": "#8f0f22"
+  },
+  "name": "Light"
+}

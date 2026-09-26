@@ -1,0 +1,49 @@
+{
+  "unitClasses": [
+    {
+      "battleUnitCount": 1,
+      "buffId": "crystal",
+      "classIcon": "unit_icons_summon",
+      "damageMultiplier": 1.0,
+      "hasTurn": "false",
+      "id": "crystal",
+      "isHidden": "true",
+      "isRecruitable": "false",
+      "moveRange": 0,
+      "movement": "walking",
+      "name": "unit_class_name_crystal",
+      "passiveMultiplier": 1.25,
+      "regeneration": -20,
+      "sightRange": 5,
+      "tags": [
+        "summon"
+      ]
+    }
+  ],
+  "units": [
+    {
+      "battleAnimation": "units/commanders/emeric/battle_crystal",
+      "class": "crystal",
+      "deathMoveMax": 0,
+      "deathMoveMin": 0,
+      "faction": "cherrystone",
+      "grabPos": [
+        13,
+        14
+      ],
+      "mapAnimation": "units/commanders/emeric/crystal",
+      "mapSpeed": 4.0,
+      "mediumPortrait": "units/commanders/emeric/portrait_crystal_medium.png",
+      "name": "unit_class_name_crystal",
+      "runsIn": "false",
+      "smallPortrait": "units/commanders/emeric/portrait_crystal_small.png",
+      "sounds": {
+        "death": "emeric/emericCrystalDie",
+        "deathMap": "unitDie",
+        "deathMapNoBattle": "emeric/emericCrystalDie",
+        "hit": "hitStone",
+        "hitMap": "hitStone"
+      }
+    }
+  ]
+}

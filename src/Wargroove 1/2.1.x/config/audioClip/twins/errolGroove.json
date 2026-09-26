@@ -1,0 +1,123 @@
+{
+  "_assetType": "audioClip",
+  "_decoded": {
+    "legacy": true,
+    "actions": [
+      {
+        "type": "play",
+        "scope": 1,
+        "clip": "sfx/twins/twinsGrooveHealCastingFoley.ogg",
+        "group": "sfx",
+        "gain": [
+          1.0,
+          1.0
+        ],
+        "pitch": [
+          0.5,
+          0.5
+        ],
+        "legacyTailHex": "000000000000000000",
+        "legacyTailFloats": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "type": "play",
+        "scope": 1,
+        "clip": "sfx/twins/twinsGrooveHealWaterCirclingFoley.ogg",
+        "group": "sfx",
+        "gain": [
+          1.0,
+          1.0
+        ],
+        "pitch": [
+          0.699999988079071,
+          0.699999988079071
+        ],
+        "legacyTailHex": "000000000000000000",
+        "legacyTailFloats": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "type": "play",
+        "scope": 1,
+        "clip": "sfx/twins/twinsGrooveHealAuraFoley.ogg",
+        "group": "sfx",
+        "gain": [
+          1.0,
+          1.0
+        ],
+        "pitch": [
+          0.5,
+          0.5
+        ],
+        "legacyTailHex": "0000803f0000000000",
+        "legacyTailFloats": [
+          1.0,
+          0.0
+        ]
+      },
+      {
+        "type": "play",
+        "scope": 1,
+        "clip": "sfx/twins/twinsGrooveHealBoomFoley.ogg",
+        "group": "sfx",
+        "gain": [
+          1.0,
+          1.0
+        ],
+        "pitch": [
+          0.3499999940395355,
+          0.3499999940395355
+        ],
+        "legacyTailHex": "6666863f0000000000",
+        "legacyTailFloats": [
+          1.0499999523162842,
+          0.0
+        ]
+      },
+      {
+        "type": "play",
+        "scope": 1,
+        "clip": "sfx/turtleSplash1.ogg",
+        "group": "sfx",
+        "gain": [
+          1.0,
+          1.0
+        ],
+        "pitch": [
+          0.699999988079071,
+          0.699999988079071
+        ],
+        "legacyTailHex": "cdcc8c3f0000000000",
+        "legacyTailFloats": [
+          1.100000023841858,
+          0.0
+        ]
+      },
+      {
+        "type": "play",
+        "scope": 1,
+        "clip": "sfx/twins/errolAttack2.ogg",
+        "group": "voice",
+        "gain": [
+          1.0,
+          1.0
+        ],
+        "pitch": [
+          1.0,
+          1.0
+        ],
+        "legacyTailHex": "cdcc8c3f0000000000",
+        "legacyTailFloats": [
+          1.100000023841858,
+          0.0
+        ]
+      }
+    ]
+  },
+  "_payloadHex": "0600000004000000706c617901000000290000007366782f7477696e732f7477696e7347726f6f76654865616c43617374696e67466f6c65792e6f6767030000007366780000803f0000803f0000003f0000003f00000000000000000004000000706c6179010000002f0000007366782f7477696e732f7477696e7347726f6f76654865616c5761746572436972636c696e67466f6c65792e6f6767030000007366780000803f0000803f3333333f3333333f00000000000000000004000000706c617901000000260000007366782f7477696e732f7477696e7347726f6f76654865616c41757261466f6c65792e6f6767030000007366780000803f0000803f0000003f0000003f0000803f000000000004000000706c617901000000260000007366782f7477696e732f7477696e7347726f6f76654865616c426f6f6d466f6c65792e6f6767030000007366780000803f0000803f3333b33e3333b33e6666863f000000000004000000706c617901000000150000007366782f747572746c6553706c617368312e6f6767030000007366780000803f0000803f3333333f3333333fcdcc8c3f000000000004000000706c6179010000001a0000007366782f7477696e732f6572726f6c41747461636b322e6f676705000000766f6963650000803f0000803f0000803f0000803fcdcc8c3f0000000000"
+}

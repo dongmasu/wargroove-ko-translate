@@ -1,0 +1,341 @@
+{
+  "children": [
+    {
+      "border": [
+        25,
+        15,
+        25,
+        15
+      ],
+      "children": [
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "border": [
+                    18,
+                    0,
+                    18,
+                    0
+                  ],
+                  "fill": "centre",
+                  "widget": {
+                    "class": "label",
+                    "textKey": "server_game_list_title"
+                  }
+                }
+              ],
+              "fill": "left",
+              "sizer": {
+                "type": "vertical"
+              },
+              "widget": {
+                "class": "image",
+                "colour": "#dfc686",
+                "image": "ui/widgets/window/flat_box.png"
+              }
+            },
+            {
+              "widget": {
+                "childLayerAdjustment": 1,
+                "class": "list",
+                "id": "tabs",
+                "inputButtons": "tabs",
+                "options": [
+                  {
+                    "id": "tabJoined",
+                    "textKey": "server_game_list_tab_joined"
+                  },
+                  {
+                    "id": "tabPublic",
+                    "textKey": "server_game_list_tab_public"
+                  }
+                ],
+                "style": "tabs",
+                "type": "horizontal",
+                "uniformSizedItems": "true"
+              }
+            }
+          ],
+          "sizer": {
+            "type": "horizontal"
+          }
+        },
+        {
+          "border": [
+            0,
+            -2,
+            0,
+            1
+          ],
+          "widget": {
+            "class": "horizontalDiv",
+            "style": "darkHorizontalDiv"
+          }
+        },
+        {
+          "children": [
+            {
+              "border": [
+                0,
+                -2,
+                0,
+                -2
+              ],
+              "children": [
+                {
+                  "border": [
+                    0,
+                    2,
+                    0,
+                    2
+                  ],
+                  "proportion": 1,
+                  "widget": {
+                    "class": "pagedPane",
+                    "id": "pagedPane",
+                    "pages": [
+                      {
+                        "border": [
+                          0,
+                          2,
+                          0,
+                          2
+                        ],
+                        "children": [
+                          {
+                            "border": [
+                              5,
+                              0,
+                              5,
+                              5
+                            ],
+                            "fill": "centreHorizontal",
+                            "widget": {
+                              "active": "false",
+                              "class": "label",
+                              "id": "ugcPermissionError",
+                              "maxWidth": 300,
+                              "style": "labelRed",
+                              "textKey": "server_game_list_error_ugc_permissions"
+                            }
+                          },
+                          {
+                            "widget": {
+                              "class": "list",
+                              "id": "gameList"
+                            }
+                          },
+                          {
+                            "children": [
+                              {
+                                "children": [
+                                  {
+                                    "fill": [
+                                      "centreHorizontal"
+                                    ],
+                                    "widget": {
+                                      "class": "image",
+                                      "image": "ui/cutscene/cutscene_editor/soldier_felheim_create.png",
+                                      "size": [
+                                        48,
+                                        64
+                                      ]
+                                    }
+                                  },
+                                  {
+                                    "widget": {
+                                      "alignment": 0.5,
+                                      "class": "label",
+                                      "maxWidth": 150,
+                                      "textKey": "server_game_list_no_games"
+                                    }
+                                  }
+                                ],
+                                "fill": "centre",
+                                "proportion": 1,
+                                "sizer": {
+                                  "type": "vertical"
+                                },
+                                "widget": {
+                                  "class": "widget"
+                                }
+                              }
+                            ],
+                            "fill": "centre",
+                            "proportion": 1,
+                            "widget": {
+                              "active": "false",
+                              "class": "widget",
+                              "id": "emptyGameList"
+                            }
+                          }
+                        ],
+                        "proportion": 1,
+                        "sizer": {
+                          "type": "vertical"
+                        },
+                        "widget": {
+                          "class": "scrollBarPane",
+                          "id": "gameListContainer"
+                        }
+                      },
+                      {
+                        "border": [
+                          0,
+                          2,
+                          0,
+                          2
+                        ],
+                        "children": [
+                          {
+                            "proportion": 1,
+                            "widget": {
+                              "class": "pagedList",
+                              "id": "publicGameList"
+                            }
+                          },
+                          {
+                            "children": [
+                              {
+                                "children": [
+                                  {
+                                    "fill": [
+                                      "centreHorizontal"
+                                    ],
+                                    "widget": {
+                                      "class": "image",
+                                      "image": "ui/cutscene/cutscene_editor/soldier_felheim_create.png",
+                                      "size": [
+                                        48,
+                                        64
+                                      ]
+                                    }
+                                  },
+                                  {
+                                    "widget": {
+                                      "alignment": 0.5,
+                                      "class": "label",
+                                      "maxWidth": 150,
+                                      "textKey": "server_game_list_no_games"
+                                    }
+                                  }
+                                ],
+                                "fill": "centre",
+                                "proportion": 1,
+                                "sizer": {
+                                  "type": "vertical"
+                                },
+                                "widget": {
+                                  "class": "widget"
+                                }
+                              }
+                            ],
+                            "fill": "centre",
+                            "proportion": 1,
+                            "widget": {
+                              "active": "false",
+                              "class": "widget",
+                              "id": "publicEmptyGameList"
+                            }
+                          }
+                        ],
+                        "proportion": 1,
+                        "sizer": {
+                          "type": "vertical"
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "border": [
+                    2,
+                    2,
+                    3,
+                    2
+                  ],
+                  "widget": {
+                    "class": "verticalDiv"
+                  }
+                },
+                {
+                  "border": [
+                    2,
+                    2,
+                    3,
+                    2
+                  ],
+                  "fill": "fillVertical",
+                  "proportion": 0,
+                  "widget": {
+                    "class": "mapInfo",
+                    "id": "mapInfo"
+                  }
+                }
+              ],
+              "fill": "fill",
+              "proportion": 1,
+              "widget": {
+                "class": "image",
+                "colour": "#f4f6e9",
+                "image": "ui/whitebox.png"
+              }
+            }
+          ],
+          "proportion": 1,
+          "sizer": {
+            "type": "horizontal"
+          }
+        },
+        {
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "widget": {
+            "class": "nearZoomButtons"
+          }
+        }
+      ],
+      "sizer": {
+        "type": "vertical"
+      },
+      "widget": {
+        "class": "framedImage",
+        "scrollPos": [
+          5,
+          -170
+        ],
+        "scrollSpeed": [
+          -10,
+          10
+        ],
+        "size": [
+          434,
+          245
+        ],
+        "style": "paperPattern"
+      }
+    }
+  ],
+  "sizer": {
+    "gap": 0,
+    "type": "vertical"
+  },
+  "widget": {
+    "class": "framedImage",
+    "scrollPos": [
+      10,
+      -170
+    ],
+    "scrollSpeed": [
+      10,
+      0
+    ],
+    "style": "paperScroll"
+  }
+}

@@ -1,0 +1,612 @@
+{
+  "achievements": {
+    "achievements": [
+      {
+        "id": "complete_prologue",
+        "platform_ids": {
+          "psn": 1,
+          "steam": "complete_prologue",
+          "xboxlive": 1
+        },
+        "requirements": [
+          {
+            "counter": "campaign_prologue"
+          }
+        ]
+      },
+      {
+        "id": "complete_puzzle",
+        "platform_ids": {
+          "psn": 2,
+          "steam": "complete_puzzle",
+          "xboxlive": 2
+        },
+        "requirements": [
+          {
+            "counter": "complete_puzzle"
+          }
+        ]
+      },
+      {
+        "id": "complete_arcade",
+        "platform_ids": {
+          "psn": 3,
+          "steam": "complete_arcade",
+          "xboxlive": 3
+        },
+        "requirements": [
+          {
+            "counter": "complete_arcade"
+          }
+        ]
+      },
+      {
+        "id": "use_groove",
+        "platform_ids": {
+          "psn": 4,
+          "steam": "use_groove",
+          "xboxlive": 4
+        },
+        "requirements": [
+          {
+            "counter": "use_groove"
+          }
+        ]
+      },
+      {
+        "id": "create_custom_map",
+        "platform_ids": {
+          "psn": 5,
+          "steam": "create_custom_map",
+          "xboxlive": 5
+        },
+        "requirements": [
+          {
+            "counter": "make_map"
+          }
+        ]
+      },
+      {
+        "id": "win_skirmish",
+        "platform_ids": {
+          "psn": 6,
+          "steam": "win_skirmish",
+          "xboxlive": 6
+        },
+        "requirements": [
+          {
+            "counter": "complete_skirmish"
+          }
+        ]
+      },
+      {
+        "id": "win_quickplay",
+        "platform_ids": {
+          "psn": 7,
+          "steam": "win_quickplay",
+          "xboxlive": 7
+        },
+        "requirements": [
+          {
+            "counter": "complete_quickplay"
+          }
+        ]
+      },
+      {
+        "id": "play_downloaded_map",
+        "platform_ids": {
+          "psn": 8,
+          "steam": "play_downloaded_map",
+          "xboxlive": 8
+        },
+        "requirements": [
+          {
+            "counter": "play_downloaded_map"
+          }
+        ]
+      },
+      {
+        "id": "complete_act_1",
+        "platform_ids": {
+          "psn": 9,
+          "steam": "complete_act_1",
+          "xboxlive": 9
+        },
+        "requirements": [
+          {
+            "counter": "campaign_act1_main1"
+          },
+          {
+            "counter": "campaign_act1_main2"
+          },
+          {
+            "counter": "campaign_act1_main3"
+          },
+          {
+            "counter": "campaign_act1_main4"
+          }
+        ]
+      },
+      {
+        "id": "complete_act_2",
+        "platform_ids": {
+          "psn": 10,
+          "steam": "complete_act_2",
+          "xboxlive": 10
+        },
+        "requirements": [
+          {
+            "counter": "campaign_act2_main1"
+          },
+          {
+            "counter": "campaign_act2_main2"
+          },
+          {
+            "counter": "campaign_act2_side1"
+          },
+          {
+            "counter": "campaign_act2_side2"
+          },
+          {
+            "counter": "campaign_act2_side3"
+          }
+        ]
+      },
+      {
+        "id": "complete_act_3",
+        "platform_ids": {
+          "psn": 11,
+          "steam": "complete_act_3",
+          "xboxlive": 11
+        },
+        "requirements": [
+          {
+            "counter": "campaign_act3_main1"
+          },
+          {
+            "counter": "campaign_act3_main2"
+          },
+          {
+            "counter": "campaign_act3_main3"
+          },
+          {
+            "counter": "campaign_act3_side1"
+          },
+          {
+            "counter": "campaign_act3_side2"
+          }
+        ]
+      },
+      {
+        "id": "complete_act_4",
+        "platform_ids": {
+          "psn": 12,
+          "steam": "complete_act_4",
+          "xboxlive": 12
+        },
+        "requirements": [
+          {
+            "counter": "campaign_act4_main1"
+          },
+          {
+            "counter": "campaign_act4_main2"
+          },
+          {
+            "counter": "campaign_act4_main3"
+          },
+          {
+            "counter": "campaign_act4_side1"
+          },
+          {
+            "counter": "campaign_act4_side2"
+          }
+        ]
+      },
+      {
+        "id": "complete_act_5",
+        "platform_ids": {
+          "psn": 13,
+          "steam": "complete_act_5",
+          "xboxlive": 13
+        },
+        "requirements": [
+          {
+            "counter": "campaign_act5_main1"
+          },
+          {
+            "counter": "campaign_act5_main2"
+          },
+          {
+            "counter": "campaign_act5_side1"
+          },
+          {
+            "counter": "campaign_act5_side2"
+          },
+          {
+            "counter": "campaign_act5_side3"
+          }
+        ]
+      },
+      {
+        "id": "complete_act_6",
+        "platform_ids": {
+          "psn": 14,
+          "steam": "complete_act_6",
+          "xboxlive": 14
+        },
+        "requirements": [
+          {
+            "counter": "campaign_act6_main1"
+          },
+          {
+            "counter": "campaign_act6_main2"
+          },
+          {
+            "counter": "campaign_act6_main3"
+          },
+          {
+            "counter": "campaign_act6_side1"
+          },
+          {
+            "counter": "campaign_act6_side2"
+          }
+        ]
+      },
+      {
+        "id": "use_every_groove",
+        "platform_ids": {
+          "psn": 15,
+          "steam": "use_every_groove",
+          "xboxlive": 15
+        },
+        "requirements": [
+          {
+            "counter": "use_groove_heal_aura"
+          },
+          {
+            "counter": "use_groove_cherrystone_defence"
+          },
+          {
+            "counter": "use_groove_second_wind"
+          },
+          {
+            "counter": "use_groove_raise_dead"
+          },
+          {
+            "counter": "use_groove_splash_jump"
+          },
+          {
+            "counter": "use_groove_vampiric_touch"
+          },
+          {
+            "counter": "use_groove_vine_wall"
+          },
+          {
+            "counter": "use_groove_sadistic_rush"
+          },
+          {
+            "counter": "use_groove_teleport_beam"
+          },
+          {
+            "counter": "use_groove_tornado"
+          },
+          {
+            "counter": "use_groove_dash"
+          },
+          {
+            "counter": "use_groove_drone_bombs"
+          }
+        ]
+      },
+      {
+        "id": "complete_arcade_hard",
+        "platform_ids": {
+          "psn": 16,
+          "steam": "complete_arcade_hard",
+          "xboxlive": 16
+        },
+        "requirements": [
+          {
+            "counter": "complete_arcade_hard"
+          }
+        ]
+      },
+      {
+        "id": "complete_ancient_adversary",
+        "platform_ids": {
+          "psn": 17,
+          "steam": "complete_ancient_adversary",
+          "xboxlive": 17
+        },
+        "requirements": [
+          {
+            "counter": "campaign_act7_main2"
+          }
+        ]
+      },
+      {
+        "id": "complete_enemy_within",
+        "platform_ids": {
+          "psn": 18,
+          "steam": "complete_enemy_within",
+          "xboxlive": 18
+        },
+        "requirements": [
+          {
+            "counter": "campaign_epilogue"
+          }
+        ]
+      },
+      {
+        "id": "collect_all_stars",
+        "platform_ids": {
+          "psn": 19,
+          "steam": "collect_all_stars",
+          "xboxlive": 19
+        },
+        "requirements": [
+          {
+            "counter": "stars",
+            "value": 200
+          }
+        ]
+      },
+      {
+        "id": "srank_every_mission",
+        "platform_ids": {
+          "psn": 20,
+          "steam": "srank_every_mission",
+          "xboxlive": 20
+        },
+        "requirements": [
+          {
+            "counter": "campaign_sranks",
+            "value": 33
+          }
+        ]
+      },
+      {
+        "id": "complete_all_arcades",
+        "platform_ids": {
+          "psn": 21,
+          "steam": "complete_all_arcades",
+          "xboxlive": 21
+        },
+        "requirements": [
+          {
+            "counter": "complete_arcade",
+            "value": 15
+          }
+        ]
+      },
+      {
+        "id": "complete_all_puzzles",
+        "platform_ids": {
+          "psn": 22,
+          "steam": "complete_all_puzzles",
+          "xboxlive": 22
+        },
+        "requirements": [
+          {
+            "counter": "complete_puzzle",
+            "value": 25
+          }
+        ]
+      },
+      {
+        "id": "unlock_all_gallery",
+        "platform_ids": {
+          "psn": 23,
+          "steam": "unlock_all_gallery",
+          "xboxlive": 23
+        },
+        "requirements": [
+          {
+            "counter": "gallery_unlocks",
+            "value": 75
+          }
+        ]
+      }
+    ],
+    "counters": [
+      {
+        "id": "campaign_prologue"
+      },
+      {
+        "id": "campaign_act1_main1"
+      },
+      {
+        "id": "campaign_act1_main2"
+      },
+      {
+        "id": "campaign_act1_main3"
+      },
+      {
+        "id": "campaign_act1_main4"
+      },
+      {
+        "id": "campaign_act2_main1"
+      },
+      {
+        "id": "campaign_act2_main2"
+      },
+      {
+        "id": "campaign_act2_side1"
+      },
+      {
+        "id": "campaign_act2_side2"
+      },
+      {
+        "id": "campaign_act2_side3"
+      },
+      {
+        "id": "campaign_act3_main1"
+      },
+      {
+        "id": "campaign_act3_main2"
+      },
+      {
+        "id": "campaign_act3_main3"
+      },
+      {
+        "id": "campaign_act3_side1"
+      },
+      {
+        "id": "campaign_act3_side2"
+      },
+      {
+        "id": "campaign_act4_main1"
+      },
+      {
+        "id": "campaign_act4_main2"
+      },
+      {
+        "id": "campaign_act4_main3"
+      },
+      {
+        "id": "campaign_act4_side1"
+      },
+      {
+        "id": "campaign_act4_side2"
+      },
+      {
+        "id": "campaign_act5_main1"
+      },
+      {
+        "id": "campaign_act5_main2"
+      },
+      {
+        "id": "campaign_act5_side1"
+      },
+      {
+        "id": "campaign_act5_side2"
+      },
+      {
+        "id": "campaign_act5_side3"
+      },
+      {
+        "id": "campaign_act6_main1"
+      },
+      {
+        "id": "campaign_act6_main2"
+      },
+      {
+        "id": "campaign_act6_main3"
+      },
+      {
+        "id": "campaign_act6_side1"
+      },
+      {
+        "id": "campaign_act6_side2"
+      },
+      {
+        "id": "campaign_act7_main1"
+      },
+      {
+        "id": "campaign_act7_main2"
+      },
+      {
+        "id": "campaign_epilogue"
+      },
+      {
+        "id": "campaign_sranks",
+        "max": 33
+      },
+      {
+        "id": "stars",
+        "max": 200
+      },
+      {
+        "id": "gallery_unlocks",
+        "max": 75
+      },
+      {
+        "id": "complete_puzzle",
+        "max": 25
+      },
+      {
+        "id": "complete_arcade",
+        "max": 15
+      },
+      {
+        "id": "complete_arcade_hard",
+        "max": 15
+      },
+      {
+        "id": "complete_skirmish"
+      },
+      {
+        "id": "complete_quickplay"
+      },
+      {
+        "id": "make_map"
+      },
+      {
+        "id": "play_downloaded_map"
+      },
+      {
+        "id": "use_groove"
+      },
+      {
+        "id": "use_groove_heal_aura"
+      },
+      {
+        "id": "use_groove_cherrystone_defence"
+      },
+      {
+        "id": "use_groove_second_wind"
+      },
+      {
+        "id": "use_groove_raise_dead"
+      },
+      {
+        "id": "use_groove_splash_jump"
+      },
+      {
+        "id": "use_groove_vampiric_touch"
+      },
+      {
+        "id": "use_groove_vine_wall"
+      },
+      {
+        "id": "use_groove_sadistic_rush"
+      },
+      {
+        "id": "use_groove_teleport_beam"
+      },
+      {
+        "id": "use_groove_tornado"
+      },
+      {
+        "id": "use_groove_dash"
+      },
+      {
+        "id": "use_groove_drone_bombs"
+      },
+      {
+        "id": "use_groove_convert"
+      },
+      {
+        "id": "use_groove_drain_aura"
+      },
+      {
+        "id": "use_groove_fish"
+      },
+      {
+        "id": "complete_under_20_turns"
+      },
+      {
+        "id": "complete_as_caesar"
+      },
+      {
+        "id": "defeat_commander_with_giant"
+      },
+      {
+        "id": "defeat_three_units_with_ragna"
+      },
+      {
+        "id": "defeat_stronghold_with_sparrow_bomb"
+      }
+    ]
+  }
+}

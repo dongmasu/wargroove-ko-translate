@@ -1,0 +1,418 @@
+{
+  "children": [
+    {
+      "border": [
+        25,
+        15,
+        25,
+        14
+      ],
+      "children": [
+        {
+          "children": [
+            {
+              "border": [
+                0,
+                0,
+                0,
+                3
+              ],
+              "children": [
+                {
+                  "border": [
+                    10,
+                    0,
+                    10,
+                    0
+                  ],
+                  "fill": "centre",
+                  "widget": {
+                    "class": "label",
+                    "id": "title",
+                    "text": "Title"
+                  }
+                }
+              ],
+              "fill": "left",
+              "sizer": {
+                "type": "vertical"
+              },
+              "widget": {
+                "class": "image",
+                "colour": "#dfc686",
+                "image": "ui/widgets/window/flat_box.png"
+              }
+            },
+            {
+              "fill": "bottom",
+              "widget": {
+                "childLayerAdjustment": 1,
+                "class": "list",
+                "id": "tabs",
+                "inputButtons": "tabs",
+                "options": [
+                  {
+                    "id": "2p",
+                    "image": "ui/map_select/2p_active.png",
+                    "inactiveImage": "ui/map_select/2p_inactive.png"
+                  },
+                  {
+                    "id": "3p",
+                    "image": "ui/map_select/3p_active.png",
+                    "inactiveImage": "ui/map_select/3p_inactive.png"
+                  },
+                  {
+                    "id": "4p",
+                    "image": "ui/map_select/4p_active.png",
+                    "inactiveImage": "ui/map_select/4p_inactive.png"
+                  },
+                  {
+                    "id": "scenario",
+                    "image": "ui/map_select/scenario_active.png",
+                    "inactiveImage": "ui/map_select/scenario_inactive.png"
+                  },
+                  {
+                    "id": "puzzle",
+                    "image": "ui/map_select/puzzle_active.png",
+                    "inactiveImage": "ui/map_select/puzzle_inactive.png"
+                  },
+                  {
+                    "id": "campaign",
+                    "image": "ui/map_select/campaign_active.png",
+                    "inactiveImage": "ui/map_select/campaign_inactive.png"
+                  }
+                ],
+                "style": "tabs",
+                "type": "horizontal",
+                "uniformSizedItems": "true"
+              }
+            }
+          ],
+          "sizer": {
+            "type": "horizontal"
+          }
+        },
+        {
+          "border": [
+            0,
+            -2,
+            0,
+            1
+          ],
+          "widget": {
+            "class": "horizontalDiv",
+            "style": "darkHorizontalDiv"
+          }
+        },
+        {
+          "children": [
+            {
+              "border": [
+                0,
+                -2,
+                0,
+                -2
+              ],
+              "children": [
+                {
+                  "fill": "centre",
+                  "proportion": 1,
+                  "widget": {
+                    "class": "label",
+                    "textKey": "ui_map_select_loading"
+                  }
+                }
+              ],
+              "proportion": 1,
+              "widget": {
+                "active": "false",
+                "class": "image",
+                "colour": "#f4f6e9",
+                "id": "loadingArea",
+                "image": "ui/whitebox.png"
+              }
+            },
+            {
+              "border": [
+                0,
+                -2,
+                0,
+                -2
+              ],
+              "children": [
+                {
+                  "border": [
+                    0,
+                    2,
+                    0,
+                    2
+                  ],
+                  "proportion": 1,
+                  "widget": {
+                    "class": "pagedPane",
+                    "id": "pagedPane",
+                    "pages": [
+                      {
+                        "children": [
+                          {
+                            "children": [
+                              {
+                                "widget": {
+                                  "class": "list",
+                                  "id": "2pGameList"
+                                }
+                              }
+                            ],
+                            "proportion": 1,
+                            "sizer": {
+                              "type": "vertical"
+                            },
+                            "widget": {
+                              "class": "scrollBarPane"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "children": [
+                          {
+                            "children": [
+                              {
+                                "widget": {
+                                  "class": "list",
+                                  "id": "3pGameList"
+                                }
+                              }
+                            ],
+                            "proportion": 1,
+                            "sizer": {
+                              "type": "vertical"
+                            },
+                            "widget": {
+                              "class": "scrollBarPane"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "children": [
+                          {
+                            "children": [
+                              {
+                                "widget": {
+                                  "class": "list",
+                                  "id": "4pGameList"
+                                }
+                              }
+                            ],
+                            "proportion": 1,
+                            "sizer": {
+                              "type": "vertical"
+                            },
+                            "widget": {
+                              "class": "scrollBarPane"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "children": [
+                          {
+                            "children": [
+                              {
+                                "widget": {
+                                  "class": "list",
+                                  "id": "scenarioGameList"
+                                }
+                              }
+                            ],
+                            "proportion": 1,
+                            "sizer": {
+                              "type": "vertical"
+                            },
+                            "widget": {
+                              "class": "scrollBarPane"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "children": [
+                          {
+                            "children": [
+                              {
+                                "widget": {
+                                  "class": "list",
+                                  "id": "puzzleGameList"
+                                }
+                              }
+                            ],
+                            "proportion": 1,
+                            "sizer": {
+                              "type": "vertical"
+                            },
+                            "widget": {
+                              "class": "scrollBarPane"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "children": [
+                          {
+                            "children": [
+                              {
+                                "widget": {
+                                  "class": "list",
+                                  "id": "campaignGameList"
+                                }
+                              }
+                            ],
+                            "proportion": 1,
+                            "sizer": {
+                              "type": "vertical"
+                            },
+                            "widget": {
+                              "class": "scrollBarPane"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "fill": [
+                            "centreHorizontal"
+                          ],
+                          "widget": {
+                            "class": "image",
+                            "image": "ui/cutscene/cutscene_editor/soldier_felheim_create.png",
+                            "size": [
+                              48,
+                              64
+                            ]
+                          }
+                        },
+                        {
+                          "widget": {
+                            "alignment": 0.5,
+                            "class": "label",
+                            "maxWidth": 150,
+                            "textKey": "ui_ugc_list_empty"
+                          }
+                        }
+                      ],
+                      "fill": "centre",
+                      "proportion": 1,
+                      "sizer": {
+                        "type": "vertical"
+                      },
+                      "widget": {
+                        "class": "widget"
+                      }
+                    }
+                  ],
+                  "fill": "centre",
+                  "proportion": 1,
+                  "widget": {
+                    "active": "false",
+                    "class": "widget",
+                    "id": "emptyGameList"
+                  }
+                },
+                {
+                  "border": [
+                    2,
+                    2,
+                    3,
+                    2
+                  ],
+                  "widget": {
+                    "class": "verticalDiv"
+                  }
+                },
+                {
+                  "border": [
+                    0,
+                    2,
+                    0,
+                    2
+                  ],
+                  "widget": {
+                    "class": "mapInfo",
+                    "id": "mapInfo"
+                  }
+                }
+              ],
+              "proportion": 1,
+              "sizer": {
+                "type": "horizontal"
+              },
+              "widget": {
+                "class": "image",
+                "colour": "#f4f6e9",
+                "id": "contentArea",
+                "image": "ui/whitebox.png"
+              }
+            }
+          ],
+          "proportion": 1,
+          "sizer": {
+            "type": "horizontal"
+          }
+        },
+        {
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "widget": {
+            "class": "nearZoomButtons"
+          }
+        }
+      ],
+      "sizer": {
+        "type": "vertical"
+      },
+      "widget": {
+        "class": "framedImage",
+        "scrollPos": [
+          5,
+          -170
+        ],
+        "scrollSpeed": [
+          -10,
+          10
+        ],
+        "size": [
+          434,
+          245
+        ],
+        "style": "paperPattern"
+      }
+    }
+  ],
+  "sizer": {
+    "gap": 0,
+    "type": "vertical"
+  },
+  "widget": {
+    "class": "framedImage",
+    "scrollPos": [
+      10,
+      -170
+    ],
+    "scrollSpeed": [
+      10,
+      0
+    ],
+    "style": "paperScroll"
+  }
+}

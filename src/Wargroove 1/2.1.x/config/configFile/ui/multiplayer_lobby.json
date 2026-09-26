@@ -1,0 +1,456 @@
+{
+  "children": [
+    {
+      "border": [
+        25,
+        15,
+        25,
+        15
+      ],
+      "children": [
+        {
+          "border": [
+            -3,
+            -3,
+            -3,
+            3
+          ],
+          "children": [
+            {
+              "children": [
+                {
+                  "border": [
+                    1,
+                    1,
+                    1,
+                    1
+                  ],
+                  "children": [
+                    {
+                      "border": [
+                        1,
+                        0,
+                        0,
+                        0
+                      ],
+                      "children": [
+                        {
+                          "border": [
+                            1,
+                            1,
+                            1,
+                            1
+                          ],
+                          "fill": "centre",
+                          "widget": {
+                            "class": "image",
+                            "sprite": "menuicons_player",
+                            "spriteSheet": "ui"
+                          }
+                        }
+                      ],
+                      "fill": "centre",
+                      "widget": {
+                        "class": "image",
+                        "image": "ui/widgets/window/icon_border.png"
+                      }
+                    },
+                    {
+                      "border": [
+                        4,
+                        -1,
+                        10,
+                        0
+                      ],
+                      "fill": "centre",
+                      "widget": {
+                        "class": "label",
+                        "style": "labelWhite",
+                        "textKey": "server_lobby_host"
+                      }
+                    },
+                    {
+                      "border": [
+                        1,
+                        1,
+                        1,
+                        1
+                      ],
+                      "children": [
+                        {
+                          "border": [
+                            1,
+                            0,
+                            10,
+                            0
+                          ],
+                          "fill": "centre",
+                          "widget": {
+                            "class": "playerName",
+                            "id": "lobbyHost",
+                            "maxWidth": 180
+                          }
+                        }
+                      ],
+                      "sizer": {
+                        "type": "vertical"
+                      },
+                      "widget": {
+                        "class": "image",
+                        "image": "ui/widgets/window/static_box_window.png",
+                        "size": [
+                          1,
+                          12
+                        ]
+                      }
+                    }
+                  ],
+                  "fill": "centre",
+                  "sizer": {
+                    "type": "horizontal"
+                  },
+                  "widget": {
+                    "class": "image",
+                    "colour": "#29285a",
+                    "id": "lobbyHostContainer",
+                    "image": "ui/widgets/window/flat_box.png"
+                  }
+                },
+                {
+                  "proportion": 1,
+                  "stretchSpacer": {}
+                },
+                {
+                  "border": [
+                    1,
+                    1,
+                    1,
+                    1
+                  ],
+                  "children": [
+                    {
+                      "border": [
+                        1,
+                        0,
+                        0,
+                        0
+                      ],
+                      "children": [
+                        {
+                          "border": [
+                            1,
+                            1,
+                            1,
+                            1
+                          ],
+                          "fill": "centre",
+                          "widget": {
+                            "class": "image",
+                            "sprite": "menuicons_computer",
+                            "spriteSheet": "ui"
+                          }
+                        }
+                      ],
+                      "fill": "centre",
+                      "widget": {
+                        "class": "image",
+                        "image": "ui/widgets/window/icon_border.png"
+                      }
+                    },
+                    {
+                      "border": [
+                        4,
+                        -1,
+                        10,
+                        0
+                      ],
+                      "fill": "centre",
+                      "widget": {
+                        "class": "label",
+                        "style": "labelWhite",
+                        "textKey": "server_lobby_invite_code"
+                      }
+                    },
+                    {
+                      "border": [
+                        1,
+                        1,
+                        1,
+                        1
+                      ],
+                      "children": [
+                        {
+                          "border": [
+                            0,
+                            -1,
+                            0,
+                            0
+                          ],
+                          "fill": "centre",
+                          "widget": {
+                            "class": "label",
+                            "id": "lobbyCode",
+                            "text": "XXXXXX"
+                          }
+                        }
+                      ],
+                      "sizer": {
+                        "type": "vertical"
+                      },
+                      "widget": {
+                        "class": "image",
+                        "image": "ui/widgets/window/static_box_window.png",
+                        "size": [
+                          60,
+                          12
+                        ]
+                      }
+                    }
+                  ],
+                  "fill": "centre",
+                  "sizer": {
+                    "type": "horizontal"
+                  },
+                  "widget": {
+                    "class": "image",
+                    "colour": "#28285a",
+                    "image": "ui/widgets/window/flat_box.png"
+                  }
+                }
+              ],
+              "proportion": 1,
+              "sizer": {
+                "type": "horizontal"
+              }
+            }
+          ],
+          "sizer": {
+            "type": "horizontal"
+          },
+          "widget": {
+            "class": "image",
+            "image": "ui/widgets/window/dialoguetitle_light.png"
+          }
+        },
+        {
+          "border": [
+            0,
+            -5,
+            0,
+            -2
+          ],
+          "sizer": {
+            "gap": 10,
+            "type": "horizontal"
+          },
+          "widget": {
+            "class": "widget",
+            "id": "slotContainer",
+            "innerBorder": [
+              5,
+              5,
+              5,
+              5
+            ],
+            "size": [
+              86,
+              150
+            ]
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "border": [
+                    5,
+                    1,
+                    4,
+                    2
+                  ],
+                  "widget": {
+                    "class": "label",
+                    "textKey": "server_lobby_ready"
+                  }
+                },
+                {
+                  "border": [
+                    2,
+                    2,
+                    2,
+                    2
+                  ],
+                  "widget": {
+                    "class": "checkbox",
+                    "id": "readyCheckbox"
+                  }
+                },
+                {
+                  "border": [
+                    5,
+                    1,
+                    4,
+                    2
+                  ],
+                  "children": [
+                    {
+                      "widget": {
+                        "class": "label",
+                        "textKey": "server_lobby_timer"
+                      }
+                    },
+                    {
+                      "widget": {
+                        "class": "label",
+                        "id": "lobbyTimer",
+                        "text": 0
+                      }
+                    }
+                  ],
+                  "sizer": {
+                    "type": "horizontal"
+                  },
+                  "widget": {
+                    "class": "widget",
+                    "id": "timerContainer"
+                  }
+                }
+              ],
+              "fill": "centre",
+              "sizer": {
+                "type": "horizontal"
+              },
+              "widget": {
+                "class": "image",
+                "id": "readyContainer",
+                "image": "ui/widgets/window/static_box_window.png"
+              }
+            },
+            {
+              "border": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "children": [
+                {
+                  "border": [
+                    4,
+                    1,
+                    4,
+                    2
+                  ],
+                  "fill": "centre",
+                  "widget": {
+                    "class": "label",
+                    "textKey": "server_lobby_spectating"
+                  }
+                }
+              ],
+              "fill": "centre",
+              "sizer": {
+                "type": "horizontal"
+              },
+              "widget": {
+                "class": "image",
+                "id": "spectatorContainer",
+                "image": "ui/widgets/window/static_box_window.png"
+              }
+            },
+            {
+              "children": [
+                {
+                  "border": [
+                    5,
+                    1,
+                    4,
+                    2
+                  ],
+                  "widget": {
+                    "class": "label",
+                    "textKey": "server_lobby_open_to_friends"
+                  }
+                },
+                {
+                  "border": [
+                    2,
+                    2,
+                    2,
+                    2
+                  ],
+                  "widget": {
+                    "class": "checkbox",
+                    "id": "privacyCheckbox"
+                  }
+                }
+              ],
+              "fill": "centre",
+              "sizer": {
+                "type": "horizontal"
+              },
+              "widget": {
+                "active": "false",
+                "class": "image",
+                "id": "privacyContainer",
+                "image": "ui/widgets/window/static_box_window.png"
+              }
+            }
+          ],
+          "fill": "centre",
+          "sizer": {
+            "gap": 10,
+            "type": "horizontal"
+          }
+        },
+        {
+          "border": [
+            0,
+            3,
+            0,
+            0
+          ],
+          "widget": {
+            "class": "nearZoomButtons"
+          }
+        }
+      ],
+      "sizer": {
+        "type": "vertical"
+      },
+      "widget": {
+        "class": "framedImage",
+        "scrollPos": [
+          5,
+          -170
+        ],
+        "scrollSpeed": [
+          -10,
+          10
+        ],
+        "size": [
+          434,
+          245
+        ],
+        "style": "paperPattern"
+      }
+    }
+  ],
+  "sizer": {
+    "gap": 0,
+    "type": "vertical"
+  },
+  "widget": {
+    "class": "framedImage",
+    "scrollPos": [
+      10,
+      -170
+    ],
+    "scrollSpeed": [
+      10,
+      0
+    ],
+    "style": "paperScroll"
+  }
+}

@@ -1,0 +1,156 @@
+{
+  "children": [
+    {
+      "proportion": 1,
+      "widget": {
+        "class": "tabbedPane",
+        "id": "tabs",
+        "tabs": [
+          {
+            "children": [
+              {
+                "border": [
+                  3,
+                  3,
+                  3,
+                  3
+                ],
+                "children": [
+                  {
+                    "widget": {
+                      "canDrag": "true",
+                      "class": "list",
+                      "id": "conditions"
+                    }
+                  }
+                ],
+                "proportion": 1,
+                "sizer": {
+                  "type": "vertical"
+                },
+                "widget": {
+                  "class": "scrollBarPane",
+                  "clipSize": [
+                    250,
+                    150
+                  ]
+                }
+              }
+            ],
+            "sizer": {
+              "type": "vertical"
+            },
+            "textKey": "ui_trigger_properties_conditions"
+          },
+          {
+            "children": [
+              {
+                "border": [
+                  3,
+                  3,
+                  3,
+                  3
+                ],
+                "children": [
+                  {
+                    "widget": {
+                      "canDrag": "true",
+                      "class": "list",
+                      "id": "actions"
+                    }
+                  }
+                ],
+                "proportion": 1,
+                "sizer": {
+                  "type": "vertical"
+                },
+                "widget": {
+                  "class": "scrollBarPane",
+                  "clipSize": [
+                    250,
+                    150
+                  ]
+                }
+              }
+            ],
+            "sizer": {
+              "type": "vertical"
+            },
+            "textKey": "ui_trigger_properties_actions"
+          }
+        ]
+      }
+    },
+    {
+      "widget": {
+        "class": "horizontalDiv"
+      }
+    },
+    {
+      "children": [
+        {
+          "widget": {
+            "button": "tertiary",
+            "class": "gamepadButton",
+            "id": "new",
+            "size": [
+              40,
+              16
+            ],
+            "textKey": "ui_widget_button_new"
+          }
+        },
+        {
+          "widget": {
+            "button": "primary",
+            "class": "gamepadButton",
+            "id": "edit",
+            "size": [
+              40,
+              16
+            ],
+            "textKey": "ui_widget_button_edit"
+          }
+        },
+        {
+          "widget": {
+            "button": "secondary",
+            "class": "gamepadButton",
+            "id": "move",
+            "size": [
+              40,
+              16
+            ],
+            "textKey": "ui_widget_button_move"
+          }
+        },
+        {
+          "proportion": 1,
+          "stretchSpacer": {}
+        },
+        {
+          "widget": {
+            "class": "dialogueButtons",
+            "hasCancel": "false",
+            "hasClose": "true",
+            "hasOK": "false"
+          }
+        }
+      ],
+      "sizer": {
+        "type": "horizontal"
+      }
+    }
+  ],
+  "sizer": {
+    "type": "vertical"
+  },
+  "widget": {
+    "class": "dialogue",
+    "size": [
+      300,
+      200
+    ],
+    "titleKey": "ui_trigger_properties_title"
+  }
+}

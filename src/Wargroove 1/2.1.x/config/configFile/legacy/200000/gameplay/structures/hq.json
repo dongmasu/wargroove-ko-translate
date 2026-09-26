@@ -1,0 +1,236 @@
+{
+  "unitClasses": [
+    {
+      "aiPriority": 5.0,
+      "battleUnitCount": 1,
+      "canBeReinforced": "false",
+      "canReinforce": "false",
+      "cost": 3000,
+      "damageMultiplier": 0.5,
+      "id": "hq",
+      "income": 100,
+      "isHQ": "true",
+      "isStructure": "true",
+      "movement": "land_building",
+      "name": "structure_name_hq",
+      "regeneration": 10,
+      "sightRange": 7,
+      "tags": [
+        "structure"
+      ]
+    }
+  ],
+  "units": [
+    {
+      "class": "hq",
+      "faction": "neutral",
+      "grabPos": [
+        29,
+        10
+      ],
+      "mapAnimation": "structures/hq_cherrystone",
+      "mediumPortrait": "portraits/medium/red_hq.png",
+      "name": "structure_name_hq",
+      "smallPortrait": "portraits/small/portrait_structure_small.png",
+      "sounds": {
+        "death": "gateDie",
+        "deathMap": "strongholdDieRed",
+        "hit": "hitWood",
+        "hitMap": "hitStone"
+      },
+      "structureImage": {
+        "bannerForeground": "backgrounds/cherrystonehq/cherrystonehq_banner_foreground",
+        "farBackground": "cherrystonehq_background_full_background_2",
+        "foreground": "cherrystonehq_background_full_foreground",
+        "hasBanners": "false",
+        "keeperPosition": [
+          66,
+          69
+        ],
+        "nearBackground": "cherrystonehq_background_full_background_1",
+        "spriteSheet": "backgrounds/cherrystonehq/cherrystonehq_background_full"
+      }
+    },
+    {
+      "class": "hq",
+      "faction": "cherrystone",
+      "grabPos": [
+        29,
+        10
+      ],
+      "mapAnimation": "structures/hq_cherrystone",
+      "mediumPortrait": "portraits/medium/red_hq.png",
+      "name": "structure_name_hq",
+      "smallPortrait": "portraits/small/portrait_structure_small.png",
+      "sounds": {
+        "death": "gateDie",
+        "deathMap": "strongholdDieRed",
+        "hit": "hitWood",
+        "hitMap": "hitStone"
+      },
+      "structureImage": {
+        "bannerForeground": "backgrounds/cherrystonehq/cherrystonehq_banner_foreground",
+        "farBackground": "cherrystonehq_background_full_background_2",
+        "foreground": "cherrystonehq_background_full_foreground",
+        "hasBanners": "false",
+        "keeperPosition": [
+          66,
+          69
+        ],
+        "nearBackground": "cherrystonehq_background_full_background_1",
+        "spriteSheet": "backgrounds/cherrystonehq/cherrystonehq_background_full"
+      }
+    },
+    {
+      "class": "hq",
+      "faction": "felheim",
+      "grabPos": [
+        16,
+        9
+      ],
+      "mapAnimation": "structures/hq_felheim",
+      "mediumPortrait": "portraits/medium/blue_hq.png",
+      "name": "structure_name_hq",
+      "smallPortrait": "portraits/small/portrait_structure_small.png",
+      "sounds": {
+        "death": "gateDie",
+        "deathMap": "strongholdDieBlue",
+        "hit": "hitWood",
+        "hitMap": "hitWood"
+      },
+      "structureImage": {
+        "bannerBackground": "backgrounds/fellheimhq/fellheimhq_banner_background",
+        "bannerForeground": "backgrounds/fellheimhq/fellheimhq_banner_foreground",
+        "farBackground": "fellheimhq_background_full_background_2",
+        "foreground": "fellheimhq_background_full_foreground",
+        "hasBanners": "false",
+        "keeperPosition": [
+          44,
+          59
+        ],
+        "nearBackground": "fellheimhq_background_full_background_1",
+        "spriteSheet": "backgrounds/fellheimhq/fellheimhq_background_full"
+      }
+    },
+    {
+      "class": "hq",
+      "faction": "heavensong",
+      "grabPos": [
+        21,
+        7
+      ],
+      "mapAnimation": "structures/hq_heavensong",
+      "mediumPortrait": "portraits/medium/yellow_hq.png",
+      "name": "structure_name_hq",
+      "smallPortrait": "portraits/small/portrait_structure_small.png",
+      "sounds": {
+        "death": "gateDie",
+        "deathMap": "strongholdDieYellow",
+        "hit": "hitWood",
+        "hitMap": "hitWood"
+      },
+      "structureImage": {
+        "bannerBackground": "backgrounds/heavensonghq/heavensonghq_banner_background",
+        "farBackground": "heavensonghq_background_full_background_2",
+        "foreground": "heavensonghq_background_full_foreground",
+        "hasBanners": "false",
+        "keeperPosition": [
+          62,
+          58
+        ],
+        "nearBackground": "heavensonghq_background_full_background_1",
+        "spriteSheet": "backgrounds/heavensonghq/heavensonghq_background_full"
+      }
+    },
+    {
+      "class": "hq",
+      "faction": "floran",
+      "grabPos": [
+        17,
+        5
+      ],
+      "mapAnimation": "structures/hq_floran",
+      "mediumPortrait": "portraits/medium/green_hq.png",
+      "name": "structure_name_hq",
+      "smallPortrait": "portraits/small/portrait_structure_small.png",
+      "sounds": {
+        "death": "gateDie",
+        "deathMap": "strongholdDieGreen",
+        "hit": "hitWood",
+        "hitMap": "hitWood"
+      },
+      "structureImage": {
+        "bannerForeground": "backgrounds/floranhq/floranhq_banner_foreground",
+        "farBackground": "floranhq_background_full_background_2",
+        "foreground": "floranhq_background_full_foreground",
+        "hasBanners": "false",
+        "keeperPosition": [
+          71,
+          80
+        ],
+        "nearBackground": "floranhq_background_full_background_1",
+        "spriteSheet": "backgrounds/floranhq/floranhq_background_full"
+      }
+    },
+    {
+      "class": "hq",
+      "faction": "guardian",
+      "grabPos": [
+        29,
+        10
+      ],
+      "mapAnimation": "structures/hq_cherrystone",
+      "mediumPortrait": "portraits/medium/red_hq.png",
+      "name": "structure_name_hq",
+      "smallPortrait": "portraits/small/portrait_structure_small.png",
+      "sounds": {
+        "death": "gateDie",
+        "deathMap": "strongholdDieRed",
+        "hit": "hitWood",
+        "hitMap": "hitStone"
+      },
+      "structureImage": {
+        "bannerForeground": "backgrounds/cherrystonehq/cherrystonehq_banner_foreground",
+        "farBackground": "cherrystonehq_background_full_background_2",
+        "foreground": "cherrystonehq_background_full_foreground",
+        "hasBanners": "false",
+        "keeperPosition": [
+          66,
+          69
+        ],
+        "nearBackground": "cherrystonehq_background_full_background_1",
+        "spriteSheet": "backgrounds/cherrystonehq/cherrystonehq_background_full"
+      }
+    },
+    {
+      "class": "hq",
+      "faction": "outlaw",
+      "grabPos": [
+        29,
+        10
+      ],
+      "mapAnimation": "structures/hq_outlaw",
+      "mediumPortrait": "portraits/medium/black_hq.png",
+      "name": "structure_name_hq",
+      "smallPortrait": "portraits/small/portrait_structure_small.png",
+      "sounds": {
+        "death": "gateDie",
+        "deathMap": "strongholdDieRed",
+        "hit": "hitWood",
+        "hitMap": "hitStone"
+      },
+      "structureImage": {
+        "bannerForeground": "backgrounds/outlawhq/outlawhq_banner_foreground",
+        "farBackground": "outlawhq_background_full_background_2",
+        "foreground": "outlawhq_background_full_foreground",
+        "hasBanners": "false",
+        "keeperPosition": [
+          66,
+          69
+        ],
+        "nearBackground": "outlawhq_background_full_background_1",
+        "spriteSheet": "backgrounds/outlawhq/outlawhq_background_full"
+      }
+    }
+  ]
+}

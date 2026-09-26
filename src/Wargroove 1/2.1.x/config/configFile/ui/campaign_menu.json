@@ -1,0 +1,80 @@
+{
+  "children": [
+    {
+      "border": [
+        5,
+        5,
+        5,
+        5
+      ],
+      "widget": {
+        "class": "hybridList",
+        "id": "menu",
+        "options": [
+          {
+            "id": "difficulty",
+            "if": [
+              "!demo"
+            ],
+            "textKey": "ui_campaign_difficulty"
+          },
+          {
+            "id": "options",
+            "if": [
+              "!demo"
+            ],
+            "textKey": "ui_campaign_options"
+          },
+          {
+            "id": "codex",
+            "textKey": "ui_campaign_codex"
+          },
+          {
+            "divider": "true"
+          },
+          {
+            "id": "delete_progress",
+            "if": [
+              "!main_campaign",
+              "!online"
+            ],
+            "textKey": "ui_campaign_editor_delete_progress"
+          },
+          {
+            "id": "abandon",
+            "if": [
+              "online"
+            ],
+            "textKey": "ui_in_game_menu_abandon"
+          },
+          {
+            "divider": "true",
+            "if": [
+              "!main_campaign"
+            ]
+          },
+          {
+            "id": "exit",
+            "textKey": "ui_campaign_exit"
+          },
+          {
+            "id": "cancel",
+            "textKey": "ui_campaign_cancel"
+          }
+        ],
+        "size": [
+          150,
+          14
+        ]
+      }
+    }
+  ],
+  "sizer": {
+    "type": "vertical"
+  },
+  "widget": {
+    "class": "dialogue",
+    "style": "optionBorder",
+    "titleKey": "ui_campaign_title"
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "children": [
+    {
+      "children": [
+        {
+          "proportion": 1,
+          "widget": {
+            "class": "optionsGrid",
+            "columnProportions": [
+              1.0,
+              0.0
+            ],
+            "options": [
+              {
+                "textKey": "ui_cutscene_sfx_name",
+                "widget": {
+                  "class": "dropdown",
+                  "id": "sfxId"
+                }
+              },
+              {
+                "textKey": "ui_cutscene_grid_slot",
+                "widget": {
+                  "class": "button",
+                  "id": "selectPosition",
+                  "style": "slimButton",
+                  "textKey": "ui_widget_button_choose_position"
+                }
+              },
+              {
+                "fill": "false",
+                "textKey": "ui_cutscene_blocking",
+                "widget": {
+                  "class": "checkbox",
+                  "id": "blocking"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "widget": {
+            "class": "horizontalDiv"
+          }
+        },
+        {
+          "children": [
+            {
+              "fill": [
+                "left"
+              ],
+              "widget": {
+                "button": "tertiary",
+                "class": "gamepadButton",
+                "id": "deleteEvent",
+                "size": [
+                  40,
+                  0
+                ],
+                "textKey": "ui_widget_button_delete_event"
+              }
+            },
+            {
+              "fill": [
+                "right"
+              ],
+              "proportion": 1,
+              "widget": {
+                "button": "cancel",
+                "class": "gamepadButton",
+                "id": "close",
+                "size": [
+                  40,
+                  12
+                ],
+                "textKey": "ui_widget_button_close"
+              }
+            }
+          ],
+          "fill": [
+            "fillHorizontal"
+          ],
+          "sizer": {
+            "columns": 2,
+            "type": "horizontal"
+          }
+        }
+      ],
+      "sizer": {
+        "type": "vertical"
+      },
+      "widget": {
+        "class": "dialogue",
+        "id": "window",
+        "size": [
+          200,
+          240
+        ],
+        "style": "optionBorder",
+        "titleKey": "ui_cutscene_action_type_play_sfx"
+      }
+    }
+  ],
+  "sizer": {
+    "type": "vertical"
+  },
+  "widget": {
+    "childLayerAdjustment": 1,
+    "class": "widget"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "uiStyle": {
+    "cartouche": {
+      "background": {
+        "colour": "#473d52",
+        "img": "ui/widgets/window/flat_box.png"
+      }
+    }
+  }
+}

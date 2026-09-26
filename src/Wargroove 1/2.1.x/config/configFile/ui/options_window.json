@@ -1,0 +1,599 @@
+{
+  "children": [
+    {
+      "proportion": 1,
+      "widget": {
+        "class": "tabbedPane",
+        "id": "tabs",
+        "tabs": [
+          {
+            "children": [
+              {
+                "border": [
+                  0,
+                  3,
+                  0,
+                  0
+                ],
+                "widget": {
+                  "class": "optionsGrid",
+                  "columnProportions": [
+                    1.0,
+                    0.0
+                  ],
+                  "options": [
+                    {
+                      "if": "languages",
+                      "sprite": "menuicons_language",
+                      "spriteSheet": "ui",
+                      "textKey": "ui_options_language",
+                      "widget": {
+                        "class": "dropdown",
+                        "id": "language"
+                      }
+                    },
+                    {
+                      "sprite": "menuicons_combat_animation",
+                      "spriteSheet": "ui",
+                      "textKey": "ui_options_combat_animation",
+                      "widget": {
+                        "class": "dropdown",
+                        "id": "combatAnimation",
+                        "size": [
+                          100,
+                          14
+                        ]
+                      }
+                    },
+                    {
+                      "sprite": "menuicons_movement_animation",
+                      "spriteSheet": "ui",
+                      "textKey": "ui_options_movement_animation",
+                      "widget": {
+                        "class": "dropdown",
+                        "id": "movementAnimation",
+                        "size": [
+                          100,
+                          14
+                        ]
+                      }
+                    },
+                    {
+                      "fill": "false",
+                      "sprite": "menuicons_end_turn",
+                      "spriteSheet": "ui",
+                      "textKey": "ui_options_auto_end_turn",
+                      "widget": {
+                        "class": "checkbox",
+                        "id": "autoEndTurn"
+                      }
+                    },
+                    {
+                      "fill": "false",
+                      "sprite": "menuicons_end_turn_confirmation",
+                      "spriteSheet": "ui",
+                      "textKey": "ui_options_end_turn_confirmation",
+                      "widget": {
+                        "class": "checkbox",
+                        "id": "confirmEndTurn"
+                      }
+                    },
+                    {
+                      "if": "switch",
+                      "sprite": "menuicons_zoom",
+                      "spriteSheet": "ui",
+                      "textKey": "ui_options_zoom_handheld",
+                      "widget": {
+                        "class": "dropdown",
+                        "id": "zoomHandheld",
+                        "size": [
+                          100,
+                          14
+                        ]
+                      }
+                    }
+                  ]
+                }
+              }
+            ],
+            "sizer": {
+              "type": "vertical"
+            },
+            "textKey": "ui_options_general"
+          },
+          {
+            "children": [
+              {
+                "border": [
+                  0,
+                  3,
+                  0,
+                  0
+                ],
+                "widget": {
+                  "class": "optionsGrid",
+                  "columnProportions": [
+                    1.0,
+                    0.0
+                  ],
+                  "options": [
+                    {
+                      "sprite": "menuicons_resolution",
+                      "spriteSheet": "ui",
+                      "textKey": "ui_options_resolution",
+                      "widget": {
+                        "class": "dropdown",
+                        "id": "resolution",
+                        "size": [
+                          100,
+                          14
+                        ]
+                      }
+                    },
+                    {
+                      "fill": "false",
+                      "sprite": "menuicons_fullscreen",
+                      "spriteSheet": "ui",
+                      "textKey": "ui_options_fullscreen",
+                      "widget": {
+                        "class": "checkbox",
+                        "id": "fullscreen"
+                      }
+                    },
+                    {
+                      "fill": "false",
+                      "if": "hidden",
+                      "sprite": "menuicons_fullscreen",
+                      "spriteSheet": "ui",
+                      "textKey": "ui_options_exclusive_fullscreen",
+                      "widget": {
+                        "class": "checkbox",
+                        "id": "exclusiveFullscreen"
+                      }
+                    },
+                    {
+                      "sprite": "menuicons_uidisplay",
+                      "spriteSheet": "ui",
+                      "textKey": "ui_options_display_area",
+                      "widget": {
+                        "class": "slider",
+                        "id": "displayArea",
+                        "maxValue": 100,
+                        "minValue": 90,
+                        "size": [
+                          100,
+                          14
+                        ]
+                      }
+                    }
+                  ]
+                }
+              }
+            ],
+            "if": "pc",
+            "sizer": {
+              "type": "vertical"
+            },
+            "textKey": "ui_options_video"
+          },
+          {
+            "children": [
+              {
+                "border": [
+                  0,
+                  3,
+                  0,
+                  0
+                ],
+                "widget": {
+                  "class": "optionsGrid",
+                  "columnProportions": [
+                    1.0,
+                    0.0
+                  ],
+                  "options": [
+                    {
+                      "sprite": "menuicons_output",
+                      "spriteSheet": "ui",
+                      "textKey": "ui_options_audio_output_type",
+                      "widget": {
+                        "class": "dropdown",
+                        "id": "audioOutputType",
+                        "size": [
+                          100,
+                          14
+                        ]
+                      }
+                    },
+                    {
+                      "sprite": "menuicons_master",
+                      "spriteSheet": "ui",
+                      "textKey": "ui_options_master_volume",
+                      "widget": {
+                        "class": "slider",
+                        "id": "masterVolume",
+                        "maxValue": 100,
+                        "size": [
+                          100,
+                          14
+                        ]
+                      }
+                    },
+                    {
+                      "sprite": "menuicons_plays_music",
+                      "spriteSheet": "ui",
+                      "textKey": "ui_options_music_volume",
+                      "widget": {
+                        "class": "slider",
+                        "id": "musicVolume",
+                        "maxValue": 100,
+                        "size": [
+                          100,
+                          14
+                        ]
+                      }
+                    },
+                    {
+                      "sprite": "menuicons_soundeffect",
+                      "spriteSheet": "ui",
+                      "textKey": "ui_options_sfx_volume",
+                      "widget": {
+                        "class": "slider",
+                        "id": "sfxVolume",
+                        "maxValue": 100,
+                        "size": [
+                          100,
+                          14
+                        ]
+                      }
+                    },
+                    {
+                      "sprite": "menuicons_language",
+                      "spriteSheet": "ui",
+                      "textKey": "ui_options_voice_volume",
+                      "widget": {
+                        "class": "slider",
+                        "id": "voiceVolume",
+                        "maxValue": 100,
+                        "size": [
+                          100,
+                          14
+                        ]
+                      }
+                    }
+                  ]
+                }
+              }
+            ],
+            "sizer": {
+              "type": "vertical"
+            },
+            "textKey": "ui_options_sound"
+          },
+          {
+            "children": [],
+            "if": "false",
+            "sizer": {
+              "type": "vertical"
+            },
+            "textKey": "ui_options_controls"
+          },
+          {
+            "children": [
+              {
+                "border": [
+                  0,
+                  3,
+                  0,
+                  0
+                ],
+                "widget": {
+                  "class": "optionsGrid",
+                  "columnProportions": [
+                    1.0,
+                    0.0
+                  ],
+                  "options": [
+                    {
+                      "sprite": "menuicons_colourblind",
+                      "spriteSheet": "ui",
+                      "textKey": "ui_options_colour_blindness",
+                      "widget": {
+                        "class": "dropdown",
+                        "id": "colourBlindness",
+                        "size": [
+                          100,
+                          14
+                        ]
+                      }
+                    },
+                    {
+                      "fill": "false",
+                      "if": "false",
+                      "textKey": "ui_options_subtitles",
+                      "widget": {
+                        "class": "checkbox",
+                        "id": "subtitles"
+                      }
+                    },
+                    {
+                      "fill": "false",
+                      "if": "switch",
+                      "sprite": "menuicons_rumble",
+                      "spriteSheet": "ui",
+                      "textKey": "ui_options_rumble",
+                      "widget": {
+                        "class": "checkbox",
+                        "id": "rumble"
+                      }
+                    },
+                    {
+                      "fill": "false",
+                      "if": "!switch",
+                      "sprite": "menuicons_rumble",
+                      "spriteSheet": "ui",
+                      "textKey": "ui_options_vibration",
+                      "widget": {
+                        "class": "checkbox",
+                        "id": "rumble"
+                      }
+                    },
+                    {
+                      "fill": "false",
+                      "if": "false",
+                      "textKey": "ui_options_single_hand_mode",
+                      "widget": {
+                        "class": "checkbox",
+                        "id": "singleHand"
+                      }
+                    }
+                  ]
+                }
+              }
+            ],
+            "sizer": {
+              "type": "vertical"
+            },
+            "textKey": "ui_options_accessibility"
+          },
+          {
+            "children": [
+              {
+                "border": [
+                  0,
+                  3,
+                  0,
+                  0
+                ],
+                "widget": {
+                  "class": "optionsGrid",
+                  "columnProportions": [
+                    1.0,
+                    0.0
+                  ],
+                  "options": [
+                    {
+                      "fill": "false",
+                      "sprite": "menuicons_show_grid",
+                      "spriteSheet": "ui",
+                      "textKey": "ui_options_show_grid",
+                      "widget": {
+                        "class": "checkbox",
+                        "id": "showGrid"
+                      }
+                    },
+                    {
+                      "fill": "false",
+                      "sprite": "menuicons_show_damage_range",
+                      "spriteSheet": "ui",
+                      "textKey": "ui_options_advanced_damage_range",
+                      "widget": {
+                        "class": "checkbox",
+                        "id": "showDamageRange"
+                      }
+                    },
+                    {
+                      "sprite": "menuicons_health_display",
+                      "spriteSheet": "ui",
+                      "textKey": "ui_options_health_display",
+                      "widget": {
+                        "class": "dropdown",
+                        "id": "healthDisplay",
+                        "size": [
+                          100,
+                          14
+                        ]
+                      }
+                    },
+                    {
+                      "fill": "false",
+                      "if": "crossplay_check",
+                      "sprite": "menuicons_crossplay",
+                      "spriteSheet": "ui",
+                      "textKey": "ui_options_cross_network_play",
+                      "widget": {
+                        "class": "checkbox",
+                        "id": "crossplay"
+                      }
+                    }
+                  ]
+                }
+              }
+            ],
+            "sizer": {
+              "type": "vertical"
+            },
+            "textKey": "ui_options_advanced"
+          }
+        ]
+      }
+    },
+    {
+      "border": [
+        0,
+        3,
+        0,
+        0
+      ],
+      "widget": {
+        "class": "toolTip",
+        "maxHeight": 28,
+        "maxWidth": 270,
+        "size": [
+          250,
+          34
+        ],
+        "tips": [
+          {
+            "id": "language",
+            "textKey": "ui_options_language_tooltip"
+          },
+          {
+            "id": "combatAnimation",
+            "textKey": "ui_options_combat_animation_tooltip"
+          },
+          {
+            "id": "showGrid",
+            "textKey": "ui_options_show_grid_tooltip"
+          },
+          {
+            "id": "autoEndTurn",
+            "textKey": "ui_options_auto_end_turn_tooltip"
+          },
+          {
+            "id": "healthDisplay",
+            "textKey": "ui_options_health_display_tooltip"
+          },
+          {
+            "id": "zoom",
+            "textKey": "ui_options_zoom_tooltip"
+          },
+          {
+            "id": "zoomHandheld",
+            "textKey": "ui_options_zoom_handheld_tooltip"
+          },
+          {
+            "id": "resolution",
+            "textKey": "ui_options_resolution_tooltip"
+          },
+          {
+            "id": "fullscreen",
+            "textKey": "ui_options_fullscreen_tooltip"
+          },
+          {
+            "id": "displayArea",
+            "textKey": "ui_options_display_area_tooltip"
+          },
+          {
+            "id": "exclusiveFullscreen",
+            "textKey": "ui_options_exclusive_fullscreen_tooltip"
+          },
+          {
+            "id": "bloom",
+            "textKey": "ui_options_bloom_tooltip"
+          },
+          {
+            "id": "audioOutputType",
+            "textKey": "ui_options_audio_output_type_tooltip"
+          },
+          {
+            "id": "masterVolume",
+            "textKey": "ui_options_master_volume_tooltip"
+          },
+          {
+            "id": "musicVolume",
+            "textKey": "ui_options_music_volume_tooltip"
+          },
+          {
+            "id": "sfxVolume",
+            "textKey": "ui_options_sfx_volume_tooltip"
+          },
+          {
+            "id": "voiceVolume",
+            "textKey": "ui_options_voice_volume_tooltip"
+          },
+          {
+            "id": "colourBlindness",
+            "textKey": "ui_options_colour_blindness_tooltip"
+          },
+          {
+            "id": "subtitles",
+            "textKey": "ui_options_subtitles_tooltip"
+          },
+          {
+            "id": "rumble",
+            "textKey": "ui_options_rumble_tooltip"
+          },
+          {
+            "id": "singleHand",
+            "textKey": "ui_options_single_hand_tooltip"
+          },
+          {
+            "id": "showDamageRange",
+            "textKey": "ui_options_advanced_damage_range_tooltip"
+          },
+          {
+            "id": "movementAnimation",
+            "textKey": "ui_options_movement_animation_tooltip"
+          },
+          {
+            "id": "confirmEndTurn",
+            "textKey": "ui_options_end_turn_confirmation_tooltip"
+          },
+          {
+            "id": "crossplay",
+            "textKey": "ui_options_cross_network_play_tooltip"
+          }
+        ]
+      }
+    },
+    {
+      "widget": {
+        "class": "horizontalDiv"
+      }
+    },
+    {
+      "children": [
+        {
+          "widget": {
+            "button": "tertiary",
+            "class": "gamepadButton",
+            "id": "credits",
+            "size": [
+              60,
+              16
+            ],
+            "textKey": "ui_menu_extras_credits"
+          }
+        },
+        {
+          "proportion": 1,
+          "stretchSpacer": {}
+        },
+        {
+          "widget": {
+            "class": "dialogueButtons",
+            "hasCancel": "false",
+            "hasClose": "true",
+            "hasOK": "false"
+          }
+        }
+      ],
+      "sizer": {
+        "type": "horizontal"
+      }
+    }
+  ],
+  "sizer": {
+    "type": "vertical"
+  },
+  "widget": {
+    "class": "dialogue",
+    "size": [
+      300,
+      150
+    ],
+    "style": "optionBorder",
+    "titleKey": "ui_options_title"
+  }
+}
