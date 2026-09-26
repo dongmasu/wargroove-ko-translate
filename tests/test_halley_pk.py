@@ -3,13 +3,23 @@
 
 from __future__ import annotations
 
+import json
 import struct
 import tempfile
 import unittest
 import zlib
 from pathlib import Path
 
-from tools.halleypk import AES_KEY, Entry, HalleyPack, FormatError, aes_cbc, pack_container
+from tools.halleypk import (
+    AES_KEY,
+    Entry,
+    HalleyPack,
+    FormatError,
+    aes_cbc,
+    cmd_payload_export,
+    cmd_payload_import,
+    pack_container,
+)
 
 
 def string(value: str) -> bytes:
@@ -126,6 +136,39 @@ class HalleyPackTest(unittest.TestCase):
                 HalleyPack(replacement_pack).payload(HalleyPack(replacement_pack).entries[0]),
                 b"changed",
             )
+
+    def test_payload_hex_export_import_roundtrip(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            template = root / "font.json"
+            raw = root / "font.bin"
+            exported = root / "exported.bin"
+            imported = root / "imported.json"
+            template.write_text(
+                '{"_assetType":"font","_payloadHex":"0001","_decoded":{"decoded":false}}\n',
+                encoding="utf-8",
+            )
+            raw.write_bytes(b"Halley payload")
+
+            cmd_payload_export(
+                type(
+                    "Args",
+                    (),
+                    {"source": template, "output": exported},
+                )()
+            )
+            self.assertEqual(exported.read_bytes(), b"\x00\x01")
+
+            cmd_payload_import(
+                type(
+                    "Args",
+                    (),
+                    {"template": template, "payload": raw, "output": imported},
+                )()
+            )
+            document = json.loads(imported.read_text(encoding="utf-8"))
+            self.assertEqual(bytes.fromhex(document["_payloadHex"]), b"Halley payload")
+            self.assertEqual(document["_assetType"], "font")
 
 
 if __name__ == "__main__":

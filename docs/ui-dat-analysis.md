@@ -164,6 +164,43 @@ its texture atlas, or reusing an existing font name and texture pair. A raw
 TTF file cannot be dropped into `ui.dat` without converting it to Halley's
 font and texture formats.
 
+### Font payload structure
+
+The payload exported from `ui/font/Wargroove Medium.json` is 27,894 bytes.
+Its currently verified layout is:
+
+```text
+offset  size       meaning
+0x0000  u32 + text font name, "Wargroove Medium"
+0x0014  u32 + text texture reference, "fontTex/Wargroove Medium"
+0x0030  f32        11.0
+0x0034  f32        14.0
+0x0038  f32        16.0
+0x003c  0x11 bytes serializer flags/metrics, not fully assigned
+0x004d  u32        glyph count: 534 (0x216)
+0x0051  52 * 534   glyph records
+0x6cc9  u32        fallback font count: 3
+0x6ccd  strings    PixelMPlus, Zpix, AaCassiopeiaL1
+...     u8         trailing flag: 1
+```
+
+Each glyph record is 52 bytes: a little-endian `u32` Unicode code point
+followed by twelve little-endian `f32` values. The exact semantic names of
+those twelve values still need comparison with Halley's font loader, but they
+are the glyph's layout/atlas metrics rather than outline data. The raster
+glyphs themselves are stored separately in the matching
+`texture/fontTex/Wargroove Medium` payload.
+
+This confirms that exporting `_payloadHex` produces a proprietary Halley font
+asset, not a standard font file. A TTF-to-Halley converter would need to
+generate both these glyph metrics and the matching raster atlas.
+
+The initial project converter generates a single-channel grayscale bitmap
+atlas and therefore emits a non-distance-field font (`distance_field=false`,
+`smooth_radius=0`). It does not yet reproduce Halley's MSDF/SDF generation.
+This is intentional: a raw grayscale atlas must not be labeled as a
+distance-field asset. MSDF/SDF output is a separate compatibility task.
+
 For the current translation build, this conversion is deferred: the original
 Windows WG2 fonts rendered the Korean test strings successfully. Revisit font
 conversion only if runtime review finds poor readability, missing glyphs,

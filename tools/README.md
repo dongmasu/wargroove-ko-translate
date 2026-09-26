@@ -215,6 +215,60 @@ Extracted payloads currently use `.bin` because the runtime asset format is
 not inferred from the index name. The manifest records the original asset
 type, name, offset, size, and metadata.
 
+### Convert JSON payloads
+
+Binary-resource JSON keeps the original decoded payload in `_payloadHex`.
+Export it as a raw file without changing the JSON:
+
+```sh
+python3 tools/halleypk.py payload export \
+  "src/Wargroove 2/1.2.x/ui/font/Wargroove Medium.json" \
+  /tmp/wargroove-medium-font.bin
+```
+
+After editing or replacing the raw payload, import it into a new JSON file.
+The template metadata and `_decoded` section are preserved, while only
+`_payloadHex` is replaced:
+
+```sh
+python3 tools/halleypk.py payload import \
+  "src/Wargroove 2/1.2.x/ui/font/Wargroove Medium.json" \
+  /tmp/wargroove-medium-font.bin \
+  work/docs/analysis/Wargroove-Medium-replaced.json
+```
+
+These commands convert the hexadecimal representation to bytes and back.
+They do not convert a Halley font into TTF/OTF or a Halley texture into PNG.
+
+### Convert TTF/OTF to Halley font assets
+
+Halley source confirms that fonts are generated from FreeType glyphs and
+stored as a serialized `font` asset plus a matching `fontTex` image. The
+project converter follows the legacy Wargroove layout:
+
+```sh
+python3 -m pip install Pillow
+python3 tools/ttf_to_halley.py \
+  "/path/to/font.ttf" \
+  --reference-font "src/Wargroove 2/1.2.x/ui/font/Wargroove Medium.json" \
+  --reference-texture "src/Wargroove 2/1.2.x/ui/texture/fontTex/Wargroove Medium.json" \
+  --characters "work/docs/analysis/font-characters.txt" \
+  --output "work/docs/analysis/generated-font"
+```
+
+The output contains:
+
+```text
+font/Wargroove Medium.json
+texture/fontTex/Wargroove Medium.json
+manifest.json
+```
+
+The character file is UTF-8 text. Each distinct non-newline character becomes
+one glyph. The default render size and atlas width are 16 px and 256 px; use
+`--pixel-size`, `--atlas-width`, and `--padding` to change them. The command
+refuses to overwrite existing output files.
+
 ### Decode ConfigFile assets
 
 The `src/` tree remains an immutable source snapshot. Decode all Wargroove 2

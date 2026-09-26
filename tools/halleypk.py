@@ -607,6 +607,48 @@ def cmd_extract(args: argparse.Namespace) -> int:
     return 0
 
 
+def _read_payload_json(path: Path) -> dict[str, Any]:
+    try:
+        document = json.loads(path.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError) as error:
+        raise FormatError(f"invalid payload JSON: {path}") from error
+    if not isinstance(document, dict) or "_payloadHex" not in document:
+        raise FormatError(f"JSON has no _payloadHex field: {path}")
+    if not isinstance(document["_payloadHex"], str):
+        raise FormatError(f"_payloadHex must be a string: {path}")
+    try:
+        bytes.fromhex(document["_payloadHex"])
+    except ValueError as error:
+        raise FormatError(f"_payloadHex is not valid hexadecimal: {path}") from error
+    return document
+
+
+def cmd_payload_export(args: argparse.Namespace) -> int:
+    document = _read_payload_json(args.source)
+    payload = bytes.fromhex(document["_payloadHex"])
+    if args.output.exists():
+        raise FormatError(f"refusing to overwrite existing output: {args.output}")
+    args.output.parent.mkdir(parents=True, exist_ok=True)
+    args.output.write_bytes(payload)
+    print(f"Exported {len(payload)} payload bytes to {args.output}")
+    return 0
+
+
+def cmd_payload_import(args: argparse.Namespace) -> int:
+    document = _read_payload_json(args.template)
+    payload = args.payload.read_bytes()
+    document["_payloadHex"] = payload.hex()
+    if args.output.exists():
+        raise FormatError(f"refusing to overwrite existing output: {args.output}")
+    args.output.parent.mkdir(parents=True, exist_ok=True)
+    args.output.write_text(
+        json.dumps(document, ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
+    )
+    print(f"Imported {len(payload)} payload bytes into {args.output}")
+    return 0
+
+
 def cmd_roundtrip(args: argparse.Namespace) -> int:
     # A byte-for-byte copy validates source accessibility without serializing a new pack.
     HalleyPack(args.pack)
@@ -781,6 +823,24 @@ def build_parser() -> argparse.ArgumentParser:
     extract_parser.add_argument("output", type=Path)
     extract_parser.add_argument("--match", action="append", default=[], help="substring filter; repeatable")
     extract_parser.set_defaults(func=cmd_extract)
+
+    payload_parser = commands.add_parser("payload", help="convert JSON _payloadHex and raw payload files")
+    payload_commands = payload_parser.add_subparsers(dest="payload_command", required=True)
+
+    payload_export_parser = payload_commands.add_parser(
+        "export", help="write a JSON _payloadHex value as raw bytes"
+    )
+    payload_export_parser.add_argument("source", type=Path, help="binary-resource JSON")
+    payload_export_parser.add_argument("output", type=Path, help="raw payload output")
+    payload_export_parser.set_defaults(func=cmd_payload_export)
+
+    payload_import_parser = payload_commands.add_parser(
+        "import", help="replace a JSON _payloadHex value with raw bytes"
+    )
+    payload_import_parser.add_argument("template", type=Path, help="binary-resource JSON template")
+    payload_import_parser.add_argument("payload", type=Path, help="raw payload input")
+    payload_import_parser.add_argument("output", type=Path, help="new JSON output")
+    payload_import_parser.set_defaults(func=cmd_payload_import)
 
     roundtrip_parser = commands.add_parser(
         "roundtrip", help="make a verified byte-identical copy; never alters the input"
