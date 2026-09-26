@@ -30,14 +30,16 @@ tests/                  Regression tests and small test fixtures
 work/
   Wargroove 1/2.1.x/    Wargroove 1 working copy
   Wargroove 2/1.2.x/    WG2 translation working files
-  docs/                  Analysis, readable payloads, review, and release records
+  docs/                  Versioned review records; local analysis is ignored
 dist/                   Dated files ready to copy into the game
 docs/                   Stable project design and process documents
 references/             Local source material, excluded from Git
 ```
 
-Files under `src/` are immutable, readable source snapshots. Raw unpacked
-payloads and intermediate conversions belong under `work/docs/analysis/`.
+Files under `src/` are immutable, readable source snapshots. Versioned review
+and progress records belong under `work/docs/review/`; reproducible raw
+payloads and intermediate conversions belong under the ignored
+`work/docs/analysis/`.
 Translation edits belong under the matching `work/<game>/<version>/config/`
 directory.
 Only the dated `config.dat` under `dist/` is a release artifact.
