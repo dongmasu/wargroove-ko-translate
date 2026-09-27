@@ -17,11 +17,11 @@ Date: 2026-09-27
 - `ui.dat`: 2,662 assets
 - ZIP contents: `assets/config.dat`, `assets/ui.dat`, `INSTALL.md`
 - `config.dat` SHA-256:
-  `8c02540734268741a41f3c0a73c93ff948e3ac231f6672d6cb789ace1ce66be2`
+  `c653c487a29c564a7c9f0f2d14a99b372f6d21879b8e2532008b0224c28d718f`
 - `ui.dat` SHA-256:
   `06224bc3d513136f3111c1f59823f1294793867dcbb1e8cf87a1601290939331`
 - ZIP SHA-256:
-  `bf359d2f18b016b4dd930d6ba14bb18a861b5bfda3265af6dd6c6a8859020237`
+  `b315cba96b4de1666b66ebcf89388aff346e4642206f85730d3ec6c238038da9`
 
 ## Translation Verification
 
@@ -30,6 +30,8 @@ Date: 2026-09-27
 - Approved editor changes: 23
 - Format placeholders, markup, and control-code checks: passed
 - `발더 경의 집에서!` exception recorded in `translation-exceptions.tsv`
+- Ambiguous Faahri tutorial `Swordsman` references use the shared class term
+  `병사`, avoiding an incorrect `소드맨` or `듀얼리스트` unit name.
 - Deferred findings remain documented and were not silently changed.
 
 ## Font Verification

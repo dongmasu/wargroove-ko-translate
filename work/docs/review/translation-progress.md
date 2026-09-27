@@ -64,11 +64,11 @@ complete.
 - Direct Windows release pack:
   `dist/Wargroove 2/1.2.x/20260927/assets/config.dat`
 - `config.dat` SHA-256:
-  `8c02540734268741a41f3c0a73c93ff948e3ac231f6672d6cb789ace1ce66be2`
+  `c653c487a29c564a7c9f0f2d14a99b372f6d21879b8e2532008b0224c28d718f`
 - `ui.dat` SHA-256:
   `06224bc3d513136f3111c1f59823f1294793867dcbb1e8cf87a1601290939331`
 - ZIP SHA-256:
-  `bf359d2f18b016b4dd930d6ba14bb18a861b5bfda3265af6dd6c6a8859020237`
+  `b315cba96b4de1666b66ebcf89388aff346e4642206f85730d3ec6c238038da9`
 - Terminology review:
   `work/docs/review/batch-001-terminology.md`
 - UI review:
