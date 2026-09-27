@@ -228,7 +228,7 @@ workspace:
 ```sh
 python3 tools/config_workspace.py pack \
   "work/Wargroove 2/1.2.x/config" \
-  "dist/Wargroove 2/1.2.x/20260926/config.dat"
+  "dist/Wargroove 2/1.2.x/20260927/assets/config.dat"
 ```
 
 The packer keeps all assets in the workspace, preserves their asset names and
@@ -237,28 +237,26 @@ rebuilt pack can be reopened. ConfigFile JSON changes are encoded back to the
 original ConfigFile version and compression wrapper.
 
 ```text
-dist/Wargroove 2/1.2.x/20260926/config.dat
+dist/Wargroove 2/1.2.x/20260927/assets/config.dat
 ```
 
 It contains 3,538 assets. The final output SHA-256 is:
 
 ```text
-746b17b14cb52dcbd3d9e94ca33d8400e2bae6555d564b66a40a6661a456bbc6
+8c02540734268741a41f3c0a73c93ff948e3ac231f6672d6cb789ace1ce66be2
 ```
 
 The pack was reopened on macOS, all 24 added payloads were verified, and
 sample campaign-air strings were decoded from the encrypted output. The
-earlier experimental pack was tested in Windows with Korean text rendering
-successfully; the final pack still requires a separate Windows smoke test.
+final package also contains the matching `ui.dat` font replacement and passed
+the automated package checks. A separate Windows smoke test remains pending.
 
 ### `ui.dat`
 
 `ui.dat` is analyzed separately in
-`docs/ui-dat-analysis.md`. It is not required for the current Korean
-text test because the existing Windows font rendered the Korean strings
-successfully. Only investigate and add a font asset from `ui.dat` if later
-testing finds missing glyphs, boxes, fallback fonts, clipping, or unreadable
-characters.
+`docs/ui-dat-analysis.md`. The current package replaces only the `Noto Serif`
+font assets in `ui.dat`, so the release must install `config.dat` and `ui.dat`
+together. The remaining UI assets stay identical to the Windows source.
 
 ## Current Validation
 

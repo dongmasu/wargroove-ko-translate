@@ -9,7 +9,9 @@ import unittest
 
 from tools.halley_font import (
     HalleyFontError,
+    decode_hlif_rgba,
     decode_hlif_single_channel,
+    encode_hlif_rgba,
     encode_hlif_single_channel,
     generate_sdf,
     load_payload_json,
@@ -47,12 +49,24 @@ class HalleyFontTest(unittest.TestCase):
         self.assertEqual((image.width, image.height), (4, 2))
         self.assertEqual(image.pixels, pixels)
 
+    def test_encodes_and_decodes_rgba_hlif(self) -> None:
+        pixels = bytes([0, 0, 0, 0, 255, 255, 255, 255])
+        payload = encode_hlif_rgba(pixels, 2, 1)
+        image = decode_hlif_rgba(payload)
+        self.assertEqual((image.width, image.height), (2, 1))
+        self.assertEqual(image.pixels, pixels)
+
     def test_generates_single_channel_sdf(self) -> None:
         source = bytes([0, 0, 0, 0, 255, 255, 0, 0, 0])
         sdf = generate_sdf(source, 3, 3, 1.5)
         self.assertEqual(len(sdf), 9)
         self.assertGreater(sdf[4], 127)
         self.assertLess(sdf[0], 127)
+
+    def test_sdf_threshold_preserves_antialiased_strokes(self) -> None:
+        source = bytes([0, 1, 0])
+        sdf = generate_sdf(source, 3, 1, 1.5, threshold=0)
+        self.assertGreater(sdf[1], 127)
 
     def test_rejects_non_hex_json_payload(self) -> None:
         with tempfile.TemporaryDirectory() as directory:

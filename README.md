@@ -6,11 +6,29 @@ version of Wargroove 2. macOS is not a supported platform for this project.
 Wargroove 1 has an official Korean translation, while Wargroove 2 does not
 support Korean. Wargroove 1 may be used as a terminology and style reference.
 
+Translation rules and context-specific exceptions are documented in
+[`docs/translation-guide.md`](docs/translation-guide.md). Version-specific
+exceptions are recorded beside each translation workspace.
+
 ## Links
 
 - Official website: https://wargroove.com/
 - Wargroove 1 on Steam: https://store.steampowered.com/app/607050/_/
 - Wargroove 2 on Steam: https://store.steampowered.com/app/1346020/Wargroove_2/
+
+## Font Direction
+
+The current font direction is to keep the Windows Wargroove 2 UI in its
+original state and replace only `Noto Serif` with Google Noto Serif Korean.
+`Sitka Text Bold Italic` and all other UI font assets remain unchanged.
+
+The reason is that the original `Noto Serif` contains only 51 Hangul
+syllables, which can cause missing glyphs in skill and groove-effect text.
+The conversion settings and runtime test artifact are recorded in
+[`docs/ui-dat-analysis.md`](docs/ui-dat-analysis.md).
+
+Installation and backup instructions are documented in
+[`INSTALL.md`](INSTALL.md).
 
 ## Principles
 

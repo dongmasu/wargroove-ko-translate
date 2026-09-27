@@ -177,6 +177,11 @@ Glossary changes follow the same review flow as translation changes. A
 glossary row is not an instruction for blind global replacement; its affected
 resource keys must be reviewed before applying it.
 
+Practical translation rules and context exceptions are maintained separately
+in `docs/translation-guide.md`. Version-specific exceptions belong in
+`work/<game>/<version>/translation-exceptions.tsv` and must identify their
+affected keys.
+
 ## Phase 3: Translate by Context
 
 Translate in this order:
@@ -222,13 +227,21 @@ the next batch.
 - Use Windows Wargroove 2 `config.dat` and `ui.dat` as the base.
 - Add Korean resources with `halleypk.py add`.
 - Replace or add font assets only after confirming the font payload format.
-- Keep font storage and font appearance separate: Wargroove uses a
-  single-channel SDF font asset, but its original typeface is intentionally
-  pixel-like. If readability is poor, evaluate a more readable TTF/OTF and
-  convert it to the same Halley SDF format rather than treating the issue as
-  a DAT decoding problem. The current candidate mapping is
-  `Wargroove Medium -> Pretendard-Regular` and
-  `Wargroove Small -> Pretendard-Light`.
+- Final font decision: start from the untouched Windows Wargroove 2 UI and
+  replace only `Noto Serif` with a Google Noto Serif Korean Regular-derived
+  single-channel SDF asset. Keep `Sitka Text Bold Italic` and all other font
+  assets unchanged.
+- Reason for replacement: the original `Noto Serif` contains only 51 Hangul
+  syllables, so the direct `Sitka Text Bold Italic -> Noto Serif` fallback
+  can show missing glyphs in skill and groove-effect text such as
+  `송 사이클론`.
+- Final Noto Serif conversion settings are `pixel-size=42`,
+  `render-scale=1`, `atlas-width=4096`, `padding=2`, `sdf-radius=4`,
+  `sdf-threshold=1`, and `antialias=on`; do not use `--bitmap`.
+- The complete command, character-set source, atlas dimensions, payload
+  sizes, package hash, and runtime test path are recorded in
+  `docs/ui-dat-analysis.md` under “Final Noto Serif Korean replacement
+  decision”.
 - Repack into new files under `work/`; never overwrite `references/`.
 - Keep a manifest of added, replaced, and unchanged resources.
 
@@ -294,10 +307,10 @@ required for direct replacement are recorded in
 `docs/config-dat-structure.md`. Windows testing confirmed that the
 generated Korean pack renders Hangul successfully.
 
-Font conversion is documented in `docs/ui-dat-analysis.md`. The first
-Pretendard conversion and temporary `ui.dat` pack succeeded; Windows runtime
-review is still required to assess glyph appearance, spacing, clipping, and
-readability.
+Font conversion is documented in `docs/ui-dat-analysis.md`. The final Noto
+Serif Korean SDF conversion and `ui.dat` repack passed automated validation
+and was confirmed to apply in Windows Wargroove 2. Final runtime checks should
+still be repeated after future font or game-version changes.
 
 The project currently has completed:
 

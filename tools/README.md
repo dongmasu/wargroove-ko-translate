@@ -116,6 +116,12 @@ python3 tools/config_workspace.py pack \
   "dist/Wargroove 2/1.2.x/YYYYMMDD/ui.dat"
 ```
 
+When replacing a texture payload, update `workspace.json` as well as the
+asset JSON. Its `metadata.width`, `metadata.height`, `metadata.format`, and
+matching `metadata_raw` must agree with the HLIF header. The packer checks this
+automatically and refuses to create a pack with mismatched texture metadata;
+otherwise the game may crash during startup.
+
 Regression tests live under `tests/` rather than alongside the implementation:
 
 ```sh
@@ -265,11 +271,48 @@ manifest.json
 ```
 
 The character file is UTF-8 text. Each distinct non-newline character becomes
-one glyph. The default output is a single-channel SDF atlas matching the
-legacy Wargroove font mode. Use `--bitmap` only for diagnostic bitmap output.
-The default render size, atlas width, padding, and SDF radius are 16 px,
-256 px, 2 px, and 1.5 px; use the corresponding options to change them. The
-command refuses to overwrite existing output files.
+a requested glyph. The converter reads the source font's Unicode cmap and
+omits unsupported codepoints so Halley can use the font's fallback list instead
+of displaying a `.notdef` glyph. Without `--bitmap`, the output is a
+single-channel SDF atlas. With
+`--bitmap`, the output is an RGBA HLIF bitmap atlas whose RGB channels are
+premultiplied by alpha for Halley's default premultiplied-alpha sprite
+material. Use `filtering=false` in the matching texture metadata for pixel
+fonts.
+
+The current build does not use Galmuri. The final direction replaces only
+`Noto Serif` with a Google Noto Serif Korean Regular-derived single-channel
+SDF asset; `Sitka Text Bold Italic` and every other UI font remain unchanged.
+The historical Galmuri experiments used Galmuri11 at 12px, Galmuri9 at 10px,
+and Galmuri7 at 8px as nominal rasterization sizes. Those bitmap packages were
+temporary comparisons and are not part of the release.
+
+The default atlas width, padding, and SDF radius are 256 px, 2 px, and 1.5 px;
+use the corresponding options to change them. `fontTools` is required in
+addition to Pillow for cmap filtering. The command refuses to overwrite
+existing output files.
+
+The converter's important rendering options are:
+
+```text
+--pixel-size N       TTF rasterization size
+--render-scale N     rasterize at N times the target size, then reduce
+--atlas-width N      generated atlas width
+--padding N          glyph padding in atlas pixels
+--sdf-radius N       SDF smoothing radius; default 1.5
+--sdf-threshold N    grayscale cutoff for SDF inside/outside; default 1
+--antialias off      binary glyph mask; default
+--antialias on       preserve grayscale glyph edges
+--bitmap-gamma N     sharpen bitmap antialias edges; default 1.0
+--bitmap             disable SDF and write an RGBA bitmap atlas
+```
+
+`--antialias off` controls antialiasing during TTF-to-pixel conversion. It
+does not disable smoothing performed by Halley's SDF material at runtime. For
+a genuinely pixel-crisp result, use `--bitmap` and keep the matching texture
+metadata's `filtering=false`. With `--antialias on`, values above
+`--bitmap-gamma 1.0` darken semi-transparent edge pixels while preserving
+connected glyph strokes.
 
 ### Decode ConfigFile assets
 

@@ -7,12 +7,32 @@ import tempfile
 import unittest
 from pathlib import Path
 
-from tools.config_workspace import pack_workspace, unpack_workspace
+from tools.config_workspace import (
+    _validate_texture_metadata,
+    pack_workspace,
+    unpack_workspace,
+)
 from tools.halleyconfig import decode_payload, encode_payload
+from tools.halley_font import encode_hlif_rgba
+from tools.halleypk import FormatError
 from tools.halleypk import ASSET_TYPES, Entry, HalleyPack, pack_container
 
 
 class ConfigWorkspaceTest(unittest.TestCase):
+    def test_rejects_texture_metadata_dimension_mismatch(self) -> None:
+        payload = encode_hlif_rgba(bytes((255, 255, 255, 255)), 1, 1)
+        item = {
+            "asset_type": "texture",
+            "asset_name": "fontTex/test",
+            "metadata": {
+                "format": "rgba",
+                "height": 2,
+                "width": 1,
+            },
+        }
+        with self.assertRaisesRegex(FormatError, "metadata mismatch"):
+            _validate_texture_metadata(item, payload)
+
     def test_unpack_edit_pack_roundtrip(self) -> None:
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)

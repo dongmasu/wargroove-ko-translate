@@ -50,21 +50,29 @@ class HLIFImage:
     pixels: bytes
 
 
-def generate_sdf(pixels: bytes, width: int, height: int, radius: float) -> bytes:
+def generate_sdf(
+    pixels: bytes,
+    width: int,
+    height: int,
+    radius: float,
+    threshold: int = 127,
+) -> bytes:
     """Generate Halley's single-channel signed-distance representation."""
     if len(pixels) != width * height:
         raise HalleyFontError("SDF input has the wrong size")
     if radius < 0:
         raise HalleyFontError("SDF radius must be non-negative")
+    if not 0 <= threshold <= 255:
+        raise HalleyFontError("SDF threshold must be between 0 and 255")
     result = bytearray(width * height)
     iradius = int(radius + 0.999999)
     for cy in range(height):
         for cx in range(width):
-            inside = pixels[cx + cy * width] > 127
+            inside = pixels[cx + cy * width] > threshold
             best = None
             for y in range(max(0, cy - iradius), min(height, cy + iradius + 1)):
                 for x in range(max(0, cx - iradius), min(width, cx + iradius + 1)):
-                    if (pixels[x + y * width] > 127) != inside:
+                    if (pixels[x + y * width] > threshold) != inside:
                         distance = (x - cx) ** 2 + (y - cy) ** 2
                         best = distance if best is None else min(best, distance)
             distance = (best ** 0.5) if best is not None else float(iradius)
@@ -225,18 +233,18 @@ def _lz4() -> Any:
     raise HalleyFontError("liblz4 was not found")
 
 
-def _encode_lines(pixels: bytes, width: int, height: int) -> bytes:
-    # Single-channel HLIF can use unfiltered rows; Halley accepts all-zero
-    # line encodings and decodes the pixel bytes unchanged.
-    if len(pixels) != width * height:
-        raise HalleyFontError("single-channel pixel data has the wrong size")
+def _encode_lines(pixels: bytes, width: int, height: int, bytes_per_pixel: int) -> bytes:
+    # HLIF accepts unfiltered rows; all-zero line encodings preserve the
+    # pixel bytes unchanged for both single-channel and RGBA textures.
+    if len(pixels) != width * height * bytes_per_pixel:
+        raise HalleyFontError("HLIF pixel data has the wrong size")
     return bytes(height) + pixels
 
 
-def encode_hlif_single_channel(pixels: bytes, width: int, height: int) -> bytes:
+def _encode_hlif(pixels: bytes, width: int, height: int, fmt: int, bytes_per_pixel: int) -> bytes:
     if not 0 < width <= 65535 or not 0 < height <= 65535:
         raise HalleyFontError("HLIF dimensions must fit uint16")
-    raw = _encode_lines(pixels, width, height)
+    raw = _encode_lines(pixels, width, height, bytes_per_pixel)
     library = _lz4()
     bound = library.LZ4_compressBound(len(raw))
     output = ctypes.create_string_buffer(bound)
@@ -250,7 +258,7 @@ def encode_hlif_single_channel(pixels: bytes, width: int, height: int) -> bytes:
         height,
         result,
         len(raw),
-        1,
+        fmt,
         0,
         0,
         0,
@@ -258,14 +266,23 @@ def encode_hlif_single_channel(pixels: bytes, width: int, height: int) -> bytes:
     return header + output.raw[:result]
 
 
-def decode_hlif_single_channel(data: bytes) -> HLIFImage:
+def encode_hlif_single_channel(pixels: bytes, width: int, height: int) -> bytes:
+    return _encode_hlif(pixels, width, height, 1, 1)
+
+
+def encode_hlif_rgba(pixels: bytes, width: int, height: int) -> bytes:
+    """Encode an RGBA HLIF image without palette optimization."""
+    return _encode_hlif(pixels, width, height, 0, 4)
+
+
+def _decode_hlif(data: bytes, expected_format: int, bytes_per_pixel: int) -> HLIFImage:
     if len(data) < 24 or data[:8] != b"HLIFv01\0":
         raise HalleyFontError("not an HLIF payload")
     magic, width, height, compressed_size, raw_size, fmt, flags, palettes, reserved = struct.unpack_from(
         "<8sHHIIBBBB", data, 0
     )
-    if fmt != 1 or flags != 0 or palettes != 0:
-        raise HalleyFontError("only uncompressed single-channel HLIF is supported")
+    if fmt != expected_format or flags != 0 or palettes != 0 or reserved != 0:
+        raise HalleyFontError("unexpected HLIF format")
     compressed = data[24:24 + compressed_size]
     if len(compressed) != compressed_size:
         raise HalleyFontError("truncated HLIF payload")
@@ -274,6 +291,14 @@ def decode_hlif_single_channel(data: bytes) -> HLIFImage:
     if result != raw_size:
         raise HalleyFontError("HLIF LZ4 decompression failed")
     raw = output.raw[:raw_size]
-    if len(raw) != height + width * height:
+    if len(raw) != height + width * height * bytes_per_pixel:
         raise HalleyFontError("invalid HLIF raw size")
     return HLIFImage(width, height, raw[height:])
+
+
+def decode_hlif_single_channel(data: bytes) -> HLIFImage:
+    return _decode_hlif(data, 1, 1)
+
+
+def decode_hlif_rgba(data: bytes) -> HLIFImage:
+    return _decode_hlif(data, 0, 4)

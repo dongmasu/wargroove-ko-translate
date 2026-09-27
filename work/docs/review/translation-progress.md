@@ -1,6 +1,6 @@
 # Wargroove 2 Korean Translation Progress
 
-Date: 2026-09-26
+Date: 2026-09-27
 Target: Windows Wargroove 2 `v1.2.12`, build `#45031`
 
 ## Review Complete
@@ -36,24 +36,39 @@ Remaining identical English/Korean values were classified as punctuation,
 audio cues, developer identifiers, placeholders, numbers, credits, or
 language names rather than translation omissions.
 
+## Campaign Air QA Complete
+
+- Completed resource-level review for A1M1 through A3M2.
+- Added review reports Batch 014 through Batch 026.
+- Applied all 23 approved editor changes to the Korean campaign-air resource
+  and synchronized the verified resource.
+- Recorded the A1M3 `발더 경의 집에서!` wording as a versioned exception.
+- Recorded deferred terminology, runtime-context, and corrupted-placeholder
+  findings separately from confirmed wording issues.
+- Confirmed no format-tag mismatch in the newly reviewed A2M1-A3M2 batches.
+- `tests/test_translation_resources.py`: 4 tests passed.
+- `git diff --check`: passed.
+
+Verifier review and package smoke testing of the edited resources are
+complete.
+
 ## Deferred / Release Gate
 
-- Custom TTF/OTF to Halley font conversion.
-- `ui.dat` replacement unless runtime font issues appear.
+- Windows smoke test of the exact generated package remains pending because
+  this environment cannot launch the Windows game.
 - Blank, developer-only, audio-cue, and corrupted-looking internal keys until
   their runtime role is confirmed.
-- Final Windows smoke test of the exact generated pack.
 
 ## Current Artifacts
 
 - Direct Windows release pack:
-  `dist/Wargroove 2/1.2.x/20260926/config.dat`
-- Release pack SHA-256:
-  `746b17b14cb52dcbd3d9e94ca33d8400e2bae6555d564b66a40a6661a456bbc6`
-- Release pack manifest:
-  `work/docs/review/Wargroove2-1.2.x-20260926-config-manifest.json`
-- Release pack index:
-  `work/docs/review/Wargroove2-1.2.x-20260926-config-index.json`
+  `dist/Wargroove 2/1.2.x/20260927/assets/config.dat`
+- `config.dat` SHA-256:
+  `8c02540734268741a41f3c0a73c93ff948e3ac231f6672d6cb789ace1ce66be2`
+- `ui.dat` SHA-256:
+  `51f937f207f61d4ff55eb223134f338d9748b04844ebe0e3e94421ad41b47a38`
+- ZIP SHA-256:
+  `aa74be233de4e9e4e58396319a19ee7b3de5cfdb25b7bc93148132a1ead360fa`
 - Terminology review:
   `work/docs/review/batch-001-terminology.md`
 - UI review:
@@ -65,4 +80,4 @@ language names rather than translation omissions.
 - Untranslated-source review:
   `work/docs/review/batch-005-untranslated-source.md`
 - Release verification:
-  `work/docs/review/release-report-2026-09-26.md`
+  `work/docs/review/release-report-2026-09-27.md`

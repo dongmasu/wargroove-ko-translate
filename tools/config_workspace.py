@@ -90,6 +90,36 @@ def _wrap(payload: bytes, compression: str, wrapper_prefix: str = "") -> bytes:
     raise FormatError(f"unsupported workspace compression {compression!r}")
 
 
+def _validate_texture_metadata(item: dict[str, Any], payload: bytes) -> None:
+    if item["asset_type"] != "texture" or not payload.startswith(b"HLIFv01\0"):
+        return
+    if len(payload) < 24:
+        raise FormatError(f"truncated HLIF texture payload: {item['asset_name']}")
+    _, width, height, _, _, image_format, _, _, _ = struct.unpack_from(
+        "<8sHHIIBBBB", payload, 0
+    )
+    metadata = item.get("metadata") or {}
+    expected = {"width": width, "height": height}
+    accepted_formats: set[str] | None = None
+    if image_format == 0:
+        accepted_formats = {"rgba", "rgba_premultiplied"}
+    elif image_format == 1:
+        accepted_formats = {"single_channel"}
+    for key in ("width", "height"):
+        actual = metadata.get(key)
+        if actual != expected[key]:
+            raise FormatError(
+                f"texture metadata mismatch for {item['asset_name']}: "
+                f"{key}={actual!r}, payload={expected[key]!r}"
+            )
+    actual_format = metadata.get("format")
+    if accepted_formats is not None and actual_format not in accepted_formats:
+        raise FormatError(
+            f"texture metadata mismatch for {item['asset_name']}: "
+            f"format={actual_format!r}, payload={sorted(accepted_formats)!r}"
+        )
+
+
 def unpack_workspace(pack_path: Path, workspace: Path) -> dict[str, Any]:
     if workspace.exists() and any(workspace.iterdir()):
         raise FormatError(f"refusing to overwrite non-empty workspace: {workspace}")
@@ -270,6 +300,7 @@ def pack_workspace(workspace: Path, output: Path) -> dict[str, Any]:
                 raise FormatError(
                     f"binary JSON has an invalid _payloadHex: {source_path}"
                 ) from error
+            _validate_texture_metadata(item, payload)
             content = _wrap(
                 payload,
                 item["compression"],

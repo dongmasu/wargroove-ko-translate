@@ -377,7 +377,7 @@
     "trigger_action_readable_set_match_seed": "시드를 {0}(으)로 설정합니다.",
     "trigger_action_readable_set_party_member": "파티에서 {0}의 존재를 {1}로 설정합니다.",
     "trigger_action_readable_set_unit_spent": "{2}에 대해 {1}의 {0}가 수행한 턴을 설정합니다: {3}.",
-    "trigger_action_readable_set_weather": "{1}일 동안 현재 날씨를 {0}(으)로 설정합니다.",
+    "trigger_action_readable_set_weather": "{1}일 후 현재 날씨를 {0}(으)로 설정합니다.",
     "trigger_action_readable_show_objective": "현재 목표를 표시합니다.",
     "trigger_action_readable_toggle_gizmo_state": "\"{0}\"의 위치에서 모든 장치 상태를 토글.",
     "trigger_action_readable_toggle_map_flag": "맵 플래그 {0}을(를) 토글.",
