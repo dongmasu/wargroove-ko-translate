@@ -522,6 +522,18 @@ source font:          references/fonts/Noto_Serif_KR/static/NotoSerifKR-Regular.
 source family:        Google Noto Serif Korean
 ```
 
+Source and license:
+
+- Google Fonts specimen:
+  `https://fonts.google.com/noto/specimen/Noto+Serif+KR?preview.script=Kore&preview.lang=ko_Kore`
+- License: SIL Open Font License 1.1
+- Local license copy:
+  `references/fonts/Noto_Serif_KR/OFL.txt`
+- Copyright: 2012 Google Inc.
+
+The operational replacement procedure and license summary are consolidated in
+`docs/font-editing-guide.md`.
+
 The reason for replacing the asset is that the untouched WG2 `Noto Serif`
 contains only 51 Hangul syllable glyphs. The skill and groove-effect path
 uses `Sitka Text Bold Italic -> Noto Serif`; because that fallback does not

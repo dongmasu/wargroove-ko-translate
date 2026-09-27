@@ -248,6 +248,10 @@ They do not convert a Halley font into TTF/OTF or a Halley texture into PNG.
 
 ### Convert TTF/OTF to Halley font assets
 
+The complete replacement workflow, including texture metadata synchronization,
+the current Noto Serif settings, and release verification, is documented in
+[`docs/font-editing-guide.md`](../docs/font-editing-guide.md).
+
 Halley source confirms that fonts are generated from FreeType glyphs and
 stored as a serialized `font` asset plus a matching `fontTex` image. The
 project converter follows the legacy Wargroove layout:

@@ -1,14 +1,12 @@
 # TTF to Halley Font Converter Implementation Plan
 
-> **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
-
 **Goal:** Build a deterministic converter that turns a user-provided TTF/OTF and an explicit character set into Halley `font` and `fontTex` JSON assets that can be packed into Wargroove 2 `ui.dat`.
 
 **Architecture:** Keep the converter separate from `halleypk.py` and `config_workspace.py`. A FreeType adapter produces glyph metrics and grayscale bitmaps, an atlas builder places them deterministically, and versioned serializers produce Halley payloads using reference assets for unknown fields. JSON envelopes are written only to a new output directory.
 
 **Tech Stack:** Python 3.11+, `ctypes` FreeType adapter, standard-library JSON/struct/zlib/hashlib, existing Halley pack/workspace modules, unittest.
 
-**Spec:** `docs/superpowers/specs/2026-09-26-ttf-to-halley-font-design.md`
+**Spec:** `docs/specs/2026-09-26-ttf-to-halley-font-design.md`
 
 ## Global Constraints
 

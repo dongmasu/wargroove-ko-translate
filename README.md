@@ -24,8 +24,10 @@ original state and replace only `Noto Serif` with Google Noto Serif Korean.
 
 The reason is that the original `Noto Serif` contains only 51 Hangul
 syllables, which can cause missing glyphs in skill and groove-effect text.
-The conversion settings and runtime test artifact are recorded in
-[`docs/ui-dat-analysis.md`](docs/ui-dat-analysis.md).
+The complete font replacement procedure and conversion settings are recorded
+in [`docs/font-editing-guide.md`](docs/font-editing-guide.md).
+The source is Google Noto Serif Korean, licensed under SIL Open Font License
+1.1; attribution and the official links are recorded in the guide.
 
 Installation and backup instructions are documented in
 [`INSTALL.md`](INSTALL.md).

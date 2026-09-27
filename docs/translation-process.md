@@ -12,7 +12,7 @@ Windows Wargroove 2 remains the target structure and base package.
 This role model is adapted from the local
 `/Users/donghyki/wesnoth-ko-translate` project, especially its
 `PROJECT-AI.md`, `work/1.18.x/TRANSLATION-RULES.md`, and
-`docs/superpowers/specs/2026-09-25-review-edit-role-separation-design.md`.
+review/edit role-separation design.
 Wargroove replaces Wesnoth's PO/MO-specific checks with resource-key,
 payload, package, and Windows runtime checks.
 
@@ -240,8 +240,8 @@ the next batch.
   `sdf-threshold=1`, and `antialias=on`; do not use `--bitmap`.
 - The complete command, character-set source, atlas dimensions, payload
   sizes, package hash, and runtime test path are recorded in
-  `docs/ui-dat-analysis.md` under “Final Noto Serif Korean replacement
-  decision”.
+  `docs/font-editing-guide.md` and the detailed analysis in
+  `docs/ui-dat-analysis.md`.
 - Repack into new files under `work/`; never overwrite `references/`.
 - Keep a manifest of added, replaced, and unchanged resources.
 
