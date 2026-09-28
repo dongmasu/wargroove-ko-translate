@@ -96,3 +96,106 @@ ui.dat.wargroove-original     -> ui.dat
 - 게임 업데이트 후에는 `config.dat`와 `ui.dat`가 변경될 수 있으므로
   패치를 다시 적용해야 할 수 있습니다.
 - 다른 버전의 패치 파일을 섞어 사용하지 않습니다.
+
+---
+
+# Installing the Wargroove 2 Korean Patch
+
+This patch targets **Wargroove 2 for Windows**. It is not supported on the
+macOS version of the game.
+
+## 1. Download the Patch
+
+Download the ZIP file from one of the following locations:
+
+- The `Assets` section of the GitHub Release:
+  `Wargroove2-ko-translate-<version>-<date>.zip`
+- The ZIP file under
+  `dist/Wargroove 2/<version>/<date>/` in this repository
+
+The ZIP contains these two files:
+
+```text
+assets/config.dat
+assets/ui.dat
+```
+
+Both files must be replaced together. The original `Noto Serif` contains only
+51 Hangul syllables, so replacing only `config.dat` can leave Korean glyphs
+missing in skill and Groove-effect text.
+
+## 2. Open the Game Folder
+
+In Steam:
+
+1. Right-click **Wargroove 2** in your library.
+2. Select **Manage -> Browse local files**.
+3. Open the `assets/` folder in the game directory.
+
+The usual default installation path is:
+
+```text
+C:\Program Files (x86)\Steam\steamapps\common\Wargroove 2\assets\
+```
+
+## 3. Back Up the Original Files
+
+Do not delete or immediately overwrite the original files. Rename them first:
+
+```text
+config.dat -> config.dat.wargroove-original
+ui.dat     -> ui.dat.wargroove-original
+```
+
+You may also copy the files to another folder using Windows Explorer.
+
+## 4. Install the Patch Files
+
+Extract the ZIP and copy `assets/config.dat` and `assets/ui.dat` from the ZIP
+to the game's `assets/` folder.
+
+The final layout should be:
+
+```text
+Wargroove 2/
+  assets/
+    config.dat
+    ui.dat
+```
+
+Make sure that the `assets` folder is not duplicated:
+
+```text
+Wargroove 2/assets/assets/config.dat
+```
+
+## 5. Launch the Game
+
+Launch the game and select **Korean** in the language settings. If Korean
+does not appear in the language list, check the following:
+
+- You copied the ZIP's `assets/config.dat` into the game folder.
+- You did not run Steam's file-integrity verification afterward.
+- You copied the files to the correct Wargroove 2 installation folder.
+- You backed up and replaced both the original `config.dat` and `ui.dat`.
+
+## Restoring the Original Files
+
+To remove the patch, restore the backup files instead of deleting the patch
+files:
+
+```text
+config.dat.wargroove-original -> config.dat
+ui.dat.wargroove-original     -> ui.dat
+```
+
+If you do not have backups, use Steam's **Verify integrity of game files**
+option to restore the original files. To apply the Korean patch again,
+extract the ZIP and copy both files again.
+
+## Notes
+
+- Always back up the original files before installing the patch.
+- After a game update, `config.dat` and `ui.dat` may change, so the patch may
+  need to be installed again.
+- Do not mix patch files from different versions.
